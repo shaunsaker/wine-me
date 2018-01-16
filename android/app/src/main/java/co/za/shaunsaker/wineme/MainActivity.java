@@ -1,4 +1,4 @@
-package com.wineme;
+package co.za.shaunsaker.wineme;
 
 import com.facebook.react.ReactActivity;
 
