@@ -1,2 +1,3 @@
 TODOS
     iOS Change package name
+    iOS Setup dependencies
