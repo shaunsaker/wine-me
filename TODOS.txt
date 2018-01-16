@@ -1,3 +1,4 @@
 TODOS
     iOS Change package name
     iOS Setup dependencies
+    iOS Add Firebase app
