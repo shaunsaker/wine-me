@@ -36,7 +36,7 @@ export default class PlaceList extends React.Component {
     render() {
         return (
             <FlatList
-                keyExtractor={item => item.uid}
+                keyExtractor={item => item.id}
                 data={this.props.data}
                 renderItem={this.renderItem}
                 style={styles.wrapper}

@@ -33,7 +33,7 @@ export default class PlaceCard extends React.Component {
                       this.props.place.location,
                   ),
               )
-            : "";
+            : "-";
 
         return (
             <View style={styles.wrapper}>

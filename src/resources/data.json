@@ -8,6 +8,14 @@
                     "lat": -34.0988621,
                     "lng": 18.8895607
                 }
+            },
+            "12345679": {
+                "name": "Yonderhill Wine Estate",
+                "photoURL": null,
+                "location": {
+                    "lat": -34.097,
+                    "lng": 18.87
+                }
             }
         },
         "featuredPlaces": ["12345678"]

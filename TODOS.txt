@@ -1,4 +1,9 @@
 TODOS
+    Search
+    Profile
+    What happens when we press a PlaceCard
+    Find places logic
+    PlaceCard/Placeholder image
     iOS 
         Change package name
         Setup dependencies
@@ -6,6 +11,8 @@ TODOS
         Add Firebase app
         Custm fonts
 
+ENHANCEMENTS
+    Close To Me places calculation will be expensive (need to do this once somewhere)
+
 TESTING
     Home/AnimateScale value
-    PlaceCard/Placeholder image

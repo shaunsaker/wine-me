@@ -1,5 +1,5 @@
 import React from "react";
-import { View, Text, StyleSheet } from "react-native";
+import { View, Text, StyleSheet, ActivityIndicator } from "react-native";
 import PropTypes from "prop-types";
 import { Actions } from "react-native-router-flux";
 import { connect } from "react-redux";
@@ -64,6 +64,7 @@ export class Home extends React.Component {
         return {
             userLocation: PropTypes.object,
             places: PropTypes.object,
+            featuredPlaces: PropTypes.array,
         };
     }
 
@@ -131,6 +132,60 @@ export class Home extends React.Component {
             <FindPlaceModal handleClose={() => this.togglePlaceModal(true)} />
         );
 
+        let placesComponent;
+        let places = [];
+
+        if (this.props.places) {
+            if (this.state.activeSecondaryTab === "Featured") {
+                // Featured places
+                this.props.featuredPlaces.map(placeID => {
+                    places.push({
+                        ...this.props.places[placeID],
+                        id: placeID,
+                    });
+                });
+            } else {
+                // Places close to me
+                places = utilities.convertDictionaryToArray(
+                    this.props.places,
+                    true,
+                );
+
+                places.map(place => {
+                    const relativeDistance = Math.round(
+                        utilities.getDistanceBetweenCoordinateSets(
+                            this.props.userLocation,
+                            place.location,
+                        ),
+                    );
+
+                    place["relativeDistance"] = relativeDistance;
+                });
+
+                places = utilities.sortArrayOfObjectsByKey(
+                    places,
+                    "relativeDistance",
+                );
+            }
+            placesComponent = (
+                <PlaceList
+                    data={places}
+                    userLocation={this.props.userLocation}
+                    handlePress={null}
+                />
+            );
+        } else {
+            // Loading state
+            placesComponent = (
+                <View style={styles.loaderContainer}>
+                    <ActivityIndicator
+                        size="large"
+                        color={styleConstants.primary}
+                    />
+                </View>
+            );
+        }
+
         return (
             <Page>
                 <LinearGradient
@@ -164,11 +219,7 @@ export class Home extends React.Component {
                         textStyle={styles.secondaryTabBarText}
                     />
                 </LinearGradient>
-                <PlaceList
-                    data={null}
-                    userLocation={this.props.userLocation}
-                    handlePress={null}
-                />
+                {placesComponent}
                 <TabBar
                     textColor={styleConstants.secondaryText}
                     activeTextColor={styleConstants.primary}
@@ -195,6 +246,8 @@ function mapStateToProps(state) {
     return {
         userLocation: state.main.appState.userLocation,
         places: state.main.appData.app && state.main.appData.app.places,
+        featuredPlaces:
+            state.main.appData.app && state.main.appData.app.featuredPlaces,
     };
 }
 
@@ -267,6 +320,10 @@ const styles = StyleSheet.create({
     secondaryTabBarText: {
         ...styleConstants.primaryFont,
         fontSize: styleConstants.smallFont,
+    },
+    loaderContainer: {
+        flex: 1,
+        justifyContent: "center",
     },
 });
 
