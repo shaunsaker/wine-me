@@ -5,3 +5,7 @@ TODOS
             + react-native-linear-gradient
         Add Firebase app
         Custm fonts
+
+TESTING
+    Home/AnimateScale value
+    PlaceCard/Placeholder image
