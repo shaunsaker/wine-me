@@ -24,15 +24,6 @@ import { setData } from "./cloudData";
 import { pushData } from "./cloudData";
 import { deleteData } from "./cloudData";
 
-// Images
-import { handleImage } from "./images";
-
-// File System
-import { deleteFile } from "./fileSystem";
-
-// HTTP
-import { get } from "./http";
-
 export function* sagas() {
     yield all([
         // User auth
@@ -72,13 +63,5 @@ export function* sagas() {
         fork(takeEvery, "setData", setData),
         fork(takeEvery, "pushData", pushData),
         fork(takeEvery, "deleteData", deleteData),
-        // Images
-        fork(takeLatest, "handleImage", handleImage),
-
-        // File System
-        fork(takeEvery, "deleteFile", deleteFile),
-
-        // HTTP
-        fork(takeLatest, "get", get),
     ]);
 }
