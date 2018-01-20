@@ -1,0 +1,15 @@
+{
+    "app": {
+        "places": {
+            "12345678": {
+                "name": "Waterkloof Wine Estate",
+                "photoURL": null,
+                "location": {
+                    "lat": -34.0988621,
+                    "lng": 18.8895607
+                }
+            }
+        },
+        "featuredPlaces": ["12345678"]
+    }
+}

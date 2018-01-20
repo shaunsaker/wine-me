@@ -63,6 +63,7 @@ export class Home extends React.Component {
     static get propTypes() {
         return {
             userLocation: PropTypes.object,
+            places: PropTypes.object,
         };
     }
 
@@ -193,6 +194,7 @@ export class Home extends React.Component {
 function mapStateToProps(state) {
     return {
         userLocation: state.main.appState.userLocation,
+        places: state.main.appData.app && state.main.appData.app.places,
     };
 }
 
