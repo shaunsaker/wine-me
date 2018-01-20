@@ -1,4 +1,7 @@
 TODOS
-    iOS Change package name
-    iOS Setup dependencies
-    iOS Add Firebase app
+    iOS 
+        Change package name
+        Setup dependencies
+            + react-native-linear-gradient
+        Add Firebase app
+        Custm fonts
