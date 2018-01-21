@@ -170,7 +170,7 @@ export class Home extends React.Component {
 
             // Mark as visited
             this.props.dispatch({
-                type: isVisited || isVisited === 0 ? "setData" : "updateData",
+                type: "setData",
                 node: "users/" + this.props.uid + "/visited",
                 data,
                 nextAction: {
@@ -218,7 +218,7 @@ export class Home extends React.Component {
     render() {
         const findPlaceButton = !this.state.animateFindPlaceModal ? (
             <ButtonIcon
-                iconName="add"
+                iconName="local-drink"
                 iconStyle={styles.findPlaceButtonIcon}
                 style={styles.findPlaceButton}
                 handlePress={this.showFindPlaceModal}

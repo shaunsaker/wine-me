@@ -1,5 +1,4 @@
 BUGS
-    Home/Mark 2nd farm as visited
 
 TODOS
     Find places logic

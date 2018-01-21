@@ -24,7 +24,8 @@ export default class FindPlaceModal extends React.Component {
             <Modal
                 handleClose={this.props.handleClose}
                 style={styles.modalContainer}
-                closeIconStyle={styles.closeIcon}>
+                closeIconStyle={styles.closeIcon}
+                showCloseIcon>
                 <View style={styles.modalBodyContainer}>
                     <View style={styles.textContainer}>
                         <Text style={styles.text}>Finding the next</Text>
