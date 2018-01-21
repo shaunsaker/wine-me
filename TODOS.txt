@@ -1,10 +1,9 @@
 BUGS
 
 TODOS
-    Close To Me places calculation will be expensive (need to do this once on load)
-        Could also check if isVisited here (this calculation is done multiple times)
-    PlaceCard/Placeholder image
     Search
+        ActionSheet as component?
+        Blank state
     Profile
     iOS 
         Change package name
@@ -13,8 +12,15 @@ TODOS
         Add Firebase app
         Custom fonts
         ActionSheetIOS
+    Assets
+        PlaceCard/Placeholder image
+        Splash screens
+        App icons
+        WineMe icon
 
 ENHANCEMENTS
+    Close To Me places calculation will be expensive (need to do this once on load)
+        Could also check if isVisited here (this calculation is done multiple times)
 
 TESTING
     Home/AnimateScale value on tablets

@@ -178,7 +178,6 @@ export class Home extends React.Component {
     }
 
     linkToLocation(location) {
-        console.log(location);
         let link;
 
         // Create the appropriate link
@@ -343,7 +342,9 @@ export class Home extends React.Component {
                                 : styleConstants.primary
                         }
                     />
-                    <Touchable onPress={null} style={styles.searchBar}>
+                    <Touchable
+                        onPress={() => Actions.search()}
+                        style={styles.searchBar}>
                         <Icon name="search" style={styles.searchBarIcon} />
                         <Text style={styles.searchBarText}>
                             Search Wine Farms
@@ -406,11 +407,13 @@ const styles = StyleSheet.create({
     },
     searchBar: {
         marginTop: 12,
+        marginBottom: 8,
         marginHorizontal: 16,
         flexDirection: "row",
         alignItems: "center",
         backgroundColor: styleConstants.transBlack,
         paddingVertical: 12,
+        height: 52,
         paddingHorizontal: 16,
         borderRadius: 8,
     },
@@ -421,7 +424,7 @@ const styles = StyleSheet.create({
     },
     searchBarText: {
         fontSize: styleConstants.regularFont,
-        color: styleConstants.white,
+        color: styleConstants.transWhite,
         ...styleConstants.primaryFont,
     },
     bodyWrapper: {
