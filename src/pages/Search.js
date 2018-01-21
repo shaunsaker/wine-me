@@ -17,7 +17,6 @@ import {
 } from "react-native-simple-components";
 import LinearGradient from "react-native-linear-gradient";
 import PlaceList from "../lists/PlaceList";
-import SnackBar from "../widgets/SnackBar";
 
 export class Search extends React.Component {
     constructor(props) {
@@ -238,7 +237,6 @@ export class Search extends React.Component {
                     userPlaces={this.props.userPlaces}
                 />
                 {actionSheet}
-                <SnackBar />
             </Page>
         );
     }

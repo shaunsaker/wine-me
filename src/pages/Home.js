@@ -28,7 +28,6 @@ import Icon from "react-native-vector-icons/MaterialIcons";
 import { AnimateScale } from "react-native-simple-animators";
 import FindPlaceModal from "../modals/FindPlaceModal";
 import PlaceList from "../lists/PlaceList";
-import SnackBar from "../widgets/SnackBar";
 
 export class Home extends React.Component {
     constructor(props) {
@@ -379,7 +378,6 @@ export class Home extends React.Component {
                     {findPlaceButton}
                 </View>
                 {findPlaceModal}
-                <SnackBar />
                 {actionSheet}
             </Page>
         );

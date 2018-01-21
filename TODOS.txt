@@ -1,8 +1,8 @@
 BUGS
 
 TODOS
+    ActionSheet as component?
     Search
-        ActionSheet as component?
         Blank state
     Profile
     iOS 
