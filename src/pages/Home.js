@@ -6,6 +6,7 @@ import {
     ActivityIndicator,
     Platform,
     Linking,
+    StatusBar,
 } from "react-native";
 import PropTypes from "prop-types";
 import { Actions } from "react-native-router-flux";
@@ -17,12 +18,13 @@ import styleConstants from "../assets/styleConstants";
 
 import {
     Page,
-    HeaderBar,
+    Touchable,
     TabBar,
     ButtonIcon,
     ActionSheet,
 } from "react-native-simple-components";
 import LinearGradient from "react-native-linear-gradient";
+import Icon from "react-native-vector-icons/MaterialIcons";
 import { AnimateScale } from "react-native-simple-animators";
 import FindPlaceModal from "../modals/FindPlaceModal";
 import PlaceList from "../lists/PlaceList";
@@ -332,19 +334,19 @@ export class Home extends React.Component {
                         styleConstants.darkPrimary,
                     ]}
                     style={styles.headerContainer}>
-                    <HeaderBar
-                        statusBarColor={
+                    <StatusBar
+                        backgroundColor={
                             this.state.animateFindPlaceModal
                                 ? styleConstants.lightSecondary
                                 : styleConstants.primary
                         }
-                        text="HOME"
-                        rightIconName="search"
-                        handleRightIconPress={null}
-                        textStyle={styles.headerText}
-                        rightIconStyle={styles.headerIcon}
-                        style={styles.header}
                     />
+                    <Touchable onPress={null} style={styles.searchBar}>
+                        <Icon name="search" style={styles.searchBarIcon} />
+                        <Text style={styles.searchBarText}>
+                            Search Wine Farms
+                        </Text>
+                    </Touchable>
                     <TabBar
                         backgroundColor="transparent"
                         textColor={styleConstants.transWhite}
@@ -400,17 +402,25 @@ const styles = StyleSheet.create({
         alignSelf: "stretch",
         ...styleConstants.largeShadow,
     },
-    header: {
-        backgroundColor: "transparent",
+    searchBar: {
+        marginTop: 12,
+        marginHorizontal: 16,
+        flexDirection: "row",
+        alignItems: "center",
+        backgroundColor: styleConstants.transBlack,
+        paddingVertical: 12,
+        paddingHorizontal: 16,
+        borderRadius: 8,
     },
-    headerText: {
+    searchBarIcon: {
+        fontSize: styleConstants.iconFont,
+        color: styleConstants.white,
+        marginRight: 8,
+    },
+    searchBarText: {
         fontSize: styleConstants.regularFont,
         color: styleConstants.white,
         ...styleConstants.primaryFont,
-    },
-    headerIcon: {
-        fontSize: styleConstants.iconFont,
-        color: styleConstants.white,
     },
     bodyWrapper: {
         flex: 1,

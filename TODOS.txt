@@ -1,5 +1,7 @@
+BUGS
+    Home/Mark 2nd farm as visited
+
 TODOS
-    Home/No Home text, just search bar button
     Find places logic
     PlaceCard/Placeholder image
     Search
