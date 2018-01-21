@@ -90,6 +90,17 @@ export default function(state = initialState, action) {
             new_state.appState.refreshing = false;
             return new_state;
 
+        case "SET_USER_DATA":
+            new_state = utilities.cloneObject(state);
+            // Calculate end node
+            const uid = action.node.split("/")[1]; // ASSUMPTION: users/UID/END_NODE
+            const endNode = action.node.split("/")[2];
+            if (!new_state.appData.users) {
+                new_state.appData.users = {};
+            }
+            new_state.appData.users[uid] = action.data;
+            return new_state;
+
         default:
             return state;
     }

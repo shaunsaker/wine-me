@@ -2,6 +2,7 @@ import React from "react";
 import { View, FlatList, StyleSheet } from "react-native";
 import PropTypes from "prop-types";
 
+import utilities from "../utilities";
 import styleConstants from "../assets/styleConstants";
 
 import PlaceCard from "../components/PlaceCard";
@@ -18,17 +19,21 @@ export default class PlaceList extends React.Component {
             data: PropTypes.array,
             userLocation: PropTypes.object,
             handlePress: PropTypes.func,
-            handleLongPress: PropTypes.func,
+            userPlaces: PropTypes.array,
         };
     }
 
     renderItem = ({ item, index }) => {
+        const isVisited =
+            this.props.userPlaces &&
+            utilities.isValueInArray(item.id, this.props.userPlaces);
+
         return (
             <PlaceCard
                 place={item}
                 userLocation={this.props.userLocation}
-                handlePress={null}
-                handleLongPress={null}
+                handlePress={() => this.props.handlePress(item)}
+                isVisited={isVisited}
             />
         );
     };

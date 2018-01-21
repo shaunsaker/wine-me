@@ -1,5 +1,12 @@
 import React from "react";
-import { View, Text, StyleSheet, ActivityIndicator } from "react-native";
+import {
+    View,
+    Text,
+    StyleSheet,
+    ActivityIndicator,
+    Platform,
+    Linking,
+} from "react-native";
 import PropTypes from "prop-types";
 import { Actions } from "react-native-router-flux";
 import { connect } from "react-redux";
@@ -13,6 +20,7 @@ import {
     HeaderBar,
     TabBar,
     ButtonIcon,
+    ActionSheet,
 } from "react-native-simple-components";
 import LinearGradient from "react-native-linear-gradient";
 import { AnimateScale } from "react-native-simple-animators";
@@ -29,6 +37,9 @@ export class Home extends React.Component {
         this.navigate = this.navigate.bind(this);
         this.showFindPlaceModal = this.showFindPlaceModal.bind(this);
         this.togglePlaceModal = this.togglePlaceModal.bind(this);
+        this.toggleActionSheet = this.toggleActionSheet.bind(this);
+        this.selectActionSheetItem = this.selectActionSheetItem.bind(this);
+        this.handleLink = this.handleLink.bind(this);
 
         this.primaryTabs = [
             {
@@ -57,6 +68,7 @@ export class Home extends React.Component {
             activeSecondaryTab: "Featured",
             animateFindPlaceModal: false,
             showFindPlaceModal: false,
+            showActionSheetForPlace: false,
         };
     }
 
@@ -65,6 +77,8 @@ export class Home extends React.Component {
             userLocation: PropTypes.object,
             places: PropTypes.object,
             featuredPlaces: PropTypes.array,
+            uid: PropTypes.string,
+            userPlaces: PropTypes.array,
         };
     }
 
@@ -106,6 +120,97 @@ export class Home extends React.Component {
             showFindPlaceModal: !this.state.showFindPlaceModal,
             animateFindPlaceModal: close ? false : true,
         });
+    }
+
+    toggleActionSheet(place) {
+        this.setState({
+            showActionSheetForPlace: place,
+        });
+    }
+
+    selectActionSheetItem(item) {
+        if (item === "Cancel") {
+            this.toggleActionSheet();
+        } else if (item === "Go here" || item === "Visit again") {
+            let link;
+
+            if (Platform.OS === "android") {
+                link =
+                    "geo:" +
+                    this.state.showActionSheetForPlace.location.lat +
+                    "," +
+                    this.state.showActionSheetForPlace.location.lng;
+            } else {
+                link = `http://maps.apple.com/?ll=${
+                    this.state.showActionSheetForPlacelocation.lat
+                },${this.state.showActionSheetForPlacelocation.lng}`;
+            }
+
+            // Clear place from state
+            this.toggleActionSheet();
+
+            this.handleLink(link);
+        } else {
+            let data = this.props.userPlaces ? this.props.userPlaces : [];
+
+            // Check if the user has already been here
+            const isVisited = utilities.isValueInArray(
+                this.state.showActionSheetForPlace.id,
+                data,
+                true,
+            );
+
+            if (isVisited || isVisited === 0) {
+                data.splice(isVisited, 1);
+            } else {
+                data.push(this.state.showActionSheetForPlace.id);
+            }
+
+            // Mark as visited
+            this.props.dispatch({
+                type: isVisited || isVisited === 0 ? "setData" : "updateData",
+                node: "users/" + this.props.uid + "/visited",
+                data,
+                nextAction: {
+                    type: "SET_ERROR",
+                    errorType: "CLOUD_DATA",
+                    message:
+                        this.state.showActionSheetForPlace.name +
+                        " has been marked as " +
+                        (isVisited || isVisited === 0
+                            ? "not visited"
+                            : "visited"),
+                    autoHide: true,
+                },
+            });
+
+            // Clear place from state
+            this.toggleActionSheet();
+        }
+    }
+
+    handleLink(link) {
+        Linking.canOpenURL(link)
+            .then(supported => {
+                if (!supported) {
+                    this.props.dispatch({
+                        type: "SET_ERROR",
+                        errorType: "LINKING",
+                        message: "This link is not supported on your device.",
+                        iconName: "error-outline",
+                    });
+                } else {
+                    return Linking.openURL(link);
+                }
+            })
+            .catch(() => {
+                this.props.dispatch({
+                    type: "SET_ERROR",
+                    errorType: "LINKING",
+                    message: "This link is not supported on your device.",
+                    iconName: "error-outline",
+                });
+            });
     }
 
     render() {
@@ -171,7 +276,8 @@ export class Home extends React.Component {
                 <PlaceList
                     data={places}
                     userLocation={this.props.userLocation}
-                    handlePress={null}
+                    handlePress={this.toggleActionSheet}
+                    userPlaces={this.props.userPlaces}
                 />
             );
         } else {
@@ -183,6 +289,38 @@ export class Home extends React.Component {
                         color={styleConstants.primary}
                     />
                 </View>
+            );
+        }
+
+        let actionSheet;
+
+        if (this.state.showActionSheetForPlace) {
+            const isVisited =
+                this.props.userPlaces &&
+                utilities.isValueInArray(
+                    this.state.showActionSheetForPlace.id,
+                    this.props.userPlaces,
+                );
+
+            actionSheet = (
+                <ActionSheet
+                    options={[
+                        {
+                            text: isVisited ? "Visit again" : "Go here",
+                            iconName: "location-on",
+                        },
+                        {
+                            text:
+                                "Mark as " +
+                                (isVisited ? "not visited" : "visited"),
+                            iconName: isVisited
+                                ? "indeterminate-check-box"
+                                : "check-box",
+                        },
+                    ]}
+                    handlePress={this.selectActionSheetItem}
+                    textStyle={styles.actionSheetText}
+                />
             );
         }
 
@@ -237,6 +375,7 @@ export class Home extends React.Component {
                 </View>
                 {findPlaceModal}
                 <SnackBar />
+                {actionSheet}
             </Page>
         );
     }
@@ -248,6 +387,11 @@ function mapStateToProps(state) {
         places: state.main.appData.app && state.main.appData.app.places,
         featuredPlaces:
             state.main.appData.app && state.main.appData.app.featuredPlaces,
+        uid: state.main.userAuth.uid,
+        userPlaces:
+            state.main.appData.users &&
+            state.main.appData.users[state.main.userAuth.uid] &&
+            state.main.appData.users[state.main.userAuth.uid].visited,
     };
 }
 
@@ -324,6 +468,10 @@ const styles = StyleSheet.create({
     loaderContainer: {
         flex: 1,
         justifyContent: "center",
+    },
+    actionSheetText: {
+        fontSize: styleConstants.regularFont,
+        ...styleConstants.primaryFont,
     },
 });
 

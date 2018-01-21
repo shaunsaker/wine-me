@@ -10,11 +10,12 @@ export function* getData(action) {
 
     if (getDataResponse) {
         if (getDataResponse.success) {
-            yield put({
-                type: action.nextActionType,
-                data: getDataResponse.message,
-                id: action.id,
-            });
+            if (action.nextAction) {
+                yield put({
+                    ...action.nextAction,
+                    data: getDataResponse.message,
+                });
+            }
         } else {
             // We must have an error
             yield put({
@@ -44,11 +45,10 @@ export function* updateData(action) {
 
     if (updateDataResponse) {
         if (updateDataResponse.success) {
-            if (action.nextActionType) {
+            if (action.nextAction) {
                 yield put({
-                    type: action.nextActionType,
-                    node: action.node,
-                    data: action.data,
+                    ...action.nextAction,
+                    data: updateDataResponse.message,
                 });
             }
         } else {
@@ -80,11 +80,10 @@ export function* setData(action) {
 
     if (setDataResponse) {
         if (setDataResponse.success) {
-            if (action.nextActionType) {
+            if (action.nextAction) {
                 yield put({
-                    type: action.nextActionType,
-                    node: action.node,
-                    data: action.data,
+                    ...action.nextAction,
+                    data: setDataResponse.message,
                 });
             }
         } else {

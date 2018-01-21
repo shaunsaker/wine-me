@@ -1,18 +1,21 @@
 TODOS
-    Search
-    Profile
-    What happens when we press a PlaceCard
+    Home/No Home text, just search bar button
     Find places logic
     PlaceCard/Placeholder image
+    Search
+    Profile
     iOS 
         Change package name
         Setup dependencies
             + react-native-linear-gradient
         Add Firebase app
-        Custm fonts
+        Custom fonts
+        ActionSheetIOS
 
 ENHANCEMENTS
-    Close To Me places calculation will be expensive (need to do this once somewhere)
+    Close To Me places calculation will be expensive (need to do this once on load)
+        Could also check if isVisited here (this calculation is done multiple times)
 
 TESTING
-    Home/AnimateScale value
+    Home/AnimateScale value on tablets
+    PlaceCard/Icons may need gradient

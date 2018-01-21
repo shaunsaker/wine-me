@@ -5,7 +5,12 @@ import PropTypes from "prop-types";
 import utilities from "../utilities";
 import styleConstants from "../assets/styleConstants";
 
-import { Touchable, Label } from "react-native-simple-components";
+import {
+    Touchable,
+    Label,
+    TouchableIcon,
+} from "react-native-simple-components";
+import Icon from "react-native-vector-icons/MaterialIcons";
 
 export default class PlaceCard extends React.Component {
     constructor(props) {
@@ -17,7 +22,7 @@ export default class PlaceCard extends React.Component {
             place: PropTypes.object,
             userLocation: PropTypes.object,
             handlePress: PropTypes.func,
-            handleLongPress: PropTypes.func,
+            isVisited: PropTypes.bool,
         };
     }
 
@@ -35,11 +40,16 @@ export default class PlaceCard extends React.Component {
               )
             : "-";
 
+        const isVisitedIcon = this.props.isVisited && (
+            <View style={styles.isVisitedIconContainer}>
+                <Icon name="check-circle" style={styles.isVisitedIcon} />
+            </View>
+        );
+
         return (
             <View style={styles.wrapper}>
                 <Touchable
                     onPress={this.props.handlePress}
-                    onLongPress={this.props.handleLongPress}
                     disableFeedback
                     style={styles.container}>
                     <View style={styles.backgroundImageContainer}>
@@ -66,6 +76,14 @@ export default class PlaceCard extends React.Component {
                             />
                         </View>
                     </View>
+                    <View style={styles.menuIconContainer}>
+                        <TouchableIcon
+                            iconName="more-vert"
+                            iconStyle={styles.menuIcon}
+                            handlePress={this.props.handlePress}
+                        />
+                    </View>
+                    {isVisitedIcon}
                 </Touchable>
             </View>
         );
@@ -128,5 +146,25 @@ const styles = StyleSheet.create({
         ...styleConstants.primaryFont,
         fontSize: styleConstants.smallFont,
         color: styleConstants.white,
+    },
+    menuIconContainer: {
+        position: "absolute",
+        top: 0,
+        right: 0,
+    },
+    menuIcon: {
+        fontSize: styleConstants.iconFont,
+        color: styleConstants.white,
+        padding: 16,
+    },
+    isVisitedIconContainer: {
+        position: "absolute",
+        top: 0,
+        left: 0,
+    },
+    isVisitedIcon: {
+        fontSize: styleConstants.iconFont,
+        color: styleConstants.white,
+        padding: 16,
     },
 });
