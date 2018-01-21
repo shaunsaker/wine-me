@@ -1,7 +1,8 @@
 BUGS
 
 TODOS
-    Find places logic
+    Close To Me places calculation will be expensive (need to do this once on load)
+        Could also check if isVisited here (this calculation is done multiple times)
     PlaceCard/Placeholder image
     Search
     Profile
@@ -14,8 +15,6 @@ TODOS
         ActionSheetIOS
 
 ENHANCEMENTS
-    Close To Me places calculation will be expensive (need to do this once on load)
-        Could also check if isVisited here (this calculation is done multiple times)
 
 TESTING
     Home/AnimateScale value on tablets

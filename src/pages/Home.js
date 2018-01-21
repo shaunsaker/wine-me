@@ -41,7 +41,7 @@ export class Home extends React.Component {
         this.togglePlaceModal = this.togglePlaceModal.bind(this);
         this.toggleActionSheet = this.toggleActionSheet.bind(this);
         this.selectActionSheetItem = this.selectActionSheetItem.bind(this);
-        this.handleLink = this.handleLink.bind(this);
+        this.linkToLocation = this.linkToLocation.bind(this);
 
         this.primaryTabs = [
             {
@@ -134,24 +134,10 @@ export class Home extends React.Component {
         if (item === "Cancel") {
             this.toggleActionSheet();
         } else if (item === "Go here" || item === "Visit again") {
-            let link;
-
-            if (Platform.OS === "android") {
-                link =
-                    "geo:" +
-                    this.state.showActionSheetForPlace.location.lat +
-                    "," +
-                    this.state.showActionSheetForPlace.location.lng;
-            } else {
-                link = `http://maps.apple.com/?ll=${
-                    this.state.showActionSheetForPlacelocation.lat
-                },${this.state.showActionSheetForPlacelocation.lng}`;
-            }
+            this.linkToLocation(this.state.showActionSheetForPlace.location);
 
             // Clear place from state
             this.toggleActionSheet();
-
-            this.handleLink(link);
         } else {
             let data = this.props.userPlaces ? this.props.userPlaces : [];
 
@@ -191,7 +177,17 @@ export class Home extends React.Component {
         }
     }
 
-    handleLink(link) {
+    linkToLocation(location) {
+        console.log(location);
+        let link;
+
+        // Create the appropriate link
+        if (Platform.OS === "android") {
+            link = "geo:" + location.lat + "," + location.lng;
+        } else {
+            link = `http://maps.apple.com/?ll=${location.lat},${location.lng}`;
+        }
+
         Linking.canOpenURL(link)
             .then(supported => {
                 if (!supported) {
@@ -236,7 +232,13 @@ export class Home extends React.Component {
         );
 
         const findPlaceModal = this.state.showFindPlaceModal && (
-            <FindPlaceModal handleClose={() => this.togglePlaceModal(true)} />
+            <FindPlaceModal
+                handleClose={() => this.togglePlaceModal(true)}
+                places={this.props.places}
+                userLocation={this.props.userLocation}
+                userPlaces={this.props.userPlaces}
+                handleButtonPress={this.linkToLocation}
+            />
         );
 
         let placesComponent;
@@ -337,7 +339,7 @@ export class Home extends React.Component {
                     <StatusBar
                         backgroundColor={
                             this.state.animateFindPlaceModal
-                                ? styleConstants.lightSecondary
+                                ? styleConstants.secondary
                                 : styleConstants.primary
                         }
                     />
@@ -439,10 +441,10 @@ const styles = StyleSheet.create({
         width: 56,
         height: 56,
         borderRadius: 28,
-        backgroundColor: styleConstants.lightSecondary,
+        backgroundColor: styleConstants.secondary,
     },
     findPlaceButton: {
-        backgroundColor: styleConstants.lightSecondary,
+        backgroundColor: styleConstants.secondary,
     },
     findPlaceButtonIcon: {
         fontSize: styleConstants.iconFont,

@@ -40,6 +40,16 @@ export default class PlaceCard extends React.Component {
               )
             : "-";
 
+        const menuIcon = this.props.handlePress && (
+            <View style={styles.menuIconContainer}>
+                <TouchableIcon
+                    iconName="more-vert"
+                    iconStyle={styles.menuIcon}
+                    handlePress={this.props.handlePress}
+                />
+            </View>
+        );
+
         const isVisitedIcon = this.props.isVisited && (
             <View style={styles.isVisitedIconContainer}>
                 <Icon name="check-circle" style={styles.isVisitedIcon} />
@@ -76,13 +86,7 @@ export default class PlaceCard extends React.Component {
                             />
                         </View>
                     </View>
-                    <View style={styles.menuIconContainer}>
-                        <TouchableIcon
-                            iconName="more-vert"
-                            iconStyle={styles.menuIcon}
-                            handlePress={this.props.handlePress}
-                        />
-                    </View>
+                    {menuIcon}
                     {isVisitedIcon}
                 </Touchable>
             </View>
@@ -94,6 +98,7 @@ const styles = StyleSheet.create({
     wrapper: {
         padding: 16,
         paddingTop: 0,
+        alignSelf: "stretch",
     },
     container: {
         alignSelf: "stretch",
