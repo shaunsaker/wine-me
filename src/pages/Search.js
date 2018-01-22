@@ -49,9 +49,11 @@ export class Search extends React.Component {
             );
 
             places = places.filter(place => {
-                if (place.name.indexOf(searchValue) > -1) {
-                    return place;
-                }
+                return (
+                    place.name
+                        .toLowerCase()
+                        .indexOf(searchValue.toLowerCase()) > -1
+                );
             });
 
             places = places.map(place => {
