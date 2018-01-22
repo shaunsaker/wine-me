@@ -4,8 +4,6 @@ import {
     Text,
     StyleSheet,
     ActivityIndicator,
-    Platform,
-    Linking,
     StatusBar,
 } from "react-native";
 import PropTypes from "prop-types";
@@ -21,7 +19,6 @@ import {
     Touchable,
     TabBar,
     ButtonIcon,
-    ActionSheet,
 } from "react-native-simple-components";
 import LinearGradient from "react-native-linear-gradient";
 import Icon from "react-native-vector-icons/MaterialIcons";
@@ -38,9 +35,7 @@ export class Home extends React.Component {
         this.navigate = this.navigate.bind(this);
         this.showFindPlaceModal = this.showFindPlaceModal.bind(this);
         this.togglePlaceModal = this.togglePlaceModal.bind(this);
-        this.toggleActionSheet = this.toggleActionSheet.bind(this);
-        this.selectActionSheetItem = this.selectActionSheetItem.bind(this);
-        this.linkToLocation = this.linkToLocation.bind(this);
+        this.showActionSheet = this.showActionSheet.bind(this);
 
         this.primaryTabs = [
             {
@@ -69,7 +64,6 @@ export class Home extends React.Component {
             activeSecondaryTab: "Featured",
             animateFindPlaceModal: false,
             showFindPlaceModal: false,
-            showActionSheetForPlace: false,
         };
     }
 
@@ -123,90 +117,11 @@ export class Home extends React.Component {
         });
     }
 
-    toggleActionSheet(place) {
-        this.setState({
-            showActionSheetForPlace: place,
+    showActionSheet(place) {
+        this.props.dispatch({
+            type: "TOGGLE_ACTION_SHEET",
+            place,
         });
-    }
-
-    selectActionSheetItem(item) {
-        if (item === "Cancel") {
-            this.toggleActionSheet();
-        } else if (item === "Go here" || item === "Visit again") {
-            this.linkToLocation(this.state.showActionSheetForPlace.location);
-
-            // Clear place from state
-            this.toggleActionSheet();
-        } else {
-            let data = this.props.userPlaces ? this.props.userPlaces : [];
-
-            // Check if the user has already been here
-            const isVisited = utilities.isValueInArray(
-                this.state.showActionSheetForPlace.id,
-                data,
-                true,
-            );
-
-            if (isVisited || isVisited === 0) {
-                data.splice(isVisited, 1);
-            } else {
-                data.push(this.state.showActionSheetForPlace.id);
-            }
-
-            // Mark as visited
-            this.props.dispatch({
-                type: "setData",
-                node: "users/" + this.props.uid + "/visited",
-                data,
-                nextAction: {
-                    type: "SET_ERROR",
-                    errorType: "CLOUD_DATA",
-                    message:
-                        this.state.showActionSheetForPlace.name +
-                        " has been marked as " +
-                        (isVisited || isVisited === 0
-                            ? "not visited"
-                            : "visited"),
-                    autoHide: true,
-                },
-            });
-
-            // Clear place from state
-            this.toggleActionSheet();
-        }
-    }
-
-    linkToLocation(location) {
-        let link;
-
-        // Create the appropriate link
-        if (Platform.OS === "android") {
-            link = "geo:" + location.lat + "," + location.lng;
-        } else {
-            link = `http://maps.apple.com/?ll=${location.lat},${location.lng}`;
-        }
-
-        Linking.canOpenURL(link)
-            .then(supported => {
-                if (!supported) {
-                    this.props.dispatch({
-                        type: "SET_ERROR",
-                        errorType: "LINKING",
-                        message: "This link is not supported on your device.",
-                        iconName: "error-outline",
-                    });
-                } else {
-                    return Linking.openURL(link);
-                }
-            })
-            .catch(() => {
-                this.props.dispatch({
-                    type: "SET_ERROR",
-                    errorType: "LINKING",
-                    message: "This link is not supported on your device.",
-                    iconName: "error-outline",
-                });
-            });
     }
 
     render() {
@@ -278,7 +193,7 @@ export class Home extends React.Component {
                 <PlaceList
                     data={places}
                     userLocation={this.props.userLocation}
-                    handlePress={this.toggleActionSheet}
+                    handlePress={this.showActionSheet}
                     userPlaces={this.props.userPlaces}
                 />
             );
@@ -291,38 +206,6 @@ export class Home extends React.Component {
                         color={styleConstants.primary}
                     />
                 </View>
-            );
-        }
-
-        let actionSheet;
-
-        if (this.state.showActionSheetForPlace) {
-            const isVisited =
-                this.props.userPlaces &&
-                utilities.isValueInArray(
-                    this.state.showActionSheetForPlace.id,
-                    this.props.userPlaces,
-                );
-
-            actionSheet = (
-                <ActionSheet
-                    options={[
-                        {
-                            text: isVisited ? "Visit again" : "Go here",
-                            iconName: "location-on",
-                        },
-                        {
-                            text:
-                                "Mark as " +
-                                (isVisited ? "not visited" : "visited"),
-                            iconName: isVisited
-                                ? "indeterminate-check-box"
-                                : "check-box",
-                        },
-                    ]}
-                    handlePress={this.selectActionSheetItem}
-                    textStyle={styles.actionSheetText}
-                />
             );
         }
 
@@ -378,7 +261,6 @@ export class Home extends React.Component {
                     {findPlaceButton}
                 </View>
                 {findPlaceModal}
-                {actionSheet}
             </Page>
         );
     }
@@ -481,10 +363,6 @@ const styles = StyleSheet.create({
     loaderContainer: {
         flex: 1,
         justifyContent: "center",
-    },
-    actionSheetText: {
-        fontSize: styleConstants.regularFont,
-        ...styleConstants.primaryFont,
     },
 });
 

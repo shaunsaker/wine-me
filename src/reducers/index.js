@@ -4,16 +4,6 @@ import initialState from "./initialState";
 export default function(state = initialState, action) {
     switch (action.type) {
         /* AUTH */
-        case "UPDATE_USER_EMAIL":
-            new_state = utilities.cloneObject(state);
-            new_state.userData.profile.userEmail = action.value;
-            return new_state;
-
-        case "UPDATE_USER_PASSWORD":
-            new_state = utilities.cloneObject(state);
-            new_state.userAuth.userPassword = action.value;
-            return new_state;
-
         case "SIGN_IN_USER":
             new_state = utilities.cloneObject(state);
             new_state.userAuth.authenticated = true;
@@ -49,19 +39,9 @@ export default function(state = initialState, action) {
             new_state.appState.userLocation = action.userLocation;
             return new_state;
 
-        case "SET_TEMPORARY_IMAGE":
+        case "TOGGLE_ACTION_SHEET":
             new_state = utilities.cloneObject(state);
-            new_state.appState.temporaryImage = action.image;
-            return new_state;
-
-        case "CLEAR_TEMPORARY_IMAGE":
-            new_state = utilities.cloneObject(state);
-            new_state.appState.temporaryImage = null;
-            return new_state;
-
-        case "SET_USER_PHOTO":
-            new_state = utilities.cloneObject(state);
-            new_state.userData.profile.userPhotoURL = action.userPhotoURL;
+            new_state.appState.showActionSheetForPlace = action.place;
             return new_state;
 
         /*

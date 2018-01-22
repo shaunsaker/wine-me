@@ -14,6 +14,7 @@ import DataHandler from "./wrappers/DataHandler";
 import NetworkHandler from "./wrappers/NetworkHandler";
 import GeolocationHandler from "./wrappers/GeolocationHandler";
 import SnackBarHandler from "./wrappers/SnackBarHandler";
+import PlaceActionSheetHandler from "./wrappers/PlaceActionSheetHandler";
 
 export default class App extends React.Component {
     render() {
@@ -24,7 +25,9 @@ export default class App extends React.Component {
                         <NetworkHandler>
                             <GeolocationHandler>
                                 <SnackBarHandler>
-                                    <ConnectedRouter scenes={Scenes} />
+                                    <PlaceActionSheetHandler>
+                                        <ConnectedRouter scenes={Scenes} />
+                                    </PlaceActionSheetHandler>
                                 </SnackBarHandler>
                             </GeolocationHandler>
                         </NetworkHandler>

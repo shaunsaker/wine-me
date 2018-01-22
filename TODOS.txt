@@ -1,7 +1,6 @@
 BUGS
 
 TODOS
-    ActionSheet as component?
     Search
         Blank state
     Profile

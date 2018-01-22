@@ -23,6 +23,8 @@ const initialState = {
 
         userLocation: null,
         temporaryImage: null,
+
+        showActionSheetForPlace: null,
     },
     appData: {
         app: null,
