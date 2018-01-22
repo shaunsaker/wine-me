@@ -13,7 +13,7 @@ styleConstants.secondaryFont = {
 
 /* FONT SIZES */
 
-styleConstants.largeFont = 27;
+styleConstants.largeFont = 24;
 styleConstants.regularFont = 17;
 styleConstants.smallFont = 15;
 styleConstants.verySmallFont = 11;

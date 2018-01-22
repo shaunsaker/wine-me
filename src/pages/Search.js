@@ -1,5 +1,5 @@
 import React from "react";
-import { View, ScrollView, StyleSheet } from "react-native";
+import { View, ScrollView, Text, StyleSheet } from "react-native";
 import PropTypes from "prop-types";
 import { Actions } from "react-native-router-flux";
 import { connect } from "react-redux";
@@ -89,6 +89,20 @@ export class Search extends React.Component {
     }
 
     render() {
+        const blankState = this.state.searchValue
+            ? this.state.places &&
+              !this.state.places.length && (
+                  <View style={styles.blankStateContainer}>
+                      <Text style={styles.blankStateHeaderText}>
+                          You've clearly had too many.
+                      </Text>
+                      <Text style={styles.blankStateText}>
+                          We couldn't find any wine farms matching that name.
+                      </Text>
+                  </View>
+              )
+            : null;
+
         return (
             <Page>
                 <LinearGradient
@@ -116,6 +130,7 @@ export class Search extends React.Component {
                         autoFocus
                     />
                 </LinearGradient>
+                {blankState}
                 <PlaceList
                     data={this.state.places}
                     userLocation={this.props.userLocation}
@@ -179,6 +194,20 @@ const styles = StyleSheet.create({
     },
     inputBarDeleteButtonIcon: {
         color: styleConstants.primaryText,
+    },
+    blankStateContainer: {
+        padding: 16,
+    },
+    blankStateHeaderText: {
+        fontSize: styleConstants.largeFont,
+        color: styleConstants.primaryText,
+        ...styleConstants.secondaryFont,
+        marginBottom: 16,
+    },
+    blankStateText: {
+        fontSize: styleConstants.regularFont,
+        color: styleConstants.secondaryText,
+        ...styleConstants.primaryFont,
     },
 });
 

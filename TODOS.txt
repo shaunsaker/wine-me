@@ -1,8 +1,6 @@
 BUGS
 
 TODOS
-    Search
-        Blank state
     Profile
     iOS 
         Change package name
