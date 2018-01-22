@@ -16,6 +16,7 @@ import {
 } from "react-native-simple-components";
 import LinearGradient from "react-native-linear-gradient";
 import PlaceList from "../lists/PlaceList";
+import BlankState from "../components/BlankState";
 
 export class Search extends React.Component {
     constructor(props) {
@@ -92,14 +93,10 @@ export class Search extends React.Component {
         const blankState = this.state.searchValue
             ? this.state.places &&
               !this.state.places.length && (
-                  <View style={styles.blankStateContainer}>
-                      <Text style={styles.blankStateHeaderText}>
-                          You've clearly had too many.
-                      </Text>
-                      <Text style={styles.blankStateText}>
-                          We couldn't find any wine farms matching that name.
-                      </Text>
-                  </View>
+                  <BlankState
+                      headerText="You've clearly had too many."
+                      text="We couldn't find any wine farms matching that name."
+                  />
               )
             : null;
 

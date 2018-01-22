@@ -1,7 +1,6 @@
 BUGS
 
 TODOS
-    Profile
     iOS 
         Change package name
         Setup dependencies

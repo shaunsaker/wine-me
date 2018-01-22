@@ -27,31 +27,19 @@ import Icon from "react-native-vector-icons/MaterialIcons";
 import { AnimateScale } from "react-native-simple-animators";
 import FindPlaceModal from "../modals/FindPlaceModal";
 import PlaceList from "../lists/PlaceList";
+import BlankState from "../components/BlankState";
 
 export class Home extends React.Component {
     constructor(props) {
         super(props);
 
-        this.setPrimaryTab = this.setPrimaryTab.bind(this);
-        this.setSecondaryTab = this.setSecondaryTab.bind(this);
-        this.navigate = this.navigate.bind(this);
+        this.setTab = this.setTab.bind(this);
         this.showFindPlaceModal = this.showFindPlaceModal.bind(this);
         this.togglePlaceModal = this.togglePlaceModal.bind(this);
         this.showActionSheet = this.showActionSheet.bind(this);
         this.linkToLocation = this.linkToLocation.bind(this);
 
-        this.primaryTabs = [
-            {
-                title: "Home",
-                iconName: "home",
-            },
-            {
-                title: "Profile",
-                iconName: "person",
-            },
-        ];
-
-        this.secondaryTabs = [
+        this.tabs = [
             {
                 title: "Featured",
                 iconName: "favorite",
@@ -60,11 +48,14 @@ export class Home extends React.Component {
                 title: "Close To Me",
                 iconName: "location-on",
             },
+            {
+                title: "My Wine Farms",
+                iconName: "local-drink",
+            },
         ];
 
         this.state = {
-            activePrimaryTab: "Home",
-            activeSecondaryTab: "Featured",
+            activeTab: "Featured",
             animateFindPlaceModal: false,
             showFindPlaceModal: false,
         };
@@ -80,27 +71,10 @@ export class Home extends React.Component {
         };
     }
 
-    setPrimaryTab(tab) {
-        if (tab === "Home") {
-            // Already on home tab
-        }
-        // else if (tab === "Profile") {
-        //     Actions.profile();
-        // }
-    }
-
-    setSecondaryTab(tab) {
+    setTab(tab) {
         this.setState({
-            activeSecondaryTab: tab,
+            activeTab: tab,
         });
-    }
-
-    navigate(page, goBack, props) {
-        if (goBack) {
-            Actions.pop();
-        } else {
-            Actions[page](props);
-        }
     }
 
     showFindPlaceModal() {
@@ -192,9 +166,10 @@ export class Home extends React.Component {
 
         let placesComponent;
         let places = [];
+        let blankState;
 
         if (this.props.places) {
-            if (this.state.activeSecondaryTab === "Featured") {
+            if (this.state.activeTab === "Featured") {
                 // Featured places
                 this.props.featuredPlaces.map(placeID => {
                     places.push({
@@ -202,8 +177,7 @@ export class Home extends React.Component {
                         id: placeID,
                     });
                 });
-            } else {
-                // Places close to me
+            } else if (this.state.activeTab === "Close To Me") {
                 places = utilities.convertDictionaryToArray(
                     this.props.places,
                     true,
@@ -224,7 +198,33 @@ export class Home extends React.Component {
                     places,
                     "relativeDistance",
                 );
+            } else {
+                // My Wine Farms
+                if (this.props.userPlaces) {
+                    places = utilities.convertDictionaryToArray(
+                        this.props.places,
+                        true,
+                    );
+
+                    places = places.filter(place => {
+                        // Only if we have been there
+                        return utilities.isValueInArray(
+                            place.id,
+                            this.props.userPlaces,
+                        );
+                    });
+
+                    // NOTE: Order should be latest to oldest
+                } else {
+                    blankState = (
+                        <BlankState
+                            headerText="Turn water into wine."
+                            text="Start visiting wine farms, mark them as visited and they'll end up here. Get cracking omigo!"
+                        />
+                    );
+                }
             }
+
             placesComponent = (
                 <PlaceList
                     data={places}
@@ -272,27 +272,16 @@ export class Home extends React.Component {
                         backgroundColor="transparent"
                         textColor={styleConstants.transWhite}
                         activeTextColor={styleConstants.white}
-                        tabs={this.secondaryTabs}
-                        activeTab={this.state.activeSecondaryTab}
-                        tabStyle={styles.secondaryTabBarTab}
-                        activeTabStyle={styles.secondaryTabBarActiveTab}
-                        handleTabPress={tab => this.setSecondaryTab(tab)}
-                        textStyle={styles.secondaryTabBarText}
+                        tabs={this.tabs}
+                        activeTab={this.state.activeTab}
+                        tabStyle={styles.tabBarTab}
+                        activeTabStyle={styles.tabBarActiveTab}
+                        handleTabPress={tab => this.setTab(tab)}
+                        textStyle={styles.tabBarText}
                     />
                 </LinearGradient>
+                {blankState}
                 {placesComponent}
-                <TabBar
-                    textColor={styleConstants.secondaryText}
-                    activeTextColor={styleConstants.primary}
-                    tabs={this.primaryTabs}
-                    activeTab={this.state.activePrimaryTab}
-                    tabStyle={styles.primaryTabBarTab}
-                    activeTabStyle={styles.primaryTabBarActiveTab}
-                    handleTabPress={tab => this.setPrimaryTab(tab)}
-                    textStyle={styles.primaryTabBarText}
-                    showShadow
-                    style={styles.primaryTabBar}
-                />
                 <View style={styles.findPlaceButtonWrapper}>
                     {findPlaceButton}
                 </View>
@@ -353,7 +342,7 @@ const styles = StyleSheet.create({
     },
     findPlaceButtonWrapper: {
         position: "absolute",
-        bottom: 56 + 16,
+        bottom: 16,
         right: 16,
     },
     findPlaceButtonContainer: {
@@ -369,30 +358,15 @@ const styles = StyleSheet.create({
         fontSize: styleConstants.iconFont,
         color: styleConstants.white,
     },
-    primaryTabBar: {
-        backgroundColor: styleConstants.white,
-    },
-    primaryTabBarTab: {
+    tabBarTab: {
         paddingBottom: 2,
     },
-    primaryTabBarActiveTab: {
-        borderBottomWidth: 2,
-        borderBottomColor: styleConstants.primary,
-        paddingBottom: 0,
-    },
-    primaryTabBarText: {
-        ...styleConstants.primaryFont,
-        fontSize: styleConstants.smallFont,
-    },
-    secondaryTabBarTab: {
-        paddingBottom: 2,
-    },
-    secondaryTabBarActiveTab: {
+    tabBarActiveTab: {
         borderBottomWidth: 2,
         borderBottomColor: styleConstants.white,
         paddingBottom: 0,
     },
-    secondaryTabBarText: {
+    tabBarText: {
         ...styleConstants.primaryFont,
         fontSize: styleConstants.smallFont,
     },
