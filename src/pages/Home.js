@@ -5,6 +5,8 @@ import {
     StyleSheet,
     ActivityIndicator,
     StatusBar,
+    Platform,
+    Linking,
 } from "react-native";
 import PropTypes from "prop-types";
 import { Actions } from "react-native-router-flux";
@@ -36,6 +38,7 @@ export class Home extends React.Component {
         this.showFindPlaceModal = this.showFindPlaceModal.bind(this);
         this.togglePlaceModal = this.togglePlaceModal.bind(this);
         this.showActionSheet = this.showActionSheet.bind(this);
+        this.linkToLocation = this.linkToLocation.bind(this);
 
         this.primaryTabs = [
             {
@@ -122,6 +125,39 @@ export class Home extends React.Component {
             type: "TOGGLE_ACTION_SHEET",
             place,
         });
+    }
+
+    linkToLocation(location) {
+        let link;
+
+        // Create the appropriate link
+        if (Platform.OS === "android") {
+            link = "geo:" + location.lat + "," + location.lng;
+        } else {
+            link = `http://maps.apple.com/?ll=${location.lat},${location.lng}`;
+        }
+
+        Linking.canOpenURL(link)
+            .then(supported => {
+                if (!supported) {
+                    this.props.dispatch({
+                        type: "SET_ERROR",
+                        errorType: "LINKING",
+                        message: "This link is not supported on your device.",
+                        iconName: "error-outline",
+                    });
+                } else {
+                    return Linking.openURL(link);
+                }
+            })
+            .catch(() => {
+                this.props.dispatch({
+                    type: "SET_ERROR",
+                    errorType: "LINKING",
+                    message: "This link is not supported on your device.",
+                    iconName: "error-outline",
+                });
+            });
     }
 
     render() {
