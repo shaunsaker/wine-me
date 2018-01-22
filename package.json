@@ -4,7 +4,8 @@
     "private": true,
     "scripts": {
         "start": "node node_modules/react-native/local-cli/cli.js start",
-        "test": "jest"
+        "test": "jest",
+        "postinstall": "rm ./node_modules/react-native/local-cli/core/__fixtures__/files/package.json"
     },
     "dependencies": {
         "prop-types": "^15.6.0",
@@ -16,7 +17,7 @@
         "react-native-permissions": "^1.0.6",
         "react-native-router-flux": "^4.0.0-beta.28",
         "react-native-simple-animators": "^1.0.4",
-        "react-native-simple-components": "^1.2.10",
+        "react-native-simple-components": "^1.2.12",
         "react-native-vector-icons": "^4.5.0",
         "react-redux": "^5.0.6",
         "redux": "^3.7.2",

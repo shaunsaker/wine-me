@@ -3738,9 +3738,9 @@ react-native-simple-animators@^1.0.4:
   dependencies:
     prop-types "^15.6.0"
 
-react-native-simple-components@^1.2.10:
-  version "1.2.10"
-  resolved "https://registry.yarnpkg.com/react-native-simple-components/-/react-native-simple-components-1.2.10.tgz#6db44388c26b37d3fa453a1c58cda905fbca83b7"
+react-native-simple-components@^1.2.12:
+  version "1.2.12"
+  resolved "https://registry.yarnpkg.com/react-native-simple-components/-/react-native-simple-components-1.2.12.tgz#087658f9c48f682fe8144425179f74cb0a845f46"
   dependencies:
     prop-types "^15.6.0"
     react-native-keyboard-aware-scroll-view "^0.3.0"

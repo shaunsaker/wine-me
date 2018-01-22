@@ -1,5 +1,5 @@
 import React from "react";
-import { View, Image, Text, StyleSheet } from "react-native";
+import { View, Text, StyleSheet } from "react-native";
 import PropTypes from "prop-types";
 
 import utilities from "../utilities";
@@ -9,6 +9,7 @@ import {
     Touchable,
     Label,
     TouchableIcon,
+    ImageWidget,
 } from "react-native-simple-components";
 import Icon from "react-native-vector-icons/MaterialIcons";
 
@@ -63,9 +64,11 @@ export default class PlaceCard extends React.Component {
                     disableFeedback
                     style={styles.container}>
                     <View style={styles.backgroundImageContainer}>
-                        <Image
+                        <ImageWidget
                             source={photoURL}
                             style={styles.backgroundImage}
+                            loaderColor={styleConstants.primary}
+                            loaderStyle={styles.loader}
                         />
                     </View>
                     <View style={styles.bodyContainer}>
@@ -104,6 +107,10 @@ const styles = StyleSheet.create({
         alignSelf: "stretch",
         height: 200,
         ...styleConstants.regularShadow,
+        borderRadius: 8,
+    },
+    loader: {
+        height: 200,
         borderRadius: 8,
     },
     backgroundImageContainer: {

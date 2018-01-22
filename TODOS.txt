@@ -10,7 +10,6 @@ TODOS
         Custom fonts
         ActionSheetIOS
     Assets
-        PlaceCard/Placeholder image
         Splash screens
         App icons
         WineMe icon
