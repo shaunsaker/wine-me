@@ -5,7 +5,7 @@ const styleConstants = {};
 /* FONT FAMILIES */
 
 styleConstants.primaryFont = {
-    fontFamily: "circular-medium",
+    fontFamily: "Circular-Medium",
 };
 styleConstants.secondaryFont = {
     fontFamily: "Lora-Regular",

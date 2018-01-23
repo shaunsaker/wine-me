@@ -1,13 +1,9 @@
 BUGS
 
 TODOS
-    iOS 
-        Change package name
-        Setup dependencies
-            + react-native-linear-gradient
-        Add Firebase app
-        Custom fonts
-        ActionSheetIOS
+    iOS
+        Custom font
+        Styles are out
     Assets
         Splash screens
         App icons
