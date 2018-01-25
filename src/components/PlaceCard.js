@@ -6,7 +6,6 @@ import utilities from "../utilities";
 import styleConstants from "../assets/styleConstants";
 
 import {
-    Touchable,
     Label,
     TouchableIcon,
     ImageWidget,
@@ -59,7 +58,7 @@ export default class PlaceCard extends React.Component {
 
         return (
             <View style={styles.wrapper}>
-                <Touchable
+                <View
                     onPress={this.props.handlePress}
                     disableFeedback
                     style={styles.container}>
@@ -91,7 +90,7 @@ export default class PlaceCard extends React.Component {
                     </View>
                     {menuIcon}
                     {isVisitedIcon}
-                </Touchable>
+                </View>
             </View>
         );
     }
@@ -108,6 +107,9 @@ const styles = StyleSheet.create({
         height: 200,
         ...styleConstants.regularShadow,
         borderRadius: 8,
+        borderWidth: 0,
+        backgroundColor: styleConstants.white,
+        overflow: "hidden",
     },
     loader: {
         height: 200,

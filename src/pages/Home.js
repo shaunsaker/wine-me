@@ -4,7 +4,6 @@ import {
     Text,
     StyleSheet,
     ActivityIndicator,
-    StatusBar,
     Platform,
     Linking,
 } from "react-native";
@@ -18,6 +17,7 @@ import styleConstants from "../assets/styleConstants";
 
 import {
     Page,
+    StatusBarComponent,
     Touchable,
     TabBar,
     ButtonIcon,
@@ -49,7 +49,7 @@ export class Home extends React.Component {
                 iconName: "location-on",
             },
             {
-                title: "My Wine Farms",
+                title: "My Places",
                 iconName: "local-drink",
             },
         ];
@@ -146,10 +146,18 @@ export class Home extends React.Component {
         ) : (
             <AnimateScale
                 initialValue={1}
-                finalValue={24}
+                finalValue={
+                    2 +
+                    styleConstants.windowWidth *
+                        styleConstants.windowHeight /
+                        10000
+                }
                 shouldAnimateIn
                 duration={500}
-                style={{ elevation: 13 /* appear above header */ }}>
+                style={{
+                    elevation: 101,
+                    zIndex: 2 /* appear above header */,
+                }}>
                 <View style={styles.findPlaceButtonContainer} />
             </AnimateScale>
         );
@@ -199,7 +207,7 @@ export class Home extends React.Component {
                     "relativeDistance",
                 );
             } else {
-                // My Wine Farms
+                // My Places
                 if (this.props.userPlaces) {
                     places = utilities.convertDictionaryToArray(
                         this.props.places,
@@ -219,7 +227,7 @@ export class Home extends React.Component {
                     blankState = (
                         <BlankState
                             headerText="Turn water into wine."
-                            text="Start visiting wine farms, mark them as visited and they'll end up here. Get cracking omigo!"
+                            text="Start visiting Places, mark them as visited and they'll end up here. Get cracking omigo!"
                         />
                     );
                 }
@@ -253,20 +261,21 @@ export class Home extends React.Component {
                         styleConstants.darkPrimary,
                     ]}
                     style={styles.headerContainer}>
-                    <StatusBar
+                    <StatusBarComponent
                         backgroundColor={
-                            this.state.animateFindPlaceModal
-                                ? styleConstants.secondary
-                                : styleConstants.primary
+                            Platform.OS === "android"
+                                ? this.state.animateFindPlaceModal
+                                  ? styleConstants.secondary
+                                  : styleConstants.primary
+                                : null
                         }
+                        barStyle="light-content"
                     />
                     <Touchable
                         onPress={() => Actions.search()}
                         style={styles.searchBar}>
                         <Icon name="search" style={styles.searchBarIcon} />
-                        <Text style={styles.searchBarText}>
-                            Search Wine Farms
-                        </Text>
+                        <Text style={styles.searchBarText}>Search Places</Text>
                     </Touchable>
                     <TabBar
                         backgroundColor="transparent"
@@ -309,6 +318,9 @@ const styles = StyleSheet.create({
     headerContainer: {
         alignSelf: "stretch",
         ...styleConstants.largeShadow,
+        paddingTop: Platform.OS === "ios" ? 22 : 0,
+        backgroundColor: "transparent",
+        borderWidth: 0,
     },
     searchBar: {
         marginTop: 12,

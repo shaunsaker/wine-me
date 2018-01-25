@@ -24,14 +24,9 @@ export default function BlankState(props) {
 
 const styles = StyleSheet.create({
     blankStateContainer: {
-        position: "absolute",
-        top: 0,
-        right: 0,
-        left: 0,
-        bottom: 0,
         justifyContent: "center",
-        padding: 16,
-        paddingTop: 64,
+        paddingVertical: 32,
+        paddingHorizontal: 16,
     },
     blankStateHeaderText: {
         fontSize: styleConstants.largeFont,

@@ -1,5 +1,11 @@
 import React from "react";
-import { View, Text, ActivityIndicator, StyleSheet } from "react-native";
+import {
+    View,
+    Text,
+    ActivityIndicator,
+    StyleSheet,
+    Platform,
+} from "react-native";
 import PropTypes from "prop-types";
 
 import utilities from "../utilities";
@@ -124,6 +130,7 @@ const styles = StyleSheet.create({
     },
     closeIcon: {
         fontSize: styleConstants.iconFont,
+        paddingTop: Platform.OS === "ios" ? 16 : 0,
     },
     textContainer: {
         flexDirection: "row",

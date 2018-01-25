@@ -1,12 +1,14 @@
 BUGS
 
 TODOS
-    iOS
-        Styles are out
+    Make portait only
+    DB versioning
+    Feedback
     Assets
         Splash screens
         App icons
         WineMe icon
+
 
 ENHANCEMENTS
     Close To Me places calculation will be expensive (need to do this once on load)

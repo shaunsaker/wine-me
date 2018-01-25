@@ -1,5 +1,5 @@
 import React from "react";
-import { View, ScrollView, Text, StyleSheet } from "react-native";
+import { View, ScrollView, Text, StyleSheet, Platform } from "react-native";
 import PropTypes from "prop-types";
 import { Actions } from "react-native-router-flux";
 import { connect } from "react-redux";
@@ -95,7 +95,7 @@ export class Search extends React.Component {
               !this.state.places.length && (
                   <BlankState
                       headerText="You've clearly had too many."
-                      text="We couldn't find any wine farms matching that name."
+                      text="We couldn't find any Places matching that name."
                   />
               )
             : null;
@@ -156,6 +156,9 @@ const styles = StyleSheet.create({
         alignSelf: "stretch",
         ...styleConstants.largeShadow,
         flexDirection: "row",
+        paddingTop: Platform.OS === "ios" ? 22 : 0,
+        backgroundColor: "transparent",
+        borderWidth: 0,
     },
     headerIconContainer: {
         justifyContent: "center",

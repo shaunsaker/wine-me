@@ -54,7 +54,7 @@ const isEarlyAndroidOrIOS =
 styleConstants.smallShadow = {
     elevation: 2,
     borderWidth: isEarlyAndroidOrIOS ? 1 : 0,
-    borderColor: isEarlyAndroidOrIOS ? styleConstants.veryLightGrey : null,
+    borderColor: isEarlyAndroidOrIOS ? styleConstants.dividerColor : null,
 
     // iOS
     shadowColor: styleConstants.black,
@@ -69,7 +69,7 @@ styleConstants.smallShadow = {
 styleConstants.regularShadow = {
     elevation: 6,
     borderWidth: isEarlyAndroidOrIOS ? 1 : 0,
-    borderColor: isEarlyAndroidOrIOS ? styleConstants.veryLightGrey : null,
+    borderColor: isEarlyAndroidOrIOS ? styleConstants.dividerColor : null,
 
     // iOS
     shadowColor: styleConstants.black,
@@ -84,7 +84,7 @@ styleConstants.regularShadow = {
 styleConstants.largeShadow = {
     elevation: 12,
     borderWidth: isEarlyAndroidOrIOS ? 1 : 0,
-    borderColor: isEarlyAndroidOrIOS ? styleConstants.veryLightGrey : null,
+    borderColor: isEarlyAndroidOrIOS ? styleConstants.dividerColor : null,
 
     // iOS
     shadowColor: styleConstants.black,
