@@ -4,6 +4,7 @@ import { Actions, ActionConst, Scene } from "react-native-router-flux";
 // Pages
 import Home from "./pages/Home";
 import Search from "./pages/Search";
+import ForceUpdate from "./pages/ForceUpdate";
 
 const Scenes = Actions.create(
     <Scene key="root" hideNavBar>
@@ -14,6 +15,12 @@ const Scenes = Actions.create(
             initial={true}
         />
         <Scene key="search" component={Search} initial={false} />
+        <Scene
+            key="forceUpdate"
+            component={ForceUpdate}
+            type={ActionConst.RESET}
+            initial={false}
+        />
     </Scene>,
 );
 

@@ -1,7 +1,6 @@
 BUGS
 
 TODOS
-    ForceUpdate     COOK
     About page      COOK
         App + Build number
     Feedback page   COOK
@@ -13,6 +12,9 @@ TODOS
         App icons
         WineMe icon
     Separate android builds
+    ForceUpdate 
+        Download URLs
+        Logo
 
 ENHANCEMENTS
     Close To Me places calculation will be expensive (need to do this once on load)
