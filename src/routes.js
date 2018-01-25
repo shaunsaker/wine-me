@@ -4,6 +4,7 @@ import { Actions, ActionConst, Scene } from "react-native-router-flux";
 // Pages
 import Home from "./pages/Home";
 import Search from "./pages/Search";
+import About from "./pages/About";
 import ForceUpdate from "./pages/ForceUpdate";
 
 const Scenes = Actions.create(
@@ -15,6 +16,7 @@ const Scenes = Actions.create(
             initial={true}
         />
         <Scene key="search" component={Search} initial={false} />
+        <Scene key="about" component={About} initial={false} />
         <Scene
             key="forceUpdate"
             component={ForceUpdate}

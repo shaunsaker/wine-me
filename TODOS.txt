@@ -1,11 +1,13 @@
 BUGS
 
 TODOS
+    BlankState and About both use shared text component
     About page      COOK
         App + Build number
     Feedback page   COOK
     Share app
     Analytics
+        Dont log in dev
     Responsiveness
     Assets
         Splash screens
@@ -15,6 +17,9 @@ TODOS
     ForceUpdate 
         Download URLs
         Logo
+    About
+        Download URLs
+        Description
 
 ENHANCEMENTS
     Close To Me places calculation will be expensive (need to do this once on load)

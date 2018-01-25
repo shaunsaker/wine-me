@@ -254,7 +254,7 @@ export class Home extends React.Component {
         }
 
         return (
-            <Page>
+            <Page style={styles.container}>
                 <LinearGradient
                     colors={[
                         styleConstants.primary,
@@ -315,6 +315,9 @@ function mapStateToProps(state) {
 }
 
 const styles = StyleSheet.create({
+    container: {
+        backgroundColor: styleConstants.white,
+    },
     headerContainer: {
         alignSelf: "stretch",
         ...styleConstants.largeShadow,
