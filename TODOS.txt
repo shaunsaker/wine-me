@@ -1,7 +1,6 @@
 BUGS
 
 TODOS
-    Make portait only
     DB versioning
     Feedback
     Assets
