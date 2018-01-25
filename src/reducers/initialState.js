@@ -24,11 +24,14 @@ const initialState = {
         userLocation: null,
         temporaryImage: null,
 
+        feedbackPosted: false,
+
         showActionSheetForPlace: null,
     },
     appData: {
         app: null,
         users: null,
+        appVersion: null,
     },
     userData: {
         settings: null,

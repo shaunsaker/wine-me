@@ -1,8 +1,7 @@
 BUGS
 
 TODOS
-    DB versioning   COOK
-        ForceUpdate
+    ForceUpdate     COOK
     About page      COOK
         App + Build number
     Feedback page   COOK

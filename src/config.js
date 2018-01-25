@@ -1,12 +1,12 @@
 const config = {};
 
-config.app = {
-    name: "WineMe",
-    version: "1.0.0",
-    developer: {
-        name: "Shaun Saker",
-        email: "info@shaunsaker.com",
+config.version = {
+    app: {
+        major: 1,
+        minor: 0,
+        patch: 0,
     },
+    build: 1,
 };
 
 export default config;

@@ -9,6 +9,7 @@ import Scenes from "./routes";
 const ConnectedRouter = connect()(Router);
 
 // Wrappers
+import VersionControlHandler from "./wrappers/VersionControlHandler";
 import AuthHandler from "./wrappers/AuthHandler";
 import DataHandler from "./wrappers/DataHandler";
 import NetworkHandler from "./wrappers/NetworkHandler";
@@ -20,19 +21,21 @@ export default class App extends React.Component {
     render() {
         return (
             <Provider store={store}>
-                <AuthHandler>
-                    <DataHandler>
-                        <NetworkHandler>
-                            <GeolocationHandler>
-                                <SnackBarHandler>
-                                    <PlaceActionSheetHandler>
-                                        <ConnectedRouter scenes={Scenes} />
-                                    </PlaceActionSheetHandler>
-                                </SnackBarHandler>
-                            </GeolocationHandler>
-                        </NetworkHandler>
-                    </DataHandler>
-                </AuthHandler>
+                <VersionControlHandler>
+                    <AuthHandler>
+                        <DataHandler>
+                            <NetworkHandler>
+                                <GeolocationHandler>
+                                    <SnackBarHandler>
+                                        <PlaceActionSheetHandler>
+                                            <ConnectedRouter scenes={Scenes} />
+                                        </PlaceActionSheetHandler>
+                                    </SnackBarHandler>
+                                </GeolocationHandler>
+                            </NetworkHandler>
+                        </DataHandler>
+                    </AuthHandler>
+                </VersionControlHandler>
             </Provider>
         );
     }

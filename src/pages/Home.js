@@ -319,7 +319,7 @@ const styles = StyleSheet.create({
         alignSelf: "stretch",
         ...styleConstants.largeShadow,
         paddingTop: Platform.OS === "ios" ? 22 : 0,
-        backgroundColor: "transparent",
+        backgroundColor: styleConstants.white,
         borderWidth: 0,
     },
     searchBar: {
