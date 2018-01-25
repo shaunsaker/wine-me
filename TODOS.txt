@@ -1,13 +1,19 @@
 BUGS
 
 TODOS
-    DB versioning
-    Feedback
+    DB versioning   COOK
+        ForceUpdate
+    About page      COOK
+        App + Build number
+    Feedback page   COOK
+    Share app
+    Analytics
+    Responsiveness
     Assets
         Splash screens
         App icons
         WineMe icon
-
+    Separate android builds
 
 ENHANCEMENTS
     Close To Me places calculation will be expensive (need to do this once on load)
