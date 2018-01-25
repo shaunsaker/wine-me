@@ -2,7 +2,6 @@ BUGS
 
 TODOS
     iOS
-        Custom font
         Styles are out
     Assets
         Splash screens

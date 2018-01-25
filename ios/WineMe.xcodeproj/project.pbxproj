@@ -41,8 +41,8 @@
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
 		7ACF457020178132006E35B4 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7ACF456F20178132006E35B4 /* MaterialIcons.ttf */; };
 		7ACF4572201781A4006E35B4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7ACF4571201781A3006E35B4 /* GoogleService-Info.plist */; };
-		7ACF45BF20178238006E35B4 /* circular-medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7ACF459320178238006E35B4 /* circular-medium.ttf */; };
 		7ACF45C020178238006E35B4 /* Lora-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7ACF45BE20178238006E35B4 /* Lora-Regular.ttf */; };
+		7AD9770C201A1B3000B5303F /* Circular-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7AD9770B201A1B3000B5303F /* Circular-Medium.ttf */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		884664533441463B9483E501 /* libReactNativePermissions.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D0C8A6733EBB49E9AE56FA57 /* libReactNativePermissions.a */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
@@ -399,8 +399,8 @@
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		7ACF456F20178132006E35B4 /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
 		7ACF4571201781A3006E35B4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		7ACF459320178238006E35B4 /* circular-medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "circular-medium.ttf"; path = "../src/assets/fonts/circular-medium.ttf"; sourceTree = "<group>"; };
 		7ACF45BE20178238006E35B4 /* Lora-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lora-Regular.ttf"; path = "../src/assets/fonts/Lora-Regular.ttf"; sourceTree = "<group>"; };
+		7AD9770B201A1B3000B5303F /* Circular-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Circular-Medium.ttf"; sourceTree = "<group>"; };
 		7BC79A45DE67F07E5D4FEC3A /* libPods-WineMe.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WineMe.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		82782C2BD3D6DF7429484EAF /* Pods-WineMe-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WineMe-tvOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WineMe-tvOSTests/Pods-WineMe-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
@@ -600,7 +600,7 @@
 			isa = PBXGroup;
 			children = (
 				FD19F54B1E4840B9A9B5D60B /* AppIcons.ttf */,
-				7ACF459320178238006E35B4 /* circular-medium.ttf */,
+				7AD9770B201A1B3000B5303F /* Circular-Medium.ttf */,
 				7ACF45BE20178238006E35B4 /* Lora-Regular.ttf */,
 				7ACF456F20178132006E35B4 /* MaterialIcons.ttf */,
 			);
@@ -1277,8 +1277,8 @@
 			files = (
 				7ACF457020178132006E35B4 /* MaterialIcons.ttf in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				7ACF45BF20178238006E35B4 /* circular-medium.ttf in Resources */,
 				7ACF45C020178238006E35B4 /* Lora-Regular.ttf in Resources */,
+				7AD9770C201A1B3000B5303F /* Circular-Medium.ttf in Resources */,
 				7ACF4572201781A4006E35B4 /* GoogleService-Info.plist in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 				359FF2825E3745E689DE2426 /* AppIcons.ttf in Resources */,
