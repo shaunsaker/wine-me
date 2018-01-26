@@ -2,9 +2,14 @@ BUGS
 
 TODOS
     BlankState and About both use shared text component
+    Home menu
+        About
+        Get in touch
+        Share
     About page      COOK
         App + Build number
-    Feedback page   COOK
+        Share
+        Get in touch
     Share app
     Analytics
         Dont log in dev
