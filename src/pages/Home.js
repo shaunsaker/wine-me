@@ -27,6 +27,7 @@ import {
 } from "react-native-simple-components";
 import LinearGradient from "react-native-linear-gradient";
 import Icon from "react-native-vector-icons/MaterialIcons";
+import CustomIcon from "../assets/icons";
 import { AnimateScale } from "react-native-simple-animators";
 import FindPlaceModal from "../modals/FindPlaceModal";
 import PlaceList from "../lists/PlaceList";
@@ -195,13 +196,11 @@ export class Home extends React.Component {
 
     render() {
         const findPlaceButton = !this.state.animateFindPlaceModal ? (
-            <ButtonIcon
-                iconName="local-drink"
-                iconStyle={styles.findPlaceButtonIcon}
-                style={styles.findPlaceButton}
-                handlePress={this.showFindPlaceModal}
-                showShadow
-            />
+            <Touchable
+                onPress={this.showFindPlaceModal}
+                style={styles.findPlaceButton}>
+                <CustomIcon name="grapes" style={styles.findPlaceButtonIcon} />
+            </Touchable>
         ) : (
             <AnimateScale
                 initialValue={1}
@@ -452,10 +451,19 @@ const styles = StyleSheet.create({
         backgroundColor: styleConstants.secondary,
     },
     findPlaceButton: {
+        width: 56,
+        height: 56,
+        borderRadius: 28,
+        overflow: "hidden",
+        justifyContent: "center",
+        alignItems: "center",
+        position: "relative",
         backgroundColor: styleConstants.secondary,
+        ...styleConstants.largeShadow,
     },
     findPlaceButtonIcon: {
-        fontSize: styleConstants.iconFont,
+        marginTop: 4,
+        fontSize: 36,
         color: styleConstants.white,
     },
     tabBarTab: {
