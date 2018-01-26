@@ -17,6 +17,7 @@ import styleConstants from "../assets/styleConstants";
 import Analytics from "../analytics";
 
 import { Page, HeaderBar, Button } from "react-native-simple-components";
+import InfoBlockComponent from "../components/InfoBlockComponent";
 
 export class About extends React.Component {
     constructor(props) {
@@ -69,10 +70,10 @@ export class About extends React.Component {
                     style={styles.contentWrapper}
                     contentContainerStyle={styles.contentContainer}>
                     <View style={styles.sectionContainer}>
-                        <Text style={styles.headingText}>About WineMe</Text>
-                        <View style={styles.textContainer}>
-                            <Text style={styles.text}>Description</Text>
-                        </View>
+                        <InfoBlockComponent
+                            title="About WineMe"
+                            description="Description"
+                        />
                     </View>
                     <View style={styles.sectionContainer}>
                         <View style={styles.textContainer}>

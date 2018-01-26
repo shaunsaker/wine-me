@@ -1,11 +1,6 @@
 BUGS
 
 TODOS
-    BlankState and About both use shared text component
-    Home menu
-        About
-        Get in touch
-        Share
     About page      COOK
         App + Build number
         Share
@@ -25,6 +20,8 @@ TODOS
     About
         Download URLs
         Description
+    Home    
+        Share content (download etc.)
 
 ENHANCEMENTS
     Close To Me places calculation will be expensive (need to do this once on load)
