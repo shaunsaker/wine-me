@@ -1,24 +1,23 @@
 BUGS
 
 TODOS
-    Responsiveness
     Assets
         Splash screens
         App icons
         WineMe icon
-    Separate android builds
     ForceUpdate 
         Download URLs
         Logo
+    Home
+        Share download URLS
     About
         Download URLs
-        Description
-    Home    
-        Share content (download etc.)
+        Share download URLS
 
 ENHANCEMENTS
     Close To Me places calculation will be expensive (need to do this once on load)
         Could also check if isVisited here (this calculation is done multiple times)
+    Disable close button of find place modal while finding / Make sure state isn't updated afterwards
 
 TESTING
     Home/AnimateScale value on tablets

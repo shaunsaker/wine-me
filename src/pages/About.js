@@ -30,26 +30,31 @@ export class About extends React.Component {
 
     static get propTypes() {
         return {
-            info: PropTypes.array,
+            userPlaces: PropTypes.array,
         };
     }
 
     share() {
         Analytics.logEvent("share_app");
 
-        const url = Platform.OS === "ios" ? "X" : "Y"; // TODO
+        const userPlaces = this.props.userPlaces
+            ? " " + this.props.userPlaces.length
+            : "";
 
-        let shareMessage = `Download WineMe: ${url}`;
+        let shareMessage = `I've been to${userPlaces} local wine farm${
+            userPlaces > 1 || !userPlaces ? "s" : ""
+        }! See how many you've been to. Download WineMe: X`; // TODO
+
         Share.share(
             {
                 message: shareMessage,
                 title: "WineMe",
-                url,
+                url: "X", // iOS only
             },
             {
-                subject: "WineMe", // iOS only
+                subject: "Red red wine", // iOS only
                 tintColor: styleConstants.primary, // iOS only
-                dialogTitle: "Share WineMe with your friends", // android only
+                dialogTitle: "Red red wine", // android only
             },
         );
     }
@@ -101,24 +106,36 @@ export class About extends React.Component {
                     contentContainerStyle={styles.contentContainer}>
                     <View style={styles.sectionContainer}>
                         <InfoBlockComponent
-                            title="About WineMe"
-                            description="Description"
+                            title="Why WineMe?"
+                            description="Living in the Western Cape, we are quite blessed to be able to visit the best wine farms that South Africa has to offer. WineMe helps us keep track of the wine farms we have visited and also to find new ones that we haven't."
                         />
                     </View>
                     <View style={styles.sectionContainer}>
-                        <View style={styles.textContainer}>
-                            <Text style={styles.text}>
-                                {"App Version " +
-                                    config.version.app.major +
-                                    "." +
-                                    config.version.app.minor +
-                                    "." +
-                                    config.version.app.patch +
-                                    " (" +
-                                    config.version.build +
-                                    ")"}
-                            </Text>
-                        </View>
+                        <InfoBlockComponent
+                            title="What's your superpower?"
+                            description="Our superpower is being able to find the next best wine farm, closest to us, at the tap of a button."
+                        />
+                    </View>
+                    <View style={styles.sectionContainer}>
+                        <InfoBlockComponent
+                            title="What's next?"
+                            description="If people find as much utility out of WineMe as we do, we plan to add new features including: reviews, photos, wines and activities. If you have any ideas on how else we can improve the app, please get in touch with us, we'd love to hear from you!"
+                        />
+                    </View>
+                    <View style={styles.sectionContainer}>
+                        <InfoBlockComponent
+                            title="App Version"
+                            description={
+                                config.version.app.major +
+                                "." +
+                                config.version.app.minor +
+                                "." +
+                                config.version.app.patch +
+                                " (" +
+                                config.version.build +
+                                ")"
+                            }
+                        />
                     </View>
                 </ScrollView>
                 <View style={styles.buttonContainer}>
@@ -136,7 +153,10 @@ export class About extends React.Component {
 
 function mapStateToProps(state) {
     return {
-        info: state.main.appData.app && state.main.appData.app.info,
+        userPlaces:
+            state.main.appData.users &&
+            state.main.appData.users[state.main.userAuth.uid] &&
+            state.main.appData.users[state.main.userAuth.uid].visited,
     };
 }
 
@@ -172,23 +192,6 @@ const styles = StyleSheet.create({
         marginBottom: 12,
         lineHeight: 34,
     },
-    textContainer: {
-        alignSelf: "stretch",
-        flexDirection: "row",
-        flexWrap: "wrap",
-    },
-    text: {
-        fontSize: styleConstants.regularFont,
-        color: styleConstants.primaryText,
-        ...styleConstants.primaryFont,
-    },
-    linkTextButton: {},
-    linkText: {
-        fontSize: styleConstants.regularFont,
-        color: styleConstants.primary,
-        ...styleConstants.primaryFont,
-        textDecorationLine: "underline",
-    },
     buttonContainer: {
         position: "absolute",
         bottom: 16,
@@ -196,7 +199,7 @@ const styles = StyleSheet.create({
         right: 16,
     },
     button: {
-        backgroundColor: styleConstants.secondary,
+        backgroundColor: styleConstants.primary,
         borderRadius: 8,
     },
     buttonText: {

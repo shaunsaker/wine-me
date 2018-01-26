@@ -168,7 +168,13 @@ export class Home extends React.Component {
         } else {
             Analytics.logEvent("share_result");
 
-            let shareMessage = "Download WineMe: X"; // TODO
+            const userPlaces = this.props.userPlaces
+                ? " " + this.props.userPlaces.length
+                : "";
+
+            let shareMessage = `I've been to${userPlaces} local wine farm${
+                userPlaces > 1 || !userPlaces ? "s" : ""
+            }! See how many you've been to. Download WineMe: X`; // TODO
 
             Share.share(
                 {
@@ -177,9 +183,9 @@ export class Home extends React.Component {
                     url: "X", // iOS only
                 },
                 {
-                    subject: "X", // iOS only
+                    subject: "Red red wine", // iOS only
                     tintColor: styleConstants.primary, // iOS only
-                    dialogTitle: "X", // android only
+                    dialogTitle: "Red red wine", // android only
                 },
             );
         }
