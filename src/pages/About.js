@@ -6,6 +6,7 @@ import {
     StyleSheet,
     Share,
     Platform,
+    Linking,
 } from "react-native";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
@@ -24,6 +25,7 @@ export class About extends React.Component {
         super(props);
 
         this.share = this.share.bind(this);
+        this.linkToMail = this.linkToMail.bind(this);
     }
 
     static get propTypes() {
@@ -50,6 +52,34 @@ export class About extends React.Component {
                 dialogTitle: "Share WineMe with your friends", // android only
             },
         );
+    }
+
+    linkToMail() {
+        Analytics.logEvent("contact");
+
+        const link = "mailto:info@shaunsaker.com?subject=WineMe";
+
+        Linking.canOpenURL(link)
+            .then(supported => {
+                if (!supported) {
+                    this.props.dispatch({
+                        type: "SET_ERROR",
+                        errorType: "LINKING",
+                        message: "This link is not supported on your device.",
+                        iconName: "error-outline",
+                    });
+                } else {
+                    return Linking.openURL(link);
+                }
+            })
+            .catch(() => {
+                this.props.dispatch({
+                    type: "SET_ERROR",
+                    errorType: "LINKING",
+                    message: "This link is not supported on your device.",
+                    iconName: "error-outline",
+                });
+            });
     }
 
     render() {
@@ -93,9 +123,9 @@ export class About extends React.Component {
                 </ScrollView>
                 <View style={styles.buttonContainer}>
                     <Button
-                        text="Got feedback?"
+                        text="Get in touch"
                         textStyle={styles.buttonText}
-                        handlePress={() => Actions.feedback()}
+                        handlePress={this.linkToMail}
                         style={styles.button}
                     />
                 </View>

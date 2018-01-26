@@ -15,6 +15,7 @@ import { connect } from "react-redux";
 import config from "../config";
 import utilities from "../utilities";
 import styleConstants from "../assets/styleConstants";
+import Analytics from "../analytics";
 
 import {
     Page,
@@ -85,6 +86,8 @@ export class Home extends React.Component {
     }
 
     showFindPlaceModal() {
+        Analytics.logEvent("find_place");
+
         this.setState({
             animateFindPlaceModal: true,
         });
@@ -109,6 +112,8 @@ export class Home extends React.Component {
     }
 
     linkToLocation(location) {
+        Analytics.logEvent("navigate_to_place");
+
         let link;
 
         // Create the appropriate link
@@ -153,11 +158,15 @@ export class Home extends React.Component {
 
     handleSelectMenuItem(item) {
         if (item === "About") {
+            Analytics.logEvent("view_about");
+
             Actions.about();
         } else if (item === "Get in touch") {
+            Analytics.logEvent("contact");
+
             this.handleLink("mailto:info@shaunsaker.com?subject=WineMe");
         } else {
-            // Analytics.logEvent("share_result");
+            Analytics.logEvent("share_result");
 
             let shareMessage = "Download WineMe: X"; // TODO
 

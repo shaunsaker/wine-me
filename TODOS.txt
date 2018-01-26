@@ -1,13 +1,6 @@
 BUGS
 
 TODOS
-    About page      COOK
-        App + Build number
-        Share
-        Get in touch
-    Share app
-    Analytics
-        Dont log in dev
     Responsiveness
     Assets
         Splash screens

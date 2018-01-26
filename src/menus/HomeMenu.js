@@ -34,6 +34,7 @@ const styles = StyleSheet.create({
     container: {
         top: Platform.OS === "ios" ? 84 : 64,
         right: 16,
+        borderRadius: 8,
     },
     text: {
         fontSize: styleConstants.regularFont,
