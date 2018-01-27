@@ -19,6 +19,7 @@ import Analytics from "../analytics";
 
 import { Page, HeaderBar, Button } from "react-native-simple-components";
 import InfoBlockComponent from "../components/InfoBlockComponent";
+import LinearGradient from "react-native-linear-gradient";
 
 export class About extends React.Component {
     constructor(props) {
@@ -139,12 +140,22 @@ export class About extends React.Component {
                     </View>
                 </ScrollView>
                 <View style={styles.buttonContainer}>
-                    <Button
-                        text="Get in touch"
-                        textStyle={styles.buttonText}
-                        handlePress={this.linkToMail}
-                        style={styles.button}
-                    />
+                    <LinearGradient
+                        colors={[
+                            styleConstants.secondary,
+                            styleConstants.darkSecondary,
+                        ]}
+                        style={styles.buttonInnerContainer}>
+                        <Button
+                            text="Get in touch"
+                            textStyle={styles.buttonText}
+                            handlePress={this.linkToMail}
+                            style={styles.button}
+                            showShadow
+                            androidRipple
+                            androidRippleColor={styleConstants.white}
+                        />
+                    </LinearGradient>
                 </View>
             </Page>
         );
@@ -194,13 +205,18 @@ const styles = StyleSheet.create({
     },
     buttonContainer: {
         position: "absolute",
-        bottom: 16,
-        left: 16,
-        right: 16,
+        bottom: 0,
+        left: 0,
+        right: 0,
+    },
+    buttonInnerContainer: {
+        borderRadius: 8,
+        margin: 16,
     },
     button: {
-        backgroundColor: styleConstants.primary,
-        borderRadius: 8,
+        backgroundColor: "transparent",
+        ...styleConstants.regularShadow,
+        borderWidth: 0,
     },
     buttonText: {
         fontSize: styleConstants.regularFont,

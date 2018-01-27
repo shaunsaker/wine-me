@@ -6,10 +6,12 @@ const styleConstants = {};
 
 styleConstants.primaryFont = {
     fontFamily: "Circular-Medium",
-    // font00000000201a19f2
 };
 styleConstants.secondaryFont = {
     fontFamily: "Lora-Regular",
+};
+styleConstants.boldFont = {
+    fontFamily: "Lora-Bold",
 };
 
 /* FONT SIZES */

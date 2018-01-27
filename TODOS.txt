@@ -1,10 +1,6 @@
 BUGS
 
 TODOS
-    Assets
-        Splash screens
-        App icons
-        WineMe icon
     ForceUpdate 
         Download URLs
         Logo

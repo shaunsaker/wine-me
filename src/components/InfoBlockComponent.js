@@ -30,7 +30,7 @@ const styles = StyleSheet.create({
     titleText: {
         fontSize: styleConstants.largeFont,
         color: styleConstants.secondary,
-        ...styleConstants.secondaryFont,
+        ...styleConstants.boldFont,
         marginBottom: 16,
     },
     descriptionText: {

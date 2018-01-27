@@ -1,6 +1,6 @@
 import createIconSet from "react-native-vector-icons/lib/create-icon-set";
 const glyphMap = {
-    grapes: 59648,
+    noun_32096_cc: 59648,
 };
 
 let Icon = createIconSet(glyphMap, "AppIcons", "AppIcons.ttf");

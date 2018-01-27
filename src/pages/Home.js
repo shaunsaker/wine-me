@@ -58,7 +58,7 @@ export class Home extends React.Component {
             },
             {
                 title: "My Places",
-                iconName: "local-drink",
+                iconName: "home",
             },
         ];
 
@@ -199,7 +199,10 @@ export class Home extends React.Component {
             <Touchable
                 onPress={this.showFindPlaceModal}
                 style={styles.findPlaceButton}>
-                <CustomIcon name="grapes" style={styles.findPlaceButtonIcon} />
+                <CustomIcon
+                    name="noun_32096_cc"
+                    style={styles.findPlaceButtonIcon}
+                />
             </Touchable>
         ) : (
             <AnimateScale
@@ -462,8 +465,7 @@ const styles = StyleSheet.create({
         ...styleConstants.largeShadow,
     },
     findPlaceButtonIcon: {
-        marginTop: 4,
-        fontSize: 36,
+        fontSize: 32,
         color: styleConstants.white,
     },
     tabBarTab: {
