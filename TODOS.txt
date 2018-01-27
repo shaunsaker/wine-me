@@ -3,7 +3,6 @@ BUGS
 TODOS
     ForceUpdate 
         Download URLs
-        Logo
     Home
         Share download URLS
     About

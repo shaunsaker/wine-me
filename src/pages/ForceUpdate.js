@@ -18,6 +18,7 @@ import styleConstants from "../assets/styleConstants";
 
 import { Page, Button } from "react-native-simple-components";
 import LinearGradient from "react-native-linear-gradient";
+import CustomIcon from "../assets/icons";
 
 export class ForceUpdate extends React.Component {
     constructor(props) {
@@ -65,7 +66,9 @@ export class ForceUpdate extends React.Component {
                         styleConstants.darkPrimary,
                     ]}
                     style={styles.container}>
-                    <Image source={null} style={styles.image} />
+                    <View style={styles.logoContainer}>
+                        <CustomIcon name="noun_32096_cc" style={styles.logo} />
+                    </View>
                     <View>
                         <Text style={styles.titleText}>
                             A new version of WineMe is available
@@ -98,15 +101,17 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         justifyContent: "center",
+        alignItems: "center",
         padding: 16,
         alignSelf: "stretch",
     },
 
-    image: {
-        width: 160,
-        height: 40,
-        resizeMode: "contain",
+    logoContainer: {
         marginBottom: 32,
+    },
+    logo: {
+        fontSize: 72,
+        color: styleConstants.white,
     },
 
     titleText: {
@@ -115,12 +120,14 @@ const styles = StyleSheet.create({
         ...styleConstants.secondaryFont,
         marginBottom: 16,
         backgroundColor: "transparent",
+        textAlign: "center",
     },
     subtitleText: {
         fontSize: styleConstants.regularFont,
         color: styleConstants.white,
         ...styleConstants.primaryFont,
         backgroundColor: "transparent",
+        textAlign: "center",
     },
 
     button: {
