@@ -1,6 +1,7 @@
 BUGS
 
 TODOS
+    Update splash screens 
     ForceUpdate 
         Download URLs
     Home
@@ -8,6 +9,9 @@ TODOS
     About
         Download URLs
         Share download URLS
+
+PLACES TO REMOVE
+    Healey's Cheese
 
 ENHANCEMENTS
     Close To Me places calculation will be expensive (need to do this once on load)
