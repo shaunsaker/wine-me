@@ -110,7 +110,7 @@ export default class FindPlaceModal extends React.Component {
                 handleClose={this.props.handleClose}
                 style={styles.modalContainer}
                 closeIconStyle={styles.closeIcon}
-                showCloseIcon>
+                showCloseIcon={this.state.place}>
                 <View style={styles.modalBodyContainer}>{mainContent}</View>
             </Modal>
         );

@@ -15,7 +15,7 @@ import {
 import Icon from "react-native-vector-icons/MaterialIcons";
 import CustomIcon from "../assets/icons";
 
-export default class PlaceCard extends React.Component {
+export default class PlaceCard extends React.PureComponent {
     constructor(props) {
         super(props);
     }
@@ -51,15 +51,6 @@ export default class PlaceCard extends React.Component {
                 />
             </View>
         );
-
-        const relativeDistance = this.props.userLocation
-            ? Math.round(
-                  utilities.getDistanceBetweenCoordinateSets(
-                      this.props.userLocation,
-                      this.props.place.location,
-                  ),
-              )
-            : "-";
 
         const isVisitedIcon = this.props.isVisited && (
             <View style={styles.isVisitedIconContainer}>
@@ -98,7 +89,7 @@ export default class PlaceCard extends React.Component {
                         <View style={styles.labelsContainer}>
                             <Label
                                 iconName="location-on"
-                                text={relativeDistance + " km"}
+                                text={this.props.place.relativeDistance + " km"}
                                 style={styles.distanceLabel}
                                 textStyle={styles.labelText}
                                 iconStyle={styles.labelText}

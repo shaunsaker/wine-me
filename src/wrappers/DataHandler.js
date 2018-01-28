@@ -5,42 +5,35 @@ import { connect } from "react-redux";
 import CloudData from "../cloudData/index";
 
 export class DataHandler extends React.Component {
-    constructor(props) {
-        super(props);
-
-        this.setRealTimeMode = this.setRealTimeMode.bind(this);
-    }
-
     static get propTypes() {
         return {
             authenticated: PropTypes.bool,
+            userLocation: PropTypes.object,
         };
     }
 
     componentDidUpdate(prevProps) {
         // Once authenticated, handle data
         if (this.props.authenticated && !prevProps.authenticated) {
-            this.setRealTimeMode();
+            CloudData.listenForData("users", data => {
+                this.props.dispatch({
+                    type: "SET_DATA",
+                    node: "users",
+                    data,
+                });
+            });
         }
-    }
 
-    setRealTimeMode() {
-        // Listen for live changes to db
-        CloudData.listenForData("app", data => {
-            this.props.dispatch({
-                type: "SET_DATA",
-                node: "app",
-                data,
+        if (this.props.userLocation && !prevProps.userLocation) {
+            // Listen for live changes to db
+            CloudData.listenForData("app", data => {
+                this.props.dispatch({
+                    type: "SET_DATA",
+                    node: "app",
+                    data,
+                });
             });
-        });
-
-        CloudData.listenForData("users", data => {
-            this.props.dispatch({
-                type: "SET_DATA",
-                node: "users",
-                data,
-            });
-        });
+        }
     }
 
     render() {
@@ -51,6 +44,7 @@ export class DataHandler extends React.Component {
 function mapStateToProps(state) {
     return {
         authenticated: state.main.userAuth.authenticated,
+        userLocation: state.main.appState.userLocation,
     };
 }
 

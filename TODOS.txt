@@ -1,13 +1,6 @@
 BUGS
 
 TODOS
-    Close To Me places calculation will be expensive (need to do this once on load)
-        Could also check if isVisited here (this calculation is done multiple times)
-    Disable close button of find place modal while finding / Make sure state isn't updated afterwards
-    Other list performance enhancements
-    Location changes
-
-
     Update splash screens 
     ForceUpdate 
         Download URLs

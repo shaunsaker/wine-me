@@ -72,6 +72,24 @@ export default function(state = initialState, action) {
             new_state.appData[action.node] = action.data;
             new_state.appState.loading = false;
             new_state.appState.refreshing = false;
+
+            // If this is app node, get relative distance and isVisited and append
+            if (action.node === "app") {
+                let places = new_state.appData.app.places;
+
+                for (let placeID in places) {
+                    const relativeDistance = Math.round(
+                        utilities.getDistanceBetweenCoordinateSets(
+                            new_state.appState.userLocation,
+                            places[placeID].location,
+                        ),
+                    );
+
+                    places[placeID]["relativeDistance"] = relativeDistance;
+                }
+
+                new_state.appData.app.places = places;
+            }
             return new_state;
 
         case "SET_USER_DATA":

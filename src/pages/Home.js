@@ -252,17 +252,6 @@ export class Home extends React.Component {
                     true,
                 );
 
-                places.map(place => {
-                    const relativeDistance = Math.round(
-                        utilities.getDistanceBetweenCoordinateSets(
-                            this.props.userLocation,
-                            place.location,
-                        ),
-                    );
-
-                    place["relativeDistance"] = relativeDistance;
-                });
-
                 places = utilities.sortArrayOfObjectsByKey(
                     places,
                     "relativeDistance",

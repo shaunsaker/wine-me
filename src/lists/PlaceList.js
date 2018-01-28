@@ -17,7 +17,6 @@ export default class PlaceList extends React.Component {
     static get propTypes() {
         return {
             data: PropTypes.array,
-            userLocation: PropTypes.object,
             handlePress: PropTypes.func,
             userPlaces: PropTypes.array,
         };
@@ -31,7 +30,6 @@ export default class PlaceList extends React.Component {
         return (
             <PlaceCard
                 place={item}
-                userLocation={this.props.userLocation}
                 handlePress={() => this.props.handlePress(item)}
                 isVisited={isVisited}
             />
