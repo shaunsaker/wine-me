@@ -1,6 +1,18 @@
 BUGS
 
 TODOS
+    About top margin
+    Home menu bottom
+    FindPlaceModal needs mark as visited action => then retry
+    Search did not get blank state
+
+    Close To Me places calculation will be expensive (need to do this once on load)
+        Could also check if isVisited here (this calculation is done multiple times)
+    Disable close button of find place modal while finding / Make sure state isn't updated afterwards
+    Other list performance enhancements
+    Location changes
+
+
     Update splash screens 
     ForceUpdate 
         Download URLs
@@ -14,9 +26,6 @@ PLACES TO REMOVE
     Healey's Cheese
 
 ENHANCEMENTS
-    Close To Me places calculation will be expensive (need to do this once on load)
-        Could also check if isVisited here (this calculation is done multiple times)
-    Disable close button of find place modal while finding / Make sure state isn't updated afterwards
 
 TESTING
     Home/AnimateScale value on tablets
