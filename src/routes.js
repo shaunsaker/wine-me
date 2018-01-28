@@ -15,7 +15,7 @@ const Scenes = Actions.create(
             type={ActionConst.REPLACE}
             initial={true}
         />
-        <Scene key="search" component={Search} initial={false} />
+        <Scene key="search" component={Search} initial={true} />
         <Scene key="about" component={About} initial={false} />
         <Scene
             key="forceUpdate"
