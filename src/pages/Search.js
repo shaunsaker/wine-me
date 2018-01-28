@@ -90,15 +90,24 @@ export class Search extends React.Component {
     }
 
     render() {
-        const blankState = this.state.searchValue
-            ? this.state.places &&
-              !this.state.places.length && (
-                  <BlankState
-                      headerText="You've clearly had too many."
-                      text="We couldn't find any Places matching that name."
-                  />
-              )
-            : null;
+        const mainContent = !this.state.searchValue ? (
+            <BlankState
+                title="Search over 568+ places"
+                description="*Western Cape only"
+            />
+        ) : this.state.places && this.state.places.length ? (
+            <PlaceList
+                data={this.state.places}
+                userLocation={this.props.userLocation}
+                handlePress={this.showActionSheet}
+                userPlaces={this.props.userPlaces}
+            />
+        ) : (
+            <BlankState
+                title="You've clearly had too many."
+                description="We couldn't find any Places matching that name."
+            />
+        );
 
         return (
             <Page style={styles.container}>
@@ -127,13 +136,7 @@ export class Search extends React.Component {
                         autoFocus
                     />
                 </LinearGradient>
-                {blankState}
-                <PlaceList
-                    data={this.state.places}
-                    userLocation={this.props.userLocation}
-                    handlePress={this.showActionSheet}
-                    userPlaces={this.props.userPlaces}
-                />
+                {mainContent}
             </Page>
         );
     }
@@ -197,20 +200,6 @@ const styles = StyleSheet.create({
     },
     inputBarDeleteButtonIcon: {
         color: styleConstants.primaryText,
-    },
-    blankStateContainer: {
-        padding: 16,
-    },
-    blankStateHeaderText: {
-        fontSize: styleConstants.largeFont,
-        color: styleConstants.primaryText,
-        ...styleConstants.secondaryFont,
-        marginBottom: 16,
-    },
-    blankStateText: {
-        fontSize: styleConstants.regularFont,
-        color: styleConstants.secondaryText,
-        ...styleConstants.primaryFont,
     },
 });
 

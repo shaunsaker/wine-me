@@ -141,6 +141,7 @@ export class PlaceActionSheetHandler extends React.Component {
                         },
                     ]}
                     handlePress={this.selectActionSheetItem}
+                    iconStyle={styles.actionSheetIcon}
                     textStyle={styles.actionSheetText}
                     style={styles.actionSheet}
                 />
@@ -170,6 +171,9 @@ function mapStateToProps(state) {
 const styles = StyleSheet.create({
     actionSheet: {
         ...styleConstants.largeShadow,
+    },
+    actionSheetIcon: {
+        color: styleConstants.primaryText,
     },
     actionSheetText: {
         fontSize: styleConstants.regularFont,

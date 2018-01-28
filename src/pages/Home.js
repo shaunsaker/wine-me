@@ -229,7 +229,7 @@ export class Home extends React.Component {
                 places={this.props.places}
                 userLocation={this.props.userLocation}
                 userPlaces={this.props.userPlaces}
-                handleButtonPress={this.linkToLocation}
+                handleLinkToLocation={this.linkToLocation}
             />
         );
 

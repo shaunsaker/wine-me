@@ -119,6 +119,12 @@ export class About extends React.Component {
                     </View>
                     <View style={styles.sectionContainer}>
                         <InfoBlockComponent
+                            title="Where do you get your data?"
+                            description="Our data is obtained from Google Places. This includes: place names, coordinates, rating and photos. While we try our best to curate this data, places that shouldn't be here do slip through the cracks. If you do notice anything that does not seem right, please let us know."
+                        />
+                    </View>
+                    <View style={styles.sectionContainer}>
+                        <InfoBlockComponent
                             title="What's next?"
                             description="If people find as much utility out of WineMe as we do, we plan to add new features including: reviews, photos, wines and activities. If you have any ideas on how else we can improve the app, please get in touch with us, we'd love to hear from you!"
                         />
@@ -190,6 +196,7 @@ const styles = StyleSheet.create({
     },
     contentContainer: {
         padding: 16,
+        paddingTop: 0,
         paddingBottom: 72,
     },
 

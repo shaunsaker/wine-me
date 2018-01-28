@@ -67,6 +67,16 @@ export default class PlaceCard extends React.Component {
             </View>
         );
 
+        const rating = this.props.place.rating && (
+            <View style={styles.starRatingContainer}>
+                <StarRating
+                    rating={Math.ceil(this.props.place.rating)}
+                    style={styles.starRating}
+                    iconStyle={styles.starRatingIcon}
+                />
+            </View>
+        );
+
         return (
             <Touchable
                 onPress={this.props.handlePress}
@@ -96,13 +106,7 @@ export default class PlaceCard extends React.Component {
                         </View>
                     </View>
                     {isVisitedIcon}
-                    <View style={styles.starRatingContainer}>
-                        <StarRating
-                            rating={Math.ceil(this.props.place.rating)}
-                            style={styles.starRating}
-                            iconStyle={styles.starRatingIcon}
-                        />
-                    </View>
+                    {rating}
                 </View>
             </Touchable>
         );
