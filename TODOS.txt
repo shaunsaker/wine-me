@@ -1,10 +1,6 @@
 BUGS
 
 TODOS
-    List scroll to top
-        On area select
-        On tab change
-
     Update splash screens 
     ForceUpdate 
         Download URLs

@@ -124,6 +124,7 @@ export class Search extends React.Component {
                     userLocation={this.props.userLocation}
                     handlePress={this.showActionSheet}
                     userPlaces={this.props.userPlaces}
+                    scrollToTop={this.state.places.length}
                 />
             ) : (
                 <BlankState

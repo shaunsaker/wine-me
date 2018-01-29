@@ -289,6 +289,7 @@ export class Home extends React.Component {
                     userLocation={this.props.userLocation}
                     handlePress={this.showActionSheet}
                     userPlaces={this.props.userPlaces}
+                    scrollToTop={this.state.activeTab}
                 />
             );
         } else {

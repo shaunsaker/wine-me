@@ -19,7 +19,6 @@ import Analytics from "../analytics";
 
 import { Page, HeaderBar, Button } from "react-native-simple-components";
 import InfoBlockComponent from "../components/InfoBlockComponent";
-import LinearGradient from "react-native-linear-gradient";
 
 export class About extends React.Component {
     constructor(props) {
@@ -146,21 +145,15 @@ export class About extends React.Component {
                     </View>
                 </ScrollView>
                 <View style={styles.buttonContainer}>
-                    <LinearGradient
-                        colors={[
-                            styleConstants.secondary,
-                            styleConstants.darkSecondary,
-                        ]}
-                        style={styles.buttonInnerContainer}>
-                        <Button
-                            text="Get in touch"
-                            textStyle={styles.buttonText}
-                            handlePress={this.linkToMail}
-                            style={styles.button}
-                            androidRipple
-                            androidRippleColor={styleConstants.white}
-                        />
-                    </LinearGradient>
+                    <Button
+                        text="Get in touch"
+                        textStyle={styles.buttonText}
+                        handlePress={this.linkToMail}
+                        style={styles.button}
+                        showShadow
+                        androidRipple
+                        androidRippleColor={styleConstants.white}
+                    />
                 </View>
             </Page>
         );
@@ -215,12 +208,10 @@ const styles = StyleSheet.create({
         left: 0,
         right: 0,
     },
-    buttonInnerContainer: {
+    button: {
+        backgroundColor: styleConstants.lightSecondary,
         borderRadius: 8,
         margin: 16,
-    },
-    button: {
-        backgroundColor: "transparent",
     },
     buttonText: {
         fontSize: styleConstants.regularFont,

@@ -12,6 +12,7 @@ export default class PlaceList extends React.Component {
         super(props);
 
         this.renderItem = this.renderItem.bind(this);
+        this.scrollToTop = this.scrollToTop.bind(this);
     }
 
     static get propTypes() {
@@ -19,7 +20,14 @@ export default class PlaceList extends React.Component {
             data: PropTypes.array,
             handlePress: PropTypes.func,
             userPlaces: PropTypes.array,
+            scrollToTop: PropTypes.any, // on change, scrollToTop
         };
+    }
+
+    componentDidUpdate(prevProps) {
+        if (this.props.scrollToTop !== prevProps.scrollToTop) {
+            this.scrollToTop();
+        }
     }
 
     renderItem = ({ item, index }) => {
@@ -36,9 +44,14 @@ export default class PlaceList extends React.Component {
         );
     };
 
+    scrollToTop() {
+        this.refs.flatList.scrollToOffset({ x: 0, y: 0 });
+    }
+
     render() {
         return (
             <FlatList
+                ref="flatList"
                 keyExtractor={item => item.id}
                 data={this.props.data}
                 renderItem={this.renderItem}
