@@ -1,5 +1,12 @@
 import React from "react";
-import { View, ScrollView, Text, StyleSheet, Platform } from "react-native";
+import {
+    View,
+    ScrollView,
+    Text,
+    StyleSheet,
+    Platform,
+    Keyboard,
+} from "react-native";
 import PropTypes from "prop-types";
 import { Actions } from "react-native-router-flux";
 import { connect } from "react-redux";
@@ -15,7 +22,7 @@ import {
     TouchableIcon,
 } from "react-native-simple-components";
 import LinearGradient from "react-native-linear-gradient";
-import SearchFilterBar from "../components/SearchFilterBar";
+import Suggestions from "../components/Suggestions";
 import PlaceList from "../lists/PlaceList";
 import BlankState from "../components/BlankState";
 
@@ -25,14 +32,10 @@ export class Search extends React.Component {
 
         this.updateSearchValue = this.updateSearchValue.bind(this);
         this.showActionSheet = this.showActionSheet.bind(this);
-        this.toggleFilterBar = this.toggleFilterBar.bind(this);
-        this.showAreaResults = this.showAreaResults.bind(this);
 
         this.state = {
             places: null,
-            searchValue: "",
-            searchByAreaValue: null,
-            showFilterBar: false,
+            searchValue: null,
         };
     }
 
@@ -46,7 +49,7 @@ export class Search extends React.Component {
         };
     }
 
-    updateSearchValue(searchValue) {
+    updateSearchValue(searchValue, areaSearch) {
         let places;
 
         if (searchValue) {
@@ -55,26 +58,37 @@ export class Search extends React.Component {
                 true,
             );
 
-            places = places.filter(place => {
-                return (
-                    place.name
-                        .toLowerCase()
-                        .indexOf(searchValue.toLowerCase()) > -1
-                );
-            });
+            if (areaSearch) {
+                places = places.filter(place => {
+                    return (
+                        utilities.getDistanceBetweenCoordinateSets(
+                            place.location,
+                            this.props.searchAreas[searchValue].location,
+                        ) <= this.props.searchAreas[searchValue].radius
+                    );
+                });
+            } else {
+                places = places.filter(place => {
+                    return (
+                        place.name
+                            .toLowerCase()
+                            .indexOf(searchValue.toLowerCase()) > -1
+                    );
+                });
 
-            places = places.map(place => {
-                const relativeDistance = Math.round(
-                    utilities.getDistanceBetweenCoordinateSets(
-                        this.props.userLocation,
-                        place.location,
-                    ),
-                );
+                places = places.map(place => {
+                    const relativeDistance = Math.round(
+                        utilities.getDistanceBetweenCoordinateSets(
+                            this.props.userLocation,
+                            place.location,
+                        ),
+                    );
 
-                place["relativeDistance"] = relativeDistance;
+                    place["relativeDistance"] = relativeDistance;
 
-                return place;
-            });
+                    return place;
+                });
+            }
 
             places = utilities.sortArrayOfObjectsByKey(
                 places,
@@ -92,43 +106,6 @@ export class Search extends React.Component {
         this.props.dispatch({
             type: "TOGGLE_ACTION_SHEET",
             place,
-        });
-    }
-
-    toggleFilterBar() {
-        this.setState({
-            showFilterBar: !this.state.showFilterBar,
-        });
-    }
-
-    showAreaResults(area) {
-        // TODO: search by area and value
-
-        this.toggleFilterBar();
-
-        // Calculate the relative distance between coords and place
-        // Return those that are below radius (eg. 50km)
-
-        const coords = this.props.searchAreas[area].location;
-
-        let places = utilities.convertDictionaryToArray(
-            this.props.places,
-            true,
-        );
-
-        let searchPlaces = places.filter((place, index) => {
-            return (
-                utilities.getDistanceBetweenCoordinateSets(
-                    coords,
-                    place.location,
-                ) <= 10
-            );
-        });
-
-        console.log(searchPlaces.length);
-
-        this.setState({
-            places: searchPlaces,
         });
     }
 
@@ -153,22 +130,11 @@ export class Search extends React.Component {
                 />
             );
 
-        let searchAreas, filterBar;
+        let searchAreas = utilities.convertDictionaryToArrayOfKeys(
+            this.props.searchAreas,
+        );
 
-        if (this.state.showFilterBar) {
-            searchAreas = utilities.convertDictionaryToArrayOfKeys(
-                this.props.searchAreas,
-            );
-
-            searchAreas = utilities.sortArray(searchAreas);
-
-            filterBar = (
-                <SearchFilterBar
-                    filters={searchAreas}
-                    handleSubmit={this.showAreaResults}
-                />
-            );
-        }
+        searchAreas = utilities.sortArray(searchAreas);
 
         return (
             <Page style={styles.container}>
@@ -199,14 +165,13 @@ export class Search extends React.Component {
                             }
                             autoFocus
                         />
-                        <TouchableIcon
-                            handlePress={this.toggleFilterBar}
-                            iconName="sort"
-                            iconStyle={styles.headerIcon}
-                            style={styles.headerRightIconContainer}
-                        />
                     </View>
-                    {filterBar}
+                    <Suggestions
+                        suggestions={searchAreas}
+                        handleSelect={area =>
+                            this.updateSearchValue(area, true)
+                        }
+                    />
                 </LinearGradient>
                 {mainContent}
             </Page>

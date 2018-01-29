@@ -1,10 +1,6 @@
 BUGS
 
 TODOS
-    Search by area
-        Value and area
-        If selected area, show it once selected
-        List is very slow to update
     Update splash screens 
     ForceUpdate 
         Download URLs
@@ -17,7 +13,8 @@ TODOS
 PLACES TO REMOVE
     Healey's Cheese
     offices
-    Worcester Wine Route
+    route
+    tour
 
 ENHANCEMENTS
     FindPlaceModal

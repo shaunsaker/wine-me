@@ -8,6 +8,7 @@ export class DataHandler extends React.Component {
     static get propTypes() {
         return {
             authenticated: PropTypes.bool,
+            uid: PropTypes.string,
             userLocation: PropTypes.object,
         };
     }
@@ -15,10 +16,10 @@ export class DataHandler extends React.Component {
     componentDidUpdate(prevProps) {
         // Once authenticated, handle data
         if (this.props.authenticated && !prevProps.authenticated) {
-            CloudData.listenForData("users", data => {
+            CloudData.listenForData("users/" + this.props.uid, data => {
                 this.props.dispatch({
-                    type: "SET_DATA",
-                    node: "users",
+                    type: "SET_USER_DATA",
+                    uid: this.props.uid,
                     data,
                 });
             });
@@ -28,8 +29,7 @@ export class DataHandler extends React.Component {
             // Listen for live changes to db
             CloudData.listenForData("app", data => {
                 this.props.dispatch({
-                    type: "SET_DATA",
-                    node: "app",
+                    type: "SET_APP_DATA",
                     data,
                 });
             });
@@ -44,6 +44,7 @@ export class DataHandler extends React.Component {
 function mapStateToProps(state) {
     return {
         authenticated: state.main.userAuth.authenticated,
+        uid: state.main.userAuth.uid,
         userLocation: state.main.appState.userLocation,
     };
 }
