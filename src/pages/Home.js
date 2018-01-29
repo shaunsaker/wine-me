@@ -319,7 +319,7 @@ export class Home extends React.Component {
                         backgroundColor={
                             Platform.OS === "android"
                                 ? this.state.animateFindPlaceModal
-                                  ? styleConstants.secondary
+                                  ? styleConstants.lightSecondary
                                   : styleConstants.primary
                                 : null
                         }
@@ -440,7 +440,7 @@ const styles = StyleSheet.create({
         width: 56,
         height: 56,
         borderRadius: 28,
-        backgroundColor: styleConstants.secondary,
+        backgroundColor: styleConstants.lightSecondary,
     },
     findPlaceButton: {
         width: 56,
@@ -450,7 +450,7 @@ const styles = StyleSheet.create({
         justifyContent: "center",
         alignItems: "center",
         position: "relative",
-        backgroundColor: styleConstants.secondary,
+        backgroundColor: styleConstants.lightSecondary,
         ...styleConstants.largeShadow,
     },
     findPlaceButtonIcon: {

@@ -157,7 +157,6 @@ export class About extends React.Component {
                             textStyle={styles.buttonText}
                             handlePress={this.linkToMail}
                             style={styles.button}
-                            showShadow
                             androidRipple
                             androidRippleColor={styleConstants.white}
                         />
@@ -222,8 +221,6 @@ const styles = StyleSheet.create({
     },
     button: {
         backgroundColor: "transparent",
-        ...styleConstants.regularShadow,
-        borderWidth: 0,
     },
     buttonText: {
         fontSize: styleConstants.regularFont,

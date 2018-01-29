@@ -59,6 +59,8 @@ export class Search extends React.Component {
             );
 
             if (areaSearch) {
+                Keyboard.dismiss();
+
                 places = places.filter(place => {
                     return (
                         utilities.getDistanceBetweenCoordinateSets(
@@ -113,8 +115,8 @@ export class Search extends React.Component {
         const mainContent =
             !this.state.searchValue && !this.state.places ? (
                 <BlankState
-                    title="Search over 568+ places"
-                    description="*Western Cape only"
+                    title="Search over 525+ places in the Western Cape"
+                    description="If you're heading somewhere specific, try an area search by tapping one of the red buttons."
                 />
             ) : this.state.places && this.state.places.length ? (
                 <PlaceList

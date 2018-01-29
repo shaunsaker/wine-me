@@ -1,6 +1,10 @@
 BUGS
 
 TODOS
+    List scroll to top
+        On area select
+        On tab change
+
     Update splash screens 
     ForceUpdate 
         Download URLs
@@ -11,10 +15,6 @@ TODOS
         Share download URLS
 
 PLACES TO REMOVE
-    Healey's Cheese
-    offices
-    route
-    tour
 
 ENHANCEMENTS
     FindPlaceModal
