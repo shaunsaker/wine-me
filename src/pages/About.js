@@ -19,7 +19,6 @@ import Analytics from "../analytics";
 
 import { Page, HeaderBar, Button } from "react-native-simple-components";
 import InfoBlockComponent from "../components/InfoBlockComponent";
-import LinearGradient from "react-native-linear-gradient";
 
 export class About extends React.Component {
     constructor(props) {
@@ -119,6 +118,12 @@ export class About extends React.Component {
                     </View>
                     <View style={styles.sectionContainer}>
                         <InfoBlockComponent
+                            title="Where do you get your data?"
+                            description="Our data is obtained from Google Places. This includes: place names, coordinates, rating and photos. While we try our best to curate this data, places that shouldn't be here do slip through the cracks. If you do notice anything that does not seem right, please let us know."
+                        />
+                    </View>
+                    <View style={styles.sectionContainer}>
+                        <InfoBlockComponent
                             title="What's next?"
                             description="If people find as much utility out of WineMe as we do, we plan to add new features including: reviews, photos, wines and activities. If you have any ideas on how else we can improve the app, please get in touch with us, we'd love to hear from you!"
                         />
@@ -140,22 +145,15 @@ export class About extends React.Component {
                     </View>
                 </ScrollView>
                 <View style={styles.buttonContainer}>
-                    <LinearGradient
-                        colors={[
-                            styleConstants.secondary,
-                            styleConstants.darkSecondary,
-                        ]}
-                        style={styles.buttonInnerContainer}>
-                        <Button
-                            text="Get in touch"
-                            textStyle={styles.buttonText}
-                            handlePress={this.linkToMail}
-                            style={styles.button}
-                            showShadow
-                            androidRipple
-                            androidRippleColor={styleConstants.white}
-                        />
-                    </LinearGradient>
+                    <Button
+                        text="Get in touch"
+                        textStyle={styles.buttonText}
+                        handlePress={this.linkToMail}
+                        style={styles.button}
+                        showShadow
+                        androidRipple
+                        androidRippleColor={styleConstants.white}
+                    />
                 </View>
             </Page>
         );
@@ -190,6 +188,7 @@ const styles = StyleSheet.create({
     },
     contentContainer: {
         padding: 16,
+        paddingTop: 0,
         paddingBottom: 72,
     },
 
@@ -209,14 +208,10 @@ const styles = StyleSheet.create({
         left: 0,
         right: 0,
     },
-    buttonInnerContainer: {
+    button: {
+        backgroundColor: styleConstants.lightSecondary,
         borderRadius: 8,
         margin: 16,
-    },
-    button: {
-        backgroundColor: "transparent",
-        ...styleConstants.regularShadow,
-        borderWidth: 0,
     },
     buttonText: {
         fontSize: styleConstants.regularFont,

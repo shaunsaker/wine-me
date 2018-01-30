@@ -9,4 +9,6 @@ config.version = {
     build: 1,
 };
 
+config.googlePlacesAPIKey = "AIzaSyAbqz9XQOVIFRtl6X1sovgna3SHDJHtKM0";
+
 export default config;

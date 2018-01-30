@@ -1,5 +1,12 @@
 import React from "react";
-import { View, ScrollView, Text, StyleSheet, Platform } from "react-native";
+import {
+    View,
+    ScrollView,
+    Text,
+    StyleSheet,
+    Platform,
+    Keyboard,
+} from "react-native";
 import PropTypes from "prop-types";
 import { Actions } from "react-native-router-flux";
 import { connect } from "react-redux";
@@ -15,6 +22,7 @@ import {
     TouchableIcon,
 } from "react-native-simple-components";
 import LinearGradient from "react-native-linear-gradient";
+import Suggestions from "../components/Suggestions";
 import PlaceList from "../lists/PlaceList";
 import BlankState from "../components/BlankState";
 
@@ -27,7 +35,7 @@ export class Search extends React.Component {
 
         this.state = {
             places: null,
-            searchValue: "",
+            searchValue: null,
         };
     }
 
@@ -37,10 +45,11 @@ export class Search extends React.Component {
             userLocation: PropTypes.object,
             uid: PropTypes.string,
             userPlaces: PropTypes.array,
+            searchAreas: PropTypes.object,
         };
     }
 
-    updateSearchValue(searchValue) {
+    updateSearchValue(searchValue, areaSearch) {
         let places;
 
         if (searchValue) {
@@ -49,26 +58,39 @@ export class Search extends React.Component {
                 true,
             );
 
-            places = places.filter(place => {
-                return (
-                    place.name
-                        .toLowerCase()
-                        .indexOf(searchValue.toLowerCase()) > -1
-                );
-            });
+            if (areaSearch) {
+                Keyboard.dismiss();
 
-            places = places.map(place => {
-                const relativeDistance = Math.round(
-                    utilities.getDistanceBetweenCoordinateSets(
-                        this.props.userLocation,
-                        place.location,
-                    ),
-                );
+                places = places.filter(place => {
+                    return (
+                        utilities.getDistanceBetweenCoordinateSets(
+                            place.location,
+                            this.props.searchAreas[searchValue].location,
+                        ) <= this.props.searchAreas[searchValue].radius
+                    );
+                });
+            } else {
+                places = places.filter(place => {
+                    return (
+                        place.name
+                            .toLowerCase()
+                            .indexOf(searchValue.toLowerCase()) > -1
+                    );
+                });
 
-                place["relativeDistance"] = relativeDistance;
+                places = places.map(place => {
+                    const relativeDistance = Math.round(
+                        utilities.getDistanceBetweenCoordinateSets(
+                            this.props.userLocation,
+                            place.location,
+                        ),
+                    );
 
-                return place;
-            });
+                    place["relativeDistance"] = relativeDistance;
+
+                    return place;
+                });
+            }
 
             places = utilities.sortArrayOfObjectsByKey(
                 places,
@@ -90,15 +112,32 @@ export class Search extends React.Component {
     }
 
     render() {
-        const blankState = this.state.searchValue
-            ? this.state.places &&
-              !this.state.places.length && (
-                  <BlankState
-                      headerText="You've clearly had too many."
-                      text="We couldn't find any Places matching that name."
-                  />
-              )
-            : null;
+        const mainContent =
+            !this.state.searchValue && !this.state.places ? (
+                <BlankState
+                    title="Search over 525+ places in the Western Cape"
+                    description="If you're heading somewhere specific, try an area search by tapping one of the red buttons."
+                />
+            ) : this.state.places && this.state.places.length ? (
+                <PlaceList
+                    data={this.state.places}
+                    userLocation={this.props.userLocation}
+                    handlePress={this.showActionSheet}
+                    userPlaces={this.props.userPlaces}
+                    scrollToTop={this.state.places.length}
+                />
+            ) : (
+                <BlankState
+                    title="You've clearly had too many."
+                    description="We couldn't find any Places matching that name."
+                />
+            );
+
+        let searchAreas = utilities.convertDictionaryToArrayOfKeys(
+            this.props.searchAreas,
+        );
+
+        searchAreas = utilities.sortArray(searchAreas);
 
         return (
             <Page style={styles.container}>
@@ -107,33 +146,37 @@ export class Search extends React.Component {
                         styleConstants.primary,
                         styleConstants.darkPrimary,
                     ]}
-                    style={styles.headerContainer}>
-                    <TouchableIcon
-                        handlePress={() => Actions.pop()}
-                        iconName="chevron-left"
-                        iconStyle={styles.headerIcon}
-                        style={styles.headerIconContainer}
-                    />
-                    <InputBar
-                        value={this.state.searchValue}
-                        handleChange={this.updateSearchValue}
-                        placeholder="Where to?"
-                        placeholderTextColor={styleConstants.transWhite}
-                        containerStyle={styles.inputBarContainer}
-                        style={styles.inputBar}
-                        showDeleteButton
-                        deleteButtonStyle={styles.inputBarDeleteButton}
-                        deleteButtonIconStyle={styles.inputBarDeleteButtonIcon}
-                        autoFocus
+                    style={styles.headerWrapper}>
+                    <View style={styles.headerContainer}>
+                        <TouchableIcon
+                            handlePress={() => Actions.pop()}
+                            iconName="chevron-left"
+                            iconStyle={styles.headerIcon}
+                            style={styles.headerLeftIconContainer}
+                        />
+                        <InputBar
+                            value={this.state.searchValue}
+                            handleChange={this.updateSearchValue}
+                            placeholder="Where to?"
+                            placeholderTextColor={styleConstants.transWhite}
+                            containerStyle={styles.inputBarContainer}
+                            style={styles.inputBar}
+                            showDeleteButton
+                            deleteButtonStyle={styles.inputBarDeleteButton}
+                            deleteButtonIconStyle={
+                                styles.inputBarDeleteButtonIcon
+                            }
+                            autoFocus
+                        />
+                    </View>
+                    <Suggestions
+                        suggestions={searchAreas}
+                        handleSelect={area =>
+                            this.updateSearchValue(area, true)
+                        }
                     />
                 </LinearGradient>
-                {blankState}
-                <PlaceList
-                    data={this.state.places}
-                    userLocation={this.props.userLocation}
-                    handlePress={this.showActionSheet}
-                    userPlaces={this.props.userPlaces}
-                />
+                {mainContent}
             </Page>
         );
     }
@@ -148,6 +191,8 @@ function mapStateToProps(state) {
             state.main.appData.users &&
             state.main.appData.users[state.main.userAuth.uid] &&
             state.main.appData.users[state.main.userAuth.uid].visited,
+        searchAreas:
+            state.main.appData.app && state.main.appData.app.searchAreas,
     };
 }
 
@@ -155,18 +200,25 @@ const styles = StyleSheet.create({
     container: {
         backgroundColor: styleConstants.white,
     },
-    headerContainer: {
+    headerWrapper: {
         alignSelf: "stretch",
         ...styleConstants.largeShadow,
-        flexDirection: "row",
         paddingTop: Platform.OS === "ios" ? 22 : 0,
-        backgroundColor: styleConstants.white,
         borderWidth: 0,
+        backgroundColor: styleConstants.white,
     },
-    headerIconContainer: {
+    headerContainer: {
+        flexDirection: "row",
+    },
+    headerLeftIconContainer: {
         justifyContent: "center",
         marginLeft: 8,
         marginRight: -8,
+    },
+    headerRightIconContainer: {
+        justifyContent: "center",
+        marginRight: 16,
+        marginLeft: -8,
     },
     headerIcon: {
         fontSize: 30,
@@ -197,20 +249,6 @@ const styles = StyleSheet.create({
     },
     inputBarDeleteButtonIcon: {
         color: styleConstants.primaryText,
-    },
-    blankStateContainer: {
-        padding: 16,
-    },
-    blankStateHeaderText: {
-        fontSize: styleConstants.largeFont,
-        color: styleConstants.primaryText,
-        ...styleConstants.secondaryFont,
-        marginBottom: 16,
-    },
-    blankStateText: {
-        fontSize: styleConstants.regularFont,
-        color: styleConstants.secondaryText,
-        ...styleConstants.primaryFont,
     },
 });
 

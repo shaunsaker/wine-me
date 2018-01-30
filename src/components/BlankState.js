@@ -7,7 +7,7 @@ import styleConstants from "../assets/styleConstants";
 import InfoBlockComponent from "./InfoBlockComponent";
 
 export default function BlankState(props) {
-  /*
+    /*
     static get propTypes() {
         return {
             title: PropTypes.string,
@@ -16,17 +16,19 @@ export default function BlankState(props) {
     }
 */
 
-  return (
-    <View style={styles.blankStateContainer}>
-      <InfoBlockComponent title={props.title} description={props.description} />
-    </View>
-  );
+    return (
+        <View style={styles.blankStateContainer}>
+            <InfoBlockComponent
+                title={props.title}
+                description={props.description}
+            />
+        </View>
+    );
 }
 
 const styles = StyleSheet.create({
-  blankStateContainer: {
-    justifyContent: "center",
-    paddingVertical: 32,
-    paddingHorizontal: 16,
-  },
+    blankStateContainer: {
+        alignSelf: "stretch",
+        padding: 16,
+    },
 });

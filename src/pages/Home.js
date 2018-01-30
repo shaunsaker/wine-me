@@ -229,7 +229,7 @@ export class Home extends React.Component {
                 places={this.props.places}
                 userLocation={this.props.userLocation}
                 userPlaces={this.props.userPlaces}
-                handleButtonPress={this.linkToLocation}
+                handleLinkToLocation={this.linkToLocation}
             />
         );
 
@@ -251,17 +251,6 @@ export class Home extends React.Component {
                     this.props.places,
                     true,
                 );
-
-                places.map(place => {
-                    const relativeDistance = Math.round(
-                        utilities.getDistanceBetweenCoordinateSets(
-                            this.props.userLocation,
-                            place.location,
-                        ),
-                    );
-
-                    place["relativeDistance"] = relativeDistance;
-                });
 
                 places = utilities.sortArrayOfObjectsByKey(
                     places,
@@ -300,6 +289,7 @@ export class Home extends React.Component {
                     userLocation={this.props.userLocation}
                     handlePress={this.showActionSheet}
                     userPlaces={this.props.userPlaces}
+                    scrollToTop={this.state.activeTab}
                 />
             );
         } else {
@@ -330,7 +320,7 @@ export class Home extends React.Component {
                         backgroundColor={
                             Platform.OS === "android"
                                 ? this.state.animateFindPlaceModal
-                                  ? styleConstants.secondary
+                                  ? styleConstants.lightSecondary
                                   : styleConstants.primary
                                 : null
                         }
@@ -451,7 +441,7 @@ const styles = StyleSheet.create({
         width: 56,
         height: 56,
         borderRadius: 28,
-        backgroundColor: styleConstants.secondary,
+        backgroundColor: styleConstants.lightSecondary,
     },
     findPlaceButton: {
         width: 56,
@@ -461,7 +451,7 @@ const styles = StyleSheet.create({
         justifyContent: "center",
         alignItems: "center",
         position: "relative",
-        backgroundColor: styleConstants.secondary,
+        backgroundColor: styleConstants.lightSecondary,
         ...styleConstants.largeShadow,
     },
     findPlaceButtonIcon: {

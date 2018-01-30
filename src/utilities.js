@@ -325,6 +325,17 @@ utilities.convertDictionaryToArray = (dictionary, shouldKeepID) => {
     return array;
 };
 
+// Takes a dictionary and returns a normal array with the keys
+utilities.convertDictionaryToArrayOfKeys = dictionary => {
+    let array = [];
+
+    for (key in dictionary) {
+        array.push(key);
+    }
+
+    return array;
+};
+
 // Filter array of objects by value (of provided keys)
 utilities.filterArrayOfObjectsByValue = (array, value, targetKey) => {
     let key;
@@ -478,6 +489,17 @@ utilities.sortArrayOfObjectsByKey = (array, targetKey) => {
     };
 
     const sortedArray = array.sortBy(targetKey);
+    return sortedArray;
+};
+
+utilities.sortArray = array => {
+    Array.prototype.sortBy = function() {
+        return this.slice(0).sort(function(a, b) {
+            return a > b ? 1 : a < b ? -1 : 0;
+        });
+    };
+
+    const sortedArray = array.sortBy();
     return sortedArray;
 };
 
