@@ -27,7 +27,7 @@ export class PlaceActionSheetHandler extends React.Component {
 
     toggleActionSheet() {
         this.props.dispatch({
-            type: "TOGGLE_ACTION_SHEET",
+            type: "SET_ACTION_SHEET",
         });
     }
 

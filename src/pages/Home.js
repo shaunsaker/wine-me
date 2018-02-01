@@ -41,11 +41,12 @@ export class Home extends React.Component {
         this.setTab = this.setTab.bind(this);
         this.showFindPlaceModal = this.showFindPlaceModal.bind(this);
         this.togglePlaceModal = this.togglePlaceModal.bind(this);
-        this.showActionSheet = this.showActionSheet.bind(this);
+        this.toggleActionSheet = this.toggleActionSheet.bind(this);
         this.linkToLocation = this.linkToLocation.bind(this);
         this.handleLink = this.handleLink.bind(this);
         this.toggleMenu = this.toggleMenu.bind(this);
         this.handleSelectMenuItem = this.handleSelectMenuItem.bind(this);
+        this.navigate = this.navigate.bind(this);
 
         this.tabs = [
             {
@@ -105,9 +106,9 @@ export class Home extends React.Component {
         });
     }
 
-    showActionSheet(place) {
+    toggleActionSheet(place) {
         this.props.dispatch({
-            type: "TOGGLE_ACTION_SHEET",
+            type: "SET_ACTION_SHEET",
             place,
         });
     }
@@ -161,7 +162,7 @@ export class Home extends React.Component {
         if (item === "About") {
             Analytics.logEvent("view_about");
 
-            Actions.about();
+            this.navigate("about");
         } else if (item === "Get in touch") {
             Analytics.logEvent("contact");
 
@@ -192,6 +193,13 @@ export class Home extends React.Component {
         }
 
         this.toggleMenu();
+    }
+
+    navigate(page) {
+        // Close the action sheet if it's open
+        this.toggleActionSheet();
+
+        Actions[page]();
     }
 
     render() {
@@ -287,7 +295,7 @@ export class Home extends React.Component {
                 <PlaceList
                     data={places}
                     userLocation={this.props.userLocation}
-                    handlePress={this.showActionSheet}
+                    handlePress={this.toggleActionSheet}
                     userPlaces={this.props.userPlaces}
                     scrollToTop={this.state.activeTab}
                 />
@@ -328,7 +336,7 @@ export class Home extends React.Component {
                     />
                     <View style={styles.header}>
                         <Touchable
-                            onPress={() => Actions.search()}
+                            onPress={() => this.navigate("search")}
                             style={styles.searchBar}>
                             <Icon name="search" style={styles.searchBarIcon} />
                             <Text style={styles.searchBarText}>

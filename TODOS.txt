@@ -1,7 +1,6 @@
 BUGS
 
 TODOS
-    Update splash screens 
     ForceUpdate 
         Download URLs
     Home
@@ -15,6 +14,8 @@ PLACES TO REMOVE
 ENHANCEMENTS
     FindPlaceModal
         Handle mark as visited and retry?
+    ActionSheet listens for route changes to hide
+        Once this has been fixed in react-native-router-flux
 
 TESTING
     Home/AnimateScale value on tablets

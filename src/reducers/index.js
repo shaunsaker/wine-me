@@ -56,7 +56,7 @@ export default function(state = initialState, action) {
             new_state.appState.userLocation = action.userLocation;
             return new_state;
 
-        case "TOGGLE_ACTION_SHEET":
+        case "SET_ACTION_SHEET":
             new_state = utilities.cloneObject(state);
             new_state.appState.showActionSheetForPlace = action.place;
             return new_state;

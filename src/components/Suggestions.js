@@ -21,17 +21,18 @@ export default function Suggestions(props) {
             contentContainerStyle={styles.container}
             horizontal
             keyboardShouldPersistTaps="handled">
-            {props.suggestions.map((suggestion, index) => {
-                return (
-                    <Label
-                        text={suggestion}
-                        textStyle={styles.labelText}
-                        style={styles.label}
-                        key={suggestion}
-                        handlePress={() => props.handleSelect(suggestion)}
-                    />
-                );
-            })}
+            {props.suggestions &&
+                props.suggestions.map((suggestion, index) => {
+                    return (
+                        <Label
+                            text={suggestion}
+                            textStyle={styles.labelText}
+                            style={styles.label}
+                            key={suggestion}
+                            handlePress={() => props.handleSelect(suggestion)}
+                        />
+                    );
+                })}
         </ScrollView>
     );
 }

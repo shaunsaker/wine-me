@@ -31,7 +31,8 @@ export class Search extends React.Component {
         super(props);
 
         this.updateSearchValue = this.updateSearchValue.bind(this);
-        this.showActionSheet = this.showActionSheet.bind(this);
+        this.toggleActionSheet = this.toggleActionSheet.bind(this);
+        this.navigateBack = this.navigateBack.bind(this);
 
         this.state = {
             places: null,
@@ -104,11 +105,18 @@ export class Search extends React.Component {
         });
     }
 
-    showActionSheet(place) {
+    toggleActionSheet(place) {
         this.props.dispatch({
-            type: "TOGGLE_ACTION_SHEET",
+            type: "SET_ACTION_SHEET",
             place,
         });
+    }
+
+    navigateBack() {
+        // Hide the action sheet if its open
+        this.toggleActionSheet();
+
+        Actions.pop();
     }
 
     render() {
@@ -122,7 +130,7 @@ export class Search extends React.Component {
                 <PlaceList
                     data={this.state.places}
                     userLocation={this.props.userLocation}
-                    handlePress={this.showActionSheet}
+                    handlePress={this.toggleActionSheet}
                     userPlaces={this.props.userPlaces}
                     scrollToTop={this.state.places.length}
                 />
@@ -149,7 +157,7 @@ export class Search extends React.Component {
                     style={styles.headerWrapper}>
                     <View style={styles.headerContainer}>
                         <TouchableIcon
-                            handlePress={() => Actions.pop()}
+                            handlePress={this.navigateBack}
                             iconName="chevron-left"
                             iconStyle={styles.headerIcon}
                             style={styles.headerLeftIconContainer}
