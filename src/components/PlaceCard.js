@@ -113,11 +113,11 @@ const styles = StyleSheet.create({
     container: {
         alignSelf: "stretch",
         height: 200,
-        ...styleConstants.regularShadow,
         borderRadius: 8,
-        borderWidth: 0,
+
         backgroundColor: styleConstants.white,
-        overflow: "hidden",
+        ...styleConstants.regularShadow,
+        borderWidth: 0,
     },
     loader: {
         height: 200,
