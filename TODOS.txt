@@ -1,7 +1,9 @@
 BUGS
 
 TODOS
+    Add permissions to Info.plist
     Fine tune searchAreas radii
+    Remove duplicate places
 
     ForceUpdate 
         Download URLs
@@ -14,6 +16,7 @@ TODOS
 PLACES TO REMOVE
 
 ENHANCEMENTS
+    Two column stacking for tablets
     FindPlaceModal
         Handle mark as visited and retry?
     ActionSheet listens for route changes to hide
