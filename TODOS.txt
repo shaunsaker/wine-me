@@ -1,6 +1,8 @@
 BUGS
 
 TODOS
+    Fine tune searchAreas radii
+
     ForceUpdate 
         Download URLs
     Home
