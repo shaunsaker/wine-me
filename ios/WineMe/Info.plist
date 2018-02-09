@@ -36,7 +36,13 @@
 		</dict>
 	</dict>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string></string>
+	<string>We need access to your location to show you wine farms closest to you</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>We do not require access to your bluetooth</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>We do not require access to your calender</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>We do not require access to your microphone</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>Lora-Bold.ttf</string>

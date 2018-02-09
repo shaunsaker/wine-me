@@ -1,7 +1,6 @@
 BUGS
 
 TODOS
-    Add permissions to Info.plist
     Fine tune searchAreas radii
     Remove duplicate places
 
