@@ -61,6 +61,11 @@ export default function(state = initialState, action) {
             new_state.appState.showActionSheetForPlace = action.place;
             return new_state;
 
+        case "SET_NETWORK_TYPE":
+            new_state = utilities.cloneObject(state);
+            new_state.appState.networkType = action.networkType;
+            return new_state;
+
         /* APP DATA */
         case "SET_APP_VERSION":
             new_state = utilities.cloneObject(state);

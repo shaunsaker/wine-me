@@ -36,6 +36,11 @@ export class NetworkHandler extends React.Component {
     }
 
     handleConnectionChange = connectionInfo => {
+        this.props.dispatch({
+            type: "SET_NETWORK_TYPE",
+            networkType: connectionInfo.type,
+        });
+
         if (connectionInfo.type === "none") {
             Analytics.logEvent("network_offline");
 

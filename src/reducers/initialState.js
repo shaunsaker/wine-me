@@ -7,7 +7,6 @@ const initialState = {
     },
     appState: {
         loading: true,
-
         error: {
             errorType: null,
             message: null,
@@ -20,13 +19,11 @@ const initialState = {
                 data: null,
             },
         },
-
         userLocation: null,
         temporaryImage: null,
-
         feedbackPosted: false,
-
         showActionSheetForPlace: null,
+        networkType: null,
     },
     appData: {
         app: null,

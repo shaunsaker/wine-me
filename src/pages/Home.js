@@ -78,6 +78,7 @@ export class Home extends React.Component {
             featuredPlaces: PropTypes.array,
             uid: PropTypes.string,
             userPlaces: PropTypes.array,
+            networkType: PropTypes.string,
         };
     }
 
@@ -298,6 +299,7 @@ export class Home extends React.Component {
                     handlePress={this.toggleActionSheet}
                     userPlaces={this.props.userPlaces}
                     scrollToTop={this.state.activeTab}
+                    networkType={this.props.networkType}
                 />
             );
         } else {
@@ -385,6 +387,7 @@ function mapStateToProps(state) {
             state.main.appData.users &&
             state.main.appData.users[state.main.userAuth.uid] &&
             state.main.appData.users[state.main.userAuth.uid].visited,
+        networkType: state.main.appState.networkType,
     };
 }
 
