@@ -1,6 +1,7 @@
 BUGS
 
 TODOS
+    Place with image sizes to reduce bandwidth
     Add permissions to Info.plist
     Fine tune searchAreas radii
     Remove duplicate places
