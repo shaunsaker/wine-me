@@ -6,7 +6,7 @@ config.version = {
         minor: 0,
         patch: 0,
     },
-    build: 1,
+    build: 2,
 };
 
 config.googlePlacesAPIKey = "AIzaSyAbqz9XQOVIFRtl6X1sovgna3SHDJHtKM0";

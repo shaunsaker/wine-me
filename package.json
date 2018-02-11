@@ -9,7 +9,7 @@
             "rm ./node_modules/react-native/local-cli/core/__fixtures__/files/package.json",
         "version": "react-native-version",
         "buildAndroid":
-            "npm test && cd android && ./gradlew clean && ./gradlew assembleRelease"
+            "cd android && ./gradlew clean && ./gradlew assembleRelease"
     },
     "dependencies": {
         "prop-types": "^15.6.0",
