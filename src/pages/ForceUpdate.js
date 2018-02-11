@@ -30,14 +30,13 @@ export class ForceUpdate extends React.Component {
     }
 
     static get propTypes() {
-        return {};
+        return {
+            download: PropTypes.object,
+        };
     }
 
     linkToApp() {
-        const link =
-            Platform.OS === "ios"
-                ? "https://itunes.apple.com/app/tapoff/id1327809569"
-                : "https://play.google.com/store/apps/details?id=co.za.auxstudio.tapoff&hl=en";
+        const link = this.props.download && this.props.download[Platform.OS];
 
         Linking.canOpenURL(link).then(supported => {
             if (supported) {
@@ -94,7 +93,9 @@ export class ForceUpdate extends React.Component {
 }
 
 function mapStateToProps(state) {
-    return {};
+    return {
+        download: state.main.appData.app && state.main.appData.app.download,
+    };
 }
 
 const styles = StyleSheet.create({

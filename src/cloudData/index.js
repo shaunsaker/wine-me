@@ -75,7 +75,6 @@ export default class CloudData {
 
     static updateData(action) {
         console.log("Dispatching update at " + action.node);
-        console.log(action);
 
         return new Promise(resolve => {
             firebase

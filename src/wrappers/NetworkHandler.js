@@ -56,6 +56,8 @@ export class NetworkHandler extends React.Component {
                 type: "SET_ERROR",
                 errorType: "NETWORK",
                 message: "Good to go! You are back online.",
+                success: true,
+                iconName: "check-circle",
                 autoHide: true,
             });
         }

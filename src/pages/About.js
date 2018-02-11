@@ -31,6 +31,7 @@ export class About extends React.Component {
     static get propTypes() {
         return {
             userPlaces: PropTypes.array,
+            download: PropTypes.object,
         };
     }
 
@@ -43,13 +44,17 @@ export class About extends React.Component {
 
         let shareMessage = `I've been to${userPlaces} local wine farm${
             userPlaces > 1 || !userPlaces ? "s" : ""
-        }! See how many you've been to. Download WineMe: X`; // TODO
+        }! See how many you've been to. Download WineMe: ${
+            this.props.download
+                ? this.props.download[Platform.OS]
+                : "Fetching download url"
+        }`;
 
         Share.share(
             {
                 message: shareMessage,
                 title: "WineMe",
-                url: "X", // iOS only
+                url: this.props.download && this.props.download.ios, // iOS only
             },
             {
                 subject: "Red red wine", // iOS only
@@ -166,6 +171,7 @@ function mapStateToProps(state) {
             state.main.appData.users &&
             state.main.appData.users[state.main.userAuth.uid] &&
             state.main.appData.users[state.main.userAuth.uid].visited,
+        download: state.main.appData.app && state.main.appData.app.download,
     };
 }
 

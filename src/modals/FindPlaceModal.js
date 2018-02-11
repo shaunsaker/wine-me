@@ -40,10 +40,11 @@ export default class FindPlaceModal extends React.Component {
         places = utilities.convertDictionaryToArray(this.props.places, true);
 
         places = places.map(place => {
-            // Only if we have not been there
+            // Only if we have not been there and only if it has no/5 star rating
             if (
                 !this.props.userPlaces ||
-                !utilities.isValueInArray(place.id, this.props.userPlaces)
+                (!utilities.isValueInArray(place.id, this.props.userPlaces) &&
+                    (place.rating || Math.ceil(place.rating === 5)))
             ) {
                 const relativeDistance = Math.round(
                     utilities.getDistanceBetweenCoordinateSets(

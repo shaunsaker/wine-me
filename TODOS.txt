@@ -1,20 +1,13 @@
 BUGS
 
 TODOS
-    Fine tune searchAreas radii
-    Remove duplicate places
-
-    ForceUpdate 
-        Download URLs
-    Home
-        Share download URLS
-    About
-        Download URLs
-        Share download URLS
 
 PLACES TO REMOVE
 
 ENHANCEMENTS
+    Sorting of places on my places tab should be latest to oldest
+    Remove duplicate places
+    Fix naming of places
     Two column stacking for tablets
     FindPlaceModal
         Handle mark as visited and retry?
@@ -23,5 +16,3 @@ ENHANCEMENTS
 
 TESTING
     Home/AnimateScale value on tablets
-    PlaceCard/Icons may need gradient
-    NetworkHandler

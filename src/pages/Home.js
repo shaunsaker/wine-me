@@ -79,6 +79,7 @@ export class Home extends React.Component {
             uid: PropTypes.string,
             userPlaces: PropTypes.array,
             networkType: PropTypes.string,
+            download: PropTypes.object,
         };
     }
 
@@ -177,13 +178,17 @@ export class Home extends React.Component {
 
             let shareMessage = `I've been to${userPlaces} local wine farm${
                 userPlaces > 1 || !userPlaces ? "s" : ""
-            }! See how many you've been to. Download WineMe: X`; // TODO
+            }! See how many you've been to. Download WineMe: ${
+                this.props.download
+                    ? this.props.download[Platform.OS]
+                    : "Fetching download url"
+            }`;
 
             Share.share(
                 {
                     message: shareMessage,
                     title: "WineMe",
-                    url: "X", // iOS only
+                    url: this.props.download && this.props.download.ios, // iOS only
                 },
                 {
                     subject: "Red red wine", // iOS only
@@ -280,8 +285,6 @@ export class Home extends React.Component {
                             this.props.userPlaces,
                         );
                     });
-
-                    // NOTE: Order should be latest to oldest
                 } else {
                     blankState = (
                         <BlankState
@@ -388,6 +391,7 @@ function mapStateToProps(state) {
             state.main.appData.users[state.main.userAuth.uid] &&
             state.main.appData.users[state.main.userAuth.uid].visited,
         networkType: state.main.appState.networkType,
+        download: state.main.appData.app && state.main.appData.app.download,
     };
 }
 

@@ -10,6 +10,8 @@ export class DataHandler extends React.Component {
             authenticated: PropTypes.bool,
             uid: PropTypes.string,
             userLocation: PropTypes.object,
+            loading: PropTypes.bool,
+            appData: PropTypes.object,
         };
     }
 
@@ -34,6 +36,12 @@ export class DataHandler extends React.Component {
                 });
             });
         }
+
+        if (this.props.loading && this.props.appData) {
+            this.props.dispatch({
+                type: "TOGGLE_LOADING",
+            });
+        }
     }
 
     render() {
@@ -46,6 +54,8 @@ function mapStateToProps(state) {
         authenticated: state.main.userAuth.authenticated,
         uid: state.main.userAuth.uid,
         userLocation: state.main.appState.userLocation,
+        loading: state.main.appState.loading,
+        appData: state.main.appData.app,
     };
 }
 
