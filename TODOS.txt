@@ -1,6 +1,7 @@
 BUGS
 
 TODOS
+    Only console.log if dev
 
 PLACES TO REMOVE
 

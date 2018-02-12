@@ -74,7 +74,9 @@ export default class CloudData {
     }
 
     static updateData(action) {
-        console.log("Dispatching update at " + action.node);
+        if (__DEV__) {
+            console.log("Dispatching update at " + action.node);
+        }
 
         return new Promise(resolve => {
             firebase
@@ -97,7 +99,9 @@ export default class CloudData {
     }
 
     static pushData(action) {
-        console.log("Dispatching push at " + action.node);
+        if (__DEV__) {
+            console.log("Dispatching push at " + action.node);
+        }
 
         return new Promise(resolve => {
             firebase
@@ -120,7 +124,9 @@ export default class CloudData {
     }
 
     static deleteData(action) {
-        console.log("Dispatching delete at " + action.node);
+        if (__DEV__) {
+            console.log("Dispatching delete at " + action.node);
+        }
 
         return new Promise(resolve => {
             firebase
