@@ -4,25 +4,41 @@ import PropTypes from "prop-types";
 
 import styleConstants from "../assets/styleConstants";
 
+import Icon from "react-native-vector-icons/MaterialIcons";
+
 export default function InfoBlockComponent(props) {
     /*
     static get propTypes() {
         return {
           title: PropTypes.string.,
           description: PropTypes.string,
+          iconName: PropTypes.string,
+          style: PropTypes.any
         };
     }
 */
+    const icon = props.iconName && (
+        <Icon name={props.iconName} style={styles.icon} />
+    );
 
     return (
-        <View style={styles.container}>
-            <Text style={styles.titleText}>{props.title}</Text>
-            <Text style={styles.descriptionText}>{props.description}</Text>
+        <View style={[styles.container, props.style]}>
+            <View style={[styles.textContainer, props.iconName && { flex: 1 }]}>
+                <Text style={styles.titleText}>{props.title}</Text>
+                <Text style={styles.descriptionText}>{props.description}</Text>
+            </View>
+            {icon}
         </View>
     );
 }
 
 const styles = StyleSheet.create({
+    container: {
+        alignSelf: "stretch",
+        flexDirection: "row",
+        padding: 16,
+    },
+    textContainer: {},
     titleText: {
         fontSize: styleConstants.largeFont,
         color: styleConstants.primaryText,
@@ -33,5 +49,9 @@ const styles = StyleSheet.create({
         fontSize: styleConstants.regularFont,
         color: styleConstants.primaryText,
         ...styleConstants.primaryFont,
+    },
+    icon: {
+        fontSize: 64,
+        color: styleConstants.primary,
     },
 });

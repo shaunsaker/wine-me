@@ -11,14 +11,19 @@ import styleConstants from "../assets/styleConstants";
 import { Page, HeaderBar, TouchableIcon } from "react-native-simple-components";
 import InfoBlock from "../components/InfoBlock";
 import LeaderboardList from "../lists/LeaderboardList";
+import UserNameModal from "../modals/UserNameModal";
+import CustomIcon from "../assets/icons";
+import Icon from "react-native-vector-icons/MaterialIcons";
 
 export class Leaderboard extends React.Component {
     constructor(props) {
         super(props);
 
+        this.toggleUserNameModal = this.toggleUserNameModal.bind(this);
         this.scrollToUser = this.scrollToUser.bind(this);
 
         this.state = {
+            showUserNameModal: false,
             scrollToUser: null,
         };
     }
@@ -30,6 +35,24 @@ export class Leaderboard extends React.Component {
         };
     }
 
+    componentDidMount() {
+        if (
+            !(
+                this.props.users[this.props.uid] &&
+                this.props.users[this.props.uid].userName
+            )
+        ) {
+            // No userName
+            this.toggleUserNameModal();
+        }
+    }
+
+    toggleUserNameModal() {
+        this.setState({
+            showUserNameModal: !this.state.showUserNameModal,
+        });
+    }
+
     scrollToUser() {
         this.setState({
             scrollToUser: Date.now(),
@@ -37,7 +60,7 @@ export class Leaderboard extends React.Component {
     }
 
     render() {
-        // TODO: If on mount, no userName, display userName page to enter name
+        // TODO: If on mount, no userName, display userName modal to enter name
 
         let users = utilities.convertDictionaryToArray(this.props.users, true);
 
@@ -50,6 +73,8 @@ export class Leaderboard extends React.Component {
         // this.props.users[this.props.uid] &&
         // this.props.users[this.props.uid].userName;
 
+        const userNameModal = this.state.showUserNameModal && <UserNameModal />;
+
         return (
             <Page style={styles.container}>
                 <HeaderBar
@@ -59,26 +84,22 @@ export class Leaderboard extends React.Component {
                     style={styles.header}
                     statusBarStyle="dark-content"
                     textRight
-                    text={userName ? "Hello, " + userName : "Claim your name"}
+                    text={userName ? "Hello, " + userName : "temp: no username"}
                     textStyle={styles.headerText}
                     handleTextPress={userName && this.scrollToUser}
                 />
-                <View
-                    style={{
-                        alignSelf: "stretch",
-                        padding: 16,
-                        paddingTop: 0,
-                    }}>
-                    <InfoBlock
-                        title="WineMe Leaderboard"
-                        description="Claim your name and start visiting wine farms. Each visit is equal to 5 corks! Your total cork tally will end up here."
-                    />
-                </View>
+                <InfoBlock
+                    title="WineMe Leaderboard"
+                    description="Claim your name and start visiting wine farms. Each visit is equal to 5 corks! Your total cork tally will end up here."
+                    iconName="stars"
+                    style={styles.infoBlock}
+                />
                 <LeaderboardList
                     data={users}
                     uid={this.props.uid}
                     scrollToUser={this.state.scrollToUser}
                 />
+                {userNameModal}
             </Page>
         );
     }
@@ -106,6 +127,9 @@ const styles = StyleSheet.create({
         color: styleConstants.primaryText,
         ...styleConstants.primaryFont,
         textDecorationLine: "underline",
+    },
+    infoBlock: {
+        paddingTop: 0,
     },
 });
 

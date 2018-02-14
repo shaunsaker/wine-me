@@ -29,7 +29,7 @@ export default function SideMenuComponent(props) {
     return (
         <View style={styles.container}>
             <View style={styles.logoContainer}>
-                <CustomIcon name="noun_32096_cc" style={styles.logo} />
+                <CustomIcon name="logo" style={styles.logo} />
             </View>
             <SideMenuItem
                 text="Home"
@@ -46,7 +46,7 @@ export default function SideMenuComponent(props) {
             <SideMenuItem
                 text="Leaderboard"
                 page="leaderboard"
-                iconName="videogame-asset"
+                iconName="stars"
                 handlePress={props.handlePress}
             />
             <SideMenuItem

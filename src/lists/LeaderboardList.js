@@ -143,6 +143,8 @@ const styles = StyleSheet.create({
     outerWrapper: {
         alignSelf: "stretch",
         flex: 1,
+        padding: 16,
+        paddingTop: 0,
     },
     wrapper: {},
     container: {},

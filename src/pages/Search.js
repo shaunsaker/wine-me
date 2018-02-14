@@ -123,12 +123,10 @@ export class Search extends React.Component {
     render() {
         const mainContent =
             !this.state.searchValue && !this.state.places ? (
-                <View style={{ padding: 16 }}>
-                    <InfoBlock
-                        title="Search over 525+ places in the Western Cape"
-                        description="If you're heading somewhere specific, try an area search by tapping one of the red buttons."
-                    />
-                </View>
+                <InfoBlock
+                    title="Search over 525+ places in the Western Cape"
+                    description="If you're heading somewhere specific, try an area search by tapping one of the red buttons."
+                />
             ) : this.state.places && this.state.places.length ? (
                 <PlaceList
                     data={this.state.places}
@@ -139,12 +137,10 @@ export class Search extends React.Component {
                     networkType={this.props.networkType}
                 />
             ) : (
-                <View style={{ padding: 16 }}>
-                    <InfoBlock
-                        title="You've clearly had too many."
-                        description="We couldn't find any Places matching that name."
-                    />
-                </View>
+                <InfoBlock
+                    title="You've clearly had too many."
+                    description="We couldn't find any Places matching that name."
+                />
             );
 
         let searchAreas = utilities.convertDictionaryToArrayOfKeys(

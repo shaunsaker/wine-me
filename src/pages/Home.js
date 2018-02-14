@@ -189,10 +189,7 @@ export class Home extends React.Component {
             <Touchable
                 onPress={this.showFindPlaceModal}
                 style={styles.findPlaceButton}>
-                <CustomIcon
-                    name="noun_32096_cc"
-                    style={styles.findPlaceButtonIcon}
-                />
+                <CustomIcon name="logo" style={styles.findPlaceButtonIcon} />
             </Touchable>
         ) : (
             <AnimateScale

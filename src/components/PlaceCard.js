@@ -54,10 +54,7 @@ https://maps.googleapis.com/maps/api/place/photo?maxheight=600&photoreference=Cn
             />
         ) : (
             <View style={styles.backgroundImageIconContainer}>
-                <CustomIcon
-                    name="noun_32096_cc"
-                    style={styles.backgroundImageIcon}
-                />
+                <CustomIcon name="logo" style={styles.backgroundImageIcon} />
             </View>
         );
 

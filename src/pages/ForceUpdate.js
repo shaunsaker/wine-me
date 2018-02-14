@@ -66,7 +66,7 @@ export class ForceUpdate extends React.Component {
                     ]}
                     style={styles.container}>
                     <View style={styles.logoContainer}>
-                        <CustomIcon name="noun_32096_cc" style={styles.logo} />
+                        <CustomIcon name="logo" style={styles.logo} />
                     </View>
                     <View>
                         <Text style={styles.titleText}>
