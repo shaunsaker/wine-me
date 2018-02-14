@@ -1,11 +1,8 @@
 BUGS
 
-TODOS
-    New screenshots
-
-PLACES TO REMOVE
-
-ENHANCEMENTS
+TODOS (NEXT VERSION)
+    CHANGELOG.md
+    Use development node for development
     Profile page
         No My Places tab
         Search Places => Search Wine Farms
@@ -14,6 +11,8 @@ ENHANCEMENTS
     Remove duplicate places
     Fix naming of places
     Two column stacking for tablets
+
+ENHANCEMENTS
     FindPlaceModal
         Handle mark as visited and retry?
     ActionSheet listens for route changes to hide
