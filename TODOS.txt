@@ -1,10 +1,6 @@
 BUGS
 
 TODOS
-    Splash screens
-        Smaller icon
-        Color should be primary/secondary
-        Logo text
     New screenshots
 
 PLACES TO REMOVE
