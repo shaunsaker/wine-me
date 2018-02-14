@@ -19,9 +19,8 @@ import Analytics from "../analytics";
 
 import {
     Page,
-    StatusBarComponent,
+    HeaderBar,
     Touchable,
-    TouchableIcon,
     TabBar,
     ButtonIcon,
 } from "react-native-simple-components";
@@ -34,6 +33,7 @@ import PlaceList from "../lists/PlaceList";
 import InfoBlock from "../components/InfoBlock";
 import SideMenu from "react-native-side-menu";
 import SideMenuComponent from "../components/SideMenuComponent";
+import Logo from "../components/Logo";
 
 export class Home extends React.Component {
     constructor(props) {
@@ -319,35 +319,20 @@ export class Home extends React.Component {
                             styleConstants.darkPrimary,
                         ]}
                         style={styles.headerContainer}>
-                        <StatusBarComponent
-                            backgroundColor={
+                        <HeaderBar
+                            leftIconName="menu"
+                            leftIconStyle={styles.headerIcon}
+                            handleLeftIconPress={this.toggleSideMenu}
+                            style={styles.header}
+                            statusBarColor={
                                 Platform.OS === "android"
                                     ? this.state.animateFindPlaceModal
                                       ? styleConstants.lightSecondary
                                       : styleConstants.primary
                                     : null
                             }
-                            barStyle="light-content"
+                            textComponent={<Logo />}
                         />
-                        <View style={styles.header}>
-                            <TouchableIcon
-                                iconName="menu"
-                                iconStyle={styles.headerIcon}
-                                style={styles.headerIconContainer}
-                                handlePress={this.toggleSideMenu}
-                            />
-                            <Touchable
-                                onPress={() => this.navigate("search")}
-                                style={styles.searchBar}>
-                                <Icon
-                                    name="search"
-                                    style={styles.searchBarIcon}
-                                />
-                                <Text style={styles.searchBarText}>
-                                    Search Places
-                                </Text>
-                            </Touchable>
-                        </View>
                         <TabBar
                             backgroundColor="transparent"
                             textColor={styleConstants.transWhite}
@@ -395,12 +380,11 @@ const styles = StyleSheet.create({
     headerContainer: {
         alignSelf: "stretch",
         ...styleConstants.largeShadow,
-        paddingTop: Platform.OS === "ios" ? 22 : 0,
         backgroundColor: styleConstants.white,
         borderWidth: 0,
     },
     header: {
-        flexDirection: "row",
+        backgroundColor: "transparent",
     },
     headerIconContainer: {
         paddingLeft: 16,
@@ -408,29 +392,6 @@ const styles = StyleSheet.create({
     },
     headerIcon: {
         color: styleConstants.white,
-    },
-    searchBar: {
-        flex: 1,
-        marginTop: 12,
-        marginBottom: 8,
-        marginHorizontal: 16,
-        flexDirection: "row",
-        alignItems: "center",
-        backgroundColor: styleConstants.transBlack,
-        paddingVertical: 12,
-        height: 52,
-        paddingHorizontal: 16,
-        borderRadius: 8,
-    },
-    searchBarIcon: {
-        fontSize: styleConstants.iconFont,
-        color: styleConstants.white,
-        marginRight: 8,
-    },
-    searchBarText: {
-        fontSize: styleConstants.regularFont,
-        color: styleConstants.transWhite,
-        ...styleConstants.primaryFont,
     },
     bodyWrapper: {
         flex: 1,
@@ -461,6 +422,7 @@ const styles = StyleSheet.create({
         position: "relative",
         backgroundColor: styleConstants.lightSecondary,
         ...styleConstants.largeShadow,
+        borderWidth: 0,
     },
     findPlaceButtonIcon: {
         fontSize: 32,

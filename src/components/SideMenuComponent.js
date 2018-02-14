@@ -4,9 +4,9 @@ import PropTypes from "prop-types";
 
 import styleConstants from "../assets/styleConstants";
 
+import Logo from "../components/Logo";
 import { Touchable } from "react-native-simple-components";
 import Icon from "react-native-vector-icons/MaterialIcons";
-import CustomIcon from "../assets/icons";
 
 function SideMenuItem(props) {
     return (
@@ -28,10 +28,8 @@ export default function SideMenuComponent(props) {
 
     return (
         <View style={styles.container}>
-            <View style={styles.logoContainer}>
-                <Text style={styles.logoText}>Wine</Text>
-                <CustomIcon name="logo" style={styles.logo} />
-                <Text style={styles.logoText}>Me</Text>
+            <View style={styles.header}>
+                <Logo />
             </View>
             <SideMenuItem
                 text="Home"
@@ -68,23 +66,12 @@ const styles = StyleSheet.create({
         flex: 1,
         borderRightWidth: 4,
     },
-    logoContainer: {
-        alignSelf: "stretch",
+
+    header: {
         height: 56,
         justifyContent: "center",
-        alignItems: "center",
-        flexDirection: "row",
     },
-    logoText: {
-        fontSize: 20,
-        ...styleConstants.secondaryFont,
-        color: "white",
-    },
-    logo: {
-        fontSize: styleConstants.iconFont * 1.5,
-        color: styleConstants.white,
-        marginHorizontal: 4,
-    },
+
     row: {
         flexDirection: "row",
         alignItems: "center",

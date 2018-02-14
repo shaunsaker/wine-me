@@ -95,7 +95,11 @@ https://maps.googleapis.com/maps/api/place/photo?maxheight=600&photoreference=Cn
                         <View style={styles.labelsContainer}>
                             <Label
                                 iconName="location-on"
-                                text={this.props.place.relativeDistance + " km"}
+                                text={
+                                    (this.props.place.relativeDistance
+                                        ? this.props.place.relativeDistance
+                                        : "-") + " km"
+                                }
                                 style={styles.distanceLabel}
                                 textStyle={styles.labelText}
                                 iconStyle={styles.labelText}

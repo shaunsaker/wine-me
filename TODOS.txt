@@ -1,16 +1,21 @@
 BUGS
-    undefined km bug in place cards
 
 TODOS
     Splash screens
         Smaller icon
+        Color should be primary/secondary
         Logo text
-    Logo text in menu
+    Refine colours (some unused, lightSecondary => secondary)
+    New screenshots
 
 PLACES TO REMOVE
 
 ENHANCEMENTS
+    Profile page
+        No My Places tab
+        Search Places => Search Wine Farms
     Sorting of places on my places tab should be latest to oldest
+        Save date visited
     Remove duplicate places
     Fix naming of places
     Two column stacking for tablets
@@ -20,4 +25,4 @@ ENHANCEMENTS
         Once this has been fixed in react-native-router-flux
 
 TESTING
-    Home/AnimateScale value on tablets
+    Unit testing
