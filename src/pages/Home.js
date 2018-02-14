@@ -262,7 +262,6 @@ export class Home extends React.Component {
                     blankState = (
                         <View
                             style={{
-                                padding: 16,
                                 backgroundColor: styleConstants.white,
                             }}>
                             <InfoBlock

@@ -1,15 +1,10 @@
 import React from "react";
-import { View, Text, StyleSheet } from "react-native";
+import { View, Text, StyleSheet, Platform } from "react-native";
 import PropTypes from "prop-types";
 
 import styleConstants from "../assets/styleConstants";
 
-import {
-    Modal,
-    Button,
-    InputContainer,
-    Input,
-} from "react-native-simple-components";
+import { Modal, InputContainer, Input } from "react-native-simple-components";
 import { AnimateTranslateX } from "react-native-simple-animators";
 import InfoBlock from "../components/InfoBlock";
 
@@ -102,31 +97,16 @@ export default class UserNameModal extends React.Component {
                         description="Choose something fun like ThirstyOwl or use your real name."
                         iconName="person-pin"
                     />
-                    <Input
-                        value={this.state.userName}
-                        handleChange={this.updateUserName}
-                        handleSubmit={this.submitUserName}
-                        placeholder="e.g. ThirstyOwl"
-                        style={[
-                            styles.input,
-                            !this.state.error && { marginBottom: 30 },
-                        ]}
-                    />
-                    {error}
-                    <Button
-                        text={
-                            "Claim " +
-                            (this.state.userName
-                                ? this.state.userName
-                                : "ThirstyOwl")
-                        }
-                        textStyle={styles.buttonText}
-                        style={styles.button}
-                        handlePress={this.submitUserName}
-                        disabled={!this.state.userName}
-                        showLoader={this.state.loading}
-                        loaderColor={styleConstants.white}
-                    />
+                    <View style={styles.inputContainer}>
+                        {error}
+                        <Input
+                            value={this.state.userName}
+                            handleChange={this.updateUserName}
+                            handleSubmit={this.submitUserName}
+                            placeholder="e.g. ThirstyOwl"
+                            style={styles.input}
+                        />
+                    </View>
                 </InputContainer>
             </Modal>
         );
@@ -181,15 +161,19 @@ const styles = StyleSheet.create({
         textAlign: "center",
     },
 
+    inputContainer: {},
     input: {
         fontSize: styleConstants.largeFont,
         color: styleConstants.primaryText,
         ...styleConstants.primaryFont,
         marginHorizontal: 16,
+        paddingTop: 48, // error message
     },
 
     errorTextContainer: {
-        paddingHorizontal: 16,
+        position: "absolute",
+        top: 16,
+        left: 16,
     },
     errorText: {
         fontSize: styleConstants.regularFont,

@@ -83,6 +83,24 @@ export default function(state = initialState, action) {
             new_state.appState.loading = false;
             new_state.appState.refreshing = false;
 
+            if (action.node === "app") {
+                // Get relative distance and isVisited and append
+                let places = new_state.appData.app.places;
+
+                for (let placeID in places) {
+                    const relativeDistance = Math.round(
+                        utilities.getDistanceBetweenCoordinateSets(
+                            new_state.appState.userLocation,
+                            places[placeID].location,
+                        ),
+                    );
+
+                    places[placeID]["relativeDistance"] = relativeDistance;
+                }
+
+                new_state.appData.app.places = places;
+            }
+
             return new_state;
 
         default:

@@ -76,9 +76,8 @@ export class Leaderboard extends React.Component {
             return item.userName && item.visited;
         });
 
-        // Sort users by length of visited items
         users = users.sort((a, b) => {
-            return a.visited.length < b.visited.length;
+            return b.visited.length - a.visited.length;
         });
 
         const userName =
@@ -100,6 +99,7 @@ export class Leaderboard extends React.Component {
                     leftIconStyle={styles.headerIcon}
                     handleLeftIconPress={() => Actions.pop()}
                     style={styles.header}
+                    statusBarColor={styleConstants.white}
                     statusBarStyle="dark-content"
                     textRight
                     text={userName ? "Hello, " + userName : "Claim your name"}

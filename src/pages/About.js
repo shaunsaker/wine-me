@@ -197,9 +197,7 @@ const styles = StyleSheet.create({
         paddingBottom: 72,
     },
 
-    sectionContainer: {
-        marginBottom: 16,
-    },
+    sectionContainer: {},
     buttonContainer: {
         position: "absolute",
         bottom: 0,
