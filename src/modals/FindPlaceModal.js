@@ -124,7 +124,7 @@ const styles = StyleSheet.create({
         flex: 1,
         justifyContent: "center",
         padding: 16,
-        backgroundColor: styleConstants.lightSecondary,
+        backgroundColor: styleConstants.secondary,
     },
     mainContentContainer: {
         width: styleConstants.windowWidth,

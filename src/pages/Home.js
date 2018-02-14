@@ -327,7 +327,7 @@ export class Home extends React.Component {
                             statusBarColor={
                                 Platform.OS === "android"
                                     ? this.state.animateFindPlaceModal
-                                      ? styleConstants.lightSecondary
+                                      ? styleConstants.secondary
                                       : styleConstants.primary
                                     : null
                             }
@@ -410,7 +410,7 @@ const styles = StyleSheet.create({
         width: 56,
         height: 56,
         borderRadius: 28,
-        backgroundColor: styleConstants.lightSecondary,
+        backgroundColor: styleConstants.secondary,
     },
     findPlaceButton: {
         width: 56,
@@ -420,7 +420,7 @@ const styles = StyleSheet.create({
         justifyContent: "center",
         alignItems: "center",
         position: "relative",
-        backgroundColor: styleConstants.lightSecondary,
+        backgroundColor: styleConstants.secondary,
         ...styleConstants.largeShadow,
         borderWidth: 0,
     },

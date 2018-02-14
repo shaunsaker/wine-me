@@ -193,14 +193,14 @@ const styles = StyleSheet.create({
     },
     errorText: {
         fontSize: styleConstants.regularFont,
-        color: styleConstants.lightSecondary,
+        color: styleConstants.secondary,
         ...styleConstants.primaryFont,
     },
 
     button: {
         margin: 16,
         marginBottom: 0,
-        backgroundColor: styleConstants.lightSecondary,
+        backgroundColor: styleConstants.secondary,
         borderRadius: 8,
     },
     buttonText: {

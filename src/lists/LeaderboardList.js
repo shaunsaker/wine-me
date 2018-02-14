@@ -171,7 +171,7 @@ const styles = StyleSheet.create({
         borderBottomColor: "#e5e5e5",
     },
     highlightedRow: {
-        backgroundColor: styleConstants.lightSecondary,
+        backgroundColor: styleConstants.secondary,
         borderBottomWidth: 1,
         borderBottomColor: "#efe3ca",
     },

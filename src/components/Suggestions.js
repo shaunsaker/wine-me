@@ -48,7 +48,7 @@ const styles = StyleSheet.create({
         marginBottom: 16,
         marginRight: 16,
         borderRadius: 8,
-        backgroundColor: styleConstants.lightSecondary,
+        backgroundColor: styleConstants.secondary,
     },
     labelText: {
         fontSize: styleConstants.regularFont,

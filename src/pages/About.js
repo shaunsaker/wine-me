@@ -200,13 +200,6 @@ const styles = StyleSheet.create({
     sectionContainer: {
         marginBottom: 16,
     },
-    headingText: {
-        fontSize: styleConstants.largeFont,
-        color: styleConstants.secondary,
-        ...styleConstants.secondaryFont,
-        marginBottom: 12,
-        lineHeight: 34,
-    },
     buttonContainer: {
         position: "absolute",
         bottom: 0,
@@ -214,7 +207,7 @@ const styles = StyleSheet.create({
         right: 0,
     },
     button: {
-        backgroundColor: styleConstants.lightSecondary,
+        backgroundColor: styleConstants.secondary,
         borderRadius: 8,
         margin: 16,
     },

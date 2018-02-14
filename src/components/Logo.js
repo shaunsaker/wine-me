@@ -9,15 +9,39 @@ import CustomIcon from "../assets/icons";
 export default function Logo(props) {
     /*
     static get propTypes() {
-        return {};
+        return {
+            invertColors: PropTypes.bool,
+            large: PropTypes.bool,
+        };
     }
 */
 
     return (
         <View style={styles.logoContainer}>
-            <Text style={styles.logoText}>Wine</Text>
-            <CustomIcon name="logo" style={styles.logo} />
-            <Text style={styles.logoText}>Me</Text>
+            <Text
+                style={[
+                    styles.logoText,
+                    props.invertColors && { color: styleConstants.primaryText },
+                    props.large && { fontSize: 30 },
+                ]}>
+                Wine
+            </Text>
+            <CustomIcon
+                name="logo"
+                style={[
+                    styles.logo,
+                    props.invertColors && { color: styleConstants.primaryText },
+                    props.large && { fontSize: 64 },
+                ]}
+            />
+            <Text
+                style={[
+                    styles.logoText,
+                    props.invertColors && { color: styleConstants.primaryText },
+                    props.large && { fontSize: 30 },
+                ]}>
+                Me
+            </Text>
         </View>
     );
 }

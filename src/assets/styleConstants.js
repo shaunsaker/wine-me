@@ -27,9 +27,8 @@ styleConstants.iconFont = 24;
 styleConstants.primary = "#3D84A8";
 styleConstants.lightPrimary = "#46CDCF";
 styleConstants.darkPrimary = "#48466D";
-styleConstants.secondary = "#88304E";
-styleConstants.lightSecondary = "#E23E57";
-styleConstants.darkSecondary = "#522546";
+styleConstants.secondary = "#E23E57";
+
 styleConstants.white = "#FFFFFF";
 styleConstants.transWhite = "rgba(255, 255, 255, 0.70)";
 styleConstants.transBlack = "rgba(0, 0, 0, 0.70)";

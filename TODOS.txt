@@ -5,7 +5,6 @@ TODOS
         Smaller icon
         Color should be primary/secondary
         Logo text
-    Refine colours (some unused, lightSecondary => secondary)
     New screenshots
 
 PLACES TO REMOVE

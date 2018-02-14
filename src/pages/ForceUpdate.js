@@ -17,8 +17,8 @@ import utilities from "../utilities";
 import styleConstants from "../assets/styleConstants";
 
 import { Page, Button } from "react-native-simple-components";
-import LinearGradient from "react-native-linear-gradient";
-import CustomIcon from "../assets/icons";
+import Logo from "../components/Logo";
+import InfoBlock from "../components/InfoBlock";
 
 export class ForceUpdate extends React.Component {
     constructor(props) {
@@ -54,39 +54,27 @@ export class ForceUpdate extends React.Component {
 
     render() {
         return (
-            <Page>
+            <Page style={styles.container}>
                 <StatusBar
                     backgroundColor={styleConstants.primary}
                     barStyle="light-content"
                 />
-                <LinearGradient
-                    colors={[
-                        styleConstants.primary,
-                        styleConstants.darkPrimary,
-                    ]}
-                    style={styles.container}>
-                    <View style={styles.logoContainer}>
-                        <CustomIcon name="logo" style={styles.logo} />
-                    </View>
-                    <View>
-                        <Text style={styles.titleText}>
-                            A new version of WineMe is available
-                        </Text>
-                        <Text style={styles.subtitleText}>
-                            Please visit the store or press the button below to
-                            update
-                        </Text>
-                    </View>
-                    <Button
-                        text="Update now"
-                        textStyle={styles.buttonText}
-                        handlePress={this.linkToApp}
-                        style={styles.button}
-                        showShadow
-                        androidRipple
-                        androidRippleColor={styleConstants.white}
-                    />
-                </LinearGradient>
+                <Logo invertColors large />
+                <InfoBlock
+                    title="A new version of WineMe is available"
+                    description="Please visit the store or press the button below to update"
+                    textCenter
+                    style={{ marginTop: 8 }}
+                />
+                <Button
+                    text="Update now"
+                    textStyle={styles.buttonText}
+                    handlePress={this.linkToApp}
+                    style={styles.button}
+                    showShadow
+                    androidRipple
+                    androidRippleColor={styleConstants.white}
+                />
             </Page>
         );
     }
@@ -103,8 +91,8 @@ const styles = StyleSheet.create({
         flex: 1,
         justifyContent: "center",
         alignItems: "center",
-        padding: 16,
         alignSelf: "stretch",
+        backgroundColor: styleConstants.white,
     },
 
     logoContainer: {
@@ -115,32 +103,16 @@ const styles = StyleSheet.create({
         color: styleConstants.white,
     },
 
-    titleText: {
-        fontSize: styleConstants.largeFont,
-        color: styleConstants.white,
-        ...styleConstants.secondaryFont,
-        marginBottom: 16,
-        backgroundColor: "transparent",
-        textAlign: "center",
-    },
-    subtitleText: {
-        fontSize: styleConstants.regularFont,
-        color: styleConstants.white,
-        ...styleConstants.primaryFont,
-        backgroundColor: "transparent",
-        textAlign: "center",
-    },
-
     button: {
-        marginTop: 32,
-        backgroundColor: styleConstants.white,
+        margin: 16,
+        backgroundColor: styleConstants.secondary,
         borderRadius: 8,
         paddingVertical: 16,
         paddingHorizontal: 32,
     },
     buttonText: {
         fontSize: styleConstants.regularFont,
-        color: styleConstants.darkPrimary,
+        color: styleConstants.white,
         ...styleConstants.primaryFont,
     },
 });

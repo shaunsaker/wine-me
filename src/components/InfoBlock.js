@@ -14,6 +14,7 @@ export default function InfoBlockComponent(props) {
           description: PropTypes.string,
           iconName: PropTypes.string,
           style: PropTypes.any
+          textCenter: PropTypes.bool,
         };
     }
 */
@@ -24,8 +25,20 @@ export default function InfoBlockComponent(props) {
     return (
         <View style={[styles.container, props.style]}>
             <View style={[styles.textContainer, props.iconName && { flex: 1 }]}>
-                <Text style={styles.titleText}>{props.title}</Text>
-                <Text style={styles.descriptionText}>{props.description}</Text>
+                <Text
+                    style={[
+                        styles.titleText,
+                        props.textCenter && { textAlign: "center" },
+                    ]}>
+                    {props.title}
+                </Text>
+                <Text
+                    style={[
+                        styles.descriptionText,
+                        props.textCenter && { textAlign: "center" },
+                    ]}>
+                    {props.description}
+                </Text>
             </View>
             {icon}
         </View>
