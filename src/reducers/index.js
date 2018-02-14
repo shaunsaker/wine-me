@@ -66,6 +66,11 @@ export default function(state = initialState, action) {
             new_state.appState.networkType = action.networkType;
             return new_state;
 
+        case "TOGGLE_SIDE_MENU":
+            new_state = utilities.cloneObject(state);
+            new_state.appState.showSideMenu = !new_state.appState.showSideMenu;
+            return new_state;
+
         /* APP DATA */
         case "SET_APP_VERSION":
             new_state = utilities.cloneObject(state);

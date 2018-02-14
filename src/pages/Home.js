@@ -32,7 +32,8 @@ import { AnimateScale } from "react-native-simple-animators";
 import FindPlaceModal from "../modals/FindPlaceModal";
 import PlaceList from "../lists/PlaceList";
 import InfoBlock from "../components/InfoBlock";
-import HomeMenu from "../menus/HomeMenu";
+import SideMenu from "react-native-side-menu";
+import SideMenuComponent from "../components/SideMenuComponent";
 
 export class Home extends React.Component {
     constructor(props) {
@@ -44,8 +45,9 @@ export class Home extends React.Component {
         this.toggleActionSheet = this.toggleActionSheet.bind(this);
         this.linkToLocation = this.linkToLocation.bind(this);
         this.handleLink = this.handleLink.bind(this);
-        this.toggleMenu = this.toggleMenu.bind(this);
-        this.handleSelectMenuItem = this.handleSelectMenuItem.bind(this);
+        this.closeSideMenu = this.closeSideMenu.bind(this);
+        this.toggleSideMenu = this.toggleSideMenu.bind(this);
+        this.onSideMenuNavigate = this.onSideMenuNavigate.bind(this);
         this.navigate = this.navigate.bind(this);
 
         this.tabs = [
@@ -67,7 +69,6 @@ export class Home extends React.Component {
             activeTab: "Featured",
             animateFindPlaceModal: false,
             showFindPlaceModal: false,
-            showMenu: false,
         };
     }
 
@@ -79,7 +80,7 @@ export class Home extends React.Component {
             uid: PropTypes.string,
             userPlaces: PropTypes.array,
             networkType: PropTypes.string,
-            download: PropTypes.object,
+            showSideMenu: PropTypes.bool,
         };
     }
 
@@ -154,51 +155,26 @@ export class Home extends React.Component {
             });
     }
 
-    toggleMenu() {
-        this.setState({
-            showMenu: !this.state.showMenu,
+    closeSideMenu(isOpen) {
+        if (!isOpen && this.props.showSideMenu) {
+            this.toggleSideMenu();
+        }
+    }
+
+    toggleSideMenu(isOpen) {
+        this.props.dispatch({
+            type: "TOGGLE_SIDE_MENU",
         });
     }
 
-    handleSelectMenuItem(item) {
-        if (item === "About") {
-            Analytics.logEvent("view_about");
+    onSideMenuNavigate(page) {
+        this.toggleSideMenu();
 
-            this.navigate("about");
-        } else if (item === "Get in touch") {
-            Analytics.logEvent("contact");
+        if (page !== "home") {
+            Analytics.logEvent("view_" + page + "_page");
 
-            this.handleLink("mailto:info@shaunsaker.com?subject=WineMe");
-        } else {
-            Analytics.logEvent("share_result");
-
-            const userPlaces = this.props.userPlaces
-                ? " " + this.props.userPlaces.length
-                : "";
-
-            let shareMessage = `I've been to${userPlaces} local wine farm${
-                userPlaces > 1 || !userPlaces ? "s" : ""
-            }! See how many you've been to. Download WineMe: ${
-                this.props.download
-                    ? this.props.download[Platform.OS]
-                    : "Fetching download url"
-            }`;
-
-            Share.share(
-                {
-                    message: shareMessage,
-                    title: "WineMe",
-                    url: this.props.download && this.props.download.ios, // iOS only
-                },
-                {
-                    subject: "Red red wine", // iOS only
-                    tintColor: styleConstants.primary, // iOS only
-                    dialogTitle: "Red red wine", // android only
-                },
-            );
+            Actions[page]();
         }
-
-        this.toggleMenu();
     }
 
     navigate(page) {
@@ -287,7 +263,11 @@ export class Home extends React.Component {
                     });
                 } else {
                     blankState = (
-                        <View style={{ padding: 16 }}>
+                        <View
+                            style={{
+                                padding: 16,
+                                backgroundColor: styleConstants.white,
+                            }}>
                             <InfoBlock
                                 title="Turn water into wine."
                                 description="Start visiting Places, mark them as visited and they'll end up here. Get cracking omigo!"
@@ -319,63 +299,77 @@ export class Home extends React.Component {
             );
         }
 
-        const homeMenu = this.state.showMenu && (
-            <HomeMenu handleSelect={this.handleSelectMenuItem} />
-        );
+        // Tablets
+        const sideMenuWidth =
+            styleConstants.windowWidth > 700
+                ? styleConstants.windowWidth / 3
+                : styleConstants.windowWidth * 2 / 3;
 
         return (
             <Page style={styles.container}>
-                <LinearGradient
-                    colors={[
-                        styleConstants.primary,
-                        styleConstants.darkPrimary,
-                    ]}
-                    style={styles.headerContainer}>
-                    <StatusBarComponent
-                        backgroundColor={
-                            Platform.OS === "android"
-                                ? this.state.animateFindPlaceModal
-                                  ? styleConstants.lightSecondary
-                                  : styleConstants.primary
-                                : null
-                        }
-                        barStyle="light-content"
-                    />
-                    <View style={styles.header}>
-                        <Touchable
-                            onPress={() => this.navigate("search")}
-                            style={styles.searchBar}>
-                            <Icon name="search" style={styles.searchBarIcon} />
-                            <Text style={styles.searchBarText}>
-                                Search Places
-                            </Text>
-                        </Touchable>
-                        <TouchableIcon
-                            iconName="more-vert"
-                            iconStyle={styles.headerIcon}
-                            style={styles.headerIconContainer}
-                            handlePress={this.toggleMenu}
+                <SideMenu
+                    menu={
+                        <SideMenuComponent
+                            handlePress={this.onSideMenuNavigate}
                         />
+                    }
+                    isOpen={this.props.showSideMenu}
+                    onChange={this.closeSideMenu}
+                    openMenuOffset={sideMenuWidth}>
+                    <LinearGradient
+                        colors={[
+                            styleConstants.primary,
+                            styleConstants.darkPrimary,
+                        ]}
+                        style={styles.headerContainer}>
+                        <StatusBarComponent
+                            backgroundColor={
+                                Platform.OS === "android"
+                                    ? this.state.animateFindPlaceModal
+                                      ? styleConstants.lightSecondary
+                                      : styleConstants.primary
+                                    : null
+                            }
+                            barStyle="light-content"
+                        />
+                        <View style={styles.header}>
+                            <TouchableIcon
+                                iconName="menu"
+                                iconStyle={styles.headerIcon}
+                                style={styles.headerIconContainer}
+                                handlePress={this.toggleSideMenu}
+                            />
+                            <Touchable
+                                onPress={() => this.navigate("search")}
+                                style={styles.searchBar}>
+                                <Icon
+                                    name="search"
+                                    style={styles.searchBarIcon}
+                                />
+                                <Text style={styles.searchBarText}>
+                                    Search Places
+                                </Text>
+                            </Touchable>
+                        </View>
+                        <TabBar
+                            backgroundColor="transparent"
+                            textColor={styleConstants.transWhite}
+                            activeTextColor={styleConstants.white}
+                            tabs={this.tabs}
+                            activeTab={this.state.activeTab}
+                            tabStyle={styles.tabBarTab}
+                            activeTabStyle={styles.tabBarActiveTab}
+                            handleTabPress={tab => this.setTab(tab)}
+                            textStyle={styles.tabBarText}
+                        />
+                    </LinearGradient>
+                    {blankState}
+                    {placesComponent}
+                    <View style={styles.findPlaceButtonWrapper}>
+                        {findPlaceButton}
                     </View>
-                    <TabBar
-                        backgroundColor="transparent"
-                        textColor={styleConstants.transWhite}
-                        activeTextColor={styleConstants.white}
-                        tabs={this.tabs}
-                        activeTab={this.state.activeTab}
-                        tabStyle={styles.tabBarTab}
-                        activeTabStyle={styles.tabBarActiveTab}
-                        handleTabPress={tab => this.setTab(tab)}
-                        textStyle={styles.tabBarText}
-                    />
-                </LinearGradient>
-                {blankState}
-                {placesComponent}
-                <View style={styles.findPlaceButtonWrapper}>
-                    {findPlaceButton}
-                </View>
-                {findPlaceModal}
-                {homeMenu}
+                    {findPlaceModal}
+                </SideMenu>
             </Page>
         );
     }
@@ -393,7 +387,7 @@ function mapStateToProps(state) {
             state.main.appData.users[state.main.userAuth.uid] &&
             state.main.appData.users[state.main.userAuth.uid].visited,
         networkType: state.main.appState.networkType,
-        download: state.main.appData.app && state.main.appData.app.download,
+        showSideMenu: state.main.appState.showSideMenu,
     };
 }
 
@@ -412,7 +406,7 @@ const styles = StyleSheet.create({
         flexDirection: "row",
     },
     headerIconContainer: {
-        paddingRight: 16,
+        paddingLeft: 16,
         justifyContent: "center",
     },
     headerIcon: {
@@ -490,6 +484,7 @@ const styles = StyleSheet.create({
     loaderContainer: {
         flex: 1,
         justifyContent: "center",
+        backgroundColor: styleConstants.white,
     },
 });
 

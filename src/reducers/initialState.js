@@ -24,6 +24,7 @@ const initialState = {
         feedbackPosted: false,
         showActionSheetForPlace: null,
         networkType: null,
+        showSideMenu: false,
     },
     appData: {
         app: null,

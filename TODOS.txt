@@ -2,6 +2,9 @@ BUGS
 
 TODOS
     Leaderboard
+    Splash screens
+        Smaller icon
+        Logo text
 
 PLACES TO REMOVE
 

@@ -68,6 +68,7 @@ export default class PlaceList extends React.Component {
 const styles = StyleSheet.create({
     wrapper: {
         alignSelf: "stretch",
+        backgroundColor: styleConstants.white,
     },
     container: {
         paddingTop: 16,
