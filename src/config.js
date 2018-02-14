@@ -11,4 +11,8 @@ config.version = {
 
 config.googlePlacesAPIKey = "AIzaSyAbqz9XQOVIFRtl6X1sovgna3SHDJHtKM0";
 
+config.corks = {
+    visited: 5,
+};
+
 export default config;

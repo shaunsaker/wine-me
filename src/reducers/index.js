@@ -77,36 +77,12 @@ export default function(state = initialState, action) {
             new_state.appData.appVersion = action.data;
             return new_state;
 
-        case "SET_APP_DATA":
+        case "SET_DATA":
             new_state = utilities.cloneObject(state);
-            new_state.appData.app = action.data;
+            new_state.appData[action.node] = action.data;
             new_state.appState.loading = false;
             new_state.appState.refreshing = false;
 
-            // Get relative distance and isVisited and append
-            let places = new_state.appData.app.places;
-
-            for (let placeID in places) {
-                const relativeDistance = Math.round(
-                    utilities.getDistanceBetweenCoordinateSets(
-                        new_state.appState.userLocation,
-                        places[placeID].location,
-                    ),
-                );
-
-                places[placeID]["relativeDistance"] = relativeDistance;
-            }
-
-            new_state.appData.app.places = places;
-
-            return new_state;
-
-        case "SET_USER_DATA":
-            new_state = utilities.cloneObject(state);
-            if (!new_state.appData.users) {
-                new_state.appData.users = {};
-            }
-            new_state.appData.users[action.uid] = action.data;
             return new_state;
 
         default:

@@ -99,6 +99,7 @@ const styles = StyleSheet.create({
     snackBarText: {
         fontSize: styleConstants.regularFont,
         color: styleConstants.white,
+        ...styleConstants.primaryFont,
     },
     actionText: {
         fontSize: styleConstants.regularFont,

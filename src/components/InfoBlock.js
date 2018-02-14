@@ -33,6 +33,5 @@ const styles = StyleSheet.create({
         fontSize: styleConstants.regularFont,
         color: styleConstants.primaryText,
         ...styleConstants.primaryFont,
-        marginTop: 0,
     },
 });
