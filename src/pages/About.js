@@ -113,6 +113,7 @@ export class About extends React.Component {
                         <InfoBlock
                             title="Why WineMe?"
                             description="Living in the Western Cape, we are quite blessed to be able to visit the best wine farms that South Africa has to offer. WineMe helps us keep track of the wine farms we have visited and also to find new ones that we haven't."
+                            style={{ paddingTop: 0 }}
                         />
                     </View>
                     <View style={styles.sectionContainer}>
@@ -193,8 +194,6 @@ const styles = StyleSheet.create({
         alignSelf: "stretch",
     },
     contentContainer: {
-        padding: 16,
-        paddingTop: 0,
         paddingBottom: 72,
     },
 

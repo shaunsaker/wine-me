@@ -2,7 +2,6 @@ BUGS
     undefined km bug in place cards
 
 TODOS
-    Leaderboard
     Splash screens
         Smaller icon
         Logo text

@@ -52,6 +52,6 @@ const styles = StyleSheet.create({
     },
     icon: {
         fontSize: 64,
-        color: styleConstants.primary,
+        color: styleConstants.darkPrimary,
     },
 });

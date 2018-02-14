@@ -21,6 +21,7 @@ export class Leaderboard extends React.Component {
 
         this.toggleUserNameModal = this.toggleUserNameModal.bind(this);
         this.scrollToUser = this.scrollToUser.bind(this);
+        this.submitUserName = this.submitUserName.bind(this);
 
         this.state = {
             showUserNameModal: false,
@@ -53,6 +54,14 @@ export class Leaderboard extends React.Component {
         });
     }
 
+    submitUserName(userName) {
+        this.props.dispatch({
+            type: "setData",
+            node: "users/" + this.props.uid + "/userName",
+            data: userName,
+        });
+    }
+
     scrollToUser() {
         this.setState({
             scrollToUser: Date.now(),
@@ -60,20 +69,29 @@ export class Leaderboard extends React.Component {
     }
 
     render() {
-        // TODO: If on mount, no userName, display userName modal to enter name
-
         let users = utilities.convertDictionaryToArray(this.props.users, true);
 
-        // Only display users with usernames
+        // Only display users with usernames and visited places
         users = users.filter(item => {
-            return item.userName;
+            return item.userName && item.visited;
         });
 
-        const userName = null;
-        // this.props.users[this.props.uid] &&
-        // this.props.users[this.props.uid].userName;
+        // Sort users by length of visited items
+        users = users.sort((a, b) => {
+            return a.visited.length < b.visited.length;
+        });
 
-        const userNameModal = this.state.showUserNameModal && <UserNameModal />;
+        const userName =
+            this.props.users[this.props.uid] &&
+            this.props.users[this.props.uid].userName;
+
+        const userNameModal = this.state.showUserNameModal && (
+            <UserNameModal
+                handleClose={this.toggleUserNameModal}
+                users={users}
+                handleSubmitUserName={this.submitUserName}
+            />
+        );
 
         return (
             <Page style={styles.container}>
@@ -84,13 +102,15 @@ export class Leaderboard extends React.Component {
                     style={styles.header}
                     statusBarStyle="dark-content"
                     textRight
-                    text={userName ? "Hello, " + userName : "temp: no username"}
+                    text={userName ? "Hello, " + userName : "Claim your name"}
                     textStyle={styles.headerText}
-                    handleTextPress={userName && this.scrollToUser}
+                    handleTextPress={
+                        userName ? this.scrollToUser : this.toggleUserNameModal
+                    }
                 />
                 <InfoBlock
                     title="WineMe Leaderboard"
-                    description="Claim your name and start visiting wine farms. Each visit is equal to 5 corks! Your total cork tally will end up here."
+                    description="Claim your name and start visiting wine farms. Your total cork tally will end up here."
                     iconName="stars"
                     style={styles.infoBlock}
                 />
