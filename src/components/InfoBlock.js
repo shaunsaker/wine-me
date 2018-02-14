@@ -1,10 +1,8 @@
 import React from "react";
-import { View, StyleSheet } from "react-native";
+import { View, Text, StyleSheet } from "react-native";
 import PropTypes from "prop-types";
 
 import styleConstants from "../assets/styleConstants";
-
-import { InfoBlock } from "react-native-simple-components";
 
 export default function InfoBlockComponent(props) {
     /*
@@ -17,19 +15,17 @@ export default function InfoBlockComponent(props) {
 */
 
     return (
-        <InfoBlock
-            title={props.title}
-            titleTextStyle={styles.titleText}
-            description={props.description}
-            descriptionTextStyle={styles.descriptionText}
-        />
+        <View style={styles.container}>
+            <Text style={styles.titleText}>{props.title}</Text>
+            <Text style={styles.descriptionText}>{props.description}</Text>
+        </View>
     );
 }
 
 const styles = StyleSheet.create({
     titleText: {
         fontSize: styleConstants.largeFont,
-        color: styleConstants.secondary,
+        color: styleConstants.primaryText,
         ...styleConstants.boldFont,
         marginBottom: 16,
     },

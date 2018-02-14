@@ -18,7 +18,7 @@ import styleConstants from "../assets/styleConstants";
 import Analytics from "../analytics";
 
 import { Page, HeaderBar, Button } from "react-native-simple-components";
-import InfoBlockComponent from "../components/InfoBlockComponent";
+import InfoBlock from "../components/InfoBlock";
 
 export class About extends React.Component {
     constructor(props) {
@@ -110,31 +110,31 @@ export class About extends React.Component {
                     style={styles.contentWrapper}
                     contentContainerStyle={styles.contentContainer}>
                     <View style={styles.sectionContainer}>
-                        <InfoBlockComponent
+                        <InfoBlock
                             title="Why WineMe?"
                             description="Living in the Western Cape, we are quite blessed to be able to visit the best wine farms that South Africa has to offer. WineMe helps us keep track of the wine farms we have visited and also to find new ones that we haven't."
                         />
                     </View>
                     <View style={styles.sectionContainer}>
-                        <InfoBlockComponent
+                        <InfoBlock
                             title="What's your superpower?"
                             description="Our superpower is being able to find the next best wine farm, closest to us, at the tap of a button."
                         />
                     </View>
                     <View style={styles.sectionContainer}>
-                        <InfoBlockComponent
+                        <InfoBlock
                             title="Where do you get your data?"
                             description="Our data is obtained from Google Places. This includes: place names, coordinates, rating and photos. While we try our best to curate this data, places that shouldn't be here do slip through the cracks. If you do notice anything that does not seem right, please let us know."
                         />
                     </View>
                     <View style={styles.sectionContainer}>
-                        <InfoBlockComponent
+                        <InfoBlock
                             title="What's next?"
                             description="If people find as much utility out of WineMe as we do, we plan to add new features including: reviews, photos, wines and activities. If you have any ideas on how else we can improve the app, please get in touch with us, we'd love to hear from you!"
                         />
                     </View>
                     <View style={styles.sectionContainer}>
-                        <InfoBlockComponent
+                        <InfoBlock
                             title="App Version"
                             description={
                                 config.version.app.major +

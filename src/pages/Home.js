@@ -31,7 +31,7 @@ import CustomIcon from "../assets/icons";
 import { AnimateScale } from "react-native-simple-animators";
 import FindPlaceModal from "../modals/FindPlaceModal";
 import PlaceList from "../lists/PlaceList";
-import BlankState from "../components/BlankState";
+import InfoBlock from "../components/InfoBlock";
 import HomeMenu from "../menus/HomeMenu";
 
 export class Home extends React.Component {
@@ -287,10 +287,12 @@ export class Home extends React.Component {
                     });
                 } else {
                     blankState = (
-                        <BlankState
-                            title="Turn water into wine."
-                            description="Start visiting Places, mark them as visited and they'll end up here. Get cracking omigo!"
-                        />
+                        <View style={{ padding: 16 }}>
+                            <InfoBlock
+                                title="Turn water into wine."
+                                description="Start visiting Places, mark them as visited and they'll end up here. Get cracking omigo!"
+                            />
+                        </View>
                     );
                 }
             }

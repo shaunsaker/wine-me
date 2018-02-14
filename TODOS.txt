@@ -1,7 +1,7 @@
 BUGS
 
 TODOS
-    Only console.log if dev
+    Leaderboard
 
 PLACES TO REMOVE
 
