@@ -1,4 +1,5 @@
 BUGS
+    Crash when fetching data and go to leaderboard
 
 TODOS (NEXT VERSION)
     CHANGELOG.md
