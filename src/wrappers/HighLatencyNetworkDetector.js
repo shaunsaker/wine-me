@@ -82,6 +82,7 @@ export class HighLatencyDetector extends React.Component {
 function mapStateToProps(state) {
     return {
         loading: state.main.appState.loading,
+        userLocation: state.main.appState.userLocation,
     };
 }
 

@@ -1,8 +1,10 @@
-import React from "react";
-import { View } from "react-native";
-import PropTypes from "prop-types";
-import { connect } from "react-redux";
-import Permissions from "../permissions";
+import React from 'react';
+import { View, Platform } from 'react-native';
+import PropTypes from 'prop-types';
+import { connect } from 'react-redux';
+import Permissions from '../permissions';
+
+import LocationModal from '../modals/LocationModal';
 
 export class GeolocationHandler extends React.Component {
     constructor(props) {
@@ -10,6 +12,15 @@ export class GeolocationHandler extends React.Component {
 
         this.getLocationPermission = this.getLocationPermission.bind(this);
         this.getUserLocation = this.getUserLocation.bind(this);
+        this.toggleLocationModal = this.toggleLocationModal.bind(this);
+        this.toggleThirdAttemptAndroid = this.toggleThirdAttemptAndroid.bind(
+            this,
+        );
+
+        this.state = {
+            showLocationModal: false,
+            thirdAttemptAndroid: false,
+        };
     }
 
     static get propTypes() {
@@ -25,24 +36,58 @@ export class GeolocationHandler extends React.Component {
     }
 
     getLocationPermission() {
-        Permissions.handlePermission("location", this.getUserLocation(), () => {
-            this.props.dispatch({
-                type: "SET_ERROR",
-                errorType: "PERMISSIONS",
-                message: "We need your permission to get your location",
-                iconName: "error-outline",
-            });
-        });
+        Permissions.handlePermission(
+            'location',
+            this.getUserLocation,
+            !this.state.showLocationModal
+                ? this.toggleLocationModal
+                : !this.state.thirdAttemptAndroid &&
+                  this.toggleThirdAttemptAndroid,
+        );
     }
 
     getUserLocation() {
         this.props.dispatch({
-            type: "getUserLocation",
+            type: 'getUserLocation',
+            action: this.state.showLocationModal && {
+                type: 'SET_PLACES_RELATIVE_DISTANCES',
+            },
+        });
+
+        if (this.state.showLocationModal) {
+            // Close the modal
+            this.toggleLocationModal();
+        }
+    }
+
+    toggleLocationModal() {
+        this.setState({
+            showLocationModal: !this.state.showLocationModal,
+        });
+    }
+
+    toggleThirdAttemptAndroid() {
+        this.setState({
+            thirdAttemptAndroid: !this.state.thirdAttemptAndroid,
         });
     }
 
     render() {
-        return this.props.children;
+        const locationModal = this.state.showLocationModal && (
+            <LocationModal
+                handleClose={this.toggleLocationModal}
+                handlePositiveAction={this.getLocationPermission}
+                isIOS={Platform.OS === 'ios'}
+                thirdAttemptAndroid={this.state.thirdAttemptAndroid}
+            />
+        );
+
+        return (
+            <View style={{ flex: 1, alignSelf: 'stretch' }}>
+                {this.props.children}
+                {locationModal}
+            </View>
+        );
     }
 }
 

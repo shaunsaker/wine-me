@@ -1,7 +1,9 @@
 BUGS
-    Handle rejection of location
+    Only display slow network detected if not offline
+    Can see loader after places were fetched
 
 TODOS
+    Fix username input
     iOS screenshots
 
 ENHANCEMENTS

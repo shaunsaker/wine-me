@@ -83,8 +83,8 @@ export default function(state = initialState, action) {
             new_state.appState.loading = false;
             new_state.appState.refreshing = false;
 
-            if (action.node === "app") {
-                // Get relative distance and isVisited and append
+            if (action.node === "app" && new_state.appState.userLocation) {
+                // If we have the user's location, get relative distance and append
                 let places = new_state.appData.app.places;
 
                 for (let placeID in places) {
@@ -100,6 +100,28 @@ export default function(state = initialState, action) {
 
                 new_state.appData.app.places = places;
             }
+
+            return new_state;
+
+        // In case user location was retrieved after receiving app data
+        case "SET_PLACES_RELATIVE_DISTANCES":
+            new_state = utilities.cloneObject(state);
+
+            // Get relative distance and append
+            let places = new_state.appData.app.places;
+
+            for (let placeID in places) {
+                const relativeDistance = Math.round(
+                    utilities.getDistanceBetweenCoordinateSets(
+                        new_state.appState.userLocation,
+                        places[placeID].location,
+                    ),
+                );
+
+                places[placeID]["relativeDistance"] = relativeDistance;
+            }
+
+            new_state.appData.app.places = places;
 
             return new_state;
 

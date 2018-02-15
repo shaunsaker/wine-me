@@ -14,6 +14,12 @@ export function* getUserLocation(action) {
             type: "SET_USER_LOCATION",
             userLocation: userCoordinatesResponse.message, // lat and lng position
         });
+
+        if (action.action) {
+            yield put({
+                ...action.action,
+            });
+        }
     } else {
         yield put({
             type: "SET_ERROR",
