@@ -1,9 +1,9 @@
-import React from "react";
-import PropTypes from "prop-types";
-import { connect } from "react-redux";
+import React from 'react';
+import PropTypes from 'prop-types';
+import { connect } from 'react-redux';
 
-import config from "../config";
-import Analytics from "../analytics";
+import config from '../config';
+import Analytics from '../analytics';
 
 export class HighLatencyDetector extends React.Component {
     constructor(props) {
@@ -23,17 +23,22 @@ export class HighLatencyDetector extends React.Component {
     static get propTypes() {
         return {
             loading: PropTypes.bool,
+            networkType: PropTypes.string,
         };
     }
 
     componentDidMount() {
-        if (this.props.loading) {
+        if (this.props.loading && this.props.networkType !== 'none') {
             this.startTimer();
         }
     }
 
     componentDidUpdate(prevProps, prevState) {
-        if (this.props.loading && !prevProps.loading) {
+        if (
+            this.props.loading &&
+            !prevProps.loading &&
+            this.props.networkType !== 'none'
+        ) {
             // New loading event started
             this.startTimer();
         } else if (!this.props.loading && prevProps.loading) {
@@ -43,13 +48,13 @@ export class HighLatencyDetector extends React.Component {
 
         // Check to see if time > config.latencyTimeout and dispatch an error event if so
         if (this.state.time && this.state.time > this.latencyTimeout) {
-            Analytics.logEvent("network_high_latency");
+            Analytics.logEvent('network_high_latency');
 
             this.props.dispatch({
-                type: "SET_ERROR",
-                errorType: "NETWORK",
-                message: "Slow network detected.",
-                iconName: "error-outline",
+                type: 'SET_ERROR',
+                errorType: 'NETWORK',
+                message: 'Slow network detected.',
+                iconName: 'error-outline',
             });
 
             this.clearTimer();
@@ -82,7 +87,7 @@ export class HighLatencyDetector extends React.Component {
 function mapStateToProps(state) {
     return {
         loading: state.main.appState.loading,
-        userLocation: state.main.appState.userLocation,
+        networkType: state.main.appState.networkType,
     };
 }
 

@@ -26,12 +26,26 @@ export class GeolocationHandler extends React.Component {
     static get propTypes() {
         return {
             userLocation: PropTypes.object,
+            appData: PropTypes.object,
         };
     }
 
     componentDidMount() {
         if (!this.props.userLocation) {
             this.getLocationPermission();
+        }
+    }
+
+    componentDidUpdate(prevProps) {
+        if (
+            this.props.userLocation &&
+            !prevProps.userLocation &&
+            this.props.appData
+        ) {
+            // Case where userLocation came in after appData
+            this.props.dispatch({
+                type: 'SET_PLACES_RELATIVE_DISTANCES',
+            });
         }
     }
 
@@ -94,6 +108,7 @@ export class GeolocationHandler extends React.Component {
 function mapStateToProps(state) {
     return {
         userLocation: state.main.appState.userLocation,
+        appData: state.main.appData.app,
     };
 }
 

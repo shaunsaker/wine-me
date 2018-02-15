@@ -1,5 +1,4 @@
 BUGS
-    Only display slow network detected if not offline
     Can see loader after places were fetched
 
 TODOS
