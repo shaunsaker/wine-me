@@ -1,8 +1,6 @@
 BUGS
-    Can see loader after places were fetched
 
 TODOS
-    Fix username input
     iOS screenshots
 
 ENHANCEMENTS

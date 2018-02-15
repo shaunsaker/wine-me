@@ -1,12 +1,17 @@
-import React from "react";
-import { View, Text, StyleSheet, Platform } from "react-native";
-import PropTypes from "prop-types";
+import React from 'react';
+import { View, Text, StyleSheet, Platform } from 'react-native';
+import PropTypes from 'prop-types';
 
-import styleConstants from "../assets/styleConstants";
+import styleConstants from '../assets/styleConstants';
 
-import { Modal, InputContainer, Input } from "react-native-simple-components";
-import { AnimateTranslateX } from "react-native-simple-animators";
-import InfoBlock from "../components/InfoBlock";
+import {
+    Modal,
+    InputContainer,
+    Input,
+    Button,
+} from 'react-native-simple-components';
+import { AnimateTranslateX } from 'react-native-simple-animators';
+import InfoBlock from '../components/InfoBlock';
 
 export default class UserNameModal extends React.Component {
     constructor(props) {
@@ -31,15 +36,15 @@ export default class UserNameModal extends React.Component {
     }
 
     updateUserName(userName) {
-        if (userName.indexOf(" ") > -1) {
+        if (userName.indexOf(' ') > -1) {
             // If spaces, set error
-            this.setError("No spaces please");
+            this.setError('No spaces please');
         } else if (this.state.error) {
             // Clear the error
             this.setError();
         }
 
-        userName = userName.replace(" ", "");
+        userName = userName.replace(' ', '');
 
         this.setState({
             userName,
@@ -69,7 +74,7 @@ export default class UserNameModal extends React.Component {
             // Close the modal
             this.props.handleClose();
         } else {
-            this.setError("This name already exists");
+            this.setError('This name already exists');
         }
     }
 
@@ -107,6 +112,17 @@ export default class UserNameModal extends React.Component {
                             style={styles.input}
                         />
                     </View>
+                    <Button
+                        text={
+                            'Claim ' + this.state.userName
+                                ? this.state.userName
+                                : 'ThirstyOwl'
+                        }
+                        textStyle={styles.buttonText}
+                        style={styles.button}
+                        handlePress={this.submitUserName}
+                        disabled={!this.state.userName}
+                    />
                 </InputContainer>
             </Modal>
         );
@@ -116,24 +132,25 @@ export default class UserNameModal extends React.Component {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        alignSelf: "stretch",
-        justifyContent: "center",
-        padding: 16,
+        alignSelf: 'stretch',
+        justifyContent: 'center',
+        paddingVertical: 48,
+        paddingHorizontal: 16,
     },
     contentWrapper: {
-        flex: 0.5,
-        alignSelf: "stretch",
+        flex: 1,
+        alignSelf: 'stretch',
         backgroundColor: styleConstants.white,
         borderRadius: 8,
         paddingVertical: 8,
     },
     contentContainer: {
-        alignSelf: "stretch",
-        justifyContent: "space-between",
+        alignSelf: 'stretch',
+        justifyContent: 'space-between',
         flexGrow: 1,
     },
     fauxCloseIcon: {
-        color: "transparent",
+        color: 'transparent',
     },
 
     icon: {
@@ -145,20 +162,20 @@ const styles = StyleSheet.create({
         fontSize: styleConstants.largeFont,
         color: styleConstants.primaryText,
         ...styleConstants.primaryFont,
-        textAlign: "center",
+        textAlign: 'center',
     },
     primaryText: {
         fontSize: styleConstants.largeFont,
         color: styleConstants.primaryText,
         ...styleConstants.boldFont,
         marginVertical: 16,
-        textAlign: "center",
+        textAlign: 'center',
     },
     text: {
         fontSize: styleConstants.regularFont,
         color: styleConstants.primaryText,
         ...styleConstants.primaryFont,
-        textAlign: "center",
+        textAlign: 'center',
     },
 
     inputContainer: {},
@@ -167,11 +184,11 @@ const styles = StyleSheet.create({
         color: styleConstants.primaryText,
         ...styleConstants.primaryFont,
         marginHorizontal: 16,
-        paddingTop: 48, // error message
+        paddingTop: 64, // error message
     },
 
     errorTextContainer: {
-        position: "absolute",
+        position: 'absolute',
         top: 16,
         left: 16,
     },
