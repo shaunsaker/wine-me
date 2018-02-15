@@ -1,7 +1,11 @@
 BUGS
     Crash when fetching data and go to leaderboard
+    Handle rejection of location
 
-TODOS (NEXT VERSION)
+TODOS
+    iOS screenshots
+
+ENHANCEMENTS
     CHANGELOG.md
     Use development node for development
     Profile page
@@ -13,7 +17,6 @@ TODOS (NEXT VERSION)
     Fix naming of places
     Two column stacking for tablets
 
-ENHANCEMENTS
     FindPlaceModal
         Handle mark as visited and retry?
     ActionSheet listens for route changes to hide
