@@ -319,7 +319,7 @@ export class Home extends React.Component {
                         ]}
                         style={styles.headerContainer}>
                         <HeaderBar
-                            leftIconName="menu"
+                            leftIconName={this.props.places && "menu"}
                             leftIconStyle={styles.headerIcon}
                             handleLeftIconPress={this.toggleSideMenu}
                             style={styles.header}
