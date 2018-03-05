@@ -1,9 +1,6 @@
 BUGS
 
 TODOS
-    Remove duplicate places
-    Fix naming of places
-    Add basic info to places
     Place
         Basic info
         Physical check in
@@ -17,5 +14,8 @@ TODOS
         Collection progress
 
 ENHANCEMENTS
+    Would be great if modals were handled as wrappers
+    Remove duplicate places
+    Fix naming of places
     Two column stacking for tablets
     Find place modal styles

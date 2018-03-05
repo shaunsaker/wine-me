@@ -42,7 +42,6 @@ export class Home extends React.Component {
         this.setTab = this.setTab.bind(this);
         this.showFindPlaceModal = this.showFindPlaceModal.bind(this);
         this.togglePlaceModal = this.togglePlaceModal.bind(this);
-        this.toggleActionSheet = this.toggleActionSheet.bind(this);
         this.linkToLocation = this.linkToLocation.bind(this);
         this.handleLink = this.handleLink.bind(this);
         this.closeSideMenu = this.closeSideMenu.bind(this);
@@ -109,13 +108,6 @@ export class Home extends React.Component {
         });
     }
 
-    toggleActionSheet(place) {
-        this.props.dispatch({
-            type: 'SET_ACTION_SHEET',
-            place,
-        });
-    }
-
     linkToLocation(location) {
         Analytics.logEvent('navigate_to_place');
 
@@ -178,9 +170,6 @@ export class Home extends React.Component {
     }
 
     navigate(page) {
-        // Close the action sheet if it's open
-        this.toggleActionSheet();
-
         Actions[page]();
     }
 
@@ -192,23 +181,23 @@ export class Home extends React.Component {
                 <CustomIcon name="logo" style={styles.findPlaceButtonIcon} />
             </Touchable>
         ) : (
-            <AnimateScale
-                initialValue={1}
-                finalValue={
-                    2 +
-                    styleConstants.windowWidth *
+                <AnimateScale
+                    initialValue={1}
+                    finalValue={
+                        2 +
+                        styleConstants.windowWidth *
                         styleConstants.windowHeight /
                         10000
-                }
-                shouldAnimateIn
-                duration={500}
-                style={{
-                    elevation: 101,
-                    zIndex: 2 /* appear above header */,
-                }}>
-                <View style={styles.findPlaceButtonContainer} />
-            </AnimateScale>
-        );
+                    }
+                    shouldAnimateIn
+                    duration={500}
+                    style={{
+                        elevation: 101,
+                        zIndex: 2 /* appear above header */,
+                    }}>
+                    <View style={styles.findPlaceButtonContainer} />
+                </AnimateScale>
+            );
 
         const findPlaceModal = this.state.showFindPlaceModal && (
             <FindPlaceModal
@@ -277,7 +266,7 @@ export class Home extends React.Component {
                 <PlaceList
                     data={places}
                     userLocation={this.props.userLocation}
-                    handlePress={this.toggleActionSheet}
+                    handlePress={null}
                     userPlaces={this.props.userPlaces}
                     scrollToTop={this.state.activeTab}
                     networkType={this.props.networkType}
@@ -326,8 +315,8 @@ export class Home extends React.Component {
                             statusBarColor={
                                 Platform.OS === 'android'
                                     ? this.state.animateFindPlaceModal
-                                      ? styleConstants.secondary
-                                      : styleConstants.primary
+                                        ? styleConstants.secondary
+                                        : styleConstants.primary
                                     : null
                             }
                             textComponent={<Logo />}

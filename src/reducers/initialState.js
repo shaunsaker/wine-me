@@ -22,7 +22,6 @@ const initialState = {
         userLocation: null,
         temporaryImage: null,
         feedbackPosted: false,
-        showActionSheetForPlace: null,
         networkType: null,
         showSideMenu: false,
     },

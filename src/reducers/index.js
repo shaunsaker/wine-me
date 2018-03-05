@@ -1,7 +1,7 @@
 import utilities from '../utilities';
 import initialState from './initialState';
 
-export default function(state = initialState, action) {
+export default function (state = initialState, action) {
     switch (action.type) {
         /* AUTH */
         case 'SIGN_IN_USER':
@@ -54,11 +54,6 @@ export default function(state = initialState, action) {
         case 'SET_USER_LOCATION':
             new_state = utilities.cloneObject(state);
             new_state.appState.userLocation = action.userLocation;
-            return new_state;
-
-        case 'SET_ACTION_SHEET':
-            new_state = utilities.cloneObject(state);
-            new_state.appState.showActionSheetForPlace = action.place;
             return new_state;
 
         case 'SET_NETWORK_TYPE':

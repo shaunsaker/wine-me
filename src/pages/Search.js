@@ -31,7 +31,6 @@ export class Search extends React.Component {
         super(props);
 
         this.updateSearchValue = this.updateSearchValue.bind(this);
-        this.toggleActionSheet = this.toggleActionSheet.bind(this);
         this.navigateBack = this.navigateBack.bind(this);
 
         this.state = {
@@ -106,17 +105,7 @@ export class Search extends React.Component {
         });
     }
 
-    toggleActionSheet(place) {
-        this.props.dispatch({
-            type: "SET_ACTION_SHEET",
-            place,
-        });
-    }
-
     navigateBack() {
-        // Hide the action sheet if its open
-        this.toggleActionSheet();
-
         Actions.pop();
     }
 
@@ -131,17 +120,17 @@ export class Search extends React.Component {
                 <PlaceList
                     data={this.state.places}
                     userLocation={this.props.userLocation}
-                    handlePress={this.toggleActionSheet}
+                    handlePress={null}
                     userPlaces={this.props.userPlaces}
                     scrollToTop={this.state.places.length}
                     networkType={this.props.networkType}
                 />
             ) : (
-                <InfoBlock
-                    title="You've clearly had too many."
-                    description="We couldn't find any Places matching that name."
-                />
-            );
+                        <InfoBlock
+                            title="You've clearly had too many."
+                            description="We couldn't find any Places matching that name."
+                        />
+                    );
 
         let searchAreas = utilities.convertDictionaryToArrayOfKeys(
             this.props.searchAreas,
