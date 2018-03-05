@@ -1,24 +1,22 @@
 BUGS
 
 TODOS
-    iOS screenshots
-
-ENHANCEMENTS
-    CHANGELOG.md
     Use development node for development
-    Profile page
-        No My Places tab
-        Search Places => Search Wine Farms
-    Sorting of places on my places tab should be latest to oldest
-        Save date visited
+    Search Places => Search Wine Farms
     Remove duplicate places
     Fix naming of places
+    Place
+        Basic info
+        Physical check in
+        Number of check ins
+    Profile
+        Level up guide
+        Level up checklist
+        My Places/Wine Farms
+            Latest to oldest
+    Search    
+        Collection progress
+
+ENHANCEMENTS
     Two column stacking for tablets
-
-    FindPlaceModal
-        Handle mark as visited and retry?
-    ActionSheet listens for route changes to hide
-        Once this has been fixed in react-native-router-flux
-
-TESTING
-    Unit testing
+    Find place modal styles
