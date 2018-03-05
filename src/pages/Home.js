@@ -5,8 +5,6 @@ import {
     StyleSheet,
     ActivityIndicator,
     Platform,
-    Linking,
-    Share,
 } from 'react-native';
 import PropTypes from 'prop-types';
 import { Actions } from 'react-native-router-flux';
@@ -42,8 +40,6 @@ export class Home extends React.Component {
         this.setTab = this.setTab.bind(this);
         this.showFindPlaceModal = this.showFindPlaceModal.bind(this);
         this.togglePlaceModal = this.togglePlaceModal.bind(this);
-        this.linkToLocation = this.linkToLocation.bind(this);
-        this.handleLink = this.handleLink.bind(this);
         this.closeSideMenu = this.closeSideMenu.bind(this);
         this.toggleSideMenu = this.toggleSideMenu.bind(this);
         this.onSideMenuNavigate = this.onSideMenuNavigate.bind(this);
@@ -108,45 +104,6 @@ export class Home extends React.Component {
         });
     }
 
-    linkToLocation(location) {
-        Analytics.logEvent('navigate_to_place');
-
-        let link;
-
-        // Create the appropriate link
-        if (Platform.OS === 'android') {
-            link = 'geo:' + location.lat + ',' + location.lng;
-        } else {
-            link = `http://maps.apple.com/?ll=${location.lat},${location.lng}`;
-        }
-
-        this.handleLink(link);
-    }
-
-    handleLink(link) {
-        Linking.canOpenURL(link)
-            .then(supported => {
-                if (!supported) {
-                    this.props.dispatch({
-                        type: 'SET_ERROR',
-                        errorType: 'LINKING',
-                        message: 'This link is not supported on your device.',
-                        iconName: 'error-outline',
-                    });
-                } else {
-                    return Linking.openURL(link);
-                }
-            })
-            .catch(() => {
-                this.props.dispatch({
-                    type: 'SET_ERROR',
-                    errorType: 'LINKING',
-                    message: 'This link is not supported on your device.',
-                    iconName: 'error-outline',
-                });
-            });
-    }
-
     closeSideMenu(isOpen) {
         if (!isOpen && this.props.showSideMenu) {
             this.toggleSideMenu();
@@ -205,7 +162,7 @@ export class Home extends React.Component {
                 places={this.props.places}
                 userLocation={this.props.userLocation}
                 userPlaces={this.props.userPlaces}
-                handleLinkToLocation={this.linkToLocation}
+                handlePress={null}
             />
         );
 

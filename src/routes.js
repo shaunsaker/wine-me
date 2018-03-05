@@ -6,6 +6,7 @@ import Home from "./pages/Home";
 import Search from "./pages/Search";
 import Leaderboard from "./pages/Leaderboard";
 import About from "./pages/About";
+import Place from "./pages/Place";
 import ForceUpdate from "./pages/ForceUpdate";
 
 const Scenes = Actions.create(
@@ -19,6 +20,7 @@ const Scenes = Actions.create(
         <Scene key="search" component={Search} initial={false} />
         <Scene key="leaderboard" component={Leaderboard} initial={false} />
         <Scene key="about" component={About} initial={false} />
+        <Scene key="place" component={Place} initial={false} />
         <Scene
             key="forceUpdate"
             component={ForceUpdate}
