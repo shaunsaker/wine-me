@@ -10,32 +10,40 @@ const response = {
 export default class CloudData {
     static listenForData(node, callback) {
         if (__DEV__) {
-            console.log("Listening at " + node);
+            console.log("Listening at " + (__DEV__ || config.development
+                ? "development/" + node
+                : node));
         }
 
         firebase
             .database()
-            .ref(node)
+            .ref((__DEV__ || config.development
+                ? "development/" + node
+                : node))
             .on(
-                "value",
-                snapshot => {
-                    callback(snapshot.val());
-                },
-                error => {
-                    // Do nothing - silent error
-                },
-            );
+            "value",
+            snapshot => {
+                callback(snapshot.val());
+            },
+            error => {
+                // Do nothing - silent error
+            },
+        );
     }
 
     static getData(action) {
         if (__DEV__) {
-            console.log("Dispatching get at " + action.node);
+            console.log("Dispatching get at " + (__DEV__ || config.development
+                ? "development/" + action.node
+                : action.node));
         }
 
         return new Promise(resolve => {
             firebase
                 .database()
-                .ref(action.node)
+                .ref((__DEV__ || config.development
+                    ? "development/" + action.node
+                    : action.node))
                 .once("value")
                 .then(snapshot => {
                     response.success = true;
@@ -52,13 +60,17 @@ export default class CloudData {
 
     static setData(action) {
         if (__DEV__) {
-            console.log("Dispatching set at " + action.node);
+            console.log("Dispatching set at " + (__DEV__ || config.development
+                ? "development/" + action.node
+                : action.node));
         }
 
         return new Promise(resolve => {
             firebase
                 .database()
-                .ref(action.node)
+                .ref((__DEV__ || config.development
+                    ? "development/" + action.node
+                    : action.node))
                 .set(action.data)
                 .then(() => {
                     response.success = true;
@@ -75,13 +87,17 @@ export default class CloudData {
 
     static updateData(action) {
         if (__DEV__) {
-            console.log("Dispatching update at " + action.node);
+            console.log("Dispatching update at " + (__DEV__ || config.development
+                ? "development/" + action.node
+                : action.node));
         }
 
         return new Promise(resolve => {
             firebase
                 .database()
-                .ref(action.node)
+                .ref((__DEV__ || config.development
+                    ? "development/" + action.node
+                    : action.node))
                 .update({
                     ...action.data,
                 })
@@ -100,13 +116,17 @@ export default class CloudData {
 
     static pushData(action) {
         if (__DEV__) {
-            console.log("Dispatching push at " + action.node);
+            console.log("Dispatching push at " + (__DEV__ || config.development
+                ? "development/" + action.node
+                : action.node));
         }
 
         return new Promise(resolve => {
             firebase
                 .database()
-                .ref(action.node)
+                .ref((__DEV__ || config.development
+                    ? "development/" + action.node
+                    : action.node))
                 .push({
                     ...action.data,
                 })
@@ -125,13 +145,17 @@ export default class CloudData {
 
     static deleteData(action) {
         if (__DEV__) {
-            console.log("Dispatching delete at " + action.node);
+            console.log("Dispatching delete at " + (__DEV__ || config.development
+                ? "development/" + action.node
+                : action.node));
         }
 
         return new Promise(resolve => {
             firebase
                 .database()
-                .ref(action.node)
+                .ref((__DEV__ || config.development
+                    ? "development/" + action.node
+                    : action.node))
                 .set(null)
                 .then(() => {
                     response.success = true;
