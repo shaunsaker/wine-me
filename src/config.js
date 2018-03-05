@@ -17,4 +17,6 @@ config.corks = {
 
 config.development = true;
 
+config.environment = (__DEV__ || config.development) ? 'development' : 'staging';
+
 export default config;
