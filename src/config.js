@@ -10,7 +10,7 @@ config.version = {
 };
 
 config.googlePlacesAPIKey = "AIzaSyAbqz9XQOVIFRtl6X1sovgna3SHDJHtKM0";
-config.imagesMaxHeight = 200;
+config.imagesMaxHeight = 400;
 
 config.corks = {
     visited: 5,

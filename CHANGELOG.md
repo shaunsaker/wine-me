@@ -13,6 +13,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Development and staging nodes to database
 
 ### Removed
+- Network type dependent image loading from place card
 
 ## [1.0.0] - 2018-02-15
 

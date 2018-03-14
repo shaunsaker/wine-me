@@ -1,4 +1,5 @@
 import { Platform } from "react-native";
+import config from "./config";
 
 const utilities = {};
 
@@ -599,6 +600,15 @@ utilities.getDistanceBetweenCoordinateSets = (setA, setB) => {
 
 utilities.convertDegreesToRadians = degrees => {
     return degrees * (Math.PI / 180);
+};
+
+/* APP SPECIFIC */
+utilities.getGooglePlacesPhoto = photoReference => {
+    return (photoURL = photoReference && {
+        uri: `https://maps.googleapis.com/maps/api/place/photo?maxheight=${
+            config.imagesMaxHeight
+        }&photoreference=${photoReference}&key=${config.googlePlacesAPIKey}`,
+    });
 };
 
 export default utilities;

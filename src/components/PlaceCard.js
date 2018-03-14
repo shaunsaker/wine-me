@@ -2,7 +2,6 @@ import React from "react";
 import { View, Text, StyleSheet } from "react-native";
 import PropTypes from "prop-types";
 
-import config from "../config";
 import utilities from "../utilities";
 import styleConstants from "../assets/styleConstants";
 
@@ -30,17 +29,9 @@ export default class PlaceCard extends React.PureComponent {
     }
 
     render() {
-        /*
-https://maps.googleapis.com/maps/api/place/photo?maxheight=600&photoreference=CnRvAAAAwMpdHeWlXl-lH0vp7lez4znKPIWSWvgvZFISdKx45AwJVP1Qp37YOrH7sqHMJ8C-vBDC546decipPHchJhHZL94RcTUfPa1jWzo-rSHaTlbNtjh-N68RkcToUCuY9v2HNpo5mziqkir37WU8FJEqVBIQ4k938TI3e7bf8xq-uwDZcxoUbO_ZJzPxremiQurAYzCTwRhE_V0&key=AIzaSyAbqz9XQOVIFRtl6X1sovgna3SHDJHtKM0
-        */
-
-        const photoURL = this.props.place.photoReference && {
-            uri: `https://maps.googleapis.com/maps/api/place/photo?maxheight=${
-                config.imagesMaxHeight
-            }&photoreference=${this.props.place.photoReference}&key=${
-                config.googlePlacesAPIKey
-            }`,
-        };
+        const photoURL = utilities.getGooglePlacesPhoto(
+            this.props.place.photoReference,
+        );
 
         const backgroundImage = photoURL ? (
             <ImageWidget
