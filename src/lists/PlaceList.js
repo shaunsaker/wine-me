@@ -21,7 +21,6 @@ export default class PlaceList extends React.Component {
             handlePress: PropTypes.func,
             userPlaces: PropTypes.array,
             scrollToTop: PropTypes.any, // on change, scrollToTop
-            networkType: PropTypes.string,
         };
     }
 
@@ -41,7 +40,6 @@ export default class PlaceList extends React.Component {
                 place={item}
                 handlePress={() => this.props.handlePress(item)}
                 isVisited={isVisited}
-                networkType={this.props.networkType}
             />
         );
     };

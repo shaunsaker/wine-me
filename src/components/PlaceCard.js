@@ -1,19 +1,19 @@
-import React from 'react';
-import { View, Text, StyleSheet, PixelRatio } from 'react-native';
-import PropTypes from 'prop-types';
+import React from "react";
+import { View, Text, StyleSheet } from "react-native";
+import PropTypes from "prop-types";
 
-import config from '../config';
-import utilities from '../utilities';
-import styleConstants from '../assets/styleConstants';
+import config from "../config";
+import utilities from "../utilities";
+import styleConstants from "../assets/styleConstants";
 
 import {
     Touchable,
     Label,
     ImageWidget,
     StarRating,
-} from 'react-native-simple-components';
-import Icon from 'react-native-vector-icons/MaterialIcons';
-import CustomIcon from '../assets/icons';
+} from "react-native-simple-components";
+import Icon from "react-native-vector-icons/MaterialIcons";
+import CustomIcon from "../assets/icons";
 
 export default class PlaceCard extends React.PureComponent {
     constructor(props) {
@@ -26,7 +26,6 @@ export default class PlaceCard extends React.PureComponent {
             userLocation: PropTypes.object,
             handlePress: PropTypes.func,
             isVisited: PropTypes.bool,
-            networkType: PropTypes.string,
         };
     }
 
@@ -35,14 +34,12 @@ export default class PlaceCard extends React.PureComponent {
 https://maps.googleapis.com/maps/api/place/photo?maxheight=600&photoreference=CnRvAAAAwMpdHeWlXl-lH0vp7lez4znKPIWSWvgvZFISdKx45AwJVP1Qp37YOrH7sqHMJ8C-vBDC546decipPHchJhHZL94RcTUfPa1jWzo-rSHaTlbNtjh-N68RkcToUCuY9v2HNpo5mziqkir37WU8FJEqVBIQ4k938TI3e7bf8xq-uwDZcxoUbO_ZJzPxremiQurAYzCTwRhE_V0&key=AIzaSyAbqz9XQOVIFRtl6X1sovgna3SHDJHtKM0
         */
 
-        const imageCompression = this.props.networkType !== 'wifi' ? 0.5 : 1;
-        const maxHeight =
-            PixelRatio.getPixelSizeForLayoutSize(200) * imageCompression;
-
         const photoURL = this.props.place.photoReference && {
-            uri: `https://maps.googleapis.com/maps/api/place/photo?maxheight=${maxHeight}&photoreference=${
-                this.props.place.photoReference
-            }&key=${config.googlePlacesAPIKey}`,
+            uri: `https://maps.googleapis.com/maps/api/place/photo?maxheight=${
+                config.imagesMaxHeight
+            }&photoreference=${this.props.place.photoReference}&key=${
+                config.googlePlacesAPIKey
+            }`,
         };
 
         const backgroundImage = photoURL ? (
@@ -98,7 +95,7 @@ https://maps.googleapis.com/maps/api/place/photo?maxheight=600&photoreference=Cn
                                 text={
                                     (this.props.place.relativeDistance
                                         ? this.props.place.relativeDistance
-                                        : '-') + ' km'
+                                        : "-") + " km"
                                 }
                                 style={styles.distanceLabel}
                                 textStyle={styles.labelText}
@@ -118,10 +115,10 @@ const styles = StyleSheet.create({
     wrapper: {
         padding: 16,
         paddingTop: 0,
-        alignSelf: 'stretch',
+        alignSelf: "stretch",
     },
     container: {
-        alignSelf: 'stretch',
+        alignSelf: "stretch",
         height: 200,
         borderRadius: 8,
 
@@ -130,14 +127,14 @@ const styles = StyleSheet.create({
         borderWidth: 0,
     },
     loader: {
-        position: 'absolute',
+        position: "absolute",
         top: 0,
         left: 0,
         right: 0,
         bottom: 0,
     },
     backgroundImageContainer: {
-        position: 'absolute',
+        position: "absolute",
         top: 0,
         right: 0,
         bottom: 0,
@@ -153,8 +150,8 @@ const styles = StyleSheet.create({
         width: styleConstants.windowWidth - 32,
         height: 200,
         backgroundColor: styleConstants.primary,
-        justifyContent: 'center',
-        alignItems: 'center',
+        justifyContent: "center",
+        alignItems: "center",
     },
     backgroundImageIcon: {
         fontSize: 96,
@@ -163,8 +160,8 @@ const styles = StyleSheet.create({
     bodyContainer: {
         flex: 1,
         padding: 8,
-        justifyContent: 'flex-end',
-        alignItems: 'flex-start',
+        justifyContent: "flex-end",
+        alignItems: "flex-start",
     },
     titleLabel: {
         backgroundColor: styleConstants.transBlack,
@@ -177,8 +174,8 @@ const styles = StyleSheet.create({
         paddingVertical: 4,
     },
     labelsContainer: {
-        flexDirection: 'row',
-        flexWrap: 'wrap',
+        flexDirection: "row",
+        flexWrap: "wrap",
         marginTop: 4,
     },
     labelContainer: {
@@ -195,7 +192,7 @@ const styles = StyleSheet.create({
         color: styleConstants.white,
     },
     menuIconContainer: {
-        position: 'absolute',
+        position: "absolute",
         top: 0,
         right: 0,
     },
@@ -205,7 +202,7 @@ const styles = StyleSheet.create({
         padding: 16,
     },
     isVisitedIconContainer: {
-        position: 'absolute',
+        position: "absolute",
         top: 0,
         left: 0,
     },
@@ -215,7 +212,7 @@ const styles = StyleSheet.create({
         padding: 16,
     },
     starRatingContainer: {
-        position: 'absolute',
+        position: "absolute",
         top: 8,
         right: 8,
     },
@@ -225,6 +222,6 @@ const styles = StyleSheet.create({
         borderRadius: 8,
     },
     starRatingIcon: {
-        color: 'gold',
+        color: "gold",
     },
 });

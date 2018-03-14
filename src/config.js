@@ -10,6 +10,7 @@ config.version = {
 };
 
 config.googlePlacesAPIKey = "AIzaSyAbqz9XQOVIFRtl6X1sovgna3SHDJHtKM0";
+config.imagesMaxHeight = 200;
 
 config.corks = {
     visited: 5,
@@ -17,6 +18,6 @@ config.corks = {
 
 config.development = true;
 
-config.environment = (__DEV__ || config.development) ? 'development' : 'staging';
+config.environment = __DEV__ || config.development ? "development" : "staging";
 
 export default config;

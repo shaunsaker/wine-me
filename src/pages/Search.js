@@ -46,7 +46,6 @@ export class Search extends React.Component {
             uid: PropTypes.string,
             userPlaces: PropTypes.array,
             searchAreas: PropTypes.object,
-            networkType: PropTypes.string,
         };
     }
 
@@ -123,14 +122,13 @@ export class Search extends React.Component {
                     handlePress={null}
                     userPlaces={this.props.userPlaces}
                     scrollToTop={this.state.places.length}
-                    networkType={this.props.networkType}
                 />
             ) : (
-                        <InfoBlock
-                            title="You've clearly had too many."
-                            description="We couldn't find any Places matching that name."
-                        />
-                    );
+                <InfoBlock
+                    title="You've clearly had too many."
+                    description="We couldn't find any Places matching that name."
+                />
+            );
 
         let searchAreas = utilities.convertDictionaryToArrayOfKeys(
             this.props.searchAreas,
@@ -192,7 +190,6 @@ function mapStateToProps(state) {
             state.main.appData.users[state.main.userAuth.uid].visited,
         searchAreas:
             state.main.appData.app && state.main.appData.app.searchAreas,
-        networkType: state.main.appState.networkType,
     };
 }
 

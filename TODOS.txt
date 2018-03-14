@@ -1,4 +1,5 @@
 BUGS
+    Image sometimes displays loading spinner even though its already loaded
 
 TODOS
     Place
