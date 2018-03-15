@@ -32,7 +32,7 @@ styleConstants.secondary = "#E23E57";
 styleConstants.white = "#FFFFFF";
 styleConstants.transWhite = "rgba(255, 255, 255, 0.70)";
 styleConstants.transBlack = "rgba(0, 0, 0, 0.70)";
-styleConstants.primaryText = "#212121";
+styleConstants.primaryText = "#000000";
 styleConstants.secondaryText = "#757575";
 styleConstants.dividerColor = "#E0E0E0";
 styleConstants.success = "#4caf50";
@@ -48,14 +48,12 @@ styleConstants.windowHeight = height;
 /* SHADOWS */
 
 // Elevation does not work on Android V4 so we add a border as a fallback
-const isEarlyAndroidOrIOS =
-    (Platform.OS === "Android" && Platform.Version <= 19) ||
-    Platform.OS === "ios";
+const isEarlyAndroid = Platform.OS === "Android" && Platform.Version <= 19;
 
 styleConstants.smallShadow = {
     elevation: 2,
-    borderWidth: isEarlyAndroidOrIOS ? 1 : 0,
-    borderColor: isEarlyAndroidOrIOS ? styleConstants.dividerColor : null,
+    borderWidth: isEarlyAndroid ? 1 : 0,
+    borderColor: isEarlyAndroid ? styleConstants.dividerColor : null,
 
     // iOS
     shadowColor: styleConstants.black,
@@ -69,8 +67,8 @@ styleConstants.smallShadow = {
 
 styleConstants.regularShadow = {
     elevation: 6,
-    borderWidth: isEarlyAndroidOrIOS ? 1 : 0,
-    borderColor: isEarlyAndroidOrIOS ? styleConstants.dividerColor : null,
+    borderWidth: isEarlyAndroid ? 1 : 0,
+    borderColor: isEarlyAndroid ? styleConstants.dividerColor : null,
 
     // iOS
     shadowColor: styleConstants.black,
@@ -84,8 +82,8 @@ styleConstants.regularShadow = {
 
 styleConstants.largeShadow = {
     elevation: 12,
-    borderWidth: isEarlyAndroidOrIOS ? 1 : 0,
-    borderColor: isEarlyAndroidOrIOS ? styleConstants.dividerColor : null,
+    borderWidth: isEarlyAndroid ? 1 : 0,
+    borderColor: isEarlyAndroid ? styleConstants.dividerColor : null,
 
     // iOS
     shadowColor: styleConstants.black,

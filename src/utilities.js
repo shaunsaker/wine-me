@@ -604,11 +604,9 @@ utilities.convertDegreesToRadians = degrees => {
 
 /* APP SPECIFIC */
 utilities.getGooglePlacesPhoto = photoReference => {
-    return (photoURL = photoReference && {
-        uri: `https://maps.googleapis.com/maps/api/place/photo?maxheight=${
-            config.imagesMaxHeight
-        }&photoreference=${photoReference}&key=${config.googlePlacesAPIKey}`,
-    });
+    return `https://maps.googleapis.com/maps/api/place/photo?maxheight=${
+        config.imagesMaxHeight
+    }&photoreference=${photoReference}&key=${config.googlePlacesAPIKey}`;
 };
 
 export default utilities;

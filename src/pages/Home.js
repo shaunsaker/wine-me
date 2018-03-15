@@ -125,8 +125,8 @@ export class Home extends React.Component {
         }
     }
 
-    navigate(page) {
-        Actions[page]();
+    navigate(page, props) {
+        Actions[page](props);
     }
 
     render() {
@@ -222,7 +222,7 @@ export class Home extends React.Component {
                 <PlaceList
                     data={places}
                     userLocation={this.props.userLocation}
-                    handlePress={null}
+                    handlePress={place => this.navigate("place", { place })}
                     userPlaces={this.props.userPlaces}
                     scrollToTop={this.state.activeTab}
                 />

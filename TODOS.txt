@@ -3,9 +3,19 @@ BUGS
 
 TODOS
     Place
-        Basic info
+        Business hours section 
+            Expandable
+            Prettify data
+        Extract components
         Physical check in
         Number of check ins
+        Reviews
+            Normal
+            Blank state
+        Photos
+            Normal
+            Blank state
+    All pages use navigate method (even Actions.pop) via page view controller
     Profile
         Level up guide
         Level up checklist
@@ -13,10 +23,10 @@ TODOS
             Latest to oldest
     Search    
         Collection progress
+    Disable tablets
 
 ENHANCEMENTS
     Would be great if modals were handled as wrappers
     Remove duplicate places
     Fix naming of places
-    Two column stacking for tablets
     Find place modal styles
