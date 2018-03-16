@@ -83,6 +83,23 @@ utilities.getDaysFromDate = date => {
     );
 };
 
+utilities.isToday = day => {
+    const days = [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+    ];
+    const date = new Date();
+    const dateDay = date.getDay();
+    const today = days[dateDay];
+
+    return day === today;
+};
+
 /* FILES */
 
 utilities.getFileName = path => {

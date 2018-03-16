@@ -210,24 +210,17 @@ export class Place extends React.Component {
 
         const businessHoursComponent = this.props.place.openingHours && (
             <View>
-                <View style={styles.headerRow}>
-                    <Icon name="alarm" style={styles.headerRowIcon} />
-                    <Text style={styles.headerRowText}>Business hours</Text>
-                </View>
+                <InfoRow iconName="alarm" text="Business hours" isHeader />
                 {this.props.place.openingHours.map((item, index) => {
                     return (
-                        <View style={styles.businessHoursRow}>
-                            <Icon
-                                name="alarm"
-                                style={[
-                                    styles.headerRowIcon,
-                                    { color: "transparent" },
-                                ]}
-                            />
-                            <Text style={styles.businessHoursRowText}>
-                                {item}
-                            </Text>
-                        </View>
+                        <InfoRow
+                            key={item}
+                            text={item}
+                            isBusinessHours
+                            isHighlighted={utilities.isToday(
+                                item.split(":")[0],
+                            )}
+                        />
                     );
                 })}
             </View>
@@ -326,7 +319,7 @@ const styles = StyleSheet.create({
     contentWrapper: {
         alignSelf: "stretch",
         flex: 1,
-        minHeight: styleConstants.windowHeight - 300,
+        minHeight: styleConstants.windowHeight,
     },
     contentContainer: {
         backgroundColor: styleConstants.white,
@@ -393,38 +386,6 @@ const styles = StyleSheet.create({
     tabContentContainer: {
         flex: 1,
         alignSelf: "stretch",
-    },
-
-    headerRow: {
-        flexDirection: "row",
-        alignItems: "center",
-        padding: 16,
-        borderBottomWidth: 1,
-        borderBottomColor: styleConstants.dividerColor,
-        backgroundColor: styleConstants.dividerColor,
-    },
-    headerRowIcon: {
-        fontSize: styleConstants.iconFont,
-        color: styleConstants.primaryText,
-        ...styleConstants.primaryFont,
-        marginRight: 8,
-    },
-    headerRowText: {
-        fontSize: styleConstants.regularFont,
-        color: styleConstants.primaryText,
-        ...styleConstants.primaryFont,
-    },
-    businessHoursRow: {
-        flexDirection: "row",
-        alignItems: "center",
-        padding: 16,
-        borderBottomWidth: 1,
-        borderBottomColor: styleConstants.dividerColor,
-    },
-    businessHoursRowText: {
-        fontSize: styleConstants.regularFont,
-        color: styleConstants.primaryText,
-        ...styleConstants.primaryFont,
     },
 });
 

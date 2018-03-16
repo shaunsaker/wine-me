@@ -14,17 +14,63 @@ export default function InfoRow(props) {
             iconName: PropTypes.string,
             text: PropTypes.string,
             handlePress: PropTypes.func,
+            isHeader: PropTypes.bool,
+            isHighlighted: PropTypes.bool,
+            isBusinessHours: PropTypes.bool,
         };
     }
 */
+    const leftIconComponent = props.iconName ? (
+        <Icon name={props.iconName} style={styles.infoRowIcon} />
+    ) : (
+        <Icon
+            name="alarm"
+            style={[
+                styles.infoRowIcon,
+                props.isHighlighted ? styles.highlightedIcon : styles.fauxIcon,
+            ]}
+        />
+    );
+
+    const textComponent = props.isBusinessHours ? (
+        <View style={styles.businessHoursRow}>
+            <Text
+                style={[
+                    styles.businessHoursDayText,
+                    props.isHighlighted && styles.highlightedText,
+                ]}>
+                {props.text.split(":")[0] + ":"}
+            </Text>
+            <Text
+                style={[
+                    styles.businessHoursTimeText,
+                    props.isHighlighted && styles.highlightedText,
+                ]}>
+                {props.text.split(": ")[1]}
+            </Text>
+        </View>
+    ) : (
+        <Text style={styles.infoRowText}>{props.text}</Text>
+    );
+
+    const rightIconComponent = props.handlePress && (
+        <Icon name="call-made" style={styles.rightIcon} />
+    );
 
     return (
-        <Touchable onPress={props.handlePress} style={styles.infoRow}>
+        <Touchable
+            onPress={props.handlePress}
+            style={[
+                styles.infoRow,
+                props.isHeader && styles.headerRow,
+                props.isHighlighted && styles.highlightedRow,
+            ]}
+            disableFeedback={!props.handlePress}>
             <View style={styles.infoRowLeftSection}>
-                <Icon name={props.iconName} style={styles.infoRowIcon} />
-                <Text style={styles.infoRowText}>{props.text}</Text>
+                {leftIconComponent}
+                {textComponent}
             </View>
-            <Icon name="call-made" style={styles.infoRowIcon} />
+            {rightIconComponent}
         </Touchable>
     );
 }
@@ -38,6 +84,10 @@ const styles = StyleSheet.create({
         borderBottomWidth: 1,
         borderBottomColor: styleConstants.dividerColor,
     },
+    headerRow: {
+        backgroundColor: styleConstants.dividerColor,
+    },
+    highlightedRow: {},
     infoRowLeftSection: {
         flexDirection: "row",
         alignItems: "center",
@@ -47,11 +97,41 @@ const styles = StyleSheet.create({
         fontSize: styleConstants.iconFont,
         color: styleConstants.primaryText,
         ...styleConstants.primaryFont,
-        marginRight: 8,
+        marginRight: 16,
+    },
+    highlightedIcon: {
+        color: styleConstants.primary,
+    },
+    fauxIcon: {
+        color: "transparent",
     },
     infoRowText: {
         fontSize: styleConstants.regularFont,
         color: styleConstants.primaryText,
+        ...styleConstants.primaryFont,
+        flex: 1,
+    },
+    highlightedText: {
+        color: styleConstants.primaryText,
+    },
+    rightIcon: {
+        fontSize: styleConstants.iconFont,
+        color: styleConstants.primaryText,
+        ...styleConstants.primaryFont,
+    },
+
+    businessHoursRow: {
+        flexDirection: "row",
+    },
+    businessHoursDayText: {
+        fontSize: styleConstants.regularFont,
+        color: styleConstants.secondaryText,
+        ...styleConstants.primaryFont,
+        flex: 0.6,
+    },
+    businessHoursTimeText: {
+        fontSize: styleConstants.regularFont,
+        color: styleConstants.secondaryText,
         ...styleConstants.primaryFont,
         flex: 1,
     },
