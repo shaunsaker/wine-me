@@ -11,7 +11,7 @@ import styleConstants from "../assets/styleConstants";
 import { Page, StarRating, Label } from "react-native-simple-components";
 import ScrollHeader from "../components/ScrollHeader";
 import InfoRow from "../components/Place/InfoRow";
-import Icon from "react-native-vector-icons/MaterialIcons";
+import CheckInButtonWidget from "../widgets/CheckInButtonWidget";
 
 export class Place extends React.Component {
     constructor(props) {
@@ -72,6 +72,7 @@ export class Place extends React.Component {
             rating: 4,
             reviews: [1, 2],
             photos: [3, 4, 5],
+            checkIns: 7,
         },
     };
 
@@ -159,6 +160,15 @@ export class Place extends React.Component {
             />
         );
 
+        const checkInsComponent = this.props.place.checkIns && (
+            <Label
+                text={this.props.place.checkIns + " check-in's"}
+                textStyle={styles.labelText}
+                style={styles.label}
+                showShadow
+            />
+        );
+
         const childrenBeforeComponent = (
             <View style={styles.headerContainer}>
                 <Text style={styles.nameText}>{this.props.place.name}</Text>
@@ -166,6 +176,7 @@ export class Place extends React.Component {
                     {starRatingComponent}
                     {reviewsComponent}
                     {photosComponent}
+                    {checkInsComponent}
                     <Label
                         text={
                             this.props.place.relativeDistance + " km from you"
@@ -249,7 +260,7 @@ export class Place extends React.Component {
                 <ScrollHeader
                     showShadows
                     headerTranslucent
-                    maxHeaderHeight={300}
+                    maxHeaderHeight={200}
                     minHeaderHeight={56}
                     // Image
                     imageURL={imageURL}
@@ -279,6 +290,9 @@ export class Place extends React.Component {
                     tabBarWrapperComponent={null}
                     childrenBeforeTabBar={childrenBeforeComponent}
                     childrenAfterTabBar={childrenAfterComponent}
+                />
+                <CheckInButtonWidget
+                    placeLocation={this.props.place.location}
                 />
             </Page>
         );
@@ -386,6 +400,7 @@ const styles = StyleSheet.create({
     tabContentContainer: {
         flex: 1,
         alignSelf: "stretch",
+        paddingBottom: 40 + 16 + 16, // action button
     },
 });
 

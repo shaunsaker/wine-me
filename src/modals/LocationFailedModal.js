@@ -1,13 +1,13 @@
-import React from 'react';
-import { View, Text, StyleSheet, Platform } from 'react-native';
-import PropTypes from 'prop-types';
+import React from "react";
+import { View, Text, StyleSheet, Platform } from "react-native";
+import PropTypes from "prop-types";
 
-import styleConstants from '../assets/styleConstants';
+import styleConstants from "../assets/styleConstants";
 
-import { Modal, Button } from 'react-native-simple-components';
-import InfoBlock from '../components/InfoBlock';
+import { Modal, Button } from "react-native-simple-components";
+import InfoBlock from "../components/InfoBlock";
 
-export default function LocationModal(props) {
+export default function LocationFailedModal(props) {
     // static get propTypes() {
     //     return {
     //         handleClose: PropTypes.func.isRequired,
@@ -19,12 +19,12 @@ export default function LocationModal(props) {
     const description = props.isIOS
         ? 'To resolve this, please go to Settings - WineMe - Location and select "While using the App".'
         : props.thirdAttemptAndroid
-          ? 'To resolve this, please go to Settings - Apps - WineMe - Permissions and select "Your location"'
-          : 'To resolve this, please press the "Okay" button.';
+            ? 'To resolve this, please go to Settings - Apps - WineMe - Permissions and select "Your location"'
+            : 'To resolve this, please press the "Okay" button.';
 
     const negativeActionButton = !props.isIOS && (
         <Button
-            text={'No thanks'}
+            text={"No thanks"}
             textStyle={[
                 styles.buttonText,
                 { color: styleConstants.primaryText },
@@ -72,18 +72,18 @@ export default function LocationModal(props) {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        alignSelf: 'stretch',
-        justifyContent: 'center',
+        alignSelf: "stretch",
+        justifyContent: "center",
         padding: 16,
     },
     contentWrapper: {
-        alignSelf: 'stretch',
+        alignSelf: "stretch",
         backgroundColor: styleConstants.white,
         borderRadius: 8,
         paddingVertical: 8,
     },
     fauxCloseIcon: {
-        color: 'transparent',
+        color: "transparent",
     },
 
     descriptionText: {

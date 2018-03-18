@@ -2,15 +2,20 @@ BUGS
     Image sometimes displays loading spinner even though its already loaded
 
 TODOS
+    Get relative distance as needed
     Place
         Physical check in
-        Number of check ins
         Reviews
             Normal
             Blank state
         Photos
             Normal
             Blank state
+        Businesshours
+            Collapsible section
+            Move today to top of list
+            Show alarm-on or alarm-off depending if it's open/closed right now
+        See who has checked in here
     All pages use navigate method (even Actions.pop) via page view controller
     Profile
         Level up guide
@@ -22,11 +27,6 @@ TODOS
     Disable tablets
 
 ENHANCEMENTS
-    Place
-        Businesshours
-            Move today to top of list
-            Show alarm-on or alarm-off depending if it's open/closed right now
-
     Would be great if modals were handled as wrappers
     Remove duplicate places
     Fix naming of places
