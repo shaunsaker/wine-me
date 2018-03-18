@@ -4,8 +4,10 @@ BUGS
 TODOS
     Place
         Reviews
-            Normal
-            Blank state
+            Action Button
+            TabBar shadow
+        Person placeholder image
+        Write a Review page
         Businesshours
             Collapsible section
             Move today to top of list
@@ -17,6 +19,7 @@ TODOS
         Level up checklist
         My Places/Wine Farms
             Latest to oldest
+        Corks for first one to write a review
     Search    
         Collection progress
     Home

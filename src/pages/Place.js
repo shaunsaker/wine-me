@@ -12,6 +12,8 @@ import { Page, StarRating, Label } from "react-native-simple-components";
 import ScrollHeader from "../components/ScrollHeader";
 import InfoRow from "../components/Place/InfoRow";
 import CheckInButtonWidget from "../widgets/CheckInButtonWidget";
+import ReviewsList from "../lists/ReviewsList";
+import PlaceBlankState from "../components/Place/PlaceBlankState";
 
 export class Place extends React.Component {
     constructor(props) {
@@ -228,16 +230,34 @@ export class Place extends React.Component {
         const activeTabComponent =
             this.state.activeTab === "Info" ? (
                 <View style={styles.tabContentContainer}>
-                    {addressComponent}
-                    {phoneNumberComponent}
-                    {websiteComponent}
-                    {businessHoursComponent}
+                    <View>
+                        {addressComponent}
+                        {phoneNumberComponent}
+                        {websiteComponent}
+                        {businessHoursComponent}
+                    </View>
                 </View>
             ) : this.state.activeTab === "Reviews" ? (
-                <View />
-            ) : (
-                <View />
-            );
+                place.reviews ? (
+                    <View style={styles.tabContentContainer}>
+                        <ReviewsList
+                            data={place.reviews}
+                            users={this.props.users}
+                            handleProfilePress={
+                                null /* TODO: Go to person's profile */
+                            }
+                        />
+                    </View>
+                ) : (
+                    <View style={styles.tabContentContainer}>
+                        <PlaceBlankState
+                            text="write a review"
+                            corks={100 /* TODO */}
+                            handleTextPress={null}
+                        />
+                    </View>
+                ) // TODO: Blank state
+            ) : null;
 
         const childrenAfterComponent = (
             <View style={styles.contentWrapper}>{activeTabComponent}</View>
@@ -293,6 +313,7 @@ function mapStateToProps(state) {
     return {
         userLocation: state.main.appState.userLocation,
         places: state.main.appData.app.places,
+        users: state.main.appData.users,
     };
 }
 
@@ -326,7 +347,7 @@ const styles = StyleSheet.create({
     contentWrapper: {
         alignSelf: "stretch",
         flex: 1,
-        minHeight: styleConstants.windowHeight,
+        minHeight: styleConstants.windowHeight - 56 - 56,
     },
     contentContainer: {
         backgroundColor: styleConstants.white,

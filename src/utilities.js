@@ -626,4 +626,65 @@ utilities.getGooglePlacesPhoto = photoReference => {
     }&photoreference=${photoReference}&key=${config.googlePlacesAPIKey}`;
 };
 
+utilities.getRelativePastDate = timestamp => {
+    let date = new Date(timestamp);
+    const dateHours = date.getHours();
+
+    let currentDate = new Date(Date.now());
+    const currentHours = currentDate.getHours();
+
+    date = timestamp / 1000;
+    currentDate = Date.now() / 1000;
+
+    const periods = [
+        {
+            unit: "day",
+            seconds: 86400,
+            iterations: 7,
+        },
+        {
+            unit: "week",
+            seconds: 604800,
+            iterations: 4,
+        },
+        {
+            unit: "month",
+            seconds: 2592000,
+            iterations: 12,
+        },
+        {
+            unit: "year",
+            seconds: 31536000,
+            iterations: 100, // doubt the app will last 100 years lol
+        },
+    ];
+
+    const difference = currentDate - date;
+    let unit;
+    let amount;
+
+    for (let i = 0; i < periods.length; i++) {
+        // Check if today
+        if (difference < periods[0].seconds && currentHours >= dateHours) {
+            unit = "";
+            amount = "today";
+        } else {
+            for (let j = 0; j < periods[i].iterations - 2; j++) {
+                if (difference < periods[i].seconds * (j + 2)) {
+                    unit = periods[i].unit;
+                    amount = j + 1;
+                    break;
+                }
+            }
+        }
+
+        if (unit || amount) {
+            break;
+        }
+    }
+    amount = amount === 1 ? "a" : amount;
+    unit = amount > 1 ? unit + "s" : unit;
+    return amount + " " + unit + (unit ? " ago" : "");
+};
+
 export default utilities;
