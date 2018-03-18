@@ -45,6 +45,8 @@ export class Place extends React.Component {
 
     static get propTypes() {
         return {
+            userLocation: PropTypes.object,
+
             // Passed props
             place: PropTypes.object,
         };
@@ -75,6 +77,13 @@ export class Place extends React.Component {
             checkIns: 7,
         },
     };
+
+    componentDidMount() {
+        // In case the user has moved since opening the app, get their location
+        this.props.dispatch({
+            type: "getUserLocation",
+        });
+    }
 
     navigate(page, goBack, props) {
         if (goBack) {
@@ -142,27 +151,45 @@ export class Place extends React.Component {
             />
         );
 
-        const reviewsComponent = this.props.place.reviews.length && (
-            <Label
-                text={this.props.place.reviews.length + " reviews"}
-                textStyle={styles.labelText}
-                style={styles.label}
-                showShadow
-            />
-        );
+        const reviewsComponent = this.props.place.reviews &&
+            this.props.place.reviews.length && (
+                <Label
+                    text={this.props.place.reviews.length + " reviews"}
+                    textStyle={styles.labelText}
+                    style={styles.label}
+                    showShadow
+                />
+            );
 
-        const photosComponent = this.props.place.photos.length && (
-            <Label
-                text={this.props.place.photos.length + " photos"}
-                textStyle={styles.labelText}
-                style={styles.label}
-                showShadow
-            />
-        );
+        const photosComponent = this.props.place.photos &&
+            this.props.place.photos.length && (
+                <Label
+                    text={this.props.place.photos.length + " photos"}
+                    textStyle={styles.labelText}
+                    style={styles.label}
+                    showShadow
+                />
+            );
 
         const checkInsComponent = this.props.place.checkIns && (
             <Label
                 text={this.props.place.checkIns + " check-in's"}
+                textStyle={styles.labelText}
+                style={styles.label}
+                showShadow
+            />
+        );
+
+        const relativeDistanceComponent = this.props.userLocation && (
+            <Label
+                text={
+                    Math.round(
+                        utilities.getDistanceBetweenCoordinateSets(
+                            this.props.userLocation,
+                            this.props.place.location,
+                        ),
+                    ) + " km from you"
+                }
                 textStyle={styles.labelText}
                 style={styles.label}
                 showShadow
@@ -177,14 +204,7 @@ export class Place extends React.Component {
                     {reviewsComponent}
                     {photosComponent}
                     {checkInsComponent}
-                    <Label
-                        text={
-                            this.props.place.relativeDistance + " km from you"
-                        }
-                        textStyle={styles.labelText}
-                        style={styles.label}
-                        showShadow
-                    />
+                    {relativeDistanceComponent}
                 </View>
             </View>
         );
@@ -197,7 +217,7 @@ export class Place extends React.Component {
                     this.handleLink(this.props.place.location, "location")
                 }
             />
-        ) : null; // FAILSAFE IN CASE WE HAVE NONE OF BELOW COMPONENTS
+        ) : null;
 
         const phoneNumberComponent = this.props.place.phoneNumber && (
             <InfoRow
@@ -300,7 +320,9 @@ export class Place extends React.Component {
 }
 
 function mapStateToProps(state) {
-    return {};
+    return {
+        userLocation: state.main.appState.userLocation,
+    };
 }
 
 const styles = StyleSheet.create({

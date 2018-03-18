@@ -13,6 +13,7 @@ import {
 } from "react-native-simple-components";
 import Icon from "react-native-vector-icons/MaterialIcons";
 import CustomIcon from "../assets/icons";
+import RelativeDistanceLabel from "./RelativeDistanceLabel";
 
 export default class PlaceCard extends React.PureComponent {
     constructor(props) {
@@ -35,7 +36,7 @@ export default class PlaceCard extends React.PureComponent {
 
         const backgroundImage = photoURL ? (
             <ImageWidget
-                source={photoURL}
+                source={{ uri: photoURL }}
                 style={styles.backgroundImage}
                 loaderColor={styleConstants.primary}
                 loaderStyle={styles.loader}
@@ -62,6 +63,13 @@ export default class PlaceCard extends React.PureComponent {
             </View>
         );
 
+        const relativeDistanceComponent = this.props.userLocation && (
+            <RelativeDistanceLabel
+                userLocation={this.props.userLocation}
+                placeLocation={this.props.place.location}
+            />
+        );
+
         return (
             <Touchable
                 onPress={this.props.handlePress}
@@ -81,17 +89,7 @@ export default class PlaceCard extends React.PureComponent {
                             textStyle={styles.titleText}
                         />
                         <View style={styles.labelsContainer}>
-                            <Label
-                                iconName="location-on"
-                                text={
-                                    (this.props.place.relativeDistance
-                                        ? this.props.place.relativeDistance
-                                        : "-") + " km"
-                                }
-                                style={styles.distanceLabel}
-                                textStyle={styles.labelText}
-                                iconStyle={styles.labelText}
-                            />
+                            {relativeDistanceComponent}
                         </View>
                     </View>
                     {isVisitedIcon}
@@ -172,7 +170,7 @@ const styles = StyleSheet.create({
     labelContainer: {
         marginRight: 4,
     },
-    distanceLabel: {
+    label: {
         backgroundColor: styleConstants.primary,
         borderRadius: 8,
         marginRight: 4,

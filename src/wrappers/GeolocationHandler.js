@@ -38,19 +38,6 @@ export class GeolocationHandler extends React.Component {
         }
     }
 
-    componentDidUpdate(prevProps) {
-        if (
-            this.props.userLocation &&
-            !prevProps.userLocation &&
-            this.props.appData
-        ) {
-            // Case where userLocation came in after appData
-            this.props.dispatch({
-                type: "SET_PLACES_RELATIVE_DISTANCES",
-            });
-        }
-    }
-
     getLocationPermission() {
         Permissions.handlePermission(
             "location",
@@ -65,9 +52,6 @@ export class GeolocationHandler extends React.Component {
     getUserLocation() {
         this.props.dispatch({
             type: "getUserLocation",
-            action: this.state.showLocationFailedModal && {
-                type: "SET_PLACES_RELATIVE_DISTANCES",
-            },
         });
 
         if (this.state.showLocationFailedModal) {
