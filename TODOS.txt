@@ -1,6 +1,5 @@
 BUGS
     Image sometimes displays loading spinner even though its already loaded
-    Shadow set warning in ScrollHeader
 
 TODOS
     Place

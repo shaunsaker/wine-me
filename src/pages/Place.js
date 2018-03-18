@@ -128,7 +128,6 @@ export class Place extends React.Component {
                     text={place.reviews.length + " reviews"}
                     textStyle={styles.labelText}
                     style={styles.label}
-                    showShadow
                 />
             );
 
@@ -145,7 +144,6 @@ export class Place extends React.Component {
                 }
                 textStyle={styles.labelText}
                 style={styles.label}
-                showShadow
             />
         );
 
@@ -168,7 +166,6 @@ export class Place extends React.Component {
                 }
                 textStyle={styles.labelText}
                 style={styles.label}
-                showShadow
             />
         );
 
