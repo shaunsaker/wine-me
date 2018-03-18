@@ -13,6 +13,7 @@ const initialState = {
             iconName: null,
             success: null,
             autoHide: null,
+            duration: null,
             action: {
                 type: null,
                 text: null,

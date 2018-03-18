@@ -39,7 +39,7 @@ export default class PlaceList extends React.Component {
         return (
             <PlaceCard
                 place={item}
-                handlePress={() => this.props.handlePress(item)}
+                handlePress={() => this.props.handlePress(item.id)}
                 isVisited={isVisited}
                 userLocation={this.props.userLocation}
             />

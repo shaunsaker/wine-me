@@ -31,7 +31,7 @@ export class Search extends React.Component {
         super(props);
 
         this.updateSearchValue = this.updateSearchValue.bind(this);
-        this.navigateBack = this.navigateBack.bind(this);
+        this.navigate = this.navigate.bind(this);
 
         this.state = {
             places: null,
@@ -104,8 +104,12 @@ export class Search extends React.Component {
         });
     }
 
-    navigateBack() {
-        Actions.pop();
+    navigate(page, props, goBack) {
+        if (goBack) {
+            Actions.pop();
+        } else {
+            Actions[page](props);
+        }
     }
 
     render() {
@@ -119,7 +123,7 @@ export class Search extends React.Component {
                 <PlaceList
                     data={this.state.places}
                     userLocation={this.props.userLocation}
-                    handlePress={null}
+                    handlePress={placeID => this.navigate("place", { placeID })}
                     userPlaces={this.props.userPlaces}
                     scrollToTop={this.state.places.length}
                 />
@@ -146,7 +150,7 @@ export class Search extends React.Component {
                     style={styles.headerWrapper}>
                     <View style={styles.headerContainer}>
                         <TouchableIcon
-                            handlePress={this.navigateBack}
+                            handlePress={() => this.navigate(null, null, true)}
                             iconName="chevron-left"
                             iconStyle={styles.headerIcon}
                             style={styles.headerLeftIconContainer}

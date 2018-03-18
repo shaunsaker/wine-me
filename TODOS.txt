@@ -1,14 +1,10 @@
 BUGS
     Image sometimes displays loading spinner even though its already loaded
+    Shadow set warning in ScrollHeader
 
 TODOS
-    Get relative distance as needed
     Place
-        Physical check in
         Reviews
-            Normal
-            Blank state
-        Photos
             Normal
             Blank state
         Businesshours
@@ -24,6 +20,8 @@ TODOS
             Latest to oldest
     Search    
         Collection progress
+    Home
+        Rehash it, try AirBNB style explore (no tabs => sections)
     Disable tablets
 
 ENHANCEMENTS

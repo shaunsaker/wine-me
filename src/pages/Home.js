@@ -125,8 +125,12 @@ export class Home extends React.Component {
         }
     }
 
-    navigate(page, props) {
-        Actions[page](props);
+    navigate(page, props, goBack) {
+        if (goBack) {
+            Actions.pop();
+        } else {
+            Actions[page](props);
+        }
     }
 
     render() {
@@ -222,7 +226,7 @@ export class Home extends React.Component {
                 <PlaceList
                     data={places}
                     userLocation={this.props.userLocation}
-                    handlePress={place => this.navigate("place", { place })}
+                    handlePress={placeID => this.navigate("place", { placeID })}
                     userPlaces={this.props.userPlaces}
                     scrollToTop={this.state.activeTab}
                 />

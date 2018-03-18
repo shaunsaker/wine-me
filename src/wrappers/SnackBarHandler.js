@@ -74,6 +74,7 @@ export class SnackBarHandler extends React.Component {
                 ]}
                 containerStyle={styles.container}
                 showCloseButton={!this.props.error.autoHide}
+                autoHideDuration={this.props.error.duration}
             />
         ) : null;
 

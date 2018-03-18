@@ -32,10 +32,6 @@ export class Place extends React.Component {
                 title: "Reviews",
                 iconName: "star",
             },
-            {
-                title: "Photos",
-                iconName: "photo",
-            },
         ];
 
         this.state = {
@@ -46,37 +42,12 @@ export class Place extends React.Component {
     static get propTypes() {
         return {
             userLocation: PropTypes.object,
+            places: PropTypes.object,
 
             // Passed props
-            place: PropTypes.object,
+            placeID: PropTypes.string,
         };
     }
-
-    static defaultProps = {
-        place: {
-            address: "15 Bo Lang St, Paarl, 7646, South Africa",
-            location: { lat: -33.7049146, lng: 18.9524889 },
-            name: "Pearl Mountain Wine Farm.",
-            openingHours: [
-                "Monday: Closed",
-                "Tuesday: 11:30 AM – 9:30 PM",
-                "Wednesday: 11:30 AM – 9:30 PM",
-                "Thursday: 11:30 AM – 9:30 PM",
-                "Friday: 11:30 AM – 9:30 PM",
-                "Saturday: 11:30 AM – 9:30 PM",
-                "Sunday: 11:30 AM – 4:00 PM",
-            ],
-            phoneNumber: "021 870 1550",
-            photoReference:
-                "CmRaAAAAQQlhPGNEJFbvpevBSOW8_wLjx4n2RhRuolXvCYrHtJ5uzhhFgb3skFQdThcw_fvj_mlsCYzK0WsLHXgzOtmL1Fd9I4BUzYz4E_xLB-JVz1ZPqRr6Xys39ZBd9wXt6SCeEhB9ZArMRy4TX0F4-Q5lndxRGhSSsTrV02oXmUCmwNtrjpmd-d2Gvg",
-            relativeDistance: 44,
-            website: "http://pearlmountain.co.za/",
-            rating: 4,
-            reviews: [1, 2],
-            photos: [3, 4, 5],
-            checkIns: 7,
-        },
-    };
 
     componentDidMount() {
         // In case the user has moved since opening the app, get their location
@@ -139,46 +110,51 @@ export class Place extends React.Component {
     }
 
     render() {
-        const imageURL = utilities.getGooglePlacesPhoto(
-            this.props.place.photoReference,
-        );
+        const place = this.props.places[this.props.placeID];
 
-        const starRatingComponent = this.props.place.rating && (
+        const imageURL = utilities.getGooglePlacesPhoto(place.photoReference);
+
+        const starRatingComponent = place.rating && (
             <StarRating
-                rating={this.props.place.rating}
+                rating={place.rating}
                 iconStyle={styles.starRatingIcon}
                 style={styles.starRatingContainer}
             />
         );
 
-        const reviewsComponent = this.props.place.reviews &&
-            this.props.place.reviews.length && (
+        const reviewsComponent = place.reviews &&
+            place.reviews.length && (
                 <Label
-                    text={this.props.place.reviews.length + " reviews"}
+                    text={place.reviews.length + " reviews"}
                     textStyle={styles.labelText}
                     style={styles.label}
                     showShadow
                 />
             );
 
-        const photosComponent = this.props.place.photos &&
-            this.props.place.photos.length && (
-                <Label
-                    text={this.props.place.photos.length + " photos"}
-                    textStyle={styles.labelText}
-                    style={styles.label}
-                    showShadow
-                />
-            );
+        const numberOfCheckIns =
+            place.checkIns &&
+            utilities.convertDictionaryToArray(place.checkIns).length;
 
-        const checkInsComponent = this.props.place.checkIns && (
+        const checkInsComponent = place.checkIns && (
             <Label
-                text={this.props.place.checkIns + " check-in's"}
+                text={
+                    numberOfCheckIns +
+                    " check-in" +
+                    (numberOfCheckIns > 1 ? "'s" : "")
+                }
                 textStyle={styles.labelText}
                 style={styles.label}
                 showShadow
             />
         );
+
+        const relativeDistance =
+            this.props.userLocation &&
+            utilities.getDistanceBetweenCoordinateSets(
+                this.props.userLocation,
+                place.location,
+            );
 
         const relativeDistanceComponent = this.props.userLocation && (
             <Label
@@ -186,7 +162,7 @@ export class Place extends React.Component {
                     Math.round(
                         utilities.getDistanceBetweenCoordinateSets(
                             this.props.userLocation,
-                            this.props.place.location,
+                            place.location,
                         ),
                     ) + " km from you"
                 }
@@ -198,51 +174,46 @@ export class Place extends React.Component {
 
         const childrenBeforeComponent = (
             <View style={styles.headerContainer}>
-                <Text style={styles.nameText}>{this.props.place.name}</Text>
+                <Text style={styles.nameText}>{place.name}</Text>
                 <View style={styles.labelsContainer}>
+                    {relativeDistanceComponent}
                     {starRatingComponent}
                     {reviewsComponent}
-                    {photosComponent}
                     {checkInsComponent}
-                    {relativeDistanceComponent}
                 </View>
             </View>
         );
 
-        const addressComponent = this.props.place.address ? (
+        const addressComponent = place.address ? (
             <InfoRow
                 iconName="location-on"
-                text={this.props.place.address}
-                handlePress={() =>
-                    this.handleLink(this.props.place.location, "location")
-                }
+                text={place.address}
+                handlePress={() => this.handleLink(place.location, "location")}
             />
         ) : null;
 
-        const phoneNumberComponent = this.props.place.phoneNumber && (
+        const phoneNumberComponent = place.phoneNumber && (
             <InfoRow
                 iconName="phone"
-                text={this.props.place.phoneNumber}
+                text={place.phoneNumber}
                 handlePress={() =>
-                    this.handleLink(this.props.place.phoneNumber, "phoneNumber")
+                    this.handleLink(place.phoneNumber, "phoneNumber")
                 }
             />
         );
 
-        const websiteComponent = this.props.place.website && (
+        const websiteComponent = place.website && (
             <InfoRow
                 iconName="web"
-                text={this.props.place.website}
-                handlePress={() =>
-                    this.handleLink(this.props.place.website, "website")
-                }
+                text={place.website}
+                handlePress={() => this.handleLink(place.website, "website")}
             />
         );
 
-        const businessHoursComponent = this.props.place.openingHours && (
+        const businessHoursComponent = place.openingHours && (
             <View>
                 <InfoRow iconName="alarm" text="Business hours" isHeader />
-                {this.props.place.openingHours.map((item, index) => {
+                {place.openingHours.map((item, index) => {
                     return (
                         <InfoRow
                             key={item}
@@ -290,7 +261,7 @@ export class Place extends React.Component {
                     headerLeftIconName="chevron-left"
                     headerLeftIconStyle={styles.headerIcon}
                     handleHeaderLeftIconPress={() => this.navigate(null, true)}
-                    headerText={this.props.place.name}
+                    headerText={place.name}
                     headerTextStyle={styles.headerText}
                     headerStyle={styles.header}
                     // TabBar
@@ -312,7 +283,9 @@ export class Place extends React.Component {
                     childrenAfterTabBar={childrenAfterComponent}
                 />
                 <CheckInButtonWidget
-                    placeLocation={this.props.place.location}
+                    placeLocation={place.location}
+                    placeID={this.props.placeID}
+                    relativeDistance={relativeDistance}
                 />
             </Page>
         );
@@ -322,6 +295,7 @@ export class Place extends React.Component {
 function mapStateToProps(state) {
     return {
         userLocation: state.main.appState.userLocation,
+        places: state.main.appData.app.places,
     };
 }
 

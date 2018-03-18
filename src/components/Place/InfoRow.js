@@ -110,6 +110,7 @@ const styles = StyleSheet.create({
         color: styleConstants.primaryText,
         ...styleConstants.primaryFont,
         flex: 1,
+        marginRight: 16,
     },
     highlightedText: {
         color: styleConstants.primaryText,
