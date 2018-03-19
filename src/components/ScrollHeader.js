@@ -179,7 +179,7 @@ export default class ScrollHeader extends React.Component {
 
         const tabBarOpacity = this.state.scrollY.interpolate({
             inputRange: [
-                headerScrollDistance + this.state.tabBarY, // clear heading title // TODO: needs testing on different devices
+                headerScrollDistance + this.state.tabBarY,
                 headerScrollDistance + this.state.tabBarY,
             ],
             outputRange: [0, 1],
@@ -224,7 +224,11 @@ export default class ScrollHeader extends React.Component {
         };
 
         const BlankWrapper = props => {
-            return <View style={shadowStyles}>{props.children}</View>;
+            return (
+                <View style={[shadowStyles, { marginBottom: 8 }]}>
+                    {props.children}
+                </View>
+            );
         };
 
         const Wrapper = this.props.tabBarWrapperComponent

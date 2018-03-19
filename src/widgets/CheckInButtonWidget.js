@@ -239,6 +239,7 @@ export class CheckInButtonWidget extends React.Component {
                     handlePress={!buttonDisabled ? this.toggleLoading : null}
                     disabled={buttonDisabled}
                     disabledStyle={{ opacity: 1 }}
+                    showShadow
                 />
             </Animated.View>
         );
