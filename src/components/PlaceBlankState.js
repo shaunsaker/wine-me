@@ -2,7 +2,7 @@ import React from "react";
 import { View, Text, StyleSheet } from "react-native";
 import PropTypes from "prop-types";
 
-import styleConstants from "../../assets/styleConstants";
+import styleConstants from "../assets/styleConstants";
 
 import { TouchableText } from "react-native-simple-components";
 

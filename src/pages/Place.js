@@ -10,10 +10,10 @@ import styleConstants from "../assets/styleConstants";
 
 import { Page, StarRating, Label } from "react-native-simple-components";
 import ScrollHeader from "../components/ScrollHeader";
-import InfoRow from "../components/Place/InfoRow";
+import InfoRow from "../components/InfoRow";
 import CheckInButtonWidget from "../widgets/CheckInButtonWidget";
 import ReviewsList from "../lists/ReviewsList";
-import PlaceBlankState from "../components/Place/PlaceBlankState";
+import PlaceBlankState from "../components/PlaceBlankState";
 import SecondaryButton from "../components/SecondaryButton";
 
 export class Place extends React.Component {

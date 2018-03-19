@@ -34,12 +34,6 @@ export default class ReviewCard extends React.Component {
     }
 
     render() {
-        const photoURL = this.props.reviewer.photoURL
-            ? {
-                  uri: this.props.reviewer.photoURL,
-              }
-            : require("../assets/images/128.jpg"); // TODO: placeholder image
-
         const header = (
             <View style={styles.header}>
                 <View style={styles.nameTextContainer}>
@@ -81,7 +75,12 @@ export default class ReviewCard extends React.Component {
         return (
             <View style={styles.container}>
                 <View style={styles.photoContainer}>
-                    <Image source={photoURL} style={styles.photo} />
+                    <Image
+                        source={{
+                            uri: this.props.reviewer.photoURL,
+                        }}
+                        style={styles.photo}
+                    />
                 </View>
                 <View style={styles.contentContainer}>
                     {headerComponent}
@@ -133,6 +132,7 @@ const styles = StyleSheet.create({
         height: 40,
         borderRadius: 20,
         overflow: "hidden", // ios
+        backgroundColor: styleConstants.dividerColor,
     },
     contentContainer: {
         flex: 1,

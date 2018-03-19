@@ -2,29 +2,30 @@ BUGS
     Image sometimes displays loading spinner even though its already loaded
 
 TODOS
+    All pages use navigate method (even Actions.pop) via page view controller
     Place
-        Person placeholder image
         Write a Review page
         Businesshours
             Collapsible section
             Move today to top of list
             Show alarm-on or alarm-off depending if it's open/closed right now
         See who has checked in here
-    All pages use navigate method (even Actions.pop) via page view controller
     Profile
         Level up guide
         Level up checklist
         My Places/Wine Farms
             Latest to oldest
         Corks for first one to write a review
+    GameWrapper component   
+        Responsible for point allocation, levelling etc. based on events that it listens to
     Search    
         Collection progress
     Home
         Rehash it, try AirBNB style explore (no tabs => sections)
     Disable tablets
-
-ENHANCEMENTS
-    Would be great if modals were handled as wrappers
+    Find place modal styles
+    Handle modals as wrappers
     Remove duplicate places
     Fix naming of places
-    Find place modal styles
+
+ENHANCEMENTS
