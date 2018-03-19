@@ -13,7 +13,7 @@ import utilities from "../utilities";
 import styleConstants from "../assets/styleConstants";
 
 import { AnimateScale } from "react-native-simple-animators";
-import { Button } from "react-native-simple-components";
+import SecondaryButton from "../components/SecondaryButton";
 import Icon from "react-native-vector-icons/MaterialIcons";
 
 export class CheckInButtonWidget extends React.Component {
@@ -207,8 +207,8 @@ export class CheckInButtonWidget extends React.Component {
         };
 
         return (
-            <Animated.View style={[styles.buttonContainer, animatedStyles]}>
-                <Button
+            <Animated.View style={animatedStyles}>
+                <SecondaryButton
                     customIcon={iconComponent}
                     iconName={
                         !this.state.isAnimating &&
@@ -218,7 +218,6 @@ export class CheckInButtonWidget extends React.Component {
                                 ? "check"
                                 : "location-searching")
                     }
-                    iconStyle={styles.actionButtonIcon}
                     text={
                         !this.state.isAnimating &&
                         (isUserCheckedIn
@@ -231,11 +230,7 @@ export class CheckInButtonWidget extends React.Component {
                                         : "GOT YOUR LOCATION"
                                     : "CHECK IN")
                     }
-                    textStyle={styles.actionButtonText}
-                    style={[
-                        styles.actionButton,
-                        isUserCheckedIn && styles.checkedInButton,
-                    ]}
+                    style={isUserCheckedIn && styles.checkedInButton}
                     handlePress={!buttonDisabled ? this.toggleLoading : null}
                     disabled={buttonDisabled}
                     disabledStyle={{ opacity: 1 }}
@@ -259,33 +254,8 @@ function mapStateToProps(state) {
 }
 
 const styles = StyleSheet.create({
-    buttonContainer: {
-        position: "absolute",
-        bottom: 16,
-        right: 16,
-    },
-    actionButton: {
-        backgroundColor: styleConstants.secondary,
-        borderRadius: 32,
-        overflow: "hidden",
-        paddingHorizontal: 16,
-        height: 40,
-    },
     checkedInButton: {
         backgroundColor: styleConstants.success,
-    },
-    actionButtonIcon: {
-        fontSize: styleConstants.iconFont,
-        color: styleConstants.white,
-        position: "relative",
-        left: 0,
-        marginRight: 4,
-        marginLeft: -8,
-    },
-    actionButtonText: {
-        fontSize: styleConstants.regularFont,
-        color: styleConstants.white,
-        ...styleConstants.primaryFont,
     },
     loaderContainer: {
         marginRight: 8,

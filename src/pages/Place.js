@@ -14,6 +14,7 @@ import InfoRow from "../components/Place/InfoRow";
 import CheckInButtonWidget from "../widgets/CheckInButtonWidget";
 import ReviewsList from "../lists/ReviewsList";
 import PlaceBlankState from "../components/Place/PlaceBlankState";
+import SecondaryButton from "../components/SecondaryButton";
 
 export class Place extends React.Component {
     constructor(props) {
@@ -256,12 +257,27 @@ export class Place extends React.Component {
                             handleTextPress={null}
                         />
                     </View>
-                ) // TODO: Blank state
+                )
             ) : null;
 
         const childrenAfterComponent = (
             <View style={styles.contentWrapper}>{activeTabComponent}</View>
         );
+
+        const actionButtonComponent =
+            this.state.activeTab === "Info" ? (
+                <CheckInButtonWidget
+                    placeLocation={place.location}
+                    placeID={this.props.placeID}
+                    relativeDistance={relativeDistance}
+                />
+            ) : (
+                <SecondaryButton
+                    text="WRITE A REVIEW"
+                    iconName="mode-edit"
+                    handlePress={null}
+                />
+            );
 
         return (
             <Page style={styles.container}>
@@ -299,11 +315,9 @@ export class Place extends React.Component {
                     childrenBeforeTabBar={childrenBeforeComponent}
                     childrenAfterTabBar={childrenAfterComponent}
                 />
-                <CheckInButtonWidget
-                    placeLocation={place.location}
-                    placeID={this.props.placeID}
-                    relativeDistance={relativeDistance}
-                />
+                <View style={styles.actionButtonContainer}>
+                    {actionButtonComponent}
+                </View>
             </Page>
         );
     }
@@ -415,6 +429,12 @@ const styles = StyleSheet.create({
         flex: 1,
         alignSelf: "stretch",
         paddingBottom: 40 + 16 + 16, // action button
+    },
+
+    actionButtonContainer: {
+        position: "absolute",
+        bottom: 16,
+        right: 16,
     },
 });
 
