@@ -10,7 +10,6 @@ import {
 } from "react-native";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
-import { Actions } from "react-native-router-flux";
 
 import config from "../config";
 import utilities from "../utilities";

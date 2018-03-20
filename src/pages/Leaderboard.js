@@ -22,6 +22,7 @@ export class Leaderboard extends React.Component {
         this.toggleUserNameModal = this.toggleUserNameModal.bind(this);
         this.scrollToUser = this.scrollToUser.bind(this);
         this.submitUserName = this.submitUserName.bind(this);
+        this.navigate = this.navigate.bind(this);
 
         this.state = {
             showUserNameModal: false,
@@ -68,6 +69,14 @@ export class Leaderboard extends React.Component {
         });
     }
 
+    navigate(page, props, goBack) {
+        if (goBack) {
+            Actions.pop();
+        } else {
+            Actions[page](props);
+        }
+    }
+
     render() {
         let users = utilities.convertDictionaryToArray(this.props.users, true);
 
@@ -97,7 +106,7 @@ export class Leaderboard extends React.Component {
                 <HeaderBar
                     leftIconName="chevron-left"
                     leftIconStyle={styles.headerIcon}
-                    handleLeftIconPress={() => Actions.pop()}
+                    handleLeftIconPress={() => this.navigate(null, null, true)}
                     style={styles.header}
                     statusBarColor={styleConstants.white}
                     statusBarStyle="dark-content"

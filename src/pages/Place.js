@@ -22,11 +22,11 @@ export class Place extends React.Component {
     constructor(props) {
         super(props);
 
-        this.navigate = this.navigate.bind(this);
         this.setTab = this.setTab.bind(this);
         this.handleLink = this.handleLink.bind(this);
         this.prepareLink = this.prepareLink.bind(this);
         this.setError = this.setError.bind(this);
+        this.navigate = this.navigate.bind(this);
 
         this.tabs = [
             {
@@ -59,14 +59,6 @@ export class Place extends React.Component {
         this.props.dispatch({
             type: "getUserLocation",
         });
-    }
-
-    navigate(page, goBack, props) {
-        if (goBack) {
-            Actions.pop();
-        } else {
-            Actions[page](props);
-        }
     }
 
     setTab(tab) {
@@ -112,6 +104,14 @@ export class Place extends React.Component {
             message,
             autoHide: true,
         });
+    }
+
+    navigate(page, goBack, props) {
+        if (goBack) {
+            Actions.pop();
+        } else {
+            Actions[page](props);
+        }
     }
 
     render() {

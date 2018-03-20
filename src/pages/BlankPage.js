@@ -14,11 +14,21 @@ export class BlankPage extends React.Component {
     constructor(props) {
         super(props);
 
+        this.navigate = this.navigate.bind(this);
+
         this.state = {};
     }
 
     static get propTypes() {
         return {};
+    }
+
+    navigate(page, props, goBack) {
+        if (goBack) {
+            Actions.pop();
+        } else {
+            Actions[page](props);
+        }
     }
 
     render() {

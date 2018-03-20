@@ -26,6 +26,7 @@ export class About extends React.Component {
 
         this.share = this.share.bind(this);
         this.linkToMail = this.linkToMail.bind(this);
+        this.navigate = this.navigate.bind(this);
     }
 
     static get propTypes() {
@@ -92,13 +93,21 @@ export class About extends React.Component {
             });
     }
 
+    navigate(page, props, goBack) {
+        if (goBack) {
+            Actions.pop();
+        } else {
+            Actions[page](props);
+        }
+    }
+
     render() {
         return (
             <Page style={styles.container}>
                 <HeaderBar
                     leftIconName="close"
                     leftIconStyle={styles.headerIcon}
-                    handleLeftIconPress={() => Actions.pop()}
+                    handleLeftIconPress={() => this.navigate(null, null, true)}
                     rightIconName="share"
                     rightIconStyle={styles.headerIcon}
                     handleRightIconPress={this.share}
