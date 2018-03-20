@@ -2,6 +2,7 @@ BUGS
     Image sometimes displays loading spinner even though its already loaded
 
 TODOS
+    Fix isVisited on PlaceCard
     All pages use navigate method (even Actions.pop) via page view controller
     Place
         Write a Review page

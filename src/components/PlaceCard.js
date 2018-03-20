@@ -7,10 +7,10 @@ import styleConstants from "../assets/styleConstants";
 
 import {
     Touchable,
-    Label,
     ImageWidget,
     StarRating,
 } from "react-native-simple-components";
+import Label from "./Label";
 import Icon from "react-native-vector-icons/MaterialIcons";
 import CustomIcon from "../assets/icons";
 import RelativeDistanceLabel from "./RelativeDistanceLabel";
@@ -83,11 +83,7 @@ export default class PlaceCard extends React.PureComponent {
                         {backgroundImage}
                     </View>
                     <View style={styles.bodyContainer}>
-                        <Label
-                            text={this.props.place.name}
-                            style={styles.titleLabel}
-                            textStyle={styles.titleText}
-                        />
+                        <Label text={this.props.place.name} secondaryText />
                         <View style={styles.labelsContainer}>
                             {relativeDistanceComponent}
                         </View>
@@ -152,43 +148,10 @@ const styles = StyleSheet.create({
         justifyContent: "flex-end",
         alignItems: "flex-start",
     },
-    titleLabel: {
-        backgroundColor: styleConstants.transBlack,
-        borderRadius: 8,
-    },
-    titleText: {
-        fontSize: styleConstants.regularFont,
-        ...styleConstants.secondaryFont,
-        color: styleConstants.white,
-        paddingVertical: 4,
-    },
     labelsContainer: {
         flexDirection: "row",
         flexWrap: "wrap",
         marginTop: 4,
-    },
-    labelContainer: {
-        marginRight: 4,
-    },
-    label: {
-        backgroundColor: styleConstants.primary,
-        borderRadius: 8,
-        marginRight: 4,
-    },
-    labelText: {
-        ...styleConstants.primaryFont,
-        fontSize: styleConstants.smallFont,
-        color: styleConstants.white,
-    },
-    menuIconContainer: {
-        position: "absolute",
-        top: 0,
-        right: 0,
-    },
-    menuIcon: {
-        fontSize: styleConstants.iconFont,
-        color: styleConstants.white,
-        padding: 16,
     },
     isVisitedIconContainer: {
         position: "absolute",

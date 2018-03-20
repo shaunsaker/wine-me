@@ -8,8 +8,10 @@ import config from "../config";
 import utilities from "../utilities";
 import styleConstants from "../assets/styleConstants";
 
-import { Page, StarRating, Label } from "react-native-simple-components";
+import { Page, StarRating } from "react-native-simple-components";
 import ScrollHeader from "../components/ScrollHeader";
+import RelativeDistanceLabel from "../components/RelativeDistanceLabel";
+import Label from "../components/Label";
 import InfoRow from "../components/InfoRow";
 import CheckInButtonWidget from "../widgets/CheckInButtonWidget";
 import ReviewsList from "../lists/ReviewsList";
@@ -127,11 +129,7 @@ export class Place extends React.Component {
 
         const reviewsComponent = place.reviews &&
             place.reviews.length && (
-                <Label
-                    text={place.reviews.length + " reviews"}
-                    textStyle={styles.labelText}
-                    style={styles.label}
-                />
+                <Label text={place.reviews.length + " reviews"} />
             );
 
         const numberOfCheckIns =
@@ -145,8 +143,6 @@ export class Place extends React.Component {
                     " check-in" +
                     (numberOfCheckIns > 1 ? "'s" : "")
                 }
-                textStyle={styles.labelText}
-                style={styles.label}
             />
         );
 
@@ -158,17 +154,9 @@ export class Place extends React.Component {
             );
 
         const relativeDistanceComponent = this.props.userLocation && (
-            <Label
-                text={
-                    Math.round(
-                        utilities.getDistanceBetweenCoordinateSets(
-                            this.props.userLocation,
-                            place.location,
-                        ),
-                    ) + " km from you"
-                }
-                textStyle={styles.labelText}
-                style={styles.label}
+            <RelativeDistanceLabel
+                userLocation={this.props.userLocation}
+                placeLocation={place.location}
             />
         );
 
@@ -393,20 +381,6 @@ const styles = StyleSheet.create({
     },
     starRatingIcon: {
         color: styleConstants.secondary,
-    },
-
-    label: {
-        backgroundColor: styleConstants.transBlack,
-        borderRadius: 4,
-        alignSelf: "flex-start",
-        paddingHorizontal: 16,
-        marginRight: 4,
-        marginBottom: 4,
-    },
-    labelText: {
-        fontSize: styleConstants.smallFont,
-        color: styleConstants.white,
-        ...styleConstants.primaryFont,
     },
 
     tabBar: {

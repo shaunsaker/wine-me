@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 import utilities from "../utilities";
 import styleConstants from "../assets/styleConstants";
 
-import { Label } from "react-native-simple-components";
+import Label from "./Label";
 
 export default function RelativeDistanceLabel(props) {
     /*
@@ -27,22 +27,9 @@ export default function RelativeDistanceLabel(props) {
                     ),
                 ) + " km from you"
             }
-            textStyle={styles.labelText}
-            style={styles.label}
-            showShadow
+            highlight
         />
     );
 }
 
-const styles = StyleSheet.create({
-    label: {
-        backgroundColor: styleConstants.primary,
-        borderRadius: 8,
-        marginRight: 4,
-    },
-    labelText: {
-        ...styleConstants.primaryFont,
-        fontSize: styleConstants.smallFont,
-        color: styleConstants.white,
-    },
-});
+const styles = StyleSheet.create({});
