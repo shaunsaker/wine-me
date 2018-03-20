@@ -44,7 +44,7 @@ export class Search extends React.Component {
             places: PropTypes.object,
             userLocation: PropTypes.object,
             uid: PropTypes.string,
-            userPlaces: PropTypes.array,
+            userCheckIns: PropTypes.array,
             searchAreas: PropTypes.object,
         };
     }
@@ -124,7 +124,7 @@ export class Search extends React.Component {
                     data={this.state.places}
                     userLocation={this.props.userLocation}
                     handlePress={placeID => this.navigate("place", { placeID })}
-                    userPlaces={this.props.userPlaces}
+                    userCheckIns={this.props.userCheckIns}
                     scrollToTop={this.state.places.length}
                 />
             ) : (
@@ -188,10 +188,12 @@ function mapStateToProps(state) {
         places: state.main.appData.app && state.main.appData.app.places,
         userLocation: state.main.appState.userLocation,
         uid: state.main.userAuth.uid,
-        userPlaces:
+        userCheckIns:
             state.main.appData.users &&
             state.main.appData.users[state.main.userAuth.uid] &&
-            state.main.appData.users[state.main.userAuth.uid].visited,
+            utilities.convertDictionaryToArray(
+                state.main.appData.users[state.main.userAuth.uid].checkIns,
+            ),
         searchAreas:
             state.main.appData.app && state.main.appData.app.searchAreas,
     };

@@ -73,7 +73,7 @@ export class Home extends React.Component {
             places: PropTypes.object,
             featuredPlaces: PropTypes.array,
             uid: PropTypes.string,
-            userPlaces: PropTypes.array,
+            userCheckIns: PropTypes.array,
             showSideMenu: PropTypes.bool,
         };
     }
@@ -164,7 +164,7 @@ export class Home extends React.Component {
                 handleClose={() => this.togglePlaceModal(true)}
                 places={this.props.places}
                 userLocation={this.props.userLocation}
-                userPlaces={this.props.userPlaces}
+                userCheckIns={this.props.userCheckIns}
                 handlePress={null}
             />
         );
@@ -194,7 +194,7 @@ export class Home extends React.Component {
                 );
             } else {
                 // My Places
-                if (this.props.userPlaces) {
+                if (this.props.userCheckIns) {
                     places = utilities.convertDictionaryToArray(
                         this.props.places,
                         true,
@@ -204,7 +204,7 @@ export class Home extends React.Component {
                         // Only if we have been there
                         return utilities.isValueInArray(
                             place.id,
-                            this.props.userPlaces,
+                            this.props.userCheckIns,
                         );
                     });
                 } else {
@@ -227,7 +227,7 @@ export class Home extends React.Component {
                     data={places}
                     userLocation={this.props.userLocation}
                     handlePress={placeID => this.navigate("place", { placeID })}
-                    userPlaces={this.props.userPlaces}
+                    userCheckIns={this.props.userCheckIns}
                     scrollToTop={this.state.activeTab}
                 />
             );
@@ -311,10 +311,12 @@ function mapStateToProps(state) {
         featuredPlaces:
             state.main.appData.app && state.main.appData.app.featuredPlaces,
         uid: state.main.userAuth.uid,
-        userPlaces:
+        userCheckIns:
             state.main.appData.users &&
             state.main.appData.users[state.main.userAuth.uid] &&
-            state.main.appData.users[state.main.userAuth.uid].visited,
+            utilities.convertDictionaryToArray(
+                state.main.appData.users[state.main.userAuth.uid].checkIns,
+            ),
         showSideMenu: state.main.appState.showSideMenu,
     };
 }

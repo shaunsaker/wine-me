@@ -11,7 +11,7 @@ import {
     StarRating,
 } from "react-native-simple-components";
 import Label from "./Label";
-import Icon from "react-native-vector-icons/MaterialIcons";
+import CheckedInIcon from "./CheckedInIcon";
 import CustomIcon from "../assets/icons";
 import RelativeDistanceLabel from "./RelativeDistanceLabel";
 
@@ -25,7 +25,7 @@ export default class PlaceCard extends React.PureComponent {
             place: PropTypes.object,
             userLocation: PropTypes.object,
             handlePress: PropTypes.func,
-            isVisited: PropTypes.bool,
+            isCheckedIn: PropTypes.bool,
         };
     }
 
@@ -47,9 +47,9 @@ export default class PlaceCard extends React.PureComponent {
             </View>
         );
 
-        const isVisitedIcon = this.props.isVisited && (
-            <View style={styles.isVisitedIconContainer}>
-                <Icon name="check-circle" style={styles.isVisitedIcon} />
+        const checkedInIcon = this.props.isCheckedIn && (
+            <View style={styles.checkedInIconContainer}>
+                <CheckedInIcon />
             </View>
         );
 
@@ -88,7 +88,7 @@ export default class PlaceCard extends React.PureComponent {
                             {relativeDistanceComponent}
                         </View>
                     </View>
-                    {isVisitedIcon}
+                    {checkedInIcon}
                     {rating}
                 </View>
             </Touchable>
@@ -111,6 +111,7 @@ const styles = StyleSheet.create({
         ...styleConstants.regularShadow,
         borderWidth: 0,
     },
+
     loader: {
         position: "absolute",
         top: 0,
@@ -118,6 +119,7 @@ const styles = StyleSheet.create({
         right: 0,
         bottom: 0,
     },
+
     backgroundImageContainer: {
         position: "absolute",
         top: 0,
@@ -142,27 +144,26 @@ const styles = StyleSheet.create({
         fontSize: 96,
         color: styleConstants.white,
     },
+
     bodyContainer: {
         flex: 1,
         padding: 8,
         justifyContent: "flex-end",
         alignItems: "flex-start",
     },
+
     labelsContainer: {
         flexDirection: "row",
         flexWrap: "wrap",
         marginTop: 4,
     },
-    isVisitedIconContainer: {
+
+    checkedInIconContainer: {
         position: "absolute",
-        top: 0,
-        left: 0,
+        top: 16,
+        left: 16,
     },
-    isVisitedIcon: {
-        fontSize: styleConstants.iconFont,
-        color: styleConstants.white,
-        padding: 16,
-    },
+
     starRatingContainer: {
         position: "absolute",
         top: 8,

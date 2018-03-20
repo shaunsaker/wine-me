@@ -19,7 +19,7 @@ export default class PlaceList extends React.Component {
         return {
             data: PropTypes.array,
             handlePress: PropTypes.func,
-            userPlaces: PropTypes.array,
+            userCheckIns: PropTypes.array,
             scrollToTop: PropTypes.any, // on change, scrollToTop
             userLocation: PropTypes.object,
         };
@@ -32,15 +32,15 @@ export default class PlaceList extends React.Component {
     }
 
     renderItem = ({ item, index }) => {
-        const isVisited =
-            this.props.userPlaces &&
-            utilities.isValueInArray(item.id, this.props.userPlaces);
+        const isCheckedIn =
+            this.props.userCheckIns &&
+            utilities.isValueInArray(item.id, this.props.userCheckIns);
 
         return (
             <PlaceCard
                 place={item}
                 handlePress={() => this.props.handlePress(item.id)}
-                isVisited={isVisited}
+                isCheckedIn={isCheckedIn}
                 userLocation={this.props.userLocation}
             />
         );
