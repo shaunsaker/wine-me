@@ -55,6 +55,10 @@ export class Place extends React.Component {
         };
     }
 
+    static defaultProps = {
+        placeID: "ChIJ0TDQop8HzR0RaiQtFUpeRxs",
+    };
+
     componentDidMount() {
         // In case the user has moved since opening the app, get their location
         this.props.dispatch({
@@ -115,54 +119,62 @@ export class Place extends React.Component {
     }
 
     render() {
-        const place = this.props.places[this.props.placeID];
+        const place =
+            this.props.places && this.props.places[this.props.placeID];
 
-        const imageURL = utilities.getGooglePlacesPhoto(place.photoReference);
+        const imageURL =
+            place && utilities.getGooglePlacesPhoto(place.photoReference);
 
-        const starRatingComponent = place.rating && (
-            <StarRating
-                rating={place.rating}
-                iconStyle={styles.starRatingIcon}
-                style={styles.starRatingContainer}
-            />
-        );
+        const starRatingComponent = place &&
+            place.rating && (
+                <StarRating
+                    rating={place.rating}
+                    iconStyle={styles.starRatingIcon}
+                    style={styles.starRatingContainer}
+                />
+            );
 
-        const reviewsComponent = place.reviews &&
+        const reviewsComponent = place &&
+            place.reviews &&
             place.reviews.length && (
                 <Label text={place.reviews.length + " reviews"} />
             );
 
         const numberOfCheckIns =
+            place &&
             place.checkIns &&
             utilities.convertDictionaryToArray(place.checkIns).length;
 
-        const checkInsComponent = place.checkIns && (
-            <Label
-                text={
-                    numberOfCheckIns +
-                    " check-in" +
-                    (numberOfCheckIns > 1 ? "'s" : "")
-                }
-            />
-        );
+        const checkInsComponent = place &&
+            place.checkIns && (
+                <Label
+                    text={
+                        numberOfCheckIns +
+                        " check-in" +
+                        (numberOfCheckIns > 1 ? "'s" : "")
+                    }
+                />
+            );
 
         const relativeDistance =
+            place &&
             this.props.userLocation &&
             utilities.getDistanceBetweenCoordinateSets(
                 this.props.userLocation,
                 place.location,
             );
 
-        const relativeDistanceComponent = this.props.userLocation && (
-            <RelativeDistanceLabel
-                userLocation={this.props.userLocation}
-                placeLocation={place.location}
-            />
-        );
+        const relativeDistanceComponent = place &&
+            this.props.userLocation && (
+                <RelativeDistanceLabel
+                    userLocation={this.props.userLocation}
+                    placeLocation={place.location}
+                />
+            );
 
         const childrenBeforeComponent = (
             <View style={styles.headerContainer}>
-                <Text style={styles.nameText}>{place.name}</Text>
+                <Text style={styles.nameText}>{place && place.name}</Text>
                 <View style={styles.labelsContainer}>
                     {relativeDistanceComponent}
                     {starRatingComponent}
@@ -172,49 +184,57 @@ export class Place extends React.Component {
             </View>
         );
 
-        const addressComponent = place.address ? (
-            <InfoRow
-                iconName="location-on"
-                text={place.address}
-                handlePress={() => this.handleLink(place.location, "location")}
-            />
-        ) : null;
+        const addressComponent =
+            place && place.address ? (
+                <InfoRow
+                    iconName="location-on"
+                    text={place.address}
+                    handlePress={() =>
+                        this.handleLink(place.location, "location")
+                    }
+                />
+            ) : null;
 
-        const phoneNumberComponent = place.phoneNumber && (
-            <InfoRow
-                iconName="phone"
-                text={place.phoneNumber}
-                handlePress={() =>
-                    this.handleLink(place.phoneNumber, "phoneNumber")
-                }
-            />
-        );
+        const phoneNumberComponent = place &&
+            place.phoneNumber && (
+                <InfoRow
+                    iconName="phone"
+                    text={place.phoneNumber}
+                    handlePress={() =>
+                        this.handleLink(place.phoneNumber, "phoneNumber")
+                    }
+                />
+            );
 
-        const websiteComponent = place.website && (
-            <InfoRow
-                iconName="web"
-                text={place.website}
-                handlePress={() => this.handleLink(place.website, "website")}
-            />
-        );
+        const websiteComponent = place &&
+            place.website && (
+                <InfoRow
+                    iconName="web"
+                    text={place.website}
+                    handlePress={() =>
+                        this.handleLink(place.website, "website")
+                    }
+                />
+            );
 
-        const businessHoursComponent = place.openingHours && (
-            <View>
-                <InfoRow iconName="alarm" text="Business hours" isHeader />
-                {place.openingHours.map((item, index) => {
-                    return (
-                        <InfoRow
-                            key={item}
-                            text={item}
-                            isBusinessHours
-                            isHighlighted={utilities.isToday(
-                                item.split(":")[0],
-                            )}
-                        />
-                    );
-                })}
-            </View>
-        );
+        const businessHoursComponent = place &&
+            place.openingHours && (
+                <View>
+                    <InfoRow iconName="alarm" text="Business hours" isHeader />
+                    {place.openingHours.map((item, index) => {
+                        return (
+                            <InfoRow
+                                key={item}
+                                text={item}
+                                isBusinessHours
+                                isHighlighted={utilities.isToday(
+                                    item.split(":")[0],
+                                )}
+                            />
+                        );
+                    })}
+                </View>
+            );
 
         const isCheckedIn =
             this.props.userCheckIns &&
@@ -234,7 +254,7 @@ export class Place extends React.Component {
                     </View>
                 </View>
             ) : this.state.activeTab === "Reviews" ? (
-                place.reviews ? (
+                place && place.reviews ? (
                     <View style={styles.tabContentContainer}>
                         <ReviewsList
                             data={place.reviews}
@@ -261,7 +281,7 @@ export class Place extends React.Component {
         );
 
         const actionButtonComponent =
-            this.state.activeTab === "Info" ? (
+            place && this.state.activeTab === "Info" ? (
                 <CheckInButtonWidget
                     placeLocation={place.location}
                     placeID={this.props.placeID}
@@ -293,7 +313,7 @@ export class Place extends React.Component {
                     headerLeftIconName="chevron-left"
                     headerLeftIconStyle={styles.headerIcon}
                     handleHeaderLeftIconPress={() => this.navigate(null, true)}
-                    headerText={place.name}
+                    headerText={place && place.name}
                     headerTextStyle={styles.headerText}
                     headerStyle={styles.header}
                     // TabBar
@@ -325,7 +345,7 @@ export class Place extends React.Component {
 function mapStateToProps(state) {
     return {
         userLocation: state.main.appState.userLocation,
-        places: state.main.appData.app.places,
+        places: state.main.appData.app && state.main.appData.app.places,
         users: state.main.appData.users,
         userCheckIns:
             state.main.appData.users &&

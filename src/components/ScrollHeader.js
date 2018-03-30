@@ -236,6 +236,10 @@ export default class ScrollHeader extends React.Component {
             : // No wrapper case
               BlankWrapper;
 
+        const imageSource = this.props.imageURL && {
+            uri: this.props.imageURL,
+        };
+
         return (
             <View style={styles.container}>
                 <Animated.View
@@ -256,7 +260,7 @@ export default class ScrollHeader extends React.Component {
                                 styles.coverPhoto,
                                 { height: this.props.maxHeaderHeight },
                             ]}
-                            source={{ uri: this.props.imageURL }}
+                            source={imageSource}
                         />
                     </Animated.View>
                     <Animated.View
