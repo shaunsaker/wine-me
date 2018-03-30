@@ -25,11 +25,6 @@ export function* getUserLocation(action) {
             type: "SET_ERROR",
             errorType: "GEOLOCATION",
             message: "Unable to retrieve your location",
-            iconName: "error-outline",
-            action: {
-                type: "getUserLocation",
-                text: "RETRY",
-            },
         });
     }
 }
@@ -57,14 +52,6 @@ export function* getFormattedAddressFromCoordinates(action) {
             type: "SET_ERROR",
             errorType: "GEOLOCATION_LOCALITY",
             message: config.geolocation.location.message,
-            iconName: "error-outline",
-            action: {
-                type: "getFormattedAddressFromCoordinates",
-                text: "RETRY",
-                data: {
-                    coordinates: action.coordinates,
-                },
-            },
         });
     }
 }

@@ -48,6 +48,7 @@ export class Place extends React.Component {
         return {
             userLocation: PropTypes.object,
             places: PropTypes.object,
+            userCheckIns: PropTypes.array,
 
             // Passed props
             placeID: PropTypes.string,
@@ -102,7 +103,6 @@ export class Place extends React.Component {
             type: "SET_ERROR",
             errorType: "LINKING",
             message,
-            autoHide: true,
         });
     }
 
@@ -216,6 +216,13 @@ export class Place extends React.Component {
             </View>
         );
 
+        const isCheckedIn =
+            this.props.userCheckIns &&
+            utilities.isValueInArray(
+                this.props.placeID,
+                this.props.userCheckIns,
+            );
+
         const activeTabComponent =
             this.state.activeTab === "Info" ? (
                 <View style={styles.tabContentContainer}>
@@ -243,6 +250,7 @@ export class Place extends React.Component {
                             text="write a review"
                             corks={100 /* TODO */}
                             handleTextPress={null}
+                            isCheckedIn={isCheckedIn}
                         />
                     </View>
                 )
@@ -260,11 +268,14 @@ export class Place extends React.Component {
                     relativeDistance={relativeDistance}
                 />
             ) : (
-                <SecondaryButton
-                    text="WRITE A REVIEW"
-                    iconName="mode-edit"
-                    handlePress={null}
-                />
+                this.state.activeTab === "Reviews" &&
+                isCheckedIn && (
+                    <SecondaryButton
+                        text="WRITE A REVIEW"
+                        iconName="mode-edit"
+                        handlePress={null}
+                    />
+                )
             );
 
         return (
@@ -316,6 +327,12 @@ function mapStateToProps(state) {
         userLocation: state.main.appState.userLocation,
         places: state.main.appData.app.places,
         users: state.main.appData.users,
+        userCheckIns:
+            state.main.appData.users &&
+            state.main.appData.users[state.main.userAuth.uid] &&
+            utilities.convertDictionaryToArray(
+                state.main.appData.users[state.main.userAuth.uid].checkIns,
+            ),
     };
 }
 

@@ -45,7 +45,6 @@ export class ForceUpdate extends React.Component {
                     type: "SET_ERROR",
                     errorType: "LINKING",
                     message: "This link is not supported by this device",
-                    iconName: "error-outline",
                 });
             }
         });

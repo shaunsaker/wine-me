@@ -7,6 +7,7 @@ import Search from "./pages/Search";
 import Leaderboard from "./pages/Leaderboard";
 import About from "./pages/About";
 import Place from "./pages/Place";
+import Review from "./pages/Review";
 import ForceUpdate from "./pages/ForceUpdate";
 
 const Scenes = Actions.create(
@@ -21,6 +22,7 @@ const Scenes = Actions.create(
         <Scene key="leaderboard" component={Leaderboard} initial={false} />
         <Scene key="about" component={About} initial={false} />
         <Scene key="place" component={Place} initial={false} />
+        <Scene key="review" component={Review} initial={true} />
         <Scene
             key="forceUpdate"
             component={ForceUpdate}

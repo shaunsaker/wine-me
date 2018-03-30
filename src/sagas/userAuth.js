@@ -50,10 +50,6 @@ export function* signInUserAnonymously() {
             type: "SET_ERROR",
             errorType: "AUTH",
             message: "Oh dear, network error. Please try again.",
-            iconName: "error-outline",
-            action: {
-                type: "signInUserAnonymously",
-            },
         });
     }
 }
@@ -89,15 +85,6 @@ export function* getUserCredentialFromEmail(action) {
             errorType: "AUTH",
             message:
                 "Something's not right. Please check your connection and try again.",
-            iconName: "error-outline",
-            action: {
-                type: "getUserCredentialFromEmail",
-                data: {
-                    userEmail: action.userEmail,
-                    userPassword: action.userPassword,
-                    userName: action.userName,
-                },
-            },
         });
     }
 }
@@ -130,10 +117,6 @@ export function* getUserCredentialFromFacebook() {
             errorType: "AUTH",
             message:
                 "Can't connect to Facebook. Please check your connection and try again.",
-            iconName: "error-outline",
-            action: {
-                type: "getUserCredentialFromFacebook",
-            },
         });
     }
 }
@@ -166,10 +149,6 @@ export function* getUserCredentialFromGoogle() {
             errorType: "AUTH",
             message:
                 "Can't connect to Google. Please check your connection and try again.",
-            iconName: "error-outline",
-            action: {
-                type: "getUserCredentialFromGoogle",
-            },
         });
     }
 }
@@ -235,11 +214,6 @@ export function* linkUserWithCredential(action) {
                 type: "SET_ERROR",
                 errorType: "AUTH",
                 message: "Oh dear, login error. Please try again.",
-                iconName: "error-outline",
-                action: {
-                    type: "linkUserWithCredential",
-                    credential: action.credential,
-                },
             });
         }
     } else {
@@ -265,10 +239,6 @@ export function* linkUserWithCredential(action) {
                 type: "SET_ERROR",
                 errorType: "AUTH",
                 message: "Oh dear, login error. Please try again.",
-                iconName: "error-outline",
-                action: {
-                    type: "signInUserAnonymously",
-                },
             });
         }
     }
@@ -308,18 +278,12 @@ export function* signInUserWithCredential(action) {
             errorType: "AUTH",
             message:
                 "Hello! You've already signed in with someone else. Please try another option.",
-            iconName: "error-outline",
         });
     } else {
         yield put({
             type: "SET_ERROR",
             errorType: "AUTH",
             message: "Oh dear, login error. Please try again.",
-            iconName: "error-outline",
-            action: {
-                type: "signInUserWithCredential",
-                credential: action.credential,
-            },
         });
     }
 }
@@ -338,8 +302,6 @@ export function* sendPasswordResetEmail(action) {
             type: "SET_ERROR",
             errorType: "USER",
             message: "Email sent successfully",
-            success: true,
-            iconName: "check",
         });
     } else {
         yield put({
@@ -349,13 +311,6 @@ export function* sendPasswordResetEmail(action) {
                 passwordResetResponse.message.code === "auth/user-not-found"
                     ? "Email address not registered. Please sign up."
                     : "We were unable to send a password reset request. Check your connection and try again.",
-            iconName: "error-outline",
-            action: {
-                type: "sendPasswordResetEmail",
-                data: {
-                    userEmail: action.userEmail,
-                },
-            },
         });
     }
 }
@@ -375,10 +330,6 @@ export function* signOutUser() {
             type: "SET_ERROR",
             errorType: "AUTH",
             message: "We couldn't sign out. Please try again.",
-            iconName: "error-outline",
-            action: {
-                type: "signOutUser",
-            },
         });
     }
 }

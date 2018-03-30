@@ -13,22 +13,33 @@ export default function PlaceBlankState(props) {
             text: PropTypes.string,
             corks: PropTypes.number,
             handleTextPress: PropTypes.func,
+            isCheckedIn: PropTypes.bool,
         };
     }
 */
+    const buttonComponent = props.isCheckedIn ? (
+        <TouchableText
+            onPress={props.handleTextPress}
+            text={props.text}
+            textStyle={styles.blankStateButtonText}
+            style={styles.blankStateButton}
+            isLink
+        />
+    ) : (
+        <Text style={styles.blankStateText}>{props.text}</Text>
+    );
 
     return (
         <View style={styles.blankStateContainer}>
             <View style={styles.blankStateTextContainer}>
-                <Text style={styles.blankStateText}>Be the first to</Text>
-                <TouchableText
-                    onPress={props.handleTextPress}
-                    text={props.text}
-                    textStyle={styles.blankStateButtonText}
-                    style={styles.blankStateButton}
-                    isLink
-                />
-                <Text style={styles.blankStateText}>and earn</Text>
+                <Text style={styles.blankStateText}>
+                    {(props.isCheckedIn ? "Be" : "Check in and be") +
+                        " the first to"}
+                </Text>
+                {buttonComponent}
+                <Text style={styles.blankStateText}>
+                    {(props.isCheckedIn ? "and" : "to") + " earn"}
+                </Text>
                 <Text style={styles.blankStateHighlightedText}>
                     {props.corks + " corks"}
                 </Text>
@@ -68,7 +79,7 @@ const styles = StyleSheet.create({
     },
     blankStateHighlightedText: {
         fontSize: styleConstants.largeFont,
-        color: styleConstants.lightSecondary,
+        color: styleConstants.secondary,
         ...styleConstants.primaryFont,
         lineHeight: styleConstants.largeFont * 1.5,
     },

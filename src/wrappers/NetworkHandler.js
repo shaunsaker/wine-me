@@ -48,7 +48,6 @@ export class NetworkHandler extends React.Component {
                 type: "SET_ERROR",
                 errorType: "NETWORK",
                 message: "Oh no! It looks like you're offline.",
-                iconName: "error-outline",
             });
         } else if (this.props.appStart) {
             // Only dispatch this action if we were previously offline
@@ -56,9 +55,6 @@ export class NetworkHandler extends React.Component {
                 type: "SET_ERROR",
                 errorType: "NETWORK",
                 message: "Good to go! You are back online.",
-                success: true,
-                iconName: "check-circle",
-                autoHide: true,
             });
         }
     };

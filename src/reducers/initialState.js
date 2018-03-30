@@ -10,15 +10,7 @@ const initialState = {
         error: {
             errorType: null,
             message: null,
-            iconName: null,
-            success: null,
-            autoHide: null,
             duration: null,
-            action: {
-                type: null,
-                text: null,
-                data: null,
-            },
         },
         userLocation: null,
         temporaryImage: null,

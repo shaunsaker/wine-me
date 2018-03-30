@@ -12,7 +12,6 @@ export class SnackBarHandler extends React.Component {
         super(props);
 
         this.resetError = this.resetError.bind(this);
-        this.handleAction = this.handleAction.bind(this);
     }
 
     static get propTypes() {
@@ -27,53 +26,14 @@ export class SnackBarHandler extends React.Component {
         });
     }
 
-    handleAction() {
-        const nextAction = {
-            type: this.props.error.action.type,
-            ...this.props.error.action.data,
-        };
-
-        this.resetError();
-        this.props.dispatch(nextAction);
-    }
-
     render() {
         const snackBar = this.props.error.errorType ? (
             <SnackBar
                 text={this.props.error.message}
-                iconName={this.props.error.iconName}
-                actionText={
-                    this.props.error.action && this.props.error.action.text
-                }
                 handleClose={this.resetError}
-                handleAction={
-                    this.props.error.action &&
-                    this.props.error.action.type &&
-                    this.handleAction
-                }
-                shouldAutoHide={this.props.error.autoHide}
-                textStyle={[
-                    styles.snackBarText,
-                    {
-                        marginRight: this.props.error.autoHide ? 0 : 16,
-                    },
-                ]}
-                iconStyle={[
-                    styles.snackBarIcon,
-                    {
-                        color: this.props.error.success
-                            ? styleConstants.success
-                            : styleConstants.danger,
-                    },
-                ]}
-                actionTextStyle={[
-                    styles.actionText,
-                    {
-                        marginRight: this.props.error.autoHide ? 0 : 16,
-                    },
-                ]}
+                shouldAutoHide
+                textStyle={styles.snackBarText}
                 containerStyle={styles.container}
-                showCloseButton={!this.props.error.autoHide}
                 autoHideDuration={this.props.error.duration}
             />
         ) : null;
@@ -101,10 +61,6 @@ const styles = StyleSheet.create({
         fontSize: styleConstants.regularFont,
         color: styleConstants.white,
         ...styleConstants.primaryFont,
-    },
-    actionText: {
-        fontSize: styleConstants.regularFont,
-        color: "yellow",
     },
 });
 

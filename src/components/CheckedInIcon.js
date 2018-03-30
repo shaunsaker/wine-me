@@ -19,7 +19,7 @@ export default function CheckedInIcon(props) {
 const styles = StyleSheet.create({
     checkedInIcon: {
         backgroundColor: styleConstants.success,
-        fontSize: styleConstants.iconFont,
+        fontSize: styleConstants.iconFont - 2, // borderWidth
         color: styleConstants.white,
         width: 24,
         height: 24,
@@ -27,5 +27,7 @@ const styles = StyleSheet.create({
         overflow: "hidden",
         justifyContent: "center",
         alignItems: "center",
+        borderWidth: 1,
+        borderColor: styleConstants.white,
     },
 });

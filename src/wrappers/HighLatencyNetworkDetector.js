@@ -1,9 +1,9 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { connect } from 'react-redux';
+import React from "react";
+import PropTypes from "prop-types";
+import { connect } from "react-redux";
 
-import config from '../config';
-import Analytics from '../analytics';
+import config from "../config";
+import Analytics from "../analytics";
 
 export class HighLatencyDetector extends React.Component {
     constructor(props) {
@@ -28,7 +28,7 @@ export class HighLatencyDetector extends React.Component {
     }
 
     componentDidMount() {
-        if (this.props.loading && this.props.networkType !== 'none') {
+        if (this.props.loading && this.props.networkType !== "none") {
             this.startTimer();
         }
     }
@@ -37,7 +37,7 @@ export class HighLatencyDetector extends React.Component {
         if (
             this.props.loading &&
             !prevProps.loading &&
-            this.props.networkType !== 'none'
+            this.props.networkType !== "none"
         ) {
             // New loading event started
             this.startTimer();
@@ -48,13 +48,12 @@ export class HighLatencyDetector extends React.Component {
 
         // Check to see if time > config.latencyTimeout and dispatch an error event if so
         if (this.state.time && this.state.time > this.latencyTimeout) {
-            Analytics.logEvent('network_high_latency');
+            Analytics.logEvent("network_high_latency");
 
             this.props.dispatch({
-                type: 'SET_ERROR',
-                errorType: 'NETWORK',
-                message: 'Slow network detected.',
-                iconName: 'error-outline',
+                type: "SET_ERROR",
+                errorType: "NETWORK",
+                message: "Slow network detected.",
             });
 
             this.clearTimer();

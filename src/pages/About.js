@@ -77,7 +77,6 @@ export class About extends React.Component {
                         type: "SET_ERROR",
                         errorType: "LINKING",
                         message: "This link is not supported on your device.",
-                        iconName: "error-outline",
                     });
                 } else {
                     return Linking.openURL(link);
@@ -88,7 +87,6 @@ export class About extends React.Component {
                     type: "SET_ERROR",
                     errorType: "LINKING",
                     message: "This link is not supported on your device.",
-                    iconName: "error-outline",
                 });
             });
     }

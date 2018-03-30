@@ -143,8 +143,6 @@ export class CheckInButtonWidget extends React.Component {
             type: "SET_ERROR",
             errorType: "LOCATION",
             message,
-            autoHide: true,
-            duration,
         });
     }
 

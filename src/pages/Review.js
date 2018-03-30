@@ -1,0 +1,303 @@
+import React from "react";
+import { View, Text, StyleSheet } from "react-native";
+import PropTypes from "prop-types";
+import { Actions } from "react-native-router-flux";
+import { connect } from "react-redux";
+
+import config from "../config";
+import utilities from "../utilities";
+import styleConstants from "../assets/styleConstants";
+
+import {
+    Page,
+    ButtonIcon,
+    InputContainer,
+    Input,
+    StarRatingInput,
+} from "react-native-simple-components";
+import ReviewWidget from "../widgets/ReviewWidget";
+
+export class Review extends React.Component {
+    constructor(props) {
+        super(props);
+
+        this.goBack = this.goBack.bind(this);
+        this.goForward = this.goForward.bind(this);
+        this.setCurrentSlideIndex = this.setCurrentSlideIndex.bind(this);
+        this.setButtonIcon = this.setButtonIcon.bind(this);
+        this.updateValue = this.updateValue.bind(this);
+        this.navigate = this.navigate.bind(this);
+
+        this.slides = ["rating", "review", "preview"];
+
+        this.state = {
+            rating: null,
+            review: null,
+            currentSlideIndex: 0,
+            showButtonIcon: true,
+        };
+    }
+
+    static get propTypes() {
+        return {
+            placeID: PropTypes.string,
+        };
+    }
+
+    static defaultProps = {
+        placeID: "ChIJ0TDQop8HzR0RaiQtFUpeRxs",
+        reviewerId: 987654321,
+    };
+
+    goBack() {
+        if (this.state.currentSlideIndex === 0) {
+            this.navigate(null, null, true);
+        } else {
+            this.setCurrentSlideIndex(this.state.currentSlideIndex - 1);
+        }
+    }
+
+    goForward() {
+        if (this.state.currentSlideIndex === this.slides.length - 1) {
+            // TODO: Dispatch to data (SUBMIT)
+            this.navigate(null, null, true);
+        } else {
+            this.setCurrentSlideIndex(this.state.currentSlideIndex + 1);
+        }
+    }
+
+    setCurrentSlideIndex(currentSlideIndex) {
+        this.setState({
+            currentSlideIndex,
+            showButtonIcon: true,
+        });
+    }
+
+    setButtonIcon(showButtonIcon) {
+        this.setState({
+            showButtonIcon,
+        });
+    }
+
+    updateValue(value, type) {
+        let state = this.state;
+        state[type] = value;
+        this.setState(state);
+    }
+
+    navigate(page, props, goBack) {
+        if (goBack) {
+            Actions.pop();
+        } else {
+            Actions[page](props);
+        }
+    }
+
+    render() {
+        let titleText;
+
+        if (this.state.currentSlideIndex === 0) {
+            titleText =
+                "How was your experience at " +
+                (this.props.places &&
+                    this.props.places[this.props.placeID].name) +
+                "?";
+        } else if (this.state.currentSlideIndex === 1) {
+            titleText =
+                "Tell us about your experience at " +
+                (this.props.places &&
+                    this.props.places[this.props.placeID].name);
+        } else {
+            titleText = "Is this correct?";
+        }
+
+        const currentSlide =
+            this.state.currentSlideIndex === 0 ? (
+                <View style={styles.starRatingInputContainer}>
+                    <StarRatingInput
+                        rating={this.state.rating}
+                        iconStyle={styles.starRatingInputIcon}
+                        labelTextStyle={styles.starRatingInputText}
+                        handlePress={rating =>
+                            this.updateValue(rating, "rating")
+                        }
+                        shouldShowText
+                        shouldAnimate
+                    />
+                </View>
+            ) : this.state.currentSlideIndex === 1 ? (
+                <InputContainer containerStyle={styles.inputWrapper}>
+                    <Input
+                        placeholder="The wines were exquisite..."
+                        placeholderTextColor={styleConstants.secondaryText}
+                        value={
+                            this.state[
+                                this.slides[this.state.currentSlideIndex]
+                            ]
+                        }
+                        handleChange={value =>
+                            this.updateValue(
+                                value,
+                                this.slides[this.state.currentSlideIndex],
+                            )
+                        }
+                        containerStyle={styles.inputContainer}
+                        style={styles.input}
+                        multiline
+                        showDeleteButton
+                        handleFocus={() => this.setButtonIcon(false)}
+                        handleBlur={() => this.setButtonIcon(true)}
+                        handleSubmit={this.goForward}
+                        autoFocus={!this.state.review}
+                    />
+                </InputContainer>
+            ) : (
+                // Preview
+                <View style={styles.reviewWidgetContainer}>
+                    <ReviewWidget
+                        review={{
+                            rating: this.state.rating,
+                            review: this.state.review,
+                            date: Date.now(),
+                        }}
+                        reviewerId={this.props.reviewerId}
+                        handleHeaderPress={
+                            null /* TODO: link to user profile */
+                        }
+                    />
+                </View>
+            );
+
+        const buttonIcon = this.state.showButtonIcon && (
+            <View style={styles.buttonIconContainer}>
+                <ButtonIcon
+                    showShadow
+                    iconName={
+                        this.state.currentSlideIndex === this.slides.length - 1
+                            ? "check"
+                            : "chevron-right"
+                    }
+                    iconStyle={styles.buttonIconIcon}
+                    style={styles.buttonIcon}
+                    handlePress={this.goForward}
+                    disabled={
+                        this.state.currentSlideIndex === this.slides.length - 1
+                            ? false
+                            : !this.state[
+                                  this.slides[this.state.currentSlideIndex]
+                              ]
+                    }
+                />
+            </View>
+        );
+
+        return (
+            <Page>
+                <HeaderBar
+                    statusBarStyle="dark-content"
+                    leftIconName={
+                        this.state.currentSlideIndex > 0
+                            ? "chevron-left"
+                            : "close"
+                    }
+                    handleLeftIconPress={this.goBack}
+                    leftIconStyle={[
+                        styles.headerIcon,
+                        this.state.currentSlideIndex > 0 && {
+                            fontSize: 30,
+                        },
+                    ]}
+                    style={styles.header}
+                />
+                <View style={styles.bodyContainer}>
+                    <View style={styles.titleTextContainer}>
+                        <Text style={styles.titleText}>{titleText}</Text>
+                    </View>
+                    {currentSlide}
+                </View>
+                {buttonIcon}
+            </Page>
+        );
+    }
+}
+
+const styles = StyleSheet.create({
+    header: {
+        backgroundColor: styleConstants.white,
+    },
+    headerText: {
+        fontSize: styleConstants.regularFont,
+        color: styleConstants.white,
+        ...styleConstants.primaryFont,
+    },
+    headerIcon: {
+        fontSize: styleConstants.iconFont,
+        color: styleConstants.primaryText,
+    },
+    bodyContainer: {
+        flex: 1,
+        alignSelf: "stretch",
+        backgroundColor: styleConstants.white,
+    },
+    titleTextContainer: {
+        padding: 16,
+    },
+    titleText: {
+        fontSize: styleConstants.largeFont,
+        color: styleConstants.primaryText,
+        ...styleConstants.primaryFont,
+        lineHeight: styleConstants.largeFont * 1.5,
+    },
+    starRatingInputContainer: {
+        alignItems: "center",
+        padding: 16,
+    },
+    starRatingInputIcon: {
+        fontSize: styleConstants.windowWidth / 5 - 16,
+        color: "gold",
+    },
+    starRatingInputText: {
+        fontSize: styleConstants.regularFont,
+        color: styleConstants.primaryText,
+        ...styleConstants.primaryFont,
+    },
+    buttonIconContainer: {
+        position: "absolute",
+        bottom: 16,
+        right: 16,
+    },
+    buttonIcon: {
+        backgroundColor: styleConstants.secondary,
+    },
+    buttonIconIcon: {
+        fontSize: 30,
+        color: styleConstants.white,
+    },
+    inputWrapper: {
+        padding: 16,
+    },
+    inputContainer: {
+        borderRadius: 8,
+    },
+    input: {
+        fontSize: styleConstants.regularFont,
+        color: styleConstants.primaryText,
+        ...styleConstants.primaryFont,
+        borderBottomWidth: 2,
+        borderBottomColor: styleConstants.secondary,
+        paddingBottom: 8,
+        minHeight: 37, // Fixes weird mounting bug
+    },
+    reviewWidgetContainer: {
+        alignSelf: "stretch",
+        paddingHorizontal: 16,
+    },
+});
+
+function mapStateToProps(state) {
+    return {
+        places: state.main.appData.app && state.main.appData.app.places,
+    };
+}
+
+export default connect(mapStateToProps)(Review);

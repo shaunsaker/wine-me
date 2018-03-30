@@ -22,16 +22,6 @@ export function* getData(action) {
                 type: "SET_ERROR",
                 errorType: "CLOUD_DATA",
                 message: getDataResponse.message,
-                iconName: "error-outline",
-                action: {
-                    type: "getData",
-                    text: "RETRY",
-                    data: {
-                        nextActionType: action.nextActionType,
-                        node: action.node,
-                        uid: action.uid,
-                    },
-                },
             });
         }
     }
@@ -57,16 +47,6 @@ export function* updateData(action) {
                 type: "SET_ERROR",
                 errorType: "CLOUD_DATA",
                 message: updateDataResponse.message,
-                iconName: "error-outline",
-                action: {
-                    type: "updateData",
-                    text: "RETRY",
-                    data: {
-                        nextActionType: action.nextActionType,
-                        node: action.node,
-                        data: action.data,
-                    },
-                },
             });
         }
     }
@@ -92,16 +72,6 @@ export function* setData(action) {
                 type: "SET_ERROR",
                 errorType: "CLOUD_DATA",
                 message: setDataResponse.message,
-                iconName: "error-outline",
-                action: {
-                    type: "setData",
-                    text: "RETRY",
-                    data: {
-                        nextActionType: action.nextActionType,
-                        node: action.node,
-                        data: action.data,
-                    },
-                },
             });
         }
     }
@@ -128,16 +98,6 @@ export function* pushData(action) {
                 type: "SET_ERROR",
                 errorType: "CLOUD_DATA",
                 message: pushDataResponse.message,
-                iconName: "error-outline",
-                action: {
-                    type: "pushData",
-                    text: "RETRY",
-                    data: {
-                        nextActionType: action.nextActionType,
-                        node: action.node,
-                        data: action.data,
-                    },
-                },
             });
         }
     }
@@ -163,16 +123,6 @@ export function* deleteData(action) {
                 type: "SET_ERROR",
                 errorType: "CLOUD_DATA",
                 message: deleteDataResponse.message,
-                iconName: "error-outline",
-                action: {
-                    type: "deleteData",
-                    text: "RETRY",
-                    data: {
-                        nextActionType: action.nextActionType,
-                        node: action.node,
-                        data: action.data,
-                    },
-                },
             });
         }
     }
