@@ -108,14 +108,16 @@ export class CheckInButtonWidget extends React.Component {
                         type: "pushData",
                         node: "users/" + this.props.uid + "/checkIns",
                         data: this.props.placeID,
-                    });
-
-                    this.props.dispatch({
-                        type: "pushData",
-                        node: "app/places/" + this.props.placeID + "/checkIns",
-                        data: {
-                            uid: this.props.uid,
-                            date: Date.now(),
+                        nextAction: {
+                            type: "pushData",
+                            node:
+                                "app/places/" +
+                                this.props.placeID +
+                                "/checkIns",
+                            data: {
+                                uid: this.props.uid,
+                                date: Date.now(),
+                            },
                         },
                     });
                 } else {
@@ -203,30 +205,32 @@ export class CheckInButtonWidget extends React.Component {
             width: this.state.animatedValue,
         };
 
+        const iconName =
+            !this.state.isAnimating &&
+            (isUserCheckedIn
+                ? "check"
+                : this.state.hasFetchedUserLocation
+                    ? "check"
+                    : "location-searching");
+
+        const buttonText =
+            !this.state.isAnimating &&
+            (isUserCheckedIn
+                ? "CHECKED IN"
+                : this.state.isFetchingUserLocation
+                    ? "GETTING YOUR LOCATION..."
+                    : this.state.hasFetchedUserLocation
+                        ? this.state.isComparingLocations
+                            ? "COMPARING LOCATIONS..."
+                            : "GOT YOUR LOCATION"
+                        : "CHECK IN");
+
         return (
             <Animated.View style={animatedStyles}>
                 <SecondaryButton
                     customIcon={iconComponent}
-                    iconName={
-                        !this.state.isAnimating &&
-                        (isUserCheckedIn
-                            ? "check"
-                            : this.state.hasFetchedUserLocation
-                                ? "check"
-                                : "location-searching")
-                    }
-                    text={
-                        !this.state.isAnimating &&
-                        (isUserCheckedIn
-                            ? "CHECKED IN"
-                            : this.state.isFetchingUserLocation
-                                ? "GETTING YOUR LOCATION..."
-                                : this.state.hasFetchedUserLocation
-                                    ? this.state.isComparingLocations
-                                        ? "COMPARING LOCATIONS..."
-                                        : "GOT YOUR LOCATION"
-                                    : "CHECK IN")
-                    }
+                    iconName={iconName}
+                    text={buttonText}
                     style={isUserCheckedIn && styles.checkedInButton}
                     handlePress={!buttonDisabled ? this.toggleLoading : null}
                     disabled={buttonDisabled}

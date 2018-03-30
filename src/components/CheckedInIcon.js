@@ -13,14 +13,16 @@ export default function CheckedInIcon(props) {
     }
 */
 
-    return <Icon name="check" style={styles.checkedInIcon} />;
+    return (
+        <View style={styles.container}>
+            <Icon name="check" style={styles.icon} />
+        </View>
+    );
 }
 
 const styles = StyleSheet.create({
-    checkedInIcon: {
+    container: {
         backgroundColor: styleConstants.success,
-        fontSize: styleConstants.iconFont - 2, // borderWidth
-        color: styleConstants.white,
         width: 24,
         height: 24,
         borderRadius: 12,
@@ -29,5 +31,9 @@ const styles = StyleSheet.create({
         alignItems: "center",
         borderWidth: 1,
         borderColor: styleConstants.white,
+    },
+    icon: {
+        fontSize: 18,
+        color: styleConstants.white,
     },
 });

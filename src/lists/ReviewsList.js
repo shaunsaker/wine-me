@@ -27,7 +27,7 @@ export default class ReviewsList extends React.Component {
                 <ReviewCard
                     rating={item.rating}
                     review={item.review}
-                    reviewDate={item.reviewDate}
+                    date={item.date}
                     reviewer={this.props.users[item.reviewerID]}
                     handleHeaderPress={this.props.handleProfilePress}
                 />

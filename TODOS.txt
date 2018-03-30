@@ -2,16 +2,12 @@ BUGS
     Image sometimes displays loading spinner even though its already loaded
 
 TODOS
-    Review
-        Link to user profile
+    checknInID should work the same way as reviewID
     ReviewWidget
         Placeholder image
-    Place
-        PlaceBlankState
-            Define cork amount
 
     Place
-        Edit my review
+        Login to review
         Businesshours
             Collapsible section
             Move today to top of list
@@ -27,6 +23,11 @@ TODOS
         Corks for first one to write a review
     GameWrapper component   
         Responsible for point allocation, levelling etc. based on events that it listens to
+    Review
+        Link to user profile
+    Place
+        PlaceBlankState
+            Define cork amount
     Search    
         Collection progress
     Home

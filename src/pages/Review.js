@@ -41,8 +41,12 @@ export class Review extends React.Component {
 
     static get propTypes() {
         return {
-            placeID: PropTypes.string,
             reviewerID: PropTypes.string,
+            users: PropTypes.object,
+
+            // Passed props
+            placeID: PropTypes.string,
+            reviewID: PropTypes.string,
         };
     }
 
@@ -50,6 +54,19 @@ export class Review extends React.Component {
         placeID: "ChIJ0TDQop8HzR0RaiQtFUpeRxs",
         reviewerID: 987654321,
     };
+
+    componentDidMount() {
+        // If reviewID exists, load the existing user review into state
+        if (this.props.reviewID) {
+            const review = this.props.places[this.props.placeID].reviews[
+                this.props.reviewID
+            ];
+            this.setState({
+                rating: review.rating,
+                review: review.review,
+            });
+        }
+    }
 
     goBack() {
         if (this.state.currentSlideIndex === 0) {
@@ -99,15 +116,14 @@ export class Review extends React.Component {
                 reviewerID: this.props.reviewerID,
                 rating: this.state.rating,
                 review: this.state.review && this.state.review.trim(),
-                reviewDate: Date.now(),
+                date: Date.now(),
             },
             // Save the review ID to the user
             nextAction: {
-                type: "pushData",
-                node: `users/${this.props.reviewerID}/reviews/`,
+                type: "updateData",
+                node: `users/${this.props.reviewerID}/reviews/${reviewID}`,
                 data: {
                     placeID: this.props.placeID,
-                    reviewID,
                 },
             },
         });
@@ -185,8 +201,8 @@ export class Review extends React.Component {
                     <ReviewCard
                         rating={this.state.rating}
                         review={this.state.review}
-                        reviewDate={Date.now()}
-                        reviewer={this.props.users[this.props.reviewerID]}
+                        date={Date.now()}
+                        reviewer={this.props.reviewer}
                         handleHeaderPress={
                             null /* TODO: link to user profile */
                         }
@@ -247,7 +263,7 @@ function mapStateToProps(state) {
     return {
         places: state.main.appData.app && state.main.appData.app.places,
         reviewerID: state.main.userAuth.uid,
-        users: state.main.appData.users,
+        reviewer: state.main.appData.users[state.main.userAuth.uid],
     };
 }
 

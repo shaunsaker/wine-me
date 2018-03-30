@@ -23,7 +23,7 @@ export default class ReviewCard extends React.Component {
         return {
             rating: PropTypes.number,
             review: PropTypes.string,
-            reviewDate: PropTypes.number,
+            date: PropTypes.number,
             reviewer: PropTypes.object,
             handleHeaderPress: PropTypes.func,
         };
@@ -56,7 +56,7 @@ export default class ReviewCard extends React.Component {
             ? { url: this.props.reviewer.photoURL }
             : require("../assets/images/128.jpg"); // TODO: Placeholder image
 
-        const dateText = utilities.getRelativePastDate(this.props.reviewDate);
+        const dateText = utilities.getRelativePastDate(this.props.date);
 
         const headerComponent = (
             <View style={styles.header}>

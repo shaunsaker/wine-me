@@ -25,6 +25,7 @@ export class Place extends React.Component {
         this.setTab = this.setTab.bind(this);
         this.handleLink = this.handleLink.bind(this);
         this.prepareLink = this.prepareLink.bind(this);
+        this.hasUserReviewedPlace = this.hasUserReviewedPlace.bind(this);
         this.setError = this.setError.bind(this);
         this.navigate = this.navigate.bind(this);
 
@@ -100,6 +101,24 @@ export class Place extends React.Component {
         } else if (linkType === "website") {
             return link;
         }
+    }
+
+    hasUserReviewedPlace() {
+        const userReviews = utilities.convertDictionaryToArray(
+            this.props.users[this.props.uid].reviews,
+            true,
+        );
+
+        let reviewID;
+
+        for (let i = 0; i < userReviews.length; i++) {
+            if (userReviews[i].placeID === this.props.placeID) {
+                reviewID = userReviews[i].id;
+                break;
+            }
+        }
+
+        return reviewID;
     }
 
     setError(message) {
@@ -290,6 +309,11 @@ export class Place extends React.Component {
             <View style={styles.contentWrapper}>{activeTabComponent}</View>
         );
 
+        const hasUserReviewedPlace =
+            this.state.activeTab === "Reviews" &&
+            isCheckedIn &&
+            this.hasUserReviewedPlace();
+
         const actionButtonComponent =
             place && this.state.activeTab === "Info" ? (
                 <CheckInButtonWidget
@@ -297,19 +321,27 @@ export class Place extends React.Component {
                     placeID={this.props.placeID}
                     relativeDistance={relativeDistance}
                 />
+            ) : this.state.activeTab === "Reviews" && isCheckedIn ? (
+                <SecondaryButton
+                    text={
+                        hasUserReviewedPlace
+                            ? "EDIT YOUR REVIEW"
+                            : "WRITE A REVIEW"
+                    }
+                    iconName="mode-edit"
+                    handlePress={() =>
+                        this.navigate("review", null, {
+                            placeID: this.props.placeID,
+                            reviewID: hasUserReviewedPlace,
+                        })
+                    }
+                />
             ) : (
-                this.state.activeTab === "Reviews" &&
-                isCheckedIn && (
-                    <SecondaryButton
-                        text="WRITE A REVIEW"
-                        iconName="mode-edit"
-                        handlePress={() =>
-                            this.navigate("review", null, {
-                                placeID: this.props.placeID,
-                            })
-                        }
-                    />
-                )
+                <CheckInButtonWidget
+                    placeLocation={place.location}
+                    placeID={this.props.placeID}
+                    relativeDistance={relativeDistance}
+                />
             );
 
         return (
@@ -367,6 +399,7 @@ function mapStateToProps(state) {
             utilities.convertDictionaryToArray(
                 state.main.appData.users[state.main.userAuth.uid].checkIns,
             ),
+        uid: state.main.userAuth.uid,
     };
 }
 
