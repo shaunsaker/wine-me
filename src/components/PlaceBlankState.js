@@ -19,7 +19,7 @@ export default function PlaceBlankState(props) {
 */
     const buttonComponent = props.isCheckedIn ? (
         <TouchableText
-            onPress={props.handleTextPress}
+            handlePress={props.handleTextPress}
             text={props.text}
             textStyle={styles.blankStateButtonText}
             style={styles.blankStateButton}

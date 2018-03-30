@@ -15,7 +15,7 @@ import {
     Input,
     StarRatingInput,
 } from "react-native-simple-components";
-import ReviewWidget from "../widgets/ReviewWidget";
+import ReviewCard from "../components/ReviewCard";
 
 export class Review extends React.Component {
     constructor(props) {
@@ -26,6 +26,7 @@ export class Review extends React.Component {
         this.setCurrentSlideIndex = this.setCurrentSlideIndex.bind(this);
         this.setButtonIcon = this.setButtonIcon.bind(this);
         this.updateValue = this.updateValue.bind(this);
+        this.saveReview = this.saveReview.bind(this);
         this.navigate = this.navigate.bind(this);
 
         this.slides = ["rating", "review", "preview"];
@@ -41,12 +42,13 @@ export class Review extends React.Component {
     static get propTypes() {
         return {
             placeID: PropTypes.string,
+            reviewerID: PropTypes.string,
         };
     }
 
     static defaultProps = {
         placeID: "ChIJ0TDQop8HzR0RaiQtFUpeRxs",
-        reviewerId: 987654321,
+        reviewerID: 987654321,
     };
 
     goBack() {
@@ -59,7 +61,8 @@ export class Review extends React.Component {
 
     goForward() {
         if (this.state.currentSlideIndex === this.slides.length - 1) {
-            // TODO: Dispatch to data (SUBMIT)
+            this.saveReview();
+
             this.navigate(null, null, true);
         } else {
             this.setCurrentSlideIndex(this.state.currentSlideIndex + 1);
@@ -85,6 +88,31 @@ export class Review extends React.Component {
         this.setState(state);
     }
 
+    saveReview() {
+        const reviewID = utilities.createUUID();
+
+        // Save the review to the place
+        this.props.dispatch({
+            type: "updateData",
+            node: `app/places/${this.props.placeID}/reviews/${reviewID}`,
+            data: {
+                reviewerID: this.props.reviewerID,
+                rating: this.state.rating,
+                review: this.state.review && this.state.review.trim(),
+                reviewDate: Date.now(),
+            },
+            // Save the review ID to the user
+            nextAction: {
+                type: "pushData",
+                node: `users/${this.props.reviewerID}/reviews/`,
+                data: {
+                    placeID: this.props.placeID,
+                    reviewID,
+                },
+            },
+        });
+    }
+
     navigate(page, props, goBack) {
         if (goBack) {
             Actions.pop();
@@ -106,7 +134,8 @@ export class Review extends React.Component {
             titleText =
                 "Tell us about your experience at " +
                 (this.props.places &&
-                    this.props.places[this.props.placeID].name);
+                    this.props.places[this.props.placeID].name) +
+                " (optional)";
         } else {
             titleText = "Is this correct?";
         }
@@ -128,7 +157,7 @@ export class Review extends React.Component {
             ) : this.state.currentSlideIndex === 1 ? (
                 <InputContainer containerStyle={styles.inputWrapper}>
                     <Input
-                        placeholder="The wines were exquisite..."
+                        placeholder="The wines were exquisite, the service was inviting and the venue was beautiful..."
                         placeholderTextColor={styleConstants.secondaryText}
                         value={
                             this.state[
@@ -148,19 +177,16 @@ export class Review extends React.Component {
                         handleFocus={() => this.setButtonIcon(false)}
                         handleBlur={() => this.setButtonIcon(true)}
                         handleSubmit={this.goForward}
-                        autoFocus={!this.state.review}
                     />
                 </InputContainer>
             ) : (
                 // Preview
-                <View style={styles.reviewWidgetContainer}>
-                    <ReviewWidget
-                        review={{
-                            rating: this.state.rating,
-                            review: this.state.review,
-                            date: Date.now(),
-                        }}
-                        reviewerId={this.props.reviewerId}
+                <View style={styles.reviewCardContainer}>
+                    <ReviewCard
+                        rating={this.state.rating}
+                        review={this.state.review}
+                        reviewDate={Date.now()}
+                        reviewer={this.props.users[this.props.reviewerID]}
                         handleHeaderPress={
                             null /* TODO: link to user profile */
                         }
@@ -181,11 +207,7 @@ export class Review extends React.Component {
                     style={styles.buttonIcon}
                     handlePress={this.goForward}
                     disabled={
-                        this.state.currentSlideIndex === this.slides.length - 1
-                            ? false
-                            : !this.state[
-                                  this.slides[this.state.currentSlideIndex]
-                              ]
+                        this.state.currentSlideIndex === 0 && !this.state.rating
                     }
                 />
             </View>
@@ -219,6 +241,14 @@ export class Review extends React.Component {
             </Page>
         );
     }
+}
+
+function mapStateToProps(state) {
+    return {
+        places: state.main.appData.app && state.main.appData.app.places,
+        reviewerID: state.main.userAuth.uid,
+        users: state.main.appData.users,
+    };
 }
 
 const styles = StyleSheet.create({
@@ -288,16 +318,10 @@ const styles = StyleSheet.create({
         paddingBottom: 8,
         minHeight: 37, // Fixes weird mounting bug
     },
-    reviewWidgetContainer: {
+    reviewCardContainer: {
         alignSelf: "stretch",
         paddingHorizontal: 16,
     },
 });
-
-function mapStateToProps(state) {
-    return {
-        places: state.main.appData.app && state.main.appData.app.places,
-    };
-}
 
 export default connect(mapStateToProps)(Review);

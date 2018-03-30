@@ -118,8 +118,6 @@ export class CheckInButtonWidget extends React.Component {
                             date: Date.now(),
                         },
                     });
-
-                    this.setError("Success");
                 } else {
                     this.animate(136);
 
@@ -143,6 +141,7 @@ export class CheckInButtonWidget extends React.Component {
             type: "SET_ERROR",
             errorType: "LOCATION",
             message,
+            duration,
         });
     }
 
@@ -258,6 +257,11 @@ const styles = StyleSheet.create({
     loaderContainer: {
         marginRight: 8,
         marginLeft: -8,
+    },
+    actionButtonIcon: {
+        fontSize: styleConstants.iconFont,
+        color: styleConstants.white,
+        marginRight: 4,
     },
 });
 

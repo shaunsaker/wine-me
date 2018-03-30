@@ -3,11 +3,15 @@ BUGS
 
 TODOS
     Review
-        Save review
         Link to user profile
+    ReviewWidget
+        Placeholder image
+    Place
+        PlaceBlankState
+            Define cork amount
 
     Place
-        What happens if I have already writted a review
+        Edit my review
         Businesshours
             Collapsible section
             Move today to top of list

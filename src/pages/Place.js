@@ -257,7 +257,13 @@ export class Place extends React.Component {
                 place && place.reviews ? (
                     <View style={styles.tabContentContainer}>
                         <ReviewsList
-                            data={place.reviews}
+                            data={
+                                place &&
+                                utilities.convertDictionaryToArray(
+                                    place.reviews,
+                                    true,
+                                )
+                            }
                             users={this.props.users}
                             handleProfilePress={
                                 null /* TODO: Go to person's profile */
@@ -269,7 +275,11 @@ export class Place extends React.Component {
                         <PlaceBlankState
                             text="write a review"
                             corks={100 /* TODO */}
-                            handleTextPress={null}
+                            handleTextPress={() =>
+                                this.navigate("review", null, {
+                                    placeID: this.props.placeID,
+                                })
+                            }
                             isCheckedIn={isCheckedIn}
                         />
                     </View>
@@ -293,7 +303,11 @@ export class Place extends React.Component {
                     <SecondaryButton
                         text="WRITE A REVIEW"
                         iconName="mode-edit"
-                        handlePress={null}
+                        handlePress={() =>
+                            this.navigate("review", null, {
+                                placeID: this.props.placeID,
+                            })
+                        }
                     />
                 )
             );

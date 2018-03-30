@@ -21,25 +21,13 @@ export default class ReviewsList extends React.Component {
         };
     }
 
-    // TEMP
-    // static defaultProps = {
-    //     data: [
-    //         {
-    //             reviewerID: "3lwD4uXLYMeRDA6thwImRtG1voA3",
-    //             date: Date.now(),
-    //             rating: 5,
-    //             review:
-    //                 "Very professional wine tasting with top quality ratings for most of the wines. The setting is exquisite. A must visit!",
-    //             id: 12345678,
-    //         },
-    //     ],
-    // };
-
     renderItem = ({ item, index }) => {
         return (
             <View style={styles.reviewItemContainer}>
                 <ReviewCard
-                    review={item}
+                    rating={item.rating}
+                    review={item.review}
+                    reviewDate={item.reviewDate}
                     reviewer={this.props.users[item.reviewerID]}
                     handleHeaderPress={this.props.handleProfilePress}
                 />
@@ -70,5 +58,7 @@ const styles = StyleSheet.create({
         paddingTop: 0,
         paddingBottom: 56 + 16 + 16,
     },
-    reviewItemContainer: {},
+    reviewItemContainer: {
+        marginHorizontal: 16,
+    },
 });

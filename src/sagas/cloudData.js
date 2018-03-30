@@ -13,7 +13,6 @@ export function* getData(action) {
             if (action.nextAction) {
                 yield put({
                     ...action.nextAction,
-                    data: getDataResponse.message,
                 });
             }
         } else {
@@ -38,7 +37,6 @@ export function* updateData(action) {
             if (action.nextAction) {
                 yield put({
                     ...action.nextAction,
-                    data: updateDataResponse.message,
                 });
             }
         } else {
@@ -63,7 +61,6 @@ export function* setData(action) {
             if (action.nextAction) {
                 yield put({
                     ...action.nextAction,
-                    data: setDataResponse.message,
                 });
             }
         } else {
@@ -85,11 +82,9 @@ export function* pushData(action) {
 
     if (pushDataResponse) {
         if (pushDataResponse.success) {
-            if (action.nextActionType) {
+            if (action.nextAction) {
                 yield put({
-                    type: action.nextActionType,
-                    node: action.node,
-                    data: action.data,
+                    ...action.nextAction,
                 });
             }
         } else {
@@ -111,10 +106,9 @@ export function* deleteData(action) {
 
     if (deleteDataResponse) {
         if (deleteDataResponse.success) {
-            if (action.nextActionType) {
+            if (action.nextAction) {
                 yield put({
-                    type: action.nextActionType,
-                    node: action.node,
+                    ...action.nextAction,
                 });
             }
         } else {

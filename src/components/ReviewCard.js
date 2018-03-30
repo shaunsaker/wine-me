@@ -21,7 +21,9 @@ export default class ReviewCard extends React.Component {
 
     static get propTypes() {
         return {
-            review: PropTypes.object,
+            rating: PropTypes.number,
+            review: PropTypes.string,
+            reviewDate: PropTypes.number,
             reviewer: PropTypes.object,
             handleHeaderPress: PropTypes.func,
         };
@@ -34,82 +36,94 @@ export default class ReviewCard extends React.Component {
     }
 
     render() {
-        const header = (
+        const nameText = this.props.reviewer.name
+            ? this.props.reviewer.name
+            : "Anonymous";
+
+        const statusText = this.props.reviewer.status
+            ? this.props.reviewer.status
+            : "Newbie";
+
+        const reviewCountText = this.props.reviewer.reviewCount
+            ? this.props.reviewer.reviewCount
+            : 0 + " reviews";
+
+        const photoCountText = this.props.reviewer.photoCount
+            ? this.props.reviewer.photoCount
+            : 0 + " photos";
+
+        const photoURL = this.props.reviewer.photoURL
+            ? { url: this.props.reviewer.photoURL }
+            : require("../assets/images/128.jpg"); // TODO: Placeholder image
+
+        const dateText = utilities.getRelativePastDate(this.props.reviewDate);
+
+        const headerComponent = (
             <View style={styles.header}>
                 <View style={styles.nameTextContainer}>
-                    <Text style={styles.nameText}>
-                        {this.props.reviewer.name}
-                    </Text>
+                    <Text style={styles.nameText}>{nameText}</Text>
                 </View>
                 <View style={styles.labelsContainer}>
                     <View style={styles.labelContainer}>
                         <Text style={styles.primaryLabelText}>
-                            {this.props.reviewer.status}
+                            {statusText}
                         </Text>
                     </View>
                     <View style={styles.labelContainer}>
-                        <Text style={styles.labelText}>
-                            {this.props.reviewer.reviewCount +
-                                " review" +
-                                (this.props.reviewer.reviewCount > 1
-                                    ? "s"
-                                    : "")}
-                        </Text>
+                        <Text style={styles.labelText}>{reviewCountText}</Text>
+                    </View>
+                    <View style={styles.labelContainer}>
+                        <Text style={styles.labelText}>{photoCountText}</Text>
                     </View>
                 </View>
             </View>
         );
 
-        const headerComponent = this.props.handlePress ? (
+        const headerWrapperComponent = this.props.handlePress ? (
             <Touchable
                 onPress={() =>
-                    this.props.handleHeaderPress(this.props.review.reviewerId)
+                    this.props.handleHeaderPress(this.props.reviewer.reviewerID)
                 }
                 style={styles.headerContainer}>
-                {header}
+                {headerComponent}
             </Touchable>
         ) : (
-            <View style={styles.headerContainer}>{header}</View>
+            <View style={styles.headerContainer}>{headerComponent}</View>
+        );
+
+        const reviewComponent = this.props.review && (
+            <Touchable
+                onPress={this.toggleShowMore}
+                disableFeedback
+                style={styles.reviewTextContainer}>
+                <Text
+                    numberOfLines={this.state.showMore ? null : 4}
+                    style={styles.reviewText}>
+                    {this.props.review}
+                </Text>
+            </Touchable>
         );
 
         return (
             <View style={styles.container}>
                 <View style={styles.photoContainer}>
-                    <Image
-                        source={{
-                            uri: this.props.reviewer.photoURL,
-                        }}
-                        style={styles.photo}
-                    />
+                    <Image source={photoURL} style={styles.photo} />
                 </View>
                 <View style={styles.contentContainer}>
-                    {headerComponent}
+                    {headerWrapperComponent}
                     <View style={styles.subHeaderContainer}>
                         <View style={styles.starRatingContainer}>
                             <StarRating
-                                rating={this.props.review.rating}
+                                rating={this.props.rating}
                                 iconStyle={styles.starRatingIcon}
                                 style={styles.starRating}
                             />
                         </View>
                         <View style={styles.dateTextContainer}>
-                            <Text style={styles.dateText}>
-                                {utilities.getRelativePastDate(
-                                    this.props.review.date,
-                                )}
-                            </Text>
+                            <Text style={styles.dateText}>{dateText}</Text>
                         </View>
                     </View>
-                    <Touchable
-                        onPress={this.toggleShowMore}
-                        disableFeedback
-                        style={styles.reviewTextContainer}>
-                        <Text
-                            numberOfLines={this.state.showMore ? null : 4}
-                            style={styles.reviewText}>
-                            {this.props.review.review}
-                        </Text>
-                    </Touchable>
+                    {reviewComponent}
                 </View>
             </View>
         );
@@ -120,7 +134,7 @@ const styles = StyleSheet.create({
     container: {
         alignSelf: "stretch",
         flexDirection: "row",
-        padding: 16,
+        paddingVertical: 16,
         borderBottomWidth: 1,
         borderBottomColor: styleConstants.dividerColor,
     },
@@ -132,7 +146,6 @@ const styles = StyleSheet.create({
         height: 40,
         borderRadius: 20,
         overflow: "hidden", // ios
-        backgroundColor: styleConstants.dividerColor,
     },
     contentContainer: {
         flex: 1,
@@ -145,7 +158,6 @@ const styles = StyleSheet.create({
     subHeaderContainer: {
         flexDirection: "row",
         alignItems: "center",
-        marginBottom: 8,
     },
     nameTextContainer: {},
     nameText: {
@@ -177,7 +189,7 @@ const styles = StyleSheet.create({
     starRating: {},
     starRatingIcon: {
         fontSize: styleConstants.smallFont,
-        color: styleConstants.secondary,
+        color: "gold",
     },
     dateTextContainer: {},
     dateText: {
@@ -185,7 +197,9 @@ const styles = StyleSheet.create({
         color: styleConstants.secondaryText,
         ...styleConstants.primaryFont,
     },
-    reviewTextContainer: {},
+    reviewTextContainer: {
+        marginTop: 8,
+    },
     reviewText: {
         fontSize: styleConstants.smallFont,
         color: styleConstants.primaryText,
