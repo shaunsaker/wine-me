@@ -13,6 +13,7 @@ import ScrollHeader from "../components/ScrollHeader";
 import RelativeDistanceLabel from "../components/RelativeDistanceLabel";
 import Label from "../components/Label";
 import InfoRow from "../components/InfoRow";
+import PlaceBusinessHours from "../components/PlaceBusinessHours";
 import CheckInButtonWidget from "../widgets/CheckInButtonWidget";
 import ReviewsList from "../lists/ReviewsList";
 import PlaceBlankState from "../components/PlaceBlankState";
@@ -221,21 +222,7 @@ export class Place extends React.Component {
 
         const businessHoursComponent = place &&
             place.openingHours && (
-                <View>
-                    <InfoRow iconName="alarm" text="Business hours" isHeader />
-                    {place.openingHours.map((item, index) => {
-                        return (
-                            <InfoRow
-                                key={item}
-                                text={item}
-                                isBusinessHours
-                                isHighlighted={utilities.isToday(
-                                    item.split(":")[0],
-                                )}
-                            />
-                        );
-                    })}
-                </View>
+                <PlaceBusinessHours businessHours={place.openingHours} />
             );
 
         const hasUserCheckedIn = utilities.isKeyValuePairPresentInDictionary(

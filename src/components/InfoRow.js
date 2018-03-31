@@ -17,6 +17,8 @@ export default function InfoRow(props) {
             isHeader: PropTypes.bool,
             isHighlighted: PropTypes.bool,
             isBusinessHours: PropTypes.bool,
+            itemHeight: PropTypes.number
+            hideRightIcon: PropTypes.boo,
         };
     }
 */
@@ -53,9 +55,10 @@ export default function InfoRow(props) {
         <Text style={styles.infoRowText}>{props.text}</Text>
     );
 
-    const rightIconComponent = props.handlePress && (
-        <Icon name="call-made" style={styles.rightIcon} />
-    );
+    const rightIconComponent = props.handlePress &&
+        !props.hideRightIcon && (
+            <Icon name="call-made" style={styles.rightIcon} />
+        );
 
     return (
         <Touchable
@@ -64,6 +67,9 @@ export default function InfoRow(props) {
                 styles.infoRow,
                 props.isHeader && styles.headerRow,
                 props.isHighlighted && styles.highlightedRow,
+                props.itemHeight && {
+                    height: props.itemHeight,
+                },
             ]}
             disableFeedback={!props.handlePress}>
             <View style={styles.infoRowLeftSection}>
