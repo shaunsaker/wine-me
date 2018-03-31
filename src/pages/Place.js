@@ -126,7 +126,8 @@ export class Place extends React.Component {
             this.props.places && this.props.places[this.props.placeID];
 
         const imageURL =
-            place && utilities.getGooglePlacesPhoto(place.photoReference);
+            place &&
+            utilities.getGooglePlacesPhoto(place.photos && place.photos[0]); // first one
 
         const starRatingComponent = place &&
             place.rating && (

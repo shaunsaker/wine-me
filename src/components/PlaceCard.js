@@ -30,9 +30,11 @@ export default class PlaceCard extends React.PureComponent {
     }
 
     render() {
-        const photoURL = utilities.getGooglePlacesPhoto(
-            this.props.place.photoReference,
-        );
+        const photoURL =
+            this.props.place.photos &&
+            utilities.getGooglePlacesPhoto(
+                this.props.place.photos[0], // first one
+            );
 
         const backgroundImage = photoURL ? (
             <ImageWidget

@@ -6,6 +6,7 @@ TODOS
     Place
         Photos
         PhotoSlider
+        PhotoViewer
     Profile
         Basic
         Level up guide
