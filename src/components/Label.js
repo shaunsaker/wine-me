@@ -12,7 +12,8 @@ export default function LabelComponent(props) {
         return {
             text: PropTypes.string,
             highlight: PropTypes.bool,
-            secondaryText: PropTypes.bool
+            secondaryText: PropTypes.bool,
+            handlePress: PropTypes.bool,
         };
     }
 */
@@ -25,6 +26,7 @@ export default function LabelComponent(props) {
                 props.secondaryText && styles.secondaryLabelText,
             ]}
             style={[styles.label, props.highlight && styles.highlightedLabel]}
+            handlePress={props.handlePress}
         />
     );
 }

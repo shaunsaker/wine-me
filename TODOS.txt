@@ -4,10 +4,10 @@ BUGS
 
 TODOS
     Place
-        See who has checked in here
         Photos
         PhotoSlider
     Profile
+        Basic
         Level up guide
         Level up checklist
         My Places/Wine Farms
@@ -17,6 +17,8 @@ TODOS
         Responsible for point allocation, levelling etc. based on events that it listens to
     Review
         Link to user profile
+    CheckIns
+        Link to user profile
     Place
         PlaceBlankState
             Define cork amount
@@ -24,6 +26,7 @@ TODOS
         Collection progress
     Home
         Rehash it, try AirBNB style explore (no tabs => sections)
+        Get rid of gradient
     Check in tutorial
     Disable tablets
     Find place modal styles

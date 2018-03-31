@@ -7,6 +7,7 @@ import utilities from "../utilities";
 import styleConstants from "../assets/styleConstants";
 
 import { StarRating, Touchable } from "react-native-simple-components";
+import UserCardHeader from "./UserCardHeader";
 
 export default class ReviewCard extends React.Component {
     constructor(props) {
@@ -21,10 +22,8 @@ export default class ReviewCard extends React.Component {
 
     static get propTypes() {
         return {
-            rating: PropTypes.number,
-            review: PropTypes.string,
-            date: PropTypes.number,
-            reviewer: PropTypes.object,
+            review: PropTypes.object,
+            user: PropTypes.object,
             handleHeaderPress: PropTypes.func,
         };
     }
@@ -36,62 +35,7 @@ export default class ReviewCard extends React.Component {
     }
 
     render() {
-        const nameText = this.props.reviewer.name
-            ? this.props.reviewer.name
-            : "Anonymous";
-
-        const statusText = this.props.reviewer.status
-            ? this.props.reviewer.status
-            : "Newbie";
-
-        const reviewCountText = this.props.reviewer.reviewCount
-            ? this.props.reviewer.reviewCount
-            : 0 + " reviews";
-
-        const photoCountText = this.props.reviewer.photoCount
-            ? this.props.reviewer.photoCount
-            : 0 + " photos";
-
-        const photoURL = this.props.reviewer.photoURL
-            ? { url: this.props.reviewer.photoURL }
-            : require("../assets/images/128.jpg"); // TODO: Placeholder image
-
-        const dateText = utilities.getRelativePastDate(this.props.date);
-
-        const headerComponent = (
-            <View style={styles.header}>
-                <View style={styles.nameTextContainer}>
-                    <Text style={styles.nameText}>{nameText}</Text>
-                </View>
-                <View style={styles.labelsContainer}>
-                    <View style={styles.labelContainer}>
-                        <Text style={styles.primaryLabelText}>
-                            {statusText}
-                        </Text>
-                    </View>
-                    <View style={styles.labelContainer}>
-                        <Text style={styles.labelText}>{reviewCountText}</Text>
-                    </View>
-                    <View style={styles.labelContainer}>
-                        <Text style={styles.labelText}>{photoCountText}</Text>
-                    </View>
-                </View>
-            </View>
-        );
-
-        const headerWrapperComponent = this.props.handlePress ? (
-            <Touchable
-                onPress={() =>
-                    this.props.handleHeaderPress(this.props.reviewer.reviewerID)
-                }
-                style={styles.headerContainer}>
-                {headerComponent}
-            </Touchable>
-        ) : (
-            <View style={styles.headerContainer}>{headerComponent}</View>
-        );
-
-        const reviewComponent = this.props.review && (
+        const reviewComponent = this.props.review.review && (
             <Touchable
                 onPress={this.toggleShowMore}
                 disableFeedback
@@ -99,31 +43,36 @@ export default class ReviewCard extends React.Component {
                 <Text
                     numberOfLines={this.state.showMore ? null : 4}
                     style={styles.reviewText}>
-                    {this.props.review}
+                    {this.props.review.review}
                 </Text>
             </Touchable>
         );
 
+        const dateText = utilities.getRelativePastDate(this.props.review.date);
+
         return (
             <View style={styles.container}>
-                <View style={styles.photoContainer}>
-                    <Image source={photoURL} style={styles.photo} />
-                </View>
-                <View style={styles.contentContainer}>
-                    {headerWrapperComponent}
-                    <View style={styles.subHeaderContainer}>
-                        <View style={styles.starRatingContainer}>
-                            <StarRating
-                                rating={this.props.rating}
-                                iconStyle={styles.starRatingIcon}
-                                style={styles.starRating}
-                            />
+                <UserCardHeader user={this.props.user} handlePress={null} />
+                <View style={styles.row}>
+                    <View style={styles.spacer} />
+                    <View
+                        style={{
+                            flex: 1,
+                        }}>
+                        <View style={styles.row}>
+                            <View style={styles.starRatingContainer}>
+                                <StarRating
+                                    rating={this.props.review.rating}
+                                    iconStyle={styles.starRatingIcon}
+                                    style={styles.starRating}
+                                />
+                            </View>
+                            <View style={styles.dateTextContainer}>
+                                <Text style={styles.dateText}>{dateText}</Text>
+                            </View>
                         </View>
-                        <View style={styles.dateTextContainer}>
-                            <Text style={styles.dateText}>{dateText}</Text>
-                        </View>
+                        {reviewComponent}
                     </View>
-                    {reviewComponent}
                 </View>
             </View>
         );
@@ -133,55 +82,17 @@ export default class ReviewCard extends React.Component {
 const styles = StyleSheet.create({
     container: {
         alignSelf: "stretch",
-        flexDirection: "row",
         paddingVertical: 16,
         borderBottomWidth: 1,
         borderBottomColor: styleConstants.dividerColor,
     },
-    photoContainer: {
-        marginRight: 16,
-    },
-    photo: {
-        width: 40,
-        height: 40,
-        borderRadius: 20,
-        overflow: "hidden", // ios
-    },
-    contentContainer: {
-        flex: 1,
-    },
-    headerContainer: {
-        height: 40, // same as image,
-        justifyContent: "space-between",
-        marginBottom: 8,
-    },
-    subHeaderContainer: {
+    row: {
         flexDirection: "row",
         alignItems: "center",
     },
-    nameTextContainer: {},
-    nameText: {
-        fontSize: styleConstants.regularFont,
-        color: styleConstants.primaryText,
-        ...styleConstants.primaryFont,
-    },
-    labelsContainer: {
-        flexDirection: "row",
-        alignItems: "center",
-        flexWrap: "wrap", // smaller width screen
-    },
-    labelContainer: {
-        marginRight: 8,
-    },
-    primaryLabelText: {
-        fontSize: styleConstants.smallFont,
-        color: styleConstants.primary,
-        ...styleConstants.primaryFont,
-    },
-    labelText: {
-        fontSize: styleConstants.smallFont,
-        color: styleConstants.secondaryText,
-        ...styleConstants.primaryFont,
+    spacer: {
+        width: 56,
+        alignSelf: "stretch",
     },
     starRatingContainer: {
         marginRight: 8,

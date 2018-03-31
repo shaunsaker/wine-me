@@ -113,7 +113,7 @@ export class Place extends React.Component {
         });
     }
 
-    navigate(page, goBack, props) {
+    navigate(page, props, goBack) {
         if (goBack) {
             Actions.pop();
         } else {
@@ -155,6 +155,11 @@ export class Place extends React.Component {
                         numberOfCheckIns +
                         " check-in" +
                         (numberOfCheckIns > 1 ? "'s" : "")
+                    }
+                    handlePress={() =>
+                        this.navigate("checkIns", {
+                            placeID: this.props.placeID,
+                        })
                     }
                 />
             );
@@ -263,7 +268,7 @@ export class Place extends React.Component {
                             text="write a review"
                             corks={100 /* TODO */}
                             handleTextPress={() =>
-                                this.navigate("review", null, {
+                                this.navigate("review", {
                                     placeID: this.props.placeID,
                                 })
                             }
@@ -301,7 +306,7 @@ export class Place extends React.Component {
                     }
                     iconName="mode-edit"
                     handlePress={() =>
-                        this.navigate("review", null, {
+                        this.navigate("review", {
                             placeID: this.props.placeID,
                             reviewID: hasUserReviewedPlace,
                         })
@@ -329,7 +334,9 @@ export class Place extends React.Component {
                     finalHeaderBackgroundColor={styleConstants.darkPrimary}
                     headerLeftIconName="chevron-left"
                     headerLeftIconStyle={styles.headerIcon}
-                    handleHeaderLeftIconPress={() => this.navigate(null, true)}
+                    handleHeaderLeftIconPress={() =>
+                        this.navigate(null, null, true)
+                    }
                     headerText={place && place.name}
                     headerTextStyle={styles.headerText}
                     headerStyle={styles.header}

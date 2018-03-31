@@ -230,7 +230,7 @@ export class Review extends React.Component {
         );
 
         return (
-            <Page>
+            <Page style={styles.container}>
                 <HeaderBar
                     statusBarStyle="dark-content"
                     leftIconName={
@@ -268,13 +268,11 @@ function mapStateToProps(state) {
 }
 
 const styles = StyleSheet.create({
-    header: {
+    container: {
         backgroundColor: styleConstants.white,
     },
-    headerText: {
-        fontSize: styleConstants.regularFont,
-        color: styleConstants.white,
-        ...styleConstants.primaryFont,
+    header: {
+        backgroundColor: styleConstants.white,
     },
     headerIcon: {
         fontSize: styleConstants.iconFont,
@@ -283,7 +281,6 @@ const styles = StyleSheet.create({
     bodyContainer: {
         flex: 1,
         alignSelf: "stretch",
-        backgroundColor: styleConstants.white,
     },
     titleTextContainer: {
         padding: 16,

@@ -4,9 +4,9 @@ import PropTypes from "prop-types";
 
 import styleConstants from "../assets/styleConstants";
 
-import ReviewCard from "../components/ReviewCard";
+import CheckInCard from "../components/CheckInCard";
 
-export default class ReviewsList extends React.Component {
+export default class CheckInList extends React.Component {
     constructor(props) {
         super(props);
 
@@ -17,17 +17,15 @@ export default class ReviewsList extends React.Component {
         return {
             data: PropTypes.array,
             users: PropTypes.object,
-            handleProfilePress: PropTypes.func,
         };
     }
 
     renderItem = ({ item, index }) => {
         return (
             <View style={styles.itemContainer}>
-                <ReviewCard
-                    review={item}
-                    user={this.props.users[item.reviewerID]}
-                    handleHeaderPress={this.props.handleProfilePress}
+                <CheckInCard
+                    checkIn={item}
+                    user={this.props.users && this.props.users[item.uid]}
                 />
             </View>
         );
