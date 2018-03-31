@@ -29,9 +29,9 @@ export class CheckInButtonWidget extends React.Component {
             hasFetchedUserLocation: false,
             isComparingLocations: false,
             animatedValue: new Animated.Value(
-                this.props.userCheckIns &&
-                utilities.isValueInArray(
-                    this.props.placeID,
+                // hasUserCheckedIn
+                utilities.isKeyValuePairPresentInDictionary(
+                    { placeID: this.props.placeID },
                     this.props.userCheckIns,
                 )
                     ? 160
@@ -43,7 +43,7 @@ export class CheckInButtonWidget extends React.Component {
 
     static get propTypes() {
         return {
-            userCheckIns: PropTypes.array,
+            userCheckIns: PropTypes.object,
             uid: PropTypes.string,
 
             // Passed props
@@ -95,7 +95,7 @@ export class CheckInButtonWidget extends React.Component {
 
             setTimeout(() => {
                 // If the user is 1km within the place's radius
-                if (this.props.relativeDistance <= 1) {
+                if (this.props.relativeDistance >= 1) {
                     // Add it to check ins and dispatch success action
                     this.setState({
                         hasFetchedUserLocation: false, // RESET
@@ -104,19 +104,24 @@ export class CheckInButtonWidget extends React.Component {
 
                     this.animate(160);
 
+                    const checkInID = utilities.createUUID();
+
                     this.props.dispatch({
-                        type: "pushData",
-                        node: "users/" + this.props.uid + "/checkIns",
-                        data: this.props.placeID,
+                        type: "updateData",
+                        node: `app/places/${
+                            this.props.placeID
+                        }/checkIns/${checkInID}`,
+                        data: {
+                            uid: this.props.uid,
+                            date: Date.now(),
+                        },
                         nextAction: {
-                            type: "pushData",
-                            node:
-                                "app/places/" +
-                                this.props.placeID +
-                                "/checkIns",
+                            type: "updateData",
+                            node: `users/${
+                                this.props.uid
+                            }/checkIns/${checkInID}`,
                             data: {
-                                uid: this.props.uid,
-                                date: Date.now(),
+                                placeID: this.props.placeID,
                             },
                         },
                     });
@@ -165,18 +170,16 @@ export class CheckInButtonWidget extends React.Component {
     }
 
     render() {
-        let isUserCheckedIn =
-            this.props.userCheckIns &&
-            utilities.isValueInArray(
-                this.props.placeID,
-                this.props.userCheckIns,
-            );
+        const hasUserCheckedIn = utilities.isKeyValuePairPresentInDictionary(
+            { placeID: this.props.placeID },
+            this.props.userCheckIns,
+        );
 
         const isLoading =
             this.state.isFetchingUserLocation ||
             this.state.isComparingLocations;
 
-        const buttonDisabled = isUserCheckedIn || isLoading;
+        const buttonDisabled = hasUserCheckedIn || isLoading;
         this.state.hasFetchedUserLocation;
 
         const iconComponent =
@@ -207,7 +210,7 @@ export class CheckInButtonWidget extends React.Component {
 
         const iconName =
             !this.state.isAnimating &&
-            (isUserCheckedIn
+            (hasUserCheckedIn
                 ? "check"
                 : this.state.hasFetchedUserLocation
                     ? "check"
@@ -215,7 +218,7 @@ export class CheckInButtonWidget extends React.Component {
 
         const buttonText =
             !this.state.isAnimating &&
-            (isUserCheckedIn
+            (hasUserCheckedIn
                 ? "CHECKED IN"
                 : this.state.isFetchingUserLocation
                     ? "GETTING YOUR LOCATION..."
@@ -231,7 +234,7 @@ export class CheckInButtonWidget extends React.Component {
                     customIcon={iconComponent}
                     iconName={iconName}
                     text={buttonText}
-                    style={isUserCheckedIn && styles.checkedInButton}
+                    style={hasUserCheckedIn && styles.checkedInButton}
                     handlePress={!buttonDisabled ? this.toggleLoading : null}
                     disabled={buttonDisabled}
                     disabledStyle={{ opacity: 1 }}
@@ -247,9 +250,7 @@ function mapStateToProps(state) {
         userCheckIns:
             state.main.appData.users &&
             state.main.appData.users[state.main.userAuth.uid] &&
-            utilities.convertDictionaryToArray(
-                state.main.appData.users[state.main.userAuth.uid].checkIns,
-            ),
+            state.main.appData.users[state.main.userAuth.uid].checkIns,
         uid: state.main.userAuth.uid,
     };
 }

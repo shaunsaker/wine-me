@@ -25,7 +25,6 @@ export class Place extends React.Component {
         this.setTab = this.setTab.bind(this);
         this.handleLink = this.handleLink.bind(this);
         this.prepareLink = this.prepareLink.bind(this);
-        this.hasUserReviewedPlace = this.hasUserReviewedPlace.bind(this);
         this.setError = this.setError.bind(this);
         this.navigate = this.navigate.bind(this);
 
@@ -48,8 +47,10 @@ export class Place extends React.Component {
     static get propTypes() {
         return {
             userLocation: PropTypes.object,
+            users: PropTypes.object,
             places: PropTypes.object,
-            userCheckIns: PropTypes.array,
+            userCheckIns: PropTypes.object,
+            userReviews: PropTypes.object,
 
             // Passed props
             placeID: PropTypes.string,
@@ -101,24 +102,6 @@ export class Place extends React.Component {
         } else if (linkType === "website") {
             return link;
         }
-    }
-
-    hasUserReviewedPlace() {
-        const userReviews = utilities.convertDictionaryToArray(
-            this.props.users[this.props.uid].reviews,
-            true,
-        );
-
-        let reviewID;
-
-        for (let i = 0; i < userReviews.length; i++) {
-            if (userReviews[i].placeID === this.props.placeID) {
-                reviewID = userReviews[i].id;
-                break;
-            }
-        }
-
-        return reviewID;
     }
 
     setError(message) {
@@ -255,12 +238,10 @@ export class Place extends React.Component {
                 </View>
             );
 
-        const isCheckedIn =
-            this.props.userCheckIns &&
-            utilities.isValueInArray(
-                this.props.placeID,
-                this.props.userCheckIns,
-            );
+        const hasUserCheckedIn = utilities.isKeyValuePairPresentInDictionary(
+            { placeID: this.props.placeID },
+            this.props.userCheckIns,
+        );
 
         const activeTabComponent =
             this.state.activeTab === "Info" ? (
@@ -299,7 +280,7 @@ export class Place extends React.Component {
                                     placeID: this.props.placeID,
                                 })
                             }
-                            isCheckedIn={isCheckedIn}
+                            hasUserCheckedIn={hasUserCheckedIn}
                         />
                     </View>
                 )
@@ -311,8 +292,11 @@ export class Place extends React.Component {
 
         const hasUserReviewedPlace =
             this.state.activeTab === "Reviews" &&
-            isCheckedIn &&
-            this.hasUserReviewedPlace();
+            hasUserCheckedIn &&
+            utilities.isKeyValuePairPresentInDictionary(
+                { placeID: this.props.placeID },
+                this.props.userReviews,
+            );
 
         const actionButtonComponent =
             place && this.state.activeTab === "Info" ? (
@@ -321,7 +305,7 @@ export class Place extends React.Component {
                     placeID={this.props.placeID}
                     relativeDistance={relativeDistance}
                 />
-            ) : this.state.activeTab === "Reviews" && isCheckedIn ? (
+            ) : this.state.activeTab === "Reviews" && hasUserCheckedIn ? (
                 <SecondaryButton
                     text={
                         hasUserReviewedPlace
@@ -386,21 +370,6 @@ export class Place extends React.Component {
             </Page>
         );
     }
-}
-
-function mapStateToProps(state) {
-    return {
-        userLocation: state.main.appState.userLocation,
-        places: state.main.appData.app && state.main.appData.app.places,
-        users: state.main.appData.users,
-        userCheckIns:
-            state.main.appData.users &&
-            state.main.appData.users[state.main.userAuth.uid] &&
-            utilities.convertDictionaryToArray(
-                state.main.appData.users[state.main.userAuth.uid].checkIns,
-            ),
-        uid: state.main.userAuth.uid,
-    };
 }
 
 const styles = StyleSheet.create({
@@ -495,5 +464,22 @@ const styles = StyleSheet.create({
         right: 16,
     },
 });
+
+function mapStateToProps(state) {
+    return {
+        userLocation: state.main.appState.userLocation,
+        places: state.main.appData.app && state.main.appData.app.places,
+        users: state.main.appData.users,
+        userCheckIns:
+            state.main.appData.users &&
+            state.main.appData.users[state.main.userAuth.uid] &&
+            state.main.appData.users[state.main.userAuth.uid].checkIns,
+        userReviews:
+            state.main.appData.users &&
+            state.main.appData.users[state.main.userAuth.uid] &&
+            state.main.appData.users[state.main.userAuth.uid].reviews,
+        uid: state.main.userAuth.uid,
+    };
+}
 
 export default connect(mapStateToProps)(Place);

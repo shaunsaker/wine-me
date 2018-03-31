@@ -2,10 +2,6 @@ BUGS
     Image sometimes displays loading spinner even though its already loaded
 
 TODOS
-    checknInID should work the same way as reviewID
-    ReviewWidget
-        Placeholder image
-
     Place
         Login to review
         Businesshours
@@ -38,7 +34,7 @@ TODOS
     Handle modals as wrappers
     Remove duplicate places
     Fix naming of places
-    Handle login
-        Write a review
+    ReviewWidget
+        Placeholder image
 
 ENHANCEMENTS

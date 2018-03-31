@@ -391,7 +391,7 @@ utilities.isKeyValuePairPresentInDictionary = (keyValuePair, dictionary) => {
 
     for (key in dictionary) {
         if (dictionary[key][targetKey] === targetValue) {
-            isKeyValuePairPresent = true;
+            isKeyValuePairPresent = key;
         }
     }
 

@@ -25,7 +25,7 @@ export default class PlaceCard extends React.PureComponent {
             place: PropTypes.object,
             userLocation: PropTypes.object,
             handlePress: PropTypes.func,
-            isCheckedIn: PropTypes.bool,
+            hasUserCheckedIn: PropTypes.string,
         };
     }
 
@@ -47,7 +47,7 @@ export default class PlaceCard extends React.PureComponent {
             </View>
         );
 
-        const checkedInIcon = this.props.isCheckedIn && (
+        const checkedInIcon = this.props.hasUserCheckedIn && (
             <View style={styles.checkedInIconContainer}>
                 <CheckedInIcon />
             </View>

@@ -32,15 +32,16 @@ export default class PlaceList extends React.Component {
     }
 
     renderItem = ({ item, index }) => {
-        const isCheckedIn =
-            this.props.userCheckIns &&
-            utilities.isValueInArray(item.id, this.props.userCheckIns);
+        const hasUserCheckedIn = utilities.isKeyValuePairPresentInDictionary(
+            { placeID: item.id },
+            this.props.userCheckIns,
+        );
 
         return (
             <PlaceCard
                 place={item}
                 handlePress={() => this.props.handlePress(item.id)}
-                isCheckedIn={isCheckedIn}
+                hasUserCheckedIn={hasUserCheckedIn}
                 userLocation={this.props.userLocation}
             />
         );
