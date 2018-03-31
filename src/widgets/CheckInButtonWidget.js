@@ -20,9 +20,18 @@ export class CheckInButtonWidget extends React.Component {
     constructor(props) {
         super(props);
 
-        this.toggleLoading = this.toggleLoading.bind(this);
+        this.handleCheckIn = this.handleCheckIn.bind(this);
+        this.saveCheckIn = this.saveCheckIn.bind(this);
         this.setError = this.setError.bind(this);
         this.animate = this.animate.bind(this);
+
+        this.buttonWidths = {
+            hasNotCheckedIn: 136,
+            isFetchingUserLocation: 292,
+            hasFetchedUserLocation: 232,
+            isComparingLocations: 284,
+            hasCheckedIn: 160,
+        };
 
         this.state = {
             isFetchingUserLocation: false,
@@ -34,8 +43,8 @@ export class CheckInButtonWidget extends React.Component {
                     { placeID: this.props.placeID },
                     this.props.userCheckIns,
                 )
-                    ? 160
-                    : 136,
+                    ? this.buttonWidths.hasCheckedIn
+                    : this.buttonWidths.hasNotCheckedIn,
             ),
             isAnimating: false,
         };
@@ -53,20 +62,20 @@ export class CheckInButtonWidget extends React.Component {
         };
     }
 
-    toggleLoading() {
+    handleCheckIn() {
         if (
             !this.state.isFetchingUserLocation &&
             !this.state.hasFetchedUserLocation &&
             !this.state.isComparingLocations
         ) {
-            this.animate(292);
+            this.animate(this.buttonWidths.isFetchingUserLocation);
 
             this.setState({
                 isFetchingUserLocation: true,
             });
 
             setTimeout(() => {
-                this.toggleLoading();
+                this.handleCheckIn();
             }, 2000);
         } else if (
             this.state.isFetchingUserLocation &&
@@ -78,10 +87,10 @@ export class CheckInButtonWidget extends React.Component {
                 hasFetchedUserLocation: true,
             });
 
-            this.animate(232);
+            this.animate(this.buttonWidths.hasFetchedUserLocation);
 
             setTimeout(() => {
-                this.toggleLoading();
+                this.handleCheckIn();
             }, 1500);
         } else if (
             !this.state.isFetchingUserLocation &&
@@ -91,42 +100,22 @@ export class CheckInButtonWidget extends React.Component {
             this.setState({
                 isComparingLocations: true,
             });
-            this.animate(284);
+            this.animate(this.buttonWidths.isComparingLocations);
 
             setTimeout(() => {
                 // If the user is 1km within the place's radius
-                if (this.props.relativeDistance >= 1) {
+                if (this.props.relativeDistance <= 1) {
                     // Add it to check ins and dispatch success action
                     this.setState({
                         hasFetchedUserLocation: false, // RESET
                         isComparingLocations: false,
                     });
 
-                    this.animate(160);
+                    this.animate(this.buttonWidths.hasCheckedIn);
 
-                    const checkInID = utilities.createUUID();
-
-                    this.props.dispatch({
-                        type: "updateData",
-                        node: `app/places/${
-                            this.props.placeID
-                        }/checkIns/${checkInID}`,
-                        data: {
-                            uid: this.props.uid,
-                            date: Date.now(),
-                        },
-                        nextAction: {
-                            type: "updateData",
-                            node: `users/${
-                                this.props.uid
-                            }/checkIns/${checkInID}`,
-                            data: {
-                                placeID: this.props.placeID,
-                            },
-                        },
-                    });
+                    this.saveCheckIn();
                 } else {
-                    this.animate(136);
+                    this.animate(this.buttonWidths.hasNotCheckedIn);
 
                     this.setError(
                         "You need to be within 1km of the place you're trying to check in to.",
@@ -141,6 +130,26 @@ export class CheckInButtonWidget extends React.Component {
                 }
             }, 2000);
         }
+    }
+
+    saveCheckIn() {
+        const checkInID = utilities.createUUID();
+
+        this.props.dispatch({
+            type: "updateData",
+            node: `app/places/${this.props.placeID}/checkIns/${checkInID}`,
+            data: {
+                uid: this.props.uid,
+                date: Date.now(),
+            },
+            nextAction: {
+                type: "updateData",
+                node: `users/${this.props.uid}/checkIns/${checkInID}`,
+                data: {
+                    placeID: this.props.placeID,
+                },
+            },
+        });
     }
 
     setError(message, duration) {
@@ -235,7 +244,7 @@ export class CheckInButtonWidget extends React.Component {
                     iconName={iconName}
                     text={buttonText}
                     style={hasUserCheckedIn && styles.checkedInButton}
-                    handlePress={!buttonDisabled ? this.toggleLoading : null}
+                    handlePress={!buttonDisabled ? this.handleCheckIn : null}
                     disabled={buttonDisabled}
                     disabledStyle={{ opacity: 1 }}
                     showShadow

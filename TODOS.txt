@@ -1,4 +1,5 @@
 BUGS
+    Close To Me sorting is not working
     Image sometimes displays loading spinner even though its already loaded
 
 TODOS
