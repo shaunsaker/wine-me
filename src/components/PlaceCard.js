@@ -32,7 +32,7 @@ export default class PlaceCard extends React.PureComponent {
     render() {
         const photoURL =
             this.props.place.photos &&
-            utilities.getGooglePlacesPhoto(
+            utilities.getGooglePlacesPhotoURL(
                 this.props.place.photos[0], // first one
             );
 

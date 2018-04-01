@@ -42,6 +42,7 @@ export default class ScrollHeader extends React.Component {
                 PropTypes.number, // local
                 PropTypes.string, // remote
             ]),
+            mediaComponent: PropTypes.node, // custom media component instead of image
 
             // HeaderBar
             statusBarColor: PropTypes.string,
@@ -240,6 +241,18 @@ export default class ScrollHeader extends React.Component {
             uri: this.props.imageURL,
         };
 
+        const mediaComponent = this.props.mediaComponent ? (
+            this.props.mediaComponent
+        ) : (
+            <Image
+                style={[
+                    styles.coverPhoto,
+                    { height: this.props.maxHeaderHeight },
+                ]}
+                source={imageSource}
+            />
+        );
+
         return (
             <View style={styles.container}>
                 <Animated.View
@@ -255,13 +268,7 @@ export default class ScrollHeader extends React.Component {
                                 transform: [{ translateY: imageTranslate }],
                             },
                         ]}>
-                        <Image
-                            style={[
-                                styles.coverPhoto,
-                                { height: this.props.maxHeaderHeight },
-                            ]}
-                            source={imageSource}
-                        />
+                        {mediaComponent}
                     </Animated.View>
                     <Animated.View
                         style={

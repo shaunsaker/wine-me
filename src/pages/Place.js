@@ -10,6 +10,7 @@ import styleConstants from "../assets/styleConstants";
 
 import { Page, StarRating } from "react-native-simple-components";
 import ScrollHeader from "../components/ScrollHeader";
+import PhotoSlider from "../components/PhotoSlider";
 import RelativeDistanceLabel from "../components/RelativeDistanceLabel";
 import Label from "../components/Label";
 import InfoRow from "../components/InfoRow";
@@ -124,10 +125,6 @@ export class Place extends React.Component {
     render() {
         const place =
             this.props.places && this.props.places[this.props.placeID];
-
-        const imageURL =
-            place &&
-            utilities.getGooglePlacesPhoto(place.photos && place.photos[0]); // first one
 
         const starRatingComponent = place &&
             place.rating && (
@@ -321,15 +318,27 @@ export class Place extends React.Component {
                 />
             );
 
+        const maxHeaderHeight = 200;
+
+        const photos =
+            place.photos &&
+            place.photos.map((photoReference, index) => {
+                return utilities.getGooglePlacesPhotoURL(photoReference);
+            });
+
+        const mediaComponent = (
+            <PhotoSlider photos={photos} height={maxHeaderHeight} />
+        );
+
         return (
             <Page style={styles.container}>
                 <ScrollHeader
                     showShadows
                     headerTranslucent
-                    maxHeaderHeight={200}
+                    maxHeaderHeight={maxHeaderHeight}
                     minHeaderHeight={56}
-                    // Image
-                    imageURL={imageURL}
+                    // PhotoSlider
+                    mediaComponent={mediaComponent}
                     // HeaderBar
                     statusBarColor={styleConstants.darkPrimary}
                     finalHeaderBackgroundColor={styleConstants.darkPrimary}

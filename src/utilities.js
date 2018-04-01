@@ -620,7 +620,7 @@ utilities.convertDegreesToRadians = degrees => {
 };
 
 /* APP SPECIFIC */
-utilities.getGooglePlacesPhoto = photoReference => {
+utilities.getGooglePlacesPhotoURL = photoReference => {
     return `https://maps.googleapis.com/maps/api/place/photo?maxheight=${
         config.imagesMaxHeight
     }&photoreference=${photoReference}&key=${config.googlePlacesAPIKey}`;
