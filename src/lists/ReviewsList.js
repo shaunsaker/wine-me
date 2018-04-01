@@ -26,7 +26,7 @@ export default class ReviewsList extends React.Component {
             <View style={styles.itemContainer}>
                 <ReviewCard
                     review={item}
-                    user={this.props.users[item.reviewerID]}
+                    reviewer={this.props.users[item.reviewerID]}
                     handleHeaderPress={this.props.handleProfilePress}
                 />
             </View>

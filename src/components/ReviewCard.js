@@ -52,7 +52,7 @@ export default class ReviewCard extends React.Component {
 
         return (
             <View style={styles.container}>
-                <UserCardHeader user={this.props.user} handlePress={null} />
+                <UserCardHeader user={this.props.reviewer} handlePress={null} />
                 <View style={styles.row}>
                     <View style={styles.spacer} />
                     <View

@@ -106,7 +106,9 @@ export class Review extends React.Component {
     }
 
     saveReview() {
-        const reviewID = utilities.createUUID();
+        const reviewID = this.props.reviewID // editing a review
+            ? this.props.reviewID
+            : utilities.createUUID();
 
         // Save the review to the place
         this.props.dispatch({
@@ -199,9 +201,11 @@ export class Review extends React.Component {
                 // Preview
                 <View style={styles.reviewCardContainer}>
                     <ReviewCard
-                        rating={this.state.rating}
-                        review={this.state.review}
-                        date={Date.now()}
+                        review={{
+                            rating: this.state.rating,
+                            review: this.state.review,
+                            date: Date.now(),
+                        }}
                         reviewer={this.props.reviewer}
                         handleHeaderPress={
                             null /* TODO: link to user profile */
