@@ -73,7 +73,8 @@ export class Home extends React.Component {
             places: PropTypes.object,
             featuredPlaces: PropTypes.array,
             uid: PropTypes.string,
-            userCheckIns: PropTypes.array,
+            userCheckIns: PropTypes.object,
+            checkIns: PropTypes.object,
             showSideMenu: PropTypes.bool,
         };
     }
@@ -228,6 +229,7 @@ export class Home extends React.Component {
                     userLocation={this.props.userLocation}
                     handlePress={placeID => this.navigate("place", { placeID })}
                     userCheckIns={this.props.userCheckIns}
+                    checkIns={this.props.checkIns}
                     scrollToTop={this.state.activeTab}
                 />
             );
@@ -304,23 +306,6 @@ export class Home extends React.Component {
     }
 }
 
-function mapStateToProps(state) {
-    return {
-        userLocation: state.main.appState.userLocation,
-        places: state.main.appData.app && state.main.appData.app.places,
-        featuredPlaces:
-            state.main.appData.app && state.main.appData.app.featuredPlaces,
-        uid: state.main.userAuth.uid,
-        userCheckIns:
-            state.main.appData.users &&
-            state.main.appData.users[state.main.userAuth.uid] &&
-            utilities.convertDictionaryToArray(
-                state.main.appData.users[state.main.userAuth.uid].checkIns,
-            ),
-        showSideMenu: state.main.appState.showSideMenu,
-    };
-}
-
 const styles = StyleSheet.create({
     container: {
         backgroundColor: styleConstants.white,
@@ -394,5 +379,21 @@ const styles = StyleSheet.create({
         backgroundColor: styleConstants.white,
     },
 });
+
+function mapStateToProps(state) {
+    return {
+        userLocation: state.main.appState.userLocation,
+        places: state.main.appData.app && state.main.appData.app.places,
+        featuredPlaces:
+            state.main.appData.app && state.main.appData.app.featuredPlaces,
+        uid: state.main.userAuth.uid,
+        userCheckIns:
+            state.main.appData.users &&
+            state.main.appData.users[state.main.userAuth.uid] &&
+            state.main.appData.users[state.main.userAuth.uid].checkIns,
+        checkIns: state.main.appData.app && state.main.appData.app.checkIns,
+        showSideMenu: state.main.appState.showSideMenu,
+    };
+}
 
 export default connect(mapStateToProps)(Home);

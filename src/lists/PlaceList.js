@@ -12,6 +12,7 @@ export default class PlaceList extends React.Component {
         super(props);
 
         this.renderItem = this.renderItem.bind(this);
+        this.hasUserCheckedIn = this.hasUserCheckedIn.bind(this);
         this.scrollToTop = this.scrollToTop.bind(this);
     }
 
@@ -19,7 +20,8 @@ export default class PlaceList extends React.Component {
         return {
             data: PropTypes.array,
             handlePress: PropTypes.func,
-            userCheckIns: PropTypes.array,
+            userCheckIns: PropTypes.object,
+            checkIns: PropTypes.object,
             scrollToTop: PropTypes.any, // on change, scrollToTop
             userLocation: PropTypes.object,
         };
@@ -32,10 +34,7 @@ export default class PlaceList extends React.Component {
     }
 
     renderItem = ({ item, index }) => {
-        const hasUserCheckedIn = utilities.isKeyValuePairPresentInDictionary(
-            { placeID: item.id },
-            this.props.userCheckIns,
-        );
+        const hasUserCheckedIn = this.hasUserCheckedIn(item.id);
 
         return (
             <PlaceCard
@@ -46,6 +45,23 @@ export default class PlaceList extends React.Component {
             />
         );
     };
+
+    hasUserCheckedIn(placeID) {
+        let hasUserCheckedIn;
+        const userCheckIns = utilities.convertDictionaryToArray(
+            this.props.userCheckIns,
+        );
+
+        for (let i = 0; i < userCheckIns.length; i++) {
+            const checkInID = userCheckIns[i];
+            if (this.props.checkIns[checkInID].placeID === placeID) {
+                hasUserCheckedIn = true;
+                break;
+            }
+        }
+
+        return hasUserCheckedIn;
+    }
 
     scrollToTop() {
         this.refs.flatList.scrollToOffset({ x: 0, y: 0 });

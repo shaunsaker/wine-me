@@ -25,7 +25,7 @@ export default class PlaceCard extends React.PureComponent {
             place: PropTypes.object,
             userLocation: PropTypes.object,
             handlePress: PropTypes.func,
-            hasUserCheckedIn: PropTypes.string,
+            hasUserCheckedIn: PropTypes.bool,
         };
     }
 

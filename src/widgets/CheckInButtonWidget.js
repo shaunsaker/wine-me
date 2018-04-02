@@ -20,6 +20,7 @@ export class CheckInButtonWidget extends React.Component {
     constructor(props) {
         super(props);
 
+        this.hasUserCheckedIn = this.hasUserCheckedIn.bind(this);
         this.handleCheckIn = this.handleCheckIn.bind(this);
         this.saveCheckIn = this.saveCheckIn.bind(this);
         this.setError = this.setError.bind(this);
@@ -38,11 +39,7 @@ export class CheckInButtonWidget extends React.Component {
             hasFetchedUserLocation: false,
             isComparingLocations: false,
             animatedValue: new Animated.Value(
-                // hasUserCheckedIn
-                utilities.isKeyValuePairPresentInDictionary(
-                    { placeID: this.props.placeID },
-                    this.props.userCheckIns,
-                )
+                this.hasUserCheckedIn()
                     ? this.buttonWidths.hasCheckedIn
                     : this.buttonWidths.hasNotCheckedIn,
             ),
@@ -53,6 +50,7 @@ export class CheckInButtonWidget extends React.Component {
     static get propTypes() {
         return {
             userCheckIns: PropTypes.object,
+            checkIns: PropTypes.object,
             uid: PropTypes.string,
 
             // Passed props
@@ -60,6 +58,23 @@ export class CheckInButtonWidget extends React.Component {
             placeID: PropTypes.string,
             relativeDistance: PropTypes.number,
         };
+    }
+
+    hasUserCheckedIn() {
+        let hasUserCheckedIn;
+        const userCheckIns = utilities.convertDictionaryToArray(
+            this.props.userCheckIns,
+        );
+
+        for (let i = 0; i < userCheckIns.length; i++) {
+            const checkInID = userCheckIns[i];
+            if (this.props.checkIns[checkInID].placeID === this.props.placeID) {
+                hasUserCheckedIn = true;
+                break;
+            }
+        }
+
+        return hasUserCheckedIn;
     }
 
     handleCheckIn() {
@@ -136,17 +151,22 @@ export class CheckInButtonWidget extends React.Component {
         const checkInID = utilities.createUUID();
 
         this.props.dispatch({
-            type: "updateData",
-            node: `app/places/${this.props.placeID}/checkIns/${checkInID}`,
+            type: "setData",
+            node: `app/checkIns/${checkInID}`,
             data: {
                 uid: this.props.uid,
+                placeID: this.props.placeID,
                 date: Date.now(),
             },
+            // Save the checkInID to the user and the place
             nextAction: {
-                type: "updateData",
-                node: `users/${this.props.uid}/checkIns/${checkInID}`,
-                data: {
-                    placeID: this.props.placeID,
+                type: "pushData",
+                node: `users/${this.props.uid}/checkIns`,
+                data: checkInID,
+                nextAction: {
+                    type: "pushData",
+                    node: `app/places/${this.props.placeID}/checkIns`,
+                    data: checkInID,
                 },
             },
         });
@@ -179,10 +199,7 @@ export class CheckInButtonWidget extends React.Component {
     }
 
     render() {
-        const hasUserCheckedIn = utilities.isKeyValuePairPresentInDictionary(
-            { placeID: this.props.placeID },
-            this.props.userCheckIns,
-        );
+        const hasUserCheckedIn = this.hasUserCheckedIn();
 
         const isLoading =
             this.state.isFetchingUserLocation ||
@@ -260,6 +277,7 @@ function mapStateToProps(state) {
             state.main.appData.users &&
             state.main.appData.users[state.main.userAuth.uid] &&
             state.main.appData.users[state.main.userAuth.uid].checkIns,
+        checkIns: state.main.appData.app.checkIns,
         uid: state.main.userAuth.uid,
     };
 }

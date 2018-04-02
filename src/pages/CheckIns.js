@@ -23,6 +23,7 @@ export class CheckIns extends React.Component {
     static get propTypes() {
         return {
             places: PropTypes.object,
+            checkIns: PropTypes.object,
             users: PropTypes.object,
 
             // Passed props
@@ -47,7 +48,12 @@ export class CheckIns extends React.Component {
             this.props.places && this.props.places[this.props.placeID];
 
         const placeCheckIns =
-            place && utilities.convertDictionaryToArray(place.checkIns, true);
+            place &&
+            utilities
+                .convertDictionaryToArray(place.checkIns)
+                .map((checkInID, index) => {
+                    return { ...this.props.checkIns[checkInID], id: checkInID };
+                });
 
         return (
             <Page style={styles.container}>
@@ -82,6 +88,7 @@ export class CheckIns extends React.Component {
 function mapStateToProps(state) {
     return {
         places: state.main.appData.app && state.main.appData.app.places,
+        checkIns: state.main.appData.app && state.main.appData.app.checkIns,
         users: state.main.appData.users,
     };
 }

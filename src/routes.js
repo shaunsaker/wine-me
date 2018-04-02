@@ -26,7 +26,7 @@ const Scenes = Actions.create(
         <Scene key="place" component={Place} initial={false} />
         <Scene key="review" component={Review} initial={false} />
         <Scene key="checkIns" component={CheckIns} initial={false} />
-        <Scene key="userProfile" component={UserProfile} initial={true} />
+        <Scene key="userProfile" component={UserProfile} initial={false} />
         <Scene
             key="forceUpdate"
             component={ForceUpdate}
