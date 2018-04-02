@@ -24,6 +24,7 @@ export default class ReviewCard extends React.Component {
         return {
             review: PropTypes.object,
             user: PropTypes.object,
+            place: PropTypes.object, // will be supplied if from UserProfile page
             handleProfilePress: PropTypes.func,
         };
     }
@@ -35,6 +36,12 @@ export default class ReviewCard extends React.Component {
     }
 
     render() {
+        const placeComponent = this.props.place && (
+            <Text style={styles.placeText}>{this.props.place.name}</Text>
+        );
+
+        const dateText = utilities.getRelativePastDate(this.props.review.date);
+
         const reviewComponent = this.props.review.review && (
             <Touchable
                 onPress={this.toggleShowMore}
@@ -48,8 +55,6 @@ export default class ReviewCard extends React.Component {
             </Touchable>
         );
 
-        const dateText = utilities.getRelativePastDate(this.props.review.date);
-
         return (
             <View style={styles.container}>
                 <UserCardHeader
@@ -62,6 +67,7 @@ export default class ReviewCard extends React.Component {
                         style={{
                             flex: 1,
                         }}>
+                        {placeComponent}
                         <View style={styles.row}>
                             <View style={styles.starRatingContainer}>
                                 <StarRating
@@ -70,9 +76,7 @@ export default class ReviewCard extends React.Component {
                                     style={styles.starRating}
                                 />
                             </View>
-                            <View style={styles.dateTextContainer}>
-                                <Text style={styles.dateText}>{dateText}</Text>
-                            </View>
+                            <Text style={styles.dateText}>{dateText}</Text>
                         </View>
                         {reviewComponent}
                     </View>
@@ -92,6 +96,7 @@ const styles = StyleSheet.create({
     row: {
         flexDirection: "row",
         alignItems: "center",
+        flexWrap: "wrap",
     },
     spacer: {
         width: 56,
@@ -105,7 +110,12 @@ const styles = StyleSheet.create({
         fontSize: styleConstants.smallFont,
         color: "gold",
     },
-    dateTextContainer: {},
+    placeText: {
+        fontSize: styleConstants.regularFont,
+        color: styleConstants.primaryText,
+        ...styleConstants.primaryFont,
+        marginTop: 8,
+    },
     dateText: {
         fontSize: styleConstants.smallFont,
         color: styleConstants.secondaryText,

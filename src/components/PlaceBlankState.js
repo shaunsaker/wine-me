@@ -13,11 +13,11 @@ export default function PlaceBlankState(props) {
             text: PropTypes.string,
             corks: PropTypes.number,
             handleTextPress: PropTypes.func,
-            isCheckedIn: PropTypes.bool,
+            hasUserCheckedIn: PropTypes.bool,
         };
     }
 */
-    const buttonComponent = props.isCheckedIn ? (
+    const buttonComponent = props.hasUserCheckedIn ? (
         <TouchableText
             handlePress={props.handleTextPress}
             text={props.text}
@@ -33,12 +33,12 @@ export default function PlaceBlankState(props) {
         <View style={styles.blankStateContainer}>
             <View style={styles.blankStateTextContainer}>
                 <Text style={styles.blankStateText}>
-                    {(props.isCheckedIn ? "Be" : "Check in and be") +
+                    {(props.hasUserCheckedIn ? "Be" : "Check in and be") +
                         " the first to"}
                 </Text>
                 {buttonComponent}
                 <Text style={styles.blankStateText}>
-                    {(props.isCheckedIn ? "and" : "to") + " earn"}
+                    {(props.hasUserCheckedIn ? "and" : "to") + " earn"}
                 </Text>
                 <Text style={styles.blankStateHighlightedText}>
                     {props.corks + " corks"}

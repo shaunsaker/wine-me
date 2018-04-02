@@ -50,11 +50,13 @@ export class Place extends React.Component {
     static get propTypes() {
         return {
             userLocation: PropTypes.object,
-            users: PropTypes.object,
             places: PropTypes.object,
+            users: PropTypes.object,
             userCheckIns: PropTypes.object,
             checkIns: PropTypes.object,
             userReviews: PropTypes.object,
+            reviews: PropTypes.object,
+            uid: PropTypes.string,
 
             // Passed props
             placeID: PropTypes.string,
@@ -218,133 +220,6 @@ export class Place extends React.Component {
             </View>
         );
 
-        const addressComponent =
-            place && place.address ? (
-                <InfoRow
-                    iconName="location-on"
-                    text={place.address}
-                    handlePress={() =>
-                        this.handleLink(place.location, "location")
-                    }
-                />
-            ) : null;
-
-        const phoneNumberComponent = place &&
-            place.phoneNumber && (
-                <InfoRow
-                    iconName="phone"
-                    text={place.phoneNumber}
-                    handlePress={() =>
-                        this.handleLink(place.phoneNumber, "phoneNumber")
-                    }
-                />
-            );
-
-        const websiteComponent = place &&
-            place.website && (
-                <InfoRow
-                    iconName="web"
-                    text={place.website}
-                    handlePress={() =>
-                        this.handleLink(place.website, "website")
-                    }
-                />
-            );
-
-        const businessHoursComponent = place &&
-            place.openingHours && (
-                <PlaceBusinessHours businessHours={place.openingHours} />
-            );
-
-        const hasUserCheckedIn = this.hasUserCheckedIn();
-
-        const activeTabComponent =
-            this.state.activeTab === "Info" ? (
-                <View style={styles.tabContentContainer}>
-                    <View>
-                        {addressComponent}
-                        {phoneNumberComponent}
-                        {websiteComponent}
-                        {businessHoursComponent}
-                    </View>
-                </View>
-            ) : this.state.activeTab === "Reviews" ? (
-                place && place.reviews ? (
-                    <View style={styles.tabContentContainer}>
-                        <ReviewList
-                            data={
-                                place &&
-                                utilities.convertDictionaryToArray(
-                                    place.reviews,
-                                    true,
-                                )
-                            }
-                            users={this.props.users}
-                            handleProfilePress={uid =>
-                                this.navigate("userProfile", {
-                                    uid,
-                                })
-                            }
-                        />
-                    </View>
-                ) : (
-                    <View style={styles.tabContentContainer}>
-                        <PlaceBlankState
-                            text="write a review"
-                            corks={100 /* TODO */}
-                            handleTextPress={() =>
-                                this.navigate("review", {
-                                    placeID: this.props.placeID,
-                                })
-                            }
-                            hasUserCheckedIn={hasUserCheckedIn}
-                        />
-                    </View>
-                )
-            ) : null;
-
-        const childrenAfterComponent = (
-            <View style={styles.contentWrapper}>{activeTabComponent}</View>
-        );
-
-        const hasUserReviewedPlace =
-            this.state.activeTab === "Reviews" &&
-            hasUserCheckedIn &&
-            utilities.isKeyValuePairPresentInDictionary(
-                { placeID: this.props.placeID },
-                this.props.userReviews,
-            );
-
-        const actionButtonComponent =
-            place && this.state.activeTab === "Info" ? (
-                <CheckInButtonWidget
-                    placeLocation={place.location}
-                    placeID={this.props.placeID}
-                    relativeDistance={relativeDistance}
-                />
-            ) : this.state.activeTab === "Reviews" && hasUserCheckedIn ? (
-                <SecondaryButton
-                    text={
-                        hasUserReviewedPlace
-                            ? "EDIT YOUR REVIEW"
-                            : "WRITE A REVIEW"
-                    }
-                    iconName="mode-edit"
-                    handlePress={() =>
-                        this.navigate("review", {
-                            placeID: this.props.placeID,
-                            reviewID: hasUserReviewedPlace,
-                        })
-                    }
-                />
-            ) : (
-                <CheckInButtonWidget
-                    placeLocation={place.location}
-                    placeID={this.props.placeID}
-                    relativeDistance={relativeDistance}
-                />
-            );
-
         const maxHeaderHeight = 200;
 
         const photos =
@@ -355,6 +230,141 @@ export class Place extends React.Component {
 
         const mediaComponent = (
             <PhotoSlider photos={photos} height={maxHeaderHeight} />
+        );
+
+        let addressComponent,
+            phoneNumberComponent,
+            websiteComponent,
+            businessHoursComponent,
+            activeTabComponent,
+            actionButtonComponent;
+
+        if (place) {
+            if (this.state.activeTab === "Info") {
+                addressComponent = place.address ? (
+                    <InfoRow
+                        iconName="location-on"
+                        text={place.address}
+                        handlePress={() =>
+                            this.handleLink(place.location, "location")
+                        }
+                    />
+                ) : null;
+
+                const phoneNumberComponent = place.phoneNumber && (
+                    <InfoRow
+                        iconName="phone"
+                        text={place.phoneNumber}
+                        handlePress={() =>
+                            this.handleLink(place.phoneNumber, "phoneNumber")
+                        }
+                    />
+                );
+
+                const websiteComponent = place.website && (
+                    <InfoRow
+                        iconName="web"
+                        text={place.website}
+                        handlePress={() =>
+                            this.handleLink(place.website, "website")
+                        }
+                    />
+                );
+
+                const businessHoursComponent = place.openingHours && (
+                    <PlaceBusinessHours businessHours={place.openingHours} />
+                );
+
+                activeTabComponent = (
+                    <View>
+                        {addressComponent}
+                        {phoneNumberComponent}
+                        {websiteComponent}
+                        {businessHoursComponent}
+                    </View>
+                );
+
+                actionButtonComponent = (
+                    <CheckInButtonWidget
+                        placeLocation={place.location}
+                        placeID={this.props.placeID}
+                        relativeDistance={relativeDistance}
+                    />
+                );
+            } else if (this.state.activeTab === "Reviews") {
+                const hasUserCheckedIn = this.hasUserCheckedIn();
+
+                const hasUserReviewedPlace =
+                    this.state.activeTab === "Reviews" &&
+                    hasUserCheckedIn &&
+                    utilities.isKeyValuePairPresentInDictionary(
+                        { placeID: this.props.placeID },
+                        this.props.userReviews,
+                    );
+
+                const placeReviews = utilities
+                    .convertDictionaryToArray(place.reviews)
+                    .map((reviewID, index) => {
+                        return {
+                            ...this.props.reviews[reviewID],
+                            id: reviewID,
+                        };
+                    });
+
+                activeTabComponent = place.reviews ? (
+                    <ReviewList
+                        data={placeReviews}
+                        users={this.props.users}
+                        handleProfilePress={uid =>
+                            this.navigate("userProfile", {
+                                uid,
+                            })
+                        }
+                    />
+                ) : (
+                    <PlaceBlankState
+                        text="write a review"
+                        corks={100 /* TODO */}
+                        handleTextPress={() =>
+                            this.navigate("review", {
+                                placeID: this.props.placeID,
+                            })
+                        }
+                        hasUserCheckedIn={hasUserCheckedIn}
+                    />
+                );
+
+                actionButtonComponent = hasUserCheckedIn ? (
+                    <SecondaryButton
+                        text={
+                            hasUserReviewedPlace
+                                ? "EDIT YOUR REVIEW"
+                                : "WRITE A REVIEW"
+                        }
+                        iconName="mode-edit"
+                        handlePress={() =>
+                            this.navigate("review", {
+                                placeID: this.props.placeID,
+                                reviewID: hasUserReviewedPlace,
+                            })
+                        }
+                    />
+                ) : (
+                    <CheckInButtonWidget
+                        placeLocation={place.location}
+                        placeID={this.props.placeID}
+                        relativeDistance={relativeDistance}
+                    />
+                );
+            }
+        }
+
+        const childrenAfterComponent = (
+            <View style={styles.contentWrapper}>
+                <View style={styles.tabContentContainer}>
+                    {activeTabComponent}
+                </View>
+            </View>
         );
 
         return (
@@ -510,6 +520,7 @@ function mapStateToProps(state) {
             state.main.appData.users &&
             state.main.appData.users[state.main.userAuth.uid] &&
             state.main.appData.users[state.main.userAuth.uid].reviews,
+        reviews: state.main.appData.app && state.main.appData.app.reviews,
         uid: state.main.userAuth.uid,
     };
 }

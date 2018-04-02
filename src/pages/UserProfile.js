@@ -12,7 +12,6 @@ import { Page, StarRating } from "react-native-simple-components";
 import ScrollHeader from "../components/ScrollHeader";
 import UserProfilePhoto from "../components/UserProfilePhoto";
 import Label from "../components/Label";
-import CheckInList from "../lists/CheckInList";
 import ReviewList from "../lists/ReviewList";
 import SecondaryButton from "../components/SecondaryButton";
 
@@ -27,10 +26,6 @@ export class UserProfile extends React.Component {
             {
                 title: "Info",
                 iconName: "info",
-            },
-            {
-                title: "Check-ins",
-                iconName: "star",
             },
             {
                 title: "Reviews",
@@ -48,6 +43,7 @@ export class UserProfile extends React.Component {
             userLocation: PropTypes.object,
             users: PropTypes.object,
             places: PropTypes.object,
+            reviews: PropTypes.object,
 
             // Passed props
             placeID: PropTypes.string,
@@ -74,7 +70,6 @@ export class UserProfile extends React.Component {
 
     render() {
         const user = this.props.users && this.props.users[this.props.uid];
-        console.log(user);
 
         const numberOfReviews =
             user &&
@@ -117,60 +112,6 @@ export class UserProfile extends React.Component {
             </View>
         );
 
-        let activeTabComponent;
-
-        if (this.state.activeTab === "Info") {
-            activeTabComponent = (
-                <View style={styles.tabContentContainer}>
-                    <View />
-                </View>
-            );
-        } else if (this.state.activeTab === "Check-ins") {
-            /*
-                {
-                    date: X,
-                    placeID: X,
-                    / uid: X,
-                }
-            */
-
-            const checkIns =
-                user &&
-                user.checkIns &&
-                utilities
-                    .convertDictionaryToArray(user.checkIns, true)
-                    .map((checkIn, index) => {
-                        return {
-                            date: this.props.places[checkIn.placeID].checkIns[
-                                checkIn.id
-                            ].date,
-                            placeID: checkIn.placeID,
-                        };
-                    });
-
-            console.log(checkIns);
-
-            activeTabComponent = (
-                <View style={styles.tabContentContainer}>
-                    <CheckInList
-                        data={null}
-                        users={this.props.users}
-                        handleProfilePress={null /* Already on user's profile*/}
-                    />
-                </View>
-            );
-        } else if (this.state.activeTab === "Reviews") {
-            activeTabComponent = (
-                <View style={styles.tabContentContainer}>
-                    <View />
-                </View>
-            );
-        }
-
-        const childrenAfterComponent = (
-            <View style={styles.contentWrapper}>{activeTabComponent}</View>
-        );
-
         const maxHeaderHeight = 200;
 
         const mediaComponent = (
@@ -182,6 +123,38 @@ export class UserProfile extends React.Component {
                     },
                 ]}>
                 <UserProfilePhoto photoURL={user && user.photoURL} size={120} />
+            </View>
+        );
+
+        let activeTabComponent;
+
+        if (this.state.activeTab === "Info") {
+            activeTabComponent = <View />;
+        } else if (this.state.activeTab === "Reviews") {
+            const userReviews = utilities
+                .convertDictionaryToArray(user.reviews)
+                .map((reviewID, index) => {
+                    return {
+                        ...this.props.reviews[reviewID],
+                        id: reviewID,
+                    };
+                });
+
+            activeTabComponent = (
+                <ReviewList
+                    data={userReviews}
+                    users={this.props.users}
+                    places={this.props.places}
+                    handleProfilePress={null /* Already on user's profile */}
+                />
+            );
+        }
+
+        const childrenAfterComponent = (
+            <View style={styles.contentWrapper}>
+                <View style={styles.tabContentContainer}>
+                    {activeTabComponent}
+                </View>
             </View>
         );
 
@@ -312,8 +285,9 @@ const styles = StyleSheet.create({
 function mapStateToProps(state) {
     return {
         userLocation: state.main.appState.userLocation,
-        places: state.main.appData.app && state.main.appData.app.places,
         users: state.main.appData.users,
+        places: state.main.appData.app && state.main.appData.app.places,
+        reviews: state.main.appData.app && state.main.appData.app.reviews,
     };
 }
 

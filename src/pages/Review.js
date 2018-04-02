@@ -106,29 +106,40 @@ export class Review extends React.Component {
     }
 
     saveReview() {
-        const reviewID = this.props.reviewID // editing a review
-            ? this.props.reviewID
-            : utilities.createUUID();
+        // TODO: reviewerID => uid
+        let reviewID = this.props.reviewID;
 
-        // Save the review to the place
-        this.props.dispatch({
-            type: "updateData",
-            node: `app/places/${this.props.placeID}/reviews/${reviewID}`,
-            data: {
-                reviewerID: this.props.reviewerID,
-                rating: this.state.rating,
-                review: this.state.review && this.state.review.trim(),
-                date: Date.now(),
-            },
-            // Save the review ID to the user
-            nextAction: {
-                type: "updateData",
-                node: `users/${this.props.reviewerID}/reviews/${reviewID}`,
+        if (reviewID) {
+            // Editing a review
+        } else {
+            // New review
+            reviewID = utilities.createUUID();
+
+            // Save the review to the place
+            this.props.dispatch({
+                type: "setData",
+                node: `app/reviews/${reviewID}`,
                 data: {
+                    uid: this.props.reviewerID,
+                    rating: this.state.rating,
+                    review: this.state.review && this.state.review.trim(),
                     placeID: this.props.placeID,
+                    date: Date.now(),
                 },
-            },
-        });
+                // Save the reviewID to the place
+                nextAction: {
+                    type: "pushData",
+                    node: `app/places/${this.props.placeID}/reviews`,
+                    data: reviewID,
+                    // Save the reviewID to the user
+                    nextAction: {
+                        type: "pushData",
+                        node: `users/${this.props.reviewerID}/reviews`,
+                        data: reviewID,
+                    },
+                },
+            });
+        }
     }
 
     navigate(page, props, goBack) {

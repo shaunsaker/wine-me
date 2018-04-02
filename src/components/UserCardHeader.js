@@ -2,6 +2,7 @@ import React from "react";
 import { View, Image, Text, StyleSheet } from "react-native";
 import PropTypes from "prop-types";
 
+import utilities from "../utilities";
 import styleConstants from "../assets/styleConstants";
 
 import { Touchable } from "react-native-simple-components";
@@ -16,17 +17,37 @@ export default function UserCardHeader(props) {
         };
     }
 */
-    const nameText = props.user.name ? props.user.name : "Anonymous";
+    const nameText = props.user.name ? props.user.name : "Anonymous"; // TODO
 
-    const statusText = props.user.status ? props.user.status : "Newbie";
+    const statusText = props.user.status ? props.user.status : "Newbie"; // TODO
 
-    const reviewCountText = props.user.reviewCount
-        ? props.user.reviewCount
-        : 0 + " reviews";
+    const numberOfReviews =
+        props.user.checkIns &&
+        utilities.convertDictionaryToArray(props.user.reviews).length;
 
-    const photoCountText = props.user.photoCount
-        ? props.user.photoCount
-        : 0 + " photos";
+    const reviewsComponent = numberOfReviews && (
+        <View style={styles.labelContainer}>
+            <Text style={styles.labelText}>
+                {numberOfReviews +
+                    " review" +
+                    (numberOfReviews > 1 ? "'s" : "")}
+            </Text>
+        </View>
+    );
+
+    const numberOfCheckIns =
+        props.user.checkIns &&
+        utilities.convertDictionaryToArray(props.user.checkIns).length;
+
+    const checkInsComponent = numberOfCheckIns && (
+        <View style={styles.labelContainer}>
+            <Text style={styles.labelText}>
+                {numberOfCheckIns +
+                    " check-in" +
+                    (numberOfCheckIns > 1 ? "'s" : "")}
+            </Text>
+        </View>
+    );
 
     return (
         <Touchable onPress={props.handlePress} style={styles.container}>
@@ -43,12 +64,8 @@ export default function UserCardHeader(props) {
                             {statusText}
                         </Text>
                     </View>
-                    <View style={styles.labelContainer}>
-                        <Text style={styles.labelText}>{reviewCountText}</Text>
-                    </View>
-                    <View style={styles.labelContainer}>
-                        <Text style={styles.labelText}>{photoCountText}</Text>
-                    </View>
+                    {reviewsComponent}
+                    {checkInsComponent}
                 </View>
             </View>
         </Touchable>

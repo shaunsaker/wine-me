@@ -17,6 +17,7 @@ export default class ReviewList extends React.Component {
         return {
             data: PropTypes.array,
             users: PropTypes.object,
+            places: PropTypes.object,
             handleProfilePress: PropTypes.func,
         };
     }
@@ -26,9 +27,11 @@ export default class ReviewList extends React.Component {
             <View style={styles.itemContainer}>
                 <ReviewCard
                     review={item}
-                    reviewer={this.props.users[item.reviewerID]}
+                    reviewer={this.props.users[item.uid]}
+                    place={this.props.places && this.props.places[item.placeID]}
                     handleProfilePress={() =>
-                        this.props.handleProfilePress(item.reviewerID)
+                        this.props.handleProfilePress &&
+                        this.props.handleProfilePress(item.uid)
                     }
                 />
             </View>
