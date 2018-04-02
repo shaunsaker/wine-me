@@ -25,6 +25,7 @@ export class Place extends React.Component {
         super(props);
 
         this.setTab = this.setTab.bind(this);
+        this.hasUserCheckedIn = this.hasUserCheckedIn.bind(this);
         this.handleLink = this.handleLink.bind(this);
         this.prepareLink = this.prepareLink.bind(this);
         this.setError = this.setError.bind(this);
@@ -52,6 +53,7 @@ export class Place extends React.Component {
             users: PropTypes.object,
             places: PropTypes.object,
             userCheckIns: PropTypes.object,
+            checkIns: PropTypes.object,
             userReviews: PropTypes.object,
 
             // Passed props
@@ -74,6 +76,24 @@ export class Place extends React.Component {
         this.setState({
             activeTab: tab,
         });
+    }
+
+    hasUserCheckedIn() {
+        // TODO: this is fired far too many times (try state or placeID as store prop)
+        let hasUserCheckedIn;
+        const userCheckIns = utilities.convertDictionaryToArray(
+            this.props.userCheckIns,
+        );
+
+        for (let i = 0; i < userCheckIns.length; i++) {
+            const checkInID = userCheckIns[i];
+            if (this.props.checkIns[checkInID].placeID === this.props.placeID) {
+                hasUserCheckedIn = true;
+                break;
+            }
+        }
+
+        return hasUserCheckedIn;
     }
 
     handleLink(link, linkType) {
@@ -236,10 +256,7 @@ export class Place extends React.Component {
                 <PlaceBusinessHours businessHours={place.openingHours} />
             );
 
-        const hasUserCheckedIn = utilities.isKeyValuePairPresentInDictionary(
-            { placeID: this.props.placeID },
-            this.props.userCheckIns,
-        );
+        const hasUserCheckedIn = this.hasUserCheckedIn();
 
         const activeTabComponent =
             this.state.activeTab === "Info" ? (
@@ -488,6 +505,7 @@ function mapStateToProps(state) {
             state.main.appData.users &&
             state.main.appData.users[state.main.userAuth.uid] &&
             state.main.appData.users[state.main.userAuth.uid].checkIns,
+        checkIns: state.main.appData.app && state.main.appData.app.checkIns,
         userReviews:
             state.main.appData.users &&
             state.main.appData.users[state.main.userAuth.uid] &&
