@@ -6,7 +6,7 @@ import styleConstants from "../assets/styleConstants";
 
 import ReviewCard from "../components/ReviewCard";
 
-export default class ReviewsList extends React.Component {
+export default class ReviewList extends React.Component {
     constructor(props) {
         super(props);
 
@@ -27,7 +27,9 @@ export default class ReviewsList extends React.Component {
                 <ReviewCard
                     review={item}
                     reviewer={this.props.users[item.reviewerID]}
-                    handleHeaderPress={this.props.handleProfilePress}
+                    handleProfilePress={() =>
+                        this.props.handleProfilePress(item.reviewerID)
+                    }
                 />
             </View>
         );

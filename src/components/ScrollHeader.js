@@ -33,6 +33,7 @@ export default class ScrollHeader extends React.Component {
         return {
             showShadows: PropTypes.bool, // will apply shadows to header and tabBar (if not supplying tabBarWrapperComponent - otherwise just apply shadow there) appropriately
             headerTranslucent: PropTypes.bool, // will add a translucent background to the header until scrolled
+            disableOpacityAnimation: PropTypes.bool, // useful if you only want a solid background color
 
             maxHeaderHeight: PropTypes.number.isRequired, // header and image only
             minHeaderHeight: PropTypes.number.isRequired, // as above
@@ -187,20 +188,22 @@ export default class ScrollHeader extends React.Component {
             extrapolate: "clamp",
         });
 
-        const backgroundColor = this.state.scrollY.interpolate({
-            inputRange: [0, headerScrollDistance],
-            outputRange: [
-                `rgba(${this.state.finalHeaderBackgroundColor.r}, ${
-                    this.state.finalHeaderBackgroundColor.g
-                }, ${this.state.finalHeaderBackgroundColor.b}, 0)`,
-                `rgba(${this.state.finalHeaderBackgroundColor.r}, ${
-                    this.state.finalHeaderBackgroundColor.g
-                }, ${
-                    this.state.finalHeaderBackgroundColor.b
-                }, ${(headerScrollDistance / 2, headerScrollDistance)})`,
-            ],
-            extrapolate: "clamp",
-        });
+        const backgroundColor = !this.props.disableOpacityAnimation
+            ? this.state.scrollY.interpolate({
+                  inputRange: [0, headerScrollDistance],
+                  outputRange: [
+                      `rgba(${this.state.finalHeaderBackgroundColor.r}, ${
+                          this.state.finalHeaderBackgroundColor.g
+                      }, ${this.state.finalHeaderBackgroundColor.b}, 0)`,
+                      `rgba(${this.state.finalHeaderBackgroundColor.r}, ${
+                          this.state.finalHeaderBackgroundColor.g
+                      }, ${
+                          this.state.finalHeaderBackgroundColor.b
+                      }, ${(headerScrollDistance / 2, headerScrollDistance)})`,
+                  ],
+                  extrapolate: "clamp",
+              })
+            : this.props.finalHeaderBackgroundColor;
 
         const headerBackgroundColor = this.state.scrollY.interpolate({
             inputRange: [0, headerScrollDistance],

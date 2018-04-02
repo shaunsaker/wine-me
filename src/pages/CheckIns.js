@@ -67,7 +67,11 @@ export class CheckIns extends React.Component {
                     <CheckInList
                         data={placeCheckIns}
                         users={this.props.users}
-                        handleProfilePress={null} // TODO: Link user to profile
+                        handleProfilePress={uid =>
+                            this.navigate("userProfile", {
+                                uid,
+                            })
+                        }
                     />
                 </View>
             </Page>

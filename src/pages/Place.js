@@ -16,7 +16,7 @@ import Label from "../components/Label";
 import InfoRow from "../components/InfoRow";
 import PlaceBusinessHours from "../components/PlaceBusinessHours";
 import CheckInButtonWidget from "../widgets/CheckInButtonWidget";
-import ReviewsList from "../lists/ReviewsList";
+import ReviewList from "../lists/ReviewList";
 import PlaceBlankState from "../components/PlaceBlankState";
 import SecondaryButton from "../components/SecondaryButton";
 
@@ -135,32 +135,40 @@ export class Place extends React.Component {
                 />
             );
 
-        const reviewsComponent = place &&
+        const numberOfReviews =
+            place &&
             place.reviews &&
-            place.reviews.length && (
-                <Label text={place.reviews.length + " reviews"} />
-            );
+            utilities.convertDictionaryToArray(place.reviews).length;
+
+        const reviewsComponent = numberOfReviews && (
+            <Label
+                text={
+                    numberOfReviews +
+                    " review" +
+                    (numberOfReviews > 1 ? "'s" : "")
+                }
+            />
+        );
 
         const numberOfCheckIns =
             place &&
             place.checkIns &&
             utilities.convertDictionaryToArray(place.checkIns).length;
 
-        const checkInsComponent = place &&
-            place.checkIns && (
-                <Label
-                    text={
-                        numberOfCheckIns +
-                        " check-in" +
-                        (numberOfCheckIns > 1 ? "'s" : "")
-                    }
-                    handlePress={() =>
-                        this.navigate("checkIns", {
-                            placeID: this.props.placeID,
-                        })
-                    }
-                />
-            );
+        const checkInsComponent = numberOfCheckIns && (
+            <Label
+                text={
+                    numberOfCheckIns +
+                    " check-in" +
+                    (numberOfCheckIns > 1 ? "'s" : "")
+                }
+                handlePress={() =>
+                    this.navigate("checkIns", {
+                        placeID: this.props.placeID,
+                    })
+                }
+            />
+        );
 
         const relativeDistance =
             place &&
@@ -246,7 +254,7 @@ export class Place extends React.Component {
             ) : this.state.activeTab === "Reviews" ? (
                 place && place.reviews ? (
                     <View style={styles.tabContentContainer}>
-                        <ReviewsList
+                        <ReviewList
                             data={
                                 place &&
                                 utilities.convertDictionaryToArray(
@@ -255,8 +263,10 @@ export class Place extends React.Component {
                                 )
                             }
                             users={this.props.users}
-                            handleProfilePress={
-                                null /* TODO: Go to person's profile */
+                            handleProfilePress={uid =>
+                                this.navigate("userProfile", {
+                                    uid,
+                                })
                             }
                         />
                     </View>

@@ -5,6 +5,7 @@ import PropTypes from "prop-types";
 import styleConstants from "../assets/styleConstants";
 
 import { Touchable } from "react-native-simple-components";
+import UserProfilePhoto from "./UserProfilePhoto";
 
 export default function UserCardHeader(props) {
     /*
@@ -27,14 +28,10 @@ export default function UserCardHeader(props) {
         ? props.user.photoCount
         : 0 + " photos";
 
-    const photoURL = props.user.photoURL
-        ? { url: props.user.photoURL }
-        : require("../assets/images/128.jpg"); // TODO: Placeholder image
-
     return (
-        <Touchable onPress={null} style={styles.container}>
+        <Touchable onPress={props.handlePress} style={styles.container}>
             <View style={styles.photoContainer}>
-                <Image source={photoURL} style={styles.photo} />
+                <UserProfilePhoto photoURL={props.user.photoURL} size={40} />
             </View>
             <View style={styles.textContainer}>
                 <View style={styles.nameTextContainer}>
@@ -67,12 +64,7 @@ const styles = StyleSheet.create({
     photoContainer: {
         marginRight: 16,
     },
-    photo: {
-        width: 40,
-        height: 40,
-        borderRadius: 20,
-        overflow: "hidden", // ios
-    },
+
     textContainer: {
         flex: 1,
     },

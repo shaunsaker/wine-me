@@ -1,17 +1,17 @@
 BUGS
     Close To Me sorting is not working
     Image sometimes displays loading spinner even though its already loaded
+    FauxTabBar is pressable in place page
 
 TODOS
-    Place
-        PhotoViewer
     Profile
         Basic
         Level up guide
         Level up checklist
         My Places/Wine Farms
             Latest to oldest
-        Corks for first one to write a review
+        Link to Edit Profile
+    Edit Profile
     GameWrapper component   
         Responsible for point allocation, levelling etc. based on events that it listens to
     Review
@@ -36,6 +36,5 @@ TODOS
         Placeholder image
     Place
         Login to review
-    Edit Profile
 
 ENHANCEMENTS

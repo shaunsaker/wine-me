@@ -5,6 +5,7 @@ import PropTypes from "prop-types";
 import styleConstants from "../assets/styleConstants";
 
 import { Touchable } from "react-native-simple-components";
+import CarouselControls from "./CarouselControls";
 
 export default class PhotoSlider extends React.Component {
     constructor(props) {
@@ -64,21 +65,11 @@ export default class PhotoSlider extends React.Component {
                         );
                     })}
                 </ScrollView>
-                <View style={styles.controlsContainer}>
-                    {this.props.photos.map((photoURL, index) => {
-                        const activeStyles =
-                            this.state.activePhotoIndex === index &&
-                            styles.activeControl;
-
-                        return (
-                            <Touchable
-                                key={`control${photoURL}`}
-                                onPress={() => this.setActivePhotoIndex(index)}
-                                style={[styles.control, activeStyles]}
-                            />
-                        );
-                    })}
-                </View>
+                <CarouselControls
+                    photos={this.props.photos}
+                    activePhotoIndex={this.state.activePhotoIndex}
+                    handleSetActivePhotoIndex={this.setActivePhotoIndex}
+                />
             </View>
         );
     }
@@ -91,25 +82,5 @@ const styles = StyleSheet.create({
     container: {},
     image: {
         width: styleConstants.windowWidth,
-    },
-    controlsContainer: {
-        position: "absolute",
-        bottom: 16,
-        left: 0,
-        right: 0,
-        flexDirection: "row",
-        justifyContent: "center",
-        width: styleConstants.windowWidth,
-    },
-    control: {
-        width: 16,
-        height: 16,
-        borderRadius: 8,
-        borderWidth: 2,
-        borderColor: styleConstants.transWhite,
-        marginHorizontal: 4,
-    },
-    activeControl: {
-        backgroundColor: styleConstants.white,
     },
 });

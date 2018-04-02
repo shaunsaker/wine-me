@@ -9,6 +9,7 @@ import About from "./pages/About";
 import Place from "./pages/Place";
 import Review from "./pages/Review";
 import CheckIns from "./pages/CheckIns";
+import UserProfile from "./pages/UserProfile";
 import ForceUpdate from "./pages/ForceUpdate";
 
 const Scenes = Actions.create(
@@ -25,6 +26,7 @@ const Scenes = Actions.create(
         <Scene key="place" component={Place} initial={false} />
         <Scene key="review" component={Review} initial={false} />
         <Scene key="checkIns" component={CheckIns} initial={false} />
+        <Scene key="userProfile" component={UserProfile} initial={true} />
         <Scene
             key="forceUpdate"
             component={ForceUpdate}

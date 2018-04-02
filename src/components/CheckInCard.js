@@ -13,6 +13,7 @@ export default function CheckInCard(props) {
         return {
             checkIn: PropTypes.object,
             user: PropTypes.object,
+            handleProfilePress: PropTypes.func,
         };
     }
 */
@@ -23,7 +24,10 @@ export default function CheckInCard(props) {
 
     return (
         <View style={styles.container}>
-            <UserCardHeader user={props.user} handlePress={null} />
+            <UserCardHeader
+                user={props.user}
+                handlePress={props.handleProfilePress}
+            />
             <View style={styles.row}>
                 <View style={styles.spacer} />
                 <View

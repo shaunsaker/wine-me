@@ -24,7 +24,7 @@ export default class ReviewCard extends React.Component {
         return {
             review: PropTypes.object,
             user: PropTypes.object,
-            handleHeaderPress: PropTypes.func,
+            handleProfilePress: PropTypes.func,
         };
     }
 
@@ -52,7 +52,10 @@ export default class ReviewCard extends React.Component {
 
         return (
             <View style={styles.container}>
-                <UserCardHeader user={this.props.reviewer} handlePress={null} />
+                <UserCardHeader
+                    user={this.props.reviewer}
+                    handlePress={this.props.handleProfilePress}
+                />
                 <View style={styles.row}>
                     <View style={styles.spacer} />
                     <View
