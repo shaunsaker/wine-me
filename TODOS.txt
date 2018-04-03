@@ -5,7 +5,7 @@ BUGS
 
 TODOS
     Profile
-        Basic
+        Info
         Level up guide
         Level up checklist
         My Places/Wine Farms

@@ -17,7 +17,7 @@ export default class ReviewList extends React.Component {
         return {
             data: PropTypes.array,
             users: PropTypes.object,
-            places: PropTypes.object,
+            places: PropTypes.object, // if supplied, will render place names
             handleProfilePress: PropTypes.func,
         };
     }

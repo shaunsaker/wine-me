@@ -23,17 +23,14 @@ export class CheckIns extends React.Component {
     static get propTypes() {
         return {
             places: PropTypes.object,
-            checkIns: PropTypes.object,
             users: PropTypes.object,
+            checkIns: PropTypes.object,
 
             // Passed props
-            placeID: PropTypes.string,
+            placeID: PropTypes.string, // if supplied, show item's checkIns
+            uid: PropTypes.string, // if supplied, show user's checkIns
         };
     }
-
-    static defaultProps = {
-        placeID: "ChIJzxOZlRfKzR0RLPvYwtEU8w4",
-    };
 
     navigate(page, props, goBack) {
         if (goBack) {
@@ -44,16 +41,26 @@ export class CheckIns extends React.Component {
     }
 
     render() {
-        const place =
-            this.props.places && this.props.places[this.props.placeID];
+        // Can be a place or user
+        const item = this.props.placeID
+            ? this.props.places && this.props.places[this.props.placeID]
+            : this.props.uid
+                ? this.props.users && this.props.users[this.props.uid]
+                : null;
 
-        const placeCheckIns =
-            place &&
+        const itemCheckIns =
+            item &&
             utilities
-                .convertDictionaryToArray(place.checkIns)
+                .convertDictionaryToArray(item.checkIns)
                 .map((checkInID, index) => {
                     return { ...this.props.checkIns[checkInID], id: checkInID };
                 });
+
+        const titleText = this.props.placeID
+            ? `Check-in's at ${item && item.name}`
+            : this.props.uid
+                ? `Places ${item.name && item.name.split(" ")[0]}'s been to`
+                : null;
 
         return (
             <Page style={styles.container}>
@@ -66,14 +73,14 @@ export class CheckIns extends React.Component {
                 />
                 <View style={styles.bodyContainer}>
                     <View style={styles.titleTextContainer}>
-                        <Text
-                            style={styles.titleText}>{`Check-in's at ${place &&
-                            place.name}`}</Text>
+                        <Text style={styles.titleText}>{titleText}</Text>
                     </View>
                     <CheckInList
-                        data={placeCheckIns}
+                        data={itemCheckIns}
                         users={this.props.users}
+                        places={this.props.uid && this.props.places}
                         handleProfilePress={uid =>
+                            !this.props.uid && // Not if on user profile's check-ins
                             this.navigate("userProfile", {
                                 uid,
                             })
@@ -83,14 +90,6 @@ export class CheckIns extends React.Component {
             </Page>
         );
     }
-}
-
-function mapStateToProps(state) {
-    return {
-        places: state.main.appData.app && state.main.appData.app.places,
-        checkIns: state.main.appData.app && state.main.appData.app.checkIns,
-        users: state.main.appData.users,
-    };
 }
 
 const styles = StyleSheet.create({
@@ -118,5 +117,13 @@ const styles = StyleSheet.create({
         lineHeight: styleConstants.largeFont * 1.5,
     },
 });
+
+function mapStateToProps(state) {
+    return {
+        places: state.main.appData.app && state.main.appData.app.places,
+        users: state.main.appData.users,
+        checkIns: state.main.appData.app && state.main.appData.app.checkIns,
+    };
+}
 
 export default connect(mapStateToProps)(CheckIns);

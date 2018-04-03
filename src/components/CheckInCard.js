@@ -13,10 +13,15 @@ export default function CheckInCard(props) {
         return {
             checkIn: PropTypes.object,
             user: PropTypes.object,
+            place: PropTypes.object, // if supplied, will render a place name
             handleProfilePress: PropTypes.func,
         };
     }
 */
+
+    const placeComponent = props.place && (
+        <Text style={styles.placeText}>{props.place.name}</Text>
+    );
 
     const dateText = utilities.firstCharToUppercase(
         utilities.getRelativePastDate(props.checkIn.date),
@@ -34,8 +39,15 @@ export default function CheckInCard(props) {
                     style={{
                         flex: 1,
                     }}>
+                    {placeComponent}
                     <View style={styles.dateTextContainer}>
-                        <Text style={styles.dateText}>{dateText}</Text>
+                        <Text
+                            style={[
+                                styles.dateText,
+                                placeComponent && styles.alternateDateText,
+                            ]}>
+                            {dateText}
+                        </Text>
                     </View>
                 </View>
             </View>
@@ -53,10 +65,18 @@ const styles = StyleSheet.create({
     row: {
         flexDirection: "row",
         alignItems: "center",
+        flexWrap: "wrap",
     },
     spacer: {
         width: 56,
         alignSelf: "stretch",
+    },
+    placeText: {
+        fontSize: styleConstants.regularFont,
+        color: styleConstants.primaryText,
+        ...styleConstants.primaryFont,
+        marginTop: 8,
+        marginRight: 8,
     },
     dateTextContainer: {
         marginTop: 8,
@@ -65,5 +85,8 @@ const styles = StyleSheet.create({
         fontSize: styleConstants.smallFont,
         color: styleConstants.primaryText,
         ...styleConstants.primaryFont,
+    },
+    alternateDateText: {
+        color: styleConstants.secondaryText,
     },
 });

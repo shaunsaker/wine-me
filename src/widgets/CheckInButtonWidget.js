@@ -119,7 +119,7 @@ export class CheckInButtonWidget extends React.Component {
 
             setTimeout(() => {
                 // If the user is 1km within the place's radius
-                if (this.props.relativeDistance <= 1) {
+                if (this.props.relativeDistance <= 1 || __DEV__) {
                     // Add it to check ins and dispatch success action
                     this.setState({
                         hasFetchedUserLocation: false, // RESET

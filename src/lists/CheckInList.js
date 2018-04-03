@@ -17,6 +17,7 @@ export default class CheckInList extends React.Component {
         return {
             data: PropTypes.array,
             users: PropTypes.object,
+            places: PropTypes.object, // If supplied, will render place names
             handleProfilePress: PropTypes.func,
         };
     }
@@ -27,6 +28,7 @@ export default class CheckInList extends React.Component {
                 <CheckInCard
                     checkIn={item}
                     user={this.props.users && this.props.users[item.uid]}
+                    place={this.props.places && this.props.places[item.placeID]}
                     handleProfilePress={() =>
                         this.props.handleProfilePress(item.uid)
                     }

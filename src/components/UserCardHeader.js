@@ -22,7 +22,7 @@ export default function UserCardHeader(props) {
     const statusText = props.user.status ? props.user.status : "Newbie"; // TODO
 
     const numberOfReviews =
-        props.user.checkIns &&
+        props.user.reviews &&
         utilities.convertDictionaryToArray(props.user.reviews).length;
 
     const reviewsComponent = numberOfReviews && (

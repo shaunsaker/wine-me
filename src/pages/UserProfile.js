@@ -98,6 +98,11 @@ export class UserProfile extends React.Component {
                     " check-in" +
                     (numberOfCheckIns > 1 ? "'s" : "")
                 }
+                handlePress={() =>
+                    this.navigate("checkIns", {
+                        uid: this.props.uid,
+                    })
+                }
             />
         );
 
