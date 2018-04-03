@@ -33,7 +33,7 @@ export default class ReadMoreText extends React.Component {
         return (
             <Touchable onPress={this.toggleShowMore} disableFeedback>
                 <Text
-                    numberOfLines={this.state.showMore ? null : 4}
+                    numberOfLines={this.state.showMore ? null : 2}
                     style={styles.text}>
                     {this.props.text}
                 </Text>

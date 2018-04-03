@@ -134,7 +134,14 @@ export class UserProfile extends React.Component {
         let activeTabComponent;
 
         if (this.state.activeTab === "Info") {
-            activeTabComponent = <View />;
+            activeTabComponent = (
+                <View>
+                    <Text>Date joined?</Text>
+                    <Text>Corks earned</Text>
+                    <Text>Level status</Text>
+                    <Text>Special abilities</Text>
+                </View>
+            );
         } else if (this.state.activeTab === "Reviews") {
             const userReviews = utilities
                 .convertDictionaryToArray(user.reviews)

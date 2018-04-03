@@ -38,6 +38,12 @@ export default function SideMenuComponent(props) {
                 handlePress={props.handlePress}
             />
             <SideMenuItem
+                text="Profile"
+                page="userProfile"
+                iconName="person"
+                handlePress={props.handlePress}
+            />
+            <SideMenuItem
                 text="Search"
                 page="search"
                 iconName="search"

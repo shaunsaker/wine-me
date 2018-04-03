@@ -122,7 +122,15 @@ export class Home extends React.Component {
         if (page !== "home") {
             Analytics.logEvent("view_" + page + "_page");
 
-            Actions[page]();
+            let props;
+            if (page === "userProfile") {
+                // If we're going to the user's profile, attach the uid
+                props = {
+                    uid: this.props.uid,
+                };
+            }
+
+            this.navigate(page, props);
         }
     }
 

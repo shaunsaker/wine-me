@@ -4,36 +4,31 @@ BUGS
     FauxTabBar is pressable in place page
 
 TODOS
-    Profile
-        Info
-        Level up guide
-        Level up checklist
-        My Places/Wine Farms
-            Latest to oldest
-        Link to Edit Profile
     Edit Profile
-    GameWrapper component   
-        Responsible for point allocation, levelling etc. based on events that it listens to
-    Review
-        Link to user profile
-    CheckIns
-        Link to user profile
-    Place
-        PlaceBlankState
-            Define cork amount
-    Search    
-        Collection progress
     Home
         Rehash it, try AirBNB style explore (no tabs => sections)
-        Get rid of gradient
-    Check in tutorial
+        Get rid of gradient    
+
+    GAMIFICATION
+        Profile
+            Info
+            Level up guide
+            Level up checklist
+            Link to Edit Profile
+        GameWrapper component   
+            Responsible for point allocation, levelling etc. based on events that it listens to
+        Place
+            PlaceBlankState
+                Define cork amount
+            Check in tutorial
+        Search    
+            Collection progress
+
     Disable tablets
     Find place modal styles
-    Handle modals as wrappers
     Remove duplicate places
     Fix naming of places
-    ReviewWidget
-        Placeholder image
+    ProfilePhoto placeholder image
     Place
         Login to review
 
