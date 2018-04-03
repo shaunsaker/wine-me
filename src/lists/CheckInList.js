@@ -19,6 +19,7 @@ export default class CheckInList extends React.Component {
             users: PropTypes.object,
             places: PropTypes.object, // If supplied, will render place names
             handleProfilePress: PropTypes.func,
+            handlePlacePress: PropTypes.func,
         };
     }
 
@@ -31,6 +32,10 @@ export default class CheckInList extends React.Component {
                     place={this.props.places && this.props.places[item.placeID]}
                     handleProfilePress={() =>
                         this.props.handleProfilePress(item.uid)
+                    }
+                    handlePlacePress={() =>
+                        this.props.handlePlacePress &&
+                        this.props.handlePlacePress(item.placeID)
                     }
                 />
             </View>

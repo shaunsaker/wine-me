@@ -6,6 +6,7 @@ import utilities from "../utilities";
 import styleConstants from "../assets/styleConstants";
 
 import UserCardHeader from "./UserCardHeader";
+import { Touchable } from "react-native-simple-components";
 
 export default function CheckInCard(props) {
     /*
@@ -15,12 +16,15 @@ export default function CheckInCard(props) {
             user: PropTypes.object,
             place: PropTypes.object, // if supplied, will render a place name
             handleProfilePress: PropTypes.func,
+            handlePlacePress: PropTypes.func,
         };
     }
 */
 
     const placeComponent = props.place && (
-        <Text style={styles.placeText}>{props.place.name}</Text>
+        <Touchable onPress={props.handlePlacePress}>
+            <Text style={styles.placeText}>{props.place.name}</Text>
+        </Touchable>
     );
 
     const dateText = utilities.firstCharToUppercase(
@@ -41,13 +45,7 @@ export default function CheckInCard(props) {
                     }}>
                     {placeComponent}
                     <View style={styles.dateTextContainer}>
-                        <Text
-                            style={[
-                                styles.dateText,
-                                placeComponent && styles.alternateDateText,
-                            ]}>
-                            {dateText}
-                        </Text>
+                        <Text style={styles.dateText}>{dateText}</Text>
                     </View>
                 </View>
             </View>
@@ -73,8 +71,9 @@ const styles = StyleSheet.create({
     },
     placeText: {
         fontSize: styleConstants.regularFont,
-        color: styleConstants.primaryText,
+        color: styleConstants.darkPrimary,
         ...styleConstants.primaryFont,
+        textDecorationLine: "underline",
         marginTop: 8,
         marginRight: 8,
     },
@@ -85,8 +84,5 @@ const styles = StyleSheet.create({
         fontSize: styleConstants.smallFont,
         color: styleConstants.primaryText,
         ...styleConstants.primaryFont,
-    },
-    alternateDateText: {
-        color: styleConstants.secondaryText,
     },
 });

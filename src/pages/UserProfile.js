@@ -151,6 +151,9 @@ export class UserProfile extends React.Component {
                     users={this.props.users}
                     places={this.props.places}
                     handleProfilePress={null /* Already on user's profile */}
+                    handlePlacePress={placeID =>
+                        this.navigate("place", { placeID })
+                    }
                 />
             );
         }

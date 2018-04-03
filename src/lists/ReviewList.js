@@ -19,6 +19,7 @@ export default class ReviewList extends React.Component {
             users: PropTypes.object,
             places: PropTypes.object, // if supplied, will render place names
             handleProfilePress: PropTypes.func,
+            handlePlacePress: PropTypes.func,
         };
     }
 
@@ -32,6 +33,10 @@ export default class ReviewList extends React.Component {
                     handleProfilePress={() =>
                         this.props.handleProfilePress &&
                         this.props.handleProfilePress(item.uid)
+                    }
+                    handlePlacePress={() =>
+                        this.props.handlePlacePress &&
+                        this.props.handlePlacePress(item.placeID)
                     }
                 />
             </View>

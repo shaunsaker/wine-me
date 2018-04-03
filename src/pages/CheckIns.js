@@ -85,6 +85,12 @@ export class CheckIns extends React.Component {
                                 uid,
                             })
                         }
+                        handlePlacePress={placeID =>
+                            this.props.uid &&
+                            this.navigate("place", {
+                                placeID,
+                            })
+                        }
                     />
                 </View>
             </Page>

@@ -6,8 +6,8 @@ import { connect } from "react-redux";
 import utilities from "../utilities";
 import styleConstants from "../assets/styleConstants";
 
-import { StarRating, Touchable } from "react-native-simple-components";
 import UserCardHeader from "./UserCardHeader";
+import { StarRating, Touchable } from "react-native-simple-components";
 
 export default class ReviewCard extends React.Component {
     constructor(props) {
@@ -26,6 +26,7 @@ export default class ReviewCard extends React.Component {
             user: PropTypes.object,
             place: PropTypes.object, // will be supplied if from UserProfile page
             handleProfilePress: PropTypes.func,
+            handlePlacePress: PropTypes.func,
         };
     }
 
@@ -37,7 +38,9 @@ export default class ReviewCard extends React.Component {
 
     render() {
         const placeComponent = this.props.place && (
-            <Text style={styles.placeText}>{this.props.place.name}</Text>
+            <Touchable onPress={this.props.handlePlacePress}>
+                <Text style={styles.placeText}>{this.props.place.name}</Text>
+            </Touchable>
         );
 
         const dateText = utilities.getRelativePastDate(this.props.review.date);
@@ -112,8 +115,9 @@ const styles = StyleSheet.create({
     },
     placeText: {
         fontSize: styleConstants.regularFont,
-        color: styleConstants.primaryText,
+        color: styleConstants.darkPrimary,
         ...styleConstants.primaryFont,
+        textDecorationLine: "underline",
         marginTop: 8,
     },
     dateText: {
