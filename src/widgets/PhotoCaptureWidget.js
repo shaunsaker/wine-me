@@ -10,8 +10,7 @@ import styleConstants from "../assets/styleConstants";
 import ImagePicker from "react-native-image-picker";
 import ImageResizer from "react-native-image-resizer";
 
-import { Touchable } from "react-native-simple-components";
-import Icon from "react-native-vector-icons/MaterialIcons";
+import IconButton from "../components/IconButton";
 
 // Captures, resizes, uploads an image to storage and saves the URL to the DB at specified node
 export class PhotoCaptureWidget extends React.Component {
@@ -123,16 +122,20 @@ export class PhotoCaptureWidget extends React.Component {
     }
 
     render() {
-        const iconComponent = !this.state.loading ? (
-            <Icon name="add-a-photo" style={styles.icon} />
-        ) : (
-            <ActivityIndicator size="small" color={styleConstants.white} />
-        );
-
         return (
-            <Touchable onPress={this.openImagePicker} style={this.props.style}>
-                <View style={styles.iconContainer}>{iconComponent}</View>
-            </Touchable>
+            <IconButton
+                handlePress={!this.state.loading ? this.openImagePicker : null}
+                iconName={!this.state.loading && "add-a-photo"}
+                iconComponent={
+                    this.state.loading && (
+                        <ActivityIndicator
+                            size="small"
+                            color={styleConstants.white}
+                        />
+                    )
+                }
+                style={this.props.style}
+            />
         );
     }
 }
@@ -143,18 +146,4 @@ function mapStateToProps(state) {
 
 export default connect(mapStateToProps)(PhotoCaptureWidget);
 
-const styles = StyleSheet.create({
-    iconContainer: {
-        backgroundColor: styleConstants.secondary,
-        width: 32,
-        height: 32,
-        borderRadius: 16,
-        justifyContent: "center",
-        alignItems: "center",
-        ...styleConstants.regularShadow,
-    },
-    icon: {
-        fontSize: 20,
-        color: styleConstants.white,
-    },
-});
+const styles = StyleSheet.create({});

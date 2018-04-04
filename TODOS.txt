@@ -5,7 +5,7 @@ BUGS
 
 TODOS
     User Profile
-        Edit name
+        Edit name success action
     Revert to page-based components with page name as prefix to component name
     Home
         Rehash it, try AirBNB style explore (no tabs => sections)

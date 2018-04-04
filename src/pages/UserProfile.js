@@ -15,6 +15,7 @@ import Label from "../components/Label";
 import ReviewList from "../lists/ReviewList";
 import SecondaryButton from "../components/SecondaryButton";
 import PhotoCaptureWidget from "../widgets/PhotoCaptureWidget";
+import EditFieldWidget from "../widgets/EditFieldWidget";
 
 export class UserProfile extends React.Component {
     constructor(props) {
@@ -108,9 +109,22 @@ export class UserProfile extends React.Component {
             />
         );
 
+        const isUsersProfile = this.props.uid === this.props.userUID;
+
+        const nameTextComponent = isUsersProfile ? (
+            <EditFieldWidget
+                value={user && user.name}
+                fieldNode={`users/${this.props.uid}/name`}
+                textStyle={styles.nameText}
+                style={styles.nameTextContainer}
+            />
+        ) : (
+            <Text style={styles.nameText}>{user && user.name}</Text>
+        );
+
         const childrenBeforeComponent = (
             <View style={styles.headerContainer}>
-                <Text style={styles.nameText}>{user && user.name}</Text>
+                {nameTextComponent}
                 <View style={styles.labelsContainer}>
                     <Label text={user && user.status} highlight />
                     {reviewsComponent}
@@ -120,8 +134,6 @@ export class UserProfile extends React.Component {
         );
 
         const maxHeaderHeight = 200;
-
-        const isUsersProfile = this.props.uid === this.props.userUID;
 
         const photoCaptureWidgetComponent = isUsersProfile && (
             <PhotoCaptureWidget
@@ -284,11 +296,13 @@ const styles = StyleSheet.create({
         paddingBottom: 12, // - 4 from labels
         backgroundColor: styleConstants.darkPrimary,
     },
+    nameTextContainer: {
+        marginBottom: 8,
+    },
     nameText: {
         fontSize: styleConstants.largeFont,
         color: styleConstants.white,
         ...styleConstants.primaryFont,
-        marginBottom: 8,
     },
     labelsContainer: {
         flexDirection: "row",

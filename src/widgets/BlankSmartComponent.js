@@ -33,4 +33,4 @@ const styles = StyleSheet.create({
     container: {},
 });
 
-export default connect(mapStateToProps)(Blank);
+export default connect(mapStateToProps)(BlankSmartComponent);
