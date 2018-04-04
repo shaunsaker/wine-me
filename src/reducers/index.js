@@ -31,6 +31,7 @@ export default function(state = initialState, action) {
             new_state.appState.error = {
                 ...action,
             };
+            new_state.appState.loading = false;
 
             return new_state;
 

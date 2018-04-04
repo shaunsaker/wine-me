@@ -14,6 +14,7 @@ import UserProfilePhoto from "../components/UserProfilePhoto";
 import Label from "../components/Label";
 import ReviewList from "../lists/ReviewList";
 import SecondaryButton from "../components/SecondaryButton";
+import PhotoCaptureWidget from "../widgets/PhotoCaptureWidget";
 
 export class UserProfile extends React.Component {
     constructor(props) {
@@ -44,9 +45,10 @@ export class UserProfile extends React.Component {
             users: PropTypes.object,
             places: PropTypes.object,
             reviews: PropTypes.object,
+            userUID: PropTypes.string, // used to identify if own user's profile
 
             // Passed props
-            placeID: PropTypes.string,
+            uid: PropTypes.string,
         };
     }
 
@@ -119,6 +121,20 @@ export class UserProfile extends React.Component {
 
         const maxHeaderHeight = 200;
 
+        const isUsersProfile = this.props.uid === this.props.userUID;
+
+        const photoCaptureWidgetComponent = isUsersProfile && (
+            <PhotoCaptureWidget
+                photoURL={user && user.photoURL}
+                photoStorageNode={`${
+                    this.props.uid
+                }.${config.resizedImages.format.toLowerCase()}`}
+                photoURLNode={`users/${this.props.uid}/photoURL`}
+                style={styles.photoCaptureWidget}
+            />
+        );
+
+        // TODO: Only show the PhotoCaptureWidget if on own user's profile
         const mediaComponent = (
             <View
                 style={[
@@ -128,6 +144,7 @@ export class UserProfile extends React.Component {
                     },
                 ]}>
                 <UserProfilePhoto photoURL={user && user.photoURL} size={120} />
+                {photoCaptureWidgetComponent}
             </View>
         );
 
@@ -243,10 +260,14 @@ const styles = StyleSheet.create({
     },
 
     profilePhotoContainer: {
-        width: styleConstants.windowWidth,
         justifyContent: "center",
         alignItems: "center",
         paddingTop: 56, // header
+    },
+    photoCaptureWidget: {
+        position: "absolute",
+        bottom: 12,
+        right: 0,
     },
 
     contentWrapper: {
@@ -303,6 +324,7 @@ function mapStateToProps(state) {
         users: state.main.appData.users,
         places: state.main.appData.app && state.main.appData.app.places,
         reviews: state.main.appData.app && state.main.appData.app.reviews,
+        userUID: state.main.userAuth.uid,
     };
 }
 

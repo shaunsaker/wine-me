@@ -4,7 +4,9 @@ BUGS
     FauxTabBar is pressable in place page
 
 TODOS
-    Edit Profile
+    User Profile
+        Edit name
+    Revert to page-based components with page name as prefix to component name
     Home
         Rehash it, try AirBNB style explore (no tabs => sections)
         Get rid of gradient    
@@ -33,3 +35,4 @@ TODOS
         Login to review
 
 ENHANCEMENTS
+    SET_ERROR => SET_MESSAGE

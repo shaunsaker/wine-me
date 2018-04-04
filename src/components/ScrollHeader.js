@@ -398,6 +398,9 @@ const styles = StyleSheet.create({
     coverPhotoContainer: {
         position: "absolute",
         top: 0,
+        left: 0,
+        right: 0,
+        alignItems: "center",
     },
     coverPhoto: {
         width: styleConstants.windowWidth,

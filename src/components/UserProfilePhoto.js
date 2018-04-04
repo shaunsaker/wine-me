@@ -36,5 +36,6 @@ export default function UserProfilePhoto(props) {
 const styles = StyleSheet.create({
     photo: {
         overflow: "hidden", // ios
+        backgroundColor: styleConstants.lightTransBlack,
     },
 });

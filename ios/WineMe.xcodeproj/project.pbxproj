@@ -37,6 +37,8 @@
 		31318741F9074F7DBDA218AF /* libRNFirebase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B6B8E0BDFC3463392A13FEF /* libRNFirebase.a */; };
 		575A84A2A7FD41D3AE9286E6 /* libBVLinearGradient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F60C760752470C84168F5D /* libBVLinearGradient.a */; };
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
+		7A17FCD02075144300C8E9E5 /* libRNImagePicker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A17FCCF2075143400C8E9E5 /* libRNImagePicker.a */; };
+		7A17FD2B2075156800C8E9E5 /* libRCTImageResizer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A17FD092075156000C8E9E5 /* libRCTImageResizer.a */; };
 		7A289F0C201C5EC700FD0C6D /* Lora-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A289EE1201C5EC700FD0C6D /* Lora-Bold.ttf */; };
 		7A289F10201C665D00FD0C6D /* AppIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A289F0F201C665C00FD0C6D /* AppIcons.ttf */; };
 		7ACF457020178132006E35B4 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7ACF456F20178132006E35B4 /* MaterialIcons.ttf */; };
@@ -46,10 +48,12 @@
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		884664533441463B9483E501 /* libReactNativePermissions.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D0C8A6733EBB49E9AE56FA57 /* libReactNativePermissions.a */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
+		BA728F43ACF3454CB45995AA /* Lora-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 624B7118F6124E958DC91B29 /* Lora-Bold.ttf */; };
 		BC8D4F63EF644360AEF14B02 /* libRNGeocoder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD7F704C7D874190A5A68FEE /* libRNGeocoder.a */; };
 		C35522A5BD8540B3FDDA9454 /* libPods-WineMe.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BC79A45DE67F07E5D4FEC3A /* libPods-WineMe.a */; };
 		CB9B6BF157801E6268CB5982 /* libPods-WineMe-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B8C5C4971CFF85E46AD6ACD /* libPods-WineMe-tvOS.a */; };
 		EEE58082D099CBCBBA4A2618 /* libPods-WineMe-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 143FBE8B724E2ED8EC527D3F /* libPods-WineMe-tvOSTests.a */; };
+		F8A19F946A494D718FBAFB10 /* Circular-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E5AE2A208B1B47F5ACF79328 /* Circular-Medium.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -256,6 +260,20 @@
 			remoteGlobalIDString = 134814201AA4EA6300B7C361;
 			remoteInfo = RCTLinking;
 		};
+		7A17FCCE2075143400C8E9E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A17FCA02075143400C8E9E5 /* RNImagePicker.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 014A3B5C1C6CF33500B6D375;
+			remoteInfo = RNImagePicker;
+		};
+		7A17FD082075156000C8E9E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A17FCFA2075156000C8E9E5 /* RCTImageResizer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5D72D2E81C16249000E22EC1;
+			remoteInfo = RCTImageResizer;
+		};
 		7ACF45172017808B006E35B4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
@@ -393,9 +411,12 @@
 		4B6B8E0BDFC3463392A13FEF /* libRNFirebase.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNFirebase.a; sourceTree = "<group>"; };
 		5809332733E917535B2CF1E6 /* Pods-WineMeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WineMeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WineMeTests/Pods-WineMeTests.release.xcconfig"; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
+		624B7118F6124E958DC91B29 /* Lora-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Lora-Bold.ttf"; path = "../src/assets/fonts/Lora-Bold.ttf"; sourceTree = "<group>"; };
 		69ACA9CE2C5FA2C854FBFA9F /* libPods-WineMeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WineMeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		714A2BD3001B9DED40F9B7B1 /* Pods-WineMe-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WineMe-tvOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WineMe-tvOSTests/Pods-WineMe-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
+		7A17FCA02075143400C8E9E5 /* RNImagePicker.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNImagePicker.xcodeproj; path = "../node_modules/react-native-image-picker/ios/RNImagePicker.xcodeproj"; sourceTree = "<group>"; };
+		7A17FCFA2075156000C8E9E5 /* RCTImageResizer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTImageResizer.xcodeproj; path = "../node_modules/react-native-image-resizer/ios/RCTImageResizer.xcodeproj"; sourceTree = "<group>"; };
 		7A289EE1201C5EC700FD0C6D /* Lora-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lora-Bold.ttf"; sourceTree = "<group>"; };
 		7A289F0F201C665C00FD0C6D /* AppIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AppIcons.ttf; sourceTree = "<group>"; };
 		7ACF456F20178132006E35B4 /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
@@ -413,6 +434,7 @@
 		BDD1004FE42518D4EF7EACBD /* Pods-WineMe-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WineMe-tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WineMe-tvOS/Pods-WineMe-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		D0C8A6733EBB49E9AE56FA57 /* libReactNativePermissions.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libReactNativePermissions.a; sourceTree = "<group>"; };
 		D615506732354DE8B4F56E94 /* RNGeocoder.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNGeocoder.xcodeproj; path = "../node_modules/react-native-geocoder/ios/RNGeocoder.xcodeproj"; sourceTree = "<group>"; };
+		E5AE2A208B1B47F5ACF79328 /* Circular-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Circular-Medium.ttf"; path = "../src/assets/fonts/Circular-Medium.ttf"; sourceTree = "<group>"; };
 		E89F8E9BCA5E2E3C726A7085 /* Pods-WineMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WineMe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WineMe/Pods-WineMe.debug.xcconfig"; sourceTree = "<group>"; };
 		EE2185B7FE76BED47A59B7DC /* Pods-WineMe-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WineMe-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-WineMe-tvOS/Pods-WineMe-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -431,6 +453,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A17FD2B2075156800C8E9E5 /* libRCTImageResizer.a in Frameworks */,
+				7A17FCD02075144300C8E9E5 /* libRNImagePicker.a in Frameworks */,
 				ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */,
 				5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */,
 				146834051AC3E58100842450 /* libReact.a in Frameworks */,
@@ -603,6 +627,8 @@
 				7A289EE1201C5EC700FD0C6D /* Lora-Bold.ttf */,
 				7ACF45BE20178238006E35B4 /* Lora-Regular.ttf */,
 				7ACF456F20178132006E35B4 /* MaterialIcons.ttf */,
+				E5AE2A208B1B47F5ACF79328 /* Circular-Medium.ttf */,
+				624B7118F6124E958DC91B29 /* Lora-Bold.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -633,6 +659,22 @@
 			children = (
 				78C398B91ACF4ADC00677621 /* libRCTLinking.a */,
 				3DAD3E881DF850E9000B6D8A /* libRCTLinking-tvOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A17FCA12075143400C8E9E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A17FCCF2075143400C8E9E5 /* libRNImagePicker.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A17FCFB2075156000C8E9E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A17FD092075156000C8E9E5 /* libRCTImageResizer.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -684,6 +726,8 @@
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				7A17FCFA2075156000C8E9E5 /* RCTImageResizer.xcodeproj */,
+				7A17FCA02075143400C8E9E5 /* RNImagePicker.xcodeproj */,
 				5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */,
 				146833FF1AC3E56700842450 /* React.xcodeproj */,
 				00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */,
@@ -917,6 +961,10 @@
 					ProjectRef = 00C302BB1ABCB91800DB3ED1 /* RCTImage.xcodeproj */;
 				},
 				{
+					ProductGroup = 7A17FCFB2075156000C8E9E5 /* Products */;
+					ProjectRef = 7A17FCFA2075156000C8E9E5 /* RCTImageResizer.xcodeproj */;
+				},
+				{
 					ProductGroup = 78C398B11ACF4ADC00677621 /* Products */;
 					ProjectRef = 78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */;
 				},
@@ -955,6 +1003,10 @@
 				{
 					ProductGroup = 7ACF456020178124006E35B4 /* Products */;
 					ProjectRef = D615506732354DE8B4F56E94 /* RNGeocoder.xcodeproj */;
+				},
+				{
+					ProductGroup = 7A17FCA12075143400C8E9E5 /* Products */;
+					ProjectRef = 7A17FCA02075143400C8E9E5 /* RNImagePicker.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -1157,6 +1209,20 @@
 			remoteRef = 78C398B81ACF4ADC00677621 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		7A17FCCF2075143400C8E9E5 /* libRNImagePicker.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNImagePicker.a;
+			remoteRef = 7A17FCCE2075143400C8E9E5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7A17FD092075156000C8E9E5 /* libRCTImageResizer.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTImageResizer.a;
+			remoteRef = 7A17FD082075156000C8E9E5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		7ACF45182017808B006E35B4 /* libjsinspector.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -1283,6 +1349,8 @@
 				7A289F0C201C5EC700FD0C6D /* Lora-Bold.ttf in Resources */,
 				7A289F10201C665D00FD0C6D /* AppIcons.ttf in Resources */,
 				7ACF4572201781A4006E35B4 /* GoogleService-Info.plist in Resources */,
+				F8A19F946A494D718FBAFB10 /* Circular-Medium.ttf in Resources */,
+				BA728F43ACF3454CB45995AA /* Lora-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -24,6 +24,9 @@ import { setData } from "./cloudData";
 import { pushData } from "./cloudData";
 import { deleteData } from "./cloudData";
 
+// Storage
+import { uploadFile } from "./storage";
+
 export function* sagas() {
     yield all([
         // User auth
@@ -63,5 +66,8 @@ export function* sagas() {
         fork(takeEvery, "setData", setData),
         fork(takeEvery, "pushData", pushData),
         fork(takeEvery, "deleteData", deleteData),
+
+        //  Storage
+        fork(takeLatest, "uploadFile", uploadFile),
     ]);
 }

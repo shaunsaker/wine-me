@@ -35,6 +35,10 @@
 			</dict>
 		</dict>
 	</dict>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>We require access to your camera roll for you to change your profile photo</string>
+	<key>NSCameraUsageDescription</key>
+	<string>We require access to your camera for you to change your profile photo</string>
 	<key>NSBluetoothPeripheralUsageDescription</key>
 	<string>We do not require access to your bluetooth</string>
 	<key>NSCalendarsUsageDescription</key>
