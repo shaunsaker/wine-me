@@ -55,7 +55,7 @@ const styles = StyleSheet.create({
     titleText: {
         fontSize: styleConstants.largeFont,
         color: styleConstants.primaryText,
-        ...styleConstants.boldFont,
+        ...styleConstants.primaryFont,
         marginBottom: 16,
     },
     descriptionText: {

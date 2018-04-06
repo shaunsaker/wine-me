@@ -21,7 +21,6 @@ import {
     Menu,
     TouchableIcon,
 } from "react-native-simple-components";
-import LinearGradient from "react-native-linear-gradient";
 import Suggestions from "../components/Suggestions";
 import PlaceList from "../lists/PlaceList";
 import InfoBlock from "../components/InfoBlock";
@@ -142,12 +141,7 @@ export class Search extends React.Component {
 
         return (
             <Page style={styles.container}>
-                <LinearGradient
-                    colors={[
-                        styleConstants.primary,
-                        styleConstants.darkPrimary,
-                    ]}
-                    style={styles.headerWrapper}>
+                <View style={styles.headerWrapper}>
                     <View style={styles.headerContainer}>
                         <TouchableIcon
                             handlePress={() => this.navigate(null, null, true)}
@@ -176,7 +170,7 @@ export class Search extends React.Component {
                             this.updateSearchValue(area, true)
                         }
                     />
-                </LinearGradient>
+                </View>
                 {mainContent}
             </Page>
         );
@@ -208,7 +202,7 @@ const styles = StyleSheet.create({
         ...styleConstants.largeShadow,
         paddingTop: Platform.OS === "ios" ? 22 : 0,
         borderWidth: 0,
-        backgroundColor: styleConstants.white,
+        backgroundColor: styleConstants.darkPrimary,
     },
     headerContainer: {
         flexDirection: "row",

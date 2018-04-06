@@ -4,10 +4,20 @@ BUGS
     FauxTabBar is pressable in place page
 
 TODOS
-    Revert to page-based components with page name as prefix to component name
     Home
-        Rehash it, try AirBNB style explore (no tabs => sections)
-        Get rid of gradient    
+        Get rid of gradient   
+        Add search bar back in
+        Get rid of side menu
+        Add bottom tabbar
+            Home
+            Profile
+        Sections
+            Featured
+            Close to me
+    Search
+        Rehash
+        Get rid of gradient
+    Remove leaderboard page
 
     GAMIFICATION
         Profile

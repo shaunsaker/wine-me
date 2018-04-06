@@ -22,7 +22,6 @@ import {
     TabBar,
     ButtonIcon,
 } from "react-native-simple-components";
-import LinearGradient from "react-native-linear-gradient";
 import Icon from "react-native-vector-icons/MaterialIcons";
 import CustomIcon from "../assets/icons";
 import { AnimateScale } from "react-native-simple-animators";
@@ -270,12 +269,7 @@ export class Home extends React.Component {
                     isOpen={this.props.showSideMenu}
                     onChange={this.closeSideMenu}
                     openMenuOffset={sideMenuWidth}>
-                    <LinearGradient
-                        colors={[
-                            styleConstants.primary,
-                            styleConstants.darkPrimary,
-                        ]}
-                        style={styles.headerContainer}>
+                    <View style={styles.headerContainer}>
                         <HeaderBar
                             leftIconName={this.props.places && "menu"}
                             leftIconStyle={styles.headerIcon}
@@ -301,7 +295,7 @@ export class Home extends React.Component {
                             handleTabPress={tab => this.setTab(tab)}
                             textStyle={styles.tabBarText}
                         />
-                    </LinearGradient>
+                    </View>
                     {blankState}
                     {placesComponent}
                     <View style={styles.findPlaceButtonWrapper}>
@@ -321,7 +315,7 @@ const styles = StyleSheet.create({
     headerContainer: {
         alignSelf: "stretch",
         ...styleConstants.largeShadow,
-        backgroundColor: styleConstants.white,
+        backgroundColor: styleConstants.darkPrimary,
         borderWidth: 0,
     },
     header: {
