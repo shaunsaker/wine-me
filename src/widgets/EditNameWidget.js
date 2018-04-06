@@ -1,11 +1,5 @@
 import React from "react";
-import {
-    View,
-    Text,
-    TextInput,
-    StyleSheet,
-    ActivityIndicator,
-} from "react-native";
+import { View, Text, TextInput, StyleSheet } from "react-native";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
 
@@ -22,12 +16,10 @@ export class EditFieldWidget extends React.Component {
         this.submit = this.submit.bind(this);
         this.cancel = this.cancel.bind(this);
         this.toggleActive = this.toggleActive.bind(this);
-        this.toggleLoading = this.toggleLoading.bind(this);
 
         this.state = {
             active: false,
             value: null,
-            loading: false,
         };
     }
 
@@ -44,24 +36,6 @@ export class EditFieldWidget extends React.Component {
         this.updateValue(this.props.value);
     }
 
-    componentDidUpdate(prevProps) {
-        // On save success
-        if (
-            this.props.value &&
-            prevProps.value &&
-            this.props.value !== prevProps.value
-        ) {
-            this.toggleLoading();
-
-            // TODO: this is not working
-            this.props.dispatch({
-                type: "SET_ERROR",
-                errorType: "PROFILE",
-                message: "Update success",
-            });
-        }
-    }
-
     updateValue(value) {
         this.setState({
             value,
@@ -69,8 +43,6 @@ export class EditFieldWidget extends React.Component {
     }
 
     submit() {
-        this.toggleLoading();
-
         this.props.dispatch({
             type: "setData",
             node: this.props.fieldNode,
@@ -82,12 +54,6 @@ export class EditFieldWidget extends React.Component {
         this.toggleActive();
 
         this.updateValue(this.props.value);
-    }
-
-    toggleLoading() {
-        this.setState({
-            loading: !this.state.loading,
-        });
     }
 
     toggleActive() {
@@ -102,9 +68,7 @@ export class EditFieldWidget extends React.Component {
     }
 
     render() {
-        const iconButtonsComponent = this.state.loading ? (
-            <ActivityIndicator size="small" color={styleConstants.white} />
-        ) : this.state.active ? (
+        const iconButtonsComponent = this.state.active ? (
             <View style={styles.iconButtonsContainer}>
                 <IconButton
                     handlePress={this.submit}
@@ -131,6 +95,7 @@ export class EditFieldWidget extends React.Component {
                     ref="input"
                     value={this.state.value}
                     onChangeText={this.updateValue}
+                    onSubmitEditing={this.submit}
                     style={[styles.input, this.props.textStyle]}
                     onFocus={!this.state.active ? this.toggleActive : null}
                     underlineColorAndroid="transparent"

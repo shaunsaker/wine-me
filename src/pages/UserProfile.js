@@ -15,7 +15,7 @@ import Label from "../components/Label";
 import ReviewList from "../lists/ReviewList";
 import SecondaryButton from "../components/SecondaryButton";
 import PhotoCaptureWidget from "../widgets/PhotoCaptureWidget";
-import EditFieldWidget from "../widgets/EditFieldWidget";
+import EditNameWidget from "../widgets/EditNameWidget";
 
 export class UserProfile extends React.Component {
     constructor(props) {
@@ -112,7 +112,7 @@ export class UserProfile extends React.Component {
         const isUsersProfile = this.props.uid === this.props.userUID;
 
         const nameTextComponent = isUsersProfile ? (
-            <EditFieldWidget
+            <EditNameWidget
                 value={user && user.name}
                 fieldNode={`users/${this.props.uid}/name`}
                 textStyle={styles.nameText}
@@ -146,7 +146,6 @@ export class UserProfile extends React.Component {
             />
         );
 
-        // TODO: Only show the PhotoCaptureWidget if on own user's profile
         const mediaComponent = (
             <View
                 style={[
