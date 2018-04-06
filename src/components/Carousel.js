@@ -7,7 +7,7 @@ import styleConstants from "../assets/styleConstants";
 import { Touchable } from "react-native-simple-components";
 import CarouselControls from "./CarouselControls";
 
-export default class PhotoSlider extends React.Component {
+export default class Carousel extends React.Component {
     constructor(props) {
         super(props);
 
@@ -51,7 +51,8 @@ export default class PhotoSlider extends React.Component {
                     style={[styles.wrapper, { height: this.props.height }]}
                     contentContainerStyle={styles.container}
                     bounces={false}
-                    pagingEnabled>
+                    pagingEnabled
+                    scrollEnabled={false}>
                     {this.props.photos.map((photoURL, index) => {
                         return (
                             <Image
@@ -82,5 +83,6 @@ const styles = StyleSheet.create({
     container: {},
     image: {
         width: styleConstants.windowWidth,
+        backgroundColor: styleConstants.darkPrimary,
     },
 });
