@@ -5,7 +5,6 @@ BUGS
 
 TODOS
     Home
-        Get rid of gradient   
         Add search bar back in
         Get rid of side menu
         Add bottom tabbar
@@ -13,10 +12,10 @@ TODOS
             Profile
         Sections
             Featured
-            Close to me
+            Top Rated
+            Closest to me
     Search
         Rehash
-        Get rid of gradient
     Remove leaderboard page
 
     GAMIFICATION
