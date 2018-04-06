@@ -4,6 +4,7 @@ import { Actions, ActionConst, Scene } from "react-native-router-flux";
 // Pages
 import Home from "./pages/Home";
 import Search from "./pages/Search";
+import Leaderboard from "./pages/Leaderboard";
 import About from "./pages/About";
 import Place from "./pages/Place";
 import Review from "./pages/Review";
@@ -20,6 +21,7 @@ const Scenes = Actions.create(
             initial={true}
         />
         <Scene key="search" component={Search} initial={false} />
+        <Scene key="leaderboard" component={Leaderboard} initial={false} />
         <Scene key="about" component={About} initial={false} />
         <Scene key="place" component={Place} initial={false} />
         <Scene key="review" component={Review} initial={false} />

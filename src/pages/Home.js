@@ -28,6 +28,8 @@ import { AnimateScale } from "react-native-simple-animators";
 import FindPlaceModal from "../modals/FindPlaceModal";
 import PlaceList from "../lists/PlaceList";
 import InfoBlock from "../components/InfoBlock";
+import SideMenu from "react-native-side-menu";
+import SideMenuComponent from "../components/SideMenuComponent";
 import Logo from "../components/Logo";
 
 export class Home extends React.Component {
@@ -38,6 +40,8 @@ export class Home extends React.Component {
         this.showFindPlaceModal = this.showFindPlaceModal.bind(this);
         this.togglePlaceModal = this.togglePlaceModal.bind(this);
         this.closeSideMenu = this.closeSideMenu.bind(this);
+        this.toggleSideMenu = this.toggleSideMenu.bind(this);
+        this.onSideMenuNavigate = this.onSideMenuNavigate.bind(this);
         this.navigate = this.navigate.bind(this);
 
         this.tabs = [
@@ -102,6 +106,30 @@ export class Home extends React.Component {
     closeSideMenu(isOpen) {
         if (!isOpen && this.props.showSideMenu) {
             this.toggleSideMenu();
+        }
+    }
+
+    toggleSideMenu(isOpen) {
+        this.props.dispatch({
+            type: "TOGGLE_SIDE_MENU",
+        });
+    }
+
+    onSideMenuNavigate(page) {
+        this.toggleSideMenu();
+
+        if (page !== "home") {
+            Analytics.logEvent("view_" + page + "_page");
+
+            let props;
+            if (page === "userProfile") {
+                // If we're going to the user's profile, attach the uid
+                props = {
+                    uid: this.props.uid,
+                };
+            }
+
+            this.navigate(page, props);
         }
     }
 
@@ -224,38 +252,57 @@ export class Home extends React.Component {
             );
         }
 
+        // Tablets
+        const sideMenuWidth =
+            styleConstants.windowWidth > 700
+                ? styleConstants.windowWidth / 3
+                : styleConstants.windowWidth * 2 / 3;
+
         return (
             <Page style={styles.container}>
-                <View style={styles.headerContainer}>
-                    <HeaderBar
-                        style={styles.header}
-                        statusBarColor={
-                            Platform.OS === "android"
-                                ? this.state.animateFindPlaceModal
-                                    ? styleConstants.secondary
-                                    : styleConstants.primary
-                                : null
-                        }
-                        textComponent={<Logo />}
-                    />
-                    <TabBar
-                        backgroundColor="transparent"
-                        textColor={styleConstants.transWhite}
-                        activeTextColor={styleConstants.white}
-                        tabs={this.tabs}
-                        activeTab={this.state.activeTab}
-                        tabStyle={styles.tabBarTab}
-                        activeTabStyle={styles.tabBarActiveTab}
-                        handleTabPress={tab => this.setTab(tab)}
-                        textStyle={styles.tabBarText}
-                    />
-                </View>
-                {blankState}
-                {placesComponent}
-                <View style={styles.findPlaceButtonWrapper}>
-                    {findPlaceButton}
-                </View>
-                {findPlaceModal}
+                <SideMenu
+                    menu={
+                        <SideMenuComponent
+                            handlePress={this.onSideMenuNavigate}
+                        />
+                    }
+                    isOpen={this.props.showSideMenu}
+                    onChange={this.closeSideMenu}
+                    openMenuOffset={sideMenuWidth}>
+                    <View style={styles.headerContainer}>
+                        <HeaderBar
+                            leftIconName={this.props.places && "menu"}
+                            leftIconStyle={styles.headerIcon}
+                            handleLeftIconPress={this.toggleSideMenu}
+                            style={styles.header}
+                            statusBarColor={
+                                Platform.OS === "android"
+                                    ? this.state.animateFindPlaceModal
+                                        ? styleConstants.secondary
+                                        : styleConstants.primary
+                                    : null
+                            }
+                            textComponent={<Logo />}
+                        />
+                        <TabBar
+                            backgroundColor="transparent"
+                            textColor={styleConstants.transWhite}
+                            activeTextColor={styleConstants.white}
+                            tabs={this.tabs}
+                            activeTab={this.state.activeTab}
+                            tabStyle={styles.tabBarTab}
+                            activeTabStyle={styles.tabBarActiveTab}
+                            handleTabPress={tab => this.setTab(tab)}
+                            textStyle={styles.tabBarText}
+                        />
+                    </View>
+                    {blankState}
+                    {placesComponent}
+                    <View style={styles.findPlaceButtonWrapper}>
+                        {findPlaceButton}
+                    </View>
+                    {findPlaceModal}
+                </SideMenu>
             </Page>
         );
     }

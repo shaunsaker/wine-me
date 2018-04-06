@@ -6,6 +6,7 @@ BUGS
 TODOS
     Home
         Add search bar back in
+        Get rid of side menu
         Add bottom tabbar
             Home
             Profile
@@ -15,6 +16,7 @@ TODOS
             Closest to me
     Search
         Rehash
+    Remove leaderboard page
 
     GAMIFICATION
         Profile
@@ -38,7 +40,6 @@ TODOS
     ProfilePhoto placeholder image
     Place
         Login to review
-    CHANGELOG
 
 ENHANCEMENTS
     SET_ERROR => SET_MESSAGE
