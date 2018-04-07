@@ -1,10 +1,11 @@
 BUGS
 
 TODOS
-    Home
-        Top Rated places
+    Review
+        Edit review newRating should be function of user id's, ie. if only I reviewed and I edit, rating should reflect that
     Offline mode
     Offline check in
+    Labels are scrollable in ScrollHeader
     Image sometimes displays loading spinner even though its already loaded
     FauxTabBar is pressable in place page
 
@@ -22,6 +23,20 @@ TODOS
             Check in tutorial
         Search    
             Collection progress
+
+        Skill points
+            Black Sheep
+                See who has checked in at a place and see where other user's have checked in
+            Lazy Fish
+                No search. Find the next best thing closest to me.
+            The memory of an Elephant
+                Edit your reviews
+            X
+                Challenge friends
+            Y
+                Take photos
+            Z   
+                Earn double? points
 
     Disable tablets
     Find place modal styles

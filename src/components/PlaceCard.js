@@ -55,7 +55,7 @@ export default class PlaceCard extends React.PureComponent {
             </View>
         );
 
-        const rating = this.props.place.rating && (
+        const rating = this.props.place.rating ? (
             <View style={styles.starRatingContainer}>
                 <StarRating
                     rating={Math.ceil(this.props.place.rating)}
@@ -63,7 +63,7 @@ export default class PlaceCard extends React.PureComponent {
                     iconStyle={styles.starRatingIcon}
                 />
             </View>
-        );
+        ) : null;
 
         const relativeDistanceComponent = this.props.userLocation && (
             <RelativeDistanceLabel

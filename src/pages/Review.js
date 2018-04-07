@@ -132,6 +132,12 @@ export class Review extends React.Component {
                     placeID: this.props.placeID,
                     date: Date.now(),
                 },
+                // Save the new rating to the place
+                nextAction: {
+                    type: "setData",
+                    node: `app/places/${this.props.placeID}/rating`,
+                    data: newRating,
+                },
             });
         } else {
             // New review

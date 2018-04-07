@@ -217,7 +217,24 @@ export class Home extends React.Component {
                     true,
                 );
 
-                console.log(places);
+                // Sort
+                // Add rating for sort
+                places = places.map((place, index) => {
+                    return {
+                        ...place,
+                        rating: place.rating ? place.rating : 0,
+                        reviewCount: utilities.convertDictionaryToArray(
+                            place.reviews,
+                        ),
+                    };
+                });
+                // Rating takes precedence over reviewCount
+                places = utilities.sortArrayOfObjectsByKey(
+                    places,
+                    "reviewCount",
+                );
+                places = utilities.sortArrayOfObjectsByKey(places, "rating");
+                places.reverse();
             }
 
             placesComponent = (
