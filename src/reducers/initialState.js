@@ -13,9 +13,8 @@ const initialState = {
             duration: null,
         },
         userLocation: null,
-        temporaryImage: null,
-        feedbackPosted: false,
         networkType: null,
+        isOnline: true, // assume it's true
         showSideMenu: false,
     },
     appData: {

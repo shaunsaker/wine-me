@@ -45,6 +45,7 @@ export class Search extends React.Component {
             uid: PropTypes.string,
             userCheckIns: PropTypes.array,
             searchAreas: PropTypes.object,
+            isOnline: PropTypes.bool,
         };
     }
 
@@ -125,6 +126,7 @@ export class Search extends React.Component {
                     handlePress={placeID => this.navigate("place", { placeID })}
                     userCheckIns={this.props.userCheckIns}
                     scrollToTop={this.state.places.length}
+                    isOnline={this.props.isOnline}
                 />
             ) : (
                 <InfoBlock
@@ -175,22 +177,6 @@ export class Search extends React.Component {
             </Page>
         );
     }
-}
-
-function mapStateToProps(state) {
-    return {
-        places: state.main.appData.app && state.main.appData.app.places,
-        userLocation: state.main.appState.userLocation,
-        uid: state.main.userAuth.uid,
-        userCheckIns:
-            state.main.appData.users &&
-            state.main.appData.users[state.main.userAuth.uid] &&
-            utilities.convertDictionaryToArray(
-                state.main.appData.users[state.main.userAuth.uid].checkIns,
-            ),
-        searchAreas:
-            state.main.appData.app && state.main.appData.app.searchAreas,
-    };
 }
 
 const styles = StyleSheet.create({
@@ -248,5 +234,22 @@ const styles = StyleSheet.create({
         color: styleConstants.primaryText,
     },
 });
+
+function mapStateToProps(state) {
+    return {
+        places: state.main.appData.app && state.main.appData.app.places,
+        userLocation: state.main.appState.userLocation,
+        uid: state.main.userAuth.uid,
+        userCheckIns:
+            state.main.appData.users &&
+            state.main.appData.users[state.main.userAuth.uid] &&
+            utilities.convertDictionaryToArray(
+                state.main.appData.users[state.main.userAuth.uid].checkIns,
+            ),
+        searchAreas:
+            state.main.appData.app && state.main.appData.app.searchAreas,
+        isOnline: state.main.appState.isOnline,
+    };
+}
 
 export default connect(mapStateToProps)(Search);

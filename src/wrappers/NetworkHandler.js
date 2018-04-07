@@ -5,12 +5,29 @@ import { connect } from "react-redux";
 
 import Analytics from "../analytics";
 
-import HighLatencyNetworkDetector from "./HighLatencyNetworkDetector";
-
 export class NetworkHandler extends React.Component {
+    constructor(props) {
+        super(props);
+
+        this.startLatencyTimer = this.startLatencyTimer.bind(this);
+        this.clearLatencyTimer = this.clearLatencyTimer.bind(this);
+        this.goOffline = this.goOffline.bind(this);
+        this.goOnline = this.goOnline.bind(this);
+
+        this.timer;
+        this.latencyTimeout = 5;
+
+        this.state = {
+            time: 0,
+        };
+    }
+
     static get propTypes() {
         return {
             appStart: PropTypes.bool,
+            loading: PropTypes.bool,
+            networkType: PropTypes.string,
+            isOnline: PropTypes.bool,
         };
     }
 
@@ -20,12 +37,30 @@ export class NetworkHandler extends React.Component {
             this.handleConnectionChange,
         );
 
-        // If we don't delay this, the event fires immediately after app mount and displays the success snackbar
-        setTimeout(() => {
-            this.props.dispatch({
-                type: "SET_APP_START",
-            });
-        }, 1000);
+        this.startLatencyTimer();
+
+        // TODO: Handle no connection at all
+    }
+
+    componentDidUpdate(prevProps, prevState) {
+        if (
+            this.props.loading &&
+            !prevProps.loading &&
+            this.props.networkType !== "none"
+        ) {
+            // New loading event started
+            this.startLatencyTimer();
+        } else if (!this.props.loading && prevProps.loading) {
+            // Loading event ended
+            this.clearLatencyTimer();
+        }
+
+        // Check to see if time > config.latencyTimeout, ie. slow connection
+        if (this.state.time && this.state.time > this.latencyTimeout) {
+            this.goOffline();
+        }
+
+        // TODO: Check to see if network has stabilised
     }
 
     componentWillUnmount() {
@@ -40,37 +75,75 @@ export class NetworkHandler extends React.Component {
             type: "SET_NETWORK_TYPE",
             networkType: connectionInfo.type,
         });
-
-        if (connectionInfo.type === "none") {
-            Analytics.logEvent("network_offline");
-
-            this.props.dispatch({
-                type: "SET_ERROR",
-                errorType: "NETWORK",
-                message: "Oh no! It looks like you're offline.",
-            });
-        } else if (this.props.appStart) {
-            // Only dispatch this action if we were previously offline
-            this.props.dispatch({
-                type: "SET_ERROR",
-                errorType: "NETWORK",
-                message: "Good to go! You are back online.",
-            });
-        }
     };
 
+    startLatencyTimer() {
+        this.timer = null;
+
+        this.timer = setInterval(() => {
+            this.setState({
+                time: (this.state.time += 1),
+            });
+        }, 1000);
+    }
+
+    clearLatencyTimer() {
+        clearInterval(this.timer);
+
+        this.setState({
+            time: 0,
+        });
+    }
+
+    goOffline() {
+        Analytics.logEvent("network_offline");
+
+        this.props.dispatch({
+            type: "SET_ERROR",
+            errorType: "NETWORK",
+            message: "Slow network detected. Switching to offline mode.",
+        });
+
+        // Set firebase to offline mode
+        firebase.database().goOffline();
+
+        this.props.dispatch({
+            type: "SET_IS_ONLINE",
+            isOnline: false,
+        });
+
+        this.clearLatencyTimer();
+    }
+
+    goOnline() {
+        Analytics.logEvent("network_stabilised");
+
+        this.props.dispatch({
+            type: "SET_ERROR",
+            errorType: "NETWORK",
+            message: "Network has stabilised. Switching to online mode.",
+        });
+
+        // Set firebase to offline mode
+        firebase.database().goOnline();
+
+        this.props.dispatch({
+            type: "SET_IS_ONLINE",
+            isOnline: true,
+        });
+    }
+
     render() {
-        return (
-            <HighLatencyNetworkDetector>
-                {this.props.children}
-            </HighLatencyNetworkDetector>
-        );
+        return this.props.children;
     }
 }
 
 function mapStateToProps(state) {
     return {
         appStart: state.main.appState.appStart,
+        loading: state.main.appState.loading,
+        networkType: state.main.appState.networkType,
+        isOnline: state.main.appState.isOnline,
     };
 }
 

@@ -15,87 +15,83 @@ import CheckedInIcon from "./CheckedInIcon";
 import CustomIcon from "../assets/icons";
 import RelativeDistanceLabel from "./RelativeDistanceLabel";
 
-export default class PlaceCard extends React.PureComponent {
-    constructor(props) {
-        super(props);
-    }
+export default function PlaceCard(props) {
+    // static get propTypes() {
+    //     return {
+    //         place: PropTypes.object,
+    //         userLocation: PropTypes.object,
+    //         handlePress: PropTypes.func,
+    //         hasUserCheckedIn: PropTypes.bool,
+    //         isOnline: PropTypes.bool,
+    //     };
+    // }
 
-    static get propTypes() {
-        return {
-            place: PropTypes.object,
-            userLocation: PropTypes.object,
-            handlePress: PropTypes.func,
-            hasUserCheckedIn: PropTypes.bool,
-        };
-    }
+    const photoURL =
+        props.place.photos &&
+        utilities.getGooglePlacesPhotoURL(
+            props.place.photos[0], // first one
+        );
 
-    render() {
-        const photoURL =
-            this.props.place.photos &&
-            utilities.getGooglePlacesPhotoURL(
-                this.props.place.photos[0], // first one
-            );
+    const backgroundImage = photoURL ? (
+        <ImageWidget
+            source={{ uri: photoURL }}
+            style={styles.backgroundImage}
+            loaderColor={styleConstants.primary}
+            loaderStyle={styles.loader}
+            isOffline={!props.isOnline}
+        />
+    ) : (
+        <View style={styles.backgroundImageIconContainer}>
+            <CustomIcon name="logo" style={styles.backgroundImageIcon} />
+        </View>
+    );
 
-        const backgroundImage = photoURL ? (
-            <ImageWidget
-                source={{ uri: photoURL }}
-                style={styles.backgroundImage}
-                loaderColor={styleConstants.primary}
-                loaderStyle={styles.loader}
+    const checkedInIcon = props.hasUserCheckedIn && (
+        <View style={styles.checkedInIconContainer}>
+            <CheckedInIcon />
+        </View>
+    );
+
+    const rating = props.place.rating ? (
+        <View style={styles.starRatingContainer}>
+            <StarRating
+                rating={Math.ceil(props.place.rating)}
+                style={styles.starRating}
+                iconStyle={styles.starRatingIcon}
             />
-        ) : (
-            <View style={styles.backgroundImageIconContainer}>
-                <CustomIcon name="logo" style={styles.backgroundImageIcon} />
-            </View>
-        );
+        </View>
+    ) : null;
 
-        const checkedInIcon = this.props.hasUserCheckedIn && (
-            <View style={styles.checkedInIconContainer}>
-                <CheckedInIcon />
-            </View>
-        );
+    const relativeDistanceComponent = props.userLocation && (
+        <RelativeDistanceLabel
+            userLocation={props.userLocation}
+            placeLocation={props.place.location}
+        />
+    );
 
-        const rating = this.props.place.rating ? (
-            <View style={styles.starRatingContainer}>
-                <StarRating
-                    rating={Math.ceil(this.props.place.rating)}
-                    style={styles.starRating}
-                    iconStyle={styles.starRatingIcon}
-                />
-            </View>
-        ) : null;
-
-        const relativeDistanceComponent = this.props.userLocation && (
-            <RelativeDistanceLabel
-                userLocation={this.props.userLocation}
-                placeLocation={this.props.place.location}
-            />
-        );
-
-        return (
-            <Touchable
-                onPress={this.props.handlePress}
+    return (
+        <Touchable
+            onPress={props.handlePress}
+            disableFeedback
+            style={styles.wrapper}>
+            <View
+                onPress={props.handlePress}
                 disableFeedback
-                style={styles.wrapper}>
-                <View
-                    onPress={this.props.handlePress}
-                    disableFeedback
-                    style={styles.container}>
-                    <View style={styles.backgroundImageContainer}>
-                        {backgroundImage}
-                    </View>
-                    <View style={styles.bodyContainer}>
-                        <Label text={this.props.place.name} secondaryText />
-                        <View style={styles.labelsContainer}>
-                            {relativeDistanceComponent}
-                        </View>
-                    </View>
-                    {checkedInIcon}
-                    {rating}
+                style={styles.container}>
+                <View style={styles.backgroundImageContainer}>
+                    {backgroundImage}
                 </View>
-            </Touchable>
-        );
-    }
+                <View style={styles.bodyContainer}>
+                    <Label text={props.place.name} secondaryText />
+                    <View style={styles.labelsContainer}>
+                        {relativeDistanceComponent}
+                    </View>
+                </View>
+                {checkedInIcon}
+                {rating}
+            </View>
+        </Touchable>
+    );
 }
 
 const styles = StyleSheet.create({

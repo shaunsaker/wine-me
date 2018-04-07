@@ -2,6 +2,9 @@ BUGS
 
 TODOS
     Offline mode
+        Need to tell firebase to go offline if slow connection and online if offline and normal connection
+        Images should not expect to be rendered
+        Handle no connection at all
     Offline check in
     Labels are scrollable in ScrollHeader
     Place 
@@ -66,3 +69,4 @@ ENHANCEMENTS
             Closest to me
     Search
         Rehash
+    Go online when offline has restabilised

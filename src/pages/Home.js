@@ -74,6 +74,7 @@ export class Home extends React.Component {
             userCheckIns: PropTypes.object,
             checkIns: PropTypes.object,
             showSideMenu: PropTypes.bool,
+            isOnline: PropTypes.bool,
         };
     }
 
@@ -245,6 +246,7 @@ export class Home extends React.Component {
                     userCheckIns={this.props.userCheckIns}
                     checkIns={this.props.checkIns}
                     scrollToTop={this.state.activeTab}
+                    isOnline={this.props.isOnline}
                 />
             );
         } else {
@@ -404,6 +406,7 @@ function mapStateToProps(state) {
             state.main.appData.users[state.main.userAuth.uid].checkIns,
         checkIns: state.main.appData.app && state.main.appData.app.checkIns,
         showSideMenu: state.main.appState.showSideMenu,
+        isOnline: state.main.appState.isOnline,
     };
 }
 

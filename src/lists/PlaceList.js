@@ -24,6 +24,7 @@ export default class PlaceList extends React.Component {
             checkIns: PropTypes.object,
             scrollToTop: PropTypes.any, // on change, scrollToTop
             userLocation: PropTypes.object,
+            isOnline: PropTypes.bool,
         };
     }
 
@@ -42,6 +43,7 @@ export default class PlaceList extends React.Component {
                 handlePress={() => this.props.handlePress(item.id)}
                 hasUserCheckedIn={hasUserCheckedIn}
                 userLocation={this.props.userLocation}
+                isOnline={this.props.isOnline}
             />
         );
     };
