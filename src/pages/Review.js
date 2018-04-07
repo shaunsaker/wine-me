@@ -60,9 +60,8 @@ export class Review extends React.Component {
     componentDidMount() {
         // If reviewID exists, load the existing user review into state
         if (this.props.reviewID) {
-            const review = this.props.places[this.props.placeID].reviews[
-                this.props.reviewID
-            ];
+            const review = this.props.reviews[this.props.reviewID];
+
             this.setState({
                 rating: review.rating,
                 review: review.review,
@@ -82,7 +81,7 @@ export class Review extends React.Component {
         if (this.state.currentSlideIndex === this.slides.length - 1) {
             this.saveReview();
 
-            // this.navigate(null, null, true);
+            this.navigate(null, null, true);
         } else {
             this.setCurrentSlideIndex(this.state.currentSlideIndex + 1);
         }
@@ -111,13 +110,34 @@ export class Review extends React.Component {
         // // TODO: reviewerID => uid
         let reviewID = this.props.reviewID;
 
+        // Calculate the new place rating
+        const place = this.props.places[this.props.placeID];
+        const currentRating = place.rating;
+        const reviewCount = utilities.convertDictionaryToArray(place.reviews)
+            .length;
+        const newRating =
+            ((currentRating ? currentRating : 0) + this.state.rating) /
+            (reviewCount + 1);
+
         if (reviewID) {
-            // TODO: Editing a review
+            // Editing a review
+            // Save the review to reviews
+            this.props.dispatch({
+                type: "setData",
+                node: `app/reviews/${reviewID}`,
+                data: {
+                    uid: this.props.reviewerID,
+                    rating: this.state.rating,
+                    review: this.state.review && this.state.review.trim(),
+                    placeID: this.props.placeID,
+                    date: Date.now(),
+                },
+            });
         } else {
             // New review
             reviewID = utilities.createUUID();
 
-            // Save the review to the place
+            // Save the review to reviews
             this.props.dispatch({
                 type: "setData",
                 node: `app/reviews/${reviewID}`,
@@ -138,26 +158,16 @@ export class Review extends React.Component {
                         type: "pushData",
                         node: `users/${this.props.reviewerID}/reviews`,
                         data: reviewID,
+                        // Save the new rating to the place
+                        nextAction: {
+                            type: "setData",
+                            node: `app/places/${this.props.placeID}/rating`,
+                            data: newRating,
+                        },
                     },
                 },
             });
         }
-
-        // Calculate the new place rating and save that (based on current rating, number of reviews and new rating)
-        const place = this.props.places[this.props.placeID];
-        const currentRating = place.rating;
-        const reviewCount = utilities.convertDictionaryToArray(place.reviews)
-            .length;
-        const newRating =
-            ((currentRating ? currentRating : 0) + this.state.rating) /
-            (reviewCount + 1);
-
-        // Save it to the place
-        this.props.dispatch({
-            type: "setData",
-            node: `app/places/${this.props.placeID}/rating`,
-            data: newRating,
-        });
     }
 
     navigate(page, props, goBack) {

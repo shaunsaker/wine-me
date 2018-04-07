@@ -26,6 +26,7 @@ export class Place extends React.Component {
 
         this.setTab = this.setTab.bind(this);
         this.hasUserCheckedIn = this.hasUserCheckedIn.bind(this);
+        this.hasUserReviewedPlace = this.hasUserReviewedPlace.bind(this);
         this.handleLink = this.handleLink.bind(this);
         this.prepareLink = this.prepareLink.bind(this);
         this.setError = this.setError.bind(this);
@@ -81,7 +82,7 @@ export class Place extends React.Component {
     }
 
     hasUserCheckedIn() {
-        // TODO: this is fired far too many times (try state or placeID as store prop)
+        // TODO: Performance
         let hasUserCheckedIn;
         const userCheckIns = utilities.convertDictionaryToArray(
             this.props.userCheckIns,
@@ -96,6 +97,22 @@ export class Place extends React.Component {
         }
 
         return hasUserCheckedIn;
+    }
+
+    hasUserReviewedPlace() {
+        // TODO: Performance
+        let hasUserReviewedPlace;
+
+        for (let key in this.props.userReviews) {
+            if (
+                this.props.reviews[this.props.userReviews[key]].placeID ===
+                this.props.placeID
+            ) {
+                hasUserReviewedPlace = this.props.userReviews[key]; // return the reviewID
+            }
+        }
+
+        return hasUserReviewedPlace;
     }
 
     handleLink(link, linkType) {
@@ -293,14 +310,7 @@ export class Place extends React.Component {
                 );
             } else if (this.state.activeTab === "Reviews") {
                 const hasUserCheckedIn = this.hasUserCheckedIn();
-
-                const hasUserReviewedPlace =
-                    this.state.activeTab === "Reviews" &&
-                    hasUserCheckedIn &&
-                    utilities.isKeyValuePairPresentInDictionary(
-                        { placeID: this.props.placeID },
-                        this.props.userReviews,
-                    );
+                const hasUserReviewedPlace = this.hasUserReviewedPlace();
 
                 const placeReviews = utilities
                     .convertDictionaryToArray(place.reviews)

@@ -1,15 +1,12 @@
 BUGS
-    Close To Me sorting is not working
-    Image sometimes displays loading spinner even though its already loaded
-    FauxTabBar is pressable in place page
 
 TODOS
-    Place 
-        Allowing me to write a review even after writing one
-    Review
-        Editing a review
     Home
         Top Rated places
+    Offline mode
+    Offline check in
+    Image sometimes displays loading spinner even though its already loaded
+    FauxTabBar is pressable in place page
 
     GAMIFICATION
         Profile
