@@ -1,11 +1,21 @@
 BUGS
 
 TODOS
-    Review
-        Edit review newRating should be function of user id's, ie. if only I reviewed and I edit, rating should reflect that
     Offline mode
     Offline check in
     Labels are scrollable in ScrollHeader
+    Place 
+        On check in, does this place have wifi? Child friendly? Other activities? Food?
+    Search
+        Filters based on above
+        Rating, distance filters
+
+    Duplicate places and place naming
+    Places radii need work (and possibly some user help)
+
+    Disable tablets
+    ProfilePhoto placeholder image
+
     Image sometimes displays loading spinner even though its already loaded
     FauxTabBar is pressable in place page
 
@@ -29,6 +39,7 @@ TODOS
                 See who has checked in at a place and see where other user's have checked in
             Lazy Fish
                 No search. Find the next best thing closest to me.
+                Update About page
             The memory of an Elephant
                 Edit your reviews
             X
@@ -38,11 +49,6 @@ TODOS
             Z   
                 Earn double? points
 
-    Disable tablets
-    Find place modal styles
-    Remove duplicate places
-    Fix naming of places
-    ProfilePhoto placeholder image
     Place
         Login to review
 

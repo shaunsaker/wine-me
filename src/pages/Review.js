@@ -115,9 +115,11 @@ export class Review extends React.Component {
         const currentRating = place.rating;
         const reviewCount = utilities.convertDictionaryToArray(place.reviews)
             .length;
-        const newRating =
+        const newReviewCount = reviewCount + this.props.reviewID ? 0 : 1; // if user has reviewed place, we shouldn't add a new user to the count
+        let newRating =
             ((currentRating ? currentRating : 0) + this.state.rating) /
-            (reviewCount + 1);
+            newReviewCount;
+        newRating = newRating > 5 ? 5 : newRating;
 
         if (reviewID) {
             // Editing a review
