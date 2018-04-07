@@ -33,7 +33,6 @@ public class MainApplication extends Application implements ReactApplication {
         new MainReactPackage(),
         new ImageResizerPackage(),
         new ImagePickerPackage(),
-        new LinearGradientPackage(),
         new RNFirebasePackage(),
         new RNFirebaseAuthPackage(),
         new RNFirebaseDatabasePackage(),
