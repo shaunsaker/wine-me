@@ -10,7 +10,7 @@ import styleConstants from "../assets/styleConstants";
 
 import { Page, StarRating } from "react-native-simple-components";
 import ScrollHeader from "../components/ScrollHeader";
-import PhotoSlider from "../components/PhotoSlider";
+import Carousel from "../components/Carousel";
 import RelativeDistanceLabel from "../components/RelativeDistanceLabel";
 import Label from "../components/Label";
 import InfoRow from "../components/InfoRow";
@@ -229,7 +229,7 @@ export class Place extends React.Component {
             });
 
         const mediaComponent = (
-            <PhotoSlider photos={photos} height={maxHeaderHeight} />
+            <Carousel photos={photos} height={maxHeaderHeight} />
         );
 
         let addressComponent,
@@ -374,7 +374,7 @@ export class Place extends React.Component {
                     headerTranslucent
                     maxHeaderHeight={maxHeaderHeight}
                     minHeaderHeight={56}
-                    // PhotoSlider
+                    // Carousel
                     mediaComponent={mediaComponent}
                     // HeaderBar
                     statusBarColor={styleConstants.darkPrimary}
