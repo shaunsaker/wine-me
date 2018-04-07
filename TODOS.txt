@@ -4,9 +4,12 @@ BUGS
     FauxTabBar is pressable in place page
 
 TODOS
+    Place 
+        Allowing me to write a review even after writing one
+    Review
+        Editing a review
     Home
-        Add search icon
-        Add top rated section and remove my places section
+        Top Rated places
 
     GAMIFICATION
         Profile

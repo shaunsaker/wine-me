@@ -50,12 +50,6 @@ export default function SideMenuComponent(props) {
                 handlePress={props.handlePress}
             />
             <SideMenuItem
-                text="Leaderboard"
-                page="leaderboard"
-                iconName="stars"
-                handlePress={props.handlePress}
-            />
-            <SideMenuItem
                 text="About"
                 page="about"
                 iconName="info"

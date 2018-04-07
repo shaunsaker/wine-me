@@ -41,8 +41,10 @@ export class Review extends React.Component {
 
     static get propTypes() {
         return {
+            places: PropTypes.object,
+            reviews: PropTypes.object,
             reviewerID: PropTypes.string,
-            users: PropTypes.object,
+            reviewer: PropTypes.object,
 
             // Passed props
             placeID: PropTypes.string,
@@ -80,7 +82,7 @@ export class Review extends React.Component {
         if (this.state.currentSlideIndex === this.slides.length - 1) {
             this.saveReview();
 
-            this.navigate(null, null, true);
+            // this.navigate(null, null, true);
         } else {
             this.setCurrentSlideIndex(this.state.currentSlideIndex + 1);
         }
@@ -106,11 +108,11 @@ export class Review extends React.Component {
     }
 
     saveReview() {
-        // TODO: reviewerID => uid
+        // // TODO: reviewerID => uid
         let reviewID = this.props.reviewID;
 
         if (reviewID) {
-            // Editing a review
+            // TODO: Editing a review
         } else {
             // New review
             reviewID = utilities.createUUID();
@@ -140,6 +142,22 @@ export class Review extends React.Component {
                 },
             });
         }
+
+        // Calculate the new place rating and save that (based on current rating, number of reviews and new rating)
+        const place = this.props.places[this.props.placeID];
+        const currentRating = place.rating;
+        const reviewCount = utilities.convertDictionaryToArray(place.reviews)
+            .length;
+        const newRating =
+            ((currentRating ? currentRating : 0) + this.state.rating) /
+            (reviewCount + 1);
+
+        // Save it to the place
+        this.props.dispatch({
+            type: "setData",
+            node: `app/places/${this.props.placeID}/rating`,
+            data: newRating,
+        });
     }
 
     navigate(page, props, goBack) {
@@ -274,14 +292,6 @@ export class Review extends React.Component {
     }
 }
 
-function mapStateToProps(state) {
-    return {
-        places: state.main.appData.app && state.main.appData.app.places,
-        reviewerID: state.main.userAuth.uid,
-        reviewer: state.main.appData.users[state.main.userAuth.uid],
-    };
-}
-
 const styles = StyleSheet.create({
     container: {
         backgroundColor: styleConstants.white,
@@ -351,5 +361,14 @@ const styles = StyleSheet.create({
         paddingHorizontal: 16,
     },
 });
+
+function mapStateToProps(state) {
+    return {
+        places: state.main.appData.app && state.main.appData.app.places,
+        reviews: state.main.appData.app && state.main.appData.app.reviews,
+        reviewerID: state.main.userAuth.uid,
+        reviewer: state.main.appData.users[state.main.userAuth.uid],
+    };
+}
 
 export default connect(mapStateToProps)(Review);

@@ -22,15 +22,14 @@ import {
     TabBar,
     ButtonIcon,
 } from "react-native-simple-components";
+import SideMenu from "react-native-side-menu";
+import SideMenuComponent from "../components/SideMenuComponent";
+import Logo from "../components/Logo";
 import Icon from "react-native-vector-icons/MaterialIcons";
 import CustomIcon from "../assets/icons";
 import { AnimateScale } from "react-native-simple-animators";
 import FindPlaceModal from "../modals/FindPlaceModal";
 import PlaceList from "../lists/PlaceList";
-import InfoBlock from "../components/InfoBlock";
-import SideMenu from "react-native-side-menu";
-import SideMenuComponent from "../components/SideMenuComponent";
-import Logo from "../components/Logo";
 
 export class Home extends React.Component {
     constructor(props) {
@@ -54,8 +53,8 @@ export class Home extends React.Component {
                 iconName: "location-on",
             },
             {
-                title: "My Places",
-                iconName: "home",
+                title: "Top Rated",
+                iconName: "star",
             },
         ];
 
@@ -179,7 +178,6 @@ export class Home extends React.Component {
 
         let placesComponent;
         let places = [];
-        let blankState;
 
         if (this.props.places) {
             if (this.state.activeTab === "Featured") {
@@ -196,38 +194,30 @@ export class Home extends React.Component {
                     true,
                 );
 
+                // Calculate the relative distance to each place
+                places = places.map((place, index) => {
+                    return {
+                        ...place,
+                        relativeDistance: utilities.getDistanceBetweenCoordinateSets(
+                            place.location,
+                            this.props.userLocation,
+                        ),
+                    };
+                });
+
+                // Sort
                 places = utilities.sortArrayOfObjectsByKey(
                     places,
                     "relativeDistance",
                 );
             } else {
-                // My Places
-                if (this.props.userCheckIns) {
-                    places = utilities.convertDictionaryToArray(
-                        this.props.places,
-                        true,
-                    );
+                // Top rated places
+                places = utilities.convertDictionaryToArray(
+                    this.props.places,
+                    true,
+                );
 
-                    places = places.filter(place => {
-                        // Only if we have been there
-                        return utilities.isValueInArray(
-                            place.id,
-                            this.props.userCheckIns,
-                        );
-                    });
-                } else {
-                    blankState = (
-                        <View
-                            style={{
-                                backgroundColor: styleConstants.white,
-                            }}>
-                            <InfoBlock
-                                title="Turn water into wine."
-                                description="Start visiting wine farms, mark them as visited and they'll end up here. Each visit is worth 5 corks which will be tallied on the leaderboard. Get cracking omigo!"
-                            />
-                        </View>
-                    );
-                }
+                console.log(places);
             }
 
             placesComponent = (
@@ -274,6 +264,10 @@ export class Home extends React.Component {
                             leftIconName={this.props.places && "menu"}
                             leftIconStyle={styles.headerIcon}
                             handleLeftIconPress={this.toggleSideMenu}
+                            textComponent={<Logo />}
+                            rightIconName="search"
+                            rightIconStyle={styles.headerIcon}
+                            handleRightIconPress={() => this.navigate("search")}
                             style={styles.header}
                             statusBarColor={
                                 Platform.OS === "android"
@@ -282,7 +276,6 @@ export class Home extends React.Component {
                                         : styleConstants.primary
                                     : null
                             }
-                            textComponent={<Logo />}
                         />
                         <TabBar
                             backgroundColor="transparent"
@@ -296,7 +289,6 @@ export class Home extends React.Component {
                             textStyle={styles.tabBarText}
                         />
                     </View>
-                    {blankState}
                     {placesComponent}
                     <View style={styles.findPlaceButtonWrapper}>
                         {findPlaceButton}
