@@ -38,8 +38,6 @@ export class NetworkHandler extends React.Component {
         );
 
         this.startLatencyTimer();
-
-        // TODO: Handle no connection at all
     }
 
     componentDidUpdate(prevProps, prevState) {
