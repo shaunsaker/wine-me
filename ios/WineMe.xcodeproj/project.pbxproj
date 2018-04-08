@@ -39,6 +39,7 @@
 		7A17FD2B2075156800C8E9E5 /* libRCTImageResizer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A17FD092075156000C8E9E5 /* libRCTImageResizer.a */; };
 		7A289F0C201C5EC700FD0C6D /* Lora-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A289EE1201C5EC700FD0C6D /* Lora-Bold.ttf */; };
 		7A289F10201C665D00FD0C6D /* AppIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A289F0F201C665C00FD0C6D /* AppIcons.ttf */; };
+		7AB193B52079F18000B0AB41 /* libRNFS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AB193B02079F17400B0AB41 /* libRNFS.a */; };
 		7ACF457020178132006E35B4 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7ACF456F20178132006E35B4 /* MaterialIcons.ttf */; };
 		7ACF4572201781A4006E35B4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7ACF4571201781A3006E35B4 /* GoogleService-Info.plist */; };
 		7ACF45C020178238006E35B4 /* Lora-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7ACF45BE20178238006E35B4 /* Lora-Regular.ttf */; };
@@ -265,6 +266,20 @@
 			remoteGlobalIDString = 5D72D2E81C16249000E22EC1;
 			remoteInfo = RCTImageResizer;
 		};
+		7AB193AF2079F17400B0AB41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7AB193832079F17400B0AB41 /* RNFS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F12AFB9B1ADAF8F800E0535D;
+			remoteInfo = RNFS;
+		};
+		7AB193B12079F17400B0AB41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7AB193832079F17400B0AB41 /* RNFS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6456441F1EB8DA9100672408;
+			remoteInfo = "RNFS-tvOS";
+		};
 		7ACF45172017808B006E35B4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
@@ -394,6 +409,7 @@
 		7A17FCFA2075156000C8E9E5 /* RCTImageResizer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTImageResizer.xcodeproj; path = "../node_modules/react-native-image-resizer/ios/RCTImageResizer.xcodeproj"; sourceTree = "<group>"; };
 		7A289EE1201C5EC700FD0C6D /* Lora-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lora-Bold.ttf"; sourceTree = "<group>"; };
 		7A289F0F201C665C00FD0C6D /* AppIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AppIcons.ttf; sourceTree = "<group>"; };
+		7AB193832079F17400B0AB41 /* RNFS.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNFS.xcodeproj; path = "../node_modules/react-native-fs/RNFS.xcodeproj"; sourceTree = "<group>"; };
 		7ACF456F20178132006E35B4 /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
 		7ACF4571201781A3006E35B4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		7ACF45BE20178238006E35B4 /* Lora-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lora-Regular.ttf"; path = "../src/assets/fonts/Lora-Regular.ttf"; sourceTree = "<group>"; };
@@ -427,6 +443,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AB193B52079F18000B0AB41 /* libRNFS.a in Frameworks */,
 				7A17FD2B2075156800C8E9E5 /* libRCTImageResizer.a in Frameworks */,
 				7A17FCD02075144300C8E9E5 /* libRNImagePicker.a in Frameworks */,
 				ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */,
@@ -643,6 +660,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		7AB193842079F17400B0AB41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7AB193B02079F17400B0AB41 /* libRNFS.a */,
+				7AB193B22079F17400B0AB41 /* libRNFS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		7ACF44F120178088006E35B4 /* Recovered References */ = {
 			isa = PBXGroup;
 			children = (
@@ -680,6 +706,7 @@
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				7AB193832079F17400B0AB41 /* RNFS.xcodeproj */,
 				7A17FCFA2075156000C8E9E5 /* RCTImageResizer.xcodeproj */,
 				7A17FCA02075143400C8E9E5 /* RNImagePicker.xcodeproj */,
 				5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */,
@@ -945,6 +972,10 @@
 					ProjectRef = B331DB397A2F480A99A4ADC5 /* RNFirebase.xcodeproj */;
 				},
 				{
+					ProductGroup = 7AB193842079F17400B0AB41 /* Products */;
+					ProjectRef = 7AB193832079F17400B0AB41 /* RNFS.xcodeproj */;
+				},
+				{
 					ProductGroup = 7ACF456020178124006E35B4 /* Products */;
 					ProjectRef = D615506732354DE8B4F56E94 /* RNGeocoder.xcodeproj */;
 				},
@@ -1158,6 +1189,20 @@
 			fileType = archive.ar;
 			path = libRCTImageResizer.a;
 			remoteRef = 7A17FD082075156000C8E9E5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7AB193B02079F17400B0AB41 /* libRNFS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNFS.a;
+			remoteRef = 7AB193AF2079F17400B0AB41 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7AB193B22079F17400B0AB41 /* libRNFS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNFS.a;
+			remoteRef = 7AB193B12079F17400B0AB41 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		7ACF45182017808B006E35B4 /* libjsinspector.a */ = {
@@ -1637,6 +1682,8 @@
 					"$(SRCROOT)/../node_modules/react-native-permissions/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-geocoder/ios/RNGeocoder",
 					"$(SRCROOT)/../node_modules/react-native-firebase/ios/RNFirebase/**",
+					"$(SRCROOT)/../react-native/React/**",
+					"$(SRCROOT)/../../React/**",
 				);
 				INFOPLIST_FILE = WineMe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1668,6 +1715,8 @@
 					"$(SRCROOT)/../node_modules/react-native-permissions/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-geocoder/ios/RNGeocoder",
 					"$(SRCROOT)/../node_modules/react-native-firebase/ios/RNFirebase/**",
+					"$(SRCROOT)/../react-native/React/**",
+					"$(SRCROOT)/../../React/**",
 				);
 				INFOPLIST_FILE = WineMe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

@@ -3,6 +3,7 @@ package co.za.shaunsaker.wineme;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+import com.rnfs.RNFSPackage;
 import fr.bamlab.rnimageresizer.ImageResizerPackage;
 import com.imagepicker.ImagePickerPackage;
 import io.invertase.firebase.RNFirebasePackage;
@@ -31,6 +32,7 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
         new MainReactPackage(),
+            new RNFSPackage(),
         new ImageResizerPackage(),
         new ImagePickerPackage(),
         new RNFirebasePackage(),
