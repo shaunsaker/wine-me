@@ -10,6 +10,7 @@ import {
     ImageWidget,
     StarRating,
 } from "react-native-simple-components";
+import CacheableImage from "react-native-cacheable-image";
 import Label from "./Label";
 import CheckedInIcon from "./CheckedInIcon";
 import CustomIcon from "../assets/icons";
@@ -27,18 +28,19 @@ export default function PlaceCard(props) {
     // }
 
     const photoURL =
+        // Testing "https://www.waterkloofwines.co.za/wp-content/gallery/the-farm/waterkloof-wine-estate.jpg"
         props.place.photos &&
         utilities.getGooglePlacesPhotoURL(
             props.place.photos[0], // first one
         );
 
     const backgroundImage = photoURL ? (
-        <ImageWidget
-            source={{ uri: photoURL }}
+        <CacheableImage
+            source={{
+                uri: photoURL,
+            }}
             style={styles.backgroundImage}
-            loaderColor={styleConstants.primary}
-            loaderStyle={styles.loader}
-            isOffline={!props.isOnline}
+            activityIndicatorProps={{ size: "large" }}
         />
     ) : (
         <View style={styles.backgroundImageIconContainer}>
@@ -124,6 +126,8 @@ const styles = StyleSheet.create({
         right: 0,
         bottom: 0,
         left: 0,
+        overflow: "hidden", // ios
+        borderRadius: 8,
     },
     backgroundImage: {
         borderRadius: 8,
