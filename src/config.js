@@ -9,7 +9,7 @@ config.version = {
     build: 6,
 };
 
-config.googlePlacesAPIKey = "AIzaSyBPNFv3FSsCkPppNLdgHuYDV4eENMXP6Tw";
+config.googlePlacesAPIKey = "AIzaSyDGHAFfoOYg6GmpKl2gGwYuZkiidptYf8k";
 config.imagesMaxHeight = 400;
 
 config.corks = {

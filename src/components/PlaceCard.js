@@ -40,7 +40,17 @@ export default function PlaceCard(props) {
                 uri: photoURL,
             }}
             style={styles.backgroundImage}
-            activityIndicatorProps={{ size: "large" }}
+            useQueryParamsInCacheKey
+            activityIndicatorProps={{
+                size: "large",
+                color: styleConstants.primary,
+                style: {
+                    backgroundColor: "transparent",
+                    flex: 1,
+                    justifyContent: "center",
+                    alignItems: "center",
+                },
+            }}
         />
     ) : (
         <View style={styles.backgroundImageIconContainer}>

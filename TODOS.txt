@@ -1,7 +1,9 @@
 BUGS
 
 TODOS
+    Fix distance label on PlaceCard
     Google places API limits?
+        Pay || Use stored images || Use user images
     UserProfile with no user
     Offline check in
     Labels are scrollable in ScrollHeader
