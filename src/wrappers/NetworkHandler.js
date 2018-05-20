@@ -2,6 +2,7 @@ import React from "react";
 import { NetInfo } from "react-native";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
+import firebase from 'react-native-firebase'
 
 import Analytics from "../analytics";
 
