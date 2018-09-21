@@ -1,4 +1,4 @@
-package com.temp;
+package co.za.shaunsaker.wineme;
 
 import android.app.Application;
 
