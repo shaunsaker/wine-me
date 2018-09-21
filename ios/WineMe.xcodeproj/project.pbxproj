@@ -13,6 +13,7 @@
 		00C302E91ABCBA2D00DB3ED1 /* libRCTNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302DC1ABCB9D200DB3ED1 /* libRCTNetwork.a */; };
 		00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302E41ABCB9EE00DB3ED1 /* libRCTVibration.a */; };
 		00E356F31AD99517003FC87E /* WineMeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* WineMeTests.m */; };
+		0693EC00AFD84FD97304D6E4 /* libPods-WineMe-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A0AE1A3B9DC492A3979874F /* libPods-WineMe-tvOSTests.a */; };
 		11D1A2F320CAFA9E000508D9 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
 		133E29F31AD74F7200F7D852 /* libRCTLinking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C398B91ACF4ADC00677621 /* libRCTLinking.a */; };
 		139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139105C11AF99BAD00B5F7CC /* libRCTSettings.a */; };
@@ -36,7 +37,9 @@
 		2D16E6881FA4F8E400B85C8A /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D16E6891FA4F8E400B85C8A /* libReact.a */; };
 		2DCD954D1E0B4F2C00145EB5 /* WineMeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* WineMeTests.m */; };
 		2DF0FFEE2056DD460020B375 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EA31DF850E9000B6D8A /* libReact.a */; };
+		312DEC34BA458D13F3F332DC /* libPods-WineMe.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 89A74479545D08D759DF8955 /* libPods-WineMe.a */; };
 		58A3ADDD7FDF444CA7320207 /* libRCTFBSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CB12AB1ECD1423883922B09 /* libRCTFBSDK.a */; };
+		59C80EBFD0F56D03729BB5C7 /* libPods-WineMeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 130473F84A21E0050B2ECAF5 /* libPods-WineMeTests.a */; };
 		7A5671C021555F170070A7C5 /* libReactNativePermissions.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A5671BE21555F010070A7C5 /* libReactNativePermissions.a */; };
 		7AB5E9B5215556DE00EE42AE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7AB5E98F215556DE00EE42AE /* GoogleService-Info.plist */; };
 		7ACE040021555892002EB7F7 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7ACE03DA21555892002EB7F7 /* MaterialIcons.ttf */; };
@@ -47,6 +50,8 @@
 		959C91AA953D46C2811BBD0B /* libRNSnackbar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B05367D147846D6BDCAB5C1 /* libRNSnackbar.a */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
 		B5B2D7B0A458422BAB3CF849 /* libFastImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00BC3C2C812D451E92A5B03A /* libFastImage.a */; };
+		DE6C4EC7A699494DB04A6F09 /* libRNFirebase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A9C0D18DF6E84650ADEFF606 /* libRNFirebase.a */; };
+		FBA63189B2D509C82380DB19 /* libPods-WineMe-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 15ACF6B3C42EEBDC7AEE6EE2 /* libPods-WineMe-tvOS.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -316,6 +321,13 @@
 			remoteGlobalIDString = 9D23B34F1C767B80008B4819;
 			remoteInfo = ReactNativePermissions;
 		};
+		7A56720021555F500070A7C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6E7A8DD40F748E1B61F7000 /* RNFirebase.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RNFirebase;
+		};
 		7ACE0436215558BF002EB7F7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5FF426065D7E4B069534960B /* RNSnackbar.xcodeproj */;
@@ -364,6 +376,7 @@
 		00E356EE1AD99517003FC87E /* WineMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WineMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* WineMeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WineMeTests.m; sourceTree = "<group>"; };
+		130473F84A21E0050B2ECAF5 /* libPods-WineMeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WineMeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTSettings.xcodeproj; path = "../node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj"; sourceTree = "<group>"; };
 		139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "../node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* WineMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WineMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -374,14 +387,19 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = WineMe/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = WineMe/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
+		15ACF6B3C42EEBDC7AEE6EE2 /* libPods-WineMe-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WineMe-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A0AE1A3B9DC492A3979874F /* libPods-WineMe-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WineMe-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E47B1E0B4A5D006451C7 /* WineMe-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WineMe-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* WineMe-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WineMe-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		33EA4D1C32FD44329B9408C6 /* RCTFBSDK.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RCTFBSDK.xcodeproj; path = "../node_modules/react-native-fbsdk/ios/RCTFBSDK.xcodeproj"; sourceTree = "<group>"; };
+		36E68865F79EFDCBDB75B06C /* Pods-WineMe-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WineMe-tvOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WineMe-tvOSTests/Pods-WineMe-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		4042E377A6A9443A904EBD09 /* FastImage.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = FastImage.xcodeproj; path = "../node_modules/react-native-fast-image/ios/FastImage.xcodeproj"; sourceTree = "<group>"; };
+		4E524E7D876FFCDDD2018BB9 /* Pods-WineMe-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WineMe-tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WineMe-tvOS/Pods-WineMe-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		5B05367D147846D6BDCAB5C1 /* libRNSnackbar.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNSnackbar.a; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
 		5FF426065D7E4B069534960B /* RNSnackbar.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNSnackbar.xcodeproj; path = "../node_modules/react-native-snackbar/ios/RNSnackbar.xcodeproj"; sourceTree = "<group>"; };
+		6D4EEA5A1C2DFABEA6D1042C /* Pods-WineMe-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WineMe-tvOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WineMe-tvOSTests/Pods-WineMe-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		7A56719221555F010070A7C5 /* ReactNativePermissions.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ReactNativePermissions.xcodeproj; path = "../node_modules/react-native-permissions/ios/ReactNativePermissions.xcodeproj"; sourceTree = "<group>"; };
 		7AB5E98F215556DE00EE42AE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -390,8 +408,16 @@
 		7ACE04AD21555D7C002EB7F7 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		7ACE04AE21555D7D002EB7F7 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
+		89A74479545D08D759DF8955 /* libPods-WineMe.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WineMe.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CB12AB1ECD1423883922B09 /* libRCTFBSDK.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRCTFBSDK.a; sourceTree = "<group>"; };
+		A9C0D18DF6E84650ADEFF606 /* libRNFirebase.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNFirebase.a; sourceTree = "<group>"; };
+		ABE3986E203DFAB324314D58 /* Pods-WineMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WineMe.release.xcconfig"; path = "Pods/Target Support Files/Pods-WineMe/Pods-WineMe.release.xcconfig"; sourceTree = "<group>"; };
+		AD6D9B64222A8A7EFEB83693 /* Pods-WineMeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WineMeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WineMeTests/Pods-WineMeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
+		BC29335D9AE2F8294CDE3C74 /* Pods-WineMe-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WineMe-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-WineMe-tvOS/Pods-WineMe-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		D24153E7329AC6BD11CA929C /* Pods-WineMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WineMe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WineMe/Pods-WineMe.debug.xcconfig"; sourceTree = "<group>"; };
+		E6E7A8DD40F748E1B61F7000 /* RNFirebase.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNFirebase.xcodeproj; path = "../node_modules/react-native-firebase/ios/RNFirebase.xcodeproj"; sourceTree = "<group>"; };
+		EA509DAD1AAECA69633314BE /* Pods-WineMeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WineMeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WineMeTests/Pods-WineMeTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -400,6 +426,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */,
+				59C80EBFD0F56D03729BB5C7 /* libPods-WineMeTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,6 +453,8 @@
 				B5B2D7B0A458422BAB3CF849 /* libFastImage.a in Frameworks */,
 				58A3ADDD7FDF444CA7320207 /* libRCTFBSDK.a in Frameworks */,
 				7ACE04AF21555D7D002EB7F7 /* Bolts.framework in Frameworks */,
+				DE6C4EC7A699494DB04A6F09 /* libRNFirebase.a in Frameworks */,
+				312DEC34BA458D13F3F332DC /* libPods-WineMe.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,6 +470,7 @@
 				2D02E4C61E0B4AEC006451C7 /* libRCTSettings-tvOS.a in Frameworks */,
 				2D02E4C71E0B4AEC006451C7 /* libRCTText-tvOS.a in Frameworks */,
 				2D02E4C81E0B4AEC006451C7 /* libRCTWebSocket-tvOS.a in Frameworks */,
+				FBA63189B2D509C82380DB19 /* libPods-WineMe-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,6 +479,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DF0FFEE2056DD460020B375 /* libReact.a in Frameworks */,
+				0693EC00AFD84FD97304D6E4 /* libPods-WineMe-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -578,6 +609,10 @@
 				7ACE04AC21555D7C002EB7F7 /* Bolts.framework */,
 				7ACE04AD21555D7C002EB7F7 /* FBSDKCoreKit.framework */,
 				7ACE04AE21555D7D002EB7F7 /* FBSDKLoginKit.framework */,
+				89A74479545D08D759DF8955 /* libPods-WineMe.a */,
+				15ACF6B3C42EEBDC7AEE6EE2 /* libPods-WineMe-tvOS.a */,
+				2A0AE1A3B9DC492A3979874F /* libPods-WineMe-tvOSTests.a */,
+				130473F84A21E0050B2ECAF5 /* libPods-WineMeTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -608,12 +643,21 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		7A5671FD21555F500070A7C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A56720121555F500070A7C5 /* libRNFirebase.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		7ACE040D215558BE002EB7F7 /* Recovered References */ = {
 			isa = PBXGroup;
 			children = (
 				5B05367D147846D6BDCAB5C1 /* libRNSnackbar.a */,
 				00BC3C2C812D451E92A5B03A /* libFastImage.a */,
 				9CB12AB1ECD1423883922B09 /* libRCTFBSDK.a */,
+				A9C0D18DF6E84650ADEFF606 /* libRNFirebase.a */,
 			);
 			name = "Recovered References";
 			sourceTree = "<group>";
@@ -661,6 +705,7 @@
 				5FF426065D7E4B069534960B /* RNSnackbar.xcodeproj */,
 				4042E377A6A9443A904EBD09 /* FastImage.xcodeproj */,
 				33EA4D1C32FD44329B9408C6 /* RCTFBSDK.xcodeproj */,
+				E6E7A8DD40F748E1B61F7000 /* RNFirebase.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -685,6 +730,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				7ACE040D215558BE002EB7F7 /* Recovered References */,
+				F6E5F4DB49F5E8968471B5E9 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -711,6 +757,21 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		F6E5F4DB49F5E8968471B5E9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D24153E7329AC6BD11CA929C /* Pods-WineMe.debug.xcconfig */,
+				ABE3986E203DFAB324314D58 /* Pods-WineMe.release.xcconfig */,
+				4E524E7D876FFCDDD2018BB9 /* Pods-WineMe-tvOS.debug.xcconfig */,
+				BC29335D9AE2F8294CDE3C74 /* Pods-WineMe-tvOS.release.xcconfig */,
+				6D4EEA5A1C2DFABEA6D1042C /* Pods-WineMe-tvOSTests.debug.xcconfig */,
+				36E68865F79EFDCBDB75B06C /* Pods-WineMe-tvOSTests.release.xcconfig */,
+				AD6D9B64222A8A7EFEB83693 /* Pods-WineMeTests.debug.xcconfig */,
+				EA509DAD1AAECA69633314BE /* Pods-WineMeTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -718,6 +779,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "WineMeTests" */;
 			buildPhases = (
+				1BE3EA7E959A28A791C21B33 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
@@ -736,10 +798,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "WineMe" */;
 			buildPhases = (
+				717582733FE750C9F2BC5F03 /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				B608B58BDF8E4BE4F3406790 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -754,6 +818,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "WineMe-tvOS" */;
 			buildPhases = (
+				4C3076BEFC8300F6E1386487 /* [CP] Check Pods Manifest.lock */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
 				2D02E4791E0B4A5D006451C7 /* Resources */,
@@ -772,6 +837,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "WineMe-tvOSTests" */;
 			buildPhases = (
+				1E5E3B28A974A7E1774831F3 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -884,6 +950,10 @@
 				{
 					ProductGroup = 7A56719321555F010070A7C5 /* Products */;
 					ProjectRef = 7A56719221555F010070A7C5 /* ReactNativePermissions.xcodeproj */;
+				},
+				{
+					ProductGroup = 7A5671FD21555F500070A7C5 /* Products */;
+					ProjectRef = E6E7A8DD40F748E1B61F7000 /* RNFirebase.xcodeproj */;
 				},
 				{
 					ProductGroup = 7ACE0433215558BF002EB7F7 /* Products */;
@@ -1153,6 +1223,13 @@
 			remoteRef = 7A5671BD21555F010070A7C5 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		7A56720121555F500070A7C5 /* libRNFirebase.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNFirebase.a;
+			remoteRef = 7A56720021555F500070A7C5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		7ACE0437215558BF002EB7F7 /* libRNSnackbar.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -1241,6 +1318,42 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
+		1BE3EA7E959A28A791C21B33 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WineMeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1E5E3B28A974A7E1774831F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WineMe-tvOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1254,6 +1367,60 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		4C3076BEFC8300F6E1386487 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WineMe-tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		717582733FE750C9F2BC5F03 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WineMe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B608B58BDF8E4BE4F3406790 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WineMe/Pods-WineMe-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/gRPC/gRPCCertificates.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gRPCCertificates.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WineMe/Pods-WineMe-resources.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -1322,6 +1489,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD6D9B64222A8A7EFEB83693 /* Pods-WineMeTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1333,12 +1501,14 @@
 					"$(SRCROOT)/../node_modules/react-native-snackbar/ios",
 					"$(SRCROOT)/../node_modules/react-native-fast-image/ios/FastImage/**",
 					"$(SRCROOT)/../node_modules/react-native-fbsdk/ios/RCTFBSDK/**",
+					"$(SRCROOT)/../node_modules/react-native-firebase/ios/RNFirebase/**",
 				);
 				INFOPLIST_FILE = WineMeTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
@@ -1355,6 +1525,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA509DAD1AAECA69633314BE /* Pods-WineMeTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -1363,12 +1534,14 @@
 					"$(SRCROOT)/../node_modules/react-native-snackbar/ios",
 					"$(SRCROOT)/../node_modules/react-native-fast-image/ios/FastImage/**",
 					"$(SRCROOT)/../node_modules/react-native-fbsdk/ios/RCTFBSDK/**",
+					"$(SRCROOT)/../node_modules/react-native-firebase/ios/RNFirebase/**",
 				);
 				INFOPLIST_FILE = WineMeTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
@@ -1385,6 +1558,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D24153E7329AC6BD11CA929C /* Pods-WineMe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
@@ -1399,6 +1573,7 @@
 					"$(SRCROOT)/../node_modules/react-native-snackbar/ios",
 					"$(SRCROOT)/../node_modules/react-native-fast-image/ios/FastImage/**",
 					"$(SRCROOT)/../node_modules/react-native-fbsdk/ios/RCTFBSDK/**",
+					"$(SRCROOT)/../node_modules/react-native-firebase/ios/RNFirebase/**",
 				);
 				INFOPLIST_FILE = WineMe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1415,6 +1590,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABE3986E203DFAB324314D58 /* Pods-WineMe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
@@ -1428,6 +1604,7 @@
 					"$(SRCROOT)/../node_modules/react-native-snackbar/ios",
 					"$(SRCROOT)/../node_modules/react-native-fast-image/ios/FastImage/**",
 					"$(SRCROOT)/../node_modules/react-native-fbsdk/ios/RCTFBSDK/**",
+					"$(SRCROOT)/../node_modules/react-native-firebase/ios/RNFirebase/**",
 				);
 				INFOPLIST_FILE = WineMe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1444,6 +1621,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E524E7D876FFCDDD2018BB9 /* Pods-WineMe-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -1459,11 +1637,13 @@
 					"$(SRCROOT)/../node_modules/react-native-snackbar/ios",
 					"$(SRCROOT)/../node_modules/react-native-fast-image/ios/FastImage/**",
 					"$(SRCROOT)/../node_modules/react-native-fbsdk/ios/RCTFBSDK/**",
+					"$(SRCROOT)/../node_modules/react-native-firebase/ios/RNFirebase/**",
 				);
 				INFOPLIST_FILE = "WineMe-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
@@ -1482,6 +1662,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC29335D9AE2F8294CDE3C74 /* Pods-WineMe-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -1497,11 +1678,13 @@
 					"$(SRCROOT)/../node_modules/react-native-snackbar/ios",
 					"$(SRCROOT)/../node_modules/react-native-fast-image/ios/FastImage/**",
 					"$(SRCROOT)/../node_modules/react-native-fbsdk/ios/RCTFBSDK/**",
+					"$(SRCROOT)/../node_modules/react-native-firebase/ios/RNFirebase/**",
 				);
 				INFOPLIST_FILE = "WineMe-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
@@ -1520,6 +1703,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D4EEA5A1C2DFABEA6D1042C /* Pods-WineMe-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -1534,11 +1718,13 @@
 					"$(SRCROOT)/../node_modules/react-native-snackbar/ios",
 					"$(SRCROOT)/../node_modules/react-native-fast-image/ios/FastImage/**",
 					"$(SRCROOT)/../node_modules/react-native-fbsdk/ios/RCTFBSDK/**",
+					"$(SRCROOT)/../node_modules/react-native-firebase/ios/RNFirebase/**",
 				);
 				INFOPLIST_FILE = "WineMe-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
@@ -1557,6 +1743,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36E68865F79EFDCBDB75B06C /* Pods-WineMe-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -1571,11 +1758,13 @@
 					"$(SRCROOT)/../node_modules/react-native-snackbar/ios",
 					"$(SRCROOT)/../node_modules/react-native-fast-image/ios/FastImage/**",
 					"$(SRCROOT)/../node_modules/react-native-fbsdk/ios/RCTFBSDK/**",
+					"$(SRCROOT)/../node_modules/react-native-firebase/ios/RNFirebase/**",
 				);
 				INFOPLIST_FILE = "WineMe-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
