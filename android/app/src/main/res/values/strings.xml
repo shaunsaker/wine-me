@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">WineMe</string>
+    <string name="facebook_app_id">139216243389050</string>
+    <string name="fb_login_protocol_scheme">fb139216243389050</string>
 </resources>

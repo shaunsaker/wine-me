@@ -57,5 +57,25 @@
 	<array>
 			<string>MaterialIcons.ttf</string>
 	</array>
+
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+		<key>CFBundleURLSchemes</key>
+		<array>
+			<string>fb139216243389050</string>
+		</array>
+		</dict>
+	</array>
+	<key>FacebookAppID</key>
+	<string>139216243389050</string>
+	<key>FacebookDisplayName</key>
+	<string>WineMe</string>
+
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>fbapi</string>
+		<string>fbauth2</string>
+	</array>
 </dict>
 </plist>
