@@ -38,30 +38,31 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
+          new RNFirebasePackage(),
           new FBSDKPackage(mCallbackManager),
           new FastImageViewPackage(),
           new SnackbarPackage(),
           new RNFirebasePackage(),
           new RNFirebaseAuthPackage(),
           new RNFirebaseFirestorePackage(),
-          new RNGeocoderPackage())
+          new RNGeocoderPackage()
       );
     }
 
     @Override
-    protected String getJSMainModuleName() {
-      return "index";
-    }
-  };
+      protected String getJSMainModuleName() {
+        return "index";
+      }
+    };
 
   @Override
   public ReactNativeHost getReactNativeHost() {
     return mReactNativeHost;
   }
 
-   @Override
-    public void onActivityResult(int requestCode, int resultCode, Intent data) {
-        super.onActivityResult(requestCode, resultCode, data);
-        MainApplication.getCallbackManager().onActivityResult(requestCode, resultCode, data);
-    }
+  @Override
+    public void onCreate() {
+    super.onCreate();
+    FacebookSdk.sdkInitialize(getApplicationContext());
+  }
 }
