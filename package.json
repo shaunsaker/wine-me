@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
-    "test": "jest"
+    "test": "jest",
+    "storybook": "storybook start -p 7007"
   },
   "dependencies": {
     "prop-types": "^15.6.2",
@@ -39,7 +40,14 @@
     "eslint-plugin-react-native": "^3.3.0",
     "jest": "23.6.0",
     "metro-react-native-babel-preset": "0.45.6",
-    "react-test-renderer": "16.5.0"
+    "react-test-renderer": "16.5.0",
+    "@storybook/react-native": "^3.4.11",
+    "@storybook/addon-actions": "^3.4.11",
+    "@storybook/addon-links": "^3.4.11",
+    "@storybook/addons": "^3.4.11",
+    "babel-core": "^6.26.3",
+    "babel-runtime": "^6.26.0",
+    "react-dom": "16.5.0"
   },
   "jest": {
     "preset": "react-native"
