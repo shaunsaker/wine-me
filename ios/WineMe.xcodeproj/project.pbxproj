@@ -42,6 +42,7 @@
 		59C80EBFD0F56D03729BB5C7 /* libPods-WineMeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 130473F84A21E0050B2ECAF5 /* libPods-WineMeTests.a */; };
 		7A5671C021555F170070A7C5 /* libReactNativePermissions.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A5671BE21555F010070A7C5 /* libReactNativePermissions.a */; };
 		7A56725A2155630E0070A7C5 /* libRNGeocoder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A567258215562FB0070A7C5 /* libRNGeocoder.a */; };
+		7AA02190215565BE00B983EB /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AA02164215565BE00B983EB /* FBSDKShareKit.framework */; };
 		7AB5E9B5215556DE00EE42AE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7AB5E98F215556DE00EE42AE /* GoogleService-Info.plist */; };
 		7ACE040021555892002EB7F7 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7ACE03DA21555892002EB7F7 /* MaterialIcons.ttf */; };
 		7ACE04AF21555D7D002EB7F7 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ACE04AC21555D7C002EB7F7 /* Bolts.framework */; };
@@ -411,6 +412,7 @@
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		7A56719221555F010070A7C5 /* ReactNativePermissions.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ReactNativePermissions.xcodeproj; path = "../node_modules/react-native-permissions/ios/ReactNativePermissions.xcodeproj"; sourceTree = "<group>"; };
 		7A56722A215562FB0070A7C5 /* RNGeocoder.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNGeocoder.xcodeproj; path = "../node_modules/react-native-geocoder/ios/RNGeocoder.xcodeproj"; sourceTree = "<group>"; };
+		7AA02164215565BE00B983EB /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = ../../../Documents/FacebookSDK/FBSDKShareKit.framework; sourceTree = "<group>"; };
 		7AB5E98F215556DE00EE42AE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		7ACE03DA21555892002EB7F7 /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
 		7ACE04AC21555D7C002EB7F7 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
@@ -450,6 +452,7 @@
 				7ACE04B121555D7D002EB7F7 /* FBSDKLoginKit.framework in Frameworks */,
 				7ACE04B021555D7D002EB7F7 /* FBSDKCoreKit.framework in Frameworks */,
 				146834051AC3E58100842450 /* libReact.a in Frameworks */,
+				7AA02190215565BE00B983EB /* FBSDKShareKit.framework in Frameworks */,
 				00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */,
 				00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */,
 				00C302E81ABCBA2D00DB3ED1 /* libRCTImage.a in Frameworks */,
@@ -623,6 +626,7 @@
 				15ACF6B3C42EEBDC7AEE6EE2 /* libPods-WineMe-tvOS.a */,
 				2A0AE1A3B9DC492A3979874F /* libPods-WineMe-tvOSTests.a */,
 				130473F84A21E0050B2ECAF5 /* libPods-WineMeTests.a */,
+				7AA02164215565BE00B983EB /* FBSDKShareKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
