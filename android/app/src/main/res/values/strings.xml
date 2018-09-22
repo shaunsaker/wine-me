@@ -1,4 +1,5 @@
 <resources>
+    <string moduleConfig="true" name="reactNativeCodePush_androidDeploymentKey">KDTRqEOTqAfEzERiw78znHiwZe5Te941d2cf-909b-4139-a2dd-196406e4cc30</string>
     <string name="app_name">WineMe</string>
     <string name="facebook_app_id">139216243389050</string>
     <string name="fb_login_protocol_scheme">fb139216243389050</string>
