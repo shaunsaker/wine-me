@@ -2,6 +2,7 @@ import React from 'react';
 import { Provider } from 'react-redux';
 import { PersistGate } from 'redux-persist/integration/react';
 import codepush from 'react-native-code-push';
+import { YellowBox } from 'react-native';
 
 import { store, persistor } from './store';
 import Routes from './scenes';
@@ -19,7 +20,7 @@ import LocationHandler from './handlers/LocationHandler';
 // }
 
 // Disable remote debugger warnings
-console.ignoredYellowBox = ['Remote debugger', 'Warning: isMounted(...) is deprecated'];
+YellowBox.ignoreWarnings(['Remote debugger', 'Warning: isMounted(...) is deprecated']);
 
 export function App() {
   return (
