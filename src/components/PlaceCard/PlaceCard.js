@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { View, Text } from 'react-native';
+import LinearGradient from 'react-native-linear-gradient';
 
 import styleConstants from '../../styleConstants';
 
@@ -24,8 +25,7 @@ const defaultProps = {};
 
   - A touchable container
   - An image
-  - A title
-  - A label
+  - A title and a label wrapped in a linear gradient for better text contrast
 */
 
 const PlaceCard = ({ imageSource, title, label, handlePress }) => {
@@ -42,12 +42,14 @@ const PlaceCard = ({ imageSource, title, label, handlePress }) => {
           loaderColor={styleConstants.colors.primary}
         />
       </View>
-
-      <View style={styles.textContainer}>
+      <LinearGradient
+        colors={['transparent', styleConstants.colors.transBlack]}
+        style={styles.textContainer}
+      >
         <Text style={styles.titleText}>{title}</Text>
 
         {labelComponent}
-      </View>
+      </LinearGradient>
     </Touchable>
   );
 };

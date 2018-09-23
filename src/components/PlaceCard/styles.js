@@ -19,6 +19,7 @@ const styles = StyleSheet.create({
     alignItems: 'flex-start',
     paddingVertical: styleConstants.dimensions.spacing.vertical,
     paddingHorizontal: styleConstants.dimensions.spacing.horizontal,
+    paddingTop: 30, // for linear gradient
   },
   titleText: {
     ...styleConstants.fonts.types.heading,

@@ -7,7 +7,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: styleConstants.colors.primary,
+    backgroundColor: styleConstants.colors.white,
     paddingVertical: styleConstants.dimensions.spacing.vertical / 2,
     paddingHorizontal: styleConstants.dimensions.spacing.horizontal / 2,
     ...styleConstants.shadows.small,
@@ -20,7 +20,6 @@ const styles = StyleSheet.create({
   },
   text: {
     ...styleConstants.fonts.types.extraSmall,
-    color: styleConstants.colors.white,
   },
 });
 

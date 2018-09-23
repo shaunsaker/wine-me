@@ -36,9 +36,10 @@ const Label = ({
 }) => {
   const shadowStyles = showShadow && styleConstants.shadows.small;
 
-  const iconComponent = customIcon || (
-    <MaterialIcon name={iconName} style={[styles.icon, iconStyle]} />
-  );
+  const iconComponent =
+    customIcon || iconName ? (
+      <MaterialIcon name={iconName} style={[styles.icon, iconStyle]} />
+    ) : null;
 
   return (
     <Touchable
