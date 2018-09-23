@@ -13,6 +13,6 @@ dimensions.spacing = {
   horizontal: 15,
 };
 
-dimensions.borderRadius = 10;
+dimensions.borderRadius = 5;
 
 export default dimensions;
