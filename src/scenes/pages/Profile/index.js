@@ -4,6 +4,7 @@ import { connect } from 'react-redux';
 import { View } from 'react-native';
 
 import Page from '../../../components/Page';
+import TabBar from '../../../components/TabBar';
 
 export class Profile extends React.Component {
   constructor(props) {
@@ -20,6 +21,8 @@ export class Profile extends React.Component {
     return (
       <Page>
         <View />
+
+        <TabBar />
       </Page>
     );
   }
