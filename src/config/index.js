@@ -1,11 +1,7 @@
-import images from './images';
-import googleSignIn from './googleSignIn';
-import slack from './slack';
+import googlePlaces from './googlePlaces';
 
 const config = {
-  images,
-  googleSignIn,
-  slack,
+  googlePlaces,
 };
 
 export default config;
