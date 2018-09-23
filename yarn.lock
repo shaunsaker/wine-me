@@ -7615,6 +7615,10 @@ react-native-keyboard-aware-scroll-view@^0.7.2:
     prop-types "^15.6.2"
     react-native-iphone-x-helper "^1.0.3"
 
+react-native-linear-gradient@^2.4.2:
+  version "2.4.2"
+  resolved "https://registry.yarnpkg.com/react-native-linear-gradient/-/react-native-linear-gradient-2.4.2.tgz#9d3acd0a198b9d4566e8f6253ef1f60fef0ff2be"
+
 react-native-material-menu@^0.4.0:
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/react-native-material-menu/-/react-native-material-menu-0.4.0.tgz#e892dd1425c872c05fc08cc65bc82879751b87ad"
