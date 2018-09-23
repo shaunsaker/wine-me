@@ -15,7 +15,7 @@ export default class RemoteImage extends React.Component {
     this.setLoading = this.setLoading.bind(this);
 
     this.state = {
-      isLoading: true,
+      isLoading: false,
       hasError: false,
     };
   }
@@ -73,6 +73,7 @@ export default class RemoteImage extends React.Component {
         <FastImage
           source={source}
           style={[styles.image, borderRadiusStyles, style]}
+          onLoadStart={() => this.setLoading(true)}
           onLoadEnd={() => this.setLoading(false)}
           onError={this.setError}
         />
