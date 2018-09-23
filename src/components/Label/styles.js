@@ -7,18 +7,20 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: styleConstants.colors.dividerColor,
-    paddingVertical: styleConstants.dimensions.padding.small / 2,
-    paddingHorizontal: styleConstants.dimensions.padding.small,
+    backgroundColor: styleConstants.colors.primary,
+    paddingVertical: styleConstants.dimensions.spacing.vertical / 2,
+    paddingHorizontal: styleConstants.dimensions.spacing.horizontal / 2,
+    ...styleConstants.shadows.small,
+    borderRadius: styleConstants.dimensions.borderRadius,
   },
   icon: {
     fontSize: styleConstants.fonts.sizes.icon,
     color: styleConstants.colors.primaryText,
-    marginRight: styleConstants.dimensions.margin.small,
+    marginRight: styleConstants.dimensions.spacing.horizontal / 2,
   },
   text: {
-    fontSize: styleConstants.fonts.types.small,
-    color: styleConstants.colors.primaryText,
+    ...styleConstants.fonts.types.extraSmall,
+    color: styleConstants.colors.white,
   },
 });
 

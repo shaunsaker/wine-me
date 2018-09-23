@@ -3,8 +3,10 @@ import PropTypes from 'prop-types';
 import { Text, ViewPropTypes } from 'react-native';
 import MaterialIcon from 'react-native-vector-icons/MaterialIcons';
 
-import styles from './styles';
 import styleConstants from '../../styleConstants';
+
+import styles from './styles';
+
 import Touchable from '../Touchable';
 
 const propTypes = {

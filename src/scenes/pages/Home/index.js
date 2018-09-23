@@ -1,8 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-import { Page } from 'react-native-simple-components';
-import { Text } from 'react-native';
+
+import PLACE from '../../../mockData/place';
+
+import Page from '../../../components/Page';
+import PlaceCard from '../../../components/PlaceCard';
 
 export class Home extends React.Component {
   constructor(props) {
@@ -17,8 +20,8 @@ export class Home extends React.Component {
 
   render() {
     return (
-      <Page verticalCenter horizontalCenter>
-        <Text>Hello World!</Text>
+      <Page>
+        <PlaceCard place={PLACE} />
       </Page>
     );
   }
