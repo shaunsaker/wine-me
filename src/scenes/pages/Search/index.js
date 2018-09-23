@@ -4,7 +4,6 @@ import { connect } from 'react-redux';
 import { View } from 'react-native';
 
 import Page from '../../../components/Page';
-import HeaderBar from '../../../components/HeaderBar';
 
 export class Search extends React.Component {
   constructor(props) {
@@ -20,8 +19,6 @@ export class Search extends React.Component {
   render() {
     return (
       <Page>
-        <HeaderBar />
-
         <View />
       </Page>
     );

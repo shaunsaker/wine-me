@@ -5,11 +5,6 @@ const TABS = [
     sceneKey: '_home',
   },
   {
-    name: 'Search',
-    iconName: 'search',
-    sceneKey: '_search',
-  },
-  {
     name: 'Profile',
     iconName: 'person',
     sceneKey: '_profile',

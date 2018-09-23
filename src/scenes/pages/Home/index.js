@@ -6,7 +6,6 @@ import { View } from 'react-native';
 import PLACE from '../../../mockData/PLACE';
 
 import Page from '../../../components/Page';
-import HeaderBar from '../../../components/HeaderBar';
 import PlaceCard from '../../../components/PlaceCard';
 import TabBar from '../../../components/TabBar';
 
@@ -24,8 +23,6 @@ export class Home extends React.Component {
   render() {
     return (
       <Page>
-        <HeaderBar />
-
         <View style={{ flex: 1, marginTop: 200 }}>
           <PlaceCard place={PLACE} />
         </View>
