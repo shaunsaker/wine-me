@@ -3,19 +3,16 @@ import PropTypes from 'prop-types';
 import {
   View,
   TouchableNativeFeedback,
-  TouchableWithoutFeedback,
   TouchableOpacity,
   Platform,
   ViewPropTypes,
 } from 'react-native';
 
+import styleConstants from '../../styleConstants';
+
 const propTypes = {
-  androidRipple: PropTypes.bool, // flag to display android ripple effect
-  androidRippleColor: PropTypes.string,
-  androidRippleBorderless: PropTypes.bool, // android ripple will extend beyond object boundaries
   onPress: PropTypes.func,
   onLongPress: PropTypes.func,
-  disableFeedback: PropTypes.bool, // will render TouchableWithoutFeedback
   disabled: PropTypes.bool,
   children: PropTypes.node,
   style: ViewPropTypes.style,
@@ -24,42 +21,22 @@ const propTypes = {
 
 const defaultProps = {};
 
-const Touchable = ({
-  androidRipple,
-  androidRippleColor,
-  androidRippleBorderless,
-  onPress,
-  onLongPress,
-  disableFeedback,
-  disabled,
-  children,
-  style,
-  testID,
-}) => {
+const Touchable = ({ onPress, onLongPress, disabled, children, style, testID }) => {
   let touchableComponent;
 
-  if (androidRipple && Platform.OS === 'android') {
+  if (Platform.OS === 'android') {
+    const androidRippleColor = styleConstants.colors.white;
+
     touchableComponent = (
       <TouchableNativeFeedback
         onPress={onPress}
         onLongPress={onLongPress}
-        background={TouchableNativeFeedback.Ripple(androidRippleColor, androidRippleBorderless)}
+        background={TouchableNativeFeedback.Ripple(androidRippleColor)}
         disabled={disabled}
         testID={testID}
       >
         <View style={style}>{children}</View>
       </TouchableNativeFeedback>
-    );
-  } else if (disableFeedback) {
-    touchableComponent = (
-      <TouchableWithoutFeedback
-        onPress={onPress}
-        onLongPress={onLongPress}
-        disabled={disabled}
-        testID={testID}
-      >
-        <View style={style}>{children}</View>
-      </TouchableWithoutFeedback>
     );
   } else {
     touchableComponent = (
