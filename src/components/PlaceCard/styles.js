@@ -5,6 +5,8 @@ import styleConstants from '../../styleConstants';
 const styles = StyleSheet.create({
   container: {
     alignSelf: 'stretch',
+    backgroundColor: styleConstants.colors.white,
+    ...styleConstants.shadows.small,
   },
   imageContainer: {},
   image: {

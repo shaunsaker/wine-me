@@ -8,6 +8,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: styleConstants.dimensions.spacing.horizontal,
     alignItems: 'center',
     backgroundColor: styleConstants.colors.darkPrimary,
+    ...styleConstants.shadows.regular,
   },
 });
 

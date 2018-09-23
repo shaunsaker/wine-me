@@ -19,7 +19,7 @@ fonts.sizes = {
 // Medium font helper
 fonts.mediumFontHelper = {
   fontFamily: Platform.OS === 'android' ? 'sans-serif-medium' : fonts.families.primary,
-  fontWeight: Platform.OS === 'ios' ? '700' : null,
+  fontWeight: Platform.OS === 'ios' ? '600' : null,
 };
 
 // Font types
