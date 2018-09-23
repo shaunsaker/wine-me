@@ -42,6 +42,11 @@ fonts.types = {
     fontSize: fonts.sizes.small,
     color: colors.primaryText,
   },
+  extraSmall: {
+    ...fonts.mediumFontHelper,
+    fontSize: fonts.sizes.verySmall,
+    color: colors.primaryText,
+  },
 };
 
 export default fonts;
