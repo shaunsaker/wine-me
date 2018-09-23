@@ -34,6 +34,14 @@ fonts.types = {
     fontSize: fonts.sizes.regular,
     color: colors.primaryText,
   },
+  paragraph: {
+    fontSize: fonts.sizes.regular,
+    color: colors.primaryText,
+  },
+  small: {
+    fontSize: fonts.sizes.small,
+    color: colors.primaryText,
+  },
 };
 
 export default fonts;
