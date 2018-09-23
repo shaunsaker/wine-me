@@ -3,13 +3,10 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { View } from 'react-native';
 
-import PLACE from '../../../mockData/place';
-
 import Page from '../../../components/Page';
 import HeaderBar from '../../../components/HeaderBar';
-import PlaceCard from '../../../components/PlaceCard';
 
-export class Home extends React.Component {
+export class Profile extends React.Component {
   constructor(props) {
     super(props);
 
@@ -25,9 +22,7 @@ export class Home extends React.Component {
       <Page>
         <HeaderBar />
 
-        <View style={{ flex: 1, marginTop: 200 }}>
-          <PlaceCard place={PLACE} />
-        </View>
+        <View />
       </Page>
     );
   }
@@ -37,4 +32,4 @@ function mapStateToProps() {
   return {};
 }
 
-export default connect(mapStateToProps)(Home);
+export default connect(mapStateToProps)(Profile);
