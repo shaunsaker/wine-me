@@ -5,7 +5,7 @@ import codepush from 'react-native-code-push';
 import { YellowBox } from 'react-native';
 
 import { store, persistor } from './store';
-import Routes from './scenes';
+import Router from './Router';
 
 import ErrorHandler from './handlers/ErrorHandler';
 import SystemMessageHandler from './handlers/SystemMessageHandler';
@@ -32,7 +32,7 @@ export function App() {
             <DatabaseHandler />
             <NetworkHandler />
             <LocationHandler />
-            <Routes />
+            <Router />
           </SystemMessageHandler>
         </ErrorHandler>
       </PersistGate>
