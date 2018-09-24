@@ -3,15 +3,18 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { View } from 'react-native';
 
-import PLACE from '../../../mockData/PLACE';
+import utils from '../../../utils';
 
 import Page from '../../../components/Page';
-import PlaceCard from '../../../components/PlaceCard';
+import SearchButton from '../../../components/SearchButton';
 import TabBar from '../../../components/TabBar';
 
 export class Home extends React.Component {
   constructor(props) {
     super(props);
+
+    this.onSearchButtonPress = this.onSearchButtonPress.bind(this);
+    this.onSearchButtonPress = this.onSearchButtonPress.bind(this);
 
     this.state = {};
   }
@@ -20,12 +23,20 @@ export class Home extends React.Component {
 
   static defaultProps = {};
 
+  onSearchButtonPress() {
+    this.navigate('search');
+  }
+
+  navigate(page, props) {
+    utils.app.navigate(page, props);
+  }
+
   render() {
     return (
       <Page>
-        <View style={{ flex: 1, marginTop: 200 }}>
-          <PlaceCard place={PLACE} />
-        </View>
+        <SearchButton handlePress={this.onSearchButtonPress} />
+
+        <View style={{ flex: 1 }} />
 
         <TabBar />
       </Page>

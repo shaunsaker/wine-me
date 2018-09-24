@@ -20,7 +20,7 @@ export class Profile extends React.Component {
   render() {
     return (
       <Page>
-        <View />
+        <View style={{ flex: 1 }} />
 
         <TabBar />
       </Page>
