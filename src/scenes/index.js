@@ -8,12 +8,12 @@ import Search from './pages/Search';
 const scenes = Actions.create(
   <Lightbox>
     <Scene key="root" hideNavBar>
-      <Tabs key="tabs" hideTabBar animationEnabled={false} initial={true}>
-        <Scene key="home" component={Home} type="replace" hideNavBar initial={true} />
-        <Scene key="profile" component={Profile} type="replace" hideNavBar initial={false} />
-      </Tabs>
+      {/* <Tabs key="tabs" hideTabBar animationEnabled={false} initial={false}> */}
+      <Scene key="home" component={Home} hideNavBar />
+      <Scene key="profile" component={Profile} hideNavBar initial={false} />
+      {/* </Tabs> */}
 
-      <Scene key="search" component={Search} hideNavBar initial={false} />
+      <Scene key="search" component={Search} hideNavBar initial={true} />
     </Scene>
   </Lightbox>,
 );

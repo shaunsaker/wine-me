@@ -2,6 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { View } from 'react-native';
+import { Button } from 'react-native-simple-components';
+import { Actions } from 'react-native-router-flux';
 
 import Page from '../../../components/Page';
 
@@ -19,7 +21,7 @@ export class Search extends React.Component {
   render() {
     return (
       <Page>
-        <View />
+        <Button handlePress={() => Actions.home()} />
       </Page>
     );
   }
