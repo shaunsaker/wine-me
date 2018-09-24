@@ -23,9 +23,7 @@ export class TabBarContainer extends React.Component {
     scene: PropTypes.string,
   };
 
-  static defaultProps = {
-    scene: 'home',
-  };
+  static defaultProps = {};
 
   isCurrentScene(tab) {
     const { scene } = this.props;
