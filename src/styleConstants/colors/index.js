@@ -1,7 +1,7 @@
 const colors = {
   primary: '#3D84A8',
   lightPrimary: '#46CDCF',
-  darkPrimary: '#48466D',
+  darkPrimary: '#2c627d',
   secondary: '#88304E',
   white: '#FFFFFF',
   transWhite: 'rgba(255, 255, 255, 0.70)',
