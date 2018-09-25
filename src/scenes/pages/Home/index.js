@@ -6,6 +6,7 @@ import { View } from 'react-native';
 import utils from '../../../utils';
 
 import Page from '../../../components/Page';
+import HeaderBar from '../../../components/HeaderBar';
 import SearchButton from '../../../components/SearchButton';
 import TabBar from '../../../components/TabBar';
 
@@ -34,7 +35,9 @@ export class Home extends React.Component {
   render() {
     return (
       <Page>
-        <SearchButton handlePress={this.onSearchButtonPress} />
+        <HeaderBar>
+          <SearchButton handlePress={this.onSearchButtonPress} />
+        </HeaderBar>
 
         <View style={{ flex: 1 }} />
 

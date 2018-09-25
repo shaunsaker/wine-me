@@ -1,27 +1,76 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-import { View } from 'react-native';
-import { Button } from 'react-native-simple-components';
-import { Actions } from 'react-native-router-flux';
+import { TextInput, Keyboard } from 'react-native';
+import Icon from 'react-native-vector-icons/MaterialIcons';
+
+import utils from '../../../utils';
+import styles from './styles';
 
 import Page from '../../../components/Page';
+import HeaderBar from '../../../components/HeaderBar';
+import Touchable from '../../../components/Touchable';
+import SearchButton from '../../../components/SearchButton';
 
 export class Search extends React.Component {
   constructor(props) {
     super(props);
 
-    this.state = {};
+    this.onBack = this.onBack.bind(this);
+    this.onChangeText = this.onChangeText.bind(this);
+    this.setSearchTerm = this.setSearchTerm.bind(this);
+    this.onSubmit = this.onSubmit.bind(this);
+    this.dismissKeyboard = this.dismissKeyboard.bind(this);
+    this.navigate = this.navigate.bind(this);
+
+    this.state = {
+      searchTerm: null,
+    };
   }
 
   static propTypes = {};
 
   static defaultProps = {};
 
+  onBack() {
+    this.navigate(); // pop the scene
+  }
+
+  onChangeText(text) {
+    this.setSearchTerm(text);
+  }
+
+  setSearchTerm(searchTerm) {
+    this.setState({ searchTerm });
+  }
+
+  onSubmit() {
+    this.dismissKeyboard();
+  }
+
+  dismissKeyboard() {
+    Keyboard.dismiss();
+  }
+
+  navigate(page, props) {
+    utils.app.navigate();
+  }
+
   render() {
+    const { searchTerm } = this.state;
+    // TODO: Custom TextInput with all the bells and whistles
+
     return (
       <Page>
-        <Button handlePress={() => Actions.home()} />
+        <HeaderBar>
+          <Touchable onPress={this.onBack} style={styles.iconContainer}>
+            <Icon name="chevron-left" style={styles.icon} />
+          </Touchable>
+
+          <SearchButton>
+            <TextInput value={searchTerm} onChangeText={this.onChangeText} style={styles.input} />
+          </SearchButton>
+        </HeaderBar>
       </Page>
     );
   }

@@ -9,17 +9,25 @@ import styles from './styles';
 
 const propTypes = {
   handlePress: PropTypes.func,
+  children: PropTypes.node,
 };
 
 const defaultProps = {};
 
-const SearchButton = ({ handlePress }) => {
+/*
+  This component's responsibility is to:
+
+  - Render a button with text or children
+*/
+const SearchButton = ({ handlePress, children }) => {
+  const textComponent = children || <Text style={styles.text}>Search</Text>;
+
   return (
-    <Touchable onPress={handlePress} style={styles.container}>
+    <Touchable onPress={handlePress} disabled={children && true} style={styles.container}>
       <View style={styles.contentContainer}>
         <Icon name="search" style={styles.icon} />
 
-        <Text style={styles.text}>Search</Text>
+        {textComponent}
       </View>
     </Touchable>
   );

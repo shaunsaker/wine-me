@@ -4,7 +4,8 @@ import styleConstants from '../../styleConstants';
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1, // fill the available space
+    flex: 1, // fills the remaining space when parent has flexDirection: 'row'
+    height: 44,
   },
   contentContainer: {
     backgroundColor: styleConstants.colors.transBlack,
