@@ -17,7 +17,7 @@ const propTypes = {
   activeTab: PropTypes.shape({
     name: PropTypes.string,
     iconName: PropTypes.string,
-  }).isRequired,
+  }),
   handleTabPress: PropTypes.func,
 };
 
