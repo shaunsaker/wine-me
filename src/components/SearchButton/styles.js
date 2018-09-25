@@ -4,10 +4,7 @@ import styleConstants from '../../styleConstants';
 
 const styles = StyleSheet.create({
   container: {
-    alignSelf: 'stretch',
-    paddingVertical: styleConstants.dimensions.spacing.vertical,
-    paddingHorizontal: styleConstants.dimensions.spacing.horizontal,
-    backgroundColor: styleConstants.colors.darkPrimary,
+    flex: 1, // fill the available space
   },
   contentContainer: {
     backgroundColor: styleConstants.colors.transBlack,
