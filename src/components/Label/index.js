@@ -1,9 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Text, ViewPropTypes } from 'react-native';
-import MaterialIcon from 'react-native-vector-icons/MaterialIcons';
-
-import styleConstants from '../../styleConstants';
+import { Text } from 'react-native';
 
 import styles from './styles';
 
@@ -11,44 +8,15 @@ import Touchable from '../Touchable';
 
 const propTypes = {
   handlePress: PropTypes.func,
-  iconName: PropTypes.string,
-  customIcon: PropTypes.node,
   text: PropTypes.string,
-  showShadow: PropTypes.bool,
-  textStyle: Text.propTypes.style,
-  iconStyle: Text.propTypes.style,
-  style: ViewPropTypes.style,
 };
 
-const defaultProps = {
-  text: 'Label',
-};
+const defaultProps = {};
 
-const Label = ({
-  handlePress,
-  iconName,
-  customIcon,
-  text,
-  showShadow,
-  textStyle,
-  iconStyle,
-  style,
-}) => {
-  const shadowStyles = showShadow && styleConstants.shadows.small;
-
-  const iconComponent =
-    customIcon || iconName ? (
-      <MaterialIcon name={iconName} style={[styles.icon, iconStyle]} />
-    ) : null;
-
+const Label = ({ handlePress, text }) => {
   return (
-    <Touchable
-      onPress={handlePress}
-      disabled={!handlePress}
-      style={[styles.container, shadowStyles, style]}
-    >
-      {iconComponent}
-      <Text style={[styles.text, textStyle]}>{text}</Text>
+    <Touchable onPress={handlePress} style={styles.container}>
+      <Text style={styles.text}>{text}</Text>
     </Touchable>
   );
 };

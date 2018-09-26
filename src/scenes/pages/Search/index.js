@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-import { Keyboard } from 'react-native';
+import { Keyboard, View } from 'react-native';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 
 import utils from '../../../utils';
@@ -13,6 +13,7 @@ import HeaderBar from '../../../components/HeaderBar';
 import Touchable from '../../../components/Touchable';
 import InputContainer from '../../../components/InputContainer';
 import SearchInput from '../../../components/SearchInput';
+import LabelList from '../../../components/LabelList';
 import PlaceList from '../../../components/PlaceList';
 
 export class Search extends React.Component {
@@ -70,11 +71,24 @@ export class Search extends React.Component {
     return (
       <Page>
         <HeaderBar>
-          <Touchable onPress={this.onBack} style={styles.iconContainer}>
-            <Icon name="chevron-left" style={styles.icon} />
-          </Touchable>
+          <View style={styles.row}>
+            <Touchable onPress={this.onBack} style={styles.iconContainer}>
+              <Icon name="chevron-left" style={styles.icon} />
+            </Touchable>
 
-          <SearchInput value={searchTerm} handleChangeText={this.onChangeText} />
+            <SearchInput
+              value={searchTerm}
+              handleChangeText={this.onChangeText}
+              style={styles.searchInput}
+            />
+          </View>
+
+          <View style={styles.labelListContainer}>
+            <LabelList
+              handlePress={this.onLocationLabelPress}
+              data={[{ text: 'Bot River', id: 'abc' }, { text: 'Franshoek', id: 'cde' }]}
+            />
+          </View>
         </HeaderBar>
 
         <InputContainer
