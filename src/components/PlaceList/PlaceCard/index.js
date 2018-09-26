@@ -2,8 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 
-import utils from '../../utils';
-import config from '../../config';
+import utils from '../../../utils';
+import config from '../../../config';
 
 import PlaceCard from './PlaceCard';
 

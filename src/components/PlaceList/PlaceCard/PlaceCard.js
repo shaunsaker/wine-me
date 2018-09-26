@@ -3,13 +3,13 @@ import PropTypes from 'prop-types';
 import { View, Text } from 'react-native';
 import LinearGradient from 'react-native-linear-gradient';
 
-import styleConstants from '../../styleConstants';
+import styleConstants from '../../../styleConstants';
 
 import styles from './styles';
 
-import Touchable from '../Touchable';
-import RemoteImage from '../RemoteImage';
-import Label from '../Label';
+import Touchable from '../../Touchable';
+import RemoteImage from '../../RemoteImage';
+import Label from '../../Label';
 
 const propTypes = {
   imageSource: PropTypes.oneOfType([PropTypes.number, PropTypes.shape({ uri: PropTypes.string })]),

@@ -1,13 +1,17 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-import { View } from 'react-native';
+import { ScrollView } from 'react-native';
 
 import utils from '../../../utils';
+import styles from './styles';
+import PLACES from '../../../mockData/PLACES';
 
 import Page from '../../../components/Page';
 import HeaderBar from '../../../components/HeaderBar';
 import SearchInput from '../../../components/SearchInput';
+import SectionHeader from '../../../components/SectionHeader';
+import PlaceList from '../../../components/PlaceList';
 import TabBar from '../../../components/TabBar';
 
 export class Home extends React.Component {
@@ -15,7 +19,8 @@ export class Home extends React.Component {
     super(props);
 
     this.onSearchButtonPress = this.onSearchButtonPress.bind(this);
-    this.onSearchButtonPress = this.onSearchButtonPress.bind(this);
+    this.onPlacePress = this.onPlacePress.bind(this);
+    this.navigate = this.navigate.bind(this);
 
     this.state = {};
   }
@@ -26,6 +31,10 @@ export class Home extends React.Component {
 
   onSearchButtonPress() {
     this.navigate('search');
+  }
+
+  onPlacePress(place) {
+    this.navigate('place', place);
   }
 
   navigate(page, props) {
@@ -39,7 +48,15 @@ export class Home extends React.Component {
           <SearchInput handlePress={this.onSearchButtonPress} />
         </HeaderBar>
 
-        <View style={{ flex: 1 }} />
+        <ScrollView style={styles.container} contentContainerStyle={styles.contentContainer}>
+          <SectionHeader text="Featured" />
+
+          <PlaceList data={PLACES} handlePress={this.onPlacePress} />
+
+          <SectionHeader text="Closest to me" />
+
+          <PlaceList data={PLACES} handlePress={this.onPlacePress} />
+        </ScrollView>
 
         <TabBar />
       </Page>
