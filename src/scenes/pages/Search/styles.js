@@ -4,7 +4,9 @@ import styleConstants from '../../../styleConstants';
 
 const styles = StyleSheet.create({
   container: {},
-  contentContainer: {},
+  contentContainer: {
+    paddingTop: styleConstants.dimensions.spacing.vertical,
+  },
   iconContainer: {
     paddingVertical: styleConstants.dimensions.spacing.vertical,
     paddingRight: styleConstants.dimensions.spacing.horizontal,

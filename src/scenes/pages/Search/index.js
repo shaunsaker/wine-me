@@ -6,12 +6,14 @@ import Icon from 'react-native-vector-icons/MaterialIcons';
 
 import utils from '../../../utils';
 import styles from './styles';
+import PLACES from '../../../mockData/PLACES';
 
 import Page from '../../../components/Page';
 import HeaderBar from '../../../components/HeaderBar';
 import Touchable from '../../../components/Touchable';
 import InputContainer from '../../../components/InputContainer';
 import SearchInput from '../../../components/SearchInput';
+import PlaceList from '../../../components/PlaceList';
 
 export class Search extends React.Component {
   constructor(props) {
@@ -22,6 +24,7 @@ export class Search extends React.Component {
     this.setSearchTerm = this.setSearchTerm.bind(this);
     this.onSubmit = this.onSubmit.bind(this);
     this.dismissKeyboard = this.dismissKeyboard.bind(this);
+    this.onPlacePress = this.onPlacePress.bind(this);
     this.navigate = this.navigate.bind(this);
 
     this.state = {
@@ -53,6 +56,10 @@ export class Search extends React.Component {
     Keyboard.dismiss();
   }
 
+  onPlacePress(place) {
+    this.navigate('place', place);
+  }
+
   navigate(page, props) {
     utils.app.navigate();
   }
@@ -62,17 +69,19 @@ export class Search extends React.Component {
 
     return (
       <Page>
+        <HeaderBar>
+          <Touchable onPress={this.onBack} style={styles.iconContainer}>
+            <Icon name="chevron-left" style={styles.icon} />
+          </Touchable>
+
+          <SearchInput value={searchTerm} handleChangeText={this.onChangeText} />
+        </HeaderBar>
+
         <InputContainer
           containerStyle={styles.container}
           contentContainerStyle={styles.contentContainer}
         >
-          <HeaderBar>
-            <Touchable onPress={this.onBack} style={styles.iconContainer}>
-              <Icon name="chevron-left" style={styles.icon} />
-            </Touchable>
-
-            <SearchInput value={searchTerm} handleChangeText={this.onChangeText} />
-          </HeaderBar>
+          <PlaceList data={PLACES} handlePress={this.onPlacePress} />
         </InputContainer>
       </Page>
     );
