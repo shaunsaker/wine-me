@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-import { TextInput, Keyboard } from 'react-native';
+import { Keyboard } from 'react-native';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 
 import utils from '../../../utils';
@@ -10,6 +10,7 @@ import styles from './styles';
 import Page from '../../../components/Page';
 import HeaderBar from '../../../components/HeaderBar';
 import Touchable from '../../../components/Touchable';
+import InputContainer from '../../../components/InputContainer';
 import SearchInput from '../../../components/SearchInput';
 
 export class Search extends React.Component {
@@ -58,17 +59,21 @@ export class Search extends React.Component {
 
   render() {
     const { searchTerm } = this.state;
-    // TODO: Custom TextInput with all the bells and whistles
 
     return (
       <Page>
-        <HeaderBar>
-          <Touchable onPress={this.onBack} style={styles.iconContainer}>
-            <Icon name="chevron-left" style={styles.icon} />
-          </Touchable>
+        <InputContainer
+          containerStyle={styles.container}
+          contentContainerStyle={styles.contentContainer}
+        >
+          <HeaderBar>
+            <Touchable onPress={this.onBack} style={styles.iconContainer}>
+              <Icon name="chevron-left" style={styles.icon} />
+            </Touchable>
 
-          <SearchInput value={searchTerm} handleChangeText={this.onChangeText} />
-        </HeaderBar>
+            <SearchInput value={searchTerm} handleChangeText={this.onChangeText} />
+          </HeaderBar>
+        </InputContainer>
       </Page>
     );
   }
