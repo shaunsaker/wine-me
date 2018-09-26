@@ -4,10 +4,7 @@ import styleConstants from '../../styleConstants';
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1, // fills the remaining space when parent has flexDirection: 'row'
-    height: 44,
-  },
-  contentContainer: {
+    flex: 1,
     backgroundColor: styleConstants.colors.transBlack,
     paddingVertical: styleConstants.dimensions.spacing.vertical,
     paddingHorizontal: styleConstants.dimensions.spacing.horizontal,
@@ -20,6 +17,7 @@ const styles = StyleSheet.create({
     color: styleConstants.colors.white,
     marginRight: styleConstants.dimensions.spacing.horizontal / 2,
   },
+  input: {},
   text: {
     ...styleConstants.fonts.types.paragraph,
     color: styleConstants.colors.white,

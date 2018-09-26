@@ -10,7 +10,7 @@ import styles from './styles';
 import Page from '../../../components/Page';
 import HeaderBar from '../../../components/HeaderBar';
 import Touchable from '../../../components/Touchable';
-import SearchButton from '../../../components/SearchButton';
+import SearchInput from '../../../components/SearchInput';
 
 export class Search extends React.Component {
   constructor(props) {
@@ -67,9 +67,7 @@ export class Search extends React.Component {
             <Icon name="chevron-left" style={styles.icon} />
           </Touchable>
 
-          <SearchButton>
-            <TextInput value={searchTerm} onChangeText={this.onChangeText} style={styles.input} />
-          </SearchButton>
+          <SearchInput value={searchTerm} handleChangeText={this.onChangeText} />
         </HeaderBar>
       </Page>
     );

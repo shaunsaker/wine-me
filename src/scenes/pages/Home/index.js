@@ -7,7 +7,7 @@ import utils from '../../../utils';
 
 import Page from '../../../components/Page';
 import HeaderBar from '../../../components/HeaderBar';
-import SearchButton from '../../../components/SearchButton';
+import SearchInput from '../../../components/SearchInput';
 import TabBar from '../../../components/TabBar';
 
 export class Home extends React.Component {
@@ -36,7 +36,7 @@ export class Home extends React.Component {
     return (
       <Page>
         <HeaderBar>
-          <SearchButton handlePress={this.onSearchButtonPress} />
+          <SearchInput handlePress={this.onSearchButtonPress} />
         </HeaderBar>
 
         <View style={{ flex: 1 }} />
