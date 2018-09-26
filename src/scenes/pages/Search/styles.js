@@ -3,9 +3,11 @@ import { StyleSheet } from 'react-native';
 import styleConstants from '../../../styleConstants';
 
 const styles = StyleSheet.create({
-  container: {},
+  container: {
+    flex: 1,
+  },
   contentContainer: {
-    paddingTop: styleConstants.dimensions.spacing.vertical,
+    flex: 1,
   },
   row: {
     flexDirection: 'row',

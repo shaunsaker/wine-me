@@ -15,6 +15,7 @@ import InputContainer from '../../../components/InputContainer';
 import SearchInput from '../../../components/SearchInput';
 import LabelList from '../../../components/LabelList';
 import PlaceList from '../../../components/PlaceList';
+import BlankState from '../../../components/BlankState';
 
 export class Search extends React.Component {
   constructor(props) {
@@ -95,7 +96,7 @@ export class Search extends React.Component {
           containerStyle={styles.container}
           contentContainerStyle={styles.contentContainer}
         >
-          <PlaceList data={PLACES} handlePress={this.onPlacePress} />
+          <BlankState iconName="search" title="Some clever title" description="Search places by" />
         </InputContainer>
       </Page>
     );
