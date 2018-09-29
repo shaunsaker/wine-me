@@ -97,6 +97,7 @@ export class Place extends React.Component {
 
   render() {
     const { place } = this.props;
+    const isVisited = true;
 
     const openingHoursComponent = place.openingHours ? (
       <View style={styles.section}>
@@ -142,7 +143,12 @@ export class Place extends React.Component {
           {openingHoursComponent}
         </ScrollView>
 
-        <FooterButton handlePress={this.onMarkAsVisited} iconName="check" text="Mark as visited" />
+        <FooterButton
+          handlePress={this.onMarkAsVisited}
+          iconName={isVisited ? 'check' : 'mode-edit'}
+          text={isVisited ? 'Visited' : 'Mark as visited'}
+          disabled={isVisited}
+        />
       </Page>
     );
   }
