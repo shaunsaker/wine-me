@@ -34,7 +34,11 @@ export class Profile extends React.Component {
         <PlaceList data={places} handlePress={this.onPlacePress} />
       </View>
     ) : (
-      <BlankState iconName="place" title="Some clever title" description="Dum dum dum" />
+      <BlankState
+        iconName="place"
+        title="Turn water into wine."
+        description="Start visiting wine farms, mark them as visited and they'll show up here."
+      />
     );
 
     return (

@@ -16,7 +16,7 @@ const styles = StyleSheet.create({
   },
   icon: {
     fontSize: SIZE / 2,
-    color: styleConstants.colors.primary,
+    color: styleConstants.colors.secondary,
   },
 });
 

@@ -93,7 +93,11 @@ export class Search extends React.Component {
           containerStyle={styles.container}
           contentContainerStyle={styles.contentContainer}
         >
-          <BlankState iconName="search" title="Some clever title" description="Search places by" />
+          <BlankState
+            iconName="search"
+            title="Search over 525+ places in the Western Cape"
+            description="If you're heading somewhere specific, try an area search by tapping on of the red buttons."
+          />
         </InputContainer>
       </Page>
     );
