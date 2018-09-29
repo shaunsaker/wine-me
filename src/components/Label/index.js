@@ -15,7 +15,7 @@ const defaultProps = {};
 
 const Label = ({ handlePress, text }) => {
   return (
-    <Touchable onPress={handlePress} style={styles.container}>
+    <Touchable onPress={handlePress} disabled={!handlePress} style={styles.container}>
       <Text style={styles.text}>{text}</Text>
     </Touchable>
   );
