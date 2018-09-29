@@ -3,7 +3,13 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { View } from 'react-native';
 
+import styles from './styles';
+import PLACES from '../../../mockData/PLACES';
+
 import Page from '../../../components/Page';
+import SectionHeader from '../../../components/SectionHeader';
+import BlankState from '../../../components/BlankState';
+import PlaceList from '../../../components/PlaceList';
 import TabBar from '../../../components/TabBar';
 
 export class Profile extends React.Component {
@@ -20,7 +26,11 @@ export class Profile extends React.Component {
   render() {
     return (
       <Page>
-        <View style={{ flex: 1 }} />
+        <SectionHeader text="My places" />
+
+        <View style={styles.container}>
+          <BlankState iconName="place" title="Some clever title" description="Dum dum dum" />
+        </View>
 
         <TabBar />
       </Page>
