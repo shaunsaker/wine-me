@@ -5,13 +5,13 @@ import { View, Text, Linking, ScrollView } from 'react-native';
 
 import utils from '../../../utils';
 import styles from './styles';
-import PLACES from '../../../mockData/PLACES';
 
 import Page from '../../../components/Page';
 import HeaderBar from '../../../components/HeaderBar';
 import BackButton from '../../../components/BackButton';
 import Touchable from '../../../components/Touchable';
 import SectionHeader from '../../../components/SectionHeader';
+import FooterButton from '../../../components/FooterButton';
 
 export class Place extends React.Component {
   constructor(props) {
@@ -21,6 +21,8 @@ export class Place extends React.Component {
     this.onOpenInMaps = this.onOpenInMaps.bind(this);
     this.onCall = this.onCall.bind(this);
     this.onOpenWebsite = this.onOpenWebsite.bind(this);
+    this.onMarkAsVisited = this.onMarkAsVisited.bind(this);
+    this.link = this.link.bind(this);
     this.setSystemMessage = this.setSystemMessage.bind(this);
     this.navigate = this.navigate.bind(this);
 
@@ -61,6 +63,8 @@ export class Place extends React.Component {
 
     this.link(link);
   }
+
+  onMarkAsVisited() {}
 
   link(url) {
     Linking.canOpenURL(url)
@@ -137,6 +141,8 @@ export class Place extends React.Component {
 
           {openingHoursComponent}
         </ScrollView>
+
+        <FooterButton handlePress={this.onMarkAsVisited} iconName="check" text="Mark as visited" />
       </Page>
     );
   }
