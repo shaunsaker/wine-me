@@ -58,11 +58,11 @@ export class Search extends React.Component {
   }
 
   onPlacePress(place) {
-    this.navigate('place', place);
+    this.navigate('place', { place });
   }
 
   navigate(page, props) {
-    utils.app.navigate();
+    utils.app.navigate(page, props);
   }
 
   render() {

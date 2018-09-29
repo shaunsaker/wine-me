@@ -34,7 +34,7 @@ export class Home extends React.Component {
   }
 
   onPlacePress(place) {
-    this.navigate('place', place);
+    this.navigate('place', { place });
   }
 
   navigate(page, props) {
