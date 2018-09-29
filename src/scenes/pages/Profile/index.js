@@ -28,7 +28,7 @@ export class Profile extends React.Component {
   render() {
     return (
       <Page>
-        <HeaderBar>
+        <HeaderBar style={styles.headerBar}>
           <View style={styles.avatarContainer}>
             <Avatar />
           </View>

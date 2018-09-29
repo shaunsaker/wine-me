@@ -9,20 +9,8 @@ const styles = StyleSheet.create({
   contentContainer: {
     flex: 1,
   },
-  headerBarContentContainer: {
-    alignSelf: 'stretch',
-  },
   row: {
     flexDirection: 'row',
-  },
-  iconContainer: {
-    paddingVertical: styleConstants.dimensions.spacing.vertical,
-    paddingRight: styleConstants.dimensions.spacing.horizontal,
-  },
-  icon: {
-    fontSize: 28,
-    color: styleConstants.colors.white,
-    marginHorizontal: -9, // fix icon alignment
   },
   searchInput: {
     flex: 1, // NB

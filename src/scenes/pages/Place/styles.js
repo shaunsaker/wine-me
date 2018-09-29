@@ -4,18 +4,12 @@ import styleConstants from '../../../styleConstants';
 
 const styles = StyleSheet.create({
   headerBar: {
-    justifyContent: 'center',
+    flexDirection: 'row',
     alignItems: 'center',
   },
-  avatarContainer: {
-    marginBottom: styleConstants.dimensions.spacing.vertical,
-  },
-  nameText: {
-    ...styleConstants.fonts.types.title,
+  titleText: {
+    ...styleConstants.fonts.types.heading,
     color: styleConstants.colors.white,
-  },
-  contentContainer: {
-    flex: 1,
   },
 });
 

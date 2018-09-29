@@ -4,6 +4,7 @@ import { Actions, Scene, Tabs, Lightbox } from 'react-native-router-flux';
 import Home from './pages/Home';
 import Profile from './pages/Profile';
 import Search from './pages/Search';
+import Place from './pages/Place';
 
 const scenes = Actions.create(
   <Lightbox>
@@ -14,6 +15,8 @@ const scenes = Actions.create(
       </Tabs>
 
       <Scene key="search" component={Search} hideNavBar initial={false} />
+
+      <Scene key="place" component={Place} hideNavBar initial={false} />
     </Scene>
   </Lightbox>,
 );

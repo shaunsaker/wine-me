@@ -4,10 +4,14 @@ import styleConstants from '../../styleConstants';
 
 const styles = StyleSheet.create({
   container: {
-    alignSelf: 'stretch',
+    // Add hit space
     paddingVertical: styleConstants.dimensions.spacing.vertical,
-    paddingHorizontal: styleConstants.dimensions.spacing.horizontal,
-    backgroundColor: styleConstants.colors.primary,
+    paddingRight: styleConstants.dimensions.spacing.horizontal,
+  },
+  icon: {
+    fontSize: 28,
+    color: styleConstants.colors.white,
+    marginHorizontal: -9, // fix icon alignment
   },
 });
 

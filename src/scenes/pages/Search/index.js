@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { Keyboard, View } from 'react-native';
-import Icon from 'react-native-vector-icons/MaterialIcons';
 
 import utils from '../../../utils';
 import styles from './styles';
@@ -10,7 +9,7 @@ import PLACES from '../../../mockData/PLACES';
 
 import Page from '../../../components/Page';
 import HeaderBar from '../../../components/HeaderBar';
-import Touchable from '../../../components/Touchable';
+import BackButton from '../../../components/BackButton';
 import InputContainer from '../../../components/InputContainer';
 import SearchInput from '../../../components/SearchInput';
 import LabelList from '../../../components/LabelList';
@@ -72,25 +71,21 @@ export class Search extends React.Component {
     return (
       <Page>
         <HeaderBar>
-          <View style={styles.headerBarContentContainer}>
-            <View style={styles.row}>
-              <Touchable onPress={this.onBack} style={styles.iconContainer}>
-                <Icon name="chevron-left" style={styles.icon} />
-              </Touchable>
+          <View style={styles.row}>
+            <BackButton />
 
-              <SearchInput
-                value={searchTerm}
-                handleChangeText={this.onChangeText}
-                style={styles.searchInput}
-              />
-            </View>
+            <SearchInput
+              value={searchTerm}
+              handleChangeText={this.onChangeText}
+              style={styles.searchInput}
+            />
+          </View>
 
-            <View style={styles.labelListContainer}>
-              <LabelList
-                handlePress={this.onLocationLabelPress}
-                data={[{ text: 'Bot River', id: 'abc' }, { text: 'Franshoek', id: 'cde' }]}
-              />
-            </View>
+          <View style={styles.labelListContainer}>
+            <LabelList
+              handlePress={this.onLocationLabelPress}
+              data={[{ text: 'Bot River', id: 'abc' }, { text: 'Franshoek', id: 'cde' }]}
+            />
           </View>
         </HeaderBar>
 
