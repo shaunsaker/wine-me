@@ -9,6 +9,9 @@ const styles = StyleSheet.create({
   contentContainer: {
     flex: 1,
   },
+  headerBarContentContainer: {
+    alignSelf: 'stretch',
+  },
   row: {
     flexDirection: 'row',
   },

@@ -72,23 +72,25 @@ export class Search extends React.Component {
     return (
       <Page>
         <HeaderBar>
-          <View style={styles.row}>
-            <Touchable onPress={this.onBack} style={styles.iconContainer}>
-              <Icon name="chevron-left" style={styles.icon} />
-            </Touchable>
+          <View style={styles.headerBarContentContainer}>
+            <View style={styles.row}>
+              <Touchable onPress={this.onBack} style={styles.iconContainer}>
+                <Icon name="chevron-left" style={styles.icon} />
+              </Touchable>
 
-            <SearchInput
-              value={searchTerm}
-              handleChangeText={this.onChangeText}
-              style={styles.searchInput}
-            />
-          </View>
+              <SearchInput
+                value={searchTerm}
+                handleChangeText={this.onChangeText}
+                style={styles.searchInput}
+              />
+            </View>
 
-          <View style={styles.labelListContainer}>
-            <LabelList
-              handlePress={this.onLocationLabelPress}
-              data={[{ text: 'Bot River', id: 'abc' }, { text: 'Franshoek', id: 'cde' }]}
-            />
+            <View style={styles.labelListContainer}>
+              <LabelList
+                handlePress={this.onLocationLabelPress}
+                data={[{ text: 'Bot River', id: 'abc' }, { text: 'Franshoek', id: 'cde' }]}
+              />
+            </View>
           </View>
         </HeaderBar>
 

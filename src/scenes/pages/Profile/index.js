@@ -1,12 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-import { View } from 'react-native';
+import { View, Text } from 'react-native';
 
 import styles from './styles';
 import PLACES from '../../../mockData/PLACES';
 
 import Page from '../../../components/Page';
+import HeaderBar from '../../../components/HeaderBar';
+import Avatar from '../../../components/Avatar';
 import SectionHeader from '../../../components/SectionHeader';
 import BlankState from '../../../components/BlankState';
 import PlaceList from '../../../components/PlaceList';
@@ -26,9 +28,17 @@ export class Profile extends React.Component {
   render() {
     return (
       <Page>
+        <HeaderBar>
+          <View style={styles.avatarContainer}>
+            <Avatar />
+          </View>
+
+          <Text style={styles.nameText}>Shaun Saker</Text>
+        </HeaderBar>
+
         <SectionHeader text="My places" />
 
-        <View style={styles.container}>
+        <View style={styles.contentContainer}>
           <BlankState iconName="place" title="Some clever title" description="Dum dum dum" />
         </View>
 
