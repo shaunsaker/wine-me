@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { View, Text } from 'react-native';
 
+import utils from '../../../utils';
 import styles from './styles';
 import PLACES from '../../../mockData/PLACES';
 
@@ -15,6 +16,9 @@ export class Place extends React.Component {
   constructor(props) {
     super(props);
 
+    this.onBack = this.onBack.bind(this);
+    this.navigate = this.navigate.bind(this);
+
     this.state = {};
   }
 
@@ -24,11 +28,19 @@ export class Place extends React.Component {
 
   static defaultProps = {};
 
+  onBack() {
+    this.navigate(); // pop the scene
+  }
+
+  navigate(page, props) {
+    utils.app.navigate(page, props);
+  }
+
   render() {
     return (
       <Page>
         <HeaderBar style={styles.headerBar}>
-          <BackButton />
+          <BackButton handlePress={this.onBack} />
 
           <Text style={styles.titleText}>Place title</Text>
         </HeaderBar>

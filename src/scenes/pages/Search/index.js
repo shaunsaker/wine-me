@@ -72,7 +72,7 @@ export class Search extends React.Component {
       <Page>
         <HeaderBar>
           <View style={styles.row}>
-            <BackButton />
+            <BackButton handlePress={this.onBack} />
 
             <SearchInput
               value={searchTerm}
