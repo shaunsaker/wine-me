@@ -93,13 +93,6 @@ export class Place extends React.Component {
 
   render() {
     const { place } = this.props;
-    console.log(place);
-
-    /*
-      Open in Maps
-      Call
-      Mark as visited
-    */
 
     const openingHoursComponent = place.openingHours ? (
       <View style={styles.section}>
@@ -127,19 +120,19 @@ export class Place extends React.Component {
           <Touchable onPress={this.onOpenInMaps} style={styles.section}>
             <SectionHeader iconName="location-on" text="Address" />
 
-            <Text style={styles.text}>{place.address}</Text>
+            <Text style={[styles.text, styles.linkText]}>{place.address}</Text>
           </Touchable>
 
           <Touchable onPress={this.onCall} style={styles.section}>
             <SectionHeader iconName="phone" text="Contact number" />
 
-            <Text style={styles.text}>{place.phoneNumber}</Text>
+            <Text style={[styles.text, styles.linkText]}>{place.phoneNumber}</Text>
           </Touchable>
 
           <Touchable onPress={this.onOpenWebsite} style={styles.section}>
             <SectionHeader iconName="web" text="Website" />
 
-            <Text style={styles.text}>{place.website}</Text>
+            <Text style={[styles.text, styles.linkText]}>{place.website}</Text>
           </Touchable>
 
           {openingHoursComponent}

@@ -20,6 +20,11 @@ const styles = StyleSheet.create({
     marginBottom: styleConstants.dimensions.spacing.vertical,
     marginLeft: ICON_SIZE + styleConstants.dimensions.spacing.horizontal / 2,
   },
+  linkText: {
+    ...styleConstants.fonts.mediumFontHelper,
+    color: styleConstants.colors.primary,
+    textDecorationLine: 'underline',
+  },
 });
 
 export default styles;
