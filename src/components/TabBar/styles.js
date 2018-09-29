@@ -5,7 +5,7 @@ import styleConstants from '../../styleConstants';
 const styles = StyleSheet.create({
   container: {
     flexDirection: 'row',
-    backgroundColor: styleConstants.colors.white,
+    backgroundColor: styleConstants.colors.darkPrimary,
     ...styleConstants.shadows.regular,
   },
   tabContainer: {
@@ -14,18 +14,20 @@ const styles = StyleSheet.create({
     paddingVertical: styleConstants.dimensions.spacing.vertical / 2,
   },
   activeTabContainer: {
-    borderBottomWidth: 3,
-    borderBottomColor: styleConstants.colors.secondary,
+    borderBottomWidth: 2,
+    borderBottomColor: styleConstants.colors.white,
   },
   icon: {
     fontSize: styleConstants.fonts.sizes.icon,
+    color: styleConstants.colors.white,
   },
   text: {
     ...styleConstants.fonts.types.small,
+    color: styleConstants.colors.transWhite,
+    ...styleConstants.fonts.mediumFontHelper,
   },
   activeText: {
-    color: styleConstants.colors.secondary,
-    ...styleConstants.fonts.mediumFontHelper,
+    color: styleConstants.colors.white,
   },
 });
 

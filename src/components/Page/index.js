@@ -30,7 +30,7 @@ const Page = ({ verticalCenter, horizontalCenter, children, style, testID }) => 
       style={[styles.container, verticalCenterStyles, horizontalCenterStyles, style]}
       testID={testID}
     >
-      <StatusBar backgroundColor={styleConstants.colors.primary} barStyle="light-content" />
+      <StatusBar backgroundColor={styleConstants.colors.darkPrimary} barStyle="light-content" />
 
       {children}
     </View>

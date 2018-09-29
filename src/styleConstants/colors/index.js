@@ -1,8 +1,8 @@
 const colors = {
-  primary: '#777777',
-  // lightPrimary: 'rgba(0, 0, 0, 0.33)',
-  // darkPrimary: 'rgba(0, 0, 0, 0.67)',
-  secondary: '#333333',
+  primary: '#3D84A8',
+  lightPrimary: '#46CDCF',
+  darkPrimary: '#48466D',
+  secondary: '#E23E57',
   white: '#FFFFFF',
   transWhite: 'rgba(255, 255, 255, 0.70)',
   transBlack: 'rgba(0, 0, 0, 0.70)',
