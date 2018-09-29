@@ -5,7 +5,7 @@ import styleConstants from '../../styleConstants';
 const styles = StyleSheet.create({
   container: {},
   contentContainer: {},
-  placeCardContainer: {
+  itemContainer: {
     paddingHorizontal: styleConstants.dimensions.spacing.horizontal,
     paddingBottom: styleConstants.dimensions.spacing.vertical,
   },

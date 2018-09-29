@@ -34,13 +34,7 @@ const PlaceCard = ({ imageSource, title, label, handlePress }) => {
   return (
     <Touchable onPress={handlePress} style={styles.container}>
       <View style={styles.imageContainer}>
-        <RemoteImage
-          source={imageSource}
-          borderRadius={styleConstants.dimensions.borderRadius}
-          style={styles.image}
-          iconStyle={styles.imageIcon}
-          loaderColor={styleConstants.colors.primary}
-        />
+        <RemoteImage source={imageSource} />
       </View>
       <LinearGradient
         colors={['transparent', styleConstants.colors.transBlack]}

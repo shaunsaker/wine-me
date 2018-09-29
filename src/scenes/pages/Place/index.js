@@ -4,6 +4,7 @@ import { connect } from 'react-redux';
 import { View, Text, Linking, ScrollView } from 'react-native';
 
 import utils from '../../../utils';
+import config from '../../../config';
 import styles from './styles';
 
 import Page from '../../../components/Page';
@@ -11,6 +12,7 @@ import HeaderBar from '../../../components/HeaderBar';
 import BackButton from '../../../components/BackButton';
 import Touchable from '../../../components/Touchable';
 import SectionHeader from '../../../components/SectionHeader';
+import PhotoList from '../../../components/PhotoList';
 import FooterButton from '../../../components/FooterButton';
 
 export class Place extends React.Component {
@@ -97,6 +99,15 @@ export class Place extends React.Component {
 
   render() {
     const { place } = this.props;
+
+    // Get the google places photo uri from the photo reference
+    const photoURI = utils.app.getGooglePlacesPhotoURI(
+      place.photoReference,
+      config.googlePlaces.maxImageHeight,
+      config.googlePlaces.apiKey,
+    );
+    const photo = { uri: photoURI };
+    const photos = [photo];
     const isVisited = false;
 
     const openingHoursComponent = place.openingHours ? (
@@ -130,6 +141,12 @@ export class Place extends React.Component {
         </HeaderBar>
 
         <ScrollView>
+          <View style={styles.section}>
+            <SectionHeader iconName="photo" text="Photos" />
+
+            <PhotoList data={photos} />
+          </View>
+
           <Touchable onPress={this.onOpenInMaps} style={styles.section}>
             <SectionHeader iconName="location-on" text="Address" />
 

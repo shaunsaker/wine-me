@@ -4,7 +4,7 @@ import { View, FlatList } from 'react-native';
 
 import styles from './styles';
 
-import PlaceCard from './PlaceCard';
+import RemoteImage from '../RemoteImage';
 
 export default class PlaceList extends React.Component {
   constructor(props) {
@@ -14,18 +14,17 @@ export default class PlaceList extends React.Component {
   }
 
   static propTypes = {
-    data: PropTypes.arrayOf(PropTypes.shape({})),
-    handlePress: PropTypes.func,
+    data: PropTypes.arrayOf(PropTypes.shape({ uri: PropTypes.string })),
   };
 
   static defaultProps = {};
 
   renderItem({ item }) {
-    const { handlePress } = this.props;
+    const { uri } = item;
 
     return (
       <View style={styles.itemContainer}>
-        <PlaceCard place={item} handlePress={() => handlePress(item)} />
+        <RemoteImage source={{ uri }} style={styles.image} />
       </View>
     );
   }
@@ -35,11 +34,12 @@ export default class PlaceList extends React.Component {
 
     return (
       <FlatList
-        keyExtractor={({ id }) => id}
+        keyExtractor={({ uri }) => uri}
         data={data}
         renderItem={this.renderItem}
         style={styles.container}
         contentContainerStyle={styles.contentContainer}
+        horizontal
       />
     );
   }

@@ -9,10 +9,6 @@ const styles = StyleSheet.create({
     ...styleConstants.shadows.small,
   },
   imageContainer: {},
-  image: {
-    height: 200,
-  },
-  imageIcon: {},
   textContainer: {
     position: 'absolute',
     bottom: 0,

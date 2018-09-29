@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { View, ViewPropTypes, Text, ActivityIndicator } from 'react-native';
+import { View, ActivityIndicator, ViewPropTypes } from 'react-native';
 import FastImage from 'react-native-fast-image';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 
@@ -24,15 +24,10 @@ export default class RemoteImage extends React.Component {
     source: PropTypes.shape({
       uri: PropTypes.string,
     }),
-    borderRadius: PropTypes.number,
-    iconStyle: Text.propTypes.style,
     style: ViewPropTypes.style,
-    loaderColor: PropTypes.string,
   };
 
-  static defaultProps = {
-    loaderColor: styleConstants.colors.primaryText,
-  };
+  static defaultProps = {};
 
   setError() {
     this.setState({
@@ -50,20 +45,19 @@ export default class RemoteImage extends React.Component {
 
   render() {
     const { hasError, isLoading } = this.state;
-    const { borderRadius, iconStyle, loaderColor, source, style } = this.props;
-    const borderRadiusStyles = borderRadius && { borderRadius };
+    const { source, style } = this.props;
     let backgroundComponent;
 
     if (hasError) {
       backgroundComponent = (
-        <View style={[styles.backgroundContainer, borderRadiusStyles]}>
-          <Icon name="error-outline" style={[styles.icon, iconStyle]} />
+        <View style={styles.backgroundContainer}>
+          <Icon name="error-outline" style={styles.icon} />
         </View>
       );
     } else if (isLoading) {
       backgroundComponent = (
-        <View style={[styles.backgroundContainer, borderRadiusStyles]}>
-          <ActivityIndicator size="large" color={loaderColor} />
+        <View style={styles.backgroundContainer}>
+          <ActivityIndicator size="large" color={styleConstants.colors.primary} />
         </View>
       );
     }
@@ -72,7 +66,7 @@ export default class RemoteImage extends React.Component {
       <View style={styles.container}>
         <FastImage
           source={source}
-          style={[styles.image, borderRadiusStyles, style]}
+          style={[styles.image, style]}
           onLoadStart={() => this.setLoading(true)}
           onLoadEnd={() => this.setLoading(false)}
           onError={this.setError}

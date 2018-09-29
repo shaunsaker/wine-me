@@ -4,7 +4,10 @@ import styleConstants from '../../styleConstants';
 
 const styles = StyleSheet.create({
   container: {},
-  image: {},
+  image: {
+    flex: 1,
+    height: 200,
+  },
   backgroundContainer: {
     position: 'absolute',
     top: 0,
