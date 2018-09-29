@@ -10,7 +10,7 @@ import Router from './Router';
 import ErrorHandler from './handlers/ErrorHandler';
 import SystemMessageHandler from './handlers/SystemMessageHandler';
 import AuthHandler from './handlers/AuthHandler';
-import DatabaseHandler from './handlers/DatabaseHandler';
+import DataHandler from './handlers/DataHandler';
 import NetworkHandler from './handlers/NetworkHandler';
 import LocationHandler from './handlers/LocationHandler';
 
@@ -29,7 +29,7 @@ export function App() {
         <ErrorHandler>
           <SystemMessageHandler>
             <AuthHandler />
-            <DatabaseHandler />
+            <DataHandler />
             <NetworkHandler />
             <LocationHandler />
             <Router />
