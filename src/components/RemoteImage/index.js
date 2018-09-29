@@ -70,6 +70,7 @@ export default class RemoteImage extends React.Component {
           onLoadStart={() => this.setLoading(true)}
           onLoadEnd={() => this.setLoading(false)}
           onError={this.setError}
+          borderRadius={styleConstants.dimensions.borderRadius}
         />
         {backgroundComponent}
       </View>

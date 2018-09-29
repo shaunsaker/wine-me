@@ -18,6 +18,8 @@ const styles = StyleSheet.create({
     paddingVertical: styleConstants.dimensions.spacing.vertical,
     paddingHorizontal: styleConstants.dimensions.spacing.horizontal,
     paddingTop: 30, // for linear gradient
+    borderBottomLeftRadius: styleConstants.dimensions.borderRadius,
+    borderBottomRightRadius: styleConstants.dimensions.borderRadius,
   },
   titleText: {
     ...styleConstants.fonts.types.heading,
