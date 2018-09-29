@@ -6,7 +6,7 @@ const styles = StyleSheet.create({
   container: { flex: 1, justifyContent: 'center', alignItems: 'center' },
   icon: {
     fontSize: 64,
-    color: styleConstants.colors.primary,
+    color: styleConstants.colors.secondary,
     marginBottom: styleConstants.dimensions.spacing.vertical,
   },
   titleText: {

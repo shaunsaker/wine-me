@@ -13,16 +13,19 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     paddingVertical: styleConstants.dimensions.spacing.vertical / 2,
   },
-  activeTabContainer: {},
+  activeTabContainer: {
+    borderBottomWidth: 3,
+    borderBottomColor: styleConstants.colors.secondary,
+  },
   icon: {
     fontSize: styleConstants.fonts.sizes.icon,
   },
   text: {
     ...styleConstants.fonts.types.small,
-    ...styleConstants.fonts.mediumFontHelper,
   },
   activeText: {
-    color: styleConstants.colors.primary,
+    color: styleConstants.colors.secondary,
+    ...styleConstants.fonts.mediumFontHelper,
   },
 });
 

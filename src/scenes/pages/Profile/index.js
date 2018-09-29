@@ -26,6 +26,17 @@ export class Profile extends React.Component {
   static defaultProps = {};
 
   render() {
+    const places = [];
+    const placesComponent = places.length ? (
+      <View style={styles.contentContainer}>
+        <SectionHeader text="My places" />
+
+        <PlaceList data={places} handlePress={this.onPlacePress} />
+      </View>
+    ) : (
+      <BlankState iconName="place" title="Some clever title" description="Dum dum dum" />
+    );
+
     return (
       <Page>
         <HeaderBar style={styles.headerBar}>
@@ -36,11 +47,7 @@ export class Profile extends React.Component {
           <Text style={styles.nameText}>Shaun Saker</Text>
         </HeaderBar>
 
-        <SectionHeader text="My places" />
-
-        <View style={styles.contentContainer}>
-          <BlankState iconName="place" title="Some clever title" description="Dum dum dum" />
-        </View>
+        {placesComponent}
 
         <TabBar />
       </Page>
