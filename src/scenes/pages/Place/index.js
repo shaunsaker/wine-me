@@ -100,15 +100,26 @@ export class Place extends React.Component {
   render() {
     const { place } = this.props;
 
-    // Get the google places photo uri from the photo reference
-    const photoURI = utils.app.getGooglePlacesPhotoURI(
-      place.photoReference,
-      config.googlePlaces.maxImageHeight,
-      config.googlePlaces.apiKey,
-    );
-    const photo = { uri: photoURI };
-    const photos = [photo];
+    // Get the google places photo uri from the photo references field
+    const photos = place.photoReferences
+      ? place.photoReferences.map((photoReference) => {
+          const photoURI = utils.app.getGooglePlacesPhotoURI(
+            photoReference,
+            config.googlePlaces.maxImageHeight,
+            config.googlePlaces.apiKey,
+          );
+          const photo = { uri: photoURI };
+
+          return photo;
+        })
+      : [];
     const isVisited = false;
+
+    const photoListComponent = photos.length ? (
+      <PhotoList data={photos} />
+    ) : (
+      <Text style={styles.photosBlankStateText}>No photos to display.</Text>
+    );
 
     const openingHoursComponent = place.openingHours ? (
       <View style={styles.section}>
@@ -144,7 +155,7 @@ export class Place extends React.Component {
           <View style={styles.section}>
             <SectionHeader iconName="photo" text="Photos" />
 
-            <PhotoList data={photos} />
+            {photoListComponent}
           </View>
 
           <Touchable onPress={this.onOpenInMaps} style={styles.section}>

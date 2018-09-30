@@ -25,6 +25,12 @@ const styles = StyleSheet.create({
     color: styleConstants.colors.primary,
     textDecorationLine: 'underline',
   },
+  photosBlankStateText: {
+    ...styleConstants.fonts.types.small,
+    paddingHorizontal: styleConstants.dimensions.spacing.horizontal,
+    marginBottom: styleConstants.dimensions.spacing.vertical,
+    marginLeft: ICON_SIZE + styleConstants.dimensions.spacing.horizontal / 2,
+  },
 });
 
 export default styles;
