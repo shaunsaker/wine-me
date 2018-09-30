@@ -11,7 +11,8 @@ import HeaderBar from '../../../components/HeaderBar';
 import BackButton from '../../../components/BackButton';
 import InputContainer from '../../../components/InputContainer';
 import SearchInput from '../../../components/SearchInput';
-import LabelList from '../../../components/LabelList';
+import SearchAreaLabelList from '../../../components/SearchAreaLabelList';
+import Label from '../../../components/Label';
 import PlaceList from '../../../components/PlaceList';
 import BlankState from '../../../components/BlankState';
 
@@ -21,14 +22,18 @@ export class Search extends React.Component {
 
     this.onBack = this.onBack.bind(this);
     this.onChangeText = this.onChangeText.bind(this);
-    this.setSearchTerm = this.setSearchTerm.bind(this);
     this.onSubmit = this.onSubmit.bind(this);
+    this.onSearchAreaLabelPress = this.onSearchAreaLabelPress.bind(this);
+    this.onSelectedSearchAreaLabelPress = this.onSelectedSearchAreaLabelPress.bind(this);
+    this.setSearchTerm = this.setSearchTerm.bind(this);
     this.dismissKeyboard = this.dismissKeyboard.bind(this);
+    this.setSearchArea = this.setSearchArea.bind(this);
     this.onPlacePress = this.onPlacePress.bind(this);
     this.navigate = this.navigate.bind(this);
 
     this.state = {
       searchTerm: null,
+      searchArea: null,
     };
   }
 
@@ -47,16 +52,30 @@ export class Search extends React.Component {
     this.setSearchTerm(text);
   }
 
-  setSearchTerm(searchTerm) {
-    this.setState({ searchTerm });
-  }
-
   onSubmit() {
     this.dismissKeyboard();
   }
 
+  onSearchAreaLabelPress(searchArea) {
+    this.setSearchArea(searchArea);
+  }
+
+  onSelectedSearchAreaLabelPress() {
+    this.setSearchArea();
+  }
+
+  setSearchTerm(searchTerm) {
+    this.setState({ searchTerm });
+  }
+
   dismissKeyboard() {
     Keyboard.dismiss();
+  }
+
+  setSearchArea(searchArea) {
+    this.setState({
+      searchArea,
+    });
   }
 
   onPlacePress(place) {
@@ -68,31 +87,54 @@ export class Search extends React.Component {
   }
 
   render() {
-    const { searchTerm } = this.state;
+    const { searchTerm, searchArea } = this.state;
     const { searchAreas, places } = this.props;
 
     // Convert searchAreas object to array
-    // Return names as text field
     // Sort by name (a to z)
-    const searchAreasArray = utils.arrays.sortArrayOfObjectsByKey(
-      utils.objects.convertObjectToArray(searchAreas).map((searchArea) => {
-        return {
-          text: searchArea.name,
-          id: searchArea.id,
-        };
-      }),
-      'text',
-    );
+    // Filter out the currently selected searchArea, if any
+    const searchAreasArray = utils.arrays
+      .sortArrayOfObjectsByKey(utils.objects.convertObjectToArray(searchAreas), 'name')
+      .filter((item) => (searchArea ? item.name !== searchArea.name : item));
+
+    let searchResults = [];
+
+    // Convert places object to array
+    // If a search area has been selected
+    // Create a relative distance key based on coords
+    // Filter on relativeDistance < searchArea.radius
+    // Sort it by relativeDistance (low to high)
+    if (searchArea) {
+      searchResults = utils.arrays.sortArrayOfObjectsByKey(
+        utils.objects
+          .convertObjectToArray(places)
+          .map((place) => {
+            const newPlace = { ...place };
+            newPlace.relativeDistance = utils.app.getDistanceBetweenCoordinates(
+              place.location,
+              searchArea.location,
+            );
+
+            return newPlace;
+          })
+          .filter((item) => item.relativeDistance <= searchArea.radius),
+        'relativeDistance',
+      );
+    }
 
     // If there is a search term that is at least 2 characters long
-    // Convert places object to array
     // Filter on searchTerm (lower cased)
-    const searchResults =
-      searchTerm &&
-      searchTerm.length > 1 &&
-      utils.objects.convertObjectToArray(places).filter((place) => {
+    if (searchTerm && searchTerm.length > 1) {
+      searchResults = searchResults.filter((place) => {
         return place.name.toLowerCase().indexOf(searchTerm.toLowerCase()) > -1;
       });
+    }
+
+    const selectedSearchAreaComponent = searchArea ? (
+      <View style={styles.selectedSearchAreaLabelContainer}>
+        <Label text={searchArea.name} handlePress={this.onSelectedSearchAreaLabelPress} />
+      </View>
+    ) : null;
 
     const searchResultsComponent = searchResults ? (
       searchResults.length ? (
@@ -114,8 +156,6 @@ export class Search extends React.Component {
       />
     );
 
-    // TODO: Handle search area
-
     return (
       <Page>
         <HeaderBar>
@@ -127,10 +167,15 @@ export class Search extends React.Component {
               handleChangeText={this.onChangeText}
               style={styles.searchInput}
             />
+
+            {selectedSearchAreaComponent}
           </View>
 
           <View style={styles.labelListContainer}>
-            <LabelList handlePress={this.onLocationLabelPress} data={searchAreasArray} />
+            <SearchAreaLabelList
+              data={searchAreasArray}
+              handlePress={this.onSearchAreaLabelPress}
+            />
           </View>
         </HeaderBar>
 

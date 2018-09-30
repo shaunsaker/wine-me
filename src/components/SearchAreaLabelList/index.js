@@ -6,7 +6,7 @@ import styles from './styles';
 
 import Label from '../Label';
 
-export default class LabelList extends React.Component {
+export default class SearchAreaLabelLIst extends React.Component {
   constructor(props) {
     super(props);
 
@@ -14,7 +14,11 @@ export default class LabelList extends React.Component {
   }
 
   static propTypes = {
-    data: PropTypes.arrayOf(PropTypes.shape({})),
+    data: PropTypes.arrayOf(
+      PropTypes.shape({
+        name: PropTypes.string,
+      }),
+    ),
     handlePress: PropTypes.func,
   };
 
@@ -25,7 +29,7 @@ export default class LabelList extends React.Component {
 
     return (
       <View style={styles.labelContainer}>
-        <Label text={item.text} handlePress={() => handlePress(item)} />
+        <Label text={item.name} handlePress={() => handlePress(item)} />
       </View>
     );
   }

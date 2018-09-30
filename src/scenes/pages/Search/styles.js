@@ -15,6 +15,13 @@ const styles = StyleSheet.create({
   searchInput: {
     flex: 1, // NB
   },
+  selectedSearchAreaLabelContainer: {
+    position: 'absolute',
+    top: 0,
+    bottom: 0,
+    right: styleConstants.dimensions.spacing.horizontal,
+    justifyContent: 'center',
+  },
   labelListContainer: {
     paddingTop: styleConstants.dimensions.spacing.vertical,
   },
