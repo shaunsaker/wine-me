@@ -18,6 +18,9 @@ const styles = StyleSheet.create({
   labelListContainer: {
     paddingTop: styleConstants.dimensions.spacing.vertical,
   },
+  placeListContainer: {
+    paddingTop: styleConstants.dimensions.spacing.vertical,
+  },
 });
 
 export default styles;

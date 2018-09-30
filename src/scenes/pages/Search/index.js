@@ -5,7 +5,6 @@ import { Keyboard, View } from 'react-native';
 
 import utils from '../../../utils';
 import styles from './styles';
-import PLACES from '../../../mockData/PLACES';
 
 import Page from '../../../components/Page';
 import HeaderBar from '../../../components/HeaderBar';
@@ -33,7 +32,10 @@ export class Search extends React.Component {
     };
   }
 
-  static propTypes = {};
+  static propTypes = {
+    searchAreas: PropTypes.shape({}),
+    places: PropTypes.shape({}),
+  };
 
   static defaultProps = {};
 
@@ -67,6 +69,44 @@ export class Search extends React.Component {
 
   render() {
     const { searchTerm } = this.state;
+    const { searchAreas, places } = this.props;
+
+    // Convert searchAreas object to array
+    // Return names as text field
+    // Sort by name (a to z)
+    const searchAreasArray = utils.arrays.sortArrayOfObjectsByKey(
+      utils.objects.convertObjectToArray(searchAreas).map((searchArea) => {
+        return {
+          text: searchArea.name,
+          id: searchArea.id,
+        };
+      }),
+      'text',
+    );
+
+    // If there is a search term that is at least 2 characters long
+    // Convert places object to array
+    // Filter on searchTerm (lower cased)
+    const searchResults =
+      searchTerm &&
+      searchTerm.length > 1 &&
+      utils.objects.convertObjectToArray(places).filter((place) => {
+        return place.name.toLowerCase().indexOf(searchTerm.toLowerCase()) > -1;
+      });
+
+    const searchResultsComponent = searchResults ? (
+      <View style={styles.placeListContainer}>
+        <PlaceList data={searchResults} handlePress={this.onPlacePress} />
+      </View>
+    ) : (
+      <BlankState
+        iconName="search"
+        title="Search over 525+ places in the Western Cape"
+        description="If you're heading somewhere specific, try an area search by tapping on of the red buttons."
+      />
+    );
+
+    // TODO: Handle search area
 
     return (
       <Page>
@@ -82,10 +122,7 @@ export class Search extends React.Component {
           </View>
 
           <View style={styles.labelListContainer}>
-            <LabelList
-              handlePress={this.onLocationLabelPress}
-              data={[{ text: 'Bot River', id: 'abc' }, { text: 'Franshoek', id: 'cde' }]}
-            />
+            <LabelList handlePress={this.onLocationLabelPress} data={searchAreasArray} />
           </View>
         </HeaderBar>
 
@@ -93,19 +130,18 @@ export class Search extends React.Component {
           containerStyle={styles.container}
           contentContainerStyle={styles.contentContainer}
         >
-          <BlankState
-            iconName="search"
-            title="Search over 525+ places in the Western Cape"
-            description="If you're heading somewhere specific, try an area search by tapping on of the red buttons."
-          />
+          {searchResultsComponent}
         </InputContainer>
       </Page>
     );
   }
 }
 
-function mapStateToProps() {
-  return {};
+function mapStateToProps(state) {
+  return {
+    searchAreas: state.appData.searchAreas,
+    places: state.appData.places,
+  };
 }
 
 export default connect(mapStateToProps)(Search);
