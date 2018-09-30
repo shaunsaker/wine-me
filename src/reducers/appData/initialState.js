@@ -1,6 +1,8 @@
 const initialState = {
-  app: null,
-  users: null,
+  places: {},
+  featuredPlaces: {},
+  searchAreas: {},
+  user: {},
 };
 
 export default initialState;
