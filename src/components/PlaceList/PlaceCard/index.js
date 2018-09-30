@@ -21,7 +21,7 @@ export class PlaceCardContainer extends React.Component {
         lat: PropTypes.number,
         lng: PropTypes.number,
       }),
-      photoReference: PropTypes.string,
+      photoReferences: PropTypes.arrayOf(PropTypes.string),
     }).isRequired,
     handlePress: PropTypes.func,
 
@@ -38,12 +38,15 @@ export class PlaceCardContainer extends React.Component {
     const { place, deviceLocation, handlePress } = this.props;
 
     // Get the google places photo uri from the photo reference
-    const uri = utils.app.getGooglePlacesPhotoURI(
-      place.photoReference,
-      config.googlePlaces.maxImageHeight,
-      config.googlePlaces.apiKey,
-    );
-    const imageSource = {
+    const photoReference = place.photoReferences && place.photoReferences[0];
+    const uri =
+      photoReference &&
+      utils.app.getGooglePlacesPhotoURI(
+        photoReference,
+        config.googlePlaces.maxImageHeight,
+        config.googlePlaces.apiKey,
+      );
+    const imageSource = uri && {
       uri,
     };
     const title = place.name;
