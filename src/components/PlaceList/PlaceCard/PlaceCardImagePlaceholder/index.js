@@ -11,7 +11,7 @@ const defaultProps = {};
 const PlaceCardImagePlaceholder = () => {
   return (
     <View style={styles.container}>
-      <Icon name="info" style={styles.icon} />
+      <Icon name="photo" style={styles.icon} />
     </View>
   );
 };
