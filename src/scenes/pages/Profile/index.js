@@ -4,7 +4,6 @@ import { connect } from 'react-redux';
 import { View, Text } from 'react-native';
 
 import styles from './styles';
-import PLACES from '../../../mockData/PLACES';
 
 import Page from '../../../components/Page';
 import HeaderBar from '../../../components/HeaderBar';
@@ -21,17 +20,25 @@ export class Profile extends React.Component {
     this.state = {};
   }
 
-  static propTypes = {};
+  static propTypes = {
+    userCheckIns: PropTypes.shape({}),
+    places: PropTypes.shape({}),
+  };
 
   static defaultProps = {};
 
   render() {
-    const places = [];
-    const placesComponent = places.length ? (
+    const { userCheckIns, places } = this.props;
+
+    // Iterate over userCheckIns object
+    // Return places that match check in place_ids
+    const checkedInPlaces = Object.keys(userCheckIns).map((checkIn) => places[checkIn.place_id]);
+
+    const placesComponent = checkedInPlaces.length ? (
       <View style={styles.contentContainer}>
         <SectionHeader text="My places" />
 
-        <PlaceList data={places} handlePress={this.onPlacePress} />
+        <PlaceList data={checkedInPlaces} handlePress={this.onPlacePress} />
       </View>
     ) : (
       <BlankState
@@ -59,8 +66,11 @@ export class Profile extends React.Component {
   }
 }
 
-function mapStateToProps() {
-  return {};
+function mapStateToProps(state) {
+  return {
+    userCheckIns: state.appData.userCheckIns,
+    places: state.appData.places,
+  };
 }
 
 export default connect(mapStateToProps)(Profile);
