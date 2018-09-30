@@ -17,7 +17,9 @@ const styles = StyleSheet.create({
     color: styleConstants.colors.white,
     marginRight: styleConstants.dimensions.spacing.horizontal / 2,
   },
-  input: {},
+  input: {
+    flex: 1,
+  },
   text: {
     ...styleConstants.fonts.types.paragraph,
     color: styleConstants.colors.white,

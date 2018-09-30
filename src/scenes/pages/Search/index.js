@@ -95,9 +95,17 @@ export class Search extends React.Component {
       });
 
     const searchResultsComponent = searchResults ? (
-      <View style={styles.placeListContainer}>
-        <PlaceList data={searchResults} handlePress={this.onPlacePress} />
-      </View>
+      searchResults.length ? (
+        <View style={styles.placeListContainer}>
+          <PlaceList data={searchResults} handlePress={this.onPlacePress} />
+        </View>
+      ) : (
+        <BlankState
+          iconName="search"
+          title="No results found"
+          description="We couldn't find any results for your search. Try searching for something else."
+        />
+      )
     ) : (
       <BlankState
         iconName="search"
