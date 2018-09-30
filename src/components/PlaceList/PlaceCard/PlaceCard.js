@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { View, Text } from 'react-native';
+import { Text } from 'react-native';
 import LinearGradient from 'react-native-linear-gradient';
 
 import styleConstants from '../../../styleConstants';
@@ -9,6 +9,7 @@ import styles from './styles';
 
 import Touchable from '../../Touchable';
 import RemoteImage from '../../RemoteImage';
+import PlaceCardImagePlaceholder from './PlaceCardImagePlaceholder';
 import Label from '../../Label';
 
 const propTypes = {
@@ -29,13 +30,17 @@ const defaultProps = {};
 */
 
 const PlaceCard = ({ imageSource, title, label, handlePress }) => {
+  const imageComponent = imageSource ? (
+    <RemoteImage source={imageSource} />
+  ) : (
+    <PlaceCardImagePlaceholder />
+  );
   const labelComponent = label ? <Label text={label} /> : null;
 
   return (
     <Touchable onPress={handlePress} style={styles.container}>
-      <View style={styles.imageContainer}>
-        <RemoteImage source={imageSource} />
-      </View>
+      {imageComponent}
+
       <LinearGradient
         colors={['transparent', styleConstants.colors.transBlack]}
         style={styles.textContainer}

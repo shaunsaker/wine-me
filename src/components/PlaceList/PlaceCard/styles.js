@@ -8,7 +8,6 @@ const styles = StyleSheet.create({
     backgroundColor: styleConstants.colors.white,
     ...styleConstants.shadows.small,
   },
-  imageContainer: {},
   textContainer: {
     position: 'absolute',
     bottom: 0,
