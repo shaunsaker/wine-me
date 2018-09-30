@@ -11,6 +11,9 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     ...styleConstants.shadows.small,
   },
+  alternateContainer: {
+    backgroundColor: styleConstants.colors.white,
+  },
   icon: {
     fontSize: styleConstants.fonts.sizes.icon,
     color: styleConstants.colors.white,
@@ -22,6 +25,9 @@ const styles = StyleSheet.create({
     flex: 1,
     textAlign: 'center',
     marginRight: styleConstants.fonts.sizes.icon + styleConstants.dimensions.spacing.horizontal / 2, // align to center
+  },
+  alternateText: {
+    color: styleConstants.colors.secondary,
   },
 });
 

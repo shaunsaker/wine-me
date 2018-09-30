@@ -12,16 +12,21 @@ const propTypes = {
   iconName: PropTypes.string,
   text: PropTypes.string,
   disabled: PropTypes.bool,
+  alternateStyle: PropTypes.bool,
 };
 
 const defaultProps = {};
 
-const FooterButton = ({ handlePress, iconName, text, disabled }) => {
+const FooterButton = ({ handlePress, iconName, text, disabled, alternateStyle }) => {
   return (
-    <Touchable onPress={handlePress} style={styles.container} disabled={disabled}>
-      <Icon name={iconName} style={styles.icon} />
+    <Touchable
+      onPress={handlePress}
+      style={[styles.container, alternateStyle && styles.alternateContainer]}
+      disabled={disabled}
+    >
+      <Icon name={iconName} style={[styles.icon, alternateStyle && styles.alternateText]} />
 
-      <Text style={styles.text}>{text}</Text>
+      <Text style={[styles.text, alternateStyle && styles.alternateText]}>{text}</Text>
     </Touchable>
   );
 };

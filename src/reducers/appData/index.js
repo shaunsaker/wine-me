@@ -44,6 +44,19 @@ export default function appDataReducer(state = initialState, action = {}) {
 
       return newState;
 
+    case 'SET_USER_CHECK_INS':
+      newState = utils.objects.cloneObject(state);
+
+      // Iterate over the collection, setting each document
+      // as an object on newState indexed by documentID
+      action.payload.data.forEach((checkIn) => {
+        const key = checkIn.id;
+
+        newState.userCheckIns[key] = checkIn;
+      });
+
+      return newState;
+
     default:
       return state;
   }

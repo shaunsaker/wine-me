@@ -2,7 +2,7 @@ const initialState = {
   places: {},
   featuredPlaces: {},
   searchAreas: {},
-  user: {},
+  userCheckIns: {},
 };
 
 export default initialState;

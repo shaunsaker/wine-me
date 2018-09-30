@@ -10,13 +10,14 @@ export class DataHandler extends React.Component {
     this.syncPlaces = this.syncPlaces.bind(this);
     this.syncFeaturedPlaces = this.syncFeaturedPlaces.bind(this);
     this.syncSearchAreas = this.syncSearchAreas.bind(this);
-    this.syncUserData = this.syncUserData.bind(this);
+    this.syncCheckIns = this.syncCheckIns.bind(this);
   }
 
   static get propTypes() {
     return {
       dispatch: PropTypes.func,
       authenticated: PropTypes.bool,
+      uid: PropTypes.string,
     };
   }
 
@@ -40,7 +41,7 @@ export class DataHandler extends React.Component {
     this.syncPlaces();
     this.syncFeaturedPlaces();
     this.syncSearchAreas();
-    this.syncUserData();
+    this.syncCheckIns();
   }
 
   syncPlaces() {
@@ -88,20 +89,19 @@ export class DataHandler extends React.Component {
     });
   }
 
-  syncUserData() {
+  syncCheckIns() {
     const { dispatch, uid } = this.props;
 
-    console.log('TODO: GETTING USER DATA');
-
-    // dispatch({
-    //   type: 'sync',
-    //   meta: {
-    //     pathParts: ['users'],
-    //     nextAction: {
-    //       type: 'SET_FEATURED_PLACES',
-    //     },
-    //   },
-    // });
+    dispatch({
+      type: 'sync',
+      meta: {
+        pathParts: ['check_ins'],
+        query: ['uid', '==', uid],
+        nextAction: {
+          type: 'SET_USER_CHECK_INS',
+        },
+      },
+    });
   }
 
   render() {
@@ -112,6 +112,7 @@ export class DataHandler extends React.Component {
 function mapStateToProps(state) {
   return {
     authenticated: state.user.authenticated,
+    uid: state.user.uid,
   };
 }
 

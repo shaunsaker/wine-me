@@ -23,8 +23,9 @@ export class Place extends React.Component {
     this.onOpenInMaps = this.onOpenInMaps.bind(this);
     this.onCall = this.onCall.bind(this);
     this.onOpenWebsite = this.onOpenWebsite.bind(this);
-    this.onMarkAsVisited = this.onMarkAsVisited.bind(this);
+    this.onCheckIn = this.onCheckIn.bind(this);
     this.link = this.link.bind(this);
+    this.addCheckIn = this.addCheckIn.bind(this);
     this.setSystemMessage = this.setSystemMessage.bind(this);
     this.navigate = this.navigate.bind(this);
 
@@ -34,6 +35,8 @@ export class Place extends React.Component {
   static propTypes = {
     place: PropTypes.shape({}).isRequired, // from relevant page
     dispatch: PropTypes.func,
+    uid: PropTypes.string,
+    userCheckIns: PropTypes.shape({}),
   };
 
   static defaultProps = {};
@@ -66,7 +69,9 @@ export class Place extends React.Component {
     this.link(link);
   }
 
-  onMarkAsVisited() {}
+  onCheckIn() {
+    this.addCheckIn();
+  }
 
   link(url) {
     Linking.canOpenURL(url)
@@ -80,6 +85,21 @@ export class Place extends React.Component {
         return null;
       })
       .catch((error) => this.setSystemMessage(error.message));
+  }
+
+  addCheckIn() {
+    const { place, dispatch, uid } = this.props;
+
+    dispatch({
+      type: 'addDocument',
+      meta: {
+        pathParts: ['check_ins'],
+      },
+      payload: {
+        place_id: place.id,
+        uid,
+      },
+    });
   }
 
   setSystemMessage(message) {
@@ -98,7 +118,17 @@ export class Place extends React.Component {
   }
 
   render() {
-    const { place } = this.props;
+    // FIXME: Could separate check in feature into CheckInButton
+    const { place, userCheckIns } = this.props;
+
+    // Iterate over the userCheckIns object
+    // Return place that matches the current place id
+    // with the userCheckIn place_id
+    const isCheckedIn = Object.keys(userCheckIns).filter(
+      (documentID) => userCheckIns[documentID].place_id === place.id,
+    ).length
+      ? true
+      : null;
 
     // Get the google places photo uri from the photo references field
     const photos = place.photoReferences
@@ -113,7 +143,6 @@ export class Place extends React.Component {
           return photo;
         })
       : [];
-    const isVisited = false;
 
     const photoListComponent = photos.length ? (
       <PhotoList data={photos} />
@@ -133,14 +162,6 @@ export class Place extends React.Component {
           );
         })}
       </View>
-    ) : null;
-
-    const markAsVisitedButtonComponent = !isVisited ? (
-      <FooterButton
-        handlePress={this.onMarkAsVisited}
-        iconName="mode-edit"
-        text="Mark as visited"
-      />
     ) : null;
 
     return (
@@ -179,14 +200,23 @@ export class Place extends React.Component {
           {openingHoursComponent}
         </ScrollView>
 
-        {markAsVisitedButtonComponent}
+        <FooterButton
+          handlePress={this.onCheckIn}
+          disabled={isCheckedIn}
+          iconName={isCheckedIn ? 'gps-fixed' : 'gps-not-fixed'}
+          text={isCheckedIn ? 'Checked in' : 'Check in'}
+          alternateStyle={isCheckedIn}
+        />
       </Page>
     );
   }
 }
 
-function mapStateToProps() {
-  return {};
+function mapStateToProps(state) {
+  return {
+    uid: state.user.uid,
+    userCheckIns: state.appData.userCheckIns,
+  };
 }
 
 export default connect(mapStateToProps)(Place);
