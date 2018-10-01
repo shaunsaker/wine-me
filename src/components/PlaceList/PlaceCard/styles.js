@@ -7,6 +7,8 @@ const styles = StyleSheet.create({
     alignSelf: 'stretch',
     backgroundColor: styleConstants.colors.white,
     ...styleConstants.shadows.small,
+    borderRadius: styleConstants.dimensions.borderRadius,
+    overflow: 'hidden',
   },
   textContainer: {
     position: 'absolute',
