@@ -1,0 +1,221 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FooterButton renders renders 1`] = `
+<View
+  accessible={true}
+  isTVSelectable={true}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "backgroundColor": "#E23E57",
+      "borderColor": null,
+      "borderWidth": 0,
+      "elevation": 2,
+      "height": 48,
+      "justifyContent": "center",
+      "opacity": 1,
+      "paddingHorizontal": 15,
+      "shadowColor": "#212121",
+      "shadowOffset": Object {
+        "height": 1,
+        "width": 0,
+      },
+      "shadowOpacity": 0.17,
+      "shadowRadius": 2,
+    }
+  }
+  testID="footerButton"
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <Text
+      allowFontScaling={false}
+      style={
+        Array [
+          Object {
+            "color": undefined,
+            "fontSize": 12,
+          },
+          Array [
+            Object {
+              "color": "#FFFFFF",
+              "fontSize": 24,
+              "marginRight": 7.5,
+            },
+            undefined,
+          ],
+          Object {
+            "fontFamily": "Material Icons",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          Object {},
+        ]
+      }
+    >
+      
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#FFFFFF",
+            "flex": 1,
+            "fontFamily": undefined,
+            "fontSize": 17,
+            "fontWeight": "600",
+            "marginRight": 31.5,
+            "textAlign": "center",
+          },
+          undefined,
+        ]
+      }
+    >
+      Test
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`FooterButton renders renders the alternate style 1`] = `
+<View
+  accessible={true}
+  isTVSelectable={true}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "backgroundColor": "#FFFFFF",
+      "borderColor": null,
+      "borderWidth": 0,
+      "elevation": 2,
+      "height": 48,
+      "justifyContent": "center",
+      "opacity": 1,
+      "paddingHorizontal": 15,
+      "shadowColor": "#212121",
+      "shadowOffset": Object {
+        "height": 1,
+        "width": 0,
+      },
+      "shadowOpacity": 0.17,
+      "shadowRadius": 2,
+    }
+  }
+  testID="footerButton"
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <Text
+      allowFontScaling={false}
+      style={
+        Array [
+          Object {
+            "color": undefined,
+            "fontSize": 12,
+          },
+          Array [
+            Object {
+              "color": "#FFFFFF",
+              "fontSize": 24,
+              "marginRight": 7.5,
+            },
+            Object {
+              "color": "#E23E57",
+            },
+          ],
+          Object {
+            "fontFamily": "Material Icons",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          Object {},
+        ]
+      }
+    >
+      
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#FFFFFF",
+            "flex": 1,
+            "fontFamily": undefined,
+            "fontSize": 17,
+            "fontWeight": "600",
+            "marginRight": 31.5,
+            "textAlign": "center",
+          },
+          Object {
+            "color": "#E23E57",
+          },
+        ]
+      }
+    >
+      Test
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`FooterButton renders renders the loading state 1`] = `
+<View
+  accessible={true}
+  isTVSelectable={true}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "backgroundColor": "#E23E57",
+      "borderColor": null,
+      "borderWidth": 0,
+      "elevation": 2,
+      "height": 48,
+      "justifyContent": "center",
+      "opacity": 1,
+      "paddingHorizontal": 15,
+      "shadowColor": "#212121",
+      "shadowOffset": Object {
+        "height": 1,
+        "width": 0,
+      },
+      "shadowOpacity": 0.17,
+      "shadowRadius": 2,
+    }
+  }
+  testID="footerButton"
+>
+  <ActivityIndicator
+    animating={true}
+    color="#FFFFFF"
+    hidesWhenStopped={true}
+    size="small"
+  />
+</View>
+`;
