@@ -1,13 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-import { View, Text } from 'react-native';
+import { View } from 'react-native';
 
 import styles from './styles';
 
 import Page from '../../../components/Page';
-import HeaderBar from '../../../components/HeaderBar';
-import Avatar from '../../../components/Avatar';
 import SectionHeader from '../../../components/SectionHeader';
 import BlankState from '../../../components/BlankState';
 import PlaceList from '../../../components/PlaceList';
@@ -50,14 +48,6 @@ export class Profile extends React.Component {
 
     return (
       <Page>
-        <HeaderBar style={styles.headerBar}>
-          <View style={styles.avatarContainer}>
-            <Avatar />
-          </View>
-
-          <Text style={styles.nameText}>Shaun Saker</Text>
-        </HeaderBar>
-
         {placesComponent}
 
         <TabBar />
