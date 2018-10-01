@@ -9,6 +9,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     maxWidth: 300,
     alignSelf: 'center',
+    paddingVertical: 100, // fixes squashed container when input is focussed
   },
   icon: {
     fontSize: 64,
