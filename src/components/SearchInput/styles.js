@@ -6,11 +6,11 @@ const styles = StyleSheet.create({
   container: {
     alignSelf: 'stretch',
     backgroundColor: styleConstants.colors.transBlack,
-    paddingVertical: styleConstants.dimensions.spacing.vertical,
     paddingHorizontal: styleConstants.dimensions.spacing.horizontal,
     borderRadius: styleConstants.dimensions.borderRadius,
     flexDirection: 'row',
     alignItems: 'center',
+    height: 48,
   },
   icon: {
     fontSize: styleConstants.fonts.sizes.icon,
