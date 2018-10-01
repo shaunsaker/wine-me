@@ -14,6 +14,8 @@ import DataHandler from './handlers/DataHandler';
 import NetworkHandler from './handlers/NetworkHandler';
 import LocationHandler from './handlers/LocationHandler';
 
+import PageLoader from './components/PageLoader';
+
 // Helper to clear local storage during development
 // if (__DEV__) {
 //   persistor.purge();
@@ -25,7 +27,7 @@ YellowBox.ignoreWarnings(['Remote debugger', 'Warning: isMounted(...) is depreca
 export function App() {
   return (
     <Provider store={store}>
-      <PersistGate loading={null} persistor={persistor}>
+      <PersistGate loading={<PageLoader />} persistor={persistor}>
         <ErrorHandler>
           <SystemMessageHandler>
             <AuthHandler />
