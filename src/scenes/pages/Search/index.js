@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { Keyboard, View } from 'react-native';
+import Animator from 'react-native-simple-animators';
 
 import utils from '../../../utils';
 import styles from './styles';
@@ -138,9 +139,15 @@ export class Search extends React.Component {
     }
 
     const selectedSearchAreaComponent = searchArea ? (
-      <View style={styles.selectedSearchAreaLabelContainer}>
+      <Animator
+        type="translateY"
+        initialValue={24}
+        finalValue={0}
+        shouldAnimateIn
+        style={styles.selectedSearchAreaLabelContainer}
+      >
         <Label text={searchArea.name} handlePress={this.onSelectedSearchAreaLabelPress} />
-      </View>
+      </Animator>
     ) : null;
 
     const searchResultsComponent = searchResults ? (
