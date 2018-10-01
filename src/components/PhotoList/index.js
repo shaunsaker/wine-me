@@ -40,6 +40,7 @@ export default class PlaceList extends React.Component {
         style={styles.container}
         contentContainerStyle={styles.contentContainer}
         horizontal
+        initialNumToRender={3}
       />
     );
   }
