@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 18.9412022,
+        "type": "number"
+      },
+      "lat": {
+        "value": -34.104073,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAhK_9Kpp0BVRHsiNLLIbVZw2cJqeD-1fkp00VY98MwSwhxAzhx5AbjSOG7_tiFXamZqxrqwIiousbiG0Nd8LkddBvD1vomseoihAShqnvaWRoULzVUH2U1wP__TPuYPFAEhChtjc_cNLXLQdr3ejTVAWHGhSRHc9vU8nO7bx7SnBnPKTIplLxfw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAugwn5cH3rPs3NIkOkFNVR_K4vP6jywCvspU-SlbTbA6bBEY0RF-rLY5HAyaZp62IukzlYa4tPXLG0JTxvxim2MCTyNKeKUh5cJbVCpoalGpWbvTrfMPBKZMg5JGY0V5jEhDjzR2xRM_FUMgFz83juCExGhTpVJGLwiSvwas-R_3bqocxVBgFUQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA5wei-_vROAPssxmv8iax8OJcMZgoshrNPInxAJXwIzD_ygbjVlvclXZWpthS0B9AHxUijt9vHOcTqQBXtZ7_BHNW1nOGqPJe2GuIXVG6Pnc3TzWnGnyt-oon2B8D94tbEhACmSSGvsF_NO9yMi9mUGRsGhTa3ZcVq0Xp7xCA9_p85iFfXoGN5w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAANAwe8OJpWRrVqXCT5f7cZ43-rdsU_9E83Jb20RYS2_LPksaNx0yzJ7jGJ9mJt9JJUOa_2n-pQCzgzA1U4vOnrTNGJdOSMzCoiv0k-zfNzKi-WGR_xA8P0nMm0Tg2TEWLEhDbtojRbtnHF8JSqA7-YGctGhR4KRMePKoN96lidklvxUNRu6Bq7A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAjK67kjnZMX1LbSBBuYsaqvk5ohpvrNtS2oe_cSxhL3S0_4uPV31gH6qCO9VWYYO3uQ-1oOF2w7sXhN9MXm0y6ePslPETwGVHx42SnOlRKb04IvOultqTRpLihc3mnDqqEhAu4fTI_h0vt1dOy3xq3SoSGhSQ9-2Gk93B-MgnNqDf0Yk5G9kYzQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA_P6qUr46pDCDTNOVqZWTMmhDnaBu6zz4DcfsuTjgr_c5QFnv-qDHc9rRfk9LnCNVVhMphsl_0IKLivnjwegkOqVHc-aPeETnG8hSg3mOqBcWu_6SY2VpHcN8gnDH0nqYEhDWmzeheAAI0w3kWb9fY3l4GhSEQkCXGf1oA6a87q1ZrzZ-PIQy7A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAa_H6brlb68yHs5h_Ua6Y33lg0cSzd0PuFiw3k1NVSTpQtvi66YxM0DSljdNGpjfmHct54JuSZxAcP1_9OrPLFIYLPFcrciTyxYRr7_6ONDhMfBSlDbvWUWXQeWJtNxFIEhDy36c1_Eg00-PZSEI1Z7wQGhQdCKgOR-Yd75iZol1cnON3asOjOg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAnxaoPYEb6PJuE48xpRCVh5RV9rSBfKWmRfZAWwmLR9nU6QQnkA0v5_E0bjYaxGFX3C3RVE7nMkwYzllLiomkcxSw8ukDJqVW-TGcHkwtY6Ha4fa3em4vVMm_XFttoLOPEhClMEsfiI2MW5E9hTCvB0j0GhTUB4p8raqYMzZzTjkCI_XPI1qzwQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAf8_YsjQnyTZ-Za3CSWT337qxPgComa0W7K1jS8zezZxM5fp2qXrBGgUWwZAxLxsf8n08Evo9TdpgExe0URTNJAlizb3NzIX8bmbxjONQlnG0o9fkv7tyQShU-TJendLCEhDyJFysXOVYFWY4gOquknJFGhSGQBSfb5fMtG4VGXi7iPQWNUmhOQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAyOLcFOodsblEgyCkZ3gQxZW6MItybvYzNKTN0wld9xEXkq0d-JNHOcjuGM8sEo049reR1otwdpax-KXar7lckSQQdKqcQh_xhfXOAlZApXT1jedbe9DA3Hwrnz9cifQtEhD5E7IPmI-LXLFakNaBzRjeGhQelYXFV0QDNchNOdHpv_aQBLKpSw",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.idiom.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Sir Lowrys Pass, Knorhoek Estate entrance, Sir Lowry's Pass, Cape Town, 7130, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 858 1088",
+    "type": "string"
+  },
+  "name": {
+    "value": "Idiom Wine - Da Capo Vineyards",
+    "type": "string"
+  }
+}

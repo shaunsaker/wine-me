@@ -1,0 +1,109 @@
+{
+  "website": {
+    "value": "http://www.boschendal.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "R310 Pniel Road, Groot Drakenstein, Franshhoek, 7690, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 870 4200",
+    "type": "string"
+  },
+  "name": {
+    "value": "Boschendal",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 9:30 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 9:30 AM – 4:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.88510100000001,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.968314,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAABDP1xEPi-enYSDhRCOprxXlK_y0H049w6HAuUNmlGkAXA3Wo8HkanNUX7SGvs9YC-jOSiCp14XbDd5O7vkCtSXbFmbvlfawQZ05_Fr0Q3CLFYAaS271LF7vNQJJBzEVHEhAwzN02-AK7n_PSNebHgbHxGhSADJIxv7iANy4vlEQ50DuVoEv1nA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAcQNy4yqVrihu8mdp2h4BZWuhLuLJ49pq7j1LUWpyKym85y8N4UHa7KIm1J1yVpSd0tS8gikS0V3BZHmpWbG6yPn4pHbSq0wU6HKlApythZkvW-UEv0ZXZvAHitTp0_YREhDzXSn5EMzTiMbvwCW0Z6WxGhT5FBBcaigSl5OE-qvzvBhqqUueXA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAETrNqZikS7T_3PF1-bGAJhP170yV5qx5PpgszhBjUfT-D_2YOnpeAlNLP16ZJeNAv86UhEAMcL-IczT0znrJJlRpIeSMKR_qUckRR-Dr8B2wlKgQ2z-n2mbyyjgqyV1sEhAO0uIKo2NDvIqypQ7QygM0GhRAIwDIsUp8RnRXUtVOMHz9zrENuQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAju4P9Qep6BWBDdo_6mcQw12vjTOXUeoH0Vewz9HD_pN6fGwjRAeaWoCtWQ2n90-2MiHiCNYrPHr6lagQ4otSWi7_E7j_SZFQxOajb7YB4UcxNIzNmI9t5falc_8uXUKPEhAodOFvQyPJjnszV--m8J2BGhTXxzfQJKkIG3E0o2Dpaq-kPYbBzA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAWHxo09d7pXyFEqPDiOqXl-xUvikgWc1nHtT43C9FDVjOpGMpKoL8c8GwIFyvdlkzZjNRtqm4dl8xwrxSr6VRnn0OWNBGmEs1pHRBENgI-m74AEIdGhLIk5lV5BXAYGFHEhA176BiP9CYUZkLMVK13gPwGhRoi2pOErdRLPvCrELsZA83j-KbLw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAASuXaT3iApO_1zp_tlWH3fxwNbmS96zBovORkK_1idKqE76nh6qtbci7a2VkpnLUkLzAd9jY6bQgkCXqzBZXiS0-OQDWWSvtlZwTQZEismQoyhGxuyBPvwWkduXFWmCMJEhDg4x0j9pQioF3WLKl23rPxGhQnCIOCIUKTmjTVLCQ2TLqtDVCKNA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA0C0znfUz6bPJ8G7O12loDwP2K8ypGZwDB_p5vYHzDmEHSzUSWAToFq4zJuuHx-ctsTbw0xQ0gWRe1grUvNG0WJiiDi6KgB-HBOVmH3BF4QrGpWNY5ftBF-3f7-XSBICpEhCK-pvNByW8coxOx0BrqH55GhSyDe44OJTs7G5L8keosvhk59-dug",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAMCsMrDLAq9EQ7sv55uNzzq2ShlWaQACF76o_kuVY_qzXOhQLRotEJ7Le-BazgJMzudUIZzK6xfZdT1CSxj_6mUg61vJCL52CPfmOgwpUW1i7xOe4dsb_RNMmZuWZTzgFEhD0DlY2lPMXENqPkAxbrtyNGhTjL9S-Wj1IkYB0C-YJn1nx-4p6Eg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAZdOPwvsNjkqT_44BnVTHAGDgnBZuvz-bO7wuZrX2vQZqGMbMJ5dfXMgf2nFtm0t22uic94THJHNS-zFlV7m7K7S0EoZhgAREMU6e3X9t0JTNWhpdGsKO7nVpiPMJ-MN2EhBF_Z7uVDspfeaSXwN7mTN0GhTW8kA1LUqX5kZz5Zo1iFw9Lzo-9g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAUeKKoVERSHisPzS_2lxXLe3EU_9oJkfy_fd_IlywstUt-Hhyo96hAleKOrA4gbRdJ5gmwU0V5geaaa06s9NWN9PjkB0qSoImIdb31nLjcy3nG1M2N2d9UqbLhTv0A0o7EhCCVXsPHwH25mPNLs0FxVKfGhRr92bQkYkYhlwS5RVCwJpytyeKLA",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

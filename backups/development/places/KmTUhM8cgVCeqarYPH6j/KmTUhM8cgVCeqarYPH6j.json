@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.77174530000001,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.92423459999999,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAcFnB5kiSOcHt0DBO2tYKa9d6_N1P05m897gikUCeCHEcjNUCYCFrKjjLdTsJGTv3iU-BYmNoe845cQf72uzn2Zwtvkm6oY3nTt4d3yRfcXnC6_iHRN3z3-IVa5xnSdwWEhBzJEV00grcSGZ3uRxDgjPfGhSVsnRjwEbdTU4Sruv350OFI49P1g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAkoHkxSMuLOPdJTZxymBRUVVis6AApUY79jSwWTECWkfbym6_4zof2SlTnSGXFB6iAfjpHR4Xejq5BcGKM4oZE_QKar9rL2PfIZlX4_0CllEzcBogf6H519LO1RPnzVWOEhCchuTqbu-8cuVyTDAqPxBqGhTFfcM7FPqEDK8FzzHgF8XSex4vdA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAnhPJP3KRp60WbqvKbJAQEWxjrub41SfwSI9qFt367ZypyGFYOMTm81HD_RBx7NWZutPBSCGQV0vAZJ7W1td-uvke7VSQEsPMcZZvMWgJ8N0CMgXBdHWhbDr-PO_BbDSfEhAClcI1avdnEsaeA9Tt7QulGhSprnXVTlF2kv3YPXxo8cvtiC2Gog",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAE1sNq25nM6a2R57Nb8QPrdqumoPqeyt5WEZpqDoC6D1ma2bfpRtjbuI9MRrHPK8LZEZIISbuEfTmSYbSX2xFRgSPibwD5GsTwr-et03-e00bOmuW9oM9kAf_e3CqEyNDEhBegDkQoY3IF5DqHwfPpNJaGhT8ScGMB9MA64GCOTbOlV9S5cnCvg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA4taKMSgwiDUuxiwiiL34Q6s9ys3T69UFlDkZmzGtDqHCZHP7delMRu75zKOZj2zBb7ISmJPDSipivhFIN67kgaE6zhvxNAsg4n18VtR9-T-vptWTcDjw4g4asZ_KzmU-EhBT2XW3pyZhCSX6eUCJMI08GhQqqc3q0PTDuDIM5PeU2CgKRiN8Pg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAB2aIXsIXvd9rXkKSfY6NoAlp4dHNNLciq2dGTirpy-2XhhgJHMyfBlfYi20a_JMLg5Hpc0Kyr44QF-qUYXXdEHBFjHbb1VDYB-1_viHlXAOkPGcLKc9UCN2RY4fbtodwEhC26O2s367vJ1-zCqb3tuaIGhSJwpCBNlyliTlq3xvN3WWY9a1x9Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAKkZSclIQ9L7W0sA_-zjiH5_7Wt4MzljxZhbYqp7cggh1nqSV39BEBfc4L_sGycR9YBq_Na8wtrSr1CLnFi4IhMDFPMVuHIJyApIWqGXxF0LrW8HiTm8pHieMZ-WQD17iEhAOttdty_ve-mw70g96gH0wGhTyx8uQDroBkU1owHCP5S2fnrDZBQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA3xADTJQA8XwG3qRYbH8QugoJYVfsy9-ewgC6KIQcCOb5bLnVICW4Ogx_e8D0CTg8cIP5T4-9aqEOL3hd9h68YWCYhv2eNYIgS0KMr8ReiSr018IJHXi9lkAZ5DRTdWBsEhAuqfbZ6Kunwn1vtk2lJLxXGhTunwNLJXHxMp4XAf-cki_gDBUaLw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAACnUFbXS895OWr-yJaBpzauXw4NW5snEqZQKYImCpNFfqW451KXOvNY7hN-OQk8BexgbtzT5IuszkDVB-GUea_4134ESVxUkfa4c7D_QtuRlGIwZm0Ybu35UpA89f6TAiEhDUvi65rNCivd3n4e18qwX-GhQoh-grQWlIbqT5nrJbRD7R3yL3og",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAdq_Rwzf4zztuI2UbvX2G1EYP5fnWjERPxcx5EBwduWpO2bi_d7NG4XFrxlHCbuAXx7m4unuysHamnIvPvBwXBfP_8-eehR23EOZrIgKx5hdJxjeQS5npeUy_eO3oWRYwEhCamMC-axU7XlwTYEoGswtpGhS5qeGJ4gL6_IVZL8VIaiBGQljH7Q",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.fairview.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Suid-Agter-Paarl Rd, Suider-Paarl, 7646, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 863 2450",
+    "type": "string"
+  },
+  "name": {
+    "value": "Fairview Wine and Cheese",
+    "type": "string"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -34.2420554,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.0514604,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAALFDUCi0WozJfOwwxEso7AOxYQI9sXMElJ7Jd-iv292pUPqG5ic6cJ3GHTZdFrx9nvxdO5FEnZ_qKVY0_JoQp0K_TupCoUNQRhVePm1_dmGzaewJrXeJtorBQu8Sbe2O-EhC59mCH8mSemvNl-yIVvZKUGhQxLOpGkxmWyt54MR_H-Uf_JZb-Iw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA19nbkRCEkHAhHX2tFaNTSl8zBBAo8_5htBUUU7Vo-518QWpCz6PkEzo_lfLu40-QNPEG6OVcXeT-uv78bp4q2tfYFsAWziYcGfraAOmt4ZLn065SwJ0dOhznKJEzpEWVEhCiPw1fStw_VUYfFzt_F6q5GhTgYUKTqKPjK5EBqZSAbj6HfyvOLg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAArk2dVR5v2i-vB5Nhg_R730WpWMwQgJK4LWCUEJhlIRl-kjUFJBoUdlvXa9lmiX8bpJ11PrFW66zLGSJjJLO10lbaISZXi8vxndfF9Jrvy7SjC-am0_1U1DOLO2yGKQ14EhA2yoELs7DzeAa6RktbxJXNGhT8fNPsZyeAH3A-uPvuEBoFY-vFCQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA7CtREnGF1Fiplfoi5_Be6GMdS29-dP_HegWrXQsBqbWm5x61TeNjK9qQUs0An0Qc-2bItCQJZNe2Ot1KpWFJZUyRrVqeruio6Z00Lp6l1EskdVWubagvKaGNu5vEIMXBEhCzXpzEBD7rr2bBrTn-gQ2rGhRkIibFm5RLeqtGwfr8bBCPn_zGqw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAArrCTrvAgD17AuruR1I9ONWHKrLyWhYUI1awV0w8KbY69GM2_R7vmnVvEUNfwh-fNuZP5neajmUP7Pqm1QkIwyaCOdZlCfr3tHD-VecDVK5sAtPI3t8c24tgwx76MVkZAEhD7uYpmxEfryMtoluVmlWLmGhSdy-bJctAunZHcoBczVczVqggcxw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAALd7ySWh0BslSpuqX9kC8dQuQvheoBr9jali6dQQYDflGSdFuJG8eUbsmok6p3j6qR1Xx7a-N1gyiEAhp8sPxs8B1xd-oeKwx5rcBpi2ku7TOZyeze5kYSdPlhTd5veCGEhAb8VnEyymca4_EmhML1efHGhQznY4L7qJw_kOuEfvZ1UQ-15RXCg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAUA0sDVpnbKN4x2AK5L3su4GwtKn0FO9lQ9LO7a8ZOs1TnYAZcThWtXf3tLDMk1R6xzfon8MadDmGrY2mZlOnHQ1kxESnIgLPj6yoWGCANoeiJGSRuhWCig66c9JcMvukEhA-Kzaq6LEDlnva1EgD7PeJGhRl7inLgFYCL1FeJtp_T1NQ9CwOEQ",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.oneiric.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "76 Highlands Road, Elgin, Elgin, 7180, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "071 481 9560",
+    "type": "string"
+  },
+  "name": {
+    "value": "Oneiric Wines",
+    "type": "string"
+  }
+}

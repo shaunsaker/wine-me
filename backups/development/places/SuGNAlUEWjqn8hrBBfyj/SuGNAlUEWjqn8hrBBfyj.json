@@ -1,0 +1,44 @@
+{
+  "name": {
+    "value": "Mullineux & Leeu Family Wines at Roundstone Farm",
+    "type": "string"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.374147,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.8389391,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAARq9yMLTGbsLDHABa86nhDGHYQoEyl0phrnOifGEh_FR_j5eexnLHsFqdrWWstKD6lc7zSrEm_hapurjvDrjEoEbTuPROXglKeAnISS1lFNoeD_hPomosB9fO_fVOe_wREhA73GjZwku9RZzA7NOu5NKVGhRDt9Aog1nDs_XKeYDguABgDQZ7mw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAI-3G0DDKNc2wbAJVaBZQh64i7NEQa0J0GMuLUsuiQCR3RRU5U9JT7SFTrNdz7vhtV9gBN8fYbC3cqgjjuljhTi6fj5oco8PIqSB-vG_awqs2nOjzjNFsu2T7YeFCVl4YEhCibpMUqzBZ9OvDwmDonsCIGhRIOz-GHuqpIYjUHkY18NDLP7Itng",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.mlfwines.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Rondstone, Riebeeksrivier Road, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 492 2455",
+    "type": "string"
+  }
+}

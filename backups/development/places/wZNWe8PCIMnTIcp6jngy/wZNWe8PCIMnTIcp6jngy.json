@@ -1,0 +1,109 @@
+{
+  "website": {
+    "value": "http://www.valdevie.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "R301 Jan Van Riebeeck Dr, Paarl, 7646, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 863 6138",
+    "type": "string"
+  },
+  "name": {
+    "value": "Val de Vie Estate",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.8005016,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.9703018,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAA2xUQasZ65XqtwVt5G3Cf-wJDrv1UYnMktwhjcXVkFaYZEWEZtK_Do6YaUmJfLKieibw51GqruXqcBbIjUpbWvlquCG_fPx5Bca7wF4HZKLOsyK-tAwQ6_zsbPOsR7j0mEhBV2u634L5zIUzRdR9NvgAoGhRC0MfdDvNQlGzyywZfNivRsZwJ9w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAALGOIHc7LaSBc7eilyqbwXjw49p8DKoEdUl-gvmfFAms8xV7MYDiPNblXAMYkC0LeL3xspCN1w-5Fpmt3asMpzuzLQ8vkWuMcjEXEW28y-T0NEx9ep5uQ4JzVa-QJQqPjEhAlvwARL8NRrj4Yb_S39cSJGhS83vq6NZaejpOaDXcGEynnLa0TDQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAt-vaaZj1f7l-Zgy_RxG9Pe4CRstn3g0ABNZz4-lC4mTygcgFCbQ9eDhDKSgOEwTCDGgDI3twNutBKkm5q8-_O7xc4Ae993z511zDC7z8qOzMAbYpBSyNVD_BYOGzexjDEhAbLx8P97aOM08xzeICVY95GhQehmOGJ20Fv_NQU0J6Tu-n25yvWg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA5anFSJejUiC13RgdUUG5i1bH5hfkYX4OW3UNt8vUmG1D7GFlEEbn7aXn2mZWEMVBNiodIMA3Ex0kYRK8h1lkyNZuKZ5-zuDfVxC10hJTHPHJ6nKqNpY652ifynei7QsBEhBGK2nnR2KFJIOuxyP3EMGAGhSNWmZ7hKdT-nXVrrsOEZtJAihyig",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAME5FXws8wCq9pMWYp3eDjZcQBRfVq7_HZpYNCjSAlE7NNpIDDo4Rs8OEuA26928QmSXJDjiZNixAv4FZia2Fd6U5NWcFTydfqcfsFgiijp96mppKfgdLCswpzXAOc4avEhAUkOYc-duCYbUFanj6cQ_pGhSkAFIw1fTFYiDROVb6egE0XNsPdw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA1y66jMPqwvJLhUXthZJO5rJLy_jGMhYeKGA5nWkM0t-r5p8bT0YJlLi5WoRXSDbxJVaccotJTT2f634idy8QKBf4blJpgq2Hrjr7udypzY3BskRx3Q-K5Yfw-8e1YHd5EhCP4yAZ_wH6zaZLXvzu2KFhGhR1D_BftjHq9qY7g8QuzqvV1I5VQQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAXK7VfpQrlOXXvo3qR2lKBa1vHmjsIlYQtL1x2qaHvotheq9Qw-XPq4zqQ8ssIuPEmDLXSOYMTHByZ_pzGMSBTk5lfbSBZ57j3P7PRkja-vM8hY617Ka27nRo6_wjzRAREhBmif6lF1B7TXCbHLz-EgeiGhRLjCeq4fMfTAohcmo4C5ju6A9fHw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA5703fEFCiVvQd_KB7vdDnhErtnag3l4yiW2QfCwBnd22ySdrV5ek_W5uFZlk527FT2Cn6p5xtML8Q0H7uoExiMluvcys3sopbESZBJcc6F0CKRz26-fQXf09aJq33JcsEhBCsCuM5zwg1c32FovbreF_GhQeSXLPgFuwhoBdcuOzf7E87fLujg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAK0XQSxAsbD6MWRdiD5tKrkxGNKXYT_aWM_K37XV8ezqplkvWI-C0kTT8_-HIomhtTxk2AiOmJg_VFN2JyMxK5v4_xZjh1B-kyY3nSzDFB8_xvxleSOibd1-5ax5JqRAdEhB-N-nLhYANxmk8xsrKjwgQGhT6dmzmJWDr8YKbFcNbXkPm_akI7A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAxx67mHLm9BGnCeFm1_cPpYhzEjnDtEJBSuWBc-eRTV3isf6sp6HBkmpOeMr89iD7lNg8C0bVNxwfPqzDBRMSGXp3nHCbWLT58xBW04uo6JQeFiXLiN-v9m_rHLTRz4-5EhBjQo5wFwQwghb7ZKKvnZnCGhQ2rPtV4eB7sq2n13JE2YFYlNiOZg",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

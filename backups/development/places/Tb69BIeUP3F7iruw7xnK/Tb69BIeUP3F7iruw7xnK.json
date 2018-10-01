@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 9:00 AM – 2:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.359222,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.8732995,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAPwsnEYB-VUnGaBjXeqjHe0GcYgnnMtFIiQg46NyJqv5E9e_FuwVkSsPGqdoYh3zj9486ZLYnw_vcWr-JUm1412AAIZpxeG5RPDyiBxi7vcMmRaol7O4zdO2Q3gRYBHucEhBZV59Go85tY0woJuyl837PGhQNkj_2g8EJRMi1Ubp1JGb8-LnCqg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAGqhuYHwZ-3UHDAtsw0gsMozIkcCqVgg1InZfspCx9y-YRutK-BxYLaOPinNNF9OfAM1KG_QfTiGul415PSEmLqTIWlrKSjXx6o8pieSwZ_0DtV2OGmhvLfL75J_6kYckEhBt_GQ4arptcM3QOJU7NNt3GhR4TNsie8N3_Jgjl8VjHi_qZAL-pw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAbOm3h5hsOvHac6S6ruUCXNPKXW0eHhm0xQCL_RJXhlPW-DKgBrnNVQHqLJwsSl2_YIuUZid4sGGlVJLFjTlyC0swKuMDM9aQFuq1uQ5EG0vGQL1C5rN5-CQYHY1U7kL8EhDwYhNgnQeVOCSEhB97jEM8GhQLKB4maXSlxeNQAO02jT3-lghn_A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAASK_RmpynjDeQjmgQiGAG6xWNbDtZeck17salEm9HJVDyUetM0aV_MsDqFHgiLVSFm-9Vf0KbTL54HfkMSJGPGY3uM7G0xSqWWvO1NBdyztSDYdfqnLHEHa40stUX8BGcEhBWwKvHyv_Ho3XN3THQ36TLGhSjVZeWXcfWVuPN7qtXdZYQmWJavw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAAngLCstiS6WBM0_flUrfgrwTgJ87cxGMpUph9Dmsz4i-a2jmuStf5cNUv3CqSKdw-T9SwEKLNKN8V0YEkJxxALKbepoP3C7X1dhsVyqI-8Pf7FN8Iq76BGjhDTU_fGnfEhDNC7g9h4cvnufeSA4bJMOHGhSmkTjVT6lUalEIIHZm2j7iwpIHJw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAAAlUx1Sv9gGpkktpfxvjY4EvuVoja1yTr8kVczaNzAk3N4PmZ02ivgf8X43rBqaSyJzErCFXlNyu1uNOIM5z4c1tCSvILrG6K4i5zVXMbA2xjdkuVHEvCXqXgEi0egGyEhAxKzQE-Y--QzKGw3-qkB1eGhRw-6bj2YHaach1H9BjQ4eMsaC2PA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAvd8m3m5Lv2kiK0Xqz-cgfaUyCKNV0FFDRDOJbbXAV-UBuXW-bRZOVfDEdcUtqIyYsIRsgJ2pP_yKf3DWmgefhFeiT2K-fDw-tEvpzK7Yy0ee1_7I4c-7EfhHaKlV81_uEhDsxf4UG8Jy1mzPd4723OeMGhS3L-v7cPnPKBRDqtK90_8imsomYg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA8W2DoxscgL5-bdlHHofN13VrrckWaW2jSTrqiIfGv2rPmT2FhLOq43ddKPTAydXAG_mXbgRIRtVjTM337PEzUZFEzQvi6ycilP_1pvgP4D6SMSRv_czmXJ5lGTP4_JJyEhB4BELHySSCZF3NZ_I35TfhGhQWNY27-v_tyiriB4oHo8AcjV3c2g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAua6uvcxlFeySVKygMhTOS3TKIywqY_HSaKfdRFamDC40mgQbBza3cVzqxnAlQ3HFLFTCpqUqr6hR0fwzMFLkkRiafUd1AQqRHsqSfjmDm2rAwVwF8-e2FVW0KJqV7-b3EhDJyhOVcgyWBF6q2JDbMqTNGhTdztD4zMNnxj4YWsuf4HGRKCt54w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAdSV7Wsf6kLRBydn1a5RlIeDXcybfnDRF8hD-eVqQARjdo50q629nBXjgM6DAMcxZ29VJo_-fxJoO1Q6ro_vEX03VbeAZGHOcH38br2j3QyLH3GMM2sy8Lv6MrxJVKeT5EhCo1zrIsijGIVHCWFuqlSuhGhRaNOz5FG000hcqfdlhQjrS_lFIRA",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.allesverloren.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "R46 R311, Riebeek West, Malmesbury, 7306, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "022 461 2320",
+    "type": "string"
+  },
+  "name": {
+    "value": "Allesverloren",
+    "type": "string"
+  }
+}

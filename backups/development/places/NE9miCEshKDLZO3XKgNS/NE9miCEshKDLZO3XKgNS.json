@@ -1,0 +1,89 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -34.237608,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.07829899999999,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAB57YLEDXIGio4Z1t8zJrkRub4Q2jGFNKv4ZUJ9LtKihSnUs80bJTPzZeouYfv9cbsxUMZLBgeMPJZkytEJEVFJBm6cw6DUXZf8OvALnNCoX1SlY6BNlBQpHEUCgBPUTREhBk2DY8kJM324Ty1nz10t98GhT3SiJLZFdX-ibUOQWz3SkqOJ8RmA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAb2akwsDX3hGefN6EA8KN1CQx3Jz2vnyTMIW2LuUooac-BM9jicmcIezI3Jz16ql3__-9Ld0d-EM8XrKH0kDDP_yiyfjGb3j8lud_DZQXLiNvK6QWkB9dqRuPNE1c1OjKEhAt5U5LfEJkL44bUctul_QEGhRDVxCX1OuXdeMYF4fIBQnQQH-z6g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAG7DDUcY5HFSJcyog9i8L4T7RBHFwEk_AOxlnGGLtLwOfptDW0wLseDZc_xqHb18frbz72atL7e9wEUHw5gRJkWglZP8QDmGDSvyHwJWwOxbl48Z9W-rDVQQvTzRqLAK8EhCHB8aW1Ffagw7C0AmMjhoLGhTK6T8nxcHqkPhT1-wsDs_Me0Jk9Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAu6SesEW8IDX7yXCvHwz95P2yM5qBvSEhGWd_OCjLyQhdPivQUlE7i2LW1AN5--qR29ge8jy26vt9VTvEl0A77y6eWx4Z6ioSTpRyxiT5O6udQkOv0X9id8hgsbBi2Zs0EhCeE1BqLei-V6_YWOgHIfwxGhSpMSGhsSjyWHzIjloL3AQvwm8kuw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAHFeJzFMUSwSN4Os0jzL_ypvzvLcOr6gytrO9olvmQTtqmuNtsvUvtbZhnzPcbeUcnmfLLHJyR36m8xy3ofJvXWjQuhDhbpLwJyYuW6j4S6XUMHkF3R268B9vbYeAOCwuEhDqR9sw2v5-jZbAfaWinr6MGhQR-iJiqfRsTCanMgLxar0Fq1sutg",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.charlesfox.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Valley Road, Elgin,, 89, 7180, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "082 471 3444",
+    "type": "string"
+  },
+  "name": {
+    "value": "Charles Fox Cap Classique Wine Estate",
+    "type": "string"
+  }
+}

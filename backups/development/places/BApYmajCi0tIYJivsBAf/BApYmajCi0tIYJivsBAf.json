@@ -1,0 +1,73 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 7:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 7:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 7:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 7:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 7:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 7:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 7:00 AM – 6:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.6002999,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.992062,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAi1bAdGCsfY_QOvzMB7G3uwt-yGxK9IyeoOPGTEU0Q9Loz-u10j_5I4g-LLGgT62SvvlTQOSLWh0zZwS1HcGZp7nQXHIQ0lL6gikxLEV2wIgQM8buhE_1bWXgEbRdyNKREhCM2n6YcuR8Qz9BD54qHW7PGhQlYJWwUN3QLVy_t8OCUn0XNVOxBA",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.lazanou.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Olifantskop road Wellington, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "083 265 6341",
+    "type": "string"
+  },
+  "name": {
+    "value": "Lazanou Organic Vineyards",
+    "type": "string"
+  }
+}

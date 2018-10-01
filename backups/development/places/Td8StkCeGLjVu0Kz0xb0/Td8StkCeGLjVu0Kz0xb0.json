@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.313952,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.19894,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAS_gS9RLACT6tvcSfZh97piirE__Y1-lPKeG6Wn6GvkqWE5UBddIfZglPbiKcmuhGrtk_nXZMpdW8xn7P70gOCB8v3BmgWX1tmxwvQdGWCFygrkuzhU_N4oZWTgk1sKaiEhCE5yYtR7XYyp1zmiz1mljUGhSBbsw0ZUvw2SGdDQTA0j24L3EnVQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA8pVWgeLXs7UEPtqHLyY9U6iIBxiHP_hXEdW_yI50vctSa2k5O58KGDSXsSxu-24NO1nhA1TDr4YTJX8eHIgPPVFph4CmMNfVxoMSzf8UpbJ5WfTFbCE398eDn7tEJ2uoEhDCHFW0ApRfgHmKXcTlpKWPGhR6wcJBAI3W8WTL4gpqhlakNOHefg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAXvAykajxt7hVE9lFXEgmi-RrijCx-rILnwuvQHcCmRSpGRrw4DRPVUTfT9DQ60fxoizjMtMoJ9SjUUKs__x_82aD161KgRx6v04OMTkISWHgPO82ftQ1iatEIaNrbP3aEhBD1u9AUGZH0_kJUItIhd_qGhQ3aV60s1igtqqyCje6VMNZ04QRdQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA5lvYNwUXrpAXy555TBIpq9fBEZs1uMXG5GzRD7SZQToxQK4fudyKTWtQwR-4FHWFOfxKO3fqFQ_BVLo5SmKn5bJLqkcG4AUGNO95fxB5psIEZsJhL-x0CDjT7XamhzmgEhAExq8fiThmsRAgXi7W26OjGhRcV8TAiCslGZ07qs45SRLqDqfN9g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAMEiXAYTFh2q7iSczAs-bk44BrvKh3ePlZIb0CdqorlNsIX84-gET4Int5AbfKHeVgauO4Ged04j2xgiG9adXIcJQyiTFwqLYY1FnxF6sA9zobCn3tdAzTIr3G3yLALgjEhB6_JCXDN7yk1S4OCSrL2pnGhTcJZ0lFiX38fpwmIRjMWEuFOJqlg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAMYKlwqiPSExREwixt6M9tOlwXdfwzQWku9gbn0_xL1IjF815jti_Mk9ccWC9UgGkUV4Ukb07ohMuIU8JaFjbOb6SqDoHt1YP1Gp77-vY4G53rnrLqu12Nq0153ngHG6TEhAUUL6b5tra4Rwd4rvkfyCoGhTOlqmN1HBla1WeRMGfPOjrVpIh7A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAARygCfTIGHIERcrEEZ2nUfuMiepmHKcuq-T0Ppxh7iWB4o4uXOET_LUKAAs22GV8z5NRYx7opFAdj9tGBF9H3RJwtuOG7klw2QAmTfoni2vUkFIyA-M87j1JfcFX7qxPNEhAfe4KF4QzQRlp1kRtZnIoMGhSXZd7NCbjP9htJ2DhJRueEeWEDkQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA60SeaXRUi6y9qwhzLH0racME86PWinPYadB1IEsu19Dut80aHgX1UE9jmFOAioGgWCq-oXL-v2COFRBdHI69Ye3ztKr90JLyLmLdLPIJhupJuonWD9RWM3fDFFfu0moZEhCEOuHo3twQ496liwNRAS8kGhQyigttEayhJF3r4vIAfxy1xDV30Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAARzA9tZEdfRCF98F8nPbUlNg1_272Lh7tDbpQHUqJcXF1u1cJ49YddZzJOfyyiDmlr33Eom3YGDag1Ue5alsUCsokyNQEmo8aIDcWaUBWJTyNPrNlxQCynBfsSgxabvIQEhB69RyfEwBhqxinaPr0mqoaGhRcUJ92vUON4_R1eH4f2dyXTaS4Nw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAKFigMSgmt7hkwBHlCDOjDhJucRfbP1cBZw8wyQhADW8Qh5EipRA57sTEqRTi5P86Cb_JRHD74ssmwvaCkF99vAAB93sIwUp8P7bGwsXDNuS4EQvFvwXDonnzWLnc11HsEhAQ8SZNxFa_qJ8WAWe3c3mmGhQia_te8REnGve9IyyVkulDiBQaTg",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.schalkenbosch.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Schalkenbosch Drive, Off Van Der Stel Street, Tulbagh, 0068, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "023 230 0654",
+    "type": "string"
+  },
+  "name": {
+    "value": "Schalkenbosch Wine Estate & Accommodation - Tulbagh",
+    "type": "string"
+  }
+}

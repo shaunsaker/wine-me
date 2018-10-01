@@ -1,0 +1,109 @@
+{
+  "name": {
+    "value": "Anura Vineyards",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.8122434,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.8883156,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAo50mgkJUAItLwGnC9Yc3LURsqnv2lYMaFCgezcad0qpqT7P66idtGX7UEr1_vnAiVeZT1EN5Z1FOQT5g9fgC0f7R3eNHD83t_BLxC5a_v7H639oezCPqD6sJ6reEFBlWEhBdE2OdoRd9I9BORGOLOq6iGhRn_2lQEuXSQ2WPwl34zVJJQtIIGQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAjMLwZkIzko8h8zMt33xU9G4761detn8AU1G4EfUIfoqs4tENaHQ2pFUnFs5lGS3VDMWTlrEs5uPwmYd0BkB_Vz_vOvMs4TI1IUB3et_jLlDD8jy1nu71_oVy5v2-pJxzEhAaHMQmLf2I36uKGOcUqGEDGhSJuN1UBC4XBkUZbrZRVJvSFJ9FJQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAjxdwrpCsducPbpa1VyyskbctV1oafrTRwduPvcZh6uPcYx4KivBMToLnBFgcUfO0PIxH176hjJeUuQEmXZtPzxkeSe3lWwa4neF4YKFe8s5_QvDFA2VBM8q2Yh0WRovtEhAryAE_rvRIYoWK65msk-jQGhS3AQZ6XR-TX4v2hAmOgXnJzHXdpQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAASVC_bANy02F0JFatpIqEBsa8nGGTUcQkNK1GY3siVaQU_onsY7EkZSNhZck63mS9hNpAtkNjLqk7H-NHMIWfrLFJfx8CYWf_bCkVaEviRrQbKiNCnH0FOxTfPYaPDHeFEhCkGJ3X9utvePfX-ZaAP0XTGhRz8E2CTi7rxCIWckT5izEk_PKoeQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAOjej7g3QCNBOZSSxzpw_pHWY1ofjq8qu5hU-hTZaIcF3IP3K6FAjUVoxDrUTrebsHeUPht6E2kn4LWiA44-ZkT_4TnCtnKgrhXKSaNCYooMjeg3jvca_Uwmlqaq2cNF4EhAogSkcEOVy78U_XQVFGYT_GhSoICp_jxwyTkK-4J2nwch73Qaa2g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAlxJs13lzDMBPmg6tjUAsQMbvvbMYlXNEWSbmd2B0ZzahmL8tCJ9mArT2U6tUb882J5MyqpovhSFXiHlAyAgi-6ISYo1Nq-Kmws7KXbSiolORp-wGrn345PpSIcdgXEG3EhDXt_r2G8n7Xxbfu9hYWrGYGhS2yqTXF_Rx9_rDhzkrVNRBvQ89mQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAw4_Ubf8he7b-CLc1ynI2LeX5VgZ14HLYvWTWPylxRKb0obpoJVC1i9jIyn27ZZCYPxzRvFsumVMiyJiZnNLE8GxTPdigBNcRnt8zwNvthgw7QN8Roz1jYm7jcmuZpCOnEhDQU_DJmCU2Re9OHtgrgp8mGhQlmpcsbayulM4VnKRppwvec94R2Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAS78f57DjJLvtvqh1Qq_oEZxWeOf79rXmHkCNO2qJCn20C_P-lMJIsTkK_ZQ0WZ-wYzzMin329b5JAJoQdhZ8iI9FsInLpiM9cqyxNRI5P2NQMAsibjXFqNQjCXFVE1rZEhDsDUjh_tUr2xKOUhvU3bjkGhTasijl4evdHiR7V9ZMdMxG4IPXqg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAUjSHJWYZm5yke46J6CBxDONYeWJjebMBwN33zb0XFJ5vk3ckDHtHcalSfseAiNNnDvPaCLE6RoKo37WicP2F1eCnmYfEbF7ootPb-FUUOTrL4XvZnYXKc4cJYwwbcuQ1EhDAzf-x705LK28aFIhotChTGhRFRV_zEXvE3b4F86xPjkNtu-LhjA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA40EdNcGmtLIHUJEd7xeU4tx19P_RXp8HFNm-XMwcwTIjUX_3QglwBorvQfv2k7TSdiRj-ktZ54jE-_A0RMWcHwAFr7iuDt4PoSC07_h4rA4r9coeNfbRU5f7vBXR1DvnEhCkLc6eQOcNJUL-9QHd4yNcGhRWlXK2JNSwU84T39gCQc993pPNPg",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.anura.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Off Simondium Road, Klapmuts, Stellenbosch, 7625, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 875 5360",
+    "type": "string"
+  }
+}

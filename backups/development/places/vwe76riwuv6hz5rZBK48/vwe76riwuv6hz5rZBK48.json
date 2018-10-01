@@ -1,0 +1,109 @@
+{
+  "website": {
+    "value": "http://www.lourensford.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Lourensford Road, Somerset West, Cape Town, 7130, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 847 2300",
+    "type": "string"
+  },
+  "name": {
+    "value": "Lourensford Wine Estate",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -34.07190629999999,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.88862079999999,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAt_hZ82YC5y0ZCQXwz-BK4q8KS5M2rEApjrWNiqXrSi0KslETyF3ID8dyZ71idbx3SaJVFwFE4pmcZCIo9IIdG11-sdGRyXeSoz54ZXyEWDgRSFabh1ZWPt6hay4hFFaOEhCfWCowrXWOTuM-xKJrLupqGhRFapD7jW_XyKsdGFgFnK5fHJVtJg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAl9qfU2_XIvl1BtdgxNF3R7v7P7gkXxCoTtyOGMofvEuf4ckQicy3LX67267dUU8g53i1QqhSrAKMkDT5HIK7dbOIjLI6sMp0aD7quIBD8zJK_br5pn3j_kvJ6mMoSufzEhA-CrTU4PMDhVMOCPSBiEuJGhSSODX1ehvACr8JytIK5L2SJBcEOg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAUGDpBC6lnpbI-oG90qnhpIDfU8wuhmdECOaoSwgbpYYFsX8D0S0a1QSP3CWvnfLPMG-DEi1CvUWEog9j3JF3JS83QQKsIb--D-ESRamyh80Yk_CPvByHAoSoxucOFMXXEhC15UYkUdEpXHrZefnL1VHcGhQ8uSF1Hivi19113KgSQp331r3sVQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA2UOFBk8g4GA_6H9HGg5hYTSTT3YAvgS0Bi0eNjIcY6qYKmGq-GUKRDhbOl058eqsVSQ7PSKVN-Of30h7Isev4qbKLktEcaTa1ORfH1qWAXrbqSqyZr8HcoMhPIjRVqeKEhCqCp-4CUz3wEgm-vjUk5b-GhRLjPb1xqcBKx0nX4kkwISeDpPzfw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAylqgg9qxlDTHUZvUOd86t5d1LJO7Ua0v_0xfJ-WL6r7SNS4Z_9D0RlJ0ClPqwp_AmhgWVDJUQXCodtoCFNJV4eXd2SJR9QUgY1QPwUqPMSPgq2uEpC4Kbj1v_bqYVrubEhC9N-7ye5FYN4e_HLz4Q2r2GhSl-q-zsuJ-n8VtosRM4osGAznXgg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAhdPpKbDxpgQErvqwXf8ET_Bb7y2WYpcI_I_MqCG290hKH48teCI-kJvWlqmTfpnct9UI9w9KxQpUCVANjOCuyMFnpbf3XJcebXl0n2c57KvsU1sGYdNKZdRzijsI7oAhEhCvjuz_dbmczmzR8F68NHnKGhRKWgwYMm_WdPReTyLfNvvU76VeOw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAACEmis8zJkcKU05i3ExOYIcVYY2atqcDp-LRFbFjJe12GM1VVFPDL9hO5D9AyTP2ABHer-vtMi9Wqg9RsqG6aVBWGyNk4vSAB0Kux9g7IfI3_3hj4JLy6cVdogdmGS86qEhChpUPp3-0DjyKdOLrvAXNAGhTmdLndAQ1q7azxq-CjyawIn0VJGw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAApWeOrLo_UcE7-1F088MQzcwedildvYgsCQ6C9Lm_IouHhDGg05daZf6JPej_r9ZpcdGJPmkjKfWop8Ecy106fvTQpzdAtdpE-VO3RZN0v5rjWA2KNHGyCHJBcu44_8PoEhDxpp8MTG_ba3o8qXevB_96GhQK8yM-SwKr1kfBCrtQTBmqnsIp1g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAhiDmqAJ3FRIAK7MFuRvNY8zZTe7ZkGcmEZJqj11gk9CXQM_un5GSwj8TWj5rDDWsB2T9MCK4x8GkGMWFj6vT_0vcgY7tcn4Qe-3lVfPYe1Y_7P5rQCNIByLy6-8ipYjMEhD1XC6DhdDrA_HW-M7YH9PZGhQBaNp3-g2lNOxJkwu2T1OKcQeHBw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA9KqvdtrR5qnEQrxCHSSs5bAZSDAJcDoEiRpSdt24rJMAZreVSIGUtQJnuIDmqrKZIGqEcMfRBMBGbg5BeuI19SuV2p-tmHGiuuU5Gv6_BWJI9epNJIy2Oi6EaIbEfUb5EhBiYYF2uFc6TfOfFkJM9jVBGhR-PwT4xm2dw31N9HnqDJmWkmy5QA",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

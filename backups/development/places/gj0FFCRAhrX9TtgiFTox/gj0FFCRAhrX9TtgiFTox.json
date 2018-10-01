@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -34.3359943,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.3108638,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAATcwNJpAfBL-pGidvpstuRS1eejhnBd8D80pXvL20MA0mgXbiylltHKQEnY03vIMvcfBqkIonBdwvJCguI1FTSA4lPSWotbezS87EQjgmpqQpvztGo3tjzkiauOgEk7MXEhC7Bb2ZZjQBVJ7HTBd6h4OBGhSJ-1ag9hEVSQP983Yxwcxbj-3G_g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA3_to5HtWi9Rs93SAxKnewT4kUEK9IXOXEoFQz6g1NmPfhlrT_usqT72qs1NzwwGWOzjX-c0HoD3kUmOJME65BJXOevFo1y2sLheDyDP3umIc20z-g6U2-mNoVi0cKAKgEhAyGnFx9RRsUa9fRJp1G4SiGhRciccyhhfNSr0fZArLjvHJT4dRYw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAACOuyS4acKj4lz5SDc4WDUITOrtWsEeVJWIS0XRpYfPgGJada3uZF-s5t9Z9fPe_D1fIQ97Tnzzoxjfri1qEZfuSbHGCtL5K97DTt_Cr5KATZBfaefvVfAahCO0kCtSEqEhAYyGtrTrIGSeoE4DMNgqY8GhQPLvHSLHwQ_YF6FKlGTHfytuuS-w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAcPiHY3GRO-KB4YBJkWjYv2eXinwmVJuimcnYC-kgTL-T49takR19E1UbhaBEBQmpdIZDRSnIvQn1qAvZNoeK7pCIKre3I-4_Lr0-F1ZM6ZCGEjIylDT5B6Vy5_T0l7_fEhCUPUvut59Y2s5BEfbx65kTGhQq1NcZHk5uzUBT_5hOrGWQkelJ-g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA9u0LxmQ3cqSBlhmnBRSf3CbRdql3MLYMfYW9jtA1NEkuvZNf5jCyKPAlM2Jl20SqV96AtPBcd8PQ7A3CGMEC66hGMZFRVJ1zHrE53oGykP4JYH8ocnz22gIKACiCbnHHEhDPAjJySoufV6HgyEZ2y1t-GhQmZYtVTn8S67n-fpOqQ4_c_rUe4w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAsogOWJ5lstj67zkjv6BiAz02J1mYNyBdkAEsui_XyhqHCRGHp_MblOjpUwB3YXH_tHmrwmwEStptOn1tufKviFLDRgrNT9U4FK-F-ivJAAPVBWsWJr8uLBQvANpA3hQOEhDYoq6Oj9iDi9I5Y1mOWNNOGhR8VXgQW10EdOnROJ3FaOSZJtb4-Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAyvn3BW_bKioTsXIheU7ORIBxvQghMfqTmksQlniX98z1pe1JBMYNFCjKzDDX8X-Uz-MmwGErGm4PzsAfOhul8GoKxMg-MjKX193xAxa7kXNuXu90eQI3pVDrpTJ76aUUEhDAZ2__aQwDtcXNtPjnVV_MGhRR5hC-0OX-4kDdaws1T3GhA8YGHg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA7D6G1kKtfbxYv6VC8Y3VVBLNvtn1UKQhAE1uDB4xrECH4EtZubq5pex2qv8N7PbxKyLaI3sWhZpA7lQaCT2rBslcAkeDioQTuB3JstqsHyR7KukOHcEqdeTOi6nt0PzvEhBeJ2qQhZTRImfB_69zY_bUGhTJoGt3bDQ3vbxxZ9oCsP4QfFOZPw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAeoHybN82SZikHKt_NiD_m9IFm01LVuD-HUbZoNBlcJzlI9qPLAGhidiCe8BgsJo82r56_qC93DtrXs4LN2xLFpCsNcENN5r87tb_Yp3C95fiOjoOfzJL5pcvyAd9OPsEEhAiLTImBr6HHjU4NLeqBv5FGhSHj72_0lnwSJemXjYtNOYKoMIWBg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAyouGqECQ59x2mC1MFAshWpYFubz1tNzq_pJuVEM1E2BT4-b_5oicoAacqrO4TX7odw0yvegajRFu6ZQJpYw4LBzhO6-A0h_-piN15feG-BKoK9YasxNLo2ZcI4wVAy0GEhCLHIJ5FA4_EBr6MxSNNPEJGhQZUFtv9HYKfripFelJOjMrVZCjqw",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.ataraxiawines.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "The Skyfields Farm, Hemel-en-Aarde Road, Hermanus, 7200, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "028 212 2007",
+    "type": "string"
+  },
+  "name": {
+    "value": "Ataraxia Wines",
+    "type": "string"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "website": {
+    "value": "http://www.eaglevlei.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Old Paarl Rd, Stellenbosch, 7599, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 884 4713",
+    "type": "string"
+  },
+  "name": {
+    "value": "Eaglevlei",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 7:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 8:00 AM – 7:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 18.8125928,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.8247982,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAA7BDm7S8JgY6RW-Nl8QahKowU4iMjKWXAmlMFlptaaZNaPcwfvYu5ieXVvfyq63kihbXitwrVeIonClWqrSiJLyWMdxGf2ds6sNU1As5gLREoCTSJDp149bCaC0CDLhshEhB09NU1_2KR80nZFTLVNRb0GhQCRaiafUAYJriLQ45Ll3XxIjgCCg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAUO3nWQPJk3G6u-iidRhSnIpA69ObECKLh93sYhr3wkEKYU_jPE5zEgyLcqDBLY9XIfdvlLL1pbT2omV3JftmSRQZxDY-UzkmuhYR7sCdkuCS0N-74EKXNd_GfLgiExbcEhC-H3e9VBA_gYGwHnVvh8naGhTS1iO0k2EAQijQKiC9V0URzNVOBA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAS3HVwnr2a5fzIkFJNpIG9RBN0w0hQKdTwpos6sD-pP0mmw3QRP5e4qNeYjaMJOdupsjeeytk-tCEwGRlpoOfQe0cOxzA4WRU_SkSjQdXeISBMWg3zjZoe3VnPYASWwFvEhBz8IB3ygG2XE90LGBr5_3-GhQgtoOsnnM9nHo8z92lSORwMPILTQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAIf5ri5386xmG2G7ocP-UjthL8qjJ2j1T2nCBx-95JaGN6GvM6ZXy11lwS0QwIxcPiGXN9dbBTCp6WCsCqdI7ZBV6yWoeuTACmXxzF4YZJLwSFLcnJ1ofCErEKoeJ6BIREhAoGtKgBSvA48kgaRpV3PQMGhS4TSDPECckMW3Jkp072AjNbO6glQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAATRDMrGj3cv5FOeXW2y3byVTj8BRB08IgN1LLEgVKPZ9mQ4ABLQ19funcObr3aNxrLnkjFp3sBz-w0zoGarlmObsTbtmC2lHfzuz9nmNbdTCE71p-IzTeMp4N7WclmeQ1EhBkF1DhTm2NUOzF-tlnxLpVGhQPMbHBcSoHIjmcjjbtChY9Mj4rQg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAMhSTFnUFmGPWOEcAOipF5FR_Z4VPBXsusao4sGsUzIAoremfYdtvTbQSoQfCyBwHNsklkW2Vt2ipVRwiUKmQqwpDVUys6STH7mlKcBLTrxwwtJq6XESLnkVVp27jTtLfEhCThyU32a5jNj3GmSXtdRF6GhROtyezBQU0tqzn4VbOKllZsrKKLw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAyfRlrxuO6Lu5MNnGy8QD1e1_QPO4AE4NzmkjX-Z_Zjj9toBh1iSkZmhDPNycR0LH101Strwg3-INC5SxsjMNcJwxsqFvR0IYdkGvUiWlG5PqU8AbgewDdILcE5Z3C9BSEhDv6BD4JtDGoMrrmXimktpWGhSS604HgCfW-f9L0QvR6kN7nDZkcA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAHz_u4GlkbSROMqYRSQGIa_0iC1nuWMgZiYs0ElvzQuUvs7BqCZlYd1u-VYPtzU010TVNRBJJKp_kIywpnU3jEHi2op5J_HAl1sV5ZBjle_kduhI2Hl-Bz8SeOw43n67uEhDJBLLAi3MeBSlnQdBIHZvPGhSnKzZ4lw93p0ghtVMzZUPmFslCwQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAftB1G9C2_moTrPcnIX62pFFYYyeg8E_0Q9bI6w281w7Xvs1zuvZ-wRbx1KJ9gGd-_eKSHSBiNPTaliorxD5WBhgHVOulPlZvy7OFJ-jkxJMkdLPtn6lFFiKsGAZEbds1EhByTfsXJUTqeYBgBqwmMuTQGhS8p-aL201pDbNbBfXJjHH6zVDOKw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAe_Sd0b2rT3rbHCZcHnVVN8OtqnM6i90lJ2dT07TV4vXPnYK6oAeWhag7FXFFM0wKODquCVro6TfR-Jetf-RIrfiXwMwYMmlpfEQHxWkJAK7R6IyzU7qXeD-S8QU3O3NcEhCYt2zgAV5pA24s8NawPHiJGhQLM1yk0AiFBALx_KWyLyo9KxtGtw",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "website": {
+    "value": "http://www.ruitersvlei.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Suid Agtes Paarl Rd, South Paarl, Paarl, 7647, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 863 1517",
+    "type": "string"
+  },
+  "name": {
+    "value": "Ruitersvlei Wine Estate",
+    "type": "string"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.74728719999999,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.891604,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAVJT030AoVJJ6CVdvEAB4Xp0mcwuPINfwNe_5VHE6HFS5KfpueeSlo1Z3786F-5yaM_dRfAJDlIEr78F8cLVjcP2iBYW-h4eayYPRnqSnKRrW_XEn3lpdD2--I3k9r7PWEhAnB43fMp77CQOWC907SQ4_GhTLOwiOVp-H7HgFOXd6MaVqtI-wpA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAPnt4x2lawHXNYt_maUzOCOE38dcr69Lkjx02twX1R_agxNQbJ5ikLRmoBOAUc9Y-2g8UQEnAolWEftymwvYM669o9Fusk8sCQofFMbnWLGrtjoc3S3YHojrytLoxBxlpEhBX9eE_QZXKtONq4FkEi0XCGhQ0sHbTXaN6RG3tbo7lnxetTppIMw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAWc81x4mEeprPQ05PVvi7TQyyaAtQU4FQ47yCOfCh09a4m158A8wF5K0S-qhAKMFYoCVJ1IOzhaxcHkJ3mnGl61etRkX9fUoTlJstEoc79tqyyA-0i-zVnJfEVtTNDgJ1EhC0aJpPxmJ1SllKfXfvLsMAGhT1IDunA13a7tgtw3Zy9YqVNn96GQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAKJqHCg_SNRHpzUJZZojO1n5a8YCzfo8awLg7Jru-y3VuFLA-hr7UW5wz5_zGUc2dUEdECsYZXJDTLeeRqpqQzZ0v843AUOWKWLoMG008bMDxJrz918UR6ooKjUANPbqtEhDYESID7pe7NHNFzEhS2jO8GhQeOZdiMqvx9O7V_FOXiJAB6-Ousg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAp23K9lJv7dCrAA8JuwdG6IqtkWq64gf0b9fkj2na_r7bB7ooePPwQnqp8UmCHi8BA8428iFX9iXqA95OqFPjaFgW3cvSHCdUpaI5M6gefu8FLBSPdvbHSpmDNWS1VtoTEhAKXqdCUnWbazHJhv0HppfKGhQDHaW-MFlRTohBZI9mExZZ6pIVSg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA-83cZ2oM2jmk1p_EjMnz5kfNWFgqt_xLfJCPQRNbZHKN-MlkBD0uqY94AYNxmXyPx5no2Cj1xYtCVHSILuJEKwE3vmvSMgAAMJC_pKohvTNB8ujh3DoxkOFyD1GK-vfyEhCIqhH56Pwepqt7WXgIoOzUGhTSrRg2IOUSCLU19lZi-NmbYG-WtA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAkU7mHwrpbqIEEjRPMdk3c8KJJYAwz9X2g_gfb4ez86lFXYxdVqdNiD-4LfcA7meWYWfytgAZ9bJyaR7KwZIQXUeRBZRvsZls57JhdaXQhg_8wy1Oj7uNi1zaNXDamYghEhB6hB1a6rEXsAZvyya16b8lGhTx7LQoHP9XjEP27n_b2y5YdUuwTA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAltpqyjXbMjt5nhxwiy2M5yRjHGqZW7G3q4e97ks0RlX9T1KVbQYLHhNdPSDcWIxeNeYWtc95Ep3dLJEu18F9aFDYvg-B3S-sw61csq4kprCWCaDDOPxqI5WwR8b-vTCSEhDNMyhI2OylaH-acZGWsbnFGhTcY6U0iRZi2F_1UwirO1-toZ3pag",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAASmzF6Ea75fSlK9S82pYOwmrquEDsFLZve49RB-nJbk7Gwd5Hfr2ocLsSmgasaivsfIYhTap9os-9As7xQ0xYVP7QqTyxWyLiloFLJXu2d_czsKM2M3civ0IWvUApnfMIEhDHX7fLuKfdyqn7cat2v0tdGhStERYF-hdTKEXpuixs83mQVZgfpg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAADzWFTBzdmkibOultlVZWa9ds0XdFdzAwa7wSnSJM_15MHduoHUwJHJMsOM386hdrmN1_VkEE5ginfnrJ3mv-uQAhrmQsOMXdPDTRf6pFGgVrMrrmbDD223vG_J1pGQbGEhDxXgNWKTMSWcxUz_eLOuzsGhSM92B1f2rbDk-lzbZaxaxPH-uDlw",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "name": {
+    "value": "Canettevallei Lavender And Wine Farm",
+    "type": "string"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.9418104,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.7537712,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAA-iSJM_kbQw13V9O7huANCDjYYVQ21HfDZuaJ6wocV2VZXqUnjqp-qLtXwWBIAPvIO5k5kczp05VDWV3MUIUe23tI-VUFeAmkJewkGkyDeevTtWNAjqMA6ORXFvrxzcV9EhCKw9ZqYCdgHqQ1j288mW5-GhTwSrWXA4Uqu5rsWMAhBAv9XdM9fw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA8VVxyKDT8ab8vTWBSOIwUUtI4idqZplpkjVa9P8jgco1i-vZPXN05V8TByB1OFhoQ8sXcoFKLQe3Il_RLtm9xi78_i92XwsSly8abizHDUkPjlYBT2t1XCu9vFegSix6EhBQ7z3crH0WkACqlExTpOQ_GhSOLB_M1BVq0-O6vZAxim5qoIE7dQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA5K4cu7dnp96ls9XZIIGF7FMpFuqL8BrqtMkOCGM0Yv-yQKZKFtbD6Sk3vCGzWCDsXxkdQB9xxf_dT_shEuUVr10uDplIJEixIyQR96QuozGjg7MPpQpcwWY1NmGRAK7BEhBZ-lW8Gtysg_dlE3CX07DVGhTnUzhEtYBKVrjI4JwmcM4nxpg93w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA3XOQR0Yr2Ze6MfxHG1xQSxF5rDYO2NX7Fl-zuuQzh-0QYTW0CivNtJpWH-mHZ76jyltdF_eoLbLMLB6va8ZkRZOzOpxkD_gC4McfRg0Xa5smDX3-HP70fYum6oisBcLJEhDWPTEIkKnoUdwDhiZ_lEo3GhTNAmidcg1_l6tpc7WWeLYd3N7XKg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA9MhxMwaHfARkjPe_cqSZFKTbMMwJQoTwXgZD_sqWgdDeRZSckp0TD9kVOKe0ENCFGaV3_4FFTWA117wCer_HURXbBjCX8iMZQzSPMBhmPa-CxyylOSi3mxKnO0TKxpVJEhDyqLIVle0ailh9SgjzLLaHGhQH076zts_O5hXUNfAB9TEepWFg5Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAATgbbGbtmoXFRoU5grm7irDzbX6lwxHGEgLK_HjVlAfEGzrgz1xzSUxkJ32q0GfAKYkT5o3VyIs03Hw-oQNHyDaImrgL6W3NfaI2r-AwRXmoxxTkAn6D77GYqBng5f9xsEhCb7eESBTQq8J5YwoTON71BGhSIDYvmjfhsehgrN8gXxIfFWH2KRg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAnd7Xr3ljBwVjHufqjb2pztiT1A80lbTfPLPzjQUh0MqqkTHdXiDVSSEin3jw_6j_AqlgHk__fSjE52k5L_7qMdaVZ551mQdgy3RN5aeTqfm7JX0k1e_dXkP9HNyNuiEtEhDHLhdY2C0azGzInJdlIKD1GhQkO7pNSjlYIaFgSyj_roLWpn7yLw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAXWeBY2I2QlDN_GXnfEY8vIums1UkhG0mHe3Eulqb01ONb1zRSABbnjeOhfy4F7A1oEmzERGy7nSpcqVe5sjW3g8smEPw2sQXhgbxE23Jipl24qe0ykwHlfoj8mcd9kw4EhDNNa2y04SqS-pZHLpNOEN1GhTI1XHveMbl6qWBwu7wtsL9W9pbpg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAcT7m1kdcoB9BYXHVkH_jZIzwjZKugAmqk4NnQVoBxmuZKm5IrKqP_coFIyQvgVdmZVru3ivissJSVlwz0WUeJ1Xy_zFtGWZHJnAop2a93XibbLvbC8ppD8xAesitAaHcEhCLdhPFGuUuryoquz9p6QAxGhTHXKfKvZ08uHbf-r10h01KxfLGQw",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.canettevalleilavender.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Stellenbosch, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 881 3026",
+    "type": "string"
+  }
+}

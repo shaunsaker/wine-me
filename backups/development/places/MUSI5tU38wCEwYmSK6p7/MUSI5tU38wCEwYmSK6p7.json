@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.9192962,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.1114063,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAyJchetYieVk2Q5OGObtnDgrKPnJQ3tjUwpLuxosJctApA3X-inVEpzJZT87ZA75zjSSVtZLBGdvrTxRu59wXcAhVxrBqp_Cxxneu4y2dpadt5Lriouwvg2mHYGLfELHYEhB_mWoqDYIGXS_wpMCWfdRIGhRmt0ts5qLac-bnIKx9HYp_RsS0cQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAgHKfoB7B1fK3aStYwHl5sUK0cCGV8fE8I6jO8NlTlEwn9jIhj_8zpgDHFnr7rhpi12EgwA97sP-Jmh7QxzolGJsUnivIe5fahjWWfFWT8OshNKgQH8rpNJFj00ptGMqiEhAfNMEC2sU23MJbHk-ymy6rGhRtcz4XwlQpcphqc0JSk_8gy5yLXA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAQ447hPFVUTyZSYM20bEBFFZx2fBpWGtqu8IY_PhNfg3KW7QUcmK7TTalasKL-rH79mCRFyilhnvUvuYM1ipuKi0TUwAYZc8smZG47RObZIHts2lKl-MIpt255EA2m57HEhDZ64VWEtVGRs2yeqOUw0wwGhShs-9zXnH4CjyhVseyyVNiqXNaMQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAVwo41sYNRMl5H0dvziWKgrwmv8uTdoRxufMAibfgYOn12cPaKWOENliCsrSKR047Osw5_Ugh9A7jfwN7lD3Pu-ulkAO0JJEEEHkJkmmHikME9gaW_ITYvnECeJscO6unEhDo8PsMZjA2AKqrxtCy9T42GhSfw4oqmi0PsV9gg61dt2wkN_psEQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAApBPmzz2cQ24Cm1oYOAX7RBV7am8ArpTvE9qX-ECrW35zhpPKZMwh_N322gZgmfvjr6eeyJXbb5Lekrb_X88EL4qXb-vWVK6c4NKlOaPZ3ofWnv4MbWR3sf3V5uZoMVGsEhCCn2aL6ywgMf_o0Wa_jHQCGhSt2tYaT0a4VzR7JWvq8OYN3K-ieg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAM6IyfnP__oj1ZOB0OkMmPFjKrG4FiXIEaIPN-NSMPoE3b1JKIamtVksHf9xTcLggjwYvv4mZD-2fRDg5R21c_2jAMhx1yZ0gU427D08Y_hX4hwCxAsclqgdEoPOHvhngEhDpetzh9GLOob-3mYn-FOS0GhTO4exhaCzDidoIDK7fYYSjkBil4g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAwZVHLwA5QeOPLNNDJkZ6d_Ox1jcr-baR4Jdj7--QPkhyb0fZPSzzJjwkrEnE35gChBuW0tHaJfSpKp3ddvYUG29kAp2al-u4pNLKgXXDlS3eWkrzeB6Yb9gtxeegLp0aEhBMsQ9Yy5D7yNmVWVXpWtxPGhTPr-4jizVHZyJcEv_1uoa25fwJxQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAmkXZ_zHR7R0cTqZsIRKZ4-XUdKaZh0nYYPeNA_Gbejd-TR4db9t3l5hb7MSEDkzKx9ZuSobflr-l_ByLlCNj42HPJ8fCjGfl91sao5NDCIv8k7f1M_HR3F5NoRgggj93EhAypl223VabAbkJpkA4mfcZGhSelHx0gCLKhffFCs6MMpz-DYkZjg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAMS-ei-14fi84zLinBNsj-3436M_57v-LFuGdphxWcRnqQLmAKyA9FgKCSjcWQlTE7rmMHxOGehYbmUibYQVghR-L29ZTF7BiXMv3PQ2DHt7z3OMc2nZKtnXcNsIxZf6kEhB5WneQuWN8x11rGJZ96Mj-GhRin03PkaaJh31ObKdiwrEdbo5RiQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAu-VQIpO903wtdw3c296mC3166L1nEqFXfJK7xdhm1wjOa0tZho7RyuXzlwNrdy_FcxO6iBi4Wk0gMl22By7mlfAFfNsmpQbB3ZTccdu-qRDvQHJplVqtOp2c0Ty6WDlyEhBNk3rry_QCy427x4VtS034GhRzBphse4h-3zRavHLYQi2cpV8N6Q",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.lacouronnewines.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Robertsvlei Rd, Franschhoek, 7690, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 876 3939",
+    "type": "string"
+  },
+  "name": {
+    "value": "La Couronne",
+    "type": "string"
+  }
+}

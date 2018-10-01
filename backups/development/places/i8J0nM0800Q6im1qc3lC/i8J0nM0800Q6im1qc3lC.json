@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.992263,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.871849,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAA-XVv-_Di7rnPYlL3gkBkwpJzCYP6T_y11FakPZFF8z8_93qUeSeBX5hS1RyDvAGyf-FPc4rYtWIkt9pSbblkp8VI_Ys7a2Mag9N5J2KDissSTxbmckNQOA4YKa3jPVLXEhAopo6yX4ZXS9f5Esgku65ZGhTmR9N6b5jIf8iYWQ_gdmo0NVIs9Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAXNTOKJAyUhEy8yXFlUuWAvGWCgza6-JzZkzVD4-KF3NNhPkxamMTW5UrIsU7ba22vnXYirIxwgMK_ScghR862pGvwSnTidVXx_6_I_Z0VwWYwo2hLCu3csXEoefPtQpxEhChobkSCu0neQpEnfhjmswxGhQb_orJ57222_mCkVzn69l3ARp7Ig",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAKespbA6CWNNMBE1lRf1Qugnpn0cBzrnPWRZrEZsIR0e1Ehi0yMZAu4sfyi1sCD4T-d_fwcxjLqqr1eVtFLqAXccOlQKqv9DznB5FPCPOb2ZySsVcL3haKTWciWQ5Eeq4EhD0r22ZAOTb_ifLMcrBy9EhGhQLrvNK3wXO59aFA2O3MA3Cv4IEpw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAtb-gLvgj5dKJti4VdIBb1O4PJR3U-YU20fXTrFYxLl2hLCX9lWx2tmKhKuH78-JK_TDPTaUlgC1n1LT0W4K02fKDMjD85YiIStlO-ye430TvsOv37t71Pbkzv9zIjkxrEhBVrY48ZDA2e4lroox6pnw6GhSmDcXqx8Z3LOFgkT2NpluH8RSEXg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAALMYkNsrJCH7ZH_fDZ1fexqx3isX7m18mklCpfKolC_5NfBMJK7EEaiswEBikN05uu2Y9cds3YTVWORmUDH4cB0ESm97A83FYfKcUxnALpfVia6yffTtfBduzkcLstOKDEhD4xu_Gid6GR1c4hGiXQCsfGhTYJQ0ETlFUH1J8CK0T4hCfM1uoMA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA7LAImHE6RdlDzkhPu0mWy8Q31rVmzLoNYeI0dnq87VaeQtlHctqTyg-sI4FvtUmmD7fVONy3TqEMU81skQWeMXNcT-rWAhS7GgyeC6ztepKaANYj5XBJap8MMRLjWOmvEhDUdSZmx9aoJnJvY9_gsnibGhSoR9zteXl2G2WBwHw2UDzk3QC8Bg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAidRV9pfP2LxMYu6Unh70tjjqsyLoTfeWZQeKNxCTnfsxYnpAPjZ8o0cbbzfIMMqUtg_EtUP90JY8p70atNSbhCnVuagQr_Ej2BNlbYqWUmauenpETezu-QlcqrltgolwEhD0azLHL0vsoGIrDjmvRorTGhQEOjFqD7kULPuNqhwUjoKivqVAIg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAVRw9ht53aLEQwMh2G3qfB55zUMVDWGsEdsgAi-Ii9bMkewwbsQyGc_TeNm-AgGA6FpZ7vrihH0m_nE-IZKpaFzW6OqYUEYDwDMbjgbEyVM0aKQZVi3_PG3LQmc0uf2p9EhBw7m9mO_yNVxsR0pChQdpnGhQQq5az5T77VAPfhEAw0R-NddY7aw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAYPmCgHtgaWJjsVo3ZfulUcG8HkwO-S89Ty7OM1o5a1S7hd68b3oORrAVzGdSZ023OLjFJ0cKqztqmtSvOd99_9aH5K_3TSkqacV-MXNC5fLss7CHw1MdktGypPfZXuJIEhBjFvJZdY1SgUrM6xhA92fDGhRwPZ-s7utimSE3RQQnUl4LpSrkdA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAALYICNwE9L-RgmUMu8uqwfmW5UH1IkCzK9-7muYYyrcykS-OxfGOeBebwo2Mb4EyguTi8Nfpcmo9am18vbk22M_aoWr2-uYDqVF80SueBfSgy20V1ZpJuWyYQyMGxAoOHEhDiJsFyh3HlQxjPEah3wXN4GhQs5Dji96pupWAQuUBoqhh9_Wvi4w",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.dornier.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Blaauwklippen Rd, Stellenbosch, 7600, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 880 0557",
+    "type": "string"
+  },
+  "name": {
+    "value": "Dornier Wine Estate",
+    "type": "string"
+  }
+}

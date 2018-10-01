@@ -1,0 +1,76 @@
+{
+  "name": {
+    "value": "Paul Wallace Wines",
+    "type": "string"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 19.05602,
+        "type": "number"
+      },
+      "lat": {
+        "value": -34.216885,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAA__AwAZNpz2vPJCfb0Ju06yFCprwASmdpfUtQrRC3EzKbJiwMG3g7PRh-7bCB0S9GAO0iPhgqElz4JZhjorIzV2zTehdRtj_p13sVN64WY7gn8iPRC_bh7SdDmQA-GyuIEhAWghAV8l2ZxrNX9DZj9goEGhQjEk3g0h9w3Nh1Pr1aBdkdPB-27A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA1pgcYh-wUXiVh_sxh189dhtyD7epL3sdLwMJWDgNHeNpw1dnKF95ExrWUpXxLga1HnZ3WwnO2Ufz9JFVSPvnXWahMQHazS-z7rN1DpGVmJIftMA4gQkLvgmmZJ8JCvGsEhBW-g5WySDPLyRjyZqnCKguGhSqb00WwaSbA2-ykkb_wD1CwO1Urg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA8ljFZvO6dKxeO0xr26urQ0cZJ2FzF-r5Yafq161PKpZO-gshLIkjihzCnni7wFECbwdLrH4cvJNB1zLmpUb0vbWceK0qK7AuGjKpZ-ERZ0RiikFU4smwTfKTKidhO5RvEhC7FYDiF2f9SQdYRa1Mk1W7GhSFHUsS_i2uDrCtxacPD3jwtbYxLQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAMmHXDp5l6zrIf8jGGSX3kfL3lO9WV7bL8qRdSmKY74TMNYEDT5ZWzJQm3Cwd6xPisQz_rLTgkmZL1MUVJZ51o0TN-gUlQIWjp2JVqhjH5r1daDx_gWafLlKE7Ro9hR5GEhBG2La_fgbHK4KZXkHZBOuvGhRycTeC85jJqqvUjGvF9IJnyMaiYA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAkOSO9DL67WyPwNyPN_qmUfCRkIKD4ZF3pnaY1iM9CWJ25AfgmE7Wnl0n9hX0pM-si96oK32rRVbs0O9-AhRJHjiUzg1tso6SJBc0szXWHHKCnDqDpYIwSLsoGJljCmwhEhBSJr-BM84zSxOvCyoPvcyzGhQ2Tt2C-yVnH_y2D3qHJhxNwCWjIg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAP02JsKxjvcDRtjlWHlKvNWq9jVtGEfKzCAJ8VGCf78BGI8iaaXBPxpi8nKTBngF53OpgczDZMnvtk6vZ3sGT-LyFL9FWSG0MWmetN-53Ag59wcvSGDV175Qm1OtWvh75EhBxncedTCRoXJO0JZZdMTrOGhR411y-RzP2wVF3_MItt2BKh5_g3A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAAVEeAtjPdQ4lRUegHFHMrwDFSXVX3ZlJ5nRc8dbi1E8sEUNMzCTL9Ll_mIHVyerraXxGjTS_4IazGWvWBUtzldyIFFhs7qFrRBIsJtPpOU0MPyscFR30YduCdLC9daX8EhAhmrkPPK57F77kP6q1MJSWGhQGWt4o3wDt3AFvX6CDm6BpF0d-Ag",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA2Mw2rfCrAVH3SWeInYJuiEMlHvMAb2ucmop_dQRcQNG5luowoyNiIlJwXI8TM2cEvTnDxzyK9HdKfFMBYwQtfxdJ9HVgmD67QO75qFxfam1nO4aC8TKRO6UJeJrOv9aTEhAUuriecwi7StA1zFQizm8rGhSnJe3Dg1dwL21OFIdoFwqKuhkBUg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA8JrUQuztm7gM639AOR4mn3s7mZFTArhHnQEa6WMpqzX1zZoldbmnkV27IUic1m2hp6_AKxlmYoyWgXYZTQVdGufMh5nnuSNQKr_orQ8fcb3A-nIQSYQMCTwdMuWphb-WEhDnPwHl3ABwz6EyU6xE2t1qGhTXlqzR2NieagsCvomHp7havCyqEw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA_-Ddzv6HPIuY3nSemrAo7IJ81qmzAWBqI8dTJuH-XoBMZ79ZSuRaKL2izQhgrXNPoojZDMj2XkLg2G_fZV1un1KsG-gkxd5WGTsT5B-D9KKNTurAcD10PdgkdOOoShhMEhDewKvqh_1_2h3wnl4G5ZX-GhTqFvCQ1NaC-yzQxCjQ_T2HbOn-iQ",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.paulwallacewines.co.za/contact.htm",
+    "type": "string"
+  },
+  "address": {
+    "value": "Farm #63,Wallovale Vineyards, Highlands Rd, Elgin, Grabouw, 7180, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 848 9744",
+    "type": "string"
+  }
+}

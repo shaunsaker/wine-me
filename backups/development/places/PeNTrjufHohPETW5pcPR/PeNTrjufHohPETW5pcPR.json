@@ -1,0 +1,31 @@
+{
+  "phoneNumber": {
+    "value": "073 833 2815",
+    "type": "string"
+  },
+  "address": {
+    "value": "M'hudi Farm, Old Paarl Rd, Koelenhof, Stellenbosch, 7600, South Africa",
+    "type": "string"
+  },
+  "website": {
+    "value": "http://www.mhudi.com/",
+    "type": "string"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.8424629,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.7641657,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "name": {
+    "value": "M'hudi Wines",
+    "type": "string"
+  }
+}

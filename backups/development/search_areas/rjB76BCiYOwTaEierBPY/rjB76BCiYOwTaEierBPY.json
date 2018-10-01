@@ -1,0 +1,23 @@
+{
+  "location": {
+    "value": {
+      "lat": {
+        "value": "-33.829889",
+        "type": "string"
+      },
+      "lng": {
+        "value": "18.643526",
+        "type": "string"
+      }
+    },
+    "type": "object"
+  },
+  "name": {
+    "value": "Durbanville",
+    "type": "string"
+  },
+  "radius": {
+    "value": 20,
+    "type": "number"
+  }
+}

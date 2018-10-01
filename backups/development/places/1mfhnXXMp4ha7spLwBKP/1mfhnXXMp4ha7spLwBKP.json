@@ -1,0 +1,64 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.6291038,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.8351241,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "website": {
+    "value": "http://www.ayama.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Paardenberg Road, Windmuel, 7630, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 869 8313",
+    "type": "string"
+  },
+  "name": {
+    "value": "Ayama Wines",
+    "type": "string"
+  }
+}

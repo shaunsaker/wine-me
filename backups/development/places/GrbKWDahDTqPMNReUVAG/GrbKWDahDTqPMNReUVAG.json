@@ -1,0 +1,109 @@
+{
+  "website": {
+    "value": "http://www.leopardsleap.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "R45 Main Rd, Franschhoek, 7690, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 876 8002",
+    "type": "string"
+  },
+  "name": {
+    "value": "Leopard’s Leap Family Vineyards",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 11:00 AM – 5:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.885789,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.080269,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAA3WDDfjUNBh-At0CNT9G3CH8WVrJ7MBRW-8G8ugHrNwiAFB4LjZ_xiDdpua8yCvOq46Acsf68OVC_MpnXDgw1Ntgj2w8Cdmh9XmXpJnekM0j-EejeM18t5lnVijCBoxvfEhCb5kUAcu2IBObutDTj5GzfGhRgXkYu03X60RidKXTR8zGKfjZ1bA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA8TF_2uZ4_dQ_zWJpTzY9YjipS6DBGTKwwp-3VIA8F3CTmoDyd_atLglioFjuG4Hr6cqmU3Sh7MblvjJyotyyGgMZJwff64y_CnMwqHtn2DObbP0me80Tlku0iGT1cVFkEhCYbriYWmRu-DSQJzVqmnjKGhSMPWOiGLNd_9aIPjlsETglw6yCpQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAIs81B3GhQhBO2a67k5wS4M2sksWcK7msof9pdxIeGZglS8XchF45tKHEGggxqUk7aXwLSEmz-zt4Hsab-zDMOUm92S9UPdlSqkcYw6_cy52zLGgZCwlPoqevbZ-t_ai8EhByYyJ0tXs_6j8Ns6WgrwcZGhRb6w6312Sz5NwNXn6x4TX6pjq4Kw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAwzQ3fcBAAB-wP2D6c3YgiAyNHSA5saBg1d3XedcF937eNTtkLA16Udzx9VkcFayZtn0wNUJXPM5q5_IdF1n7iVnG3u5GAdvmkeC80OYIhbqmPGM975TQC27pszDhnNOxEhDn11z9whSqMfUss8oLMRYhGhSyzVQneeFYKL2j2E5DLPlzcGM73Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAOVPl_VkRo_4Ckdsm9073PRP6v2u78Zrcxri6iVmTUgO2MuhWb915BksDrIsyNDdPPIbzuNkwTgZGDuU6GXwwRJnyzczzooxHcvCzPTGVLGp-oMr0F7KpfByOuj86NNJeEhBkzRcct4V4rO0JTvmfUNw9GhTn2n30ULLPlf8pElGUC17ZgFP-bg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAlT2-AAeTbu27Q9-EggalyBFUR9dxwjlcePZNs2VBB0GScVZDL-u1Y3-CZ3XfaqzEtGCJQ0h7dTvsmT1zK1xUMxSNQvnELpfUlNLniHQfc6V5rs20kj3dXFrBdG1171AtEhCtSqlnj9yWvdlf3ndeI445GhRRR6lC0hPm1Y8ognWYUMZjYJt0Qg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAj46Qc1jZo10kYUzePyaVwACPIf1K1ML4QFwfJ0a7-2y5RSuHiJjZtkEFsVA-d_EkSpDvQRZUElZGcycdQztT8kxgLrE111UdTkF1ds-mPorKf4e_qaO7InpfYJ4a8-U9EhAHnWVm5J19TSfaMwuqNJKGGhT-_X1N_JYnfGQIcyLV0zDkfvI7AQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAz9sZX8Bmd84P9cuf70t2oSMi_Bm6G-j9LDttK7-F4jdG6fo8-qZX8UGgI31XlH75jyGuZ8NvcMTCpCcsrzn7EgLp9vc2q-52ayV5h5zCEocoj6bwyLtNTb8ZbatWzllaEhAw02pbhBe-FvgM6Et5a7uzGhQtEk3my81kzqcA3rrIeFhaJB3h0g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAjQf0JFephCyqdJm506zmfjGuP5CUVagkU0GKbKGrtkfwoWzHg2Naj4ukCG3Tbyibr6sZqpC1VRkSV7iTznDxuXh3LH-TRif7oJ7mEzcqMaHT6wQkXiVNnNyrJGTUGbb-EhAqQrr9Atvdg6q30loIiRNXGhTUGpN0YzoNCfvfbTTQBWAaQVLxpA",
+        "type": "string"
+      },
+      {
+        "value": "CmRZAAAAWQRudMVkflFoJY5sr_LjH_QsSVDedOESj7ZgXuNB-ROxgaQTktSB1Zaly4qmGzKRAUH8IRSBmQ51ys1zVDh2MoLmki_pEPLi9f4tWtbBxlN15guql_cx8h5Z51LwpSUDEhDd3qhhO8FDbP6dQStTMiLEGhRTi2gjGv60eGs3XglLf3wBdio5QQ",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

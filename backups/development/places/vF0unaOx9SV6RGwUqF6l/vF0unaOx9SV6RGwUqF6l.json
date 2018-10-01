@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.6586,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.93765,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAzXjO8vV_3WQcX-wYy2tWBerEL-vIMnx-lDuR5w3thU3v9pEy8F1gYzSKgYIi-B-ur1fB6EKm7SbZRgpZb9ikEDcTG5TcfMpIyAQtBU6GUzVVzRYw8iH6S29X9wyylvkEEhAwb7fXzryR4kerX_YVnOlXGhSOVsKrIULUjn4luIC92tS5zX9Twg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA06UWwRpwRhbS67w9-gLhwAeZKZF8XBDaYDC1EA0tozRlfEqev7ezUfx9WsI0MYJ67f_4sexiLF57-gMXmthtJYCmC9JE5bg_OxlQRIUr7O7Q3N_Hn9yRPyyRpluEHOY8EhAg3WVszq8M-5uLA5N4PKHwGhQ4oO-YzlalM11Cdrd44PvCDG5rQQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAYNkSvfVe4-fhgzi08H4qH_2yf8gfip69l8gf3qUCjWmn9iEa9k2nyE1yn5Awf1QDDRNXlVxNii1mH1a4HvLdANsdg24X7W_epQDextK2PYtKOeFOL9k4i9NgoGXjlvvJEhAlbVu9-QKebeekVz200z4VGhRDoJUFQ75vqdHEMT48KuDqgekRjw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAT4cX343OaGloPN3W023T9h_BkWIY4hyfunIMP20Ufw8pvY-naSHA3ij17YJFxPlkn81u_Hfapz9bgb0kdgX09vKq5g1BvZ9V77jvbseyzjPqFRBDouwOcP6393igzJ_XEhABCl-i2_tm7i9XInOMwfgHGhRfDVEJY4adpDO-53jZy2Wx0Em3-A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAgSGQW8l2HB6orXjlUFEhkJDw9fhB8pfOQg01xrgJ9wgqT-NiFGC5kgdVDWQwNYNjWsmsGWv6v946v1J4RE5LoFeV2g4gRFS1rdIIv2k6ImIIC-uIdO0MGC-GOFD0nFiZEhDR_Oi72WLSo_xH06NM6v-TGhQoul_yqCqMUJbAMoAo3KbMbaaQZA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAOrXiYudP_xOE7vrt_Xzfyv0v_TclijQX8_zSaFB-6WM0mz-O6gqSnjN4mc2O8-3AqkH5bIvOhy-5hK4RCa7SR0XpO0I3NStCt9frzpqKLsHnlRu2ZERvcmXriP5aTlMFEhAKRVNgaPkfTBY8gHDh2gUAGhS_bPACtjb8a7wSSgAb7SwJmL54Zg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAVKYhmUhrZaHlKyNsjfOIOlKeV7kdMTwxMh2PNKNVYcyQtjgPfY_K6ZW8UJYL4umAP2E-oU4ABOB8MEDVIwIykYSzQ6QJ-vrWgpDPHmK76oDqhGit3siHfyff4G9lajlNEhDlKMxlrHxiBFOt6mX77-sFGhRoJJm3cmW750r-jeOwpPYYb7B8sQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAvwYwAnobRNWpihNWZ5OkE6f6TR5ueNSkoBj56WQN-NkwlVGYkqYPeWsf4wcGnqoWQ-NAuLHoYfk4hhguEAazJAdOn0G3NLbrCvCZHX3RrI98jLlSIughFfTimhNu_NJwEhDbjXowj5LwUWrNXuHs4kACGhRzcCo1X9KlEYq1EvAfis1B0xPIHQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRZAAAAx30-XSxsThoJwu2d1UsXa4ALgvzOt07a5kec-JDEpv0haSpJOM1ifZIWJIX0IgFRu5FTDyeHX7VhP26_uUiE6Ee7RMQ-gKrKkrymoSP-XuwHGN47BhR88n7kuQmVlrrdEhDOzuWuC8cJQfIjkftOqFujGhQdzCOcf_AJGhaSoEIORoKfqlzqHg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAqRQGRfX7tebJBPLyZoQrZlUTV_yH-jCVpe8Z6D3IKibwtjUQYWLGHZ6YwmStpM3H5UF9bK_47bKkJTrYbkQLbfvyQD6QdXx2cjr0UeectfvCgWSmRjzDmCkWfqtPG4MDEhAAv3BQhMGRjrSKmn7x6JctGhSJSEiivn7CvBOZ-ZDyAoYpWfZ9ag",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.nelsonscreek.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "R44, Windmeul, Western Cape, Paarl, 7630, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 869 8453",
+    "type": "string"
+  },
+  "name": {
+    "value": "Nelson Wine Estate",
+    "type": "string"
+  }
+}

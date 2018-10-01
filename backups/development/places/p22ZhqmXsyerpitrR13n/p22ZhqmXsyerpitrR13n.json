@@ -1,0 +1,31 @@
+{
+  "phoneNumber": {
+    "value": "021 885 1756",
+    "type": "string"
+  },
+  "address": {
+    "value": "Helshoogte Pass , Banhoek, Arbeidslus, Stellenbosch, 7602, South Africa",
+    "type": "string"
+  },
+  "website": {
+    "value": "http://www.delaire.co.za/",
+    "type": "string"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.9256291,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.8982796,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "name": {
+    "value": "Delaire Winery (Pty) Ltd",
+    "type": "string"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "website": {
+    "value": "https://kyburgwine.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 865 2876",
+    "type": "string"
+  },
+  "name": {
+    "value": "Kyburg Boutique Wines",
+    "type": "string"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.9181428,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.8243824,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAz2cVafPWR4xnuciOCBlfzjRbR4sQlqQDZ-S4AORN72i43jR74TXbjl685UAtxFxWc2p7ero4dGtHumQEc0iTKEpXfhaFLx4iNAd214wQoFwvxuanOBGEqJrtctYtIDcoEhCkiF2q4IIEVOCEoOubLgT2GhSACM10RmYIdfGK1gHbbCuhZnMQhQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA-Qx0RO-LS5f8wIyhFudFB-xv1WEPnq8OXaFeeRyF-7vki7WY8gOt41UTMTw26hlHJOSBz5n3w8C78RAglkcSQARKMNs9Vblh2UQep5v5Z6-Rzzre-8bJtaMA1Kd-NZFDEhA8d2IWvF9LjLs4rYJXRV7HGhTM5vc-yVaha_Z79TBK3gKtXK8BvQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAIQwR3UkG4ZvoJW9aXb_SwT-7shFXeeyPmfOmoEV4l5yjJv0qKBtF32p8_Kft16WPMUVQ2RdiiQGXNpZxDx4lfrcK4A6Q8YPPGFuicsAcE9W6SrJh6qNOHzMZiDANY-2IEhBcLgQUqKyNHpeF5klRfI9FGhRPbt9HYT8cWTOVzOhv7B95RWobvQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAARoMiG2mmKYcomqTLhqA9sOklhOtceaRbE9x4jjzq2MHAQfBR3jpYNInR7uTbdL1-xmcNBmNT96r2r-VyuYd6rG0FAyuxZAbii-Vhr3ys8fWQEdK0LCuBxL_1kj1MOspTEhDy4ox5UB1DPK7n6Kbh213VGhRrLa7KfIDFo2oVX_JymcPsuSCN4Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAoJmUJhkokMppO7pRvfBe0JVOMhEozYkfCdq3OJeyV1wmZ-Ez-xMrpcwVZeZZ0cOie5kO5FLFRO4l3SUPhmVc_lYNlr78d9vMh3Fbm2n-181kLw23l_zqK3KcycOqzdkzEhCR4XAbupTQPkHVorV95b3dGhQKnbPDyBGSp9ChCePLPDJKleVEbg",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

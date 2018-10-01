@@ -1,0 +1,73 @@
+{
+  "website": {
+    "value": "http://koelfontein.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Koelfontein Farm, Prince Alfred Hamlet, 6840, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "071 413 3869",
+    "type": "string"
+  },
+  "name": {
+    "value": "Die Kloof, Koelfontein",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 1:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.24802799999999,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.326898,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAA-PdGefl1m-D5zE0Y9vxZkh9YTPMSJdwHpvHblXfD0-AC5eKFRb8ZDp1bOn3qFCzUwk1u_f8PUQqLZCImANYDifycQ7A9_B43ug0-uj6yXwFpeRm321QiMC2w8wPYYj9BEhA2w-T5Rvpi-fHe9R9_-o5yGhRzii4eE3HPsUDColz2me1DjckbNw",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

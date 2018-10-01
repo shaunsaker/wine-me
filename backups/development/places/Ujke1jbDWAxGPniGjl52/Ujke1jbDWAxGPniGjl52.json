@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 1:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.90958000000001,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.75536,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAA1h9il3I9JD251cyyrgCfurTox522QT1WSawazYHeSHb0MIVxYPx__oxx6EMKjXDiLnNlyvkB44lHvwo55_LmPYmngeIKtt96xVnpJBruvWb22hZIh4Myt8xm4I0fZlTDEhCcFqHE3DVIkqn0Mdb0lsGUGhSn7e9t-dRjL6HI-HvPUDVjLXgyng",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAjETHTLDx8vuqbizw-TH-a6BCdX33GkYGomzfb27hx270c3fx12D6YXM40D2omP1NITrHDai6tXuFUvAmTZcunhCv1RInI9IlO0C9J9hg8utNhT-HhVluX8xgi5J8DYdFEhBsnQxfreOquYQSqw8InH0MGhSOvacST2NMpJRyu438pDOuC-OMqw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAvuwM7UcAGgmiT2bVuzVu8B3sl4iBVfe8U05OrcCjiDGIfAHuhSwsXqVTDAnR07u2l3As0tNzYWEp9D_Rt8HJJs0oA1AYw2V0clKfCmLhmf0jHFAcZI1fDtahsffmbnGDEhBaAUB60CvWunt8TXpiX1YCGhS4AGhE5F4L9obNTJQbnkDChDUm8w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAZtgQsNgA9ymvBVesqiFeowgdPF4u86pmUF1P799LIvatlfTPvAeOHOUk-ubVNV1S1CKut3nvAforna9oqQdUL1CaGZvjbWBrVynSP-4XjjaDFGVIU-IEJ62a7G8CKnWTEhBA4l4lla6y3glewULqGyPGGhTr57XKTfPfpNrcQGHkKDXxE5ooCA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAABT3mvtdDidOMk7wtWYdaqONGC2wRCEFh_D3x2aC87eC_afBB4s1FMO1ZDyQkEicOPfwMSmULs_izxTGuBLoTUMpuo1ZqE_Z0zfZNhlHri1SlkiNYDHZfXr9e9gCMXIlwEhArBy27Ulw_rdWBSY_IlttFGhSfCAoFaaadoEdOLcwzWiTakTQUIw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAZI21hk5lUhJ-VMJCC87U_1bSOoUL4xwSPrd1QHTK7yXSRC3Tzw0K5li53mt51HiqVwTb_PduDp3MReIE1oVXDazJP-hBRrfAYuHI5OG1wY5Ipq-BQVjJEkw59dGnA0adEhCRMCcnLCBTmLALeMV-zP6QGhTz6jqNga1CfVTLhUyC5SxLVeuR1A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAmZD1kLWXU1J8JaMFWrYs8asMkPZ3GKBgoZCEmlvPzS-Q1CmkLEcOQYzH3Pe0hrT7JnnMAv7We6Hor5np7Xhmi4AQ-7x2IeoH40QB6iOTRPYDeGZFLBqdtsROOijsSU-YEhCB3eIibB4wHqDho23ClRzxGhTY0SytkC55LQW8ExBSoZcvbhvJRw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAzpKA6lDerVp3v3aOa_SuS4seBH-9pwswDgUFADhOT4YQwPyzbImNHXRbn9GCUZjKmrQYuFoMSLDtLG3hnazUQ0_8yW_5okG2aSYl77wsQWhWkmVlSCGt1GmxIDoc_QJpEhCUxKiA86pWsh3naxS-1ZSNGhRheqk9-_ud70o7pooGSR0VzL2yYg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA1kypd2dBdoayz3lfooGUMsNLopxPxt93jEEzSd45ODfMVuOyP6A_aOeos8HhmfcNFET4ptf41tH3oq8W9Iy29H3U9dlO6aRQ8aU_HZz9x_kWLVI6xUkegD98u8VyCZrREhCm7ZZoNIR415F6DC4nsAn5GhTOniKC0qb5qJV0LwSauAEj20yayA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA2P6YMXKjXSnWwGbsqBBSn4_y3K029UGITvmgku4SNTgLdHQrf521wE3BeWwe0YdcklTlMJdl_IXGZNX0QexWvCll4KHOIoska1HYG8nAfgt0K-Oq6VHd81BsnG1M1UirEhBBBl8K7ywPj8XHVP2p3a26GhQOh-8WXrI5MplYuuNkXilR0tR4GQ",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.goedehoop.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Fischers Road, Stellenbosch Farms, Stellenbosch, 7579, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "081 283 1618",
+    "type": "string"
+  },
+  "name": {
+    "value": "Goede Hoop Wine Estate",
+    "type": "string"
+  }
+}

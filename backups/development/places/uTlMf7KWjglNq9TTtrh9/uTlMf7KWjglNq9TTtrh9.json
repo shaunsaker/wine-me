@@ -1,0 +1,76 @@
+{
+  "website": {
+    "value": "http://www.montdestin.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Valley Road R44,, Klapmuts, Stellenbosch, 7599, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 875 5870",
+    "type": "string"
+  },
+  "name": {
+    "value": "Mont Destin",
+    "type": "string"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.8330764,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.890935,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAHXBrYjaBUt4jEYap4MeBKZrn4akFZnBrZBZ9P6odXgew154ak-gsRzaQX9ne1jXYC4Ud-j0Lfp9k0IvC3IoX1r5fOeyua9TO_ycn4REtRTwaoT_9Ad7X2LEy_AsFN9rVEhBamGcrnee3eVco5-W4H_E4GhTJSKlSb3iz69PIOF1U-K1xLmdoiQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAtrq3BrLFqX_sArRLHKidgNH18MaJcgWZ0g47wobt-LRlvmINuVL2tEvrT1DP2CETj9SeAvXwqJev-Nsi-VqN8837kqe-NSZFR-afl_z59fvcT3BDJwOuv2ibR8DozQuNEhCgzb2MyQgECnwaYdjBzTnpGhRu3c8oKAifiSEW6uaVGzPv9GKOqg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAcKEo9IlABB3nns6MerFprIyu5iGEQDtZMDJhDwASzOi6p-PVCmM4oSWMdqpJKbjYWlTMNEiuVS-bng4UuhFC3tD3XIW061MUOXY33aXrQP2C8D1wFWHwaP0CeN6-C_o7EhCA1wFM5BFS6WUc7XudLEZzGhTauydPTfsSy5ukbpmC6egGCrhGfg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA1-iA5lRGxsxpaf-C7J4leHMvlUo03CGOG3QNv_HmI3DsWP81CkjMBCaLRSFKKmumR9FMu6VOQLYLIDAlXeUQPGC935-dcVoeDaXuefRLLXgnPF5u5_XCKDjA19X497sfEhAyuyFokxUKuN4NY2ge9TiWGhStdpwvACUB1Iq9KdYI1R__ZhYZOg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAACAH9ki83Bt08nCmoluASBBYGULc9DtPXs9VQtaE54uvCGgVunGslVdkWlbOhfNsRAFXqDqjAb3zyQ-joTA1ZHhRctHfAqbDs53GfmcN07vtQJdoEpiweW7SPC6pcK9DgEhDS5fJ9evuJW_bVpVK7VLKMGhRjxE6UBQthIM2LP5mQ7aAGuK1lUg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAABoxgyFB9zrB00V8lFnbpTVVIX65sgoeXETunPUJWUXVmLdi-r-MBkhJGOvzQR1CYbuIXzud3oxp6uNU5k2HZG-FRDWKa2NE6j63Fk8tOt81_xVOrDy1UaQH1FW1l1gflEhDvZ2ITOPmziuaArfBTZHP_GhTfJv3OUBNp6iEUmCCA-QRxgtNYsA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAExVbJO3ie74vVAB_040Ob0mZ6h4pnp0_B5olBKd2ACwoTiD5F5jfs5yQxJWA1hIiAhzHSZTEM-5RCINwgJNEncVg6ziQkpRerS8ZI02SSSYmeOXHg5esVpGiRKDbLO2aEhCNiukzfMd-hkI4tjuqUU1_GhRv8IJCy8RROdoaINN4HLBsdEvpjw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAtsOelCu7w7drwBvWwIZY5dXvMfta-s_ZyMRWBnKvlqP3WGddNh4tb7YvKpLTEVazX3ctNN6dh9m1SIVk_LF3jPpzyJ8NPOywifC5a7wvTzoZyHJGpxKbTcjZnAm0fjGUEhBs7ijx6Wrkcy1z04ZbGFiXGhRjUfd211QhcaFOsuU9_j00ocK3ZQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAzIqtITMHVoPjYgkVm6rukt1EOoXKWFpGa0nolS1xkSebMfdCb7eRPDTKqQcA-tNJUUBabICCMpzrafSkoFXuFw9cdAmItpnNwKfD4Qx7gLEIp6yfuiBrEVgHp5DxfA50EhDgdHa4gGcmOJct2ELcYCAHGhQy-aIBQJR0cArT7jaWegO6TxJyhg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAOjCxTNTuDefr7CtP9Cj8hqX9KV1-3nAXUEYiTcT-ioZe4Dw2hEVjR8KHNnCpxg37K1Y-b0Z6E0rdcyF6jcjYxFcLSX5InEqDqTFvrUUWHAG9kb0WfUuNATy8rc1hykUqEhC9Ly4RKpSV4jq5Opb6Zx_qGhTFlYI1SuiKWAGpUE9yruzB5YEI4g",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

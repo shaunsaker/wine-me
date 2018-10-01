@@ -1,0 +1,27 @@
+{
+  "phoneNumber": {
+    "value": "082 498 2151",
+    "type": "string"
+  },
+  "address": {
+    "value": "W D Hambly Rd, Langeberg Ridge, Stellenbosch, 7600, South Africa",
+    "type": "string"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.8455368,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.6899725,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "name": {
+    "value": "Lushof Wine Estates (Pty) Ltd",
+    "type": "string"
+  }
+}

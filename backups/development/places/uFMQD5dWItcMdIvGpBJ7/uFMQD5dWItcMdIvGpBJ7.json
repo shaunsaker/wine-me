@@ -1,0 +1,109 @@
+{
+  "website": {
+    "value": "http://www.la-motte.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Franschhoek, 7690, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 876 8000",
+    "type": "string"
+  },
+  "name": {
+    "value": "La Motte",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.8836974,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.07216099999999,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAwiebZ_PxUuWDpgX1ldrpPiQxAR2kNSFKnw4ZXu_QLeTaOU3yVXOI4kCmX_qoP_UzzKuQJyHtcxmgr52OR99ilpSxHRkH5gTz1O67qtjJWiVCccBnC8OhPPOi9dXUOHkEEhApO1XWwyK368BRqk4-s904GhQAfvW5FPoW5wIbD-r6KD608O0-_g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAtUtkSlmq_lLAx_vqzhf3o8m65GMp3y7F1Xul_1eJJ_duSJN2ouRyLJhC_kwq6DrHrbFCurzxwyxTrOlQFUeajiqXm-pybznwSBTwHgE9CFhdYhqtQV49TujVtHiCgnB5EhAeR8vcHLxEE7dKR6d6G_-SGhSrdaCfV5MnV3txuso_xoNwK6T3oA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAkzScovsqWl2JfNbNxB-bfqafRKFoqbGwRm52IqGX1vXPR73rFbolx0Ab5ilG5BuLih4QNjIw6GoXwxT1CrILf-VtA2MKR95iJHYrU0eQ6F3wXAEikkEbbOQ0rAdL5pAwEhCh9cUb9is65pwFA1_MbK8YGhQaDWs_z0A-K36qFJwxSVzdH_dk2g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAkR27HCIBee-KPsYmjngzheMTT__alpGEJ-Ys8c-BpUpLN3gyb5PmfEidHglX701odpeyfOv5fqoiMGsvZ86q9DMvQEHH3UCn74-R4eIqD5h6bJru69eLukEE3w1W9z3ZEhCcCqoQP0lXTuSDpz4BKi8-GhR_EDGM_4LC7xtD3VgpoKsciyvDhA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAncWQnvDzT9ANAZ4piqz00L9QkQJTJvwFxESCZdaSpkV0uj84LI9c5YyEpmHQNdMg_ZeLL8ESE4sJW00j4xvxJ1NmiJkYwl-0Wp-D8mZhK0K3xU-D9rO4IArMz3IJZmOhEhCNVuWm-85mgaMyo9_aZakLGhTeSuILqUrkNR-f4zWlSWTTOz_Qcw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAuMKbdFPIOf8sR7UV_4lLEJTvnr3GTWVBx9nhUxvMtmdd1nKTKgJOnzW--wZk7l5AId4eQ-9qZ4qETHJLQ9eRajy4i-QR0Hmt_vqeLF-ECCm08R6muxXGMlOajMolCLRGEhBygla4SgrDCKAIpRdyI95XGhSzOGdTGtDQlaFEG3efluZIVq81Tw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAELcJ_7xpvSHjaLbs_TeyhcEItthu3AxYoS_rrU0UqXDKAcXgIc3TGmRq5Wu3oXABZbAFpxZgl_r3RpcUbwOfYZhJP-vfD-Y_7WP7MGL8AIJ2NatGxDGxO0IFG-wqvFHpEhAxvdXpeh98u3l22GcfNuzdGhSo6a8XsSM0PEFAXmK3DkMBT-cvYQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAwQlyQKmJGOpBj7iPjD5W54_ggJ0sHuNFG5kKRXiEjwXXs2Qe9_R1BYMTyKBpX4izfsC_WmgE-CrGMru4WrkOZFNEx4YxegwxPZj6NF5UOy8GUEMm6exmOfjaK-JUH03kEhDtW-TzSf4-xhvFHJgi1JqlGhR6BMBGqXfp8w3BWUo1vOjFcfGdLQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAfCrpzUlCbIAOfGy831RqVMIsOA5fSUukqQyV7P4aQj81e7OyRN686MWhJACF2wk5qgM1oysedj1D2Z5RpwPu_Kpqhfpqa-KS6rt-vXAOyYvDtN7W9zXyXZtdx81xg-NwEhD0AdICRcLU-_DZMRBOzxMIGhR2kuauPwBIJ84V4BoTVC8lW7zpVw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAEmsKlJH2GoANQw2mcgg3apnddBNJBrAvsCFiKy3red6J8N7-JNCij44sDWjPw_vpI2M_OXw7lO7RAvpCMsG-Gyv4drBrN8mmv5f7KdhRFGpt2EX0HfD5HJPKRJEROZrMEhAB2ql40cZ7dHs6N5SNWNf0GhRePQt9U2q07vTW9R94Ur6E7Or14A",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

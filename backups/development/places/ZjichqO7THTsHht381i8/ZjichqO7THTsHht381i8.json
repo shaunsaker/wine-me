@@ -1,0 +1,76 @@
+{
+  "website": {
+    "value": "http://www.slanghoek.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Slanghoek Rd, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "023 344 3026",
+    "type": "string"
+  },
+  "name": {
+    "value": "Slanghoek Cellar",
+    "type": "string"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.6504681,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.2300462,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAA26n63l64kUGw5sjRwrwAuQ6GHIRAngRv5dP7HnrPbXKjS6EHiAXPVbv3zS6dLrZ8NSBQ6EbHS8Uav5L8du5i1JE9IWCTEZ_TFjgrv21fl0XWrasGsKDHvCoE7qlQRRmsEhBTG3-Y0sDwfUmDgpFSp0YWGhRy3Gva9MsYWypjeByfTahvsQHl3Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAsj-jg0pdnMqAKBt6incA9O8rhkes_mCxien_FUg4NJoz_Wm5XXK66zN_fSHQ0ARh6P-zs4i6_d7cO_pbT58kjUsIeycMj8-yTAAOhBpT1uBIelQVBoZkk0US_pld_c6kEhASoon8lMf2KBuQXs0DbCV2GhRbBh3DmsYkuW_Ut2FKpI8TFy81rw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAArPtqKjjpSATio7GQl2WW1_ybYDi00ufulz4oLg9VT418-EXh72-BUkho6eLf61JZ2_ovnFpIouoBhdartrd0dhJbJejpv0W7YjdtHJpr86iM_lVmpaNGwx9g_LAj6OTQEhBjExqKkSXqXGa8H4ZfWge3GhS1X0xPRUXttQk635U24SVSxO_CQQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAULo-NRQnBEFPyONnU1SpSJxb6WEzn6uOq3HAx1sSUDcp3BvkPdxMwn1JA1e5T_4GO5XvkY30VD5iIOqfYSoHNIweAQCbaKP776bkCGioFPknEEsdLvaHX_YmEJr228qqEhD3xjQvz_l_K8yOW8p4uSkVGhSW74JiFqUh8sfxWVANY9DRR5yCEQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAABZPvSgnQmLxTPldWhgtDIo-WbxJlmfO86yXiiCbb_bmvLMIkeJ7GulqnzW-ivlk0Z46GCCcW1oWvFcgcWj87kL0mB2bW6fC66BI8ZLJZzaXi6RpjwwTZDZT8gjlHkKjvEhARq2B1f2xslPKYhKl2hbnKGhTxeuE9hZ8mHYWhylCnMLHP-OJDPQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAZQ1ZZ2ekQL2_goX2mCLY-6U1DheptaxTdZ60eWZkyui-KuDJUdzA4hpeTySW3SD7cy6BZv8b43neWGL8w0FCnPwSxqN_QKKnq82Zw8A1D894GF2loQNDlIbBVTRI4BAbEhDUweMx8FHDE4Oo7-tOYA4rGhTSbQb0E9CzUPdbZN0-pkO8bLIigw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAyFUF1YAZrTbQwPM87goRe8uClar6U24BTrAhYZG5NfyjzQbWJhUf6TU3etCgo9gsEqjFYxrRKIJiEeI6JKKDGp3PrWZQM-YyaaqvnAXMw9TXrM-ww41rZBXnF3fJfet5EhBVnsBWM0bmJOcyLiyd-WUcGhQZbtfmmpU3blnsNU8g3GoYRmjm3Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA3kmiW0du3H_y9XlQWrUtwupHCWhPNBZ_il3bVe-vRgPcTrdho1sjXOOG275fdbL3ISFHCbXzIApF6mHDFuRoFKliQeSnHujqvmf2ICcid8xyMUC41rJNNl1JUNdgWK1bEhAMC69NK2iljgfzw2junuJPGhQt1sHSLymcjUJie4vB19nC8fH1Dg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAe9HoHn1s0JDc8oqqeGsKnzljNZIxH18fzVENFAuVTCUC9s3T8mKNQyVv-W1ZnTCDYEyd81kEXMAU-6TY_Dd9SMmY1CpIPBo1C9vKpSemTWj-UNQRzlSvTTLtL0epbK87EhAl1wGJJ6mi5U5cDv5sssitGhTD45ks8TwhJ9TyH4A3dc355m4z6w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAtQhG1ppwR24vIEzrn9qLudPJNXcSukX3l5BasP_cdGs6kLSeoZKeZF7pkv2jssiBmT3bYeg6dj6-gqS4QvgVTaJWJuw0J3F3wn3nlwS_paL5aOPunRqvFArhSYQzB6NvEhAoxO00uvN0yVCOoIjEjoR7GhTEgrMye1RLaxxFKSFCQZ-raAVwDQ",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

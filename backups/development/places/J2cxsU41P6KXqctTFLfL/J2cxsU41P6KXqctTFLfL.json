@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 2:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 19.349457,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.7209882,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAG5VUP5xFR689cUJWopyleOH11boWvt42IBovNCmVirTlibwShChSMyS02ooV26p5u6FnBiJe9SGUr1MAAnCkjvpuU7wh9XKhT64Z4kpwwX20_SJooeysGLwLHWpL-xPdEhBMb23KczdPnY20JZIiM-usGhQCedySya4-9A5UDT6YshqFpc1LGA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAoMT_DSR8HD9sjQnJCvscKfcUY5MZngzBsRHP99TbLctGolt0MoDtK7cpkQLZerYdCb0yt0KPfrNiROOVZNtgbiggGcZ-8a4DHayI40YgG7TLbDO2WsrrWYafCN8BtKcREhDXOeId4Khfz7aDxapIuzwmGhQNl6VTRskAXXfSQ2eevpAdivraBg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAmHFbYwXUURd_-PJLIxtE4FUUMqYNMZ55uQh1tqp2G_5VuDUeREk0seLclMc3aF6ydQvN_rfHV4h7LrEa-be0OUVvUllO9xF8XsnsNGaDNLmU3EvKztbUGBQKbmvhU10XEhBZugYaNmjQ09yR9diQ0YUhGhSYAHrrylvMYMxejthWb2032EhN3g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA7OGiPVWfGsQZ16GPQxyJkZhB1RjKlB9VWlolt6FJvu6SHGKxNKM_H0WiAh90D-SCqlbIY7roAnINL0WFk424EKNTfLdtkSs8b8glOCCgOx0oDyCXxULlGrdl8wmZoxxPEhAIPfnI-BxD3ke5-dmQnLaIGhQvKUsiz1tYDfdk5BAKrMHUW-PxWQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAf-vcm-51HQVoEBPlft6zyHNe97RMh2G8dcJI3nUVY2NCAsfWgrhSLdepfHq13E-vhQMRlv5YjRNQvYVl9BrC3aw0oTWTTXj-p5Ojvf8X0b3eoPeK1THLvOZWUbFXyQPPEhBvulqMVXvvIm5I7hM_gCSsGhTAGZAvA_MUjPG0udblACdPVmgQTg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA-aFcqUiAUy47ZP7gHyQ17aeqi0F7L6IUDTmO2indRfMe8ugZo0gD0ENJvc847RoFmJbvMFiWf7En5ezdiRXi8XsbqZQVKaE5NZI6vMc6XSeM-PvtorOS2RYjyy91tnH_EhAANJdGPJeej7pPdv0EFTksGhTD7zU42wvk97QKHDX4-iiKyD5wPQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAFiapQxGrII9pd9IoJptml0B29mIFvOaWsc2pIo4zfFiJuVKdqrLpjmKeqn1qWPTH1CcGe5l4nNGMYYnlNKJsUmaMGdgA6v60ZIIm6KAEZJnFYYG4wwWgUdH3A2fIooIBEhCgy17tRBxY_mRUkRrMvkqoGhTsNVzBtUPkIuxfIRZeh6mcpnu0wg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAllzw_DnMKh-TFPTANuj4ggcuqE9ABwy3V7TJAkYqtUI7O7NpqQ7wc_GwmlrHVBtJkG-5dqzW83cbDC3q9uSdtYWTXo2p4FtWSac-4ylxBUCy4inkuirgxYCA-LsnKJ_FEhCDY6HH1XoN9B0LDyADSjCbGhTG3lx6PSNKu-F1jGkZ79RVZIkPKA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAJc7k_Yx97xsjRAi_DUCDbMi-PneZQFGAPj4alw2n3GeaxDiZ7senbC9DVuvT27MCRNR3_kN6aw4mw8vnyA0cXAhRQwhr5-jtDw_jCNRuOJHlD-jJOnKUG1LN7bsyvnGaEhBXtJnMWziIQrn1pe45eySVGhQz6qpQy7TNtkY1MivJ-L1k4LQfTA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAcyBiuFU6JSBRpvy75KDyDLLGcD5NotQMvCVtrpfmndOA7xIeDGgMYu15cfxn7in46qkrVXc_FtG6YmtpAsWzpknGKsiHBjfzo4KU7GaqOnnT9S4vw0Qk9i0M_Q2JiJCeEhDyeGh5Ny1G4or3VBcF3vPMGhQ1EW-600W_FcICtW1DbC3j2xT6Zw",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.uniwines.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Louwshoek Voorsorg Road, Rawsonville, 6845, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "023 349 1110",
+    "type": "string"
+  },
+  "name": {
+    "value": "uniWines Vineyards",
+    "type": "string"
+  }
+}

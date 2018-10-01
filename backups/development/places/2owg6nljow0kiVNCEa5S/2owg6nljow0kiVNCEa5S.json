@@ -1,0 +1,109 @@
+{
+  "name": {
+    "value": "Kanonkop Wine Estate",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 1:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.8551851,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.8601279,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAtqoQyr8GwLCTCP87fXwFymRcI8ogN3C-hng7QiX4a0-AQPcHZDxX3XRIKmKUgGh5a8CDvdEgBzHanYNIS1qGWq_BK-7Kh6fMR7G92ad3cjwvGj2J6x8ChNZW1c-aPbGHEhAfZQmwZuZ0K0Ife2tV0Pl7GhS4RuSw4DjzYu4hM5yhqL81k2t_iQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAXWSBg43bs9eNUdmbYLsVs98yiBzrXzvv1AP_7m2NLNEv1HmZNwYKfynxljYO47knNU8rHtJQT5iH5mUd0SMHjnYxf72F4jhHTv6IQ1J7TZGskLbg2U4NEUFfyQYa6fXSEhDg4KT-Nkv75jLAv2uN_jvYGhSJrCB7mIjwpiCWno61KkPlYv-p7Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAARrVjVji2akZCvbsYoAUS6aCF4839Wyws0tAN_GXALjAdWLbd2XW3N4zVA1ymbywLKqbjlxQeZp3DXV_E3r9R1lv8CBWiMf68xUnI1To_g6igeBgEW9zj6LuUHhI_h_D_EhBbEvJRAZMEOHMbTIRctxM4GhQkC2o29rRuOJ1brOWxjcp1yqgmxQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAALsZDqUfuegT7U1nXAoa1b_xkzljVBipDLztnsJL5-ZfOIFPAsaNzH_DoAk8nYf-YARnGHWLz-zC7M4SgIwtOa-s5enppWb7NO-YTaoqjQFdAmcQ-4yX1anHFWe4LQsA3EhASB0iaOK7H92NbI0tBxF7jGhScePzqn3oMaekI9grqbTYNorci-A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAALWwJHEChdQNWD_ieTECvF_jjONaB8OkfVEUrNVytYd7b1sEwi2s-4la5WJrCVYUZIf9iv-2eWbTEY_yAzKXz_GGE-jKNlz8nSS_sacrKuS1CS2cutvbCYOBW_Cy68YHYEhDphGiQRNJSLHR36gzJ1QFyGhRCl88lpnfzcJRHdBVqIfyYV0Wwpw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAwmDL0Vc0M6FgW7FUc_ubrAISo6MWqhkVJXLB6ibm1cetbs7GpimqSr_OvFecioFS8MGK_bR5Av8_eVNX85kdNgYgskkJhgC-uCyJ0CcnvEqWmpKKxaiAMFJcbQBe1VflEhAbgLqS4yzx0TZXDtl1NniqGhRPbwHY-iqpdIjFuCC3ygAmL8_9hQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAeU6y1ZjQSBdVIwoImhmUvTTDCDOjdX_Orn1vEVe97Y9FU0tX4qt5NeZJ-X7WhBB0-kM9OS0ObaV5t9qCF3szLbQM-LSofaoWJjuGaJQya7cyKU4LBCw14GAvZFjgc1onEhB_Sl1l4QD2CU2HDC5S1TjOGhQokPF3sAkyFugQND6Sm4WrG4clrg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAXq17A1Mubo8ETWxvZAAbgDuHf105JHwFK0THmGZ2np1jbDpc4MiVPj_4JCihgzCYwbvdhpI9GvGMfcHZJQsLC28HM81Xe5bECIqDiNQAVWgEg9KjiX2HJqBEeABJ6ErWEhAoztE6OmIEePeG1rkcYVECGhTRVn4K56Un8KlMuyqOY03EogmOcQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAYbvV1fMNL3RU4yZKBE8b1cp6peEwzqtBwLeXcgIYIDBJDqA3spg_B05GfKi3aj7eEeCrMewjEPKX1jq2Dd60ikZ-umPUMRdwEGDyrPaLLVSRW27YWsrW23DqX1q4GGfgEhACaMh-QGjPmBVxHPq84MVPGhSjRp6uieQsxEiUibaunF86glf5Dg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAACfn5i2vIVdc8aOzsGcq42MQiI2S89jXOBKStLs9T2Ph6k8iaLNijONYmZ6rHt6OFfViClrA_k6UsSmnCY7cGG7DPnjGPhYSL5HPFkmm8B0trJf9Eaf2UbICY5R3q4rYSEhAPKsJKVczwl1BltjvxT_o-GhTol7lKQsF9TNJweDsywxlQkKJb_Q",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.kanonkop.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "R44, Stellenbosch Central, Stellenbosch, 7607, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 884 4656",
+    "type": "string"
+  }
+}

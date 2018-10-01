@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 10:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 10:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 10:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 10:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 10:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 10:00 AM – 6:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -34.075346,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.4216474,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAX4nJBYUvvUVMY2Y-M4sOI8i-EGo11xvxxh3NEuNTQQ8B04t8bFlNIh-pzQ5x4knCj6rVTwLi_4uoON3Kt6mBsZOq0PRemLkHspEMUBmPlngEJnD2jWF1D9HNkXRaed7yEhAbBq3cgWJZAC969-MOg6xUGhSinbOK57Tl2vu0gyYEL_MDYBCAtw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA0qPLEyTVsHdrSKvGOM8g-XgrmEnx7fBtPF38Kfd0pEAT3xdrC4e6gLqahw158ybzj5KAvmyZ5ylyj56yLkFoqywivB4dRBAKDmumLOAY_65l2ev5Fu3niGeqapAqYAclEhCqJZ-9qVHxZW4j7rQSipzdGhRsjeY-b_yZRH7bpxlRB_vYICuSNg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAUET6m-bcNw23HwZ9tkpOpr_qn0zFkmfte_12UGGybX_lMETjJ-GDsSADTdbg4lTCJv4vJsyaqyKJG8d4MlTabQzyU1WBETKTUEMaTfOb6wyEHjwEQWrrh49bCnii_XA0EhBOatchM0Fc1NA_LFECuttUGhTCBuxV8ARZ09DRANWEQVcC53XgPQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAX0SD6WdRHADDf84c8MolU6ZYQ2M109K-Ek_sIRuvAZz8-AfMCsc213nctECza2PbP8D1M6FMXXKg96_oZJkNtZORB6zbZnyACtX2UbuyIQXS1hlj6an80UPpUbDlJAgEEhDyIrLtv7s_wqJr_wRdN6fsGhTi59cBvRmaoGVCORGiLkaSI4lmYQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA7IDtfo4gOKdQkFWpS45O6FNonsfuva9Bi4fv222fyzszcJmNiLaPJVy1jqxvMTrCALM7oX18Rxfv0EmaLdLOSEZDDVfOsofVM90Ma6NsmfEKlQNmcq1ZjfomuWk0VCw-EhA_Nk-3ia7ib3FSEIBHFqyoGhSNIP0ppDqngJbR-UpH0d3w-CX93g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAF2fbdC20A8b_0vLHvIBkeYWgHQSOr7AZY5f_iOLpkHwpD4_X8n3-wudSGHjk3IxopYBI3vQ5MymOihLBN-wnMHu4V6f56YREqNpvV1kwEnnbv8IjpfX7QStO3EWNjHtYEhDJZ_EOEbJ5tGv3pSCvqPSPGhSHVCCzBjfU_EeafgUZfYZ18ZwdSg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAIcsH69Onrrr-mp2t5s6zftRLx0GnnW4jXbzHhMMg3xzKLycFR_wwNbcGq8ODJwGiDl2Szjb7E8Yre4SxBa8EPo6Rws9YxI-TI1KrL05EgjxNaskBWU8yyI335kxCyQrSEhBMsnkJ-vH-LKKWQwLy0njpGhQ2ATL_cug0AUb9YeeBaorYNIdVVg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAALjWRaoDRpq_qG8oxNAa2Qekc3OjNrHjxl03ZQWAyHWdHXa9AuCwEEfIQhdDFQiKtVpalNPBrGplT-gQjJaJ_eSUat58k0Wx5bqgHCtFmCDxqDx_0sv42GvlRBF3_PM88EhB-WQbn6vlefBx9GtUhdtOHGhTwb6vhQYeD79Ezv6sjdLeLcWLCpg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAjoI452UgvFM4EgwvRUBYB38irSdop3VPplNi2NORNFnpj4oy4nKRhR9AAAq0pkY8pw1hg5LV2S5-qEMmPk-KHx_neBQPjm69Ad43y8rAHfIFaNakF1FCPBJSQeRjpLYlEhBuyCvgsQqRmG-KAvVSco3aGhSyp08tBkqwCxURZ20ZAAqIPmTDUA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA2ODzGIrevhULx2Ke7JykdpFofz4pp5PoVu4mw1XhZuE0rI8L1TS9ql0U1_4-Dt_IJldOhsd5aHQeNFV6UI5ccUHI5wcjxyHbGCH3eLaCr2IZtniccszJMWtaZlUEgIplEhCC9zZnYEaaMGoLaGlX4jXxGhQoXOSypHYIKgGzCYADzYi4INEd-w",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.steenbergfarm.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Steenberg Rd, Tokai, Cape Town, 7945, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 713 2211",
+    "type": "string"
+  },
+  "name": {
+    "value": "Steenberg Vineyards",
+    "type": "string"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "name": {
+    "value": "Mitre's Edge Boutique Winery",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 18.876009,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.829866,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAImQLJvhcHC4M3l6VMHEx-eqPpVjmbnwER_6kDyQfDe7sKMvUtx-8DhhzaY_2JOnh2kNz4sTy9kbhruZGxTmOFe1pcRYERhgQX2SILd-p-HjpUwz7NLnZkDohxP6DNcmLEhCO7vFSsI51OqKIjPCd8_OdGhT061Diqk0P1pv4lzN66S7vSqJewg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAvstDfw4FgBuAkNwlfYzEA921m2EYOXXvTC8E7udHil87ektsBgKS2hMSRSZQ7OS7AXRSbzuHuzFN4eUCCkj9mWILuHxPxYNAlce4S1NMkXs3uprVW8dBNAGtULHSwrKZEhBKglc3i5yLzrjpxUWAhtf6GhQacPrb_XFnwsUgbPadPchNViUkPw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA-Ra1QSP9MyBy_zwXblV7cbxhbJYyRbFSlZGmKdwV9zlYny58PmdsgikA245pYWqi5j0n_1bRc7nFS8qJX-GN3Wvium9-RsHVuFGhQhr40sE5TI9k2rg32ZtZqkyvfUBPEhBMfB756Ba2ZNq-idSR7xxNGhR04Qvxdm-wkGUeazb9Ib6M0QtRDg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAzBzFSnvRtv5LUb49AubnMLzk-wicK7VRazx-hBQ4krCWURrIsYceJArQumwuHK2SAiXlv2wv0Z868LwXHHIkX13mkey5QWI8fds7Mk7Kq1vk-AqtDvzYIY8DMwqRzdL0EhBZnAX1zhTifFZuHBMzTyJNGhSnKrkACT0qaCJtJ5Jf0XNxXjvztg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA5dXulPiOiI78OjYD4hSbFzlkVN-ITyI5SrnGeBQfzbdm2utrx6hDAkFBlMNsEDa5_U2veMzbbVMLjyt_XSKp57fDMKS-KqsnCUBCRQ3hTQonczIdKfQgYKQVQrXY53CyEhDXWlLZRi2uxFZ2SEad6OnKGhSfU8RK3feLbntb3tCY6-N1nDuQVA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAd2XamZEq1DSbPc4IdD_DWWERClPrr1mINrgSYTbYSJYUotCouoJiDB2xKGKIg-QSKulLVGCdSA9C0f-rilvG7UTrOzjG4Wd90VivIYl9Mv_oY6ByEbDII4B8Qg86O05dEhCuO_0wRIngITQEnPLnOixmGhRbwGoRhs4Oxt7Mjt5D9akAxdTyKg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA11tX22w7mW-fHCd5X-3yc4ZAMZQJ78Ogyf9-ysSTeNYNvIoa3elHRhYTgA-yHUckad38Vd8U1oiQiICA1G4RWH3v31sKe-FhnPQPkqdfGx7yF5xGGjX6l3eJvQ03x1sFEhAymVQGRJt24PgVKRQpNI8eGhRmhn_biEhL8h58MH1UQnPjYu2CVg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAz75-PD7yBL5UPc4Gjv2CXbA-IXbXgQzOqd0iH-BKXpWHYFXcSyKoyf4mlDxQBeH8HNtsUYmdGArc5AYDYsNja719PJ5YJH4v5ekgkl0OShI2IF6PUYsxi03g17OYve89EhCO6Z4Lh0-0W5wtlwJMfesKGhT944RI93ATHrR828X1Zluh4Ns2zQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA3E8PzE6RUruPHDGwfPnvbQ-aYuVB3RE6pts5c5NeEA9tsyNy3xKZxSs7IY7_-5JdJyKuHWeFHdQfdOpQmYzmEdTXQweJ6WMBLkUTSBAZb25ThVFyyqmxUFC89pSQMeYTEhCgh-Dp13lBl-xPGWyLlNejGhR2Q7wvlOgPx-ATsp6xk5IgCJds7A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA9ZM--VzAnRePNXtL6W883KwNRnCqHhZB-sqXDyl3zkhbzhLpOKrmVs8T14EebiibSt6ulEe0E1d31MQD20F4U54DPfDsWrb9deUgTbpzkvkl8vNjTRUXoboWLA44kvxNEhCqqiXPEc7QAMn20rzOzoPdGhRHbnd2-Q8eCbkDBAaaRHMC2f8HSw",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.mitres-edge.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "R44, Klapmuts, Stellenbosch, 7625, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 875 5960",
+    "type": "string"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "website": {
+    "value": "http://www.bartinney.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "5 Bird St, Stellenbosch, Cape Town, 7600, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "076 348 5374",
+    "type": "string"
+  },
+  "name": {
+    "value": "Bartinney Wine & Champagne Bar",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 11:30 AM – 9:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 11:30 AM – 9:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 11:30 AM – 9:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 11:30 AM – 9:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 11:30 AM – 9:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 11:30 AM – 9:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.9384444,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.860347,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAVtmDcwJuEnmSjn8BrYqqN6as2cUHpCKBZsuY30gO_aWHLRxhqEh36aRR9r9qCBj5BPpAYoSkmn9Fouu1f4xk2fFEyo9GO0xGwUMIuYAVE_iTYwPkUNJsA3zCm6V6KaKQEhBdYym5cAO07U9hgMIV-uVzGhT5uK1Cz3jATKpTQRp6lzuvnNaYOA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAvYCA2yUx3Vp9s316H13YbD4u7_aKYeZIwQaupM19MhWWKOtO7YUhdU21gExggThgiRjmdDM1biBT1zByEeGO6uxaG7Sgkn-QYUyTdU_B-oALySiy88MzUwe0EcZhuFFFEhCnqRME7av7lXkZcNn-Knx1GhRtHX-tpmfnlj20sGWQqg08HB7nlQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAI2WWieoH5pS5nDtIPGhT6jUOKCQsjKgvbZVLnSZCa48_JK58K7H8p75GH3fmZNTpDk3p2gj0l0JTt5Ryx_GlAaBgsH3nTmy1_5hppmuVm6MVrTJo0CEH0Nh_l4WVZePCEhDN_I-2COrtgjz2UP2wGOrZGhSESnT5de438wMR8LyjdQSdlklxmg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAV5Mk4pzBNok-o6UZv-Q5Qla-cfBXnDuTE-Qt9-KN8H2zbfWcYzGU56vqNA8VF4qx1020Z9kW9R6t4MoSIqDeiHDM6ksF5tUWEkdDB_wYiAdVRUYdjLtxjCEQgNrsBoZ5EhAkml5DZn_Ky5bnycDezhkPGhSICLo0GLMjqd7iO1AlldUp7sALtQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAgFM30FBa9TOhw1sVD7kaxHdlQCrh6VvaJhYtxh3ou6-lQeCcHnNmpj2WEPbPRau1mMF2K0BgUv5pnueYTr3T3-9OG6rMuUXABX5q7UzbFQhEGJQMv_4O_jUF-x_xGvDcEhDtwp-4fw3U4DhbpwxsLsDTGhQ2m1mu9z9V50EAD3_Yo4cYLGMK2g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAcnn8DzHVm4tYQ8YlZSB_bR-KDK35MySNv_dwlCxRtuvs7yFuGrxiII2uRUv6TeksMbeV1wQCBqy3pGn2inqgmwv1ovA2gZ0Y_Qg9fPTsRXwVqSesKz_GGPF5W9pVScOJEhC2qsb3RVfZuE87gSxy6UcnGhRbbJOWXfPIIvgx1m7qHWwowIRcSQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAeHDjY1YZufLQO4oqhj7nCTnn81cOQ9bsTizy4XWDQTDppxEvOQfiMzGsYWMS6RlWKko5k1euKPQxMHc4Q4sMqRjFn-815f4S0VqAblLUC2zGkrBNbRWn3qDGUOEiI02iEhCNtClruefX9IRVxPaMqHTuGhT9m9zqlxF7wqatRd0lhBwNropfFw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAe8HD3VR7KuTDQvuAaUUbW5tBkp-TspbHyvSQaehzHtsGBKKIdqnwRegXBAuB7LLdFbU3H21cxwLAEWL78cAfZ11d5C-c_2aTLVMiyKccyrRFgPqGuIIW-kGcr4-RPckoEhCVqB_XgHf7WEikp4NQcMuEGhT9jN4SibUtMNXfoXF7PS7qtp257g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAhlnxcajvZu00Fs0rH_rZNO-jN4s8VPKiWKMXnfkmOiAvH2qJNbujhQTqb7igNxIt2WnyRVyy7-Fo-GUjUf4B4yxjuNlo4O6Kui-iXJJJlrTct6VTv7CrUrGafWE7bhBTEhB6OUHAY1XIR6U02dK4r8kyGhRfl5AS-SPkDm7CyLr4AFgZWUCDVg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA7EdXwGIO2McT57y2dt4bipXcSTFYeESVGXTkx5HvB9DJjQuwwrnE3fHlS--RUJrq7JFjgVPPYSRz_zE-N6FVD53zYR_kWMYLx6z5JCOeCwj2dhKZ71gBOXT6rDhg1IQ9EhBuvAo0SIn7ALXYnVeIzXYZGhSLKUNXPVBIkiwyTFJpQoiugY-VMw",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 2:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.3381866,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.848726,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAo0-NewyIy0j7mCWKYPul4cBkQlUYeEHFc6a9MDnIcr7YbfLXhdhTrjCbstDQKDSn7A6Do2dH2ttUIWzymNxMBm5RBqYOL9czrYG4t_Rn5B8yBtPNUUKoyXr__ZCyuCsSEhCEvEqEx1mgHSb2rL3VJ3sRGhRMcj-Fc93QYdPu47oU3bBNY9S2Cw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA-gCUNVG3XNlYWk1-lWhn-_0YLQaW_LuZUtHHiW6huPgavQkagsr1W3HIQJ50xLT9ZtbPt0cfKDR1KWqLE_F9JtPMi9NKN66vh1shdPEc2nkMHUjBNTlb8NGtxsuuwHk2EhDTECMZwioHbI31CAQxbGfoGhS5puGdScWXXGvOaM1giw3a1sWBig",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAABnG8LrYVAz6_KOkSxUX-Krb2YN2YPLBbY5_3Rt-wd4fRYvw1thThLurVypOX_9RCHJR1IE2POT1vtYre1_0OFSaiPeOrnvc3nFAYC2opyUEaU61fJ6ZHToGXGBIDeyYTEhAdBVRjG1mQlH_FVnC2ooWpGhRxpuVtQyyAvqgHTKejiV1icTrwfA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAKwHmZ_iUQlZSMIeQML-Ec12o1Cw-eaN7DAF0AOL8VB2M3b7uHlDzldM2A4Vwo9f3g0V7yU7caxMnWMlrzZNEhH3vJBUxJ0G5cSXQuppCZPHoUFaHCKGpz4tP6n91vx9WEhBV-TeNe0kX541Ye4njaIimGhT_vUvooI9P1dKLMtvbEYdawjqiHw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAt1VVPSPGjLscriK6zcvpSM4Agw0HM6H_3NwRDrm2qI0BQ_DaAO2NMkV9Uv19phj-sdKiQYo7fYja9_N3gbeq62Iaq7uASyfTuipwgQsW61oeDfhC339rfr8wYRR5QpYEEhAvHkcj9704XI_2yYrCt2EOGhRbsUcjX9dQIFinU8JNdJ47yn7pYQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAMmAs9noEUQuMYUesPraCJnXZLD0fu1sjNPtcVc1fDgQ3wNnQGvx7_TjasXE8jWw1Q0wn5OAbppDbEyWbc5td7zxps3vUzRcLJq5Za5GaE0ByVkgUIh-mx59mSggIm6SZEhDYvEc6QydhYpZqaZBrbvhDGhQcAcMEh_-ju2esTaKQdESqdH-w-w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAK3U_qQ0bPPXAVolpTEhu5CH3qjYiTwt31lhoXN0b8zhPOzwswOOM9JnrzB8fwDSitplUZ4dU9V4f8qsuxhIKxPmk0EDXqI800nCiKqb1v_J0e-1w0qHP-ENFf1Z1e4yEEhAJ6OxVQELiBknZ8jN-258GGhToG1tee7WjRDiXkBkyXhdSRJeRDQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAEJ7v0Bbau0vrvDBQG4Nj0F0NR5VfBj_y5xAhnwx8iAKfsWDiEBdlFKUPoJ4Y1bTXzjkcNyy7UbVaXX6TuXIhR9FkhBuu1ec5n_2IIa1GBMVSFTIshprKXaU1Xj0G6J0SEhDFfB4cSHcfV4oft1AguH4HGhSZotqpj1wB6JRzbqbwNH-uVgLVNQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAQ_HG-pmvxSmzIJVNf-SXfx5C-NpGe1BX9eIKNFdgQW-WKXUcCUSiW98b2isLzJ5vH0g7daveUGXcIcRSUPxKrmJMgC-A34nXhYI5yMARHCuI_DpCDLMFlabkzIqRwYhEEhAh0IIsk3FhwBYhYfG3nZzWGhQnQgNsXvvKHpNSHa1F1WjHORtwsQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAdD1a8PdB6_mYHwd6qSv88fqTYpAY4tXORN9OriPRt-cxHK1pokR2bAYo53yaoQSv_cYcJosZyXs8etbhTj51yWFAS8ZHnObLqQFYD8hSY2k_OPF6_mlFdW_XXyeRaWLUEhC12HO1EfIreUmZr9JKtfawGhQCTW3jJNOOHSsMGWUEctxynlwLEg",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.pulpitrock.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "022 461 2025",
+    "type": "string"
+  },
+  "name": {
+    "value": "Pulpit Rock Wine",
+    "type": "string"
+  }
+}

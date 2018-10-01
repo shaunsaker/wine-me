@@ -1,0 +1,109 @@
+{
+  "website": {
+    "value": "http://www.dombeya.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Annandale Rd, Stellenbosch NU, Stellenbosch, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 881 3895",
+    "type": "string"
+  },
+  "name": {
+    "value": "Haskell Vineyards - Dombeya Wines",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 8:30 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 8:30 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 8:30 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 8:30 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -34.004417,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.860282,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAsmRII7N2MXsq1vws7d7CW3ekN8nbXJ3rOzz2I12jAQlwAb71HY_beg6cmJUIUsMLV8m9gX0_kKIxjLx4tyGoLIa1HSATFQ-A4iyE7rLyCc6KUNLm5OQQ5bGuU3qmnZqYEhDik1J01mlZ5D_jgrWon8DxGhSUk0jpXTzOVUMy5WdhReSGpMfgVQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAP0BOUaxWQ_B7gnTCiA8yzg0qe1wj06Mt_-5ORVTNvb9CzgaZLtaO3O2b6-EiEgxTN7i43YVVP5pFE7JHK3VMpxWEKFMuSEvjPRKQtmXGG9h8wDCStrf9NQrDY4QvciH6EhBfzPtO51FP2uOjJNEOAVVNGhSyW49xO-gUAeFnAM_J2f1dSpFTCQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAADwfNnNgJCsGG_xGPa1ofjHA9xp7k-_C6a7eGzSOHVBqOJ17lPzwaXJMUgsu-w-9WBHMiaf8qEw6qSX_RlIEGWu3OrH6WHjX0Usgun1d6nYz9D76oCafXXYfS5xr8OeVWEhD-fFr7guP-cyJ8yYSti3JwGhTaArDKzoNICLBsGe99bQRVpeH3_g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAM0ZZK3aYJszJRmgOg_d8YIxVtQJTQlxMglYhdWibzXEBTDea3AWzxKYwkIMhNgwf63a-MS-QC5FTEYm_XxAQRqQpm_Z6T_l-UVIlBU3PLNBzty_jilss82iMe0O9jevkEhCIMEXrE0ml0W2fApuqwT7NGhQmTVJ8rxipE3jKc0VFKnqQLVYLkQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAV5HlcJIQsCBhTkFHUSyO28dLo65pHQZvoewXF1P3PtoxrFGWZDIEgZudDYTtJ-wLH_A_IsN75HVnXPJLbiBIr0ulCrqGBhN1rDutA5On2OThEvweVLUwqqGm4GqEOEFzEhB1LBNuB4hpqY93ne_p1aK8GhR3jTiEjX1-pil4R5Yk0BUjFwCg-w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAtRyDE3GAhloXy5scY5wletq8L3_gpmXv6EizHDHcRKFqtR1RIZi1D8hKckOfwlALXvHE8Gz_uSGoyMIc11f14Ua2xRULOegM9rW2-yLzWkQwJy34VtT2dXRM_DGpffkrEhApO35fgSGlv1WidHAj3qc3GhS_yMMLG-pr6JiRlgcpycy5JfQAlQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAVGKV7dC_bDVJUksfjEKQbHnBpBg1hUI3JlNytiKjMPWnJNPRFGLorsbYOHmAw9YoWekrD2_7VG3jBBG9J0xBR7PrKQ6XRtmYTR8ATNO2fR-mDYB0iGSTk4Es6erIvU_dEhCikSFv9Konf3btqku9AgMLGhS37zodnU1poy-ZxKu7gSwoGm9Nlg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAOsPEJwtBvo7UpjVz4hsyPO-fNmHVeuq0IToHH_gtn1Zu8ibhLOerB3E_lf9qpNL2iaoi1OZbTQy2bKjlZsg6pOM_x0ZM1mALqD_S07VCRZzwZL_IEjieEpPng7VjJcHgEhBBp4Z8u7QWeH7YFpHVxNrLGhRACs2xpocSmCB4gcovh1nOldGOoQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA63_bOfuDEdnTDaGaPvXMM4tbE2caB7hLzL96RFPPoO8ygDrndWetPXrcjuTMJRQEfivahzRlpc0mzAmqZM_cFwQDmG5rnrfF_in2bLOuwU47C7XJLLGImPbGHEdlpOizEhDLkmHlJkQq7nNptMaYfb9aGhTtlWny3ZYt25fXjBfGUnJvJeMIhA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAKIcGRTjqafkq2HZWuXbLGeXIHrzB1QGyt59qTbjIK8mORLxU8ABWQJUmne7C1nBwUJgclUGyb7Ba_qP-2CKF9nulC6B7m9_JF-4sxq302D23EkhSNeGgcSEa-llMHtggEhBTIeHR79ukmZ7Twuckrr62GhRs7TWdXBreOKfdK3yTpiWPGi-zag",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "name": {
+    "value": "Allee Bleue",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 8:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 8:00 AM – 4:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.8587106,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.9862744,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAA75Van0nTgTfNgaUrP75hQd6bsAOo8doCBr_DkeRSsVbbFp25UL1yxJ0xpSApaj17x0X4nDRzbkZJ2DC6YjL4FGb-2Qy0u6AeXr4lRPRfo3L5PFucBHVsEiOrUexSALjdEhDSYzOv_BSCPd3KEbu_sENdGhRLf0vQno8fyc0lE4lCcxvNhKDxdQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAyOvRHmebYwlb9a29jAa96NnHFDAo4fsGHMviyFUg-SdSkHMoJAatwoFiFev_zHwo_CSStjZ1zezS44jNFbvnR3IkeCvcq2kt1Yr6dJv4jPgP9QhjIaZ-CBUA9Dfmsl7OEhA357UQIZA2KUl0De5-e0T-GhQ_vUs2pUTdBf39nGe0GL-HOVxUvQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA-oABlgzMjWlI_PQmp4AVtjMKyXVx3QveygtPukM7zqAprFHiYpW9TeZiUZkMm5LG2w2IFs5fXeqOzWzDv-BXFFxXkHr7k9lXgSIA54NBjFwHUw-_LHOjMwh39-iHVjMKEhCtf1JUUa3ojijhZ_l5-GX5GhQhI-g9Yoz20bZF2wK-ymy0J34heg",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.alleebleue.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Stellenbosch, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 847 1021",
+    "type": "string"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "location": {
+    "value": {
+      "lng": {
+        "value": 18.8612878,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.893421,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAf0X0Fho-IdgMiVsElr4obGTWJTrSYgM0nIKBaGnX7GwbXUupb9SmSZg3r1nBjpZ15feOHYL_R_MPoDcIfo1oHvfn1QcZKFJk5xwywW_1AaWvRVKQih-QK1N-ytxuVjnFEhBi9qPYmH7UWYARKSKM7rJxGhSG9qrhin_tlOJSSJsH_8xBBshcaw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAwBnLWa6PY7Db03QTeVl1lmej2cwX3_U2pq9JJyq7-SwkLaXZIbkg_y3yyd2nxOTJz2nYCFaXLrobthzsuhBQkTOpb0s_xAhDrtZ0zFd1P0G0p3aKUw3lVP0X3F6FX5sIEhCdMwylV8L-65GJzjsUskW7GhT5aXIWQuilf3bAqfARMTTMnHKU1g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAVWqCzJB3MRebTKwhjEodAgKpLfuiQHm_T4GZB-ZfKOmqns4gkRVJn6jW7elTw91u7dyPA6mV4wx-rD6T71Ys-65F7HIHJ72haCGOAsX6ngJAd9oWM6sktPvF6W8VxrbKEhCHxRz0Zehjoe31TCScWNAjGhTXNxtvWcmKfhqptbQQjQuBui6XYQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAtDwtCL37I6TXW4j5MLkl8qURYpU1oKQYdyjqjktJLJYOyLjlFN7EmxhrQ1Thu6G0iG-SJa71MNEsPp5-a-0fuJIrFI8ytsvQdb0ItjsiU57o39q42FWbduMRh_lugtcNEhAoym79jnbb8fwwzgzzLwU-GhRIHGJ9mfr6wZ-zxwAEmWIWMJcltw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA_xCwHhUs0rOut4p0krnK_oEv0Za0B9PmACK9v8v5EXNBiolKX7jlzE9k_PZvWv_6YzgLdz2S_Qg0FCIk7ejVI54_8go1YjEMqL-MoF06G8Z8S6BEy1rOOzpmVkfQC8oWEhD9YrpSnF3BtD5AH2zelzHpGhQQHKn8ob8pF_i5J03sxB_jT28M0Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAuA0-Fl4l1TjdIIPkdEtmUewzy2yeWPRhgewSD8IZqn5gnWOZy_CSFuUHn7O407ZhaKBSerFiHjz0Xn4Lv7MXnkRLFHCuvLb195A2mbSyEEVhfs3A-4_3pFThYkS5fcqbEhDvIXkvZ33TI5E5h-h2571bGhTNNyWmmLn57v0CHZakrJ7cesFqlw",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.morgenhof.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Klapmuts Road, R44, Stellenbosch, Western Cape, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 889 2000",
+    "type": "string"
+  },
+  "name": {
+    "value": "Morgenhof Wine Estate",
+    "type": "string"
+  }
+}

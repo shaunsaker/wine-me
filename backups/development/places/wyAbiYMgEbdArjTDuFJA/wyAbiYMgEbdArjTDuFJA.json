@@ -1,0 +1,109 @@
+{
+  "name": {
+    "value": "Fort Simon Wine Estate",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 2:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.9196075,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.7551309,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAg0ld929Qc-2TI6PhFsFcH38rj4nrih8QR2ep4JGN4CS_6ANVsccKP78GiahpHHBjwV-a5kP1DhRmMWo2igfCBwM_XSiTM44WmmM8ft-lCEy44c6wfY7nndCvjvnVLTsLEhBmoj6NDIeECtBXmZm_OtKuGhQy4G6pRGa2NcUJhVflzRSTuwKlXA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAfzovdQoJVLXaEXMDDia1KuDJLxYRQPWQ2FyJKOE8C6ZqbTY8MijRnd3_zoLU9isX--_wCJydsOEw4ebDwm7AGnG8ZsSNJ7Buh2DE9gV-M-Bfk9rR1FZ0ul1TsYcKY0T8EhA6DqgDEgydtWEh5Tcgva98GhQH7n90gCY-SOXp_jiKETG1Va4mrA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAABGau4fyL6vdVTHhS7XyFJm2Rph09ZKoi_IxZf8qNuVIdn29fQSIgq1zxM8zEC0-uKqpp8IRG5yRkXefw1HwlDK9JbsRnhEJ5hTdZ2Uer2OTHuiOoOYf6ji0lU_Sv_YgpEhCdDV6WDbdLC4fZgffEfz5KGhTlCZyzMlb_dv7_F1b9RNClYIRbNA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAApCRUUxbbs8JZgE6fuR2-hxgDHzuS1j6buW7yClowGwFv-c-WxckPT8GdCw1wxnRabNtG9-Qp5f2JvNKLnt8gfgw_NE1Wq2gOEIvtOkVL4qDare2-b8VTXdV2ocKzNKwBEhAHp0R0t0UbyPlvbPg71R-jGhTFd2qUDhSefYWi82rXM4hdtrwHPA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAX7yvSAsCtV6VK8PGDg0dBJpxaFx3Kd-6R2kbrjzDIVN7oueHS8P9gJCje87Rb0UBV4K6ApLBMozZRQBioHLJXwoVw-Gis3gZYV8drdEJ7t-w0lGnq2z4MC4FUNAz45EjEhCFeSw7TXcKElutpmEFtDBcGhRbj6ReLKDIH3Qpcox_g7_OMFQdHA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA6RBu3Yl_8j6cQrTwtfALv_rtI33ABEvVeqmAfGvQDFXxL7TitMx00TcWeSU8Td0CEGtdhd7j7OrwKTovV80ctz1lE87EcNHF-t3Dd4rCz61MLkbE93-PlaT0XbkrrTh8EhDYs4W0F03IJu--Yn8k3vP3GhSCT9f5j-w_jw6MDXq2mX2xcj_uFQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAJHn50sMbdqE1Zn6LAGY7Mipnk_QM3JvOu8oQrJHhajQztOVO0kvnWLH98XQSBPoGYbbVHFyUyAmTICfHbD4tBBpSPgGA4NEDuADf7QkLuwUFmTX5Af0qVOb6DAdVzqihEhBBXC8gVV3CPNfNpyKOCIaVGhTW4fWLZwb40NN9ERZrbYYEdybxAw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAANNAesTAjEfgyMFDBa2MklYxt7YDCqKWXzlNKPqHYp2z9K38gek9Gc3RPWyoB2DqNoRs1LptmhPZCR0g4fOGPVdZVKwjCiq7ZlHV_HUmfDDfeu-vpSJWpPFeoTObQwwngEhBo3GREZbAeQfJaHQCcjANSGhQNvtjkj0DUDkVKm-PdumPKM4P2XQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA0QZQ2zQ9E3vxSPH6qhJ3UMlt7QOWWnj6FmDpTDLDPK1xEtY2W0DYS7B_RESfs4ck8Dq9KBWrb5e2RJD57Vmn7g63l7eo-JVWifk35fEjT11SfC-ib3XA9eYpk044BHXuEhBBGnzlLnviHWl5jtY6Rb41GhSLvCE7s_rTa6T16nA3J6dfTcRJfQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAgdx4FH1xAyNyecbLxWS5iZ5xLu3txRxvoGbbvUF7UFFCSEuc6fCuy8rzfvvLn7m2wcb9wu6ddusKORYLj6H1oEs5xase7ycWyYlJymjVCPiICwyr6WogaUnj71Iez1aJEhBZFf26f0oyBlueP88PgoAsGhS5rc3atXNER-5T3gksMZYYYWg7Sw",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.fortsimon.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Fisher Road, Stellenbosch, Cape Town, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 906 0304",
+    "type": "string"
+  }
+}

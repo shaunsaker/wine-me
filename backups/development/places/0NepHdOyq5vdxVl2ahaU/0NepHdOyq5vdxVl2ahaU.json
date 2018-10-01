@@ -1,0 +1,109 @@
+{
+  "website": {
+    "value": "http://www.dunstone.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Bovlei Rd, Wellington, 7655, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 864 1504",
+    "type": "string"
+  },
+  "name": {
+    "value": "Dunstone Country Estate",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 8:00 AM – 10:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 8:00 AM – 10:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 8:00 AM – 10:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 8:00 AM – 10:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 8:00 AM – 10:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 8:00 AM – 10:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 8:00 AM – 4:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.633949,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.059697,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAFV-JRMy5JnF1vjlFBO40vLN8pVRAnIjEks6P-lxikmEfcc26e0GHnTjcIqUTCrFVV_qMYlfpJDqg_VmU3889jVjIdexCPzWUqpeeeSwQsYftOK2PtSlZ0CM5MAp3r4JQEhAQ1SJ8ul8PCzxA7EvA0JRzGhT7yjUzWLNIr3SyWIpzTxdjX9jv_Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAATkJjQpB-qNptmNiu83C4WsG4_Zc1M6bPSmFIxa0gzDebRgyDMLgguhHVakPLGQ8-Igw5H9dylRq3kQQm9BYebESPGe-liO9ngfnJCU9kwMJBAlI1ScdwI94uFgPAwaM2EhAPYPNXDMoTbvhagGTg-A5bGhQ8MYzEBj4_NZyeeBkWUKEfQ8dvJg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA_mV58QWLbAu_LNF9ri7jLHntQV9B1HrCJGIsZPthzNCDLcLkTR2gqK2z6Nzr8-wyufd3Mq2XGA68oS8We9hGBgdJ6O0-N3D2FNOmtExRwDMDIjw-X-Hdsfuw7_mUERU1EhDazSs99TfPls3oHMWDJC1zGhTFNXRJTMIaPgThndLWc1t1MQ6IOg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAMSkljyeGPJZyiRCbpFHsdJvIYtuHXyFoo3YKKVARVGm3Egf5QBoPkt08b6eFfBd0A1bar_x5tr7RXtYdWNhQul4Qn8v_JQ90a_N0FRWTyLqU0KX_dei7_OZxOvZB6yvSEhAVVjEu3dAatjzLpwO2xxi7GhSO0ytvEzvkTA0j9wzfeRdadfReNA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAkQHsEE3i-fDmOShYMWW82euJLlu9feV_sNQ81UNUOPwEMc8MXNLOEEsNZgMvfB8EtCWDZSnSPAwtmhGSx0oyqSPtbrcn5v1zy_2BVgNOtzg_zw2q0HN0NIbiiAolOYF6EhBnk2CJnLCAHCBBUEqNrhpCGhQKq940YKjbnMKFuz8CDDG7jl9QVA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAu-paBRMP4nHZIdCEbkZfh7fEA_4MFO4T4CcmrG8mwHp6RQgSbw2qA1zg8iweBnGRUMCtEF83C0bId_SVLa93_a4DinOCXju0Q2ZjDrS_zk_gbbQhhJ8-1JdDcxf3LHHdEhDztK4myIIYXd2Bm_vhY283GhQI8gRMDpfOJ4ifVVD_x0HxzufdZA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA_Em4Gu74SCdS27hd1EQQizlTt_quKcUqmAU3rRiemahGWpzm320V16pDExtuXeT7QTJW06kT4edIA59D9jJj0RPAxF7uzxqxcyrcvxS3eBBWwkRYu6_Dov_WfSSTwCMdEhDUt7biUudpNtgmzuWAooJAGhRGG8AaHDvPHuwZDO9_uCSrEbK5wA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAQtSX79oi5lnzsZ3jaz02VGMWC3vQTmhglZYDu_pJMxkBUgeFtyNJoOKoNDY1xZvl7AJDCO0HjS9_k7ynOCaJY_V9iDsDXRSX3-tubsJcqUSb6s5ZTnCEbhcxD8mnJlmREhDR6AANIgaklglkpSV2CJcXGhTuUS9dUXK2pyNPmKP3JRcUYaxrTA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAQgrQLfsixAgo4dRg8VWA5gND_McAAJ3F_l8Wb5D5DM8vs5BwxwaJpPfBvFmwlsMxJHRoYO5etZUp4S74VkVVaMAbRi-3zNmVS-v2RvHKA1V2_rX6VbF9AOfvHC9SA0XYEhAdl85-Lttr-SDNEeTBKUiaGhQcy5o5p5OGhKiPu0lP5yfJDxz-6A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAe7dXbAdRFhjNpn5dbXgbAsYC5o8KfNKnkmy3_Tt963NC3L9fto7AH1FHTLoppXsWJZsq4Np79XUJTVI95l3Tjz73qlsJRkeib5v5dnFNqJx6PMnyInlWgIfs1tvsSGBYEhAXyAhI55Ui5GixlGXhJrThGhSReED7MM8u4-tWtu6VuQE_lARyOA",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

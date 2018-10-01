@@ -1,0 +1,109 @@
+{
+  "name": {
+    "value": "Sumaridge Wine Estate",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 11:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 11:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 11:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 11:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 11:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 11:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 11:00 AM – 5:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -34.367191,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.255214,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAMlLPr0V1lRj5Z2acRwdZ4iC5a6Ch1qx0aZN-aL8Ev6p4-nCTXhhC2pwbyi6hqN-_oGI1_K6shZv07mTcpaQxcDmo3de7-TPw4C08oD7VoH4sq0XX7mzx-nPqzCKYSFrZEhBkXE44QN3O0Xe7xLTdweRqGhQTyMW-Sn_r2DGB6hM2oSYTN8wTAQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAEj1iNcNHe325-7k2tSguXFrPUZPeo_n81K_koYdSePOiVgtwzV0aIzRt2yVwGoqQl4EH1ixNv2WgkhJZtp9D2xE5eqNfcJTHI5jtYenTMNX2d-S31lM-zH9cxyhOcMn8EhBKIb5zRhDnWgtYlxtTwM0VGhQVJFwUjJPAIZPTGmccVVxJbcq7sQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAo1gDljpW4Rs5yIpYBX-_bxyf4rxsedtUwUg2dA6Yz4uietAE8Y0VLvlker4kjkRxz7Q_nv2bhvY6SdS4lxzrCZNPtWmF2WYXRrVSvWUXfdYNh_5fQQEb3u9YX_XKeu3jEhBJi0UW4rMqWaX7W5Lj8eLcGhQvZ4cDLRWdxWFvF6ybtFNWo7bE5A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA15XxG26NntFvVvHSZDTeb6MwaRAxZcw9GfnUcR4d1v9aeARmx6TS5smLemTEwvS2F1zrqs_8hA0c-6a-IqyTsse3NDPUGFFWZAeB8Yyu_y5n81lBJEe8Lt1UuqJPxMxREhA_h_MwCzZjGS9Oz7HiDN3kGhQwE18gAMLZbBWrhfDf8SfashGdbw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA89z_injXUtnjrSmk3kCkhi6EOU5zyxe0HG9RS30daamg7XJ6amiO0FivUJFlK1IFhNhXsIRq2DUZHCK8RnmIFwGLInCHXJfPBdddRdQk7IaXRPtJr6qcnC9Gjd2PgJZ8EhCe1jYOjtryYwOx6ABJVb58GhQhtmBuZp2ilppuzDScdLfdQtkmhQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAhCo7JvVxFLu2aBvgTDITYkp6Jgk-GoQRsjd8d-87njHLGS9e1OOF5gx34aMZ87Wk8KfxR91ruLlZpAOARAfQ-R6mfBDaqJa2op7OHCxefsSf79wqaHjKJnWx6_FLGXC7EhAokR-JDu4PIVzUZ3-GfGZ-GhS3aH2NTNYX7WqdqbnSwwGFDGqbBw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAdemjnKAN7KG4gN5ihuL4e0lQyBkwm-0qb3xCyjVpmT1WfKjDI6K-gUQ94n_N-sEh32ApOQggxQ8vA9dx1Z7QD5JLLCsy5eEULXq0A9OuvTYp6BTjkqvoIawgt7G_92UbEhAwNPfyr7MI5gvMPBnTHiM2GhQ37uvz2u6xmRttT6QYSC6uZj0NyA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAc5Qx_LmIm5WkQSMepXDq8mHUenNcQu1_BGXbSgIDarZ-vY3HCMEK2MXI-Jz4C_LUOsxQ_1SibQaFAWiYtmQ-ewmqyvl8T0nhFmIdFTuqkBP5JZixpn1UKiWrEh2_ZmitEhAUS8RFS-rSePCuNCWKX2n2GhTyKsq-gnrpTOaXypTUe-YqFm4VCA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAApTlckO51lprPz_IfbXJutpeBfESDAJanWEsOOOoNxxiBL8EjQKrqQVWwE7fmg2AOwqFlEuXDNeAiKhfad9QrqpeMoBHCD_Y9SjG5mZwZtyKujC1LawWdjQ8CnB2gVEXFEhCY_jYWZqojlrsDMaajxPMiGhQBmzu5n-xAgNnlMZ0KLDRGnYqiiQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAs1aOhN1EL6EjHNLd6BqYZ_rFRcQ-RemKQXeyNfpTZjexo9V5_JiZhHZjJxtbFPD3QDUGMRsn1oTPyV7Yat1LZhPEEAeJv8NVQCO8xkec03rz4QvXiHwQh_mhCEh4crfQEhBF5-LS97hyWqXMrFfCL5D2GhSHfDIWEmoytwmaNYmEL77JSs7v6w",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.sumaridge.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Sumaridge, Hermanus, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "028 312 1097",
+    "type": "string"
+  }
+}

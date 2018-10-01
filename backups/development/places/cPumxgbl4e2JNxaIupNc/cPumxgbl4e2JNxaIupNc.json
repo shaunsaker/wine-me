@@ -1,0 +1,109 @@
+{
+  "name": {
+    "value": "Allee Bleue Wine Estate",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.8585585,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.9863504,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAzQ28XjBDcxCvvQkuCSOXGLnNGTTF1xeA7azwWX0ATiMMSsRVrD1O2risY3-tsZwb-xiuJOklmeiG_amVGlwT1jyhRh1XEAntcy53rdsmCEFDppGRgA4AlhqtFtYz_oLjEhDnsx1ySa_YqrYkBU972pkIGhScJm05v5JFAmOWFEa1fCLgALiDYA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAQabJGOnCFwsMFUzPB-SHAX_0uiffYyCyro7XQBYhAF65AWBpEsou_lJvSIe-js0dk6ahtuXM7bse3l_IXmZnKQCSC1d0pfHaWkrnO6o85zQl9CXUbWhJQE-ec3857NubEhDSqjel5QUb2IZZusA90VLdGhRK47KMJbdcn7KnTBlLCmNQpRwPwA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAqfp2jwLBvZfgZS0E18tSwcm3moppzlAY9L4_shd0Xhfij-y7LT_gTGxhy-a_-2aH_HxcPt5oZ3L1ugb6KO1km628Ll9egjgBEfRv9DxGMOVq2gerroqifbXEQWGLFigfEhC3MOh2Gk0ShXFLJJQUAxKOGhRY5MjUTE_SgzT_AanvEkDw1bF3MA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA1QY7u-KM9VMKzN02AOtHPkK5G6ts3Ds1ON__NN-vIvFPnvKeHSazx5hvokdAlb-E1MxatdVfqDuG_GBt-pLqAqi4R2VY0_fGPUYK9nufuQxqka4sXUYeoG59g05s00R9EhAiaQRotqYZTMt2_qd4-gyFGhReRlfN3wLWDtRqivNcWAYdvOgI1w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAjURmqIrEI8Ci1TsWAdNIolpxpBXsR53PeFnnY9qxhzUeBr3xukY3cLvcMVBCxSdiOIA5JcY1Qrsh6r1iNl3q75QxwRApmDB47TCsSAhC31OZVTttOIPY4bPza0Vq6qKgEhCWiSwZ2LGwwAr-xOfLsCD8GhTHtSUakl6_13gzybJon_A_XLQm-w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAlNw7PM25C4r7nnUDKZj9DnJ_5McwDRjpjU53gWbbOQXIXAN7_OcU5U36UAgCV_DidRtYi17J2XKKxTBkA18-K3lmTtT-fJhJLKDtJs6aWUAJdUvaXXR1nZ_6sylZKhNSEhDMC0skAIi74WJUUS-T6dh0GhS3JCBQyHYN038g-fvNJvdev35Zhw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA4NdRmq5pDfX_rh5y38oNc4l2JY5dmdmEjIQxWv8guWmFF_AYZRlVMVtBiEXe0nCthcDtaBnInKd09XJPOKmrM5KRIvgKcQ6KvyN_ayTGByMxLIBWPDmqouBKsMRlZ7HEEhCo2HwRa0Uw16NCopZgvlxTGhTv8vwTMJHSvk0n7OHKbdl77ez1ng",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA4IjjpnoAAs8zpWuQJ3Ry_72skT4PVr8Z-nlHCqM6MXEUcbyX3Pby-yHHEWDTHk30A6uGGoq5L7utX_KUfS7JA4RPD14hXZla6YGovuJnz5JWYc87U5EVrB-I-9T9dn-sEhAMNMuxLACcznJao0DJgq97GhSRBGSxfxdfnkeS-zF-rZ2fAOvX2g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAbp72xTdgXe-Cjt-cOdnigaKuY3iDtQQ3doheMhwB8wrpbEaENB7Gn7sgSmU8XwLTQ6KcssXfPLQuh5x2viNKyOnRPJgbz0GTZBv2IBLCHN1z3mOUmbee2vD1CvWBIaMqEhDISXBRnQQuhs8PWOpdpiTeGhRjbdPIp87bPKxsJzA1r4poQwi2yQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAdwlK8ieBGPEwA4G6NOrOi3fSGuUPU6YqRy8XABlaGQxWFV-nu29dK8odfziIr9uptkEDFBZHhDybQGGSIapHh8d-R1EL0NArGoFs21p0GnwOxrWQN-IjzZzmzEaDcR26EhBCw9E4Cn3y-pkxrXXUU76rGhRYtbSL0fGioL0_LHQyVjuGIU3arQ",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.alleebleue.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Intersection R 45 and R310, Groot Drakenstein, 7680, Western Cape, South Africa, 7680, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 874 1021",
+    "type": "string"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 5:00 PM, 6:30 – 10:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 5:00 PM, 6:30 – 10:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 5:00 PM, 6:30 – 10:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 5:00 PM, 6:30 – 10:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 9:00 AM – 5:00 PM, 6:30 – 10:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.9983327,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.8560216,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAY9nRglEeqymYYB5mYc21dyLyJHsACCLLMF5HOLctiFdhcLDEFqPuQQtNmo4eiQexGXn4nXpDlsMtZIhy52doJCwGPu7e_658VbWsFgy1kjuFWGfcoLOk2c_Igt6IBK7PEhDtQ95Y0q8cfCCl5y2G9zC5GhSxCmW35nREx6bX3B-MWgDlwJ1Qew",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAABV-8CR7goOYV_wAz779kIQGuGMUBpWiJMbkUVq5-xFkwwVW3YrRp8Az3Grimk2LUgbCES_omD1aUFUQAb5k7-MO0BV5339grDSznfew3pvPI0a78l_vKyvv_IF2EjqxHEhDWwie1Kh3zMtPzE-00oiAuGhT_pom5XucNMX6vpEW0MjSsrI28lw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA5QzSkeo1r2k6rWvtc7OfAWs92lERmQ8gdOOeZ1uqHF_mwwZWF28kpDOK-BhuFdGrln3dSTC-36wU9bucbEbxVq3Y69BqQ5TFMpuBQVM_dg9AL8w_keXFp8BLtWNSiPVMEhA5iRhumdDpuhOMZ4tdpyxAGhTh45amICX1je1tWFX88bzR3VO2jg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAMSW3nbdHhu3rzkwP0BkUf8yZtw4d-_psb42rm1YUZknWM4cOxrNQIv9oK6PmVc_THIb6RXjBmfxxOIY5U7rYSSSCVvwDW0Hek-_pBabD29oANOM7nM8_NTaIir2oJOYyEhD1bz1nZFtzWitKIyZi09mEGhTHcnGuMc6d2FSaqMBKK3TVJ5vMNA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAg3hGUqWDlGH-PXhDT90ln3I37zSTRYjFQhMj-Jud_0wZIGby05a7VkIY7VaB629DZTaCJKt9_Od09G4NPlmlhzd4rrikkTiMt4b8b9uNiunsMdrnDokj7R9uZ2_WEHKIEhD14pFHk7NR5ZX4XcGGqT_yGhRF1dfS73DKkjU8rJjmEa-NYOAorQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA3yFt7-YIZRNyaHMMQfl-KWZkbuTgEaQFAtj9txo6fdgYBCq9anvcKPOsu3Et5ctLWVDJJKFuHUP6CaroEeXITToobOuDapgeNWlV0ngA27CqZTOjOcC6X6Zn6_mHzT0VEhAkMRTGStnSTYH3aElDJzGMGhRGpyntNLPSFwYcOdOx2bVs0Htr3A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAs3Sn9BmMk0SbSexTUbR3cJ1dkB7y2HWYvCT-jOGv_QQoWIPODPs6TuCUg4tqv8coTJsRmKAetkDXTOFvl_19ObB_0wctk8R-JAfrazds4ZSEF5dSk22OHaxqoRCcnEhuEhAz_XjcDAj5ymc6a9P3KUPyGhRhMWHp1gikSPAZnJwxkGXUSdK_Sg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAfFEMbpdyqmxZ7Kr-6AHV7Jqb7sE-m_eu_fdQfkOVLOEGpcZqnqH-RSqmTRs2QX5cG0-er5CYqpyXDlZsGJ-lUH_7XsuPMRQ-nwm9pKZCWQpt8vseND_mFI5HvUS9iVd2EhAZ8QTf2eDvB2V8ZP0sDPwWGhQ_8MVZdP1K2kOSqrxDFXQB2Mhl-A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAjzOQ6WEkYKnv1f2DM1aDzTe3XV6vUPUh-z5vtcGpEkgmfb3x2hWCDiljKRN5jUs6dJkauq6olGrt1WcLrvcMc87nTTgbtNT0e0aw-g3goB7EqKb2s3l3fAPdOqiRpvXwEhB5Z6oSjjfTxI73qAezXJg6GhRh4G7b2YuQcf9-e4iLzPwgb66mIA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAOtqiU4dH70D8f1bF0HwndnMPtP4O8qChZ8FhjLMeXaKJuSqU4G3IJRlVeu2aURAw1p8NcbE-Ujh1uQTbxzXMtGwpSfCxj8glLrXWyEy3XpV2oAavbtC0gC3YsYUWLj3NEhCEwhNnXll9ksDkxddph3FGGhRGBo-vnJ_6lMuTN79re4gj8AxFyA",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.rustenvrede.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Rust en Vrede Rd, Stellenbosch, 7599, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 881 3881",
+    "type": "string"
+  },
+  "name": {
+    "value": "Rust en Vrede Wine Estate and Restaurant",
+    "type": "string"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "location": {
+    "value": {
+      "lng": {
+        "value": 18.7821798,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.9735508,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAA5U-Gj9M8xqRpRGEroLGXAhw1El3kIOCPopAKJ5bm2TLv3ODwoFOzhyptJYGr5D9hmS8L4BF_czBJM9UeTqxkymnTmV3n_8judhI_PueoibUufxO2M_yg6zSHuokZGMJcEhAhpc8Nq1m1Z6zt_5mMNZp3GhS9xgOtQQVdq0NRVGXGZWWQLpemdg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAkXekQA1_dZ5_3_F7uaYAruYmPE0Jrmw_CNg9tYqvlYSCrh7-i5if2j8ROMdpALEkaeAecMAspDtiQjvOIKo0Za01mWEDfRzmBAx6Y3K2r-FTICyTIlQrPbY35Wbzi16DEhBY_RwRV0lOyN8IENfNF1guGhQRcKPjGCxemi1nwuKXT29-cDtOxg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAARMmXKk0kafItPeYqAJDbcObU4nQUvmlFgSIE-rrJIqAEp6SenrHsWDIIfGtkSfMwMksAxiy2AmoVtfAX5wmavolBWeI0ZQji1ix2IUe3wKTghRCIa4MdUMgNMzMQfj8nEhDmfGaD3XgGWwW8Bctl1MpmGhQwj7mC6E-LhPqf6bAgczubLgFebQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAACv-liGfi4hkkMNnomMTyCNQvqodr8zpcRcRywD5gOXgN0jwTlAle86P8PXAA6wGUenpIk65ZU35uULj3Hjv727PRhri-4d62kIZQoXzJz3Dj1hABgT76-kQ5CLOU4iXEEhDGszbOhKYO3L1qRJu5V3rbGhQyXPoRTM-xJf5NER8aMMBUfn42GQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAq8VucBJvXdwM7xKHFgy1LoDCo-Q7908YlaGfdbgQpStEWWGjnAleMwyQpVc6C5bS6W-IDmv-TS-IPxWLe_y5huTxsCCd7pxaNtdIHEFHwF3bO0i3wVtK_I9fyuWpmoB8EhDe11h3IKhL6NmWipncwpdfGhR7jgmYasYNftIugOSTgp6_XwkTvA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA0587F29jPojcG8Ri_LRZ1tW7Pyjo9SvcfDSKH9yV-EbNAfiTxUhxbO2wSLFCjV0FbOjfgNF2JetuEcovyHCTd-CVarVbfZaq_cVL6c1HYOxhr9tL1zblRQEIbdlIbaSCEhAlzVEuWq4bYzFstfSXKyUoGhTGX1jsBalskrB3oQFEEZ7YBKKrzA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAlQ3cVJZLgLZMI1rQzUXvoSVRo59DI4x_7-WXAEGeGeXV5mPykOU9JteQEodo9yui9Y4O42S3y_gviSJxqM7qMCPc0Hl_BPmC1788_8Iw8oKtpJhX2ltSzkjMlqtnAftCEhB1hsATKaPW6uf08kZ5GBvxGhQ2TtG56ecDE8T0elb-BVICL2AUAg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAfVdnSUL_d5XB_P1V0f_bwzdsLlKyh5lyH5kuMeQnMJBBKunehfdwjQOurBH2wEMqJW0dseNAo9J0F5FqertPhYE_IA4GNMk_T9bSJK-zwDAqD4UCWl4YYi3lRyq8RGQuEhArEqebN81NmjvvoPygmO22GhRjIcQk9Er5iySHXXbSFBrD2jYX2A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAfinUS60vEUXWpSGsebX9PDGp301918UiRv3YuQHHxa6MWflc92u-tX5mHnbh6cDANEE9MpdyeY3XP9BskaeybMcfoiIxLXFlwcdU5KDTmAKEMRvagb1Oo8XQvjgg64KXEhACgNXWTRRa799GX8OH5npzGhQ2ilqOBI-849EnYxD1QcvPCFGE7g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAEZCaCYtZCRoZ3EjQMxrhl2B9hMUa5s2YlPY3pXsGmCooDaLu4Z4wZkUoyv9Nwqpjg5JyVrUZWpyBuT945uUtFgROttOCKnEPjb9tqLwpDO8mfxRYHyop8QPpk5AAazKFEhCSq_vpLsT4rcJjo0ClKgOjGhQTsU8I2wBChGt6SFVJNefda7uSoQ",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.spier.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "R310 Baden Powell Drive, Stellenbosch, 7603, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 809 1100",
+    "type": "string"
+  },
+  "name": {
+    "value": "Spier Wine Farm",
+    "type": "string"
+  }
+}

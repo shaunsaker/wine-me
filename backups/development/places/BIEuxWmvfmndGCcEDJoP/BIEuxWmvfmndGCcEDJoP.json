@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 8:30 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 8:30 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 8:30 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 8:30 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 8:30 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 2:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 10:00 AM – 1:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.2462597,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.1169341,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAsOOFA3Vvop32AFpO0OR1xBx6QGMRxA-qEBKPZV5QQ4xj0SRDhlp91cMgysTVKiVBARDGKnI7wKi_BphiUXEqaM7xIfpm0c7W-_5F-z4Fu7Vr-Rj8tronLZcXk7rji8PlEhBJW3BfpPVV6lh9Q5gKJ8ERGhQXz4sftGyvsypo5bL4Uu167H_yVw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAfIBz7Ncm9vMwV9CdoC-TE1ZXOPkwSzLcAAlX4Odvx4qXuxSG6OBBJkpI2CQvz3-hZv6-cjWQmldZrp6neEk2fm1z8Dns_DInf6wQFETZB89gNddEN-6j4YaigeQbSa51EhAIzWWVLc9fKjkzg4hC3XjwGhSIenGAZqfj3c1REqorq2FaPxGofA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA29X13hqmYYsJgdRbxs8MOZDTG22iSItK1ksfemW9f2tQlQyp40iwejwF_QG1TzzNi86AoaAFJ8lnaE6tY0FKDsU0H1_NARbvzdcDFWRB_K8v0qaNGSI-azsLaTr-qTUIEhDKFTFhp682CzESAR-oD1I_GhSh2s0zMAcpSAPGYK4v-b167jaNZw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAmSLFX9lcTPBr67QYtj20jVkK4OoglvQycfCZtYxy3_gY8pZkluxl1MYKAjd_pdmn2A9GxrfLpG6q761iogWjIkNIUBjlSloOweTZ6r6H5MwjBBdcP1g9fuEbbQq7yT24EhBFUc6in-dqGYwEQH77QonwGhQ9Y0OtlsQwqhTS9RrLehZ-4-kAug",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAnnEyD9SNwCPPalrnfMQUwUoV7JPIiWv9w3PAqStcuZ99x3rIbgHr8AJQhtFOA9mc4rKv9OPb9YZVwcwHn-fMQ6Pt2LxkObngKfRL183sgMeKh1Vt4LpHkP6dW5wXq5pMEhDRrM-g9UtoDXB84Ce2_2UrGhQ6mf1SIpZ43TCGHk_UmNJS66b3Vw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA4dm6Yaw30I4NHTtEJOPJ2Ct0GvaC6KVkI3Ez0zJoS228D27V79YU3eSwiWmK73YWuN2cdZcCBHeZ0-Os_9ZlxmSFlGTZ2BcLJHZ4gpy_HjOekUEdCO0BuiiGuKQAi-yuEhB2MNGuLwNRoWDGwp4NeirdGhQzqNuvFV_qkJr-P9cPCZ0ARs0sMw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAyiljVaUYsmea2K3IdEFdsfdUIewtjK-V0GlDqSeVirn9Xl-qxahYBe4s1Jf_sXbx5PJZqh2NkawiRazq5zYUczOgNTqi3rWOnPjy9dM_ObEXp269iQYoSM6s9l56Tkm8EhBnzIJs2a6iWoSCJiAVLQFuGhTRbLTa7i1EKF4L5w2dGasYEdImjA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAnytwNzBf11g6xDm42BX2t6aLy_TKLvSKBuFx5sA2Qp_wgZmAhT2r8S7ORxkZ1P-ZPIbJVf2KFpSrIdU4pVc6JJ9UqlkaZZ6TlUgb6qgKQIk9bQo6Qsnk78MNVMOqn_S7EhB97W5KaYQQUvIKBetjnIy9GhSkd2GlEaSsO1lxtaT32P5NfTE8uQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA1JGaM2ZI6B96IJVkcH1iTBB_KhXd_f2YKeSM-qudKXyoJfflVGyoUBMaxn6s_TvKXuak1rdZJGOVL6fhmuXBJMBvQKAZmGwzrjvKEXFsnLVF94N-d9yIanSm9eZTfQiCEhC4UxHFYFZimKDAO1eh4bXBGhSo6cUguwFuIB9j1Esbb2GSns8kww",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAzxYCVYMuDNo8g0ea5URtrMtWeIb4X41qMZXe2SNk9p8Rl6f6WcPkNlexytU94WxLqmBkfOcZKfoY2-f7e8oE2joC2bYpWmtf-YO1_6sV3SNq3v982QkQN37b5Ew9vMCkEhC7JKMKezVc4spz71sE0QlNGhSWb0VW-luk2mV6itFzzCoSMMZrQg",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://saronsberg.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Waveren Road, Tulbagh, 6820, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "023 230 0707",
+    "type": "string"
+  },
+  "name": {
+    "value": "Saronsberg Wine Cellar",
+    "type": "string"
+  }
+}

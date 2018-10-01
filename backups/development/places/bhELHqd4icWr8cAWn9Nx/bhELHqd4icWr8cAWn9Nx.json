@@ -1,0 +1,44 @@
+{
+  "address": {
+    "value": "Unnamed Road, South Africa",
+    "type": "string"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 19.631886,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.639148,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAA7uZyGDhjAFSCHOqc8_71LQkItEj4lFRUQCln-XMGCkTU6Bg7vQ-3axPcx-VKaO0cRNb7lB-iBkrmKjdZSaB970RnsZBbDNL6M9CpSd1ptjMhZGfULDS0_l1Lv3fcK7LeEhDu3BUTaWuMGgARstEZYtFXGhSdXmK6j_NMX9oQ87DJW1ynvEMAjA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAT2LVEEy8DLelmSKoDyliYEK66z53wMRzETxUSyGEDWkRRfvbFcyrOQT1NbteeZDtWeVc6q85XdyoMvyZ4_BV3o3zVQ-SGtxME4Ydb3z278JaruNwHT9vuTJSRq5dp866EhBpsyaW4c---ZCeSDC004duGhTm0ZydaLZAnlvaYfkBjz19H-Qkuw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA3Xs1p7B5IiitVmhCo-gSAnJCRgdhSgM7ZSAIo6dfX19IU-5bRzeHevehhXkwzh2eKggj2WVmRHMl6VZVOLrqZDcAVew3iFMiV2wPpc3K6nfXmQbv_Q2Ga5Q0fWUaOUHsEhAl7ImDyApR0sbrwEZDAspZGhStnh6yghlQg2uOEKSssVoj7u7WyQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAw2KTvW0PEiWsTOaxpNtVeU6wIZvGtK70O8ss68L8aHQZBEUjpPYnarOXd4fVKXni9HdayBOFdfIDQaGLkwz0i2o3ijE9wIcivLc7X3J4BlJEbYEW-5j0-Fwb-PLZnix1EhD8ZQ-ucUcYxa88RhjZIQlWGhSa9fAeGT3GkR4RoXOj1BfrWDM3yQ",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "name": {
+    "value": "Leipzig Winery",
+    "type": "string"
+  }
+}

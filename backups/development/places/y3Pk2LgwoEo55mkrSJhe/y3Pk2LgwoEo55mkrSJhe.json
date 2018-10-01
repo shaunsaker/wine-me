@@ -1,0 +1,60 @@
+{
+  "address": {
+    "value": "Worcester, South Africa",
+    "type": "string"
+  },
+  "website": {
+    "value": "http://www.nuywinery.co.za/",
+    "type": "string"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.65263469999999,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.6415538,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 9:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 9:00 AM – 4:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "name": {
+    "value": "Nuy Winery",
+    "type": "string"
+  }
+}

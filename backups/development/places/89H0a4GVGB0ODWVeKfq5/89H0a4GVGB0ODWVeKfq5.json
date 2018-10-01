@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.9430565,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.6449609,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAYTi2LiBKfgkxnRR1mjElXrLnn3LDT8rFZ3Hs-dof9tmsTny7e7-9JFMDHijukwe8_MzE0hXDai15socl06ihoTmLKRFkczg0WyYo9avbLJ_wTz2fq5tdYa9L2zpcC0tXEhDPlhioyEIdzqptOUMeQtUkGhRV_B2aF-GN-Nu0UkRuZs-_2HgglQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAALPoHX5OQuMyjBKZVC8g9FxMR6iuBsFlVOZ3mr04YqhCYFhCABdg2XYQp1yGfFfEwk-GeYoNLtBLZu8qspd980SZp00zM9RiDqTLts79Bg88vGrDG2CaA5l-h4cvDnqKREhAqUKufspPnQZZO9e1Mb6IOGhTqpcm6Rp-mpOEw4zP_UdEduhOe7g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAhiG2PdIQLOICZFxSJ6FoCpLi4VU35oqO1j5DhD18at4hAYl5vJoBd_xwt14PMfDxy8PC3hhuUpgftDe65fAXF4Gw3S5qOQarF0xmy9Cemq8b2mdhYoSrZT_6QsCNzvhqEhBmVxqN5kc-TKn2NhRJZMr8GhS1oy2xzmbZINL23BX5KVn0Q_CKfA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAKQDJNeZdIj6g9aG3orQgrvq-n0kwL2CXad6_E9Oqb-SxXXsHIeC-Fiie3WUP19uEBfyk0SSqIhUZIa8mDgEuodUchWwkMHhLEvrJAfpPehGkK1BG4M-ekhsilEye2ibCEhCmOGsjhHjlJP9X2yU92QT1GhTCSDBS10siwOe8gCs270cXiNCuPg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA7_O5U0fTseTkMhZrisNXr2Pa7Y8lYPm-j_rmHA9skOzjVRjT2dYh0YsWIbo5fBo7wG_bUEwN6OX8aLyUsTA9E-D4YOwIbHn1H7jLS3H4IQzcIO5rioJTmAwi--w6MxPjEhB1iAj6N09fyqaBDY6TLsrmGhSwNIfmAMRYqa1yAZDm6VrEqvHC0A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAuFHyHw-eo9ylGTx5ihNYgldWC3JNcKxTrAjNXOyGzLsU6_ump4zEi5Ks1ghB84mj44oLQu3e2QdEVdOaHP9LybBG4JhjlLBPebjc6s0PIuZ3vqrr3kmp81dkA4nmcLxDEhDPekLoBNQB9uro9t8iEEdjGhSU8IPDTBz2qVvWR1vaFDjynx0Juw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAqUZ5BoBe3tPQODp6LixsrvFnBgF5kTLTC-paG4iLbGgXW4ucccgyM5BDN7SBmaEfrs6SUCVfYgM5mLJFFjIm2VMbgGg6v6esZMZ8ud8AX9zygVVh1Gs3gp-p19w7QLHfEhB0pkAAN1WRQJ5k-IKXgiHXGhSwu7fCIiKeVDrMQNwoPjX0xx4nOQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAT85v4lWEHVePgFIVqpEby53yuw55nYkdOIATAGwdGy2yV04QpWXMwfpZI-x6-GRW5cgv1cJ2Gfc-26du7LL-koLU79o6_Yb2npVR2Tf54l67CzsUH6QUA8E_2vZ02eEnEhDOYREcqhOZJ4u2U5tnVBi4GhSDlWedJDV67bsC3VT_QEPudLUgiQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAioe8B40vrUe6S3D8LDOdzQCT4OJmyG7nUALzrVGufDVPIDQgqMKpYsLeWpy5l1SGQKHbbblEQko-7fG2jWbwWao4PB-mwNlKoNfaunnGmXdpmTi4JHWCVnPsTq3RZH8XEhARvF5FsegnVpnqztAvZDyWGhRhPG158D1RCub94Cq5fq1_aBubKg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAkfqePBz8zeV1f0CiKGH9-RrR5YdkdHy1YvnjVhXF8bz69bs36zfIYLgIEn4HnGMRX4KFZZgObcL7x-qNs_OE5ZYumjB5OS3HDbfUy9ewau7hklhe0HNNNjGjJzdactzUEhCpD-ErlJD5S4fotjsSVW-JGhQNeYwP0SbZXcfpdRvenbyZDgryng",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.windfallwine.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Retreat, Agterkliphoogte, Robertson, 6250, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "083 320 8473",
+    "type": "string"
+  },
+  "name": {
+    "value": "Windfall Wine Farm",
+    "type": "string"
+  }
+}

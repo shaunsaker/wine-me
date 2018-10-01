@@ -1,0 +1,109 @@
+{
+  "name": {
+    "value": "Pearl Mountain Wine Farm",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 11:30 AM – 9:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 11:30 AM – 9:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 11:30 AM – 9:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 11:30 AM – 9:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 11:30 AM – 9:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 11:30 AM – 4:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.7049146,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.9524889,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAa0NLM4raeW949aUjZo4FDb0E3E1mTxNq1YCgMeh6gOQ118J2jpBMiWAeOpwmjqnUMS4oj7kIgGZ6rI-ry7BQByKCWrkNfKQNQZEqhY0DP8GGafNKe4Nr6-AgEiDiLeycEhAYPa7YbETlcwIs2tBV56_lGhQKVmXKJ0bT3RjkZM3MNbrazvaROQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAUv7gy6Cs9ZT1woIVbMZnq3dfpWsmB4ON6WIy61fx9pEE-NRqCbAkgqFsnM-2hPKqsxCMUCq-Fcpi4B_KtapI7SAyYZ6HMuvVggSyIMUtBCvXd7n0-zsbcssBxi31G4X-EhA27hbbY2D-OP1qfvHJpKSZGhT0m2_GxGEMwPN4qgNA7uKTDHSV8w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAuuo2qJ41MVQs6FgAg2BGTT6EyWgHCe4Qz7o031-ex705iwNIA0B6i2U1ryjWIpyNql9IOEJpQoueWiJEYoJEjwv8t5YrWG_MiSvlTvKeheCDiHAFGfIP18q9YlzVhWsUEhAO98RiN-QxpPh3XDEAKoIxGhR58Nrn8yO2ugF9k36Ff0F86H2j3A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAYpGmGMuF9ybNr7K6Ji4wL_S7jGkO1gFFxg5iEknTy3e4v7SvhKuaiDhZKLnQNS0KZtSbv63KF-CkynCbCJuvZ1fi_szp95lhNmZ9-UwlVm34YDchvWJ1lIhOh0Ocfv_xEhACSLFIUCdB-zXyXtcIMZAyGhSzqSDB_N197jetE8VlSQTFOnGgbA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAVmoh4BlrPhqNuZ1aGiRCc-55MSojBakVSiWjCygMTyIJr39O7XeyTpxwSJUpoLWWiDyEQ3WVrrkYPiyZcS37EZ5We0wd_Jn8eRSLnM-tH871GqJ7ldfZP1hHZ1wgKE84EhCrBzhz_feYOBdtLQ3ZVKXTGhTB7pdF_H1MMcMScYTD5GkY-yK12g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAnK1AEYMq3pM7paoywN04kippTx6NZZSGJ6OQAHtmcCAPn8FQBOn__Z5aBHGW-XI_aNlzB_k00RR4yqmt_LO47JfU-adhvrJpygPUNxIJ8MtrNz3-eyzTspFFPbTduXRMEhAAP2Ml1vz6fT70fJIAuGKUGhTnUMvdErTeEB6ixuwTmxx4j0sp0g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA0MkuB3TKY3Zt5zCVhuJZp3v8o_up3bf1feH1Xaij33DW_nCmce7qyqOdswKkSSbL5lWDk06-VFzkUKvimsicDP9E0E4dCSnXtIYMrk3MkIiUIIIo2cHomxwgQymaxzQiEhAAve0ru5tq8lAMwp0PN-DWGhSSfWUoXhLmPi8Q_Nu5ZasgQtLS5w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA7C5KobJfPAmlUk6P4QjZCo8xRvcAC18gQ7LG6TCBLgByZvhkGw4Myb_i95wdvv2G4xirtbwjzN_6hhlZ4LQQ88giDsAz5XxBZe8Zwu-KrBaNl2Ixaii5NKYg_kto3milEhCsbdKIFwjO1uVJKji9bHMMGhQVN3ntzvgOdHP7Dzis3HDYFkXQiw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAuWP_90-DFVsImx_xxmkk_ruwt9ImBDHi2RS14RhHbXHdwFreMuzy-6jtvXm_Qp0B7HJiEJjj-63Z4Ks4HgE87SEdSk-wp7hWoI3ujf19rXfUd7T9LltIlN-FRqU3IapcEhBudCjAmjdLDOSzQdEe0ryYGhQaltm86utW2rrBV3Nv5_4wAePdcw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA3pfJZ8ToCelIRynZyUfyxSPPI_lmeV1MkgAVT2BHuvYWt85fNKt47oB6EKZfNtfzSb6w4yr_HroZKtdmAv3GkR-pUjmx3jBr9OGNV2gDm6kqqLxsGXQKFAdb-_RX5yo6EhD33nY6-uKJdcsP0UEFUMIcGhSpY1nlX0HmoAmNV70pb8AiyXof2w",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://pearlmountain.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "15 Bo Lang St, Paarl, 7646, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 870 1550",
+    "type": "string"
+  }
+}

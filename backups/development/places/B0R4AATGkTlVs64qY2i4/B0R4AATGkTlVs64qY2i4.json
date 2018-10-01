@@ -1,0 +1,76 @@
+{
+  "name": {
+    "value": "Cavalli Wine Estate",
+    "type": "string"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -34.0095861,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.8091141,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAxOLzclR1HDv_482E2L1m1vuF-1DJjQPk36XpUgtVTKsdynLpXsqwctZd_MVN1t0XbGMsHcJsRHA7UX70SzprIe89P7EJ1j-gPvbDj7X_DQOgWlcihQ8yClIP30kTttqEEhDR4UKmZyEricpNd2b7G7ZPGhS4kH7WkP_qvvGc9pHmhcL_9KNhvg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAALPUgC-emw9YwBYC57o1hJDka5_P50ezB-ex_g1ZOdneu8XcHOqUGCRWrXrkvAsp5Ft4hK2hYdkvhqUvRnagEUTVUTej2vH3W5gW0NZBjAEbWFtw5sW300RWA_b7UuURIEhCvKKpCOBltUwxLKtpfjQwbGhS8Zr-WoJFdnKP9onX9pgXddwnEOA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAwWDpkYiCFeGcPekKsUYvNnMqEgRGxh6P_ATaLztESttPNWKNo9J0-eDbmNzl2OFSoujoBDa59pBGQHpgpcAx0oV3AyWyoPLr3A8K8HQDFvWz4kCqYXnfwlhIJbjLM-0fEhDvrz-nav9Kl5u-RUxJYCbDGhQhO3V95ypQ--WzQMgKXwS-ommAOA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAg3Mx1T9ZBNcf7RrzU45vHMWLg7LMilEau68ha5JB2hJ-zvPzFlusA-lYuebYs0h4NZF4_jChDdjq2uRsc7H5wf3hTXLh8XnyP8j3r-FoumPdRo9djlpUjGPkdbIFDPaaEhDMoYRgBkmz5a-ColqRw1niGhQ_-RA_8LkL88Gf0xMD7ekCnHw-gA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAAgjiHalsD4SHYIMiM_92PDudClESh1iw3M_5uUy9VwU9zRsKBMb57eHTTme2qVzV8MSCRJVCBEi9mRRnQpbMyqJzaKPgkz-74STug5XJ3Vh6xSeYtuglg3ZFuXPq3mqmEhBC0XWob4pfNKk2tWhTcjNvGhTBOpjDn0nyif-GNmmpLI0JBj5mLw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA9cM1qKl1GknwMiesC3Y4RkxP_x3lGUtn7H-J4CKKfA4VBCrjJjM592PcSaTDV4mSIF9ehQqDkGSsp32_F10jitHuUANevegwd3TZkp2NM1eTeGFlm1plL0TgBr9-0_YqEhA9TUjB4X2Dikv2XjTyuxKOGhRsijQU13TJydsuopmts0wM4iq5Yw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA20I1ZWVB5rbZCysGVNcj09cV9JW-iPon_NhrCg4Q8UVWRhj1Cr0mCfScu49llr2KxbPNoLhr6xTtyWIEUDNsrr12cid1AwM_wL2VIOua037luje1VTUNWilvYvslzFIwEhAb6azdDp1O-qQa5up18jeKGhQMS7NDcwSxOVhYvwU4HbH-eqNvoQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAm0usyOPMYaiVvkHOm-xcAmN90L5nOvttTtKek2SA1lNlHdWbalL4nUARU70faS_mrqXkqU-6uR8r_cbOeASj4Hd2iKw2Bo56ogp0dd6R1QDiZG-Gp0kXaaD1luaL8gn7EhAaxvormgYq4uzIxp7BWkzlGhRFETgM3NWo0C8ZYKdrd4I9cAxhEQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAe1gqe7n3uz9eecNWG1g8dJiSormaFXvhp92dP77u2csZCND6mRH5siFg7g8vzoplAhXf5UVr0T_5EMwNWvxxyf8ywoNBLnl5HH-zAguSHbQ60MK9tGayXHH9HGYbbZW4EhBJTrOr1t_fi10ofEnCRTvmGhSR-1O8o5nq0XpEOWplUzRhqSSvtA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAeY9NMod_tpolZBFsEE21JdABAQWMo_rsu1OVFOxdy9HtESIXWi-Hj3mYDU-OIJtAobybxHM83kBYKxjVC6TM8WR7eKgDhRKs8aIL7AOaqbr6JDY20P36ZbnJT4Wr7TvKEhCMLrZhPi_hAgmHVKx40CBmGhTQLQhbca5CkSZSusj9drRU2c27pg",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.cavallistud.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Stellenbosch, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 855 3218",
+    "type": "string"
+  }
+}

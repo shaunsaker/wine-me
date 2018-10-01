@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 8:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 8:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 8:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 8:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 9:30 AM – 2:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.7967894,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.6707051,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAAOCCkz8tsFIbPR98_JIa_cdJN6HN_TxrhJAS0q-Jcyhg3Zc8_rb53BmMWbMsC0O570fMJ0OYErtlOgJSuzYvikxH4X9nZzMBT4IS3vTsBlub2eDMm7JkQs-QgSAPlJ6HEhB262U9P0WRjmLy0wvPT0xbGhTcgs4Ynk4WxNrn61ESAWBOBQe2bQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAFRQ6V1jskzo0fvhF_eUu8pFAfIiqegQ86X1-goDVSfkEi2h7aEkcOdLOeJCcMeYv8OIi5v9TEcGLE3aBCsmuOcCzkvxoGRnNZPAIDuufl_0S0L6Tm4yF3gZ_s8x2kUusEhDSxQvW13WxzmtaTODEJXguGhRMaaXFsZDXf1ZjCF-dlVhJhro2FQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAADqngIeGMGzNfg9voSsnlMAiPToadNw4YIv7OWHNtW1louEhK2CzAh_J3GILfUsHeAewLOkkfhCPUi59WPvMxG7g8LSOEISt4_9asGtwRIyNhV1wxqsIbUnYYt47rG2rUEhBJx1mGO6HPi7acb_aEdP7RGhRJBRJE-3ZOfTOC9H37ySxZM4gonQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAKuCHP5PmOkhroChkQ1YiCZgKxpQReZFwVtXQKunZkE97vSrFHSkFg_rYQdKPcOKBrJ2LnkK9vXrq209dVioW9-RxvB4uqwR0YPS4P7DojrY8infF6NmUPAyyzw-_-tw8EhCFFFsjZwAJbMqFJYmmMrNNGhSavDOmB0Da-ploecFtD0k8QSqdkg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA95-F_A5R7Do6H6q863Ts0KX3wq9NRVoHfzQagCLHFrpTtq8NWsbJsV-nM2xtPoViKVo9VCmxQdI6y14MhlsyD6I432yhI0Xc_SAY39lvaGDka4cQOQetfcN3Vt4WLp4EEhCINc9Pf6ng_18TZIAG7sn4GhQ0DHxMRc2Vj2u6qAC97f4nelPA4g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA-Jc3h1fCG8Bx_pBZZ0dzQW83mLPQOJlDABIKj7J2JvolQXI8tv1RjDY7gzUrE84qTJsbKcIJixFHp0owNOClPi9XmIU64bR-FI1npB1lq6foXjxsHgFO01NGkKa1rga2EhC7YHSGO-l2PD5CJpcBRT0wGhS4OSJmZ2ovh94lOMsqXTztEYb80A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA0FVocbdAjt_lIc5xbRsz-wbSot9k_7f1OqmlKokyUBY7DY6Hm5xL1mWsdGkLyG1YcML5cG5kgQI1gnq4jl_zI5q2rB8wu3PhcDwjjNeMi5JM62xvP5IBxRap-zqKDDqVEhBhcRVySdpJFFMQi8IJ3JhFGhRhDICnIv7s7xcBFdl50a4ZvZXx5Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA1cO1eN86DuzHwFb5sD3jiF8Sp1KBnNgkITzKgGQNMHQd0Y8PBpMTSR5URQYgfB6PdAuIdWtSFtaEEZlmH4j-xwvttEpQzolxKU7EbTEFpdCZzceXxrsGpSarm73v2GQ-EhBceKWYeOXlM3gz4Le92h2xGhRQNvV70SWTnF5av3GeL8-pvOat4Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAbUlIMiWgcY_F6vVuhHjuqpqqDRc3bGMy1tYMba9T64RvCEsUgQMFBSAo4wGz_f0UN8BvgqaMHlybYzC7eeL0HaWExpHT1qm9uUMcdLIelWr0u2eRT2VAefZc0h21nnRDEhAgB2I_Jza9gXxjZffi0hPyGhRl0uRaiqfBMDL8xq7vSqpw82Rj1Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA656r5q_r5u3hRIbuG9hnl4RZRy46oYsfb5cUGQghQCMSczdIZCBGOr0mCvJuG5etcInrxM6hno-l16sOJqod9TwI0xl8e7lpIAfyq6_9Fb4cSnlRHpUDHbaveDgd8GfFEhDYm5nfvSVEXIDkNZC8sccGGhSMohc4CDdXIacGMxpsOF7wVT1pVw",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.grootphesantekraal.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Cape Farms, Cape Town, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 825 0060",
+    "type": "string"
+  },
+  "name": {
+    "value": "Groot Phesantekraal Wines & Restaurant",
+    "type": "string"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 10:00 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 10:00 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 10:00 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 10:00 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 10:00 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.8351359,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.9514586,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAwQg-UeUuOvYPabmk8G4UqaFshnwPu-nFQz8CxNixFIEuilr7klvy34bHW8MS1KV4aTW2K5RBbN04VMeS100YHorcUdFGLXG0N0hqGTQxab5yDDLcAAVQyQz3JvyvduwKEhBjhHSCymRhcq8_CuuAoFmzGhT0Kulqw4V4Kz3i_SVIWfPTMNQQgw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAGPU7nUOq_fLdn_2OAp-QnHDTMcoJ97sppZ2ajrh_2jY2UR2pvW4VZt-xWZ9pX4Yl1OJXekqe09Oc1cMfpcOKDIIk5l8DccdOuGdihYPFHqJxDhQnUendEa64QZH-IrhVEhCZ2diaHAjvFTp4hz68V0TdGhTclL-wc6q93qi3iqP3nAUhpZCzgg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAtuzYngN6VMDXinfySTLnCqQWoL_8K_UkpKiUpVe7Bn8etPvy4Vps2LEOk2pTd-W94S5Q-2pUTSWb0dsHrelNgQ-uV1PrSuRzF5QgahwKrTdKhZ11YWbFqrNlYfwlkLNVEhCmFJvl2I4mef49WZLUTMjLGhSvYC2wtXuR5pPgDaacS4PkXKqZdQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAtpebb4s96OkIun0cqkEwkm-PSehNqLFUqGqQfOVKNNgrYv0sVcFiHE_oW4nn-4Tc7Hubw01iU_SWEHaZDn-tCSgk72O_2DZPzbwyhCUFKQ3kDYvMuI-lp-pRtmY790hrEhC06T8gEbF3jXeS-N4ZhxryGhQurweqQ1bXMAyzpu9RUP6ZuJiaFg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAgJUjAbEaIAaEKioYQ1uw9nnRiObpGiYSI8wjuHUKiu9kXVqKr0ZDgqeHs0z2CTELIpOwZp1-wmVxfIBkYicDsjphd2t8VtN0bN-FtvI9h8PFvrUAb1lFNEFWeJYdCEzMEhDs3HndJLaU-XiTQilhNcmMGhTao24G69Z_9QagpAaORzwVoezrxA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAChxkEol3PnUMfckFgH1i73djkkJ5htMyuyQV3ugNsAXHVHajpOBhze9Opbjl934iWbDCDyd0QQkoG9gzcZRZCbQJqyItbaUlp3KHDVMmEhcW31wgSWKMgfL-eOkOd8w7EhCep6juCnF7wTeT-aHTn-FQGhTMiJzvcWL4ObCmeSxCYfpr9EtpMA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAYlZbsFHbfBabkYn8M2TUfFnvAcRW9nut7gi8BIBrLEa9IcpU48imMsD_8zi8I6FqPmejPKRdSVJq7VJ3iXxzzRDYULVbDlHxwXbMPu0Dtf9e1zm_cyX4PcGe8cRMaMz5EhA6v4QDe5QFN4pMvAkXiJqlGhTc6-cnfn6TGvYpYHqznYV5kvjwiw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA3oRPYHEL3mz7zs3UHa5yEsxvD9Q7ytURDtsjR05_O1lH4vy2FokSQKQcGBM8WfJs1-VaPzLe-QpnNzwi3P0GpZHck4qWrqDl_m0DDHDynzKK2Mekzvb6GzmO5MZ8ZgpiEhAZOABfw2EMvrDj1anmMA4QGhTSDzYsrPjpp5S9kPaISeM1aO97PA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAmWqPw9-Fu5bHDIT7OMmg3fqERuwZxlq6kL7BnYw_O-dM_g_9M82RDvTVhfRXk4DpAt1iS21s0DkdHr2HriBkpeuro6wjuk-FjpXkMkidhnvSjtwHyRn-vipdA2V0iFrwEhCFtGOqPKWrt8Z4UcwFgI42GhSmaARzuF3ysIAMCZ8dMd3pBw5E4w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAnOnokaP-uoEm9bC3cEMyQftPQThl0x8K6hgQlcbQ8llc-UCCjiuuYziaq7KpU-GhNaYTzdyThC3eL53vGYXqr2WcoQtXodtPn5FbjggwjREMWvhqst3s6JE-Fial0ttYEhAdbJqIP5GQ7JM2mie3iln_GhR7mgbKwPbcpvlvnDd65MPow9v6rg",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.rupert-rothschildvignerons.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Klapmuts - Simondium Rd, Simondium, 7670, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 874 1648",
+    "type": "string"
+  },
+  "name": {
+    "value": "Rupert & Rothschild Vignerons",
+    "type": "string"
+  }
+}

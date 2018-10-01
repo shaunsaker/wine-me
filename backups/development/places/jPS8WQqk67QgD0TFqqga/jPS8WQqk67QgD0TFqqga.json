@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -34.211731,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.032526,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAuGmG2Hidm5Sno_QsNBSHvb3AcyK2M7St0CZL2spfFxpPtEShDo-MDxTFIXMwHeLjhCL_ZnYGzY6gS-g3JtcJeiHiAZmQXanpyvYcHj1tHBCFqTPzUAFZyCfbkFIv2DG2EhB8vNiZerR3cP9BjF1KPkGUGhRqsG77V7yrwEeRANDDaKt6s3D-aw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAZlSiiXzLpTEiWTgJ2xWtSv1u45Nu9anXIwJ9DFHkvGrp2uvQZ63q-4DFlzJ8iq2aUFgc0Y90E3yeJPHCi97Mq75koMfCBPIqV4Phwn66ZUpJ4GKPG8QN8BPe0td3-PAcEhDL1v0_-pDsDjMdeQJnX9NXGhTqAqMxBha9pCTa_sZ6hC7yXiRFQg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAvsWMVIk_0VSEm-5XoX6wtwZtLaCSdxRtfPr0ieuiqWBcLD-gRGBvGDk4X6nL3lSN_iKBfVasfAKfbKnTXPxwh4tzwJYfA8JIjiSXHMmBZ7IeY2fcLrRCoBH8kHNFp65DEhDy382hSholjHs-bTN62xvwGhS29mbXIPyH3d2Ln1AjN7LzFhv8Gg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAADaRCBF37J1JN3OtmjSYIDqidZFBR9FJ3YBwQBSZQOmSgB84eV-6xIEkj2GfdYl0zBBWCJf9pmrbn3cpHVBUQBKeLe6j7XC2FvDqykA0csMAHY7QxRk_Mioy_JMnZ-lw1EhAroLSp5HpKGR0LgDhryNcMGhRWUWcpzneSev82j4ioq4zutXb58g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAWGbdgMj53tUJ175LBvKMPYLsDqMb0_lkeZ0y0MJgzPPFsuE7wbOxiTB7xlvc6xk4PMp0Yy0PtkKkOPjBwuqkEuJgTR7ItAZBAzS5MsJZyvFrZ5gm-HQ-s6oDeL5Z3mvZEhDoF-xQG8Worxn3FjeUZ3QWGhSP4zcK9vJzDfHr3QAGKbizNYNizg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAACknBbojFZMr879yWhO2Ayk4Se0tK0X-8O_VNlvhyxxoEFKZR1P9arJNt6jXfBEdPWs8yXEdngKRMrnEjm-t-EqzaKTAxDxPTDe0Jo8ocR3qR7koo-lFaiKTnzGB3oAPwEhB23cVW0WeRGXCileKGiYslGhSAEuChHcRR1zFV5jLG1ItgnCkDaQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAVioBqnYWFvDBcNQZsA1fCZB8vvPr0o4nVpv61z-CPea9edTzcMYRZ5mDPmC4dwZGgySXu4dvEvjTKH0UPXexua_AfD0X_l7NN9ZLr1yu4oW0RjMHD1IAyhQhLijk-8z1EhBudjpbO4bPwtuT_cpclyOmGhT5glsr2b_Ou2x9lZJ5Hw7rDWAZuA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAATxxfn6tyi4q2jW4WY3EpnX1i2jf7t08L91ndKm7w5quwAILmniMCdOPJ7WQAyI8ilsUfx5zWaiABmNYITNV87uYkP9MI_SV0PHABY7LEXAH-ecp868ZwhSlY_C0HboJVEhDnNGTC40vFRXA-W2EhN4VHGhRkAJkMDjl8RUceT7vuPJaynhKILg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAGQFnreOAEUo0zxjIbl78UrRHuJ7h1NJ2ZM5jWez6vEYinQCzpWNgQoNJxNWAhGAqAYJnffrlFwTFFfzPDMoM3bswh5i0NfpxnXH0N0bO6SOFH8niKNXWIeZDqJb11iTkEhAI1f-QgPcV4ceKde1HMlg5GhSa2gip03-cRqIpF_fnyP--4btsXA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAFINLTRlfsc-6Ey25uZ_ZgMZ3Zv9xBrpDDYhfoaeVz5G7Jn5kqoWNcbK2jhSlLU8yjg3R0E033ziKO4MZcOwAY0y1TozqUjFuqY4R5zit0s3H7bQzWwjlAL_4kSpasPm3EhAPW7LPaHtfIoYwPmowrKT4GhTOboJTQ-uLtR-ihlliy3TT8_UwAw",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.almenkerk.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Viljoenshoop Road 50, Grabouw, 7160, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 848 9844",
+    "type": "string"
+  },
+  "name": {
+    "value": "Almenkerk Wine Estate",
+    "type": "string"
+  }
+}

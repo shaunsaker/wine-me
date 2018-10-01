@@ -1,0 +1,77 @@
+{
+  "website": {
+    "value": "http://www.cilmorwines.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Villiersdorp Road, R43, Worcester, 6860, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "023 340 4141",
+    "type": "string"
+  },
+  "name": {
+    "value": "Cilmor Wines",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.740474,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.4796611,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAL6WaFxPW6OW1c9Nzo2AN8ON-OSQh_tvAmiQPwiQzUnC5Wj962opQaWJHqIcYr0zK4HMlTVPl_Avrm4BnyEdG-Lbv-ndDl5pz9VZz4HnuxQHyh4lsHJ9O11yzKXu5fJv_EhB_hvDanJSpVBVMenufgTQvGhQpA0sFmc9FaEbci0DGT0y261m-Zg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA2KnirLEHNPq6P7X99hSx5E8B39A22QE2ohxXrrNhlIoLVSn4aLgnd8i-NhgmLd2PdRobMPGgFAYbSrHxLWJZvtBAEanA9GGcwMJlIAFshcmh9jCzdnR2Rva_SRwDtcTzEhBagLhaifqdE8_W68Y74L7DGhTy0TnkWjNIj9ssthXPV3IODTj97g",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

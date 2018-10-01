@@ -1,0 +1,48 @@
+{
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.84858,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.85677,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAUkB6X2qXjbv2XaI0AasrLNamEAHs9A0fX5SaaFyWOQnj4VpQX6t_coQWyDa1LEu07V0bXLNxhE6mWEk1b4lbAexU4wVBtdULA-bDyDIckbbfaXue7vfGCJLwpIiMpm86EhAV5Qy2njBfPE_JazmYNz6-GhQ4DRc17kVSUAgCzJImCrt2ChlH_A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAD8rVwjseZwOVX99xVFgMwMb0L_xN1H4JXsgAg-HRvt0lPoX85Pofr2OrbXUJLDzKPNYbOOGUtY9F9p8NGxJpkN3DDLjSZgPXYibZMZe8JcInuDwB9zMkPJ8AXT7fDq-rEhA7a_aXiyD4Nk2m4Hdg_u4HGhSz4ZgQBZXkOXrbBeLvWPvi3I5OuQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAqtjMZDoXFSejD8hZaU-dgf0Ncof2EPVDEU3gsDoQaHjbql7XIjTmZK7BzDXVFJZkfbNysfvij6gaOvYbvneI23picjAyCtLh4rOcFOOuPSlEFszXL41v7BwCZSA6k5wrEhAbxclv5e8V0E1mXQ6MTr0wGhTrmeCjX6euFPwkncfxYuO79wDhow",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAZ8_Y7798HmlvE3n1GYu5Bj8bLp3xLTdyuUNs3mV2gGogqeS1KoLyjAcIbdz7R6H5BVVe2GOx4Vxm_PqvJeM1JJiPV18wi5u4q-JmxfOA-0-fIlfDsNGpvZ2eUBHm3B0oEhCEbmLRyF9QzdJ4q4S-rXIjGhQGOGz0tfusMm7OXRiYbJ9uKafQ1w",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "name": {
+    "value": "Topaz Wine Company",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 855 4275",
+    "type": "string"
+  },
+  "address": {
+    "value": "Delvera, Off R44, Stellenbosch, 7600, South Africa",
+    "type": "string"
+  }
+}

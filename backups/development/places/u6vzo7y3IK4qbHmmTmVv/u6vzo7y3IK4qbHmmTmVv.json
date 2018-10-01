@@ -1,0 +1,72 @@
+{
+  "phoneNumber": {
+    "value": "082 499 0198",
+    "type": "string"
+  },
+  "address": {
+    "value": "Westerdale Rd, Durbanville, 7551, South Africa",
+    "type": "string"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 18.613758,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.808035,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAzn-h880AWdAZoCVpznrbcLOqieq86zJevPvuNTf2vrqiw5ajaNbM0oQ-uX1gbQ42HoNlrkWa1nqqYurTOUzJ_eDE1mnzfxbFqpUmJyoAXDcV0-ZMXRGOjPMhS2OBs0Z1EhDOiPIyJBHQlYofzRD3GshMGhT4vNti0PSYIPQlLzMwMnVNvhJpMw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA4zkw1dgOi5miIOazALvzqYwI7oYp85OiQEfzC1MkShSH7fMQYGgBW98E39y6_4q6s05nCfV17IOH2m_9hH6aYuKmLGGR7WMjalyjbnZ1FB9rd-Xn3Y_DlSTcR0nOr8seEhDhLqPYbJjREhk-fi45Q16CGhQEnGI4k9-NFJKOc0tI2KReG6yxMA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAlCEcbAM15vUYc6OKCh4avR_mTzeT4X10rM0ZvQKe8vXHvKAs02obtYfS-mMxdUkfFxj-bz4vdC_cGiKI_up8ZX6XCymafImInPhuaTPiVzvj2wNP1QUrmuTzYJY2vtvVEhBtIaP7A03ZKdJmkTnOLASBGhSf6-7OYvj8EXPQQykUmnYdBLc6sA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAARl3IjwtSWttrTeb422Xq-cf44vyzNdP3RiKLQRb59YsiL_H7axAmXQBGlbqlphQp-oXau8ImWiQG9_rvGKLhKSdBWhoEsNGKFmq_fdD41b19seUIwGPPhwcj1NgcUx5aEhD1eUkdTyqknYGXxFMtMf2LGhShUkLIm2X7JioVOk9SC06r_bOj-g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA9l23zU0qdo0r1UwekFx5S1-huAzBNxPJ6L6CvKzGaPfEJ-GmBY3XfWubE9ILh-ofUeI2VY9XFKhWCLoyTDSbRxZ9uhGmP3zg3ywO__moO2n2e5F-RzK8UCDfxAQRLS_eEhB5q_pcZrVf-L2fSk95c2W0GhQJjBywciwQC946ZA9a2byJIaXsmg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAArhTTrJKVRUj5H4QVifg5tVkTwLPvHs6Kpa26vHYOS7cCZIlYLKEdNsP6m65qwemuj86LnGTSAhLrFYSPOZlJyWaDxi8fDoKumCAToHCL7pYU15J3You5oghb_QBh_C2JEhDWh9hcuwtUm1d8-hwj0JxDGhSa6a224v7yG4EyiQDhcauLBYjFfw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAkspIFmFVVEbZFOaN3p5ih76_rocuu2wR2QIyXHdJmryCi7VOws8B_eznNbfSMzBHdQJiydyC0_8yuXbdn3pgNLLwMsoXIepFEb31TCc01c834pypTbzPZoFxPiWhNniSEhBfO-8niRoahmOUZSP38Bi3GhS4e4xJMWMPIsWMzmbSvWTiu7Lf1w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAmvNdnKALvFQepFZ1EzTWpOYC3hMy-ZMkueS2Svi9wY3Yfkl2_kQYN2t9T7Q3B_ztmV_n6XR8hFrcuqkJ-WWkkdNwQDrVr-tOhOpWKkbS359EEIIjZN8SRVUTZopnvXtHEhAqntZ5ALZcet4Ibev5Y6trGhTmn87hZEJmcsnx9OYMTljYk_ZaFw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAzeaXtqNbujJhVxnympmcJfhQFYv2LG052LuRMQdLy7TNxQoNwodpMMqfvmvjpX8Sr1kVO2qrTirMKEO5pS8BHhRjo8BjA-kviuiimCq7VRw-NE_soqlvz8dw_YuqIagHEhDZ7FLco3Hr61kt8KToW3tlGhRuAaTMzHglQG10esxWJRzELv4Flg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAqFx3xowrrp299mlc980gnTEj9fuwbVLmKjdqg_X62L1gzWlUkWh-H0k3JxIIV7lCpr0BjE7cMxa4ykEZ8DvV2sOCDw8AhwW37oPPKyvvMh6xXCd2j3HTbppFnDzeKBmZEhCRYMRRlT29Gt2D0raji2LjGhTly_HMaGwfwTCgsrvLgXQvwS9vLg",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "name": {
+    "value": "Kronendal Boutique Winery",
+    "type": "string"
+  }
+}

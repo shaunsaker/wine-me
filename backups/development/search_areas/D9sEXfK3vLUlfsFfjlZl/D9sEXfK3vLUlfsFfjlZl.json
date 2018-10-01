@@ -1,0 +1,23 @@
+{
+  "location": {
+    "value": {
+      "lat": {
+        "value": "-34.2246288",
+        "type": "string"
+      },
+      "lng": {
+        "value": "18.8987346",
+        "type": "string"
+      }
+    },
+    "type": "object"
+  },
+  "name": {
+    "value": "Bot River",
+    "type": "string"
+  },
+  "radius": {
+    "value": 10,
+    "type": "number"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "website": {
+    "value": "http://www.slaley.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "R44 & Kromme Rhee Rd, Koelenhof, Stellenbosch, 7605, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 865 2123",
+    "type": "string"
+  },
+  "name": {
+    "value": "Slaley",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 9:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 9:00 AM – 6:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 18.847308,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.86511,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAotcdUjAidswMl8PlJbcbh0P3jbhYSkfw7Zw2tBU5rZ1Kvo3evfNttFT-qNoTXwmxFtmjM4T9ypdUPofPNdTe2BYp20o7iY9oWpru7-HhVQXoS2G3_BkhENv3aQfAjGgDEhC1v4K2RUzA4pjtB0iEhMuYGhS_7NOpWxOEFfuUTkzA0D6Qh3cToA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA50HnuKECFrDZiMEUnhvXzahP7ijJxxTdAIBmum_1LNzGbjUzux6uW3DYCj_JBo_d9mN2F4znq2-tgrrOAG1qXK1xfCed04JlxOaXSP7e-D0QhCmdP1-mBLA5B_SdisVCEhBlduGOqcGoYKOIOvSjUBvSGhSemgXDLVUDPuAeuUwhZHT1apnACA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAhqnT3eP9ynZOhp1X5ZdyiFUh75mZtd1lcfn19PJotmierBZicglclR9XbywiUJQ9J03o2bjpkDqzmMjE76e5PJUmmPUFbQBzYBVTCkghP3zARhy-iN-iV1gV0w40Tal2EhCyknWCCs8FBdeGd-7mbbipGhQXpiAx_95eS2b9UKMt_H356-Vk7A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA1qih9XAGOK2rT_2gpGqKY5YiL04zmHTPY8XDxDufD9IBd8f6AsO_AhTX2UC37J7F2oKeDAwvJmKT_5MQviRW90fk1PUATw-VPPLM397XnPMR7LwOfAb3HSGsGJISG4IaEhDwRAQdx2vnEkPxm0Tpp1kCGhReXixfTz1INzpjpFyRieds39jCgA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA2DImJxF_w2MFeaFfbSQ7FdEgjIC0KHNA71PUvz5lSqUW1pKjmH_JE26o6wr1QKJMQD-tHcka3YXflYxxqoBPhxWKnYhb03XHgbWOdNJe3aA7CIPPxrh_mfpjGFuKTij0EhDF2VVxUsEojIejmVRXF5fNGhQ3_RMcIRDXDH22emNBwN8E69e7WQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA9sgopSFS4TmapLCciAj04-zuj0rxmwtmylsqUuTURTcgKCOIH1mMRGVxmOmsV7KDdGYo-K6AvKsBVTQVno_vHUOXlbYM1OIRw1idz4qnpKK_nfl_yH-yMCnStnci_IIzEhC_kCwYCjGcWcSASqj9oRinGhTyiNdnTNHNF3FANeNUAPUmjjGNCA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAVpqVGUpxtZTU0c3RHqiCDvILFj2sJBKzsABknPdVkSx_Tu1awIah6H6v2XonVg1C6wTpW-iW3ue9pdjjOro2D3xlnHdb6sxp7w-oClSm5YqMoqiE9OomC3-bHkKEegvWEhBodxX6h5t9FBiaG0haqcEwGhRUUm3Gp_tglNwRKFIPIvlQc-GQGw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAezhM5CfS-FhXxr7nuUJutuf56Hf4taI8oySp7DVL7KCONGeuPe7EntVg-9inn1Qkz_Sl-nd1JcIaCVMHA3q3fGXAQ267UPCjKwILLdVy54mjpNQXWxTuCP0-TOx0EzQoEhB-xrsxPFGDE5ILQ05AWzwmGhTxHJQ75aq_9qiLzlMS9Ndc6ngMIA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAEP95GMseojs9F-Ws5ms5Z5K6dBZbeyKKETuY5R4XckfgB3QxMMrFA8DU7ODwVUdv0L4IUhYGNKXl4seo43sTYazwbbOtYw1PdMEPRl4uuCEEUq501I8F8fP9UFIDpRH2EhCinNGlbBFlrAVWLKN02EIzGhQcBQEzEz233_gQkw9RpMhPlPIzrA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAJK1b6REBJply3NfZh2BJJBCvRRfCebBEBSCNFnSKMLnxcRi1FWa5OMnPCr06LfEmaoE1r_6xgd6tHLFkAqxlGexVN5be1O53kOfKWs9EUwaLxyzv7Mre4Ehyd6trfp1pEhDig8vfqKZ9Pjc8rRirQNkSGhRGwt40t0MmTpErlnhYV1V-0ZQi1Q",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

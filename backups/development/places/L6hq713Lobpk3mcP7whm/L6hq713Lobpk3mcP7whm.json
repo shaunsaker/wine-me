@@ -1,0 +1,109 @@
+{
+  "website": {
+    "value": "http://www.nederburg.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Sonstraal Rd, Paarl, 7646, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 862 3104",
+    "type": "string"
+  },
+  "name": {
+    "value": "Nederburg Wines (Pty) Ltd",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.7206357,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.0033606,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAHq5cE-pe_F14W8nKAJOUTFisxqCdOOacR6kIzqnXp-V0NBfJIwMVjE731dzjDiMYHPNanoyi3G4UDf5ABrRsIjk2ls8iMLkkIBrQRbLNdeqFm8bpPdFpBCVW6c74EIq6EhBijyXCvay6uzcUD05kGj2PGhRc0hLX9eIL4lZAAdBnZwhObC-k2w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAMwyd00vmDD_NBZrKOT77Z89wkcjRZBtehUdI0cNm6snODButQGqr-or003Ew0uzsNiQWmmTgINF0QJBnKtc0kmJRcLbFLgcWuWTyP_Ys91Kl0jS2R0UOSqrviUtpl_9WEhA66JzEnq4iZ29XDe006lWuGhSBOpQGR3VNZ-g1fGCa8_AerDnC7Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA5O4w1tuQmZmR02WP4tS3tAU521B230WZ5J4cavQznLWT6wEtnfI5b0_0A8P-LCN3bg7TPhzRSPFM9y3Iz3ZmUtP8rOhGFjdz3AcXexLebWl1ebimiOVAxxqXH00PFBnUEhDQQz7hUR_XLNzaSOg5d4JQGhS6qZYavDRnDZ9r0MKcDKofbIfGDg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA40aJl3kwWonQgDeIa4ehpERL94ypaDmF0KhWg9Uy1vT78w6mAqi55cc7JlwcDOQKbmdfAQey8prXz-jX_rsMo9oK8mMHUll5_bt6R8CGVIBQX26WN8ULsOZkKOjIA6urEhCU8b86alfy3kMXvp6tkUi3GhSaXplY6zhQdM9r0gQlMIqmCqzH_Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA3cksPBpqrnL66a9aMKxvDm4bydWD-XMbcs4IseVD4oJ462qJTihzXg3mwxGNeezt465YKgRVMnRJC__CuNtGDBhhvRnYn-UVRZjXAu2a8aplJZK5rANYj-T3z-dC4RrGEhCZ7jlf7yhHVaKhkQZ70-Q8GhSX_auBkff12HC2dfz1baKVVDUsSQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAr_MizdpQpvh96kWN72aEsxwL8IHcJK9En-nEqy8Hg-yMlachPKD8gXjEoyVJWVjk4svYWdmWgQ4tt6Jod2K0qrb8KBTJDthCRb7-Pf4SNw2-40nC7cR6kouoMtuvOk88EhDbko1xg10ntBPMXLy_jQBfGhQ7f0Y5YVBrg3E3vltCwu6Qyhk4Jg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAABSAl6sqcVb7xwTYU2T5_6WXWxvlK70ZihylzKwd7cetfWxP2JfTeZePhXkSa13jJvjlRn2ytqegshSqUm4NqoOySS_Kj89GSrtQbMT5VFYQb-SkkrRZpBI8nZLDYXUEuEhAXca8wtxBaY3AlCeEuz1fOGhSXMrLwnhMlpqfZp3jfSj7Je5MptA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAmLmjapyXPkSKM4CpVpts_9ht8i2n_mkFpdNRWTfTZ3sU7FOHyHOPcQu95yc1eQsS-7mibcmlTl4fDJRIoKY6oQdrVscplB7F5xMsU86u9L3XYR3-ueWPos1frp3sfA9CEhDUP2WN2N6N87TkEubRajEfGhSKb7Q1phZmTO7HPSZeUMgx04vq_g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAE94Zs34YTPKhNM-dkTsLvTVmcLFFXF1AsWVczOmFTcgxGqY73ReSgF4kQ_6WGc4u6mVGNd9Djv49UK-UbNKDi9O-GKsrPitdRPxTSt8LnXEYDpNabYnP-YxkvE8yD7RqEhABUv79Cc29ucFIrflMsh8CGhR3v5Dni5sfrfw2urlVz1_1-naQcQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAjvhEdepDpDEe6IHwelXITAYlzxDSptmbRgK5IY0ISzXPj-WRpmQxCcp3noMzKB-vZnijnseNK6rU32DD8JEfwvA0lf_tCT9Ms1DK-pQbOJJ4megat2-Nk9ET-jtscFsWEhDzPuGxH8aiLglLrJK5bhLSGhRdc77BflXyuasEoOPHdldoI_kGBQ",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

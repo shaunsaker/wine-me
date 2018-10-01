@@ -1,0 +1,109 @@
+{
+  "name": {
+    "value": "Uitkyk Wine Estate",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.8565812,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.8641768,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAA5N_-M-FzUYAy8pXSXOGCpQN0nq_IHc0pUdX2xKBaJL3f29rofWyfc4s-HGocG_pUqUxBtMP2nrXZyjwBRNggxDSlDrv1AlF_BBC8Xz-EaqsJTKl3NeP4j2TpUPEFOl4NEhDr3a9z4a4j8f9oJT7WaVHXGhQV_bOoihQgyob_df1eVIOlQjafGA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA2HbvnrEp1x4zcKxmzCPC3Vpibk0mJX4ywtXX4G-rLIcIAn2Z_HydSmSxq3wuSV6izNf5Vnkb3AaSKuxvwnWs4cK0-aKSAa8qrZbFeTAkpNdmlUWjE-JOWcx-4wBkTiQKEhC62prwE8wKY6uQk7uWoq01GhRa1WfuF9eJTbn7pLWOwJAO8LAH1g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAARvdJikYA4VS9SmQ3_IHId4aFXIMZgWfVK16ifHEx6JuoYl99jo1Mx8aLWM_9Gx9tlIysoxu5RDwrwNhPReWlyRRKM8Xr3ehRw2ev1NQWcEsYXrFS1pOyIhNyvnLj6GeqEhCknwSlsJn7UKp9qyfKDNCBGhRKVWGBWardRZxoBwET89SC7UTXFg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAZXirY413k_mlqXf-3FRPhljS1TjLveFwaboKe2oss4h2gaqWcpX4E0JdEvbj8S3Boye1KgRSHe4YQtW2zTfXEMAlaTrmyf_oq9IvSvsuHR7sdWjx9Q5bCW4tSXEUKObyEhDhqxRgd-gxlkfj1hZnY_UOGhQee1H0uy76T264G0S64K1pPT60sw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA6HomXDy9hGHacy6FIhEXt0puiNlDaawbecl1HqTVNrQ_YI2swwPL9l4fxIWtUB-0c3gdZcjS3D60Kz2dTMUpkJWm89qBrBTJDInG1YqYHO_P8Z8gQtmBBNXTPCrRM0S2EhBTEHORRAarO9g4RNg9M_o0GhTwWnprptnlE73JnbLGO0Qam0MNHw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAALNK5yhdsQ-Sni9yhjBIBJMpnwoTB28B_FzFtP9OcQCOkTURfMi0hd3jKr--Mrz2tBbnwBx_yj8BUwZztOffSpK5LLlyddXRkzCMaMksGwixKkB1Vx_jq2oN8k3D6KJ1pEhDddqtjTknhkOGqv1SjtBbKGhT4C6g_LiY2vJWR3kSh11rF1aCYeQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAO91e0mXIa3FM8-NjXf3HYlTgXJrh91_LoFKzfazoytaExJYXEA4QboPJ59fOQG5bMjH_-WnBOwgLEt6fRJVfRAxoukFNpazCbe5HrnySEt-SB7vWCNaOCIlKvcou1M6AEhCogbgKpbIK2Kma4ZHJm5t2GhTjvNQVPx07cJd4pEvss1wJ0Y1Vwg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAFA8CSRVp31iikB7clR_FBTdv5XQXC9c9GTswASDGKlSNdC6ixCYhnRSOMjINLkQ2wyO56-JPu8qth5RImJOLDAhDn1ULQCgyrTZCN7VAJlzA_tHn9W1pdenpUlfycx1LEhDSZVJkvlzO6HKpyZtnZTzPGhS2-FZn3djVplk-B7ejtMx9oQv4vA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA_iSDe-LRSVNerbWg3Jr9M9cgmlInb5T8DaKjlsTdhonJKmmAMauLhkaLvRJt7eWe4xdslDJSXFzejC4NLbfgssNMOf_mYmXZ7VGc6z9l1Al6OzDm8FaTPHGIN_ViOt3YEhBGGSnUeH0AwsLwWFiqhwAlGhR6TofkBgo-kwvWInx-wAc-4UnFBg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA2nkSYZUpyATr5I1sG4SuV5Wg94Uz8GVUcIqqnd7ePtI07TE6LFlj42Zx00G7fqg4uTf-F-oiWavYSM9HRQogqVdVuxB-OyuiqMnHARu5tP_aAUK4X8lPMKy1glm82lDkEhDXfsqXlDcbvypC6PvouybIGhQPD8PmrUbXmNrNiBhseZIzcFui1Q",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.uitkyk.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "R44, Klapmuts, Stellenbosch, 7600, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 884 4416",
+    "type": "string"
+  }
+}

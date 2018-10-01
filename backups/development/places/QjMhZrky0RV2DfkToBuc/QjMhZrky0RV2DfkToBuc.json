@@ -1,0 +1,27 @@
+{
+  "location": {
+    "value": {
+      "lat": {
+        "value": -34.0205301,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.8439161,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "name": {
+    "value": "DOWNING WINE ESTATE",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "083 269 6747",
+    "type": "string"
+  },
+  "address": {
+    "value": "Eikendal Rd, South Africa",
+    "type": "string"
+  }
+}

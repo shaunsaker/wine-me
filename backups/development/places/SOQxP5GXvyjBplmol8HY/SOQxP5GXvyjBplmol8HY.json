@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 3:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -34.238734,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.249591,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAARm7FB3O_UcI4liteIYbPzgoLmHXSZbOZnX57_Jx1Rn2-xpet2t8b6XZCTDMqXTzwZvs4evO88v58gnDf-h_LzERZHX6EaKokIRidqdyUUGZy-5LGeN1AoK7BLNHSub8kEhAf37BkTHkC_Qa4bU6FcPbsGhScTRQMfW9e3f5Jvh4FWQNhFoVAPg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA4XiSI7zgtc-WzyXb1O-0KvyWZFsnzhC0HZuAaRNMKK_B7NkXrxvEje2Lb_pPMWbOZI2YGXzlkM4ZFecQaLaQCk0dgATFvs2tXCdQdrkWxQlsrV62GiMxKT8NBql1ZvhoEhCfTNCYlVdd3svc_KAp0uvGGhQh8TrBdNtgeAZrcBtLe1-VZLXKzA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA6JryApeQhYwYpKntriyViPnPli5yXbcPQGa1rUYzEzHOkHWJ-3n4hAFnZtAZQusoayYDnLbG2BRfK36nD5NOoh9_brVXFcTAclapLjCQrzF7xhdyUTCPlG5k-FC-D7Z6EhBRSB8ZEuTww0RuLNtxiWb2GhSw-TaPG6RdGWh-wrIF0t3JDHI5Qg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAALTd0erij3g5HA_33_rtjTluFBqKJ9kf9Tby0Cx-nltCjyAAePV3ZipeKpBSPZtMr3dz3EHfNEAzxzCYrFh-iEQqat2mGlfTHWWX-a-URC5l3SYgsAQwvuvRT4XCBr6PEEhDvyLM5tZHo6lwqtS-3EDqHGhTn8v74bHDY3pY41RXOxo0QAZQ8lQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAADoWaE6aMGJEPjElA4XGqiKy0CPk1cZidZavJfq32A_MERgJZ-Uma7alwdUCNQA6_xngAZVE2uJQkZRZWIhZmcjoYMQr15RC7fuRXOX4PU0JhqUbYBXQlD1PZtVO-D9k3EhBh7-UZfTB3qUV2iSAORjOVGhRggNDgU4xqBx7ylIYAShOTyQbnUQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAmW7e2efPNFA5MLKTZ0MxFzdlY1hyZsTsr2FhGiYOZ2YzGYIgK5Mq352qmqQL75aB2hP6yHoF0FieZBvY6WmA8065jptHTqc_etsLwGKBV3BTI0TUYA6k4Ew0QU-wlyRCEhAQVAe7qv8cGxGU8fpwE0tVGhTopf1fmaihf666QNyrOK7Tpmqdpw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAcaB2mgg-IXBzdq8aaVOh_NnU49imO93KPD4yjOan6BZN19Ky0r4S5rwqTz3xdYUO0yyPkEIWV2orsZPupx00WsntSlfvbOwCdPzQ_ag-UJQ8AN3KfTIE_8xCjr51ZQCrEhA8EINWUBI8tOeL2UZaf1rWGhRr0hhLGxmty0k3Ckh7o1jR9yUrOg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAUxBwh0DyOeeQQGzCUiig0L7pol-iieY6UPJQO-FMsQfDdWwDTppPu6nliVDrGrd92lWDAhR_vXOqXGX-fNbMjqqqgkYtNr3gRIGb-jU-lqCiZ_iUDDn0eNReJXAjthNfEhBrSdUyIRNH86_uHJkLDQfJGhT1YIpRGwu9dTq4AP9h0gmcUKTOow",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAP5yqXjoFQloEJXdGzu7W40d-LWuh5x6OglWdVOLTfVqYAHKovgCd4xpsacvWVKxS2sj_ANlPVLneyx52F6Vw7xBe0DW10NXpEoaVv21hQm-08RgUfzand997Vfp326cOEhDb7hFR5raGWEwPBYKP97NmGhRFgA4LWqeyClm_Fkk379oreAdUEw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAbljxqLrND_i1hZqTe5eeuqmCd2H82tIE86PyuEcnXUZrWcrHwxf1MmC4n6WjxmejmZPzpr48kjdoWx5M4CwKWnWfLVsKHg0VrgqYn2LPC5nZIdTrZRGhdva3KmxDrgDMEhBR15U9ANSOCcNy3D0z8_mZGhT4hsqEnRfVtALtYqPeJjPBCCqukA",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.gabrielskloof.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "R43, Bot River, 7185, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "028 284 9865",
+    "type": "string"
+  },
+  "name": {
+    "value": "Gabrielskloof Wine Estate",
+    "type": "string"
+  }
+}

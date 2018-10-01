@@ -1,0 +1,109 @@
+{
+  "website": {
+    "value": "http://www.rupertwines.com/tasting_room_rupert.php",
+    "type": "string"
+  },
+  "address": {
+    "value": "R45, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 874 9041",
+    "type": "string"
+  },
+  "name": {
+    "value": "Antonij Rupert - Tasting Room",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 10:00 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 10:00 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 10:00 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 10:00 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 10:00 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.8873286,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.020484,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAWyElOQLMKZgdaGsGO_G2UaKz_ftJyqpaiZOog5keGbP2lJDDeIih9QbmIgVVsWQgRyVYiQKh25scvmiCj18YNxgx5XkFAQB0Tc8Rkn1_ttfyjOh8_4tkchyN05a4NjdHEhCrN5KABfzGk73UEKrRM8SXGhTSPXwOf6ShW4qDnfqHvr5Wir39OQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA4k_eW9qmbXerKGlsVHLZWS9bd8lq8kZ5vlyU1uUpLt3oEW97r_PFnxtUdVPjMfbfiAP4aXe4sgqdTsaDSfscY4OY9Vp7nxyJHnE2q9u8nnO75CCu_Mh3L7JQWFJWMv7EEhAdQpu8kXCjjtVoX6xlzqp1GhTqpDsdZefMNoK4drEgKwmG5WHcvw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAATaTcKHPyU96OHwbM7HOe7sO_X9EQMLK4oPZ2NxOCg1vhaO9JlnjAfvg4G7XMPx9Ypibd7nLd87jkpk9kipt1lJJaR6V3ASYUV3IAKjnrVzXUrCT9pxEtJBg5SNG6MDj-EhChfGIPxMTd2NpQWr96wm2cGhTvL3lrBaIO0_kBYeXENtpFMHamCQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA06xY3IiycszZco7w9tz4T6aCw21sQFpRDzyYD-aZRECbou-vFusD-YLYlQfc70ls9TwPwbjweZCiLWXMWI0kEuauBVE8DCKnUuECLU4UWqQjALvMoBJYsSVWFY38sX-sEhCfO_glWPMCD9_XOCpwjJAaGhQlYbH75WOrg5DeYukf-zcWqKHzyA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAISuGhw0QE7eQkDHVy4Zesto1ADTb7ziUbbSM5QQFI0dbvz98jL5IDdYFB0o3O07T-FCwmOMsKzGI1WU6WMRyLLT9eVSIflICpWWCM26anTPl4RLINce_e7UTaDTBaJIREhB4yVi5C7Nr6sXSeBKhQk0oGhRxTAkISfkeoiaFHOjFFpFevPycQw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAACsD6CtNqWM8wlqQMWl0f99urCSxebRt8EvPnLkMQ-ZADlQVwH8H1ZQlO4AxgRanigZ1oBSc3WR2hnzdLNrgYmV27SzUWtGgqQV3SZng_bSgCfx-7_FJZQ1FVFHEgU1_LEhAhXlGWdR1MILIl4F72krvpGhQ_y8PnB5zD4TIzQzhPxI-SZ7vdiw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA87rMER8H904tYf1FuOfNY2DKiIUNbc_xIXpZCvL9DFxqHQPOfC0q5K6K-9fPU4ie-lEjZEqhHQYNYIsp8LCN8HEPN4XvKOK0x0y5YzuX1s8fNDLrc3Z7Llgy719WigDyEhDK-aH2rTU8uZf_wAbvvmvrGhRKs-vcTxanLtxLi2IvDC8MVQ0jGA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAkF1_ugWjOF2cGkU00JqMPCru0-aV3aPtYCoSsYgVxjBUFISjI-wBCILEhWh0mZn1ZDVXk8MlfxWCprXSG7xGtOMmU_gfCJfV97d3M1pfHoa9xvW4tLqXStqpVmbZvxG_EhC2IsXD219VuBcYENkLXzfFGhQRaMUoUTrJRkuEETE7QWwpUsT93w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAOPPGRINiQMs5cK7h-lZV-y4Sw0QlQLbG1dK6Bq7ysr7p5OCiGvOhEz_vmP-0OhurwUEflTr7HC6w7A66R_RmsUWYakjdkh8BAwX1zP-qWBJRMWV4-9CYYk4jUFZNasu6EhCggj7GUYBY5eSYSLV-GsIVGhS-_xy5M-niYBIGccrlN2nvj5rkNg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAd3W_48-1mNaFziiZk3gKTEahmxQ5mzeaWsuluz4egzaW6Eal4cNA2X547h4Q1z1dP5xabtTazXDrGYRWTFacA6p4Nzocw_wdYxmIXQCd0-wOz9GS9Cw0Qce5H419HbydEhAKO9-xw-rZ2jiBDGB1epkcGhSTzAczx505WgkOiWCcllWAfRk_Mg",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

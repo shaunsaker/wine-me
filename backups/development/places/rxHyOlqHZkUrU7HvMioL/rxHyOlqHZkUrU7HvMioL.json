@@ -1,0 +1,109 @@
+{
+  "website": {
+    "value": "http://www.hiddenvalleywines.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Annandale Rd, Stellenbosch NU, Stellenbosch, 7613, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 880 2646",
+    "type": "string"
+  },
+  "name": {
+    "value": "Hidden Valley Wines",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 9:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 9:00 AM – 6:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 18.853783,
+        "type": "number"
+      },
+      "lat": {
+        "value": -34.020794,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAO3nSNLvlKD8BsFB2ewN-6z_I5KENalii3_98Te25vy1PwDIqlo8jRkEQCzgvRRB3tdxyu6laeYQfnCL1PvXe5AU95uLZJpd9DC41FhITgR0GDdK8gBu0laRaH6-TNh4REhB18GlJopNjJa7Qfpbxgi0ZGhSHfJZXxFK_nD7Nc902OqcksH4fwA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAXurd0hzsgItdnNkmLn7XEqZOHBo6bRnON0e8OV2kY3V7i99LoKmCRATeZGI5i0WTOKi8DvQXYnuMGEPwmnDCX4ZvhP1UkfNX3J4nxhf-02i-avtOT1QWKIpyTz20XeasEhCPOEO_R8fvclRClz3jVD0qGhT2htVI6XxUc2jO5JvEF9oiaG18Gw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAtr2P1cHsTs-m-N-CNEv4dYIBSZC3icdIGKihfcKmBRQ-3DWHQz5GYBk2C81Ot4R8E7uZ09c2aJkWM_LRSPJpjKaAUEWD_oFZif5IKdJtBlGJSq7N6qHvSBOu2NrhWNW2EhACwp8Feus-DagbT6QHjIMiGhQ6d9_FzGa3A_T_xIsAaMDUoVn98g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAADsPVS-ysl3O4meVhJ1wWwP3BfraftD-zDF5kLvhzLTPNajJpWwpbThBNnp12DJ70qpKT3vIMdBuHLll6MU_mDUcH4gnMiLUiAN8vaJi0O5dziagRyaRJULzWbasH51goEhDGbw8zItPu4kjwf9F5W5ZRGhSlmGf0mVoAZwMNcnyV47DhkxKe8w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAYPpwX1Z6Ijz197GeZwjKgxt2CjO7XbS39vQgr2oEnxuRClFFB30KzGT67eYQaUBlXYiy3NTw2kKSxzJCfsunIg5qx9VtK4WthuOTlzV144ovdWzVnWRWPDL3AcWd8MsWEhBzN8Z-R6QTfV4NU1t1vqoHGhQwIwm7-y-p0qZFs2-steSitUT8xA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAf25V7bXB5FjR0YBMZC2cnKHlcOPZzlPJkBi05hvWyH2HZNT_OWJjrjJlSGdrcYnAMYLp3y-TY4EnZ6GATMHsieOOUyXbPYkswIkDLpQafe0YPwsPB0z9LiePfQdtm-vREhDrwnbFHx0hgM1rhjZ9igVFGhT6T4s6KcFBKh5wvq-xKIBpaMDtWg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAFrK58qPgIAbX9qNcMcZtu06nKwuoRFXLh7tAfitIsPSJUnDLfhyq6cGTFFPeYBwidjyszYmquzg5p05B7vw-MwpeeIhsbaYre7_XRmsJ-MZd_7ewB0qNSR1xeRZH5W_FEhAw6vZ9d3v8IZ1W7BRO49jIGhR4e8kD35RU9SJkPdFflMVr6-KnDg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA9uMY62qRnYKPkBqkBJcpwbMvctrVHdTLTpXH1VcpG2Xc5nPoHSF6JafSsVWtPuMdbFRv8l3homQk9zi_bLIiGWOqpixLWxJheOO9KgRHOlpYaaJQCAwoqdYVvMEZrQHcEhCbXHrgXyRvKZ5drpiCPcLOGhROT8id01oZrsG9kscqt3RnwjPXVw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA6n5fF1wSHx7HbyeNhfzSDsGlkAKBohOPd4RaCVsAlFLlpMGMUvBGxwLT6xyKyNWlZcl3LMfa8dah5MVb_uuxPj1BkApaNQ1Od0_syvrqt-1PZNCrjhgsrEzyJuAqMIgoEhD_i4H6Ep7LynBIJI_Gw9AbGhSbuaEGwswGESKC_RoAiROR--zQ0Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA5Fkhttm__jKLDDMKanKEYClqI3bk0bQXLKhNPaer1u7rA8TYXCrDKaXJUgmcUHp03TeQy0X1bwLI1tNlPUh3EE8zrSy56zTve5Gal81feRQsIlTpJOP9zz_ao6_4-edoEhDytO_oO0jlbUY7TF_ul1OrGhQRSAX_2FGhsZovN0ysKHVo14-swg",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

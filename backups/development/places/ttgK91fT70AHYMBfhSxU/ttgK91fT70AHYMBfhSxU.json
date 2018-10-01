@@ -1,0 +1,109 @@
+{
+  "website": {
+    "value": "http://www.segwaytours.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Spier Wine Farm, R310 Baden Powel Drive, Lynedoch, Stellenbosch, 7603, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 809 1157",
+    "type": "string"
+  },
+  "name": {
+    "value": "Segway Spier",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 9:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 9:00 AM – 6:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.973035,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.784774,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRZAAAAXUxN5dsCNk9A0zg5DSh73x8EaNtceehT983R-8HMSBjlhgN_Ybz7gShkJFh19s1S-WiOt4sXWNJTqadilLBuRbSioBS7NIzUV8Hio9mVGAvbP7ndxluSswdS7jxW7bNcEhA7D7dziFRW_22kfdDVCUvGGhRs94S3xrCVmulOzadpyB-nAXoK9Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAofkF0kjjPI3DYTxRo2LAuTG_CpZS5bOPinX1DomQxkYj1vrCutvpGO06S7O0cpJcnJrayVLM1sV6wqnYrsx2I9KA5_lkU_dEMFAXTsi-gySg5h9rTxKZwcAY-p6hCOf2EhCczNr9eFtnrNf5amNia0KAGhR6bFEsYXnkdqZOeq9rDUJiDKXW_g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAOqjP5DfsZDWmRL_9t69VbOOvqnNUmqLCc8BIX83IC2LFZ9PzI5J6v_2kWN0VQ9ZTAbF_usjK7fjDZbzWpCNdLMTUuXb1YX_gI-eatGDrUfRB-RzynD952BjmbmbekVosEhC1WI4V-u5iUNxjrYnMKZgXGhT3l3ZGUsqPpKxj100VKZpz5Gj-Rw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAvboEMQN6GljmbSKQQYI2x6kpZ1Fn-VZMS09GPUdokeS21lEcRBTi3arHhtLYdTjp2BhP0led6fdA627Jr1ejMweSKk7gGSeLAIj2PFbJz_WRxJ7PNd_kL56Nh8vhhyyxEhCYk_hBIWU4AgCUTnSbpcbcGhSaJnNqmpPHC2M6UguR18mNCrL_SA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAIHMsMlBDYDgDvcyxNaAxruMxFE4qb0EVfaXVNxdl3Of3q1hZ-1v-UZ17goN_BjNSMxvQnZLRWjM0lMJBMoxzZBAOSeD23Ogig6B7biwsbZb3C-tKMDzrUPCmdzZVAT_iEhCii8HI9wWFMY9HNgtGbuu2GhS_5auoH96qT__TI0RDEHjT1cpsZQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAU5EeU9vgAjIjFkuOPYr_wf3iBZUhjqka8rE0D8Zit8HpMr5QzWGuxNA7LJ0p0qe6LoSuIaJPMiIh6TbDJy7EFR9uNxJEAR9Bsssalmf43FzW7u1jZoBKcmV4-KNQclhQEhBQMAAh-GLk24nYcldmbTDmGhTRhBTpGFvpprm1ilaNjaaRIYKeKA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAFH6POlOCtDWkJNRMeXvLPTM8Q-HsQD96oUS0AWtR58PzTKY2ahvHLwxPr-BPhD_O_9Q-zDZ1KqScWispj6LCr8Z7L-lX9j-alM0otIHvL2DjaNPJmXhHV4S9CAyKMaiKEhARvL2s7GO14Wzbk9T8RK6RGhS76KQBhqvLdwxNjDYq471d_9TLUQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAo0rfFk3UztXw9w4le0SrbbBhPCtJA4688nadQxwO9NhX24TjmS2NsKMNJC3CssprbUhdSVkV7ol-NtYqNC6zdY9wrBK0Teq3BD9hdo00gaOFCTyRWdwhwAKmOSZGWA9TEhBogrvytFWW2C6P_X4GXgytGhQ9zmiscfa4_m9ANv9nbRSZvHxnNA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAVi1EeaCSSI21RDvo6m-0flCZQR36bLutbk8RZE-76cbiKMHDYSW2ZIP50hR2AXQCv2O0YFvRTKNaDon-s22cNMZQIkAvIB40CA_lukwytntLm99-5bwYpdwerot656qyEhCNmWlGsXibzJyyr-QXyKTCGhROMGW-IEOtXQ5hip3MYpdBcdJh7Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA6HSF8TijttrfpuEFz851uC-uMIyiqt5yE7WncxRrSOHmx0rx5s_XUJNsYCxw4Evwfpdij1Pqat_2nkZtlEIY9AG1Dcra8VZKPGVp0UK7Sq3HvKkrXkHLA8A1T5hd9xuREhAHm6sWfbFPWHGf7TWIkPHGGhSDPZr7h0UxQP84ZpEKxyqneoB8EA",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

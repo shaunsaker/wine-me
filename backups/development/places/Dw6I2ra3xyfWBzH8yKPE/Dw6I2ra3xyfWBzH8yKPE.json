@@ -1,0 +1,131 @@
+{
+  "checkIns": {
+    "value": {
+      "-L9VPS2Ih6Tj7DvATdA4": {
+        "value": "0e2257e0-61fe-4a19-884a-8884aed27df0",
+        "type": "string"
+      }
+    },
+    "type": "object"
+  },
+  "reviews": {
+    "value": {
+      "-L9VPUimxI57Crsj4YDs": {
+        "value": "fac0bae8-df1f-4f91-86f6-cd940e396ddf",
+        "type": "string"
+      }
+    },
+    "type": "object"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 9:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.5190571,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.19277289999999,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAzV2-VoRad2nyRMYPlfnb4e1qqg5Jr1QUqT_qtaZpzRnovMmPUpOCvMjQyWMpxV7oF0IzAtKdEukhKK0WjiFmJ_NzlzZS0pDHqKdmN8tosuDgvtT85Mg8dzEs38SKuAOuEhBjUtLpUkBXHaOoZ6gVoDkNGhShw1s141k7vvBjDJmBFA3wGutPCg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAHhzel22M42QRLUXDgZhdJR-AupXKrd7zUpsG0bH4WQwJtIMbvoDfwMluSS9-YyhlYvJi6oCdeVfpMtQNvGvvUkdS4RaJH2q5KGgH21huWKKw90jXF7dQrEv1EOvszGRcEhAYB_YLyIEX_dvT7R0Kf49-GhR6eYrenaZF_1wDufXqmh9MWKHOTw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAb-2UXArSlEoAf5ivemzoiPzKGzFEC2FHJezk9UdAvG2LdYnissjQWdl8wuLRogvjp5LBm8z7KvUxrmSkc-ZBhdRKYPfMhLgkZpZvaK2lY3sYSXOWHRvFX4pnfRm6K4byEhDkykOA6XnHuMutioKLvRIhGhTyN-zHmSdT-woJJd4dCABZGG0BYg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA4dlY_psW56AgSQUpqf5MHAly1KP28qkCn2u9wtmyTt81CUd5EU_6CUWdd1bwYsdabx2ob5p2Nm9D5Wanozlb-UEOFZnGGdgMPyc53kcNyijEJow_x2JMeR9u9TcBk66FEhARewyDyrfZ048T--gxhId5GhTcMUh6VASXbAcmtZXEWRtcHbjjJQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAqa7WkN9NCyWyG4Pr9NbIYmH-77uzZIKxbsXoAoYNlST0LRaf3jzGmgMsDhGJ9mym8owoDaSTh3mPwugE3arziqoMsDrKCFkW5pFltSrkyZuik5lb4s0Yh-_JEZcD101VEhBN96BaYoqOKdV4tddPcQjHGhTydbnlqKPtsD6TExDqR5ACaeEBkg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAX62juBN_EWB2t_4plB5ugooGHzZmO7UQatMBqlirLo2c-wP-IngBrBXkejT15w6M5I_W4SczlP81F1grHFdM4y3uoARLABsn16REpAQAjH7e5WsqKYxaSHuift-N9o31EhCeVARNQwjiJvQNlpAI2bW-GhR2snFUJSo52LJDgBQdtTvpNiorfQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA7m2ahfC_IdT3clSLXL1Jv40x8crIGwyaMP06KSrS61-2mm2UdAzk4y1ciP64Yt2fhmK8xHnOsv2vjAOaa7i1Qtld0QcZeRzf8jsR2EZ06y75f0mP6RIAnGsN19LncWtMEhDoMxXIu5t9VKr1tAxiHqNEGhSNaEB-rgHIipQ_WZiZEz2qQiiIIQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAgNGO6_xl7JW0EYYEmiUn56NsG8UY0tzNiNnz8SueHwS2gOZX6GeG-7u_c9gRqh9BcCZ3L-sEdOG_qRncovFaz2KIVgTMzk3TnY5RCdQMtDfiMp7QT_p5OGAMcD_YGcv2EhAoUrwoCpuyV6Ph1roCTgI7GhTyvCZjEKZDUQadzsH-Pmh52ubnJg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAFMGxwPNQ_WJYRbZbHy1l2ci7xpgcKY9WvzPD6h_h1ag2QFPPG0ppuBFEiAtcRUe7RY2mHsrOtMAUWNDlJ2jhX-S_4v6F1_GTpUkL6_Rz6bXNOW1eKOv3OQ1lhRbMkMHDEhA1483S4oJqZjLfabCfIiPVGhSjrzkhEafXKA5HeozuHYfetbp8ag",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA69Bo0rYcoAXdqUEo_FxlQESAYuq1obUkndzSlULnd-WekwzrcCFh9KtsioumeqINMyH08OlRdkySZfCyfBK52UWeclw5gt1AaDtEuD1ox7IXuhHp2T2Rdj-YL2ZXro0sEhBQgZ0Lk7qWlnjdqAobBchoGhRTKWwtNvHD2rz6abvX3GtMZcamyA",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://bergsig.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "R43, Breerivier, Worcester, 6858, South Africa",
+    "type": "string"
+  },
+  "rating": {
+    "value": 4,
+    "type": "number"
+  },
+  "phoneNumber": {
+    "value": "023 355 1603",
+    "type": "string"
+  },
+  "name": {
+    "value": "Bergsig Estate",
+    "type": "string"
+  }
+}

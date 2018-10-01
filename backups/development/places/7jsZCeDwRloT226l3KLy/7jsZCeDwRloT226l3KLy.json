@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 10:00 AM – 4:00 PM, 7:00 – 9:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 10:00 AM – 4:00 PM, 7:00 – 9:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 11:00 AM – 3:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 19.23883499999999,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.4058747,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAJ3kK0qR41JKkwCoJ7SKFEbaXH55-PVyquWRZGElpZAlxBcKUDg0zd_GHkwsnPokruLQe03GhD_XSgClOkKCUikAxq29DMnu6Wt3TDqhvri3K3UWGwY7vR8a2p9c6ymr3EhDK7Or7AxkRKu5AAz7gk42XGhTJ3wX4VtntvYE66_JxUIOJqqvEQA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA5wQhi0Qx-YlqmlSDDqQsjBKqx2D2l8JRstzAmVYDYeuRgSMqx2gWFLUy-FMfAfm01wVsMaDlseuYYiOTE7abzHqex7KG_ARmv9c7hj4g1rqexj9c8trn9qhphInQIkzLEhAPpsPhl7PN-p4FQaUroEbvGhTvEsKEX_vKG-53NLJRVyu4ykxG8Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAfo9cAiKj1PjuV_x8so70icE_Lh3UmdlIwO4gLb5KNjpmhk1rAz30kfxgzexw1ppsHWPUrZEDQrzC0PfpkONIDLkV97gOyi5mXw2RPN-s5YU5qGsxneTdAIUjOcXisczfEhA-6Oqn1wNqQi2NRRWf1gjmGhTuQgnlBi2G705GXWThFjYVjER5KQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAKHz6lvjLMb3iz8GCv9TmvPcw9KRoOuI-XoWa6vy0uKKhPO6vUkViH-UR44Me_HkMC3qtnE0htWNkWpQHSxUrzg-lwxXMIUkpi3FvvPCpTIBurwUBJ6un_MOpnGpv8co1EhCoQljP625gKwQd37crIFNWGhTlzIYRwaARKaR285SpzNME5Nzt4A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAxKggq-n0Btm8o0DRaYPDIjBfEBOeCUg8XQH-F18-sUow8ctgsveLG4l1t31svuuJVUord5ynPRvC8xiCxjR0I75gTBanW-L2hHob0BqMtM6__fmBTJZ2-y_Rix20KLd1EhDqjio4uEV4BrUgTzx6cJA0GhSEoZHaF2jTEeguu4-hl1k2_l3ZXg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAiDJeGd4wbPcyeAWHejvZ72SmInDwlxnp1nP6Ti_EJxX9YSKLfCY2o07wqqlAk7-8OeOujBT3pKJPVqoHP5E3V9fjHMozfupMjP6RvLlN_J0NdUpaLfM9WTdxgY1vXWAlEhD-v7XoXyAHSjiwGyK7f0_GGhRku-tjZRjBHaQ7ZpItiWYyByIHsg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAURAxSprmCnbJgd3feCFq0IxNb5lVo4XBrCrPiF4ESHSdhr2DbW1alDT2AulPj2x2yoBYzgKNSsqRGs8C3qjgfZZ5xV8yD8fch423OZjuSLEUpfpc4Lz6rUASnfceXxSsEhCFfKc1AoB-QkhZbdkevUP0GhTOyrr0XtiGNirgBIRE3N3sZd9epw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAt8kVI7sLJUTCDtX0TopR-zDVFEdAPyir8ZiaYmnzO20YAtPeioptVKlTmOGPDbmjPUUsA62btA46EFOKSnmtM75qT-BK--Hq9M2rk7IZkqFI58fqsroU18ykJRaY6znQEhBpL5fLqFJxbg7PsmF8Uul6GhTWnGDIoybVGs9GSVNSFjYxnK7yiA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAGt3j5lGtNI_lgy8No3JK_BtwHgk4os_TnZmPYf34GWkP35O3DvuopnRRU3XBdt_qwP52cGiAKUnBVPlBPDeuerU8Bh9APmnA6QtMehM493tOp6MEvPx2xDkg4DoaUcaIEhBMYC4de_anI15VcAp7qO3kGhQJquHH0q4lxZSKdzex-6LPMPKJeQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAApZmGBnkyunGpjguwG2ahsPcA6KNPrpJFuD5IVNT0WBTkqr0beug-pMbMr-kVe_OHdQvydXfMop1pJSIG8BQtEEvoGGxPPmr_1heZPm1aD-eaAQTBeB4KhHFY7Q6FBHkEhBjyOvh7dNttc93iIpHosrbGhT4x-sbe7E4M87sURCjpqhcDGcSlw",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.waverleyhills.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "R46, Wolseley, 6830, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "023 231 0002",
+    "type": "string"
+  },
+  "name": {
+    "value": "Waverley Hills",
+    "type": "string"
+  }
+}

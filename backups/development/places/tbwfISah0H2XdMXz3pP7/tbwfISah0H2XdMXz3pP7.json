@@ -1,0 +1,109 @@
+{
+  "website": {
+    "value": "https://www.cabriere.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Lambrechts Road, Franschhoek, 7690, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 876 8500",
+    "type": "string"
+  },
+  "name": {
+    "value": "Haute Cabriere Tasting Room",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 10:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 10:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 10:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 10:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 10:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 11:00 AM – 4:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.91421,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.13565,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAASt7Any99Mf5itgL44k9oCIfd2F2fYsVCnPXoEpdkz8tyx_Qo9x5Ob2kBKjxsjRPll6F47ys0lcbHk2UVdpaMtN2bj2_2AJcJbmWA2h-XUkFsxRI0UdSe3O8dSZNGweyREhAmKJuYFDw2hwRAfhiqMPqnGhS1j369NERmKRpS1L9YwPt4pJ4S2A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAlZFeVlCZXiZxfYVBFed6jsGidNahTfvgLs0AWexEUBSVtxZ5vkUqAztRVHzCN41H-Myfepl2JNmGQN6pXxUSXkQEVD46x5c3A3dDGDrTnseSs-FNE9SUl9LkY3AU2_-tEhCtIbi0uodRrAk4kIiftsL-GhQbmpGtbUNgXwUp_OkWg2LbzRMRdg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAz-VBcmZoc0au3DNUMUBT9UsZ59mlRghZTMuG_by4GJ3G66JWEyVh4uzf7lKVj-7cC2CkcrlDrG9oowxsYx5599sqe84J9fnFWC3e_ZoVkQhWWv1NIQc54tmdW14IGHouEhCyTeG0i8tHjGEurUkGbvbZGhQHdHZGISMLLUle3R6jJgEYW2bj3A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA9cI-BDIejVh7_-oA05GEyL8LLgnGTw4ZtpYnwIIQggTlzYJv0uwArOZtECI-gVFxu-u8DhoolZiG5X7Ory2BU8PrZdWAstAhdg-u6bq-jMWJnpN7nCNK7d0UFBtTVez_EhBMFGmzh_wS4icj2oOYidqyGhRcgNNSgoUR_X-JJ-SzavfdLDU_GA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAm2ANw0ESq-1XQscAgoukdZEy-Jrn9k6e2BvLX8_efO4k83aaEom-GA0yT22KHInhz67-bYIwpX1vJhdoJXClyN62PaGYW-9MtN1qxqdAKeiggArtIjQa7SJyPRJBfnFeEhANL9t0Rfy0uWXeRt3OVtLZGhR2yQQgHgf8b9f_nIWBjvXbzyd9Cg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAOBZOY1YnVxOoqqlxcr1EHqIXoTRwQ3jErCKy_8Pf1OHp2fTHH_8BbQ9OQVJ2KwtOPvkEJXsG0PBEnWTlz_YhF0IX0MCeSGPZOjrfIOV_ZFtWvxtim7Z48p6ThYJDUMw2EhC46QyPr-H44ukocbnieBCUGhSKpBrvXCYHMUVjSSTU11rWs-mz-w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAKodnzJ_qInBMciHo-B59dA6nxVxInF8SBDbW1Gz7t9oC6FyL8sNe1r4DWqW70uwbEfG3sp4Ncn299fwL8H-WpY3N8XTByXdMxM3NBStfjCgS31Fm0t5P_I12PIorKspREhB6lkfAPZpoN_Hz_BmfwPfAGhQEa2ik-py8STYSMAZHhqwqGAs4dw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAActHBfEQWAKtxjBlPuPaSx7IPQlIJaMVtBkKDnbUQUsdaWvJ0QraI65mg7PXZjVC61wMFFbNpA6RrhjdwmWHQUKGRfvXM_PRUqv7z3gW2yfFurzw_vKn-UHmwu4T6v_1KEhA8JjHbQ0-J5Gxaw_aqdnA_GhQBJi7cb3NuSaFUWWcsZpymRSRNrA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAAu2HDBkEP0W_gZQ66TLPuRZfAERHMY4QFqrr-oj2AfsWZTer8im_gxEOI5QHdetScxoWZY1_Jfqh0zvFZ7imxzPtV5IgH5XaCB2WdOX2V44-QcqF27qMK6lar1RSzeVSEhDYotCNDLLh1h2ZuOgWJMulGhS60MSA4DxKLQCMvbwLk4u6HixHeg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA8pgpLmRmzqjiQbpl0N4KZxPKdIBDYEdSuhnpdIxMKf8DGdmvbFSimHOCKvov6nHPZbUvlWh0jFrr5OLPSTpZfGz1H8RQmg-aaOas4y_IWt8yQo_5264rvgz83jrc9xnIEhD04bkgM4TstOktHmT_UOeeGhRWXZgzeA5TovhNbyxmLRI5LE6gHA",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 10:00 AM – 3:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 10:00 AM – 3:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 10:00 AM – 3:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 10:00 AM – 3:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 10:00 AM – 3:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 3:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 10:00 AM – 3:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.2743599,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.1161532,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAYLXTPwWf9Kq7EIkJbfDoH_9UDFpkHUulplFkuGXaH5ljeZRIw5cvXiAMxpYucXZqxcwwbN9DTnJ_iyDBfESMtc4Zg8vXKBcNxkdeu5XVx-2GZJyjgmnhuD57Ebv5XQdaEhAJqq4kMN7CPbyghw7xXZQAGhR2cbnK90bUbxccqwy81HD2lPBkXQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAACpDE-ef-4xA1qJ_81o87gz9IChqCEcx4w9rNMY2Ri9ZcTnF-zFVaD-CFPu4gdaNiDegA2w9Fo7t6qNIf--MevCOHOYWW-aYYbXkqPqYeANkK-mFJ2z08oLNOKrQtfIcCEhAKPG3cXk3Mk4eD5DVmoJezGhRQFuoqdfn5o5fFYiGntG6S2Ii5vg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAHPGj153PIYexpwtt9-rLMo_qJC14kEZLos-kf7aRsdy3c2lTE4vlD_IN7wy4gaeJnlV77sEmGbhWGV0qz0fNzTyx7TbdHs_p-wuv7G7KiZ3g3dplivG-_oC3grcigpR4EhAe8cdaYCSSd68YNMiZz1l3GhTPL0lyRGpNrEq7LHnaYgrYro2HkQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA8gMtGRQe2o6PT8N7620pQZoSXBWB7gBT6U0e5ShqBtU8Q6TWeK7nY48mMyfn76ZsPIgAwmtdy566QRvinrEJwm0IuJ2UJfpfxAuqSRHTH3mKzHva200DFWbRLflTNpIZEhB-i_2ajxr_bKhhsTWVzpClGhRcnlraT0Z6H0lNBL5b7c42gJiIXA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAtf6QsSdLQm6M3TnXFZhAckgplu0fFuzc2sLkix0vQM9UjFZTEIkinrLQ7qF3jv2bznomPkqfUezhIe9CuYbicxXusjCZNwDCuWc8XsW5ZJPGf0Qg-ZQ08wnTIPPQYeknEhCV1DxxIOREsuKb8mLNf4sdGhQioQvuqJVKIyIxywzL9rrK-U2cCg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA3mL-gU0TtjWFuTgcCHUf5J8PfligMLuOJX0_52kyoKQtchjfvxzf3-tC2BeA2N6pt3kVifl10yE4E8Ux-0hQvZ_BRWBh6P6Godv9O7CZi1GqziH7oJ93rHxJ5eWH-5ruEhAigo6vCCQoMV7FzE6zjajvGhSKgRpcVttpyEdH8yc5WAtgBpXxmg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA-Rpv6ZcrvDdcxGdw7iOEOLY4CbWQrmX_nYGe27kuDzLASf3RU8YDebvr3EyWNFO1O4-Y69tFtHF1oKnyFTMcGK17pzwImLSaAGwVX9_5Vq9G9NNPeAIsy7Z19zgFSprqEhBFHYL4Gi1kvU5DWq8SwnmBGhTTrFtGNAxyQey9G_xNA8yScLmQYQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAANu6AUnq0wSJszNVnsWHJB43UST2MbdoXE0TNCnLxyExPiWUXzONCMs849_DHP4dR9r3eKAJKzfzP9x6HkrCjz4t18nxnAtS_RT5xjv2rWIVeoQb50bvBZLeirlN4EVweEhBKa00R6q29toxBow1qT80NGhTkoEZO5skvR8qdnzIFnjyKKPfdQw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAf7YbtobTCfA5Y2DeRVDY2I31kczXHwn_fYHXCJKBYL-nEbuA3rYPkod8Pk_g_YI93ogdT09Yt0oDY4t7NPQtMchEX8d0JNhxi0NZzAMk8T6wtCN12globAUzPWCxy4OVEhBGYeS4S14lFWkx51ukpmTNGhQvvz5O_f659VrGSpIYzzWeYZeagA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAUsMmqHbirM3G-aMK9oxBBgcZzgpjGwqoo-BIiHgKabPRf-EWrjGLu-LUZZIhaXWx0awv1jYqKv_0Sm2T1Zi_B-AA3QVt3J_d8yQ61oJ-jgdrpnKo2jVbJYP-rYFgsCptEhAqpPzhkxKpKR7PLadC9SyRGhQiaeZcIs-6F60m-yw_l9Q2VJoFvA",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.montpellier.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Tulbagh, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "023 230 0656",
+    "type": "string"
+  },
+  "name": {
+    "value": "Montpellier Wine Estate",
+    "type": "string"
+  }
+}

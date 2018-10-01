@@ -1,0 +1,48 @@
+{
+  "name": {
+    "value": "Mont Du Toit Wines",
+    "type": "string"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.6577196,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.0295465,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAL0GEgQcIX5Ui08_Qvjp_yOOKO_OmgPddW2ux1De98KYAipBDChmLxbBVNVcPs1iu4iKtzsrG1IYszJ3wEpnGujgoconwB_Td_ldflz33nTeHuva4Iww1Gx7aHozGGe_LEhA_FleTV_PMdvcdskmzsaawGhSjzRJ1cyepCQFsHCtlsXdNZDgHUA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAABjdpOdUYx9EkGopaTZYkqyZsstM7aqCpWAGLoEs8R1N6YQy0NTWTc8MqE09IIIY81LU-fPlNguCc-GvzajDW-XAq4vtyraXpp4zODSEdB8KvzQ0PUbabBfhL8GR04BZREhB1bqS4jfvSR8-1ZVWS9Jk9GhTWmcmynkC78W22rurnXsnjmTS42g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAYypv6mFeldnOxdCUgyR3zSajZglsSThc2GW-_IjJvrHAwYqoI6upyIaU2mHgxAZCu4me2O31AjMbzT7NLIMb8uiGthH_Lm5P3h8DeMGoN60zxe7jcKzBB-4Qfso_6zigEhCf7jffvu9DyOqOcPZDsM1iGhRR3wAo9USv_5PuEWT7IeRUzsWKdA",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.montdutoitwines.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "119 Blouvlei Rd, Wellington, 7655, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 873 7745",
+    "type": "string"
+  }
+}

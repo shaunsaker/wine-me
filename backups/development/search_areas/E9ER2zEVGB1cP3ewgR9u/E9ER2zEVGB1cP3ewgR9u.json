@@ -1,0 +1,23 @@
+{
+  "location": {
+    "value": {
+      "lat": {
+        "value": "-33.2856188",
+        "type": "string"
+      },
+      "lng": {
+        "value": "19.1362717",
+        "type": "string"
+      }
+    },
+    "type": "object"
+  },
+  "name": {
+    "value": "Tulbagh",
+    "type": "string"
+  },
+  "radius": {
+    "value": 20,
+    "type": "number"
+  }
+}

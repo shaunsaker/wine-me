@@ -1,0 +1,31 @@
+{
+  "phoneNumber": {
+    "value": "021 889 5021",
+    "type": "string"
+  },
+  "address": {
+    "value": "Koelenhof Ridge (just off the R304), Stellenbosch, South Africa, South Africa",
+    "type": "string"
+  },
+  "website": {
+    "value": "http://www.monterosso.co.za/",
+    "type": "string"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.89866000000001,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.83692,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "name": {
+    "value": "Monterosso Wine Estate (By appointment only)",
+    "type": "string"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 9:00 AM – 1:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -32.9630185,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.7489414,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAtK6G0Est1MXENGUFpbU4FiM-XE5QZnh8JF7qtWqe7rl3sd8c-ox4NgfiFyalkwx1vGwLorB9e1vHRQBYaYVU_SGU3XmdhY5pCFvOAIdqt7C2z-0vxhv0VoaqlSNTvw5AEhCaCIjmu0Of-LwRVKU5F-otGhSiQhH3JDzOdhdY6fk3uaV3XIjrEg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAf2gz-uGkYTvz36y3LpFxZE-DL99V74hwQ4ciL2XB5Miyi1sYwBOUmgTaTPsoIYLQ8qnI2trc3cJzKavVwa23vERO9nKJwIugpiEtHTSepJ-QquOBN_OLhtP6mdles_yuEhD1zm374DJDRf90-Xg6qqdGGhTrBQfSVXQAX5zMGIE5PzGxlUxNKA",
+        "type": "string"
+      },
+      {
+        "value": "CmRZAAAAJazbgIUmsB-M5GIMwyZtLUjDfFrtJrRZZpUY5_Slx18vIZWPRY2w2nzsgo8Nx-jIHLKbV_pNKZ8ksRJ1hLtCGqbjry9wIBH6ALNO1zhpNCLJX3WC4F1zXP2Ud4pS1CfgEhAr0eIuejuY0a81HethOtYtGhTi82D-vPZ7RcQvWJ8hsJ3_bltcNg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAnjuAXEcqODH3xbZj0zZinfNptg-hlYgi-b9kE2QYA5mPDoo4dC5LwKc9ajF_ejMQzIQJ85YacgBGisyFdFWz7R7n2OVMRD1q54PL2v6_lbzAo6kqWdDnfZUcBpEgDsJlEhBtK2EajFiDx7uSroXtVL70GhT3nbVPRoHemAq_3Y0Pj19DZnuhmw",
+        "type": "string"
+      },
+      {
+        "value": "CmRZAAAAk2swwRhRNeXVQ5tvFJ0zLWaE3n4ABm4_DYKldEXkLDKnHzSo4uCIQRGuqISXSpoOrYJ7MzYunslATyWLkk7ciTSAq-Mw__TSUFxN3T7Qb08R-0fg3wtTkuzXkw5yc_UcEhCf6jxvMud4g4i2282M2PK-GhQkPoBoIrlzl3lIAnqpqTNa996Yzw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA-qpY6lFgiWQHThxRssi3Y__rcfql56KZES0Kcr96bcpmP5BmQkxYu9WDjn3UexQdJDQrjbATSEpzjgmKH86toI7sZqQdhsGmbwF7d3T6nSqx_pld2arx0xzXAvfixtsbEhALivL2mbCr9cM5jo_g_OqVGhQv-lNfhAVgW8hT6M_dftkgW8PbRw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAARpbF7S1FfVzIcOoCswT6EjPfuxVJ3EzQOkouq8L56kUNhgNz60YB3oprk3kF3WtBgspevn191J68Kw-3Jnb8-lXJbNKzEWlZ9Pi1uAngbj5qU2E7pnHpB0rabIoaIN6UEhBrZASA0Ix3V3hpN_maRVADGhQnl-lDCUXdiAgA-CSG52fz6GMD4w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAeqQtDyGX2n69aKO0WhO9naeg0UH3mElwPpBZHt9vtkSIpAZW1ZStK2k-fZHTgkSHgYnWG30hblcbHA72X8aaqo2qIqzRDgI2XyfaruDZEHGed9LtZzNe3IxsHufUTF82EhBFltPh7mjPOJeSnultOucyGhR1a8Xv26wPASfBgpTQSSE9qdRKVQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAdBhv94BQflg4bs0PbDCcNCgankljntDTjokJol2hLXBQH0rf7XyU4yuDCPf4EwJYsmXR4EZs9rr6FVtiPeqkiWp9LF9MuPODnMXSEFVVVlqs_qXCcrFpard39EoPwRHTEhC-TrJngmyweoR-GRP8-dzTGhSRvl15izCooIkR0ex22t6SxampZw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAALnu14LUPf7hLSlavBXA437k08y3cACyKMCVmwcuT11twXv29ovBopSVQtn9tHMcriluJV9in6dJisbGL8yn7KPnC2NvTIJeVc24kUCyONJGIIjG0AFwRoa_gabP_DiqCEhDjwWtQBQ0-S3Y9GmjW2D7JGhTK7F0C4QX8Z9RbkqoCU5IG1tGbpQ",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.orgderac.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "R399, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "022 913 2397",
+    "type": "string"
+  },
+  "name": {
+    "value": "Org de Rac Organic Wine Estate",
+    "type": "string"
+  }
+}

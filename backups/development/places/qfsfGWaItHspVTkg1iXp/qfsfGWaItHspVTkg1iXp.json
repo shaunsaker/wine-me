@@ -1,0 +1,109 @@
+{
+  "website": {
+    "value": "http://www.aaldering.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Devon Valley Rd, Devon Valley, Stellenbosch, 7599, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 865 2495",
+    "type": "string"
+  },
+  "name": {
+    "value": "Aaldering Vineyards & Wines",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 18.8277804,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.9196827,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAr5DpYHybeBK6Pg2itTGImwIwjtl6qs_6HOwrcmdTnVz624q9tGmA6XOy4wATFlYUCFyub8Pgjd9q3JYCGgidtkFjPOkkXjd_8vgYbofvap-oJAM2LOaEfXlwRE-jn30rEhA9-Bne4DbMqpxUTV9yrHk6GhRi-UDikuh0WVqUB5q2QA78FEl_bw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAACq5oEUM86YQZNQstWzLIaudS1NhGjc-fN8T3Rba6uMuh84kj0iDLXVtH2Dh1UUIBedYwQ43Xm7vwS_QW1U8JgXcAltaiC1ollNh4ZOFl4rFeTqSQOiLSIPon8-QTbKUpEhClZg8LiBYI66Ln0icd71n6GhRYJ-mLMKbPJuZdkTXoS3Iq7eioFA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAb0VWMAdCytK0ny8I0_LRIh1NBbrFKrWlvUmjbNxcyouk8dBmFyk4BsO14nWk6bDrWGg6mzwA2UusZX22e8UUzYDeiUT4z9EjDM1o9ZdKMmGFVlAgfV7DltYAqw4bOXVpEhDC2cipJAwZ5SbVuQ5SxkDnGhTWPwEEeaMou4IFsrAmNhnzhq1TOA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAtcWgWLqwR1w53ckr8CCmv92CbY2bEKZs6p8mw-mgdiXJF8-t-ZBCtt7nb3TXNQMj0UOqP0wU-vX-ruUaV4FWauE3G8u30URF_K8kmd1M2CtdJWWlu85sy68kSukXYbf0EhCtAxUij71a36qEtmlxU8PhGhQ493mJcERDlyp0kk5CoHfnRsZumg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAbEwtSGdN6RdJNbJ25SnHddbQI8jh-CshZ1e8oZB1H8LYFk4aSWxiDlwQv3iebNCJOFBjRg8kMQCTyLtaLUHTRvt06zwFBaK3a5Ove_MQfwPnaRGAQyohXF2c8AZjRBltEhBZvaJHsixt4WBBZKBfdh-IGhQPv54wiYIpr0Za38LQhAnQxcSK_A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAJtfxnMRtp8p0zOKRa65DYOEBQXbt2L38JEmR1q7hfVrUWk5XaVq63FDmc6NEBov-L15N9hdMzF-geLfiPDWbXjRog2On52JpIjPs7x9-TbvLfVU6c3BSLazu1rhoeS9gEhBjbZu3b_Lf3LI370o2tp_dGhR-DSUtaL82TfkTjebfrqhmMYPNig",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA1vbCAvOet9lfdLVWQUf1nQ5g-nYJ1yVtmndPVpIFfXYlirkziv393DrRse-zG85co431Fm4sJ49bMYFP4KKeNec47-w4Q0T1vzI81876mXUAPbj3Rys_JaeXdOc0vpYtEhDS3k17sSZmtW0djDs42dyYGhS2bX94KYKczhlXu4ywkizjDWcS2A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAI9yA5IFiqjfgF1Gp85PGfxbFU-DNqCIoyBc7emh9bIMAtlyVMIO7s17NYrY_M3bVo8FD_0a6RbGc8TkNTbzhbBUveHxGrVY6WH6Qt8Zwcjj_NS4tuUPP6EYM-uKq6FOAEhAciD_Tv-8Akx_muGNngI75GhRQA1jANiwIyrrB51Vg0O_i5TYjng",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAmni9yCl-HircF8noiGjTxAZ1NW9PRZaFdTJbQBqgYqxoqv6hv_kozCtM0839uIJ15P3Mt_lPYJ_BKWCWEuAQmEjYcfE8sGsOV4hEYUKAGGDuxYYdhBG5bEl0HKRLSgtBEhCNxRpotgM_I7665KgbW_n-GhRMdEfKed25u4v6iquYSUCEnMJDhw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA5_IpYisRAjNBi3ykEg_7HRo5VGDXRzyF39coGhsh-4CYx4llNm_O2xuTn3YNRVIbFyOwP1yMYEebadMHKMCM1rF7oXq8Lh7-Ny_udGf6xvgAJ36_Yrsrostx_-RPIliPEhCbUqGQGH2gu7sSyMy4UzJOGhTWEZFMNPTBo0IOzECewEXhmV4r8w",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

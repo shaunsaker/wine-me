@@ -1,0 +1,23 @@
+{
+  "radius": {
+    "value": 20,
+    "type": "number"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": "-33.9019778",
+        "type": "string"
+      },
+      "lng": {
+        "value": "19.1127867",
+        "type": "string"
+      }
+    },
+    "type": "object"
+  },
+  "name": {
+    "value": "Franshoek",
+    "type": "string"
+  }
+}

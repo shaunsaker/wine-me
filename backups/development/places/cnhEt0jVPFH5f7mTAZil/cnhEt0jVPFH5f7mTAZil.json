@@ -1,0 +1,81 @@
+{
+  "website": {
+    "value": "http://www.deetlefs.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Brand St, Rawsonville, 6845, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "023 349 1260",
+    "type": "string"
+  },
+  "name": {
+    "value": "Deetlefs Wine Estate",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.68770999999999,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.306004,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAASvXrXnFhyK950rCjF15r1Qxhw7VJtlgSYTHNfBjQbDQpV03nEOT8HGUAkoAedl8q4_VffvKCAoizgWP2qlausUGD9PMzvHnnEB58-88gSy7fDGWU_if6R3eviq04CcLAEhAoRjMM9Tkh2WordwftzeAPGhT36asm6bTK-QI9Oo26FVfIAva7Zg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAdn4IFnHfmhCADMxnndtAIPjXInEk_P5rU80tfiVR69GcT3fuosIy3sDaVoip4NsQ6k837QwU2mFhgn7ao2BTLU6I9eOd6un3G52TJb47OYjKcnxenYPg1lkV5CTmbV-8EhBctWEIG8gmF6ktR4IJFqMsGhQaii9O3MQYkXu2762x8Tiyzl_Lag",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAvwqVMqirnLjmtYjkRE1Cjr8FH7mZSe7lS3bkCOTSPVhkD3HABeC_DEYcrLeIuG5EFr2D4ZaNJ8JjbU8glOBrAacOZFUudzFXinkyYp40GamwwnOUKCYTYryY26umRxOGEhCOtHBiPo1MOtwe-hhbL1N7GhR-kpH1SBUp4VtWpys23vHYkYS6KA",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

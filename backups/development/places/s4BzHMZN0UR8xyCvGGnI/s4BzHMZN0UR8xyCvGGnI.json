@@ -1,0 +1,109 @@
+{
+  "website": {
+    "value": "http://www.lemberg.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "R44 4km west of Tulbagh, Tulbach 6820, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 300 1130",
+    "type": "string"
+  },
+  "name": {
+    "value": "Lemberg Estate",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 3:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 10:00 AM – 3:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.302505,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.1064385,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAA3Vr12Uo17OV6PG7VsMYpBg6mp4q6fLAmxLeEYVLnqpifPNLzdJ1wwv-40vsSzLl3H3xCHfDDmFVqqLfevykfKxrl6S8lsOs6Bgv4jf1hVYHdAkxASzg7naflZcPOHtC1EhA8GFDN_uj5qzYyghYmOi1_GhSbjMOmLJoJ0B6LYJvY2rmNbKMgew",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAGRdrDbE-k7TAcJm3F-s8FU5UokeYIYz801ZBbh9qNTVG4yJFwyLkt4W23ScM3ecJ7ZnThv96AhqWBs2REciUdDgWC74sYwz9B-Uth4W9lh74eAd1rR1Mnh0ybOwRm6hBEhCOLku0i3u3vX9AiwPRAOd1GhR5u6oG1PsDLct6zPZuM6CqZ6C6TQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAviCyBVA7qUYzPSaI1oeS_TbsTvHd-ZTvsdUfc7wKMiCm4JhZ1wg3V1zAKpMwtIW77oj_TmBJrB-mN-HYqFBNjhvr-8Z_Y6Ik-l1IJvlMu9mKNpGcurH1GJhdkHfpU_QVEhAEFVpHBYVlojnCLvpsPCWfGhQ1g1DBWU0R-6--g6s1l-Q4Ep0Qkg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA71P8v0dV9rADb5z0Xm2L9mBlO_b7tn6KWvSp5p94oZ2N_GgwDpkR-v1oe9i9hOjuDRiRdzmoheY-u80dMGw6Vvsk8osGniGGg7qWJ0feMMUnbRBJ92dmLMP4GSCaVTP8EhB-5ubV1ZVOGUcbmjJeq990GhR2gCJIlLFAmd_ZyhBuKk5dl_o2kw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAJfnmw0EFTKvFnBJx-Y1NCPhPNyIrjW6F7ZOBde5FoTqcK_yWruGox0O3Gkyo7SqxhnasoM28F7j0Gbog6FzmhBM_5ZAvYOmD8vNAz6p3XLAHbhoSI9ExkwpUwrw4Nzo3EhCAjvmnwOV0BIx8O_iupCb0GhREqz9R130RdGg6cEaiy_eLfBF75w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAQrTZuH6vkynb1OVFw6GH1Xu576Yi5qIZGUCraQazOZUrfTMpHpB1oIz9YXA-w68tXOvgEzciejV4HBN88lEoA5o7ZlIyxJD-nQ4uzoT1Pcv2LDt1nc4gRq8JPfKGSYRjEhBaaeth6dJEo7Mm5QWttbXtGhQkPovcgcblWFghOiDYL4PJjMIxfw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAN8pjGRCIhn5VCC0hgacJwHvZ_LCxrSc-RilayD-Ire2JLNJxufGNuxUUmv0HRSXL89rKkQfMfYHCGs1pg_D5-NJJS8snZ2wt2_llOLaNJ9dg3tJ4ajWsOxHropWmaTDsEhCX2v9zPhhF0YZLjklAMXpHGhRP1djbrlWJKpmodCI3zs1zPMYlmA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAALZJzVhQZz545yLYzIF9gjs72LfFNRRyLjXb_Q1VMRswXJPrnzSxwV4S_yofyZCLruYL0WdLqiAsdaTH26BpTM2POaHPmnpgTUAla0mFAvZAJIoL1-jNw8ySVVFJYGPhpEhAF6Zug9nbzdcUCfs8VIuPYGhS1bSm4Ji1GjAS42dRM_SsTbq8K8Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAhbQX1f83ytY9U9FusOWOvCf6MJBT-GsMGoXj2BuQ4-W1PTCj6k-84Otp8utgLzSySaAORLMilgLUV-6oT0YajOsIviwt8JvyW2DeMHDF0ZRXk967TA48en7LSPpU6C_iEhBsOqAJuP7cqmZ52I0cVuLMGhRs2fELNFEbhRacxjxWKv4Zyv15QA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA0GKGTCnz3eU-Qkms_JSVaf6Fu3Myp5oZrTvBk9X0zj-3rDhrliM3cA4oZZw3PP5HC6gOnpicbIUgNWpQRky_U0G2aT_EeDPf9M6Sn2PSkctoFc_vewmPHNEYv_08W1iEEhCIWoJwDiYqQu6BhX23cdQNGhTkgJsIm567aI1oQdobxONJfpwa_A",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

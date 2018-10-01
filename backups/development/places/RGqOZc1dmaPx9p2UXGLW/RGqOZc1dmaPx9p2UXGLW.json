@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 1:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.6610563,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.2690125,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAATDEO0-x4t_gH-rd48YqIAW50TxJDF240cAyzWXCu9rQC4m9uKWnLBFG3MYFVDoOnEt-X0nLxWqNTtTbY_2i-ZQX5c8Tv4CyEy5p_n0UJ4JYMSHRo0rqF2cbvqp3bGjqPEhBQ_1EwiiScqDPaW_JRkw8UGhQeRoReIZ34oJgNIhmRO13xS0dTMw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA0HbZo_dKoYeC-GguJg7otXSyQsD544QguoCVEag0Dgqo1mB8RNfosvFwyJLwXgqZycyg_HDpKCXZk4vTgUcauItyEmtjh6J3T-wWSmmBkgaNEdXFB4DTSw_dpJT-X7pLEhBks2ZRH7tkNSNdtlA0UcvBGhTAzr0jrh0m3mcCrXL5v8s6Dbh0SQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAALiYmrxl_oDemm8_klNOn-nT9qbgSRRk8tiz884YC4FnaNeG0hVV2pmdyW1EvPgv1ofmjoV5Epe9yBMlrcIZOnYZTRs0xZDy_lOOwdgg_0Oal8BUJAC3IN73Ch_9tJ9YtEhDmj6ts3xf2bsYWFCzsjyClGhSg-_OhEPZk1E-BBVFO1DGAsT6D9Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAXkvrOJTGjn6vAF9B7IjFlUCimptMk3zeBaW3bwq1XIESW6cXvdQpglmvrCe8obZoitMitIglKN0hhxtPkGvtFr6C4DDbZvcyiByGacROXwU9spijht3PlyPP3Hlvv1qPEhCuRiOWIEfxDNHmMLiGhPZyGhQfyj5TZYytEc5pzPtEjZfGOfd0Sw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA_vp9Epm4bC1N2pG6Rr-gCDS2LzK5MytvaSzFinOYznUDK3W3PtHcbwlbvQ8z76n5GSd6FwBMfIdi_66XF2J-7DhGgcG01mDSNi1iczFg0_hNz-GFhvjyRU_0uRt8NUyJEhDUITWKKFPGAz8I0f3pwr8wGhSe92edaiq0E_GxkwZiQn3zmGUHSA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAoCLzwFUb_9zbKloAeMDsD1Y1tvQdnvFDyKWM0D7XFjGk7r6TgZio1hc26vYuQG9Ov61CxWdcqKVQkkYmC00pAfTmIIjsH5pWP-aXnLFuz1KCPXn_iwGD5OWigFn7SNrYEhBAg_1T3gs7OOqpGXi_Y7fgGhT3HqpE7V2D-C4tM7x2yYlJR3PLOQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAfwPljVvGr-XcJCQxkkG9fQYu5Rg8J9SUosCEpA_PCq3dKCfWlOGpHmObyH9uWa9Oc0UjotaXWQh_R0j_EEO4YV6NZY1dtjRoEgJRcAh4uQmw2CdNKcE51xAhnZbmMUfmEhC195eyqr_tXp484gxIySCfGhQHAD034sSuNn-qRBgD9KH-quU3mg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAjEHUx63yJ9054nztthy_v_25pdJw0w1uQOqk6Qlrjqg_ZRzLWGQ3_QKHI8Aw1a14NzU0YhD6bdDlLcxuTn74i3Oesb0mr3biBGwx1USqLaWH-iqxwYDusQI1dwOD8I16EhC8u5gqnO1AnMGlT20WqQAgGhTLr4IC4SqH0oHJZxylJIKRmiLC6A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAjxhKQCyrgHpRTooXS1yQdDswhasMKL_A5fg7sfdwzOaAh6wow8xaCKx35v9xcsi3tHkixotMzJXIUFOP_QHTigDzyvM_Ppbk2W_WiC1gXnKPdoeaq7PJTUYb4RyVb_NvEhBQcLP3fhZy4GsK0lEYhq3wGhSzj02QQ9ICqc3A5Dcz0lNyu202qg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAbps9K6XNbqbBREln3fo5Y3lGo6JRNiiA5OFizqrgDygkOBK9C5R2QkScrjcNhva8RHX_VHs0ixIKdzNdLaFry9muPAMt0TehVQHM1XCAT1bQ8AkO80ythKW3CYA8qyG7EhBl5qMqGnR9MTYbhkc7CfSwGhQfXxDIP0hhJ0VdPUimYmqkegEemQ",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.badsberg.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Badsberg Wine Cellar, Groottevlakte, Rawsonville, Western Cape, South Africa, 6845, 6845, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "023 344 3021",
+    "type": "string"
+  },
+  "name": {
+    "value": "Badsberg Winery",
+    "type": "string"
+  }
+}

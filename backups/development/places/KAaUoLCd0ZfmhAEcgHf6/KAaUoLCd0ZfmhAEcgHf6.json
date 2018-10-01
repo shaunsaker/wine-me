@@ -1,0 +1,76 @@
+{
+  "website": {
+    "value": "http://www.thesadiefamily.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Babylons Toren Road, Paardeberg, Malmesbury, 7300, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "076 151 7131",
+    "type": "string"
+  },
+  "name": {
+    "value": "The Sadie Family Wines Pty Ltd",
+    "type": "string"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.524402,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.804401,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAA_CLpNHHvRE8uzbPUleOrFztX0uJpuBcpDFuc6AFL1jsz1T-x3EL5JBwkdV5kvlyFhokU5WcnozBXCf5dFj138GEhOKP39hiND4-Z1MFEibQUwN4OhY3DYyX3DHU2OcwQEhAHteJX7vSC0lruigMlUQrCGhSfVngl2xvXoGX07T8l6-_LwO3uiw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAevupbZeuigcddsZFZJlh4nv3cHCpDU05JxysRtlI3PrNC6IG1Hd39g1BoFZdc-XqwdOnDYiN0nkqScWos8eRfh_OAD99YHgBnVUxTMmWY5JK1jCnJwORl5w-w5N0avmIEhBlUjd0Vj6rY6gVbfW1_JpkGhThislhWM5SWFHGSGlFY4IlbWJ6dw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAANTt4hnb3H4mbXYoOKLNlJwy2OUeRszAEK34dCadA0NoJiHDt9k8fSKJ88K1R06oM_eXrLdhMDCdFy8ZtnBTL6wdSu2v9hRjGZeCTs54YJKPvMN8vxcxl1R0F_Sbs_mwKEhDw4qihsgpuQF9UBjyNC7ObGhTt9d9XGK6cXIYoxrZEhwnAwDnmJQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAiR1URybZn3Wm51xbDmllr0at8g_eFCVhCcB9YLMnGYY-GkD80IA1l_TUvhexvUChQrEpGk7mg_8iBbfGl4BfCXmmo4qS7Evz4ibDxOcp3NczJj2oHtb1EbRurkWbzpbREhAIm8dv58yanfWFMH7tp9FsGhTaLbC_Gtf2_6YbHUJhT6ZyJdYOVA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAtPJ76shOmNMYkG3QX0pKmZE99KLRqz0EXpqZCrNfOl0ayBIoKinmaFu3QEifZpEvf8nQcKgx2IfJxcRXla2wlFhXFmChtDLz951EuX7h_RIHc7NdOakJdt17c9fCk4RzEhDWUoquLH5dYAYSUNoekB-gGhS7Ht5_inOW19L8AqPhsyQzePHgBw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAapBgVtyG2nbD6vQw5M8tmQHTpVwB2IxG8V64J-4uAjHjTs5idzbJ-dJaxAgFapUyG_gtP64pOETZywV8YPoKbwoXNmt4QtRNV5DXO-VX5_5ytzx_xIizpPqkaS1x1t92EhCdLj7lv52yk0AwOq2rUFCqGhSn6B-2yLO3G94NIKvXGRBsI3rU_g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAkuKzUPRHDh8s9vVSYkAkuCvOC1rU9nQsmW7ySNeLZI1Swn0AHPA9m4-1ePO_xFiK0iwIEb7NhBa4xefe8ZOMzlk8GuDUaHwC-vPCfYXk8xcEQBvX6AAqkjjQKjF6Xw93EhApryAGctCpa5FNHfR_gJaEGhTWRaOR2vxBY1cFw1SZa50D00qOfg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAGeAwVPGLbHlqfn8yTU3PMXZAeMNkHzbE7OiWcEf6zP5tV53b0uX2Cm6vhU1xGk55m-sdLL8fDI0xZaPAH9eiW_E6Z35Nn9HyIBa7i0FvcVvV89MLQeqov3uI1FZiJwxQEhDkXapMNINnLLZruOmEra1mGhQacqC_AqtM07ev_Jcu0jGesk_xRA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAALFZW9N6hyDkj3wcc0N8Hpg5-MpuZKuhWs7Jt0SW2Y0SVWSwpj5w8DL3rL_FfffqSY9EVsoooAJH5aBDF7EqDVd8hh-joMROBqQO7PTjUZ3B9iZbSjQPmWlTImOToMtPjEhAlRQHVxJ_e4x9CgZ_esEl3GhR5ZBPkwixlvbEuKZ97gZWxSBLuOA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA-NglRCUKmZf8I7FEVGXYp4RO0nQhwTMLy-9NYHcm_Fk-bngEL0mX6wH2fNEmnC-h7zBYaMjWiascChM0LZ_xqlKIExeTjgLkPzC39TO0VxvLIBBZw7pkf5bbyYSUQKaeEhBSCaAB6eIXHkfo-unDHM4kGhTCM-2rzG8PpDh_ncxBABkwkunEOw",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

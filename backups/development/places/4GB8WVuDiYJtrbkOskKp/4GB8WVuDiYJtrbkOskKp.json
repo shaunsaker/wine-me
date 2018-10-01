@@ -1,0 +1,109 @@
+{
+  "website": {
+    "value": "http://www.zorgvlietwines.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Helshoogte Rd, Stellenbosch Central, Stellenbosch, 7600, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 885 1399",
+    "type": "string"
+  },
+  "name": {
+    "value": "Zorgvliet Wine Estate",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 11:00 AM – 5:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.9145313,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.9355186,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAA62JKfjUYFG22SiixmgOYx74X4RFJwZfb_FzdvhJmyKjgn1R4UpvgVf5iOev0HxYVGo4_auFVt0VbP0PXoGjH-AHI4eawdpTmagu3s2GTQzET-BOd3Yi9jB_kFsb9_QSgEhCVNy7aWXh9Zzc7PddJ46P0GhQBdfLrNRm-HOE9ujGB36x2KewwFg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAgwoTJ2oPytx1Kugg_jnEDU6Yrseyvq-775uqJA6jxeAXgnO1k-k79IipoyWsrfRLLm83jvy4cE3sYCmLQOkyOvdIM9ZHTovsbUYJOvYVbEDPSNkDj4VEaAjHS66zBrn3EhBI6be-4pZgy9MA4I_RRN_MGhRxqm7vbMoCoBtNXpJ0U6SDiT7OCA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAdnG2KTsij6xhd01EjMvFxKzNDtfcjkOfIby9zJ9hiEZYzBBmBSlfEqw3WUqm2yCwGCarPB9P8u5-aHBC4ls6ELhawsGzlVyDYUkPaKqxJGiDHTqI5CRIDC0ru_uXfYFOEhCO-yZ7bQU-RSRM9tNad0BgGhTFE-TFdgLqrX06xE1-GdFbtQEflQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAfYchXEoexhcg2dHzVrUhYEvaC-J7DfbE1dCzYr69Py-kOjYFGWXX-h_XxiK1dbCoi3GEWMHC_PHLwVoEfVf2z_1u46LGHVjABKmrDAVV54E5InvwWKyhjs2tI9blzIROEhCujJyki-DwWXk6JDI5HWxfGhTI-7EqxJAE_FcIHOhNrBB148V01A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAASE7oXVrnElKj9xSFnFddEFal2LXlTpC3wG9cmX4ywfN6kRqARaj4c-Hw95JSn0Z_IwnqZJueSzaJC7zpU9utgl7OuPyoM9WLRGUGE6JWxOIdOy8dwkWNI7h5N5oupm-lEhBEbmbB8iEG4GDhBzkEoSjtGhRlDhDYOfAvsAKMH33JkwXILduDcw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAABk_gECfxA8LvfsV__vCpzgSFg_th8A00A86-rhALFcHNGshtZSe-2RVd6tS7iyELE5Qj7SExZl05Y5bUfRTJ79B6EuzdUQ9hBBKKn0jHAsAXoyHX6DNHK1RlDxzTR04HEhC3J9cOdp5JOIjufTBi_h1EGhQiF16MZ5jmc2lSqKaZiup3dPofTg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAR5wBDpI7e5uywwJwj44aLAvMGgP35OFJf61gxfSlTiSlkter6k8SC1sFeIUHBnBA-Ylv9PabIkYOqlXBiaDwYmyLzew6Kx0PTv7ZShapiQqPYv0P6_3TPVI-jNC1JYfMEhBS3UWx1s5gmbMQYg5g-t1fGhS0R-QCdQpKQOLVx30BfHLeMKG52w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA4ZkoBydv-pi2uPOPhj8tFEX4xQeWUK_CsJ_VslW24Jc5AHi-swZphlICH9RO_1A2XCn52MzGqjW4abVMVaGLYy7necq3lF6lIazLN-cp64eAs_ewk-iRi5lO-_zIZIAwEhBBBTDP_wH_SSsYCebfpVAaGhSgmWVnKQ0Rgg6xwmuSHiNE-wqbtQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAhdWpa1I6TvjQYrcf2b40puMxLzcoNfIsSeobRkJcwK5evi3hnUtyS7rc4B1TD-3dKK8N6hCT3l_Li1eYsHE2shFIuzm4H-DFeI7qTHE37hVYlDr_VnSsg8L5hmp-QmciEhDMHWi-Q9l0pkDF4jSA6ivNGhQ8vqvzkSDPdZ6mUC_XanjbyHBlDA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAl8NmTfp1Ajgti5dYXhDE36R9p9mGVrB5nEt1j48rlGAtsvB_yvJQd9oD0IE3I71_X-vn9jKbEa-Yt75Nz9TmZJHTTHpG6QFvzfPUgIwzSmwN_Ss2qXD_sd5FCsxhdLpaEhB_Vey9NN77vEHCXF0E-zZBGhR9F1qa21pF_K-xfUmMyloneRLBeA",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

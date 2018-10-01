@@ -1,0 +1,60 @@
+{
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.8789881,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.0460896,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAv0F6VegyFINkxrs64wzKoWcr_I8ST2V2WME6S_OZI0c9hHfWLLja6dqPzEnjiUr415wHeJxnPtVWrMOOfPYN45V_wZpZYPQBbADMDE3QeWdESuko_XTP2r0r3aSI6hehEhDCNHlL1IKFHRSltD0ACux8GhRNvZ37fFQ53b77FFjZBEmyxYia5Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAjc2NnYxUJ-nDM7zyFcg0cWtSm7CLMcbFUglvFmaMwjfbmRR7sUWtlHJPEXm4qoyUeoV8myGUcHXD5k0VFBzO3Di3n5a2JzxrTpmw4n_GiVsDLbTghGjHf1ZMCn4y0sIiEhBaGlBY4MyrEcPMSxzuzfOdGhTbLYi_MdYZ1sOZqIXxW_zgeq8vHg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAGKcKttq0T7HZpn1BQ0FLntiUkXYVxgk57zFuKrB1hB1bEfKTSvrTWwqP-X9nLFQdz12B2vGQxCqkTdiiHODRjDgUTzkIStr78moGSfDGhO589UcplCQRGLhjKr3at1UgEhAg70MVIThH6e-1JBTI0irlGhS1N7_NjTfj_Qncct2O7g8jqy2_9w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA5ql4YmbnaUlPZRv4hS2WSWcHWKq-K0jhGAhO7fQXZxSX4BR8gdS4-48qCovyr85mOw12PADnC_5xpCyG3nQ7UTiIpDUddG4VwXEGwiJWyGbAvsy_XmViiMQNqh6YmScMEhBuDYpW-Oj7WiK6ek4VTNuwGhSW_HEmHiLhj76aF7qnpxOOnrykJg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA3-U6wzPgpwfnKzYUX0srXCBH85Aof-mOL20Tl1jHNgfsjhiHzh7_vPtQuSZP1PxcLaEL9jxLGNAcZs1vA5_RoUuibAyJ4D8o7jCnV27uChUxSSMaEiXcMYhUtxy1LheHEhBO-sOkOWmwJfQ7x3xqEZYnGhQvM8R40nSTmgrMAIqr2y8DcofGbA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAOH4ILAZQtoZnz-OAo11N9eOy2Pv5Zfbt2_wIyC0HDkQ9QdoTKhKF52JoigVlJNfas07xd5J1qtNtP9q9C_FQxc7_EXtmNtFljlDH4xmlIopP0dJfXJfRZH_rABzu_deAEhCvJ_wjPbiGx7mi4KKz3UEvGhSJyFbimO0pAP8ZgyvGa3NZQG9hoA",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.akkerdal.co.za/wines",
+    "type": "string"
+  },
+  "address": {
+    "value": "R45, Wemmershoek, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 876 3481",
+    "type": "string"
+  },
+  "name": {
+    "value": "AKKERDAL WINE ESTATE",
+    "type": "string"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.9374548,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.9447819,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAASNe-lYYJfmmk3h4jtZHrxdhtlQNXpvo1zeBDFcszz0Z4nptj-EToH5EwtTuYTutrtK6e0yO7L_PQ_Zu_LgrfqMrIQgRAQFRgqdCrHNRC2AevAqOmbWpRFbZMOMedsSuzEhDcFWXAlxI0oH1-7OktB_cEGhQUKeDMDKj0rh5pNTAe__B2PUIR9w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAhj3HlIm2_hEEgV08XLFu1VIU9lQPWpHPmuRr8a79koENZi2zTiF9vKMGL4JzknQRBURQoPhQ5WJTwO7n-dDhd2OKa6oaVaQbHvf61OzgxF4xIcBUvDDpvx37hzn64t1wEhC0T33pwN0GOoBkfjMbnKpyGhSj9aytmdYBt1PPTbqw0I5hCFMYTw",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.rainbowsend.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 885 1719",
+    "type": "string"
+  },
+  "name": {
+    "value": "Wine Estate - Rainbow's End Estate",
+    "type": "string"
+  }
+}

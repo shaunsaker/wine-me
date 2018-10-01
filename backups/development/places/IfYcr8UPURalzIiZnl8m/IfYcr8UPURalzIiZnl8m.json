@@ -1,0 +1,31 @@
+{
+  "phoneNumber": {
+    "value": "082 758 4106",
+    "type": "string"
+  },
+  "address": {
+    "value": "Bodel Road, Daljosafat, Paarl, 7620, South Africa",
+    "type": "string"
+  },
+  "website": {
+    "value": "http://www.dmnwines.co.za/",
+    "type": "string"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.69008,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.02806,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "name": {
+    "value": "Druk My Niet",
+    "type": "string"
+  }
+}

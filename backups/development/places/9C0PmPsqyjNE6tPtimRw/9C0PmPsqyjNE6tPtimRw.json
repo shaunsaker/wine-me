@@ -1,0 +1,109 @@
+{
+  "name": {
+    "value": "La Chataigne Wines & Guest Cottages",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 8:30 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 8:30 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 8:30 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 8:30 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 8:30 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 8:30 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.8792081,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.0527048,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAp4Kp0SnYRN1ZbB5ePPV4t3PADfO_GCyNAcnb1Jg8UyfX6pkfpmGmG3wIOsvI5cSr5k-vhP1iuZqx9kA1EAdR50lLx9JfCbwMxTrrFUu1rb6mGoVr19UKAqqSt28ktcT1EhAA2rJysRZFETLHw76fsBSnGhQ4_5gQJeOnAxZz8Oz3205z0TSWqQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAWYQUrSvsriVal5rM_F9-1PG-b_dR9EU4zXYVW6h_yRGDh1AbEHZ4uvtCywfud2frs9Ll6-ctzMY70q3r6MTZ9uW4RwdxvRxNCz_RWL7iyM5jyodO2P_uDCxlsQoW1BmyEhDXorhUwfgSEnsDzWCh3wgrGhQV0JppBs58-8RTqROQkP6FSfimwA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAIg_3bLPWPZc9cpCVkG_MNMi63fJU6Yz-1oD2OhC7xiLd85xOZRDOJF0CEJYzCnElkYDmUWy-S8wilRhMQ7lpmnU9Q3H4pEHqVlVOcAwFVVcLGf5A9lRcuDiSRv-pr3t5EhBB2_J4pTsoYQr8iEcnEKq4GhR6tjX982YicoL4ds_K9txFsDnfyg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAbYOD10GPvSW4gMBf5IleR8IOhMnMaT5Ko7gynkb6wjxe6E8pBdjxRPnAqRUFQzs9TwxcpzxpmfoNgO0eHzdBpfcMsWEA6VZ4tIjnKD6QYqucaWPM8VkZtEYzO4aNU1j1EhAeabHDfLBMKtdrgTsvgF0WGhRO8Ei_8YZoPrgsXb9WTwwfJ8h-Eg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA4bF9yfnH6bY1VL40eBAhxhwrdQw7qLQ7J8TBWY0XcjsdQJ4asifq85RGwBnRvPMbxhz04xf0kn2ulAxQ2Pa1zRyM-hYv0SBuX3cWQKpeatzTPnpDSHUaRy8VW5plAtmNEhDLY1x6coji2DGPXpyREoLAGhRxGl66Ox4S_Q9hJzGBToYmiuCi9Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA9QeGsk4Yy5Q3V2C_Px5k816NZeYRLGxVzw3PxY9zxWYo2NtL1p9UlMqL_Lxn6kksO04UdtgtvO-UJLtjX5hgQ2Hv78KO1eL0AgM_4MWq440DBV8U-s7yvoSiqiytU5xrEhAsTOvzv7qTOapM_1G7ZCSRGhQG3rNy5yD8C8jlZO0ciTjA_N-h0g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAApoctZ58udnuVN61jVULzAbaiko1VrXVIxfYFCPNljAhtHiwptvtuE0uH9otTMUa6mX8z5_62L1ddH2QNLi-9ZUfQWuiArz98JpBsUdMuS1JxrFV1y3Aw1aiqZY8VLWJ4EhBV8QoVahkMIaU-Z6clgzHSGhSudaGSM9RByz3bFV-mG60PneifLw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA0wRtXsDI3sP0vuqbnCmEvxaO_8frqy7tqmWM2Xg3Pny66hHVXWAZBgvrj6gbzvClmAGCaDYDNl8pcdvu5i36iKFvtUP_5nI8TtxcbeUVh9Vjm0qMxV3Bx4HYVq75TbnJEhAtp2e6wzYNR2zxOId8ws0PGhQyndch7QGIc084fGtDUggpPiURGw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAEyoqeX69Wj8gSMqwoFNU6Nhl_wI__ku39qgJ-J6ytT1tx80MHeHB7EwxyHgx1nTy9zCJdeEqlF-uzkGwLV5WzmjVGSLQ8JckLmXUX3aiHBB-icRYnQwjY88A9ghYsua3EhAQz9KXx-gFuUm3nOcWHH-ZGhSyvZRtabVmKLpH7ab2oMrdJJ1qDg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAzivajWGWTmKHReXUtGG9XJvpP2wa5mARVR3KoCT_3oq2QgfDkjbCmdtaup9AttJM8597UF0dIlKgxF2cUvfq66HXflZbstrutAfKhloNoeC4Q_9LMQZZfqCBOAPq_o9HEhCFccuXm4PW1W5CJgeUtj2OGhT52B3w5I9RLzCOX5rN9sYHBi83aA",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.lachat.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "R45 to Franschhoek, La Chataigne Wines, Franschhoek, Western Cape, South Africa, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 876 3220",
+    "type": "string"
+  }
+}

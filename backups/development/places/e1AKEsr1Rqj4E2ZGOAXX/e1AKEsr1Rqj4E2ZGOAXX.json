@@ -1,0 +1,109 @@
+{
+  "website": {
+    "value": "http://www.landskroonwines.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Suid-Agter-Paarl road, Paarl, Landskroon, 7624, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 863 1039",
+    "type": "string"
+  },
+  "name": {
+    "value": "Landskroon Wines",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 8:30 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 8:30 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 8:30 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 8:30 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 8:30 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 9:30 AM – 1:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.7603852,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.916142,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAA4QL8EsFXS1-yl4y59t11a2efjvQ3maYhW37VmgukCWh3iXDwvVepF96qJE-qF0g2MHHGEPhg2vbSuh0wqSNPV1DcKPDPznwscTpTm-vccd8TTsc89verbR_0oeQH_a-LEhAZwiFMMH5j5W4LV5iD4uQVGhT2GiDskTxtC6lvNcf0a25ad279Bg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAi-6hU3frhcu-8b5N7Q4xdMLezUNenxiE5XYBHS9DK5yySx_aKD_noux4cLAe7Kbss8P6JaEy6lMcrlUGhEiD8f7JdyBBtNkFMbVdazZDI9bv67uW2eYZdrH7MWhBateNEhBHsPHEHWB5CnfdcRZDXbNPGhSGcnM_tUAR5PzHV9LTFK3okT0ytw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAvyi2FCQGV4ouCn8YfUkOci9TdcatfKee0p-Hndg6hsFHJjM7dysi5qyF6zwfH4D-Yfe548tRmb-V9XmqWalRu8djUE7-P2l5uw8OdPN9gAelkMrnO4QdH56NsAMFvNsyEhB2u2bOscMeU74dmMRG_WfVGhTGvisQcviuEDhFCSO3Yg6uy-MWmg",
+        "type": "string"
+      },
+      {
+        "value": "CmRZAAAAWYr7Eqz7fceKGsnALGrc1xDy6Hw6qWSShri7A3Lq-iaMbv5dpuitF-u_vlC3cr0yJj7Jw2TGTk2rLjtr6ef-q8-ghFgtFzfg1ilqEzrHaRWyYYmd3787YmDUJLxBBCq_EhBE0WiSRx6_onX6l0Hf2skDGhS75OtQDjjxudQnkskkzjMVwjVdnA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAoSK5GQ93v9yAFVOb_n5vPVKPprC-8NCrfdnsRipCTg3v46ydkwMUIY8W3nKJGWrnPTulNGMKOL22W2PPoBNpwFtBq4r5CXQa4zXB-q5nf8YfZe5T-YRLLndXHlpWSG7MEhDhQpOf8u6MfWjrTWKbevbVGhSxivK1KvN5p3xpabTLAYPcdmhImA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAFOyJ5fHbKCIpAyY40Tm9sSU35dXFocTZL7Wbc9B7qPC5WmTEUkypzxJGXrM7-FbEl7gJ1xfpUUh-DamSQanuOS0ojoE9unC5lIc77BFigLYu89b78mH_0VwBdkCDY27GEhCAbop_XBp9LQYYQ0hd3CvkGhQvzFOXA069-AthwrnuDjzpb6vczg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAARrUn626TwgtZpAh0pFY2CW3-ZD3EA9OpiVL-bQljKLlN7-SrLI18Xwx2LY0P7Ot7tsmHmlyFBwlQP50T700yzUECsmkt-mXI6GCft0OgWGEK88DdqjFqUf4nhTvEx0t7EhBQakFigYsh6w1uqDLbDHZQGhRu2z_9jpgc6VTK7jU3NKr_NhZtQw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAuacLbXMgMIj0ZuCuYogj471muybMOhy-pAB02yFB13LPeXnO0x3WjVSX8OVsTQnaJzZCP7lVlV4rHdzypTaoy4GcnNjBo009XJkpfkB7NcRNIoDRc0lDDP7-PZ9YHkIgEhCiJjiWxLNQ0H0QAFg4oVQsGhT3bkIHTKcVPn-sx59no5FyxZ2QEA",
+        "type": "string"
+      },
+      {
+        "value": "CmRZAAAA5Tf3kt1y5ZnerOwV0DZEVCgGf1gjRo_XBrRrMPOb0oeW_X-j-pdpHx75k36jZeEwYaZijxnYUiPPOQ901e_XAUhd2tBqgZZwpwUo40l1KlQiwvvpeg94csjmTesnXKjGEhDmKBCZvOF-ogbuz_XK7_IjGhR7A2N2vXREJhAT6w3o6hzOsNAF4Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAASmz-BcA33FA_ewKtn6qEn6_mcO51CQr2cN3CMImG1pYwxFNi_-V__Y8pd4gavJ9H2hU4UE-t52I6PaCyCtC3sS42BgEj0RGtJ8E46Sc54cFMl_ecBk_vQZRs2abEDUWuEhCU8u16ZUT0M0dvFRKZX4A9GhSKnIiIWIUnRZbABdDN8vu1aVW4dw",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

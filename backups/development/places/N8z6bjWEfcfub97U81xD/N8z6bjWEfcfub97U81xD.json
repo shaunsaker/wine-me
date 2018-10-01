@@ -1,0 +1,109 @@
+{
+  "website": {
+    "value": "http://www.kleinezalze.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Strand Rd, De Zalze Golf Estate, Stellenbosch, 7600, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 880 0717",
+    "type": "string"
+  },
+  "name": {
+    "value": "Kleine Zalze Wine Estate",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 9:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 11:00 AM – 5:30 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.970519,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.836186,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAC1SGBQVP2KeshyxGvX0EcWntGF1xclsmrwkLlkQKojsvCH47yayLstIzOkgTimn_vPlFLg-eBLP966WsKHMKKHgieY7jY0JmFTcYZLu9QIRZc9w1rItyxe7AeexMefWfEhA05MPrKoRgQci9d4GPJsw7GhSdC3n6mPRxIyqSpMV9uGjaQg3zvg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA0xYCVMIc9LDjFELJL0CkAUbxDDUvV1RdNK-M2mJ5nGc2S2nrOEAEm1lPZUDY22Frh6dyC9gLGCPFVyAxGviiFQ24_CLOLCBd3ACsfxOVlOBkTRWoaU3UI6GKoCQELXE-EhAkhOuSeadQK-bdq9-nnEgtGhTBEAjnnPDONH4A1HBwvriN-migSg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAg5FxFt_j43hMUDHHVV32NeBNcouZia8kFc0CGs2E_z2FuJeVAff2kETTpZYCprmLbwxQX-U_iQr14p6p82xgGXz7SYmkGVri00SS6uYJlyQnwmr31KHVEzgJZ5NNQdwZEhDx-5PxfNnhyPiTsqeIdaWJGhTQGAmZkH26xoBKpP6GzRpltjpMvA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAbb_zhcRaYFINlpbv2gPQb7vTJm1A1B5iYYnPJhcXGXnsnaETrmOoAN7xehd-dumW32YgOfK80FoZ-Wu9sWJkDEkYoUvjfdZuagcePifHzSPkdQ37np14PNvB8WteFsBWEhBwzcHiYjfZaM15lVMIj9q_GhRqwFBNyaexxyUBLy5EYh4ov2lewA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAFMWbfFiZcnOR7foi_XOpEASL5S8UyoemUwChv2aJzb4FPHoXe7mHqc3AXLTq00ckzhFdVNqH3zSWe3rLs9nZWVElXmxdEDHGs44o_D1QETJSpoST6BqY7AxYsiQ7ts8-EhDV3c3G3Stg5IoifYOUSNMSGhQoE_DQ16lHzZvGrP9EqocTPdFWJg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAATmiQPr3mRleKUktlkJH2VD8uFAvNplCEhLgP3dQGq4PhsIFZ5xJsFY3iJd39WrInPeOSKmhY3tXyUvjO_YmkQB95yFfngRp2o0l7-BLldJmt9JKorxKDXU5EdIRzpvq8EhAyLqEqRF3ghbSzi1esZ-jGGhSzHVw2foTYswHvSSUWZ7DgI3_Wbw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA55Lu-LH4hBgE4TTfmxGpU_XYVs_gZvpPP8Hvd3k29zXIFI--y5HeSGrAHKUkCV8syVUBUWeWmXVTqcChutMYIz3LzBOexoBCQRLpIplE9fhlNGph_Uq2y1kOT6L0EzedEhDKYxlDFvBNuuc1c_EfUTTrGhTQ4zYu--FDCQB1TkxmvGCdLDPDJQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA6m1FQcQDpmOKDvmfQCoHumYl4EsrwV6EKhvSbvL9szaPqJbLkvUOQUriNp51QAhdZIcDJW6-2gjtK9eFzTaj02LDM80OQBT0iMgyMdecgkgRbU6t7RlaLFc6fvvAnEvBEhBImhOiMYAyp_esMtSOHvvMGhSvGbhgSNy7iFMeLyjF5Q_7KcjNSw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAVoyEClt7n8yIqZViit_qTjqM4vmJEXWphG6YEsQsXMHjb5DsSbb28_YXRtsIn8Vm9GXCl00RCkY97mhPqeHDPBuiuOBbYMz1xmtru7BqEIMiKlECkoff5aWlXFld8vq6EhD8HX4f7oB8ZkctlwBanbNsGhTmiqTERHicoF3YZq7oLjvPcYiJew",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAsVMzz4CfvFKuOlpDTvGVMv4pIqxML2VF7wAlQH3EMWDiQ4CzKbT1VoeRIzuYJceKMkAoGl2dUbwmB2K4Q-cYfbSJEIjhrMn-SlASwK-wWNn2zsK0Tz8yBSF7pQlKffOdEhBTzCNLjE3FlmcrP7LE425cGhRlZe3_y8bFxHDreLjs7kejEuMO9A",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

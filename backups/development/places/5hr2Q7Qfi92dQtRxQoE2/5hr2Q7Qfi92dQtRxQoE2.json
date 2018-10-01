@@ -1,0 +1,109 @@
+{
+  "website": {
+    "value": "http://www.hartenbergestate.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Bottelary Road, Cape Town, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 865 2541",
+    "type": "string"
+  },
+  "name": {
+    "value": "Hartenberg Wine Estate",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 18.79154,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.89833,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAzNGSocB7qkDr2fgP6cNxSDkwvzhgW5ZVG8E8Vn1Nt0jn_E2LiYlnbx_-qjZDZTFJiiTrU7BTYLkATNSZzp33ze9PPMA5VzZ9HXVWXL8B60qRT6YDCuaTL5mtMIS9LWC7EhBYyqRflbXbM-XUEooHytC4GhQx0_7QF0nPsX4k_XD1eV02qiA8wA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAATTYHja_WUMJ5tLPXPk05JhNewc1BBT0-FS9UptZfySwBfexNOfcz_jMAVO70L5l0PhsitYU6FE0WEY7HHvsq9DADQ2KT0QrjjeHCXlroPWgW-ahOPGqiXt5JNLIRJDFlEhBpiX8x7FUMZINJX2e7xJUGGhS_jzvjHHIM3fg1MLOXHvzdeNhf4g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA-SeW0Tf68cVQY6oXieBga5o-chKERTKix3gVnKocpnLMWOgSvAxK96qkR1YHc7YNGvv7vuP3EUHgdYweeASI0jloLcKul0fzSfnridsJpyL9gBBWhbnz2Rm8ktAqjl-QEhAwD6nkrIQ8cP0i1fgN4OCbGhTnqO-GXp_Yzm44AYdNGXzFDdHy6Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAGDipVcngc2fF-losIeY4V6HKeC7wGTN87hz5X09FnVOP_kMhesAG3O3lgWUqwKeFDU0J9YJaFLglSRkzUhsYC3DWNlf3djOHqEu8uvia_UDHnTsWFknqF2IEIgotxwYXEhDIDZWBakpMyhc50J1FHYMzGhQtAG_w6VMSnQH6kzcv-tdNlU6SWw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAsn-oWJmT1n8RDB4I3L76FAIFFW1E_AASpJ7OfBA0FUeE7wj_cDimcn2l0n4PwU1fhkapp8C1J_bhDZcUveM8w4Y3gBKXbQcsE0ip9dqnXlYBA3zpum2Nql6BTTXlNbM6EhDPobGAqrISHwmVax-liL_LGhQAa0Z0CaUQmhbGES7Kd3OhwmIChg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAoDxUrCxUW6cou_yQHtnkt-F5H48S8FRbkh2EIPBx9ssZXC5Hkzw8bfzLonLIZWo8F9LNOzOfoUewUlpUbjCyrnx1wHxEk-fNxJZS9uUAuE2lbFnw5dEpl0jm6pv35a7PEhCXzMjYaNKjNs8y0puLy9SfGhRvuJqcbckt7rRryaBTGAZF3IZnqQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAU_ZQPLgFqeJOMAJmOsfMFhd3kkz_zP3lm7La4qhREMzLvUWV4YfbWI52su8nHmdCK7JNqxPKnfTha03u23QwH-tSvmSIfgXBZ7uvJ_YN1DwDRvQMW1Gz5pnw5UWGRw_gEhBVXjpdK-wp5YVmLSMeR-4OGhQxkYEIN0PRF9sfY5qI435yeQBdfg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAmWcjd2FHKj9Z1aT_HT2VSqhE5nBGbbw-AJTFctf2cK8sB-NMiFTk3rie1zbXGYYhaOYRfevR9eE4Td0uo2lmFr5wkVCOTPH_P9fvubp1JnlJf8TV-QVJtIcWMatsrplaEhAFmSusku3oYmuNKNdXNxWxGhQ3MsZNvPbEwP7kyGvK_iLevQ68iQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA7AaM0gdsa-J4S01NaDuwIK8WoO6oGL6cZzEEedMTvBegllZcBpuk3Gq204mBbkurERyJ9bY2cDzNKKMH8eWqfKv27NJPAsc0iV4ZtWUAiPv6xXBkonRSjVsM_EwmTFqiEhBiqnGvRRe1kgToPISjIv0xGhQgyYhK2xWJ--jzcLoPRz13FdMoxw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAz-ptKX_wdpW0g1BLIz9O3--6eABD6KmEf-bm5pgp35EyMg_2cqI9A0yL3QVtP38ynBsCz9AB2Y12m1Hl8mD0BQKobT7ZmjzM2CpWQ8xjcpR4p1XKyhRqDExXakmLZxAYEhCWD6-fNXJZeZvxwSgS4slwGhSVsXRxn-cvBUvfWIRVDtJZ6wgxug",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

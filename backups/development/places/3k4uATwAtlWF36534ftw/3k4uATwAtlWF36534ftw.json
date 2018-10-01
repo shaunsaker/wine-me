@@ -1,0 +1,109 @@
+{
+  "website": {
+    "value": "http://www.blaauwklippen.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Strand Road, R44 Stellenbosch, Stellenbosch, 7600, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 880 0133",
+    "type": "string"
+  },
+  "name": {
+    "value": "Blaauwklippen Wine Estate",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.970128,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.845243,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAA2jWt-hqq8KtCt-TtGsdgKPnJ2-thoF4IGhICpNoVhesEH6TrCao8anFxn4f2KNH55nwGXGkUcKTZixLPfJ9fGzjQ4QtiRjb9us1CJEQaM1XGKFE6xjw6BxZuRZ-rhJxKEhCZv38TW8wr7G7f_f0yn_4JGhRWa5fpMXueYbEnJWC8DodZUjRgww",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAxyn2OZ-WmloHL4MaXiebhA1UgBs6w23vHogdoIiFke_PPmdXWb-m-5qAxzgJuX9XvzwVyFzekb7_-r5ZCmRaqqKO-4COVyTARx9WsDv87T1wKoNU5C2nlTPgAWpufIOOEhDLeGhZHQKE-7N3PXg1y7tyGhRZf0fcFLVXeaFFFteDZrG_9fxkvg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAARqY9Cvxtw7Pm9gH4JSrEnX4Wpz_ZdUuY85gfxOrmDQDDu-He_5KTNVemLu6WgYEforFS1mFGEEtPvNEjaOFBaXLBpQuEu21Ri2JHL3mFL0gKr2apeJpy0DFSS7jL2zKIEhAfoMhVaxeP5rTTKR3__YlCGhTxy7iZXGOEjxZAedV7xnjSxZzJ0w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA4LzPzy8uzbbrZ5YKhXSXRMrbJJjYpepgL1N6cBGt8ZhBOIcOL__6qSTi8vqqszSJ_wr9s1nxc48Hr2ritAs8Oc4awqqMGqOG9Jy1T8YZqUKxBZ132i35i_k-Ht4Drc_MEhDb72J7nmOgPZdpaXhaoVQMGhREBcTf_YwNe52_Aec2LDHkouzgMg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAv9D7AAOHFxDvF7tUqYd2_lTfHnM5ylnTTyNsnObIHrPL7CQOEV2Ln5xOh7iunykdptGR9dhaNqdTjm3jJUIXS7tixPhVs_sKg6w8y1oZGSGmjBFzHpDoLstQkkPSFZ2gEhDmv7sFErRSxzBwshJaBClCGhR9t_mBytll3-FowA_2cC5_TuqRng",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAzcLxgqbqF-ZinatyP7h8xVVre2LVZjIy_suwvXJB3rqm4K4QazLLXeJtz6VBGimGfdap84SXZdKyT5T81G9I6mzJXwyGoktpbEZ91rnySHbmr1B80IsxJ2uU1XLZyzmHEhC_l6iYn1oVFbTr5i5YY7UtGhTdpVIx7KbbfYxzkCUmbBNdME7WyQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA6m98g3xA6wdV4fziBLhuoj1TJlhJgPlh1QeCQj-NYObNnKfyJu9bOJV8KJGTtoA9KP7-gtWyVC7LVyhzoYUiiVfhMTT5wN871hiOf7UnICGMXVMsncTwwyQqTVhdNN_uEhBrzMNxVu-Hi0FA6z0FX3jYGhRs6dsawJxAOJJk0i7RcWraivU8vg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAi2XMdn21OpTL6rnbB2ptd9Zect8JdBu2vHyF-HVrU0wmbtfbal5wMZBi-c4gWI4JkZN1LQ0z7Ir27PfVHzMBQBLSHrnJGo6UZ9yH18AYb8jpDlnMmcaRTIDIgf7DgFc8EhDEVwZveGPjbNUF2gQvWCe5GhS9z9e7qILHv3p2viLeICb9FVEciQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAJVBnvNtKA-i1RrBZ4tae6XiXV9CvQHYnaoql_Laf_wJhObs-S4JKoUo8bmgazu94s6kiIP6bsnnBjmQJCxi3S29tQkfRyclS0LdIQyHKlCxjfIZW0ZbsdACPRGxAXuwOEhDU4oao6IA3K5ppgsmd0l5vGhQl4yeBJoUcB5JsXwW9ik7_3wOB2w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAa5TZOHv-sjlu9grvuo_bT1jf3cmOW4-xiy383XzPXnjSCXRi8qjXAf-ASRc1HFK5eUFmVWwCeUffglsIkGqkamACMnZE_pdgDeB0tIHamKAp19VTM2Mgz-Mnhl5BkVDXEhD8N09ouvVh2EsC7BRA0nkWGhTVtoZPI3UqdedjR2IELT6PdLe39g",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 11:00 AM – 10:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 11:00 AM – 10:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 11:00 AM – 10:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 11:00 AM – 10:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 11:00 AM – 5:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.9196159,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.8177746,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAArIRR7WV49tUCaLysbp3BeFuwzQsCNfC7sQ5q1VZS-NPznLny2hW5Eww1uChf3jiDRRXkHEOBtXAG-iw5C2Fv0U6RyfiCFbX6tnRiI-_ZFTb10WhxyDmDuLPm1SriwbWXEhBXteWMCDF-OTUJTQahZOrUGhTlUsvcTePy3wPQYWP3OdCNOR6qkQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA6F8LlSTJpaa9ewTPyRGyQzr7XKpUPXb8RquAIgkbjGGBOciDfAJVb67P0jR-9wRauXcwpc7pkoT8GLJ5vmPQI8AdyZQ7BtA3AuH_2ZaLvZ1Fz3RiJrO5IKDcZBJL2POzEhCEbqVk9lCZBn2J1TMcdZ4LGhQ3cs2imA9tdnQCtVnokOsiorofoA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAmi3gbSB-qZuwaY6h_cVJ3zPGkEvlmYwKKcAS8FZ7ee6XoezL9xW5dpN_Jbi9HXYHbIkPY4WIGnERtPpdjUFwvlv5FNCUMNIbnbaR6ttih-RSq0LiSWsSJH_NCU15FfSHEhDWQGri5IL9_Kqu8zGaOKRHGhT2ZmUoFFgtX0LnLe3ba2NYCS3URw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAFyjeOaIFOBjt4x0MUiVrYUAnlS6-2-_8kjxmKQAbYghGGzwWtX96S-L0N39JA5LrztokPQogAoqi7yvPULRo2gN5uiddmInBK_v5INv4kHW2GCMnXr-vsttAB3KEKNdLEhA8YkpPm_Z09sf3Hg0yNS9GGhSuosI2VnPq_wmShOJGpsACTL7L2A",
+        "type": "string"
+      },
+      {
+        "value": "CmRZAAAAQPS6I5KjPMvNWnv0yN09RPSXGatgN0Q2e22HkBMCBz_X53zr2-nAUFE7TEBLATTaRPDGxSqMFd6NbFpfWVXQRJEmxOPO9urNrVdq7EDATdAEH7Ki0minO4hDUUq7wRZaEhB-uYGVpSL8uSv7OI_Kn0ZUGhTPK6aPzn0QtCn7dKy_wiqDwWn7jQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAUiApJCw5IAEnPywKx_QJz1k7bwiIgUU_MFHDnqUGC1aI5bFXoFB49tWriaj1H96s2-o7B-demeOVdgDuuQh28exkbY1A8mTB7NQprKEbcny0BgHGdVijq-hwJB777ZhHEhAfK9XzJAyKOXASo86oq-ltGhRCoI8WK3OnwrT0lHz18De1UUb4fw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAMF1o4Y2iMEZ03kDqPlM6BjVjwHMmDWllUZYuAUjYnONJ5VUsbHXmDJlKePg7pmvlPW9tYVIDTyV4XlhANdqdbXI3wRgtt39a58Ezi8TkA_9_rZQs7eya2p_XXgXHHal8EhDeU7-zdeQOw0SNwR1t4lBPGhReHvTjCqffO8nxqzvQpyoLGfdUrg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAiAAT7irkH0-g4qRRcDuT7qUm1NsUgyXsQq8TvB0DLsb5u82-IJNagLhDpQzEZIl5_dHYYcHkSONurgD56gtJ3mLGV0cvS2r96nPliK_CzJO65CwrUCMrrruGIYfSMBsnEhBjodX9NDfYHKYbKqtKOYuNGhRyRC34UsxuFNxk5Le-PqCyaTI_NA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAADcds7sTXWZKT6b2l7IrYPqzbmqPljaH6KCPUZghvHgdEUwwdh57XKoNpesVLCirDj-jHYTblsg9FWyT4lrLpJZyB2fZCVyCBoWEkqO-O1Pood3ikzCNY-to9ufqYZYlPEhBXj_w4WfKVxM5aarlCtp64GhS4paJWatFgTtnhAXRneUvbP1-CrQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAZec3e5GBzynW8eJTnJyFcKnPStUE1Vvwme0wQPICgPy251cuqSmbOrCXzJW1LLOfCTvwIYa8lYk2ZmLQXtCEGnnqTEx57V1DewuA9b0AkAZoAyXTFSgpcIZCuHp-Mta0EhAtB61ctW5cE_tH2ZE1BAGWGhSUZ2VNVtsCkE0utn9wPpY7IHAMLQ",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.brenaissance.co.za",
+    "type": "string"
+  },
+  "address": {
+    "value": "Devon Valley Rd, Stellenbosch, 7600, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 200 2537",
+    "type": "string"
+  },
+  "name": {
+    "value": "Brenaissance Wine Estate",
+    "type": "string"
+  }
+}

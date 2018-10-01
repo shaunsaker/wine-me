@@ -1,0 +1,31 @@
+{
+  "phoneNumber": {
+    "value": "021 976 2682",
+    "type": "string"
+  },
+  "address": {
+    "value": "Tygervalley Centre Service Rd, Bellville Park, Cape Town, 7530, South Africa",
+    "type": "string"
+  },
+  "website": {
+    "value": "http://www.bonamis.co.za/",
+    "type": "string"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 18.6330398,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.8729362,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "name": {
+    "value": "Bloemedal Wine Estate",
+    "type": "string"
+  }
+}

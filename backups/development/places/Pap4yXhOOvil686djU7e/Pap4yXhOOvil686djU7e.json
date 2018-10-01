@@ -1,0 +1,109 @@
+{
+  "website": {
+    "value": "http://mariannewines.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Valley Road - Off R44, Stellenbosch, 7600, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 875 5040",
+    "type": "string"
+  },
+  "name": {
+    "value": "Marianne Wine Estate",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 8:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 8:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 8:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 8:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 8:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 8:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 8:00 AM – 6:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.82985459999999,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.8798188,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAADWIKP-yqkOGVQoeOsLeXcZvIk-6MWXbjYAQsKZSq5v0AthMxYNfoU1BVwEzISB4dw3A2Pgcnd33y9tsIkGuMZgC35rPEFGB5pcvdfyNpzsqupFf4G4SVmrlATSsKfg_vEhB4F0wJI70fJXq6Xn0iVQcbGhQ4WFviBrPTY7m84ihnqxTG9BxjKw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA1-jj7ngwnZFMHcqE2RwrZjD-R-9APR80j_GZQtMEaoqRP-qgReHSw8zBbc-LmXh82md04uptjXdSE8ndIksN_3TzpOARyglIquiXA-iifW0BEBW4d01KP7LEcr7LGRmUEhC682TH1CxekY161TdUBn91GhTB0Y5_fQeGRihn5Cyb-g9KM0wN9Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAMBGp9NVr4CUUl6PCjDEnlTKDC2aW7tzCBRs6kvj9e21FftrN7lDqy9o5bwfUTuOgLP9b5q2QCKt5Eeq6MVwHKtFIQO2klAks0zez3WhSchZBHHeTznx06HuxY_Kpm_GJEhCkLcNMez21OawZY7Bjq2iIGhQYT7_v8G_IxJXO9rAYbxNFxX-UcA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAm_R9oR5uqMY6wUpJpOtKu4WmCAtqcREKwSbNQFzyZI7R1_CQ5Bd2bTSsJtLPJyo1rCutX_b6nMi219voLmKnurfC0usjL2_yatJX_GIEk-bsWuciPuNWCiq891Zq9x2KEhCGImIOD2w1IzCTniD5fNb9GhTs1B1ETcS4D_8Hv54631_u9GUqhg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAl1CcjGQA5h3dRKZjMeifAZe4K40w7LRUIk9CoCOU67XxqikONaj0gFiqngbnImZEYCC2DklCGq5nGNoyDe89XsUEIhFSpDW6MX1T2un1I7jgAsRCg-2TfiUYvfujHPMTEhByoDY946kiPKKvGOLezXcRGhSv45hMNl1MwxN1byzwACm6bpB3yw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAFIXXhqnQSBY408WG00ft_58dWN1y46a6a40RWMNzbu4q1OsPkDNryaj4dr0adPniJTzjpP1IzlPB6KNqtush5IXSFZOJ-TfGXRfoNfnsucY8kz1CSiX3SwJZqgYbpyd7EhCdFkZh8UtP6ni5bt-9hvnfGhQeS9-tElddBywrBip8hQn3zg8Log",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA-IMcqLmRstJDZxQImMKlCQyVv4xVSPleEoFWi6_VERcGkV1pSx5eum9RHfLpjhc2n5GQ5K7-_iCpcu1RGwWN5OSPbRBBJTkjFsP0ltAEMtv1GxjM2gQXDKsPus_FPXgHEhA2ogSiRV1vshJ5dodJmmhbGhTa7xeIOOZyec4kusVXQVHEmIvvJg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAXy9vsHaayNzRRpL6p8KXNQQnHIr8mtINZ2fIW2SWIxcLgnM4cAycnT9a3F9Vti25m-soICE9axMZJAyHJ9bnfvBemoMELAcHJQZPLN_0riBRM4i5h_lYllL5kEVNVAyuEhCc9AAeceDMsz6sjHgxyyRDGhRlFd7UA25WvvZZEwGa7XXcLgh_9w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAnLl6KPAWIN8i3eXXS0sI6BvuxjbZUs6-Zq6AjmRhpx22DlDhoHgKZm2gfOzcV7Ls_TGm4troHlrvBL9mtf-YWXDNg0CsyjHqLhOYF9ysIiH2GdqiapcFmTve1-imgawJEhDiJ3YfUSdrkHo980k3RNOpGhTpwLWf_uXFbdoNtfRVvUXieNRbdQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRZAAAAFNoTIJhC4TaB-bHLDejqeTrWzTcLht-aCp9Lf67BApnOLIRxeFWCkgetCY4TTtCcRJJoGGDp8b4Ef5APE9BLj7wcbNOtyf8gsEZOL0J29O4fj9znzUgD8EtH1p9wg-A9EhDTMsMx_pW3smc8dTcZR7YtGhT-8VGBbHKbiToCFwaPDiRdlOqdCA",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "website": {
+    "value": "http://detrafford.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Blaauwklippen Rd, Paradyskloof, Stellenbosch, 7600, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 880 1611",
+    "type": "string"
+  },
+  "name": {
+    "value": "De Trafford Wines",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Friday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 1:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 18.8973,
+        "type": "number"
+      },
+      "lat": {
+        "value": -34.010753,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAA6i2Pa_SJceX6ZRq1-GqalwwDrYO-o96eYyIMIYdqFAIt0KFLD8SVbnoCefHrmNvgSt-FJ3pOahZsTvlRidIh_j6oSTiYS7t864ibKB5OcBaodQipCLZINd7h6nWPLHUNEhDH81EUFxXOpquOn4VnRTYcGhRXzJVCc7qUGlHZba5iu3sYTJ6f0g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAKLBg-50E5-CjDJ43ReThGBeLS1AgjXLUV-ISCgYG5gO1AO9uO4wVvWZ9NYMCgKaeWDLZyfq2wxzs90EVA49TqSiLAIEhcL_qLhVg5nLs4pN6GzPuP7CzLyxHYqvjSyjDEhCvfGqrl8DZqMYA0VAZHZ3hGhT_caEe9K3HuquyjqHFwV_NK_cvPA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAS05SKlI_20ZQlokC0d8vkz0PoBPBiiFVSNqkKWO4eQgwELK1y69WuInxYNm-ql-7-bRO4sJSVqZFLgGxYiKzzuoWK47bTgAemAa_yFipqw5OqCK1ToxiUVTyy6a343SYEhDLpRRaUWYDFR3lTHFshDP3GhSmBoisEGFytHk2-ZYP851U2Gr_eA",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

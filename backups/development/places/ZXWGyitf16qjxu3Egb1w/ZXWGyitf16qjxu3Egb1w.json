@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 2:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 19.020209,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.5778,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAXnIvkltSIePpo3AYkImH0Kc1Zzg6g21FCL58zSfqN_8VAPMNH5i7eGO6nDcTaYcPyUViQuk23X6zWz-fDJDqSSlr0qJ224Bpo8oYD4_WtYO7gGwlzVVZXKGsg1ARS9yVEhC7I1So30yvUo8v3N9jvp5sGhTOj2U4cXAcrPi9cmQW8eQ-8WoVtg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAABCXAU0jbhmaijboE16pfrX9GV4PnzC9a-LN8hKfSn_j39OhhbsG4JioyNJsxqqK2FhnXsqj3OFdkyTaq7Qs0nT2b-SJWPmGIkwwzDwwqukJ1ae8Co4HPTK58ZwnQ1FN9EhBDL54jFKYd7A0G_qz0g_HvGhQdsOK-G54cpNSF7glk532YKRLXhw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA6eeXzxn-ixWuov2pWTIeuXARxjLdQ4ywgcwUdzLWLhjSzbjfxfLfZ3pB0KVNFJHa4tw2jUJJg4hlOKmhLLATS-6hRESObuiA9FVkiLcfyLMH3-f-A8AcSX5YLtIxzH-_EhA6etPLnpzx6UGi6ILTGjXwGhRe3QBbhxurhH6T9AuYQ8tMggYCyg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA3ky0dDa2Fek6G-D0x3QE6lesvcarc3I3yD8CS0fV3qxhUZQqtZ_yi5uR1vLkaUQzFArEfV9AbAgKWWTarHMD8SIbYhrmRenpMop-MenmSyYeckOEeiHpejxZ_6vbVo1aEhCsnJ7SByE-4EwU9QNSGftwGhSDgHC9f0W4dEEsqILws8kGSbzVVg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA3d4QUxQQr14S6ePr4ORX848xbdDDeI6shhOvTV35_WDXl8eYC9wAmoI0PNUBUuDt7_GqomuOzPoMMbpbeKb7PUp3RyWeFRN7JkhEmbhdId5lT4BSMyIZh5ndFI2qJLcLEhBNVMLi7cbNYBzmgVX1p_17GhR2EdVVpPqihTgQcjTkZDysy7CEdQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA-fTfQ4jaVn2-FZ7vIEWX4A2cP8kElTsQgfh5bCJuIU4ik647NX0WfzHooB-enNU8Z8qbFEIVqoDtl_-IlVCZCjamHetaD35s5yLZXrhYtMp8whOgftodiHnt8NfDxYVSEhCWn7Nt67TX4T2V6tai3DekGhTvO0Kl52KZ_Q6EugGcQCL5DWsL9w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA7D--A-Q28Q5uiQs2vZGfEy7d6pcK0NtiNd_wKNqzfqI_aSdlprLok5vQPKWOoq6L0s6INQiCRRHNSy0CDO0IjyXahYjFdo-W6yDJHdOQrP8wUn0GsDaQ1pzfR55spKHJEhDZFsatLw0VgCd5yCyzgJnLGhS_z-mSGBPr0n-TlCrsd3zUIxUB6g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA3AEKVQKUOH3LOxikDqKRz8fedUDwdDgQMKZn-3j3JlDAv1u3-8unmI4NQH0U4wzrYg3jjKroeZKVS-AfPpHLu7bOLfuc5WduZHmx95zOb9v5of2AzdBp2chwSBP4FTMOEhA5rAKb230uftJngzJHS5-CGhTwBpyNI27M0DteRXQA41NrLHCo0Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAMbw_pFBAkxAGWjrHAOR5K2j_L1EzJNL-O6zn1-UPoLV08bTxGMueXIkq731ZVf4PTLWrTUoL8Qsir5RQL57zW5vGJurADT5Ns1EwoaJJYIsga8OfJIupNdVu0xwbRZ3FEhC514vp6B6bnN-p8PXzOlFFGhRXLNfC5bSsKQz3Z9ATUj2VYrOLEg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAKdaXP-oVjKt9QWbdjyiygFwXzK5CDR04EpoiKVNAGl79P_FjAmiKvyxOp7J_PhujxCaIjOXrYGU9b9vAyiXK7sUmUmlZP8-g557W05gyyWIztZO-XRWm3sPRMilXxfgbEhBB-CAybR9TJnrX7flUb04BGhQYaXfYkJBeJ3W3JfG94qc48x5uug",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.schalkburgerandsons.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Oakdene Road, Wellington, 7654, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 873 1877",
+    "type": "string"
+  },
+  "name": {
+    "value": "Welbedacht Wine Estate/Schalk Burger & Sons",
+    "type": "string"
+  }
+}

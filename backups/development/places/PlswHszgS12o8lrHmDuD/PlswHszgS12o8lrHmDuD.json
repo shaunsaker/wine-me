@@ -1,0 +1,109 @@
+{
+  "name": {
+    "value": "Waterford Wine Estate",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.99530300000001,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.870639,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAF8gsTSnCSwFVTpNDuYlD6p5hisFTaMCDMMMtwgqkXFfx_JJPHdsPHa0vNsP_t3qmX8aR_ltL2hFxa0ff1KNF0itNkMJY9zfuwup9Zj-Z7JSvgcnRRxLoCTR8Kh2Lj5dREhCYc8aS9uU-PGNjTLtCZcTsGhSEQOYE1At5VM7EbuKPAABNxo9xMA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAELgATmYF7TEIEOQ6OJ3ViGCzXzMm9drU1QQ7ABlachZ9pGj5QGj5i0ZZKkn9TgGk6VYJ4HnmhNt2DWzRR8Qr4ewVlO88jhm2D1LCWL1bJFe3koStzmhRU9KHCq31DzC7EhA4pR8QGnL8CgpIWp6nLc7BGhSJbiOwBaTFFA-KfSy7jLJW0ng7Gw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAVD1uP5hqI9ct2Vc7g779IW8LBdEu4Ad-7_PM4CupdMqfn7uDnNqR-7klBK0I3lDs4VrHPx1k6quXPVGov6k490uAGLm0LrKBzRbAG4MWZ-bC7nuERkpecb7GyL2r5C0wEhCVKUYu3HB42_4tURPAfA1YGhQZRPvsZda_ni9oE7pvCajzkNTQUQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAaBncBKahXzgOxsGvn6NczShWbYMTCBLQHG9el3CiWoQHIB7QFy_K3rMfx4Y_CeIiFcYd4E7bQtLA4s3wISNlKvyKj2J0uMxaxK-2aMPJtskOEY2YH6LGfevloEfjb2E8EhD7SIPkW70REg9-OvbP3iBmGhT-WHBlWR0tXBpj9tRqGtuUe1tSmw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAEiS821E3xJKysn8Eijg9zQscnRCLmmCw4RH_LlAyRhlt906PMEDJF55hI6nmJN0TjNzj6qY3tw9uwBnhSh8j_kDcyCdZoMvxFc9gndX4zXVklP_jeFyHbiWSoCCSccDfEhDEYOaCy696yCPojbDbf74vGhQhspedINwGGGQx5cm4quNN-uRvlg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAfjn798UL2HPdjj8Nrg5OLh2v5i3pGsLX_U0ws6WqFP3fS0DDxeAFrbN89N68jJcQcuZU9AxoSVNtxeiGc7cTuzYuoiip-eb6ay5XUhn_gA0zmiHlrrPE-H5ivRI2rSOmEhA6kJsVp4Ih1viIGFwg9DBrGhQA69wKxeCOfAGAy5rmEVwTI6WmeA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAwrPB3jXjq0DKe5m9_-2aXmS7uwwN6vRREe3GGkKFIOfpNXhRP_Bf3dLZ80BJJg-n_ZIQqGQ36QOJI6G1CWeCt93Rp3Mkwoypk4IAGGQgzfvciwiJ0SeiC4vA2V1GTHsCEhCfTMDfQ91pc4EzgENyvuavGhRNzBOmj6kP7hCKml97AJUTh_RVqA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA1YrOxOcPaaerJqjxawwCUBSyDHnXe9bztS5pmgOmMFurGEMpGxbpbN_N18hHKbloWA_wp_gQ8Lhe9iptsdgxSKObJB9zutYq6DYCZyGGnRIs0mvXX7bqOiGXShk-GAJhEhDlFedFZJKSbLjrHztBoBmoGhTQ1QXU32AkhVhiha-kCvZyYyEJDg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAArLiY2zuXHRWR1goe6BvM9KJUIOXTFi8B6U6klCC0ndYC_dd5c9af4KYdbdvUMDMd6SxaIaqgE0as2xntPXDfsmztFdyWSecXLzDg_qxu2QoZfrbR5T6yhs_PG0ny4X_lEhAyd_fvbiqPYG-TLBjH2fjGGhTRUcfHpcrDo2HqmSDoBlsyl82UXQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAYNqCOxHNIZ7mNTCcZ-OXPzJHQ0x0gDCX1-I8EoCRbbgNyRl7GuD0igNf3Sh1RipnMZMCMjsrWHd6-mhk2LzhZgBvXbWx0MVVBgVD1_i18nv1XRAoCZC3fTPsHF15KDn5EhA-y9R_9qQsu45pK6EooyrJGhSw1ePWr2APKQS110Gsz5Xt_L6iHg",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.waterfordestate.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Upper Blaauwklippen Rd, Helderberg Rural, 7600, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 880 5300",
+    "type": "string"
+  }
+}

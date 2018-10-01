@@ -1,0 +1,109 @@
+{
+  "name": {
+    "value": "Le Pommier Wine Estate",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 8:00 AM – 11:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 8:00 AM – 11:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 8:00 AM – 11:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 8:00 AM – 11:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 8:00 AM – 11:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 8:00 AM – 11:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.919789,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.928251,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAA8tpQ0QBIqpUcB68Zf0iAZgekxGM9jmYc8BMcbK1_8p2erhiwVtcUyVBW91OSvnguJAzzJQOYjZR3OGzuaK2j17tQvzXIrjL2IePQvq_GXGtOiifD5KuauZBtgkuMumieEhA_2VeeL_3GEa6eK6_3B7d3GhQ6OvQjpm2McsoY4fdycfZF1I8tvg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAU2DV2s7VDu1JxOzlPj37NF4Q2CDxyUlCJycGNPBC2CeRANzynS15yTSaYgqJuTRrvI7ooQxEEs3WZl6VaWiDFYr5sAyjNBTfd5NhVX7W1VppxyjVm1sNieYWARet_DpxEhCO9w8CO71UYiZNKl6mbBj9GhS5nnDVdcVijoDQoix3yg7fbLE8zA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAxfgKEabSJfiGqRqFSPgyQCvk1L2599m1aDe5OOIcHucHHGF3ZTOp244Mm1R9dSbnuz0eQVd1O3kb4Bg2iW01327ACeYBYLiQ75Unqt5yWZjYRRWfH25C07cvTJg8xLrmEhAY0CbU0DViiftRdjLDHMnMGhR9GI7lIBuKIaKV7CHwo-av3mecUQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAHXzzy4yBkAw5RAJJ-P0twVk5uA_SJTnGsWJwirJKH_anWFfBJUe1zkGIeez61zswoBkn0N4RcPaqEP8iGYwLcuInL-wiNhMzBy_aqa685KWddhzEIh8ny2ixeAtVyAFZEhBMZlRcT99132dF8yHtoTfPGhT9_VGEVuUhqYWgkPIkgtsNMQKzrA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAbZY-YjkCEil6IfAl-Wc7TOa8Jbboh8e50xlqvKp5GjMj2BDjUceicnRpJ5OWwA8aJ6rEDG2a8JcBJhGj9aDJYFchMZP2aFj7UfXV7w3uuslLaDO4RsIqqab8pxmRfE8OEhBxlc7AJCwfoc9nXO2z8uLjGhTmaRubrGuOEz9ZrGlUf53G72I2AQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAbnOySolea7myOo-9plfQ_xyrfeX8DBjSSB3g64G0rFtiGO382BsKji3F8yDXpLL3hGJNZCdDLPDREEppMlbljsMqCHxOnT22YH-UnJ1umGyOKk39X67vqDreqwWeiz-_EhCrzl2Bw0QbyNFVreMXO7IJGhRm_ab4HT8ra8bOFSx4SSSsiNzU4Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAuKFO8YL8-Vc7ZddGr4Z4XrXbsv91wpbjDiz4sijCbfjYY6HPMrk6cmXsbxUy_G7aVa8qKMcA2Rb4zOCkFNZR08krtNqI0RHZuxk8FgC6n5fRwW8lXdHhOSdtWE-FnKdZEhBM0w0hAggMDoXcra_VbrkVGhSJNDx1juBMYjQfm3eylLu45Rvheg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAMezaZk5RukiyCxnkRVP7BCEIiE8g_ZHFLC-0Uwxw3_WXLnenJzfMiau-m3lgczkuBGwR-jaZm-tPfAhKGdMFQ88fbRvydK7ZuGe0qA-8f25IC6Mh8cUD2kw38ZdD47UqEhDNx4GryZFjE9QYNpZEC-PWGhSpO-PEBd5ThPtvY9AR7rCFedXnRg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAd-QwKZDZA0fMTGKJVhjhpdjAifCQWnVcTA4FJbU8feb4srXsIdkMcXvTDR0lyEjq5jXjM7boLYBuhb3VVb2sB73DtAoF2U7sJnydUKxxlEqbiGDol1ASIdVQbO32CHTkEhBXh1ImP5m2n3OvD4mrfOb0GhQUFqysKqGxCELZxrGyav9oHn_bdw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA8yaqNPL4wZKlAJlkeco3ZgLwOT4FNtNuleK8iXdkP4g91yy9Vth_UeCS5LXDc4lyWQeVoY8a2XWuMPfwf9_JfEQdblAw6dqD3GLonzMQtOdJBdT3rGeC8nA_nOs5RjrDEhCpeICe2zIAkEKTDfEkxf2xGhQIJutAweSjAKkTPSUEbn_i1pYjnQ",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.lepommier.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Helshoogte Rd, Banhoek, Stellenbosch, 7609, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "074 115 3344",
+    "type": "string"
+  }
+}

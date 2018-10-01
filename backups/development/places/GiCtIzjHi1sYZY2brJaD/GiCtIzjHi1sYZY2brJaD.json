@@ -1,0 +1,109 @@
+{
+  "website": {
+    "value": "http://www.buitenverwachting.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "37 Klein Constantia Rd, Nova Constantia, Cape Town, 7806, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 794 3522",
+    "type": "string"
+  },
+  "name": {
+    "value": "Buitenverwachting",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 18.4160897,
+        "type": "number"
+      },
+      "lat": {
+        "value": -34.0419924,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAcxHmncKICiI0NFomqLjzeYlltaLjOFHeV0Bu2IT8TuoRqzVi6bXGKolFM908FM4u81NL1_sIIiA1vzeEcvEH49RLh5dZ8lOD5x-gV0ft1OxK10YUSpILpZMZD3Iz6M2TEhCMQAfQzJPgkeNsLQ10PIp3GhQlRv4Ct7id3BL0qApJmOTl8m0l2w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAYaU5-AF9FKCkdrowmY8f4Jt0yt3jRkpQxn0BkRbwcRIQKDEyEw7Xpgv3bCrh2Rd0mE4mi-KjYR9M8hIQLg19M6DTMRxeeCV2u5ocrRiwNPCAi-ofszt-6eGMIWq1iUYsEhDHj91wI4-8C-GtYoY14a24GhRQ4_wuwLZr4-zbYSlfC4xnYW-OYg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAfLLSVGhIOYvs-xY2FX9EDjJEBymHcvJxLyNid_iQUBAKSxKCqgbIa9_1IN_SKKIh07EXqb44CDOZL38f1V_7tYOzDmYwy9oAf_v91Ry5uQgyrqIjs4q6-5822ovZe2roEhDsGz-IosW4N7nGpwn9rE0iGhT98Z7pLoKma-yxVT5weSzf5vj0Eg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAheDS_8LKzyEkMA1CWmfwmgMcqGkALhEouznyLZEuQt6ce8jh4XUSB0ws_xsk-x5LCFzfgmEmbvB21P8ipY0w43pKzPmFG0vC2aBDbOImX9H7KkLWvea0nQC9qfaxCXF6EhDgxoUPEbK7m6KmKScKjlk-GhRtgGprTaqW_o_eOQ0zl0kq5y30nw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAqvwppYI8tXCEb1zPJUOhtGT-3XLt7bNGS7HxlGinvsvx-TmLtQG7YaCzv5hsFDISF1LqIOtGH-SUvCp1eTK5weI4rZeIOeo4Y95Ri3Tw6SAP31Qwr_9IGHCBia5eDCtoEhDR4NOSi1xmZ1-vVKwu33kOGhQ_BvVsPfUuzqnOq_4AGGf4V5ulAg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAACk7ynHpCRDUxVd6RpMi94UYr6pWnVFC_ICuzloz_1ILO5gjvPttiYOkNQ9eyoFalanyZuiiq6_3qqzlQPBoP2_7LOH4lDpyhoO2ivK4xgjLVQA8oiW6oqE1gm-WSn7pjEhCCDDogC1oGYjKVxgA0g-mnGhQrP9ub3wk9fAauamnE8jvlmqHdOw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAArIrKwL5NObgesHw3Js6jZdG1Fj-ghFygbVWc1ITG7hv8J43jB8hcUWhG8kXmKMVB8I5RGcCwbyLMVmMm2mOMjxOWJsxLEO-_tsgbadh-P2cQZJLxfD_IfCFyINdhcyrbEhDYW7xY7f9G4sDLiJ8FlKgXGhTKooGCXQ4Eaom9mppCdrfhm6vnLA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAyjZKJRhe0qcN2QnF5Ro6yqV3VRYK0aV8H7CN-508_fvzSdFYaRIlYU-rgTIN21FOvDxsATvLtFTwc-JHOCB_y1IpD6b5VOkCX3r2M-8oEeZMBjimiElca3_NijYEDWKLEhDqF9mcxrLSROoLA-ihgH0eGhTV5QGlqYckpTXs793wGnvao0FyWQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAh2bbZ5-fBTmHurMKtkq5DoMLpP0niO7H2BDAXkzd3_w0wB1s_7TqyVWyTiMUpK5QRJhRv2mGWk8_u27F9jgD7LEWMAVd0qHzjdPXBt23411CNWruOWlSz3ppn2JgKTB6EhDra4_g5beBaBBFQBW4cKaVGhQPqReKf3BDRlqDhCpoK2duAeWnqw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAFBiM20PRE7zXAyD1l771ososRpPu7Q50oamGtpQ3AdpVvKCxZSPajIh0K5B7ZLhwi60vhAFmflnIb86R8oHulfc2bjsZlCk4kJNRG67lSp5T-y2oR5QjQjoEWg2Stfo4EhDuaJsQcKgPRik6NDuKVUHGGhQ8YBNcE1C8GSZmw0wmZrjX2hJGgg",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

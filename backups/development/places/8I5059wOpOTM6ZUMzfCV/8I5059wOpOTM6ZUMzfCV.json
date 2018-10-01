@@ -1,0 +1,105 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 9:00 AM – 1:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAPXOe5Cbf8kgA9H2jUrouYESKWFNdeRxS1htFkjp-atMBZ7B9MTk1IkCTuPFC7aBLDDJ1SB6nTn6296j7Bo8Jmj81JJAFmtDl9D5HFtrE-t2UUo_DvAxhf2LKr-LQaBLJEhAbrQpnrb935XtDpZdhHDBeGhQ8CDhWUrOLMCA8xY43Btl8xbPn2g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAMw961m3FpMr7PN1wTeSnoGOABxKfSzdxKvsJ0_9cQn3jJiTLWwmu4pZoQ7nPXtePk6YSCJBIqaiPUVfQ309511gaZhTcQ_bJQtRTgfEWjuKYor8ibV_fS5g8s1QX29N_EhD90gZ0kT1qJTnE34ktUG-DGhSYY6UYfNVH2QLte4fUS3gvlmuYVw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA2kX5w8SvwcRjm-GBFy8EJRUdmL3Igu_0a4Zn1V8SIGoEi9Q5l_6OP1rI_APcGBFd7ZSImc2eWqu7tRCadBrLwW88H4BbLGKY-nfOuxXaTdU_xCguTKSIOyTzhnIW4StwEhCrQUCqwBCdkIDyNjnZifEzGhTG29N8sZP4K0Rnx_lfN0FgFpBV0Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA8bCLGkCTCBBWJyIKHAPFf6jrAAmPrOKupRdIDqwWoXf9gQVdC-WYre26kzyVN6fTi85F7mZaPGI2OU82D9I6FgLtRdmXF3dqUvzViZEmh1EySl6QVw40eXYd1Ec2hOFsEhCRtyAEvqdhSt4QE9lBUzMsGhQdRXbHKMn7XFwHpip2Sr9Zotx5aw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAajjdcXa8rYWbXRnxK2OOhi-QpAy74_x58Otht4dxCTGGOTEsf65VOCs91HfOFIGLwAmfwi4sM7p-iFja5oUPOr5QvueRc5tDlpNlMIstvOo2TD-ghru6_-BOThNYNs1AEhAlwB3UBHOpZtmnGM3k54f6GhTSNQRU1WEYUpb41ZjnMGimRCrIYw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA_kx4gtTPULJHdPuOpFQpsdKZObKrBD_Y7zqYF45uPbsH3CTQbYcI_qkdwp1Ujl-6di4cpgWjz5yZfcF8eScLaEiCAAH9yp8Xvj2kdx0qQtl8qms_XHWxNiL2ubIzLD_5EhBGkCVSn1LtyYFSbW5IBFQuGhQQdowHbmes_L1y-acJRatOS2wyog",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA6IK0HzocWsc523FOp_WTDimKCv96FGXr-errdWwfCoPTfH-o-c7v2bKH8ex7zZ0lnrl-Ywbj3PkdllSq7BUHAglUunUxw-RvzcE3qOhpHxp7LwhKInsbgHHRINMMmwSYEhBtCS9H3TAsaas0V9afSjlxGhSkDsjT_cUVEOgkt-UTlMqK0oWyDw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAuMIQt2YIF7o941wKc8KaKXSDGzZ-AqJz38tMd_BSqj7jhPlr6tAsGwyg0TfBla2DVfJ1rNCCJKWciVa14ZJyEi__5DpTlgcCL798pjNU6tpncZ3yv5N_ju8t0bwEESAQEhDznI5kN5hWPeYzYGOuicYXGhQTLb04tqslEs9PL3Rx4En4xHq8Dg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAkJIWlN927M9-zqhq-1PQXg-GogSggQ4Muon_hKbgQigTrQZZC5axwgiiFbCB6y7wZuftkE5jRAj1as-4At6UXggNQkmVsnCh4SrN8mbqNa04MDxII_H7jdHd433o7N-lEhDI6boM3bXlB0uAmKm7QokJGhTRWJtmn_C2dgN64WlqJOND_fF4MA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAABotts7-kH-h3T_p2D9ufgzpSGNvN8XQxfg0QOTATymKgyd-XeocwLWeHf8BPGWyJ8QbZCVaGV6L5WkBjuIaXtz0dKarkD3OruN_BBEXq2sF2Zk-x166qTXbQR4iXRfVwEhCDicsVVK4_1Qxlt_rvV1NmGhS_nHxZ8neGFtnnmPyIREIrkXq8Bw",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 19.135316,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.2281125,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "website": {
+    "value": "http://www.theuniskraal.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Tulbagh, South Africa",
+    "type": "string"
+  },
+  "name": {
+    "value": "THEUNISKRAAL WINE TASTING CENTER",
+    "type": "string"
+  }
+}

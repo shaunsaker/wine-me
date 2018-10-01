@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 8:30 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 8:30 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 8:30 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 8:30 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 8:30 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.929897,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.729458,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRZAAAAsTqBGWtYnr_A_Ey9ZsrnocZWVTClD278ejVe2R2HllP7fovfAyJYKb_4zLnVARYghJjHmD3hgbhynYVYbhfiyZjOOsDL5BE8KPQhkFETJDXNVMKNCSGXIhg2UWpP78DXEhBb7_u2XN-LP7ZuR6jtSw8yGhSONevPDeiudF1Qs0eB6DnBEGIaQg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA2iQseE2oEETeifglTtP-8OOKonclAGanX59ciyOE5dJslGW0ywKIzatvTvgvPgEmb52peUBN3P18uMWizvnyU1qLqNs9ZFjvTh3Q8QZGvpQuBoMgdneAr8E2i_qxoWVAEhDNI15bHAZNpdV7wG_h0N11GhQ0mVLY55el_fItjobn0A9JO93tow",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAb4TQhluN2-pBjwIpBWIvdEHXZDmkpNPoOdq0X8BnnSgL0B4Svm7qRRbXS8VsvQMvShuvCn5n4_OvjacBRI64Cyuoxq6Gd4JefH9-z8siE0TdNBZ-vkxYkNQobYNJFPNvEhDeS0MS6kNFRJscWvQFZyBqGhTr5XJtHVvH0HoIbrs3H4J0hARD0A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAqaNDGhf-V8wfNfsAeWhry-hQyCCPG5lz4nb-2gn4Togb3Ik4_1Re2fQSUqlzhKzQRoT2iADz3B8nAKyEkG3IXBZY2UiQOIG_DTnrW608Eo6VG84cU-arJF2h5LXPOPKIEhBw4nro1kVxRU8i6_ZiXz0CGhTJhg259jjuaXz9avM9nAsCsDE76A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA438z5pgpG1IHTlfN1VOCYJgYGO7R9-r9wEuw-JnBEUAYQy2MkduYP1wmdxoMlislAbSGMoCzByg2m2KOhT_gnLn622lSGhaR2Gqhg-qKoBCyX2KHrkuHrViBeupMHfgsEhDt01OTXxUlLXkf0-mrC1mzGhQTF8QW0HTM2CfSRp3ct1L8dyXl3w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAn0i5WbW_b4b2a6YPa2OIaekN6OjTmaEW6umGgAsIMJeIb6FUwJF4AA-SfutEbTxF3-QROvoQsvQfBe2tJh21ekvbfO0ZMKFdwnwBWhoV25rI5MAJ0rYkY5PJb-5EGLrFEhD_s2grFC8ctkKRVJqv9fTvGhSDmPbxkxnruTFSUkrNCryquG9WtA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAKvRN9BLtvnKjN1tcwNbQyv-YwuAmQACtxjDoqZcBErzzXFgS-vkyEWEIHvBrx3aDpJE6J1O_W6jI7raIQIqL3Ho9iW1w4dZuW5_muxjA7skrYrq_fdRTXJuSTYKz7bbJEhBITAxOcVae3u7gpnpoOmGFGhQVY0Hm9p59ABQjBdmuj66R-_arEQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAApF7QEqQ8wfFWmUwtl43pJvAJm6LzMN9tqXi3_Tek4mHzfId516FIOZqie48cTba1ZnpGjLxi4ZD2t-zmznhvHrm4TP-tTJN9UcYPj02hM6fojdUJ2wAG50-ok2zn0tceEhCbLkbfUNCOqRYBNXfdLVQkGhSj4kXZy35mpvsSh_RL12yQtmMGUg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAqNjQLQFCB6GdZx-FEjYw5W9xK9-qV4TdysUzfDPA-fMTxADDxWRm7OlVCiiv-uL3do5C4KMoegSDzfo0XnoHShnpMz8BHCuqNX_xU4wk32AeUAcIK14REMULV4_JoHGKEhCh5lci7e2qpgRiHBObMNrAGhTi7eRHsbAm7eXf9AD0LkBanve-Hg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAATAiM8n3xBZFs6mjWwywXc8arPllvCSlQNOa_V8VwasbKN83vREr8NqYrOniqLmOVpwe7iigMJAJtaftFZVxKHiwoiiSbOuls20eq-69vEQJjhyme9RBzZE6S3cOJnfmGEhCzVzLjzgaKxbMsmSthoDlaGhTB3QzZCWCj5j_KjtQbLLCIltOeow",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://zevenwacht.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Langverwacht Road, Kuils River, Cape Town, 7579, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 900 5700",
+    "type": "string"
+  },
+  "name": {
+    "value": "Zevenwacht Wine Estate",
+    "type": "string"
+  }
+}

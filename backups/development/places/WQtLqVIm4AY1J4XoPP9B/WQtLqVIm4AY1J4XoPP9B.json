@@ -1,0 +1,109 @@
+{
+  "website": {
+    "value": "http://www.bolandwines.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Noord Agter Paarl, Northern Paarl, Paarl, 7646, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 872 1766",
+    "type": "string"
+  },
+  "name": {
+    "value": "Boland Cellar",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 3:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.6893411,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.9549443,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAffl9r2QEmk1VKVNpd4Ll2ChJdCZBUgYV4rdLareGecD0vpEJ7DlKMj0_XAp48xyscJ5wtIV9_wU_9eIViqMPBCB1x66DQschn8qknaaBxozB21O7eHbvxQLbQGPn6UOfEhCVTvtU8roFbSCHNdmjjkkXGhShPU-F5DxK1yBmUJyDcgB441ZNfg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAMhaTHFR4H9ZXzq267IhpfH8fWvLbb1kMjTBR_LBf7pjMnwAhESySSt8ZsnGBgZTKQYXyq6auJOhtpJ41c54EgB5tcQ-ExSqDYHicAAzBXmWI5T0dWUbNfMHiG5FRMt2sEhBMxmgMoKQB-yGgJg380qo1GhSqQW25QmYL9K7BTkIpoCPtM7TSRg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA85y9AMSEwsZvy5DLvjjRYOroLWbJzQZO9JgRdA8k8oOZX9L_z7gCbeg5V9Oa8Xl9qZYnWdYFUcjosh6_8CwxBkbk7Z7iJBFrhKYr_p0Afl_yRHQwwGBM1K8XQmHsd5lWEhBEJrf4hWsrTZ9evPTucmBUGhSDHpa2o2nPvToHNYcO0UpauK6szA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAzLE7vILg8TLDnHayu_FeN56s2bY_fBWTYI07h7qst-PLV5Ti0vqbgs-gQ8huYe1S9zx8RHLV79oPpfWfqueB8tE9B5o0m1rDuGU2jA6hVcqDvKB3BNldgw3g8XwXSvhrEhBz0No3eP7A0SuYi_hi7Fm5GhTdhxng-j7-sdWuxdXF2Y_6RPJVMw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA8Uz1Eer8q_2NF0SOk0d7HKz8lYh2Fx-Fn0YgwVQIqsBU0z_nQHKWciX-xToFkiXbjCz1Hp2aCiHqhi5po_qjBSX_AWkgpPZyd1PMZ17_RDF3nGJ46QcfZaId-LJ1jH-4EhCAGqIDqrxq-j7FFfuhaDgfGhQ9tJERRcKF0HY9oL_IRYJ8mM8P1g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAzt08UlbUszw3ySakknbzK-f8GxK2Jekq7YIN1pwgA2dLdmPEiGyrh9cKTrSQyrPGRuAzls8pN9vkZd_shTfZU7EUrexYxHYbdMRtmtP6rI0LH0ACyrPIeeL-ZIOdg5qJEhAFtn3Bvjg5-8VTz1Jpwk4xGhT73EHipFUFINoKk-JvKvh0jMoDTA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAvxh3eBwDACkVN8Cta0NWaSq6GfbXXD7hkT7eH99IgHyX1QODbWtbu2zUg99_V6oewM7hMkGiVuJWxm9QZUjnVqfbXfd5_0F0qiYpHJxS4ydyiCjQ3jCPiGqfWkrmXb4_EhDKm-Y5KiLF3Ah0JaONz812GhSdY-siPjvC8Glsjvzo7Kk-ItWUiA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA9_ZY_Bu24J1DeXs2gzUZxdzMr7VNcX8U0zkleFqSu7F3T-KnbG_Y_gOwiHkZqPp6Z88IvKLOvrqnqd2ZV8xCzWLuvwbNOzndJaVACpFwdX04_imNdt7ZO6UaTvqUOV_-EhBD2FJ5QhDaL8Knglq260Z4GhQ73B3rsZjSuOCnePukTU2rEu0BKA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAxCzfkojQED9gG8MOJeA6dRLfQVnvOctIX2ZFKY0WeW8Ccc7GEmeG1wTOUGJV-Pt9EBOHeY-hWKRBKWLKd-mXEWcvFy4iI-802pPu4el9XhhHjEC4K1R5LwgFO4ub_wenEhBqRhkmgxzK-f5vh5WiDqOJGhTd6pHbKMJ2CSS6nMsG2LVPPEmdOg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAFBDvut9C6xayLgQGI6NaETQg7HrC2Cr1mYqMI_qjyIn9JCezPeHNfZNoRF6QLqJbstWpMirj0aaEOeJAvY9c9aHvcQHDDvZMwlMlbabuNcfs9gdTh6W4r7Te1JbJA2kzEhAYI6DYWL52PiLaGjjvdvc4GhRRF2Bnwrf7mvoQJUKN3R2gGCWtOg",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

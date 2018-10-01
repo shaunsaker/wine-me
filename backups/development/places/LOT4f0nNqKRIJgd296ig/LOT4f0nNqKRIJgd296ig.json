@@ -1,0 +1,109 @@
+{
+  "name": {
+    "value": "Graham Beck Estate",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.80407,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.8001,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRZAAAAw4YXOF_8YpGm0svktAmsd-IimHEO5opMh_2U6-0JUJWwMT6rtK7J849s3RmM_y5bLE5DROOU7o-hBuphlD7ANvd4ffZ4DAMyTv4aq4aMHT2F62P_unRCK1uJBe8asQZYEhDsQBa_-hxOgLhCb3jrKtnLGhSUV3J3i5hM1mwz4Xm4o4e0z3nVmA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA1_uC337ff1hXD0zmzqhd2zguoLCgk82e-tQwSCqCyXKWbTjujlSShhON0yjexA6vXcBG_dhlbXkMdsgB0XAeK8WdjvRzuTGWUZp2DOvEqQqE4mFW4-_2gbhYSdNyAoGdEhC43yBCHqe4aPc_hmdtXIP7GhTuPHSFs_YG7jbtjzTmtODC9bbnAA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA00XaulPNBz9tZ3hHfIAWh7x6sf13h-4fPDrqySVBguB55xmbNX8Nw1h8CewxF7aR2kNnV7EH77p-6ZZXk6mfVQfVcp6WrqW9LEvv72zVBPH3-rFrLxCUiYT-YGX9z8cVEhCdiu8sSE81jU-2VP3GMdWSGhTChiH7oLbb-Moadq-NC3150pg58g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAYnztl5PFuLoOUf9J26MhMUOGtJ5wsIw2xHdXxamDp5UOL1NmUP4GSoWjU_TqBV2Ri_HSWs2-cG4rRIyo5WnpOvgZdEnUvHHWTYuSE5Vbv3SAV9o6ztWH1RUeiAfTVEXvEhC8Xe_LIMuHzNcmdlCW59vtGhRLuGWyA1r7XMSpQT__QhNkmmFG2Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAhHRczuL-4iij9Y0jXrwFcSg04XSGvaJFgibhqZlD2PICyWIsVjq8UxDpx7mZjetLprXY4mT_bj0Th_-NWKMRytTleohn-cIT4-gRJ3UJfiMyMj8HFqplpkgEr-KMeEmHEhA8WzR-RQtrGfLqkNQBvVshGhRYMbYYoY8dXISfRQkOQbGkRTsTlQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAjVGQ_wR9BrLKBjpfA32FyPDCy9VaTu7Dkk0i5iWLoNtH_66s7vfNOgK-p6x906jnlVk0mqNZmiXrGIa3SwhbYzw0rpDyZhoVhiNbt7V6BQTJBKFRRg98_L721CBp1LN_EhBBUnhe-0ZMRwLb-PsmRj7WGhSL6mExvjmx8PaYZf1ygyG4lEBEyQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA6didydVHINNX4BDG_Bsxzyq7AIHGMaoT-CDwpIvEPzLK0i2aeTyovt0oxHTW6gN8XwDT6zU4O4he8NDPBmwrBeWnali1GeLWim3S9UCCEDcLllu8z6-rKMYQ0lXqvt4vEhCV32PNmYsoU8cWEf2dLAXVGhTArG8SK5l49C5gRoEJUuiXDd8Jeg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAbXQDyKI05VhhxrEF_3jNKzMjqb3P7h9qkPc9bxzi3V44CY2qN3UYEtSpdulz4EWWNzJptU5em2s_rbrRKU0jR-p15vqgsLHbWPNM2MYcmKcnzZgRNWQ9IlkTnTQ2WqowEhConqRGYwwJ3ngNCO4AZ7saGhR0KD4NGjssoJ4Q_YPn9p7bkssQNA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAJoDndmQ78WrytGeqqAOteAJkG8a-q6YvKr39xc6nDFa-Cj8PRKshnwIC2M5sF-jQpJ1rFFE64nzL7whKvGVF3F5GcpXw8RMuleNEPrh3-NNKuB4OcptdUjKguuxEDCzKEhD2pwmZmW528DJqxwwxj2RVGhQXJfSMqrQaVHmdN63jkaIN875keg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAArw5uea2a4VFny4OA2P7ld2wTXoEDoxmnfDBTbcnzHG4-NwNsSJH1GcByV-O4Q9h4W12yCjWiubM3CeoF4BmvHe-nF4m9OvBaACKin6uJNQal4KNNm33CqE70ew8ttF3cEhDFLo2_s_xGKWMx_jXxatBfGhSMl_zssTkEbV-xxBeJBGsgYRpDTw",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "https://www.grahambeckwines.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Robertson, Scenic Cape Route 60, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "023 626 1214",
+    "type": "string"
+  }
+}

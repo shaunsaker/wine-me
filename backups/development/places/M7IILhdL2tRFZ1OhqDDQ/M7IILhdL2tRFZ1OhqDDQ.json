@@ -1,0 +1,109 @@
+{
+  "website": {
+    "value": "http://www.wildekrans.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "R43, Bot River, 7185, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "028 284 9902",
+    "type": "string"
+  },
+  "name": {
+    "value": "Wildekrans Wine Estate",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 11:00 AM – 3:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 11:00 AM – 3:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -34.240314,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.1985229,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAASlpB8ICLi3pM76PMqbgyUlGJ3z1GxN101yJCEv7WVT9TjghtcDfMT5JE2ciHmlhHddqo787yj31zYQaS0jCVUy82f7UxSgxq0mcHAKJbMCPFQmpfbGPym2aTRqhrmLKbEhDpRZaUICAnH1mPDXMRqg-yGhQDuWwlDaHvaMt_t6PRxw9Qdjsodw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAWxfVqXNpJGEBBSKhchdCA4pfDAU1N9AXcuY4dm9SrrFHPZr_6Yqj-3OP0brtj8O-JMJDEdCkWY0-usf6nPTHql8RC2fknYti0-QqsZd5limg61eRf7hhe8uOx5SsG3-aEhDxmR_lkdVxEwWbXAnJTYNFGhT-Tow0551K7fxkUPvcx19J2N35QQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA_ktTd5cNUZVqLIzn_GkNTYpOW2uH7dc1fwM6ROvOOi7fey7IQi7X8Wi52yf8gceGPG5Iv3mEX978R62qw8ot5F0gzikr6l8jr64pqsmQkPlYxrZW9QOf55XDOTHGHclUEhDw7UdkZ5zWE3QojbGcYqFEGhQBk1SUeHPvbsK9Ip80XIafPPXksQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAIq9QoyNn9vrmhFPXBhW87G1Vl4kp8Sg0P2tbtQCqGhHrmTqFpYNJDBZkwHZTk1OD-wnWxBVpaecCTBmMQYTfYDJAOBn88YGCkII24FylVALO6hhzkBqSsKHwljIk7dfQEhAFx4deK5pl4pc_-1IzYcJZGhQKNx7AznsDOYIZJWO7GlGw57Pbog",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA1ytN9Y4gd01Eay6ar5RKnjW4eb-227dIrs1-NzPqRx2IPynjaVylYXtAryAd994O1EIOyBwCDsH24_Yy5RE2lVA9-NB8bzZR_ZwaLqmecaGiQ7oXjK7ZZio_uT6xoVnqEhDV2ZA5ObcBprbt-DuI_N7FGhTFFT37IYoNfTLHBB4-XU3wmDggHQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAACa-eqCmDvs59CmxmV-EpuvF5Ydbz5-dZi1w08lUR29upTMbvMHUjxxxjqRpipiZocoLiId1az6bkECm8zXv7_QHuOlUvKSPwMePVZXmjHKyw6DcNUqPA124VJ9yzgUq_EhASvP39gRDyu_FNIeiAX1EwGhSsCUpEo-9QloRpJJ65Al8Vc8iLow",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA5xcdUiAIOBlHQcMEm7OXorosFic2i32-KmzndiZMDFbehk_8vSeaIzenV8GiBdFZhEIkarXmmYautypgLpZKHgxCuHpmHGPGf7Ps06vPNMzqA0Lp_6gWjXiE87g4W1ADEhDm5zDmt84tYnaQ0dh5jls1GhS1zesyUlTgVNiypMz3nLIQPhoEmg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAACy5AHHODV5w-FHTIY9akXEQ2HXUTkwQ5D8nLzW0njWTph-Ysfy9e3vQvMf1pwtTGLuOG7W2_bpxwYSH-IIxmQ6uwQIF4BC45g_rx2h0vz6qNQnweY-H_8iEQloFachj-EhAhgiSZQ1KfNHDE74Y5z4KtGhQSQ8UHeSsUdA4Q80IFeqHov8-wXA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAiW3VVx0oBQTde4C6PgRzqKhDbIQ9uzIDUqeQT9Ug_dcHnBfLnBIOu9WKS0YpNMZWKubk6VOjBs6hBA5KVkFu-3imMsoPnIa4peV_04BOJnrNhePwV3BDl8VSalrtxmVSEhCbEO4VFEvOe7-mwtXjelZIGhRezoAT4YrbHplv0cf_CiiyVcEKlw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAACIo-eRgKx0ay_HSbdpct6QIPWVb6Gqgjql2JIk9-mEoOm1pIP2PfpCINgneYXKyqV4din95C9mQ1IidQvfFa2omfO93SoK0qNR5pDthlLYoUoWhMKWWnvDflG7RamKxOEhCXflRKvzXp_Vt5s0WoNjhqGhS3lgrEKg0DcR0CnGq1nwEFYPehXw",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

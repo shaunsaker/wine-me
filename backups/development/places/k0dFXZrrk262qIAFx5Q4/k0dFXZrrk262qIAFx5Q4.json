@@ -1,0 +1,76 @@
+{
+  "name": {
+    "value": "Asara Wine Estate & Hotel",
+    "type": "string"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 18.8125342,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.9494643,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAr_0Q0THXQEIeKXBvP3ERKpmqoYCVmNTRTiyg4j13u5r7Gt3BngEHIx5nm1tswrBfKlMtnJYy7MN3H97z78Om16_DYXzy4kNOnc66553-qaWAlNAfYZdCyDRaYX7RQD6gEhCFGMi6x1xqfVupCrrsbT_eGhTXnd-RBOf2QUj0EmcV8aZABLAG9Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAkdZKU3BQaFegdr3ttENq-PpdUrL-qEtwqnW2D7-WDjO-na9xJmkx8Dghl-gHC7x3MVSQS_IXrM0wbBhv2c9fGJ8lk6SlQsTNDe5YnxbaeXmfKPWWbNZ44wqSTwHR2kScEhDXz0TQ1O-frVqOqsLF3ZlVGhSn19mDBBMzCZNPfrL5lL_mrgwWMQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAADetI1PooCtCnrsco5OMebCteU4gdtu9yFQXcuk1Qrm3RLC961S-PGZfpAnOFwYoQROHJDYfbf0BHlzCivxedosS2avDOJNQUx9f8QFhlMNr9U2mwzuZyJUS7vF8BZfx5EhB_NZxkyqSxvWhxg3AUg_ECGhR7Hjk-7yaWMus-AU5U4kshMSVoMA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAArOkLy_tAZs1LF-rCBh5Zv7m07Bbu84dB5gklDozSzWMpSP0vMsnM126gEGn1l0Q2iIoCH26dK4KEckufNdZJZnLBsPTUgoBY9iqw_r5NToFovG0aUlBMgu232KOXkfiREhAjGz2XlZY5zapmJTlqvYuzGhRxL2kyrEoF5YheBNg-kp1L5PSthA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAASx7FzF3gkJcApf6ddHEF20xwjvUVVgSikbLb4pOEt9v9njdubWfdCqY6cXXstE41UJqWud0c5wSrFY1Tzon7_fk9DuMCXFRN5HT_Au4vfX1sxOwnPBCY9vvpqiRb1Zg9EhA3gWdvOZttUta7Sq1IAm06GhTBEsRjsEZ6XD01XKryR4-m1tr-aA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAATOFLoRyUPEzL4hLmvw7zZFokl_wNIVAMy7lqlMYjlLgIbGPdaKBGzEHxbeWBbPtbhkZkeJKyfDDztjtZjv8fPNmw-SznD9png3nPbMvZhPXbXY9do4XysyhQZ70GHJDPEhDzHupD7EkyWN5zrhOju4zyGhSQiDD8f4CfYuQhZrwQgVcfUNGCZQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAZvVSjbCkZhfamzzzqN3Fb7JLrfam6JRBeTdtIZyHc5FTnzpaYl3DgKLf4a8PinRpz1pjGyZRMSkT2GsSOmKo2rYzmvB2fWNTOUIh9q7urCFXDB9zeN4wEiVDEVaYhsc2EhByu-YSH7W-9HvS64f_px6mGhTKUDVS1kVU5s-GO0PY6weJYjqirQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAl00FftzWPMblbv7JRAL0PhVcv_uLy0DYJFVUYQzpXMMVKVjOGTboZ-0t7CdCYlqYcfs7aa7yC2WoP3fCOkCtwHkqM44Tlo73DC4hjLSSylwAxSm4ZX1_GYYiHhCp7w3XEhDbwwppWPh0TTiIB04XRuCOGhR2IbSQyk8psU8T0lghD36UnM6apg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA1GYrztB37lwHAT_zg6mfIVBGhgMugAqAwkraVHC2q53iFdo9CyyzvW3lLZg7GbfW41mMk7IcAcqs8OS3JBy3OD9FwTQAurHpLzSf2VyUKLl-rwMvACNL_Sh-2L-PyIhYEhBLMU8_nMmd-LTT6KuIktQoGhSApHNN0pynXUzmiClZQc4l54VEsg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA_PBd165JGy-7ub4moEgdjN-0Oa2JCBHz_p_Tu2lKCS5UvbsLiD11YOKzhReobbYO8XMCsuxGxUmXmYBRtQXkM7wQrvZVgWFrthMDi_Vgy_abcUAtHNlMLvbQBfUvti9fEhBYts91NR870aCl0piHCjIIGhRus3WNadqIrS-MyI-5VwUikVZCBA",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.asara.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Polkadraai Road, Stellenbosch, 7600, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 888 8000",
+    "type": "string"
+  }
+}

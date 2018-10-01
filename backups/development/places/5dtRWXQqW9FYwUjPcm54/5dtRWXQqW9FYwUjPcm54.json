@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 9:00 AM – 1:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 19.0219008,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.67562489999999,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAwMdvM8szTHD6XjnrybpAXXg1Vzi_Ok-PyowmDA4RF5YxC_5WHDBM2iCiYBWNFGU00OnBs99v92q132loIXS2CIAUyLqS1SnE4uX-lMVYnCRSWeyQbGDzYR00xS93VHzdEhDsqfmnOua3RtAkIAuhvN22GhRYq6hLt242f9qt78ASiZ-GeM1EKQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAm9GaS2PUzL7QD0Aro_McPPPyQ6i2nn5Gb75VcZcn8f3QJ8sMft_8mSMgdUs2O8ME4FLUZGZYYd5wwEOi3-coGlvbdLPRox4FGimByl-0mgjAo5MbDU53IBx9qsJqV1SCEhBGb0xDd3lHTtwtwN35NMbqGhTa29bwUWm2k4McFDlJDOo80zptuA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAVViejBnzm9VPVb5ChbS84vEEAoTSJazOzy3Hj9cwwD-3y5FCKI8VatmvlTHTTjETTg2FoQBw3JVcYzzHKtN3ICBiRZpy-iciwTOS1vLx8dN-FyoRFDJlQc-RsctdcNaDEhA4WZuv9Lb8x2J2qSKoHcYaGhRPC3TgC41p7srN7erKF-XErLJv4g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAgYafEnI7eFzExhsz7II3p32iK5-KU82wyJZFcrLu6hxjkHPilMHYOY6JYD8bCxdKdw-8jGtqm6fV1VDI_Gv40zu-ehZ6EOcyXe45dw9Z08ZKgYwjOlyfo_ZK-ZP8cvIFEhCZR3NZy98iOyFu2B5vpc1cGhRaQLyHlf610aQKVCKsp0vzBE9mqg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAAZE3mI0xsdIVDUITWMGIfOLplv5xWk0zVpZrTR52UxwtKES7GaQLhXkX1I_P_wX04Vw9ZI1ll8VR2Ya-hf71PvEd3Nc4ZD7StZblOU2Lx3Yng3HEL7lNHUPR4fTj0AevEhDI_EKGF2M4aM_buBFX8VtSGhTBagefNPDTF1v23UQrFSx1M7aBhw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAQ5o3B9Tc6UIik51g0sM7nGfo1DxAveaKrFph2s0tdKePrKWQ8OsVO6LxDd-yrzSNTicRUtwZCeuMA9tzW2OcnIIJG6PfC5sanFm1BCWPcAI7fZeMxFcgxAWClzvbC0KxEhCNANz0K1YwTmNq-0cgHETDGhRYQdMw_Qm1f3CTrpeNXalpITV_3g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAwj8-p259RYA3ApFgcD6T5ndbN_NruIXc0fvoQvBuSRvGoSQRp-eSRTOiKcgJPj1qwofhNyLqhlWZ6LMZNvpnHhwpkNFQZPxjowDJMRvjOLDBD92CYmI2w1l1He0r3Hu4EhCHdAGhU4prBybqxYlm0MoxGhRYc6J_quRd6Natjf0GG5pYfWeDfw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAAtrZR-Gz8FHlsgsUht5m4vwyJohP8vueO4ivSQPJx2Do_hXTzQhEFJ79ams9i9CdNV3ew9wQF-XVM3efjRj-KivNCMqkuUyQBcjY_Av5pQjdn86h-q1cuvy54T2_WcCQEhCqe8LAnT-yTqbWzKBVGlsXGhTAlO3MBl-fgiuPUFtHdUE_Kb-CGA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAACEM8Itlpsy1pHokHoj5fX4MAqopXKPl3UT61Aj4yBBcUbGS57ULPJVuG7YWImgq25oLQ1g4oTMJFHDTve7KTk22QUKhUwg5GQbe-GW8ZizkQJDWNjob3XlNHEE1SePptEhAiIF7BUexVQVuWWMLuHuGoGhTiNUvpZSyeUSpVMrkXlb0QFzKhJg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAtyMSMOOlRRq_g_sJ3W46VkEAZ3JgLZkn877q65_8Oq0mIORZmZWgQpKm50BOKVH_pXcEJbyVSfjxbI3OfjKoshNyZstaOwAXOR2KKo8IwHb-ZKBMDzKk7IClahdawSNDEhDy_VzstGxrxxLqymBmkMGxGhTGfdvIYUacTsViAAMF3bHIj-Ntow",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.imbuko.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Uitkyk Farm, Bo-Dal Road, Wellington, 7655, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 873 7350",
+    "type": "string"
+  },
+  "name": {
+    "value": "Imbuko Wines",
+    "type": "string"
+  }
+}

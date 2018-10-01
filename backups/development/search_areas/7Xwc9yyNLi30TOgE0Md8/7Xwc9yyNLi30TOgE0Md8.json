@@ -1,0 +1,23 @@
+{
+  "name": {
+    "value": "Stellenbosch",
+    "type": "string"
+  },
+  "radius": {
+    "value": 20,
+    "type": "number"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": "-33.9465291",
+        "type": "string"
+      },
+      "lng": {
+        "value": "18.7743747",
+        "type": "string"
+      }
+    },
+    "type": "object"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "website": {
+    "value": "http://www.stellenrust.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Off the R44 between Stellenbosch & Somerset West, On the Stellenrust Road, Stellenbosch NU, Stellenbosch, 7600, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 880 2283",
+    "type": "string"
+  },
+  "name": {
+    "value": "Stellenrust Wine estate",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 3:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.9885627,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.8491917,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAbMC_iaBoEU3sW8hdTzC-dudbbnVDUjRMHuOC5GiQe_nzygqQCslaQNxPVBep00khG5bfW9bfJVQugcGkq2R32m2crY3y-ibUfLn35mDLtbT8PySOsVqE9cO5IbTMdhvREhDwrfSdFoWb6Oj4fGOu3QFjGhTsNWIRfmKjNKxhQBp88ApUtenYfQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAADFiNV-Arx3FZsyR03QnHqdIcd8uQInpv23HybuvHHBN4UnUY1qTM7a5yKR4Tu2QdOD7eDdrlQOtFSaBi6lXbT0gPAh1kpq25Px8KlZMrG28DrFHCXV600o6pvkGcUQpEhD6Mtf6mGovssEJCDE6xkvDGhTvFRg6HHEUQWT8TddLfz0gAKyQ5A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA3_mXwuk77dQ8U-GaHxV465Psspvd3I1piIm7m1LZedQdMGAOk3sMdTfV7RDkkigi6GZDJUuB9B9-1rRS6QSpludG6zSfOP9CEhpj3BIjY7rj4eK6AM4p0197Yms-Rnt-EhAihShos2tmlIp10KAKy_nLGhQTznn-PRESvbkI4w0-cfSJVbi4aw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAjiPsS_tw7FBN9GXLzpyemMN7mVl03VeV4d3k5Tth73Q_4WjQOlx4zE5Y8fMlmzV1b9J6DOtHyr47rIj3fWy90S-R0r92u9VPkEGZksUUCBpFpuVb8UhUoMhF0QOA84ROEhBfTYXfU3f8W2fdlFtfyNOKGhS5qAx-sOjCcoqnh32qK1ts6SV3pA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAlXTbUKUuSvx6dSEOM3dodB0Q1oZw_M-GKyQ55kmPsYveFSQ7dWVan1c9BNVY557Yh2kI_g8hbBLMpwNw0C5I_3oD-FO3nO98BnpZ9LMme5WwbC260-Mhng9K7mshFyMPEhBd8YWXZW0OfJ9VJ5fCiL2cGhSs-udd-BZtJUcsdI3mfFHpmOysLw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAdSzLi6purB02C0vi5kpux_m8_je-h7FhNchZ6IlFHitxzXbdIJrXxS4nCFZIkid_9Uuinzr8unQuzT8s2DPq4d3RbCLylVk4Y-aHWv_51C-aPfs7WbZJCY8qaee8lXbHEhBZyT7fvt_GTdzFxPexyeF7GhTXHRyOZjZP0B_XIwAT4XPGghT46Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAMctZ__8FJiBezzJ62WGkQrLJa7FDADWGqI28uUQWBDlzpawqsWPINSR2-91otn01delweKpuLWIz_9dkjvttMmtMvCpei7-vF1YN0Z0u6DLhZamosxNtNUpdTqOLicnVEhB3Z99IfNV_Rb-Fc4vzGMMiGhR5r6aTcZBSUiUzQ9GO9bTC0wKlKQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAArJLG8y2WIqGW0YZ0Ao5i0pLdx18JCXkA7vKUj0mVWo7TEdYg04VzLhHFWB5Bo4OJz-EUKLMoqnIB-ejd6OJbo06pdfn60vo-DFCnQgJuIEa5GUIjgbplkBn_d52nrgz8EhD5QZvxs-x252hgQ3b2Wo8MGhQl-tWB1nlX9HsvWivxoMIUs5Bd5A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAt9iASV1J6DcLBB_ErbHN1ZFSYVwRH3nmjU5DdU0m89GPm6bzQmbzFBL9nugbMmCQKBdvsKAQ0gvyHcZbJnRvTMW8zMkfFG6YbSC2pwQC0N5TI2SU42PuCHrCiZbjGeq8EhDFlib6jFOgJWw5AHO04HAhGhTweJwaXdfuheIsFlPCBSUx3hnMeg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAokDIzCq-fpBsgkrXpG8YemUsXJbly-dpeu93x8xPnLm_oe56AHuRg_HjBn6bdJILeRJ_1wEIb3rOuYGZRAyS6E0P5Y9tvCgN5bbXdnQ8vZvB-D5xQ7Pqwwf4pWTyGjCUEhBLz99p306BZVV8u_LrVqp9GhQ1nDF83ai-qHH_x9IXcwp7eSJP2Q",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

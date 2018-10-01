@@ -1,0 +1,72 @@
+{
+  "name": {
+    "value": "Gilga Wines (Pty) Ltd",
+    "type": "string"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 18.7892063,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.9452294,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAsJDNlUps9xG4ciqirSV6CAjSCresPLnAey2zHryRovUMF-5W5-a1vIkV9YfRCr7y15vMXEWrmS31BN4ln1Dp6ALkxGDU26HRdqa4SQhRqUT1bDTLSTciDpeHSujIDZn9EhB6Vvw8Qo6-4H2xDbeIWZstGhQcDys_FERynZ0kp4ThZqb-HeQvCQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAcO9fHQBrmpgXmIgPqOLybwjTRAVrAJRdxbmIELXtl-WiZToNq7s5ljYiZBfOGI4nBt6-AasyakTFFmwLE2R7cNxhoxjO2DHwPSR_ugQuSQNCah3yuXXKXjhvOgjyhvfcEhDqTghMX1tc9vHAtE3AeKY1GhTqrUEAlcDwhKM56JXuh-BlMTeKSQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA1AcQQcv_w5dEo0OJ4sqVJOavk8OFgJNXnt-JUt5pSQPVX26wEvjwISq2QK1M4gOc7zS8ehgqSxdSD80fCF1bwKnb3Ytxw8n1_S_7nlQS9_wx6Xd49qkaJL0JUsZCYRe-EhDxsgJey7IVbesQIVRQwycQGhRGNhaRhfeuWrlxwVdp6BH1Ktde-Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA8ISlSIwDCCv2AmO8w4MzUHJUJ5gx77stZt9_yNl08TZt7uuvPrZjLRf3TAZxoxg57HG3yEr-FoqxMZ95tnLKx2gsbschLDKKyw1GlyJLKz-ufKh-kOE_lEH5rDGnJ57hEhDw9D0jXiPBEEM7j07b34j3GhQtMpzU9owXUIt5lqTx4UnjspZMvA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAfvmGdDO_iyS2qy51N5S1cCid3YxB6CFjGtAf0JDSm16zr9DfhMfOCEdwkHlDZu5udY265pND5bvA-fI7osCicYNbR9gLmuRAyjTSHU5jf5M3yzbFY-VY5n97YcPaYE54EhBr0w8Qc4VY4eqYKYwFWfh8GhTyNVbmN6wPA9aTqCclZV-GZONZEg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAIonJOuh3fLxp8509ZD2A1KOEfkyhnQgwm-rqg3cj7FecvIfxQTzJULG9qd6efHj-j-v5JRDeyxPwbOfzK_jrug3CS8I3DY8K7EX6500MRdykTCMAZwr9Vggh6DIogcOPEhC5Q_HGfcy2dvTFW_qQaOpNGhQ-vwLYr8tfGDegyjfcZx6UB2xwZQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAUnxuwQRygyIVbuh1C6vLc2HiljbCPykK9nv_8iWAEwmBujUliqvMBd5IWRm5St0ngJFwR51-400bFmgAHNjftuQYC5lQT5JIezjMHTXGM3z8bWeH19PxGX9G6y_4v14TEhAgZgi94KyFV8H6KsOWECF6GhTGd26KDInEdUPk5vNV7USmG4w8wQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA3-lE71FR69TSk0seBlanafNbp31jVOMwp2-B26A1elaQUuKr-BXhez4q3Hq7NmD-9HJJ04_uCe3nY9Xz1W98P6wuZNEH8fe61mu5YF6vui2WsDFXqnWYvxVVowThZR-8EhDMBkVedAMB0VLXm3rBETwgGhTR1uZ30vz96QKEIZLFfRVrpm4YDg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAa_LUq76Cjh_-i-cXlZ9Hn-Ffwyvx8hkIUFkpnO3WL6V0I54G64tufrvOD7YWCUZaGIfgLIogOFA0UCgLVbiY8zPngyTdHzLSYlOuYwc4cK9BNc7iCfwVRdxuGSNNnVN_EhAWYatTiV1AgvAaO32MhDJQGhSQmMQXqBZjQqjU_tZ6JgK3eOAiGw",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.gilga.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Stellenbosch, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "084 515 6677",
+    "type": "string"
+  }
+}

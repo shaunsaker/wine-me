@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -34.0038529,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.86047869999999,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAA2KhGvPCGcbbeXkynHh_Msw_zH0Fi-fg_n9yHNlVQrpwP8Hy3k5tcu0IugNFqhZvUpcwT9h4fmaesS3I6y97HAc6LWn-fNu5K3r839Urue-aOfjyUJQ2xbvptRFHttQQvEhBCRSj40FLm7FvNgDei7rXZGhRIl9t50f7FY20ewIP1f_SsmKyPwQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA1MupTjdUg7TbxLeHauCh9sb7TbbwBZlYCFdJ9WaQ9fGQJXXm3Jab6Xlt84csTPlGFUFoGJGBqkvVE-gd2vjwX-TiXJUoQqcbdLbfVJm30TEgnAoeybL96pqbH8TIkbm3EhDthr72sFCGy0BPBxyDRliNGhQnRdQirBrSJ4K1_BQ2qvHavVpoqA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAA1Buju90tqPhaUXKBFTrWk67eTcdjJHPyW0lfmozuoSzFPlOlFSosbjwnZWueeOx_3LjqxiHpYou7PFnJUFFkIrWC0G-0YwlRd94gERU99JGhSzibewiaI6JIW8qLW6jEhAw6PVHQbvsIVc8RcDxbc_oGhQv2mzZPzOJ7h4lsVC--MyV4ErTVA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAVxDvGdggkWyT0AhSOYllFVGaNLfSNb4v6xEgghqKIEsGKXvN7fSAqREjRbFtKa5tflt5V1aF9AJ4HNzhjdWHSVgvWvabKxBzt22Wr0cKOdVLnFdB7f7H6cJLin1QK8irEhCcjhbrX5342r7k1auwJ1_sGhRzNtIaQWj6NDh6WPDwwFSD1sz-yA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA5sYx4En_3brJLn7c6r1db5QvKVJuG_JEVU1dkGleY85f4uYTh-L0FYLmF7r6Rej0uOywlo1EVfCwgzfXyfFUaqANN29RqKCTA-1ecrFYVo9dTC_gZnOE00Z5PxY-UqBxEhBotmIq3JhO3JfI1q_Yq_njGhQkJ_E10O8QqlcMH1Zz9T7_ZrKYGA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAU1sPGAfj_WWIrDuH8DYIhUIJ6BRT2pxnLHI3fi5DAQjBtQhdoDRMG5q_rldWdXGoZegoTifTO0DFka4nxWYy6o7C3zuSYlBfTIhSntfw1pule4QYL8YqTg9nW1jxXT5jEhDqWuxROR8GdmHtOEHMySk3GhTVYrhLp2jg0Z0R7-YzegCsK7vaUg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAALWqfL3Zy6njRKB_R_3Dfyq9cCt_tVQgN15IqfTJuDY120aHqUEzcKWNj15gColO1Hn4_dASyuwe5xtKQ3jGM99TtkUg78gC12_YSvUUZ1kVy9JuzTYC0d61-wXBKFEjZEhCba9CyW7Lzv5ZIs4QRO-r5GhTE_gvkWbaC5bnzGFVjrEC3-FNbQQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAGytkz7cSJLJjJnHlv-r8AbkGt1xNXIVaC9bNort_M9RyV5kHbZy7muOhhNwoC3wC41G98vF25xUxrGciDDlWmCytV8v_TADpOJzXRUnlJKqKgfmpM5wpU9OeVC5LBPo9EhB60Q0WLbJLoYMTrJGEz6kQGhRHUeUEVlasZFug7nrMTsU5ZcQ5uA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAATZXW6Moprhl2YO6I87Eltuf0FfhpwZO4LWoGhetnEHmcjbL5t-Y60L78LfNPTiUAMXmzR91Yopsu893wCHOjlcbcgl3tSjC5tPCsrdFvnQTtoeRhFlM8QTqCOa9-334kEhBQ2nCVkIsaZl6EGc4bnKKJGhRtqGnjoXGvuL7RJmPTYn9ZdKKbkg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAKVM9Kw34kczS8j7a_gfysVKteaE_tRr_wpdr0LlqImx4ZqmvLqVbjKXjCGY8I3fpru3e-NpYTGDpZ0YI7F0FGVXs9IJbe2n5L061VRjEprFQ7E2bfPN7jP_zdr8ZQd8HEhB_T51ilXHJLD5RoSuFM9nLGhRY-xCJzy6z9MKN48i7M1X7nLbmaw",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.haskellvineyards.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Annandale Rd, Lynedoch, Stellenbosch, 7600, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 881 3895",
+    "type": "string"
+  },
+  "name": {
+    "value": "Haskell Vineyards",
+    "type": "string"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "name": {
+    "value": "Summerhill Wines",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 8:30 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 8:30 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 8:30 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 8:30 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 8:30 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAa4NrrdHIP5to6rIQ-i7oBbpQ1zOzVkhLlxqCWh4HU2KOrvcYgiMkPIl5xcRZeC0XIROQjXZD9Qpun18vKamPxdTaMdWSYi9-66e4_23jnUtf-8fDEizIq45ob1odVFy8EhDyp3LNbV1Hvg_rXVBWF5RBGhQHI1zs_dYkvnRbEQF7FPXFw-vUGA",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.882725,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.847101,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "address": {
+    "value": "33°52'57. 18°50'49., 6 8th Ave, Stellenbosch, 7615, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 889 5015",
+    "type": "string"
+  }
+}

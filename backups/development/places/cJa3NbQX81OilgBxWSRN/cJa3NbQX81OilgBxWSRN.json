@@ -1,0 +1,76 @@
+{
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.811958,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.809881,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAdHLLB37hGqZ7lM_FMaQ4OtidL1z4tIlWqZ3MG83cdo2u3HjVhrxqTZt8UD-bc14fz4CppjdF42jGwyK-ZpZfBURyAa3qtc3zzfXkUCjvlSjVUxyGYhoInNzfYMtuRN9CEhCwAn9D2Wk8Q0--PV2Z6c3zGhRxhmsrcZzZe-VYiFJ0D51n3DpmcQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAASfM3_t4JpYEnkatCZWZ0hcZmtlSHzDo72UCwHMXa6qpV7QEr-2XXUkAfRPQI2kCVXsWSSTP_2akc3PLocOpJvDZnLaPrnYEnrYA63LHwCXIDtcbZE7FMR8-P1r2xjvhjEhAXhCWncXnV6EM3ctbyCOCtGhQseqHKjFhBPSZwOLMZWZSVecG4Bg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAQnQ8FVMWchFs9lPcxCDP6UVSZJgs95fUY1gT4dLB-afqRaySsfNMw59S4Jv65EHAZX0DJBEV03-zdG-7x4bXWo1KXg1iBzwv6v-KisI3dQ_3b0N0k6nk7JA7QCpwLTPuEhD7GJ6zIIqI26__CW_k6sqrGhRx5PO0zFZ25SKLsrnSaKgoY2roEQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAHHr87Rp7BjT7_tu2_a_151p_3l6HQaxQrN59goz5FEe6hgYvxIbA2CQ8M8IAh15kYdaxlx_ly_v_kz6a52P7ZIY6v9fx2QT_g-6HplQt7jYidHaIwMAARYDbDV80rKAzEhA2StR2XbLKhaEQ9cbQZrBLGhQ1mYJyfz8gKOMjcanhqwWCxj01QQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAp5EhToP6lDmdoySmLE-B9578EGadBOr7QTtotVoePe-wzo4dKtuL2dxhZ-prKazBN_PB9s47nkfG2Z7Iqv3KwyFLZx2CNRuI4GOUXJ6TlwfLhoIa_7PKI9OLh_LxmOSSEhBYADPbH4mu_us-xS7j74EhGhRh4k8EDfHeaVCu9eNcbatDfFUZ9A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAxdIF0yoKtGy6LwNlgZmddj3AgcRN7D8CPrKSrx9tN08HLvzMqAdGvpvlIZKbRn5BDgHxWxrJgzMc6Ypyzduv52a3x6myt_b-HHp7BuCKZAZ9diTULTgAKtpzMCUNpH7JEhA_kiO0JEmnvxUcEKoYhX7rGhRP7TgQ_H1qt2reD5Cb41j-8lfdHw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAY4gr5GTPCA-I_gJXh-E-8wOZwi65PwmCGTr6t3ptz_CvxFfcrZUkPqOVmS6Pxls4r9rkBHg3GhYH01-PawO0MK8UTcMx6UkM1e5C6iOQlfPC_OkaM0De8DL_VWVPRRHYEhA0I8yGHYR4e15gGN3tqlahGhSyMxY7_2u78oPKWEbR_rgPJALXNg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAdpxxk68FHkKV0Xt435e0zlQe90J70Pd0sA0FBXSq-QMte_23DOPNliCZ1SBOvikcxSpX0tVxvjx9_YFVyHfQFlB_UpBsxlCOcRj2oAX3RPGT-q67BgZCcm-sDA9j75-nEhDhzOmnWL43VDI8wuka1Yl1GhSqlEhwOMmZBhVhEqOFuvQgygBMhg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAdikFAfL3z-pGV37QTk_bk4iqnk7zgNtdkafl6D-UqdfNBZm5azTHpoNT0_c9wdJ8Uu785XF4H4Wgw3Bl4MZgpzhr_ZNVX5cJkqrzgkgkMj_s6IEZzN41wJaCHntgw6Q_EhBUdVMwgSEb2kSyff9zZg1VGhSW4B0W_4DwxSM1DYI9kyqvy147Pg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAumDiN7lQX2LgqsstgQg26WlC8qQdTaGQWKzRxOURQYArBZI7sfbLb_TrPzxTvRm5rgZI7SqcWXyEhfy-h7jn_2fVGqC52viOeBSQhOGMwrdobF64KPWFvhY6PCnYvx1UEhBEqDG0tXU-2uClTMnakhuFGhRdOseOpeuLstYvS3HjM2M1N_U8NQ",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.joostenberg.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "R304, Muldersvlei, 7607, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 884 4141",
+    "type": "string"
+  },
+  "name": {
+    "value": "Joostenberg Wines",
+    "type": "string"
+  }
+}

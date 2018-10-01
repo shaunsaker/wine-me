@@ -1,0 +1,109 @@
+{
+  "name": {
+    "value": "D'Aria Winery",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 11:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 11:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 11:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 11:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 11:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 11:00 AM – 5:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 18.6108763,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.8411284,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAa0BIbpCdPAdpPsIqn6VKyMnu0868ctyYvrjd1dNKcKYtf4rmbsmg3gtLJHJq4w4aao_NkNnMM1FxIt337BBQMDrVHcZ1Nw-xXRwEL_912hd6qxJD8gVB9_xs4K06inYCEhDv3I0X2HoE6wio2OaTRSEbGhT6Ak79OdjifJEfmA9d3cRjqyV0Mg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAJmZICZFfmOjrNOBLT4v3kFWeBZs27UYUcH049JqxjjhNEAYxi72K743v4eJxaQC9GiSkUP1CsNLtCllirhAzC2DEOfT0gVMC2rdp7zh-io8o55sW5c32PsoAcNKwHHM_EhBjMz1vrZ-U3rztv96REtJJGhSfDjb9pkw_p94BVVL0TXaK8zpJRg",
+        "type": "string"
+      },
+      {
+        "value": "CmRZAAAA4kDQkHMPrdKAnCGZKdzWMZnCadNn9PhovHPN0SYBM61fFfYp2ZJVE1cyEd-A-k_D-PM1wPHqKctbXqu0IOyvBCtBrodeNNS4Ykxbexz_U_wtNPkH66N_QWNXVcna0r99EhDkOb_xE6Gr8JpCNDVesLywGhQEtUTNLNd4-vbnM1e74OC3xTJvXA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA44ElOwIDYpaMoIL3QLWyTtBD9563lKwzaUqvYBon6QKz-74Qn2gCJ6DVqp4PksybGTJhPaNvUB0OV3EZLU1i4couNceyQYBxrAiqICZZxvJIvLGeTodgtU48eq6aMLkgEhAIHxvSac5x6AouYbAgp9GHGhTAEWXWh_-I7HKrUc1axft3qXmVYQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRZAAAAPRMjdOjiwb9-xq1DJLk0p0Qx2TYkAiQxRwJyWhNC_xidU8nGhC_kdoQXMHkjPuhsDMEdqmYxwjhXvmQ341U8QakBwNx74csTopWdS3_DUcAfNAuj16DKA18ONrTBBIZiEhDMp_gqmyqFitIcl_gGBTUfGhQwwbViNQYCg7Srew7q1WpVeOkiOg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAT9oaggsK4sLdLMB2XVHt3fNxDw2pYO80cDmBP3Hi1We-yJFsYZlxjKhHHzVxXH8IUHUOhGtmmLsLE3xtK7Av9ZxqUs2DRdF0sV6F58UGVlbwm5xgFbqGRV4dxXiR2yXpEhCGMMNLdOn40obTVSChB_UIGhRwPBvJ33OJmmdIWSpvphoJBHsmXg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA-MuFAYN6K4Qxobzh31Pwnu6PuAXVdbjrQoeMx0xmhHfcOcEbUQXpbokqTUJPL7DC6Sbqn8dA0-m7szFRKKfDN-Y98JFW66pcTEMBdLUgRn0cRujW1W1goTv0QNMaTKw0EhAXnZ8p9Vc64TcyARt5Uw_dGhT10y4pd8ILLqqaKt1C3fx_53pL9w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAiJ6okT_EKXYzHfAkYjfp_at7Nqv_VHNQz1p-NK3IAh9zqMmjDTRKHNxmQL535ulkSJi9kh2JG2QCMA1ma96lAAqTh9JWhHDRiePLML8o1Pi0bApPNmBm-LEsjk-AC60lEhC6Bhve8xoapFE5jUOnvAUxGhQSTegTyPZ-d_xoHu_-J6h1f4KF9Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA9CwNsqZD2h3p3sJXHPsocbjV6ioBvv3vUUTlN8a7V2zDR29qoMS8h1l7i0-FsckPsqvUxqzm1ORcllEimcjC6zKgB8xJncykg2YBahkksTGOckiBVAzzoHQo1Lqy9FbbEhDAXv4fjC5tmRSaD6XeFhbVGhTbYyc5JTzBHhRyYaf0vbslYcLhwQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAEuzl56J48x-ygW18X9czAaMS5GRJUu0I-w1bTBUJMvdKZhN82-tl37ceFHuAhMEceVX9lsPcmqbkTCnLvzdqM_Hq3v-cVcXlMQn_SWe8A2jKr_4u18fJ1UqgbKub3EjoEhAMx19XzeSN5q9xF6MY-k_KGhTZZZ99COrTib3s5b8pAd2a1XyRRA",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.dariawinery.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "M13 Tygerberg Valley Rd, Durbanville, Cape Town, 7550, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 801 6772",
+    "type": "string"
+  }
+}

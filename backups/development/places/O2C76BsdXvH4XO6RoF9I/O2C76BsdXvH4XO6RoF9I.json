@@ -1,0 +1,73 @@
+{
+  "website": {
+    "value": "http://www.lorraine.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "R101, Rawsonville, 6845, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "023 349 1224",
+    "type": "string"
+  },
+  "name": {
+    "value": "Lorraine Private Cellar",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 8:00 AM – 1:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 8:00 AM – 1:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 8:00 AM – 1:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 8:00 AM – 1:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 8:00 AM – 1:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.712408,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.262058,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAA8qQu4LgyrQGkhit01QvkpTlDHJQG6lmVfSeENF7wHxCobpeRVJo0i7LOEUJIo_V1RkAbu-6c8392Mh4DCWn2BqlgLWPIfwKvKByquyUsiQ9JRmVL-g-158ltpG5Trz6uEhBdYMFyPjCMdtEskOQtz5tmGhTHNhmDu1X4bIXWigAjemOf0CbDyw",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

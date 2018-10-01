@@ -1,0 +1,109 @@
+{
+  "name": {
+    "value": "Jordan Wine Estate",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:30 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:30 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:30 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:30 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:30 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 9:30 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 9:30 AM – 4:30 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 18.744216,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.942956,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAATu8w4WPKBApD5FrIrw3jyEN5lkgUXsWZ8YajpW7TdontDmbeFAsXaGoUbZKp8jmkuz4uiS21YARocMrQ_up-0_W5uqwEV3g4lgs89Fk21xA6ovfTYOAmp4G5yboCwZYwEhA-SjDQICGiG0ZBUZSuc7oiGhR8Vid1ADZcsCCrs9WWjkzzeCtuJA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAuFrEyuuJRy7mKExRIKC9GbSCYQrBkIcVWp9ieNXokrB5JisQnIDYpn2Y9cFAvXyYANMiBes8aF3G9I-SGNSC0a_E-VMCQtNcTRkzZeBcMY-uKHj38JU8xdruuthKiEKpEhBIIbNwRMOuIzL1V1rOb0lzGhQ6teNw665DUL66PpdeJm7YYwgQiA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAu8NTS1NZDvnrB2roOikkQOa5iqckVHF6mNDx8dJwGk9fABCxYN6-aThp0vl0J5qsqURpZqI0kIBuLlCwqVE6CE8xjezsKvFsIoWP8vMo0eZH0xh0gr5zuHmLS9XfR9v5EhB11272ZCIeiyG3cxuK2lkOGhT5Ykpg2lifjDqRUzH8McxjgxoWvQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAvN_4x-wbz7yKOK8v7YySZNK-xQGTuWRYQo_BJN2dVPO1kDO7MDPlAj_u6616Bh07wL9X2ZKjv-4rkIAkRjQov48zkCAd59K5hDunSRac4yRJdNqBV3U5zgXscU2fQeRPEhAHLdu-YEwTMvybbE-_Al8-GhTlRu2uZE7_TFE0KKYVO14UtMlwDg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAmENVCe8y6ByMxBJ0hSaS2ltAfdgHXRa0GL3pw1AhcyLfaWze9bBiYPAkYdHNLvJtsmQmX4Me5HyHaqruga_K3aIto3rulQRGbfcy-W87v6J8g74zVA5IFGFkoJTwbIoNEhDlplQDnFI-QxbYxbNCWxcdGhRduEy6ILnDXsHBV3J5KvERHveFkw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAXCuIdGEjBOqcyJQGXM2etT0mEUYxIlkDRXA6Q6wIaKJH8DRHeVUa-5akCcgcATWgubaYU-FoSdv_Nkaw0UX8RLXTtaXddN8k_WyQfHJCWdqK-InYQxFagDc4CoNPMhVWEhDrcAc8VxQGOxsGHsBWdVCdGhQwsvMWbr02OwODIgtXbHELLmhSfQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAMCZmCKG3oiM3oG5k5USwLRYfza4V_52y2EZBflzcYxbURI8os5kYQ8s9-aVeDHIef6a171B7nFvA99NQoOxPWDPumN1e5yjQ1svc5_tSg9KbKoWC-oFQKzIy6RsfgC96EhCg2ZW5KzRG5CT7swP_dO6iGhSPH9jnl4HZTfa9hyWjskW9THaS9A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA1HovL9tiPG2y19l0NXgb96EeBnd4Pz9jnLJ_ETqLGMlON8SH1RyXPCJdpCiKrcpGiagM5hFxtd0JFELJuMUlyrGZQLonccCTveWiynk5Lv8om9raAI-6e_cCwIK2ceIJEhCVPgljDn7i4OaR9qQQjyTBGhR0LR78vYanh1O1YVdw2JqFJw9Dag",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAYs67I3lBH5AGBBusZpVhK1Y-D-sPb7brL1aOfA6uvPGybFHma-OwVo7RdX2VEcfp0P52mQ1kWfEouw12aN5elbEO-J4YPzsLcjU6UriSQPAn71PSE6HXm4e3lK7ULGzrEhBi6lr9eJNbMBObG0NSQkQsGhST5KpEkiBWx6Hpf9k9inxpbxTkng",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAEFLcEWbaRmNNFKC5XBqpWLMgGcW8CuiUG101qnLSsSisRWI6b5K9sGREFcVAxJewwi_y40mM8JOHQ3iQcyW023YYZ-LHMvS1dHnRtm0I5P_aIixt3PUArnCJ087LX28DEhAUDvdhM6r_NDpQ6253ChjcGhRBd1XLtLI4FeGu3J3mnzbUKBUAWw",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.jordanwines.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Stellenbosch Kloof Road, Vlottenberg, Stellenbosch, 7604, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 881 3441",
+    "type": "string"
+  }
+}

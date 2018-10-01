@@ -1,0 +1,109 @@
+{
+  "website": {
+    "value": "http://www.maisonestate.co.za/?utm_source=google&utm_medium=organic%20&utm_content=maison&utm_campaign=GMB",
+    "type": "string"
+  },
+  "address": {
+    "value": "R45, Franschhoek, Cape Town, 7690, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 876 2116",
+    "type": "string"
+  },
+  "name": {
+    "value": "Maison Estate",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 10:00 AM – 3:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.886863,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.07626399999999,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAKI17kPoxiCf0pKQBZSZHmIcEj_KnYmRvBGt07zAYMOaaqctdFAXIBaBTmKs9kkFvxA8RHCs2PiEzhciZC0tq_ezqpKLJT_7GFXDJ3v3r60qhflt2UUzIgpbRfmoYWW-TEhAcN3DKbvMKd3vcNdepPsgXGhRhTt7rQbCOJ1-IQx3XLZitCew5FA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAFRvVvbJdiwoGTagcj2DGmpdGTdAaDl7Newa9b7Ru0DUpF0cs2XuGydEjeCv_4Gt6U1WcIeYJsi5wTeNDVXvvMh_1ytsquaDt60NxC8DT1MhYr4DndHQa0UnXE_o8B6KAEhAh4CisvQrKAbPh5lNL6WQnGhS07IdzY9GCZFHv18kn7LfbXXNG2g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA4YsXkSv_S2VGXEIY7qmPnoWU_LiNp0CGgflOdyE9BHlqxZ1DrSpaxq2rj-7uEvsZyxbAjS-VkZZcI9vbS-gbUJs7Eb4JiGa2Xsw6OCZ58hSnYmJidzS8pxTR8nPZ49RXEhBTjg9bAjTz3CjZmiVTflJTGhSFrIRqTsgrbjWIA88iBgnYzHuBsA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAZkOctDX9FiRSlRGQXPO2AylB3gvIZnJLDSs2DvrN9KPQo6ZGY-XujwdR2CbKrtvRpVVUYi2skRyaIT5HLifj2zLOZehlw2OgPRFKiBjgBMuuCGTR5ondda5VHqOtjSZ8EhCpgSV427ogadd0imRKBMIrGhRsiAoHCOu3si3q2QSOcMjVT9aU9A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAygzJrKTmHPp-pZKiMuX__I8f64OrseCesz4KlVeNRz5cHXBv2UjYkhipdRt0ExQdveOj2gKyVHmFoAOiu_yYA7XsGB6owGqklfxGkfFlsYQhRikRSoeT8-07h0u7XB13EhAyNMkLF9jczEK8mOH6R3SjGhSqAXJdzkWNjMM78C62xzw5kxCVIA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAecOehStso5N_mZUQVZIjnyDc4l-XV55DBQ5_NOCtr16p39BUO7Xr7IVzi4ST6gKQlRPt7-UkklrYUYglQ6F41MHpJS8-r4QLZaE7GlcrPaXfYdz9inE2Mpa1lsvQTEivEhBB5YBssZ5cFXs0zyiAH7FZGhQ5-9QV1fOWvM6fq7xmd38XIrAedw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAqtwxZ18vdkWWLBkia0IJ6S0GJJoy4l9XyPXNG-5tRIT6EBfwvh3qDDAOdu6pShfYIE1oau1dkD7UHgV6NgiXc2tpidj-puAslSxh81oZeFpllQ3d25pr4MPyoTTtWnSeEhDaMxqU-7Agwa53uUKdLfa_GhQOxgEe48Wn8CajF_GOvjGsVxPgtA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAArdxOa7fS7LkQjL0riI8ZmMIdbp1xEuf1l0gUf_Ij_5GuiIDtMfDBhwXnsuYTr-YRObkzeTnoQquq5yuwW5vJl3IL6ZOVyMaUPu9Rs-EvZGZ626RtdTPBKMJlcAMUrW5wEhBNgf3h-YdD1OYEPBpIe2T3GhSDvckikN1Zu8fex-s1KOBiFEsG9Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAQrEVjore8CCVlx5rDSGteA4pU4Wv4ztD0gs6dwoHFVbntA3ZhD09FMGULBlDHsNKsbuUC9v0byYZrcEriZUyrlJeay7KxcoGkgEWsXEGknFd5KpLgBAG2WMbDRpxUDU4EhDsYjUNupSoTnfVkiWtHJWVGhQjoHpUa9DBkbvSbDw-nyBQhVMkDQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAIeXFeKH8G6X7_m9uF-O2Lf5qmwSh2mtvpWRPGuAQ2X2tHdI7HqHq1_wWT1PwJT6Q1yrp05BC581q_UC5oC9Usp-oXo_nQ3dutbIpSDf5MB06CBNh5eHqFfe7DfpGJZvXEhBGwLBgBm_OSPtDqtSricwdGhTumiDRwdasCIBNDMmGuTvcQGy-aQ",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

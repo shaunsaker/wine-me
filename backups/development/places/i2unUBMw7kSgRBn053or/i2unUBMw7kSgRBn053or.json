@@ -1,0 +1,109 @@
+{
+  "name": {
+    "value": "Ernie Els Wines",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -34.014214,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.847346,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAA_RczTc2EzInuVvqEavWnY0GTcWBID172x2VazuO_8bQyZlDOLCSxG9rszNHWTbLbiWpUHm5hZ4sxGILXDCbGnmRxQNvKcS1VhpslmOERypY-Xkyd7Z5VpZ0vF-wTHsx8EhAeVK0X33VYFSYcCDje0ZlQGhSnHmxIy72E1cPdOY-yl9wc__QMDw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA1ykzg5PUpbWNR-q7hSasILpBaFnbbHr5KJBAxGnFBcLzVlhtLP8dS5aqm3svDodkUX-56m6ZsZG347IAlmqrsp9IhPkWRRElGobh4dImmC6_Rfr17wuoUyM876wFX5KvEhDPDckOjyp5Btpt0NXCE96SGhTdY8KcLjfIAsJp4qV1l2y3jbhdfg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAADnJajux30e-VoOLoLVOpI_G5pjB216lZgThnD01YUfxvEql12juQegB-m9tBevZfRs2Bv8euOyrdp10lfSLS7HtL_4rWOId9u9d86VvD7hig0FqEmZ8qbybmdToV1p5VEhDuW68GDhgI_tCvpAY5XTKdGhQD1RG3Xxe_EuAvLdQ4CDJh6bNifQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAmWl4fykRqYueJkLgEFCXRCGzaoZnSdj5sVecLDPiHiihc__v48pT4rw8zXJczBu-FvEGz-7SYAxZ8iXOEDUJCyjv3u4SdVgGqKLtfdpMS_kixYh9F9FvuL3JXOTQ_haLEhDhreINnA7H1SaVAnfnrJawGhQ-UcQ_VVix5TjvvirsNFHaC9BOZA",
+        "type": "string"
+      },
+      {
+        "value": "CmRZAAAAV-yEE9oofd5xoCwirJNEVnCV0u-mZGc2yuwMELf-Lgd1CNJgcdDPFJPT9KEQjiY8SjuTdbheJe-xIoAZt7c4MnHtHu_eP-DiwNs4WlHQ0hso1M49xxHx5Y00Nt6-ErCwEhDaPV15YeEN-jNXTcoVLL3WGhThSH_kfadlqCbSMQI0nE76nUNojg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAO_eW1M8UrzdPadphT_im4-PLaDj5RyGGFYV-CsT9Qx6KE00lEQkkmNM0StbCwGrUdf-YkbwzA-ZvNJYdDVNwLORJZO75NHMp9PFglt4dUBLK2KMlvNPBbH1WuXnopgxyEhC4eKBYe8-f6KzWu7gTr5lVGhSDe536JvIYCCgPNdbdjdr98E2qfQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAIscYLGExLMKJbP4qU3BAfZffALKHy2Piy9q5oRy9ifXcUTlFrj73dK7NyTTb-Mjl182QBHPIMXjPuA27QZFNaxg0e6KymRAd6FLcHic_KskaydIAks0rerYgkDuCSdT2EhAsHVltJ8Lo-bm-YnwmS8h6GhT2WyzZF6ARiamAfRwb27wqCj9PZw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAbRYujZdMjuoVPJ7jr-kbuCv97w96vKgDLfmGARHde8cdQYEEdsMlsH9nbn5u3BroRljpuWAiaRHsJTz9uaIwIKLs-3zul1vm46_4-kr97uAY3KbA_t_6VURRuyIhRYYvEhBAVkeN-rjHMBVWenkEB62cGhQLVI1w4K4yKmNMrrznxNSek6fRRg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA5qB4eY8HYnSbCI9o6dwtCAeQLByfSfg9lE_bnHV1k-8Q8QfYo1RiUmL9lkJNyUdgYG4l9VB-A2JBHILfp9Fc5-zpYTzW6yJXmbiwm_hqPOG9_JPVYSb1ZBu3TEecKFtsEhBgHra1hQRgK-g5gkMU4tkiGhQJlA2vJaoWJ07nG7_v7y38ZtPDSw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAkSgfdgT8latksIZG-BHZPHby-opbShZRAo9Ud1Ed1CVQ30vTY0CZhMALDEhFf7KDVRoH9_I6qAoJcdzBPBp6Ym9KxMI511nFWJLKnnq6cFs53k_5HmE_6n-C852kRQkhEhCMLcMcLS_VafzF6CvVNNcDGhRh5x68e-5iGkLUBCpD7fJZjRi-kQ",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.ernieelswines.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Annandale Rd, Stellenbosch NU, Stellenbosch, 7600, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 881 3588",
+    "type": "string"
+  }
+}

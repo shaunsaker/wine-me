@@ -1,0 +1,109 @@
+{
+  "website": {
+    "value": "http://www.springfieldestate.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "R317 Bonnievale Road, Klipdrif, Robertson, 6705, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "023 626 3661",
+    "type": "string"
+  },
+  "name": {
+    "value": "Springfield Estate",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 9:00 AM – 3:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.83691400000001,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.915337,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAl8JrmWL7-P4s_MDuHvT_5fFY70q-wvU-9SLEY4Uu3kvE_bs0dvG7oHfX-CgxHJ5JWsPmK5Of2DCEkBkZ57Gz7wBz0eYXSbM5JijSU-59kHklxc3y-2d5rU8kE81k4UqyEhCBmWurt3iLbGMARHEGRe9oGhSVnPglrdtj60WC-m25pX3ieTKi7Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAt7-HzxRyGM3LC-h0o5XTmqLjxRufR0ETonbX6jbWY2A0Kp-xpS7gBtC3kPLtHkxeZg1OmMo81wwcBasU5YPCmuNkjzgaqigdeALIt0DVCjHKacWEGA4QsDKophlhhVoLEhDz28hxQO3xPrHc__91MAnEGhRpG2MsRKJ4hu7fJsLuhYMjp2XPLg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAyrMG9ygaKxrcnUfjUlBtuIg8spiOMpNQaOkjGbLBMHlO4m1V_iODQCo68kdCaUbBFwQZoDED4apyyLU8eK3Q0ypOsps8CvdOinrk6bzTbBhG7H92-2g2A6A__eG5zAy7EhAi6EVn-8p89sPi1eJAxgBUGhSKXw2aWbT8FegrG86qFfbkP6Yn3w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAgEUjdIvaF0EUh165FG8uJXhVcSY3xW4vAVnrKAUKSBdMRdytNlqkQZHBJGYwKILPpOeExg6Od2eGFnGhkdqosiUREuqzSbcJhkGae_M7S9qKHnC-jqmY7lopskH1EJ5oEhBB0quC0I7PFaczUYRVg3tHGhSxWcpEqWHR1oMO9kensnlGHpnpZA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAilmW5KnyjaR-XmB4kFOKvHBghmk-ZWE0IILYJoQ4sFIeeqImpYXfc89UYcle4zCklvDewjVtpqbKIgTnPCtsiiS6S97z6ZuPKpTp5MB6i7pnLLtivSev69nqtCr8jHHAEhByImXlAOcl3aANM-KtuYxgGhQRtAIgZgT_WsyU3BOLOZgXW6GEww",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAARcL5oKgIVC6jsFZ1jtabiL0u-_qYS3DloyChL53iZdj7vCZFOTxWSJqW3ukV_m3W43OJvspzBoih3z80zQYsReKpLWyYEBOYRrMJm020HrsvYwzdCws7CUKUalaRP7zXEhCUdyityef9bwYrT1TatLAJGhRp7yN_OH92dhuXRHOZC7kYMs8eQQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAV80WyMdc2w0aqqdPTKT3izJJ7fNll42Yul12D0POQabd9qwrH68zoZmwXmSgHMWTXe198JY5OYzIhplvUbSu2pY0tZzU6AXUoxSr6n0PK9LqEHJK3JFbjgEprAdoupUJEhDNLWlU85WO6teyY7j3RUcaGhSzb7cWssrIjhH8iaYhyM65usjp6g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAArBnOCu_xhPWTWv12ejqb7_mg9V-N5kBrmVT-BYFbtB-Ns22y8HIrhQnU2_lr7DHz1xMq3MNtgrJ9CLIncIiGe7ks_ibiKEq5esdbbuUO6FgNZcnNl6CWjK3gJL_FNreuEhAJkTQaeatTh1OLOEGsUfb0GhQcyAxzL0WDifT7Yc8rDgaXQ3fuOw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAfH8PLcwt3nAh-CNQQU_f9iVPNWoE7i_cCSwKmOdQ_lgUBVdGMya1Ph5TSwEOClplpnwJ7OFfWOPw8hohdbGQkyrdAWxagqH4v5t_zbjxyfGLentjSFoPyQn5OB9iEla5EhCe-GvohEznMAyce7qtL7ywGhSClBYNj8QgRe23KXJZnk60U5bK2g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAVkZnvaHu1wn8UsaI_X4wl6iuP_8uCdoZipxYR6W0EV_k2VLscGlTFMWX4L_YWGzfrcXvheue5HwaGwSBM8NhDRV-WiDn16-biv8CLWwyFgbnKvq2WRgilQC_6GLJp2gqEhBiIMLH8bdffmX9Id1lU9iKGhR2Q_rV-40kAxV5QCnBQHGaAFqpcg",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

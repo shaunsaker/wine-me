@@ -1,0 +1,109 @@
+{
+  "name": {
+    "value": "Rhebokskloof",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.6772314,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.9336116,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAomtWQC-d49o312kEjr0R5R9Masm2BWQPwAJ8gtlD_UsSk-w7nXeQBv8fa4BpYhiH4LxNL7MOigdDr7dhHfHnGxNfLwCub6ia1jC41z8FzBJX3ZFJx1WKFWIPszFxX0RPEhBqN-TkLviuIniKyzUPv-SaGhSQnV-DQXPhrovgloKZ_0yNBRF9OQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAUZHn5-tFCRcExeT9ooWvUerob2rbFMRkH7rtBwuQwWQ3uZzgt33ppUipU1F4v7AuRs7--sOlwIxfMrPqUrHfuJyZ_LS-e3Gv19_GUMkdzOleF8J9fefU_ozBFunaxfrmEhAPcKQMp3OHM_9MipRxZ66MGhReVBqzHtyc2TVlWObhBBz4IOSx5w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA_okqZuDW2RiEZJ7N9WPNikAoicsaTW0a4s2P492hti2aMPQS_NSFZY7QDQn-b1F-idCpryoZPbjTLh5fsdAio8atlBMKV7mE5-gYTK4GrpqJ71Bnv2g9BzjWMkRJKG-ZEhBOTfkKh6OGrgEoBk-ccBTmGhTpwcEvAub-urU0AqldVH9gG8kEDw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA3unzmVZq6EnWb08piBCxDKnMIZ3FSJOK8xCN_IxI-GuNLfa3nHqHVn5flspYpWz30Mt0UEviUiplisow72cqYG45DYA12WrHw_WZcadyvuNsgyl7qfEonVIBOa1eXYQYEhA8ctFmaV1wTagGRPdkTN3nGhSxYYdPdS56a71bJ3WpO8GDCAdvwg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAemO4vVASc3C6xX11DnpTkXEQajo9bYeUF-S6ijCJxEtMAM-G9y5APUqAC1vGyA2MXlhkfpHJXmBstnv9DmeMNnKUxprWCWOXOetrj6sVxebJCmJ6A5DUjj-ZvW7i8unkEhBWiXIiQExY8QMLddrzlKR2GhQvMa_G4EHg5vx52faZaVSVBG2juQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAL-vdkD91dkzodj3XWRd-Egx-B8_ygkcyKL62-9g2EXcZ_ZYOe0A4R04df6qFZzx2kpSlTA5kz9AFQgroAygyNHOKHT8uWnX02yAQA7e0aSOwBLDQXX7cpn-87LA5ukgeEhB-OszkEmXYU4H57sUdpdcAGhTygA2PlbMubojNwmbYtZ5tM_jq-w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAJS4DyFBaYoi2p_QQWItzF0FKKTuTrZU0lCL6tR7qTpbrAfJMI_osrDJ_u3NfD7rtFCOFhR5x4ZFZNRJdvwWuIUFEVQV1ahjyig3pTqUkHk9bZ54VFs4n5fakxf-5Zx9zEhA59O_wA7KKEddrlzogmo6gGhSE1YwAAWqiJ1IMQlVxn1W8gjGeYQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA38Of4o4QgzSsX_rGC3dwNTlzZZ4Q4JWawZMmn5Pv1XA-y58FOn5PPEnuRy_KiV4VKRNFyW4PKe-vzS5IrHQXy7JOnb-TrfU4gElQ8yjeQKg5GC0AhMM71305i65DdoUPEhADsiLo_CaBJXVZ0q0lpfmsGhS24mr5wHoalQOCt0bbBklXrPysHA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAblZ_aQnk0q5nhk8dJZi8k1Nk955xOlrmVA7VhoeiTac6PyOafFvrpxPPZtIJliXOihqHUXVZFmhDS_uv0UAXoZa1gR8aJ78-VrhqCAgpunzdMhwqlMJbjKHQFSCoFuzOEhDgneYBe8WHA_WPvjmt0Jf5GhR6zBVsDMp0Yp_DBrVEBr8Je10Ahg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA1nCGrFED4pLRd6w0hLGfI_fg2wcnj-6M35OC57ARu1ExvOm0YOmlnvhEQRb2qAON7nTEyzyQtxdouCBtGialkYyAeXrpPiFJmFt-gZ0UOwE_Ma6ZvyK99Yhs0vrN5wWhEhAg7WQO6E88D8a863Smi1vCGhQiBLLwWBNRNTCIqaKesVrJwXzH9w",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.rhebokskloof.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Noord Agter - Paarl Rd, Windmeul, Paarl, 7623, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 869 8386",
+    "type": "string"
+  }
+}

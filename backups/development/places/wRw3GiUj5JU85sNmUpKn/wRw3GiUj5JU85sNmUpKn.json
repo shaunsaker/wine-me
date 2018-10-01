@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 18.9460694,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.9286291,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAADwAoUw9WsSMjsW2htEekjBtLO80L5Ohn2FsScVy1Lnib2GgskZnyplhdEAVTHiBb3-10z5TrDlHL4jtjhtd6k-RrKPzaorKyMX-uNZbEMR3BcWirbM3BDaKue563s78UEhCgHzni5JmHtafWV-3mrkg3GhRBSZKtGiBVgsaF1zgKra22H2QolQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAImUixbHZnhk0YloJY_obw-7dzfBK_RN3uxq2EEopdUF9LtHa_YK-qCAHO5RkZDeRmH3oWpn9AK7xNLAKHN8tXNlLTO03kkrbZ9UIy6ifdLIS0RGxaR6fiHoESPH-bvdTEhAmeIgn6582DCKO4l3m1ZwXGhS-gYR21ytqqkn3sp8KF5eKfNhdew",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAMKonp8zq94F5599zBzaq5eQHGECOShtN3AoXDbUW4SubDP4oOjyKRq-CadVxDf3iolVZUMxiOBBFB93R7FEQT9BusVdnI-PRsZxprmh85UwiNBpvVgwtjH2zcN8Hdf9aEhD9dR6D9fdDZREyDxRloiVCGhRL_huLSWIMYmn3EspGP7CL_6Jp9g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAd00-fsVzoeZu-1WrVg8i7qa6YIAW5ghd09yK2XzPgWeo7YDA-ObKlcduTvW5I_bHH7yHuevx2Wbzd6KnZjU7LOKmq9e6r_DLOTixv3TMX3J0rRU9HsNCLmrRgqwchEFbEhBfsKevOblMTHTQvuwYlHXQGhQ0ijNgyZjXx2ze2UWF-DLsf3cjQw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAwC8vaDUfzoHb0nxVsS4L3b8EeUIBmdRhJJdsF8gbYW5dnfGm_QWgyf_cppwjcto5YGcwHI4tmMqt8px4dnaURSnOyr0Hbl3nerRw7NW2HLYbMDjeMCbHzMRnldmsYL29EhAALyA4D2OmDyCpruHfKNytGhS7nNmv0zfpVj1LgLQj8BR7TZ9txg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAbxT6ZhYU8N4TMKQkoBdjeQYo-bP0TSx1LYolxhKTjE3Ccf1ByRsu2O7eVZf-3IMb8OLiW5I07RSdQpetu2I2-mpNcm6x2-9Mmr1Kjdi7W-LK8eKFdBnoVZHKfx6iLVWCEhBoBqgPaeFqQ0B1JuGSAW4AGhSv0A0BbasauTwLD64S7m9lfx5M0Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAmeeunl2-U2m3qABAavsSLLVG40FulCqb-jUk6keOmiCCrnjzYm_8OzbIpmTVl3WCfjRbJp3N6VNIPypPuOpeZ-UrzEDvTXlqgyu14tybKHVJLqw9SzB-AEwvLSxsbhrcEhDvjdLTlecCu_0tD3vm35YxGhQ1T3rT8JwM4q6ovQIQZ9nvXyIV5w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAARvQQX_hDleZwxcOuMxV31P3RU_iiLRL7LTlUyOwWoz9YhDRxpGxOWVEiTxQ8IX2YfSGmDRWM-NAvtxGjQbzmcFVb_Ihq1_CNKJzT7DZzfiq4qdD_cmCZFTnU_6_x4loOEhDA0HcFsRiaJPh_uKp5PDkZGhSTidYgfYy1W1FKGv0zKV6lWAWtuA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA5Qtk7S7mvr9MCYu4VGSuuGdejIjI2hekZIKR1pB296LijEPPpfyBy4ifIlxm_ZwqFIteKOKTlGN0ozWS_pC4iVmMc6HSgL86BMjBa_hylMvnttFy_BTvT08azpw0fue_EhAlh6pTIouPo7leuhfNjdv2GhR4UeioMStWuF6lucK3ZSL0CvqUEA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAdy0RJqhdhtc22cVaRt8AtYvDQq57RarhGB7VxCEDSuGK78LtiwyvAuL5535ssAOPGejZ3O2SbOjz605ZX4XzgUjAGjEpQFIAkiZ1eR-_ns8sYyv08Mwp9x0HGWQSpHebEhAbBVp4u68UdjqA84SxNUK0GhTvKC1yQxElHxM13K17GSZT-RrdBw",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.oldenburgvineyards.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Oldenburg Farm, Zevenrivieren Road, Banghoek Valley, Stellenbosch, 7600, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 885 1618",
+    "type": "string"
+  },
+  "name": {
+    "value": "Oldenburg Vineyards",
+    "type": "string"
+  }
+}

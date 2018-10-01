@@ -1,0 +1,85 @@
+{
+  "name": {
+    "value": "Mountain Ridge Winery",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.4740328,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.2028274,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAARhJ_YatMyj2HBYGe1651LWvriYbMTbFODBFFgR-_XmyYmAQNlvrnvuLkRb3RyonLha8F2rGRvBkaegprivQ_XUpclhzkDUN1SI-CpatkcrTrlOXFBBvC3qP2DqY6ho05EhANYiyhPuhGfBdzFcFREhrWGhSnRjpJw_HhP_6QzhSHH2j5cQ2W8w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA3HpjJMtljB7E-s1LY6VJBEKVodyGhNgtqE07wWDN5FO3FGHr-GC1fd5zZDjFUS5r1NLS9gqWToE_qFKFTKmNMLXldiIu9oJY-EZRLB90U5koJQa15MosO37fvQ5GZzfWEhC0kAG0mUooZqaRurSgcKvvGhR8x2i3nto0R_m4KnRmwhuUFL-9RA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAcKow9byWdTDy9KzZjuhSWF-rKtwSsnkYvDL2mVEgJz-w0xSlRMoq7VRi-esP-gb0MjnOxsznSkqZhkrhScqApUGG3x3MCReqCiP7JCP9VHdr5rcibgHBvfbX2Y_E6Qa7EhCm-SpPUEQjMyAHVMFWM3raGhShlj8gawGqBkkKMH1WRpXGLRnqhg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAeUQIf-wZz541kwlxCwAceHL5O4gutMgxANJQx_HDzLNuV_wEajH75JauyfS_0JgBxbI57ilVwrvWVUPtQLlonnM38uLCf90swTBaP7HmpavyT_epJBaPai3ytkcAQacPEhBewEl_KgJIUMtLIMyMB7f9GhTKJh43EucbMCa40QFAjz221aFP5w",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.mountainridge.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "De Liefde Road, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "074 185 3780",
+    "type": "string"
+  }
+}

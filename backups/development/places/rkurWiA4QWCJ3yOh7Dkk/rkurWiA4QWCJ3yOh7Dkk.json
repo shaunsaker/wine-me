@@ -1,0 +1,109 @@
+{
+  "name": {
+    "value": "Post House Wines",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 9:00 AM – 1:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -34.0206006,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.8098373,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAV2W_QQ_lzS_N0MSxkDJVfXqrGJlCNHGdOuGp9ja8sc8kJAS5mGBxdg-NgapbXO6KYKi42GQtmMVLe8SQ_2ygbQO6zJDK7Bh--EYRxPl06wn5duLddk4tBhFds4OvE8IAEhDbVlcXQVrYCGPUeqzgkaDPGhQ5Gl0jB90L5ZORDaYvooZpa4k3Iw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA7HkcEN6hyuiVHe68kgcZZWvvqYtcnq8cSTs1UDFP0T0YZZfoNQIyZH0Fq__2OL4saAtro8zEIYp0Gl_-eGCc1ct3DIg7qI0FCGOI9U5z0Njo7577rv3aYnwJ4Kkux4FWEhCmaKVdG-6Dl6rb7E3ec3UPGhShvqqDQmlix0F1HICFCwX3iH2yVQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAdntqwVYAIZsfzzXKWCWUAnVG1iym72TIWt1x6I0QPzigjdrdwvc0VMaNIgmOMvw0VvA1r54sWm1sFwOWvxjVV83bDXHb5tAl7hiyZAfXWpPDhHwls-x08957Fl0HusmoEhBlJpw5ZNBKgJXW5MPpV1NwGhSlgLTFxCcuPS9slwJA-G4ZgP-weg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAXPy_YoFHWLrpAhG-mx8ymHxRzrFCcnaFy4uKPJKzEw9iI5OinIOp9UPQuUPNHSoIDIJ-YotsLPB2a12VTCYxPnkxVsS_gHDHXOz2eopZsZwfby92vfXQO3ECh63H10IfEhDRClnGv2cvHuw2qprXNY8HGhR577CW1yaLpMiHjZr5BqkD6TTHmA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA5KSfp6iY8pFpquFo0F6BGG_0s217E_S6O4HcUyKk8GZUyGmg2uVbQgOh-6HgBJqHDuJA_xU92juUXPX58ot18K3eTBd6FS-kE4JEXA6VU2DBOMlvAxd4YwRTKbr4LnJrEhCHo7RvcDcMDQy1I07a_aPWGhQXzgFuMoBrZ4vptw5XCtXiykoSTw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAJTKZeX_uyoPt1N6YkGDSqQSgaoBRDLvwhJ4Py20SMWWtkcmrPXLp09vwr0aVIR3o-jAn-rf50oF7hjkr0y8-0Ydma8dwGy90iW5c7y6m8eUXEO1jgcG9cWnS0TzXvpwlEhCZR8g2ZmpkBb2jyqvUXU8HGhQRXV8ByCMPLYvZUjJleKcbmG2Blw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAADH9IheYA_bBy7Gn8yPDyKx9AXPr_ObhOctbGTkNrQShxba4SQjsUYikE_KoFa8-YYvq_Yzs_E05oToX_J5lPu0MqrQ4bsmpZbAMv4lt9NCVXZjm95aVNo3mjDYynVRwzEhBHPl1cbA_01sS0M-pq6oRpGhRuPMcY639IAcREnIy5bjmw2Xg1sA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAVw5-ze47ge8qjUz7xq51-RMPtDyVwwtAR11ukH3hcZ6brCrS77T_G0AnhhwcdiBgXnNSAQYgtfs3zmbag23x5vccIPD_bRf0EnHU2gwHQb6T4wHUeGdC1d-fS-CTcrdPEhDZ5HqsQZh9NF9iFyR20ksjGhRS-8OaURgQdXwkfP-YSR-MINf5rw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAT2zUv_hvR1AqhZRYqH-FbPSvSFLb1TDGVvslS6fyUdIKUcVlEDIXZ_Mz9GqnthCsiS1x319s44PSFOs11hUgnl2dUbWKNXygENL9es6PCQqrpWlCvhq0Fe56FOvVUHAyEhAaItRoj_Bq8sj4IFNYpqpoGhQvfp2XdlM3nYY9pvHcEQC-p4-qtQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAArv2tNNHpE-lkzx-ZFv24sP-2A_XfNs07Dbh5O3c1bjV9XFg2tfnLIJN-TVwl6oB1E3hdPeXrtVUhFkP5YFnJ1yhtPJMuo1WdLQg9NQNf4XT7u0GzKMltxxB4I_Oirjq3EhDp-eWn3-LaXnvG8ihd6taMGhQbN-4M7Cnpz7cYsacfpSF60lZkdw",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.posthousewines.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Raithby Road, Somerset West, Raithby, 7135, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 842 2409",
+    "type": "string"
+  }
+}

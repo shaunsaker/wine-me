@@ -1,0 +1,44 @@
+{
+  "website": {
+    "value": "http://www.thecountryguesthouse.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "96 Winery Road, Somerset West, Raithby, 7130, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 842 2945",
+    "type": "string"
+  },
+  "name": {
+    "value": "Zandberg Wine Estate",
+    "type": "string"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -34.027354,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.808869,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAARU7_gNSNthnd5pIgpzsvslKmVApQyi856Cysd5_WFxApXIhQyObosBM_s6arenA-b_ChANwbfAgsjqXZTqU12R_XTjfEpPTd-LGXgQL4iy4a6imgmHxUk6Y1G6IQxKb9EhAr59xlB6HCe2hWq4MnABfqGhRMKOezgD4dEIbIukd_KP0jxc8yhQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAASeORDBAMZuaCYUCS1T7jO0hQiIjfAqXBAE_OHrRUhRB5GjSjRDEiIaZkbIt8FkcGA01Z2cShgLR5T-ayIEbl0nV03oMOrxprskQU_gc0Lptgc_MDa_czpZRhF33bLGefEhCNcyh097zku9NXTcmFuRHiGhQKqbubQ4Zn6rANpYYCpTsIgGnFDg",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

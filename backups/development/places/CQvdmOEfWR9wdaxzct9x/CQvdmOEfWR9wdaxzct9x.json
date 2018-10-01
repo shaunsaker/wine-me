@@ -1,0 +1,81 @@
+{
+  "website": {
+    "value": "http://www.montmarie.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Mont Marie Rd, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 880 0777",
+    "type": "string"
+  },
+  "name": {
+    "value": "Mont Marie Wine Estate",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 8:30 AM – 3:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 8:30 AM – 3:00 PM, 6:30 – 9:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 8:30 AM – 3:00 PM, 6:30 – 9:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 8:30 AM – 3:00 PM, 6:30 – 9:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 8:30 AM – 3:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 18.8716847,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.98240209999999,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAdaPj2WSt6qQ0Le8FSGFBWQsK_Qy5-7SbA_Zot1xLa0ThrPalfoDXKYQR2XGgmxyfTySTrKzwoUQQbEAE7M5wSkIHmm9110H3FR7UG2S7tUYVEkRLxot_5sM0NhcveQTLEhA1GIu22Hj-OvX2-hUJjArlGhS3NuckwIHNk1FntmrZl4n9Dj4sKg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA2H3PcHlb2ly6a56IMaVdWTWDsfPNQgavc9meG_2EkCkbinHBGkWFSC1ekfjF-R8lGSzt980ChXK43xrXpz67-KMzi6hE1N-EV7cOJo3lSFc8EtDatkbjRXEpN_fH8wZEEhCqfuOoTcOQpC65r1C64eQHGhTlXa5BAMgnEtN7dUZfoOPX-hppag",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAsSxVc4Bxp1ObngGEjtNYv_W9il6nGjUxYkcKIwlYnDd_hO-pNWTw9pbD7CYvQd-jd-1k3AQ5MvsHw72QFjXIBg7AjwK3qa9TPFi4eE8aX15nqUG71rqjp91JMirm6Ma_EhCGDXtftktLN0Ip6NagUw8KGhRcLvbcCRKEtEAACHV7MEQHCry5tw",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

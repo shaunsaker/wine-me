@@ -1,0 +1,109 @@
+{
+  "name": {
+    "value": "Wine Estate - Bergkelder",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 9:00 AM – 2:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.934263,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.851734,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAARcD6xHh3tl6QKyH6SUhb-uLS94gEHGCfltni19tTLOAPunnOr54ujWVvC13RbRcRBSwg3coANuA4d_nD9xYpDTvoAXxLx3I5MWgaf7ow9jR3pJyknLA9tn-noTHPGWYlEhAmd9bvTlDQvM-GKkG2F15_GhSfwOriU8an-c0fqC-21Pjv3q0NNA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA_ba0cQSHwXxnDNyZSM-3snhJhy2yChF8R6GWQlPJeMof-8P-Ka0xeCiHCPvVTTWBrjkzM5dAG506hKo9xajCgmpnFK23E6rWvqfpohOPpE37aPAVnBB1ENisgyRckk3EEhD3HzOIiCtuGvG5CrRTqMmVGhSqlP0KwnJZf5f1LrAe6JW2JKGthg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAKItocMeHl16oPmgM-jvO1MKmC9R6hX0d2tuTbdjt68tnJHrPGckeM7RiWYNl4mdK31Hc3KRTl0RsCBf2XX4f1243kxnDS2434Ua_uqccDuzBeIT-E4yY1BKOG-Kn66ehEhDPd3JtZRz_bgIx6NC50M7SGhSkP9g1uooa4ROHoKbEIJ05JpP3Nw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAuqc-ukRSR669RJ205N7bXqB2NN77Qi_Ql_jGso2bx_JZW5oOp7kT8UoZqE0_IGlFk90TIdDEXM32KHcRZZp1TBdqFyjfyw4t2r0zKN9XYoWMFqCRgjsWXzqfTstbRTyQEhAGplHBUUgJWtqiYI2pyoELGhRXWoEXMUzh7appk_2UFMU25jj2dQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAGaDYdTfuqWi1J8K_WH-VIQuD6NrRr-TkKlzogKD-fBB67SGSsfH4Ii9JdsKsDzA5vaosLrxschurx808q8LuvH1M0MIn3ggfQhmtBgVMP9Umr9-hn2rfZiYURx1aUyfOEhDa4xrrlNoF5hpPcFr4rGAWGhSM-BgE5ChFGkl9IPfuwdKD-q3wDA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAED56AYk1YzwxmnjsYNOqbl9Y44R3GWzmWtXIxoTvxVjxNY6c7vL-JZ00aDBwQfpkVXlgJOF6WS_7-IcLc0XCq8WW422rIjcqGh9UDzd5cktBVpTIhAe2oBqLo0Qitb-BEhChnqMNrz8TccYEuQ0Mb98BGhQphGNZ3wLdUakKUW4mG6MWn79jrA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAIk625pkODhB3aCA2_83V0Wdrx3aiP6-JbK1s91RLkyci4xefCaSiWJbBj2nd6TsARHv3pE0wgIiU_5vGPQMiPl8KyarYfEv-m4x-scAINEGA3vAQMsPlqsn9NKAP8eLiEhDRUqJp-Vr9hmlYSh__YTU7GhS4CR0YaYQSY3nUE3jJNk1I_BXaJA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAsEF83gucHKvxME6lgN7AUXOrWS8RmIVM60ggLg5BxOKIxnHFArblwLgBeMWy4Vo0lL3WyMmq_DbuuhkL9nkmdGuPW6TojVINDGrGkrNUT8Fv1PRWWR-jxAjcesCnP2wXEhCq20KdBmcsqasa-lz-fi7IGhRieosfF3AiST9eXa027WUej_PmFA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA0EjMehap-Zvt9MlGBJoqbZmiNZ3F6YzlslBnSC6ZsF1nJrkSzYajvHYs4DXaqePlfdsfwZ8ugrSeijkXNfR47F6kB_q6MBnDoWJSsqO_RcdvgyCbbivww_HqNZgzgai3EhB09J9p2OVsEr7kqkpuYo84GhS7E1S-hqG_0PnLYdvjV0-1YcnlKA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAWwMlXhGrP1AtFEsufuO7ECm1IjGOkEHT2GWC229LlRb4co_HU2lV9Eh7RJZOfRVCAnvUKQTU9nHZIIM4LwTsdZqHwLRXtntPEWeENmcxOMEqtKAvmkJlhJW013ikQ0gHEhAr3DcJeHdEnPw39JRXsJZ7GhROvOqngp0ch2_hk2H9We3oKbavEw",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "https://www.fleurducap.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "George Blake St, Stellenbosch Central, Stellenbosch, 7600, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 809 8025",
+    "type": "string"
+  }
+}

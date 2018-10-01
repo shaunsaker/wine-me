@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.88482700000001,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.85123,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAdWUlhLBsCiKewVZDnQBs9pdXizeScMMmmfTURQnILggrl9ccmhpcJNa0DKrsZhKRqjmx0uBfUnNZ_wY_7k4X3pgN_mRG0xEvZIz8zkudTFapfl2OHodq8CWYdnyoDpCsEhAyn_iFUFtcjFAP11PyLStXGhRRm5dP6p2EKiVQYvgtlzAVJiNHLQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAMXhgAT9uXecw0bfCPyU7gIRb71rCN2_Cv0J0g920-eQGzQrMG5cVEo30OpKL1vx5vue50eWcjwrlyarD6aOjYbkbw5fgZBsETiHe3PxMl-reXW2O4vKTlf1BWS_5d0khEhB-YplekAhPWFoT05UHPPp_GhSH5mRefFI6gY5AyrV5tMBIY0hm0A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA_-wHz4U7yPtMaf_for6NxDnRj2I2LiTH_ps2Bo3xYrAus-4hFp6o7gKNJFwC_BRqJmChCDQlZ6Qc9n-iAmkVH1D7C1TQEdo0KG7gc-4Myodo_FMzDIRaOhrL9NRrfxKfEhAx_Xj4K6p3Cln4JUP3xXdPGhQsFNCIcDWEjckid9yNuWNuFDd2xQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAb6ms-e9-ai3b6fvkWatuLVC2o-WcdNVcvcYXofIKXqznK4wVbWTAASj_dX-BcaTNebeeW-DE1g9vrOpseABUQyfpQevwKPbKLpzEiTsih5sp-pWNr85wR58_JU2MleK5EhCF3-HOD7QDIihx7VmZYtubGhQFY1QJoy3c63PrM5E6tesvEViYwA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAMx7st_BPfKnIyeKTriKDlnFFC_IKdA1clO17BJVZsa3vv3-BnylouSO79PA_1G3vXVNf3IIVZpdXfYOoOOtXDn1Q-4aTPQH23q_rjJ3n6doGyeIy1cjBRszwhZaamz-CEhAwWMxo82BaNrMKp7llm3pCGhTBlIKEY0Hm-A-3hA--_pEy-mL-sQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA0uqLkw3zK3HmfNiNTs8ZGU682OKOH-IqUwWd0jhnVA1sapUmZsojedRj2EsuTR7Lq-J5bTrpAQUf6CDUNviKACPJcoTZu_GY240cPe4z_5lo1C0edkXSzmHcsxmoklXXEhALAMYDmVtrvYo5SBWfAH_bGhS749knTjNUH7K4RwFamEo1K0sgeQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAh52rG5SMK4lWiofEN-nmKcUWfqPGOZSodMXpPfRFjSp0VU4RZo7BcdAB7OQXmFhbHFiYhmQzvJpAXoCYfTBZFqht0MjRiYrReAKpouEz-fDtG0capOb5MGIhw5fCY66MEhDakugx6qMMlZCyCgFTzBRzGhRrH7LkqHZyl-QIZMlCPZ2Aw2kaSA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA1MqfM3nhUhlQueInafmEdU5s_rrvQTWEuRbWWzibgUOg4HEIMMC19QW22vKyJOkVMa5HjMxUwo9aJgmnF2oYzYlXBYdv7ocThDJv7YFpPUQeJSLuQ0Q7HHtK1B6-jCKfEhD3jl6DeOwpy18oTbCn6OF9GhROscbt-hQuJ6KdzGJcC-l3jq3KRg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAJpgOWTvPn6zBZKYv6RNatW3nXY-Sz5kf9muhTnTnsYGJNscgnfTyF4ymTeMXOFmPpLUpQf3VSlDBmDg7aXYv2ZRkRSXKz_AO20kZbm56K6ffVKhzuqQW_geJgu6AxX9gEhBncMoTpH6U7qFPVPKJ1niQGhSlWgXEfjp1Bq1GNwME-vJhQmVD4w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA6QmERl_k7PkG-G2rY1MZeMSXJOFG2h6XDPMXspV8ciamvauW8ZQ1Wh2ktAXE8XRnsENsoHTYVmev2QjnI-eg-wHmJjUQlVyGSQPMYi4P610VbUsTXI38Dry9Qk1-E_keEhAbhQOtAD-fpgzkHimPNNxjGhSaEi9xD5NQrAbGF-3hoe1aQXS1Ig",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://remhoogte.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Remhoogte Wine Estate, R44, Stellenbosch, 7600, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 889 5005",
+    "type": "string"
+  },
+  "name": {
+    "value": "Remhoogte Wine Estate",
+    "type": "string"
+  }
+}

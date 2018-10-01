@@ -1,0 +1,109 @@
+{
+  "name": {
+    "value": "Paul Cluver Estate Wine",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -34.1687417,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.0855573,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAkG9nIHesgx2YPJt6AVwipMgL7L7BngEGWDfib3PBNPEP-d8YMVYe84-Y3GUaM6NGr9RMZMCqbzPu98ux76WQ5BeFezN41PTkcK9NJxk-HPtd_WbAMjzNDBusd7njkd7ZEhCm5dV3W-JVO1NhxeRSDzcEGhR5gDuOOdLxvfgO7zkmYnix0DHJJw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAMjVyNGmeFzRHvFZC0Q7iiaVG0FmBvYhkttfpdOxxAqZOrnfNJFqxl-GAc1gr4AuxuurV90dxaUasYWkrDU2PsI47JIM4C6Erh4mnHeSJ6BhA9XjHtEvKFfUR_Fks06ICEhD1nAaSC0P-Z1UYxFufSG3vGhT7m0oPwuCso9_6Rlfd9NTmPB-Ltw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAeX_WndN2NLB138hcBDmUInD0ct_7NJDKULxL9vee3O0oRqVpIpMsxAvvg3fYO0CVdbefKEpjvVkE2pckhQ880TwBQ3HmnkFOaCUQnpaAfxfcEqUcDdm3qNOaipNvruk_EhCg2_1SYWIyM6f-y1UNzuF_GhRbJWc2Fk50cBSZ-NzWnyBNDm9T-g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAWtA5zOT-USfv9XG5_svCeO17U1WkDVBiygNKZwhT-_ofomaIqzYKjfus6-PBPW7EL9HnX2i9GQeb7QlbNjz7f-0kDNvyfcokuwjr8uwzkgCgXBb_dKDXzC2hMDHQfdFUEhBaUUhenaiNxYRQEpnWsh_VGhQlOq0pO-HEkiZW2xXhBEFlAjZYzg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAl8GlBZ26S6_6tqFn2pQMSv19tE3tUTS1coYlnDd3b0ExF473uytMnpgJ-fBeR8EAgEYHbIeYle_XQFGUuuqUtpu5KzcyBFo3-h5BRiWsB_lAuj9Qri7TDNHLIMnCzvANEhDYUqevg_KsWc9tksjXie4GGhQez2VS9d8VPI-Y9QwW3Hp09HdQ_w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA6mpkAYqjm-jxQ6hxM9YuMOjHAiwsVTXeBoJToARkarddpiV-dViib3XBxIuExMu8nVxlyGrcFCIgYRnKUgHn8NkTdNIUHPq-vpO2rE6s_a5yNJs7IiHrkH6HsTZf4U0zEhCZvutSVLP67WGOrwR4O7eyGhQgi9D9JtjpAr7W6ZK_F_zjWqJGJg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAY7PMjIJrj5fv1fSvRHgjTGOw5AwLZaWPJKNiu5gE4-jsv4yQQ8UuEObQgT69BuZ_eT0Kc3i1g8Ta477ssSgU_OR_V0eNtUO6a4Z7GYBw07SN19Gkyjac8hDQpn8IUvyIEhDcHXLLjr8dgYooaewXMb1RGhSCGSJ53yL6V2Z2rSX2ntK6CiBUpw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAWZvv2f1bl9mK4u9qEYKKXa_mOCs0jPxB90eLlstuog_xH9HBAijfX9Kw8TC2xxaTFzdKUBbM9qYvgwUwrkIOJ3b1vK_YvwjZL6s3cfLYiil33yl-R8aJIQpvISqRmHTjEhCPgcMmqthzxifUz1JEuRZWGhTyUmYWXSZesIXJ4TlVw1BN5dBIZQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAHRW8mclV5D54UdXKTAqvmOGFO29jdvHgrmHST5y-nfE3ec84rO6_TL17gnIxjVd89oTGLXrtWdr17RRUctLmggIfeUV81pI5TadtltgNaiPSS9m0KKPkefvmo5p9OlVSEhDoRLtjaUy_ZmoTN6TYq9XFGhQEydRFEVAcXmY5MAq8OaiU_qDnnw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAHpXuuV1y324HZ67bj7cWvto7Tl4smTapYIP5OSbcVfKqKFeIN-xi0kFP684ztByIKCyzX_VN8cYHocGjv_nSRydUpMtS0MnoijJGu7UMc0jQxXl1FinAfbMPNRpdZeGZEhAtvzuglV48fS2PALcfJ4hqGhQKWK9d3cOUC5d4OGmzk9dczRpO8w",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.cluver.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Paul Cluver Estate Wines, N2, Kromco Turn off, De Rust Estate, Grabouw, 7160, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 844 0605",
+    "type": "string"
+  }
+}

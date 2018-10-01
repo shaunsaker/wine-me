@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.23870669999999,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.1131984,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAvI0G5XiWpO5L55zvARjVCSuxUJd2asEDmtWsk9OHAahkc7DhG3ZqC-Ys4ew532AfUtzD_xJt-lruQufJ9vdNkvFe01XvX-UZQQhF30UzXRLnBo2JC8uPWYpTk6bsTrGqEhDWjpvJ_Ma6LwKozRPFlW2SGhQeT2VvTplkKvFI1ufwaEAG0f7RdA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAbtQDAtxfpozYtyDq6iHQw45TguO4ixdAfJ3TgCG7CxZkCwTPy8SANDSYhDGiWHdQOZWnu3zcGe_W_Hup_XdH3UcgKqyfRb_gki0pH6SeNtpSPyAdzLNqXqXFXwFdLjGTEhCTu3-FjIACF21zgF6_Xj68GhTcKzcCS9cwOHq_37IOQPA1Z0Ce5Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA6yHWoISbcFOB0bzDUkmQNGWN63wk2LLJVV7d5DjBqeJbNc2RkKXf6thvIzOs8DuvBVzEtpt9vyesXWBH15YZuwsRTUc28MwhlxuZgLncils8tBZi_8r1cH2TP67E2fQXEhAL9bKGJokWM5StQU3f7j6VGhTgU9lcUpCjgSw7qGfOd-b377uOmg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAZSslYUot09muivLZxKjjB12FmlmuWupsawKSOKDXx1E2P6fl9iWA49_dYclozj91W_IOiKi7h5zohPm7NN_PFbUm2VFsaorlQOlPZBATfekWvW7mVStEWev15iXMpOyuEhC4lVGZyGnvFHTp9uYLz4mvGhTZ6GP_S9EatTzwYXk8an__9dn2rQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA0Lm0fyKTguGhztRk_O4wz_86dMhGdGBln10RuPDsLrrpJrP_2ynx9hCWIPhvecYwyAhvWbnXOhB-5ozdV_PPGfSqt7IDlSTYUoNBMClBSKbzQJpuoyIMBJ7NPCfy22YIEhDwt1DZpn1XvvaIKxqQ5wKtGhQB9-TFTg-V8t4Pn-4nUcIFN0nV6Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAABYeBt1c0Uc7B0nGfDFYm-RVLW3aFERdAEyGVqKn_RDu_d6ugCqbimavrSkVvY2QLsnk79m7prJWonsUQk_czf13StvYEJTH-E2PJ-v6uc_wYSOCv-cv1PnTILhOCm3vtEhDwCRuJdZ3_obkHpXsRL7IHGhQ6ofJ1pxaJmRSWUaplTpgfJMyfeg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA1QKEowKuuZPfG2MPSRO66RL_FAgn-n4CXY_PLPg3mPfP9D5ohLrS37k9Jw2i9wcDIvpv3V6YMl5E4Qx9If7rkWN8_l39ghNHfn3pQGfydWZEt8gZAT0tApL5MwCdijo7EhC-QJUAklG8VVypNi5f0oj8GhT1YB5xtQo7eks0qk0NhmAL4bOKLA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAswj7RxB3CveDap6iopTGVEk68d7ap0CD7Fva8ozOg6GLkYLYOUActzOP4gsWiUnveh4fxFabyDg9Q2R3GRl7giU2zdzZfHheonp3ZEKpULVZpHSCuZUqVDJrtc7a-Xt9EhD8noQwVIgYZOaM3l5M93A8GhQIFqU-4M-9ts3oJgdpKVGLB2c6_w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA8-3i7NqKZDhufOpzUoV4Q8V-zTciW8sKH4MorE7MNRfUBWaoel6oniMID1yf1zASN6LAD8Rnpj6I8WwoW09wDr_1mAqjpeOu7QoOwE_o1n9Bv-qfDkD9iWHgFbCR95_nEhDhaODqXHLIdI84tUni63oYGhQyUUI892DtqslaZ5pHuQsZ2B9zEA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA_8ZlMDDAaiVXsdJzxiugLNGart8GjbwkJDT-BrXD2SRYXp78MQ51mlXh3V8S3TIAXMOXhEP0dAZIpgleAqSiBmOsh-mgcf5S6vSVmbD2EGhdDwG9rTy_xUaDVqkVs6FREhCzd_-00vEbFc0q-OYxnr3rGhTrNQpn8B9HZaTrxlY65IWCHyiYZA",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.tweejongegezellen.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Twee Jonge Gezellen Estate Road, Tulbagh, 6820, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "023 230 0680",
+    "type": "string"
+  },
+  "name": {
+    "value": "Twee Jonge Gezellen",
+    "type": "string"
+  }
+}

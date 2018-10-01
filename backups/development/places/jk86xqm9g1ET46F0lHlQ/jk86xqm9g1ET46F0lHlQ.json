@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -34.3550559,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.2890625,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAxfQjmfcwTed7rLyMI5K4N0wSlflomifSiFObtjh_TyZB-9-35wUCKYEWlp_MRbPUzkMA_KPe0CYN0dLTPv0usPjVT7brc0IQC4MTmXhneob2eHJe7Q7osKpapYXENW92EhCgqB5t4djdu4FYoa_IKQWSGhSmb_XAiyvRJMRBnRXEkMl1A3M92A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAgScCWYzEKhQg5kH69scNVyNTRi2o3E1cm3q5rEe8GSZAoozBBdn6-ryvAd8RGLj2_ySWAMVE2njplyCHZNG4Wllq4kFxEvUfQ2sJeQQlD92seZlON2Bnsc5ywFqCck7sEhBMBHT6ilC47RcQHhwTG3cUGhTLgZc0iX7zITaOKZdvHG_1rakDPg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAo1fbwLcU_3Kfx7RHrwLlN_ZQXtnBx52LGunJKp7M3VHLTnCS7VhaWcp9Ul-hrADKadFkOvQqwG4p5Hk5RthIei4Vvod4oQkgKB0h530ki3KS80MfXanGm2zBQmVORNL1EhCMsh0tH4EpKwv_why2IdzIGhREjtoCW7InSLd80fNltEPWXGWrqQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAZ8UQiZnq6RGzsQBDJp63ijEmQg3dUIze4E8x4xxjAEwtrkQZ1jnvHfuFBhdJIdtDtsvFbb7j2v22c30KPKpJki5Ntm_O7qk3sNenxfh6hMCQNcSbLAzZa3M87TvXCUjUEhCBuAAcCyaT3AO2oU_AJPwAGhQNhdHpXw4Ch6gqxAYYhIEQCoabeA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA_RT6X_w_gY35oWudUDYtBteb-D3XlCZHHeH-FVkv5CFDcdn4LclZAD5-JMgVtWZLA3EQgl_2pAlWsNb50qdUC8jySGI1NZv-uF9JGQhbKtShYazvufwd4KN3rvPapUCkEhCg3u7LxTx6n5BEfpJjRuIhGhQHA5czfgOVUb3pb5SyhuPjyj83Cg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAOdpThLM4VyL-PMGcHjp2X4AmZD-CEXWqkjuBi3XuDLVEXc6I6CRMiEXJ6s5DdqnCXx9KRAhUNLWPHQr1RpdcLv0b2Fy5FGTPo4fuEQGFpSZvM-gFVYwirzQ0wVlqCR6BEhAtDe_C1l4uPWBqIiRjN4uvGhQX4U4MDmckY2PEZQnOPRZcjmug0w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAANeTu2QXtkZ_WewgTg-LnMDDRvuulHsqwa1s9i1NFy2Gpoe837Boowv6_zaS9tKf3AVm9-tgk1SzOe5crS6M6iuro0aTz18tal-nD0oBmod9O2cREDK2gds82-tiJCFmLEhDwVbgI-iHwRFKU8dZOIhpeGhQvkMWeNaYdqhrCVCHcKdUC4UZLkw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAHuMUcdh0I7x8Ts0thBg23mrT25TSda2hYuMNOoG0yc9e5Nd6TIA_jxzQ07YG-sNF5nycTJz4FA8-jUFkEtw4msSfafMPR5tfL6BchGlulGWMhZ8n0EnXy9g8r9Xq9YoZEhD6Zf0acmeShuMljDyuk0mVGhQFB2rJBrcnYb9L7mWwKSvMzXejdQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAjl2KVeT3pimNUaDuJ_s20IERtwuGs4Jx2IzH75lZxvL7tCpBKSq_vPTVKjcWQOozq-9JGXdKtAhFos_rfH76nOSLN1GPMM8OqUK-em9Gi87mC14WdN5_qfHsp8MlqhYxEhDJabp-acE9G0k-yB4WKlGLGhQOzol9kfuVgYlQvf2f_xNMo9K_DQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA2TjS8sqe7nPr9Ia8NytbbeSoFXWtn-q6waMS66KQgz_XwQJdnStcqhcosof0Ivrt1CTuov9x4Fe2pErZk5r1_m54OYbYGe3C2Ty3feoxEBd3UpSvfV4zOk7TaBMDW9QTEhBkbXyfjeoPvLSi9DJ0UqdpGhSaXsCDwpa0BevMmdRb8FHdbqiBFw",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://spookfontein.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "33, Hemel en Aarde Rd, Hermanus, 7200, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "073 067 7936",
+    "type": "string"
+  },
+  "name": {
+    "value": "Spookfontein Wines & Spookfontein Restaurant",
+    "type": "string"
+  }
+}

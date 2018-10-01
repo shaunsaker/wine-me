@@ -1,0 +1,109 @@
+{
+  "name": {
+    "value": "Onverwacht Wine Estate",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: Open 24 hours",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: Open 24 hours",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: Open 24 hours",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: Open 24 hours",
+        "type": "string"
+      },
+      {
+        "value": "Friday: Open 24 hours",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: Open 24 hours",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Open 24 hours",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 19.00452379999999,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.6335543,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAQXM18DW6_HaJ1xlSFBLr8Ke3O0BLegKFK7hX4f-bOvPEL6vuEY2Gyg7WxzmXGnvTX6Ho5jqn6wxZwufCP96R1GExOCdDisIBDDwTH-ZFqVF35gMkGfX8gKzq43DsXccUEhCFAmpmSZQIyYy1Y-d3p-USGhR51S23UzGPwnGAx16NrlQjjAOLeQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAidNZ4tWezmoMN5g7GW2HON52Tm5435rWFTQd2tun2yZ3zY7ZckUhSLJ4kEN3-AiCWdK8LYiUubqfaGgzHGKcTtsl11qoTSrif8xyW5pdJAtfzRxRi3hwZHuj7kNmcfEcEhCAH3w6emifgIWRuhQ4LEQhGhQ1FByN-Ep3SWUTslfpaoDrIvzHSQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAGDxA6BWn2aqVq6tiRU43xOfP__fROHlkpDFhsW5WYQneA4ghnoZpRRtNZHHFp-mknAh8XaSNZvP0gHnyPwxXW6HhH8GQYK_80mlro6SZsXTYrnquzP5mJxMhjCb4pVNyEhCkpH4j0H7kDanU8k9p2i-uGhRZ29gv-L9vJ4ZKBb6GuwvBxdsBSQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA0xjnceIuK6rLZbldg9iWG5yaTncG3nMCPAtBkCce6r0iEHGHij9SwV4udaaL2mL9hIqif4Xj4egQBMmDiB06_I_8_twXVnmFSZjMxBa_RGTYLuEY4cj2e7FdVXEgE3noEhBbWJoRqN30FX-ZMUQisjNsGhRTI_hL-NkUm-vC97pP_riw0A61iA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAUa_BU-t9yyNp912XOsNFTOj8-TrWbiVLH8bYtXkNqJxd8YXg3KGRNEPxL9lcUOwmRxvC2vp3h2KmMSl16I-3o1Z4i0v3E4XPXq262seztVqx_Y53YUSR6_ylXIjQwaONEhBrvsybiTQRtrGtv5iZI7n_GhSu1G7pYMUX9Cg-Mc7qqusL9MgSjA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAlUrQsgOkUNqxGEUDuYEtRvN3F578uxwbBa2yaeMhwK5nPzLGSuAv1hbrW-2rj7jlxkhRGXysTV52Rlw9n1FtA4Q1hcdiEvXWRkN0j4IwmB0t9EuoTHfydBfdiFlfJjyrEhC14tWjezk5UUs_FcKlM65SGhSramrZ_GEj7PdCPQL0_rCqSqxL2w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAsS1ch84Nbs8rmRmOuHd61YF-SJZAM99BxiiG-tMLmg89zE1DIVtK4XjlucbekYE9JkNYwJsqEqGc6bOu08_4tc_gdkIDwbWKMcHBkpSmxdnX_8VNxHALk6-bwrXmHHYnEhBwwIW0QPQa9yfQTtslYY47GhQsg4Crx3RFg01NZWPuT31V_wwNYQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAAHWwEA-NgTNs7odID5vP0mVE51p8Cq183V6Hbdx-8y8SpP1rAZM5UaCVF6WQW2J2BE71vTLmnZp6E0Nr3l255lTU0M90UgngwWZM3RRjC_xsmZmYzf4UcMwIZOekQ3aGEhBNvOZlceM0Nq1UWpCj5jyEGhSJeuhLM78m1zdd_9RctKWTtL8zuA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAPrqlrHA_-8kcHN-twsWXH-Nuw4gGwOXMiuPYGGWgNexKld16dGPBqm6TFMX-M_uaumO867nYqTwfBQFXGBd0RD6h4tKV0pjgEsU6CO-Kc51k_vME9uCr6CWh7QbE1U4MEhC5-xbAr316EXFiH7e5AZVaGhQrB1Eb8UXGmotBW_SJ9h61dyj75Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRZAAAA6dBWn2W4AOmauRPuQ4LMMe1xRW0uA1O0o6XwqhcSG0EyCedC9lwQOFc28XXB8GA8V5Yhp1qn6A6q3xYAKBFy-sQ_kFhZU_fQbpQh8TBlDv2Xc5jNaFhQdRgPQJzzUJ-GEhCbdTmo450fxsAnW84TQP6OGhQ_mbRadYzkSulhRUZP02zRovz8xA",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.onverwacht.co.za",
+    "type": "string"
+  },
+  "address": {
+    "value": "Addy Rd, Wellington, 7654, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 873 0352",
+    "type": "string"
+  }
+}

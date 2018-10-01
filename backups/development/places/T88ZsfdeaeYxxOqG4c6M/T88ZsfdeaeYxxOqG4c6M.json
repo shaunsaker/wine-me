@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 9:00 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 9:00 AM – 4:30 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 19.22839,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.63912,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAXzsb6e1dnzeEqDfW7zmaIa9mlRyJFb8gkrLwpLQ2nMpROq4HdzL3wTs2KbJmBGmDN-Fe1j3rCVL44tH-hosTu_ufUkMBLN-CeGkJNlMWm-7nwl07nq-FFsiN_64waLxyEhCAxm2NsToufUwFguEYDD7DGhQuZGNycVZrBPQ29kS3pk6uJX3PPQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRZAAAAoDUJtISvgPmH5_WHz3XkdBg6-2VmqVRCvDGZcrBnk77cGn20Vte_OnUnBaQqqZOFu5Khg0eW2i33Sqp4N9_cZzM7Y2Df0MkAzToYGQF8VC2TflGGxbqMYtFjOIW6KcZmEhB1dMJSlgKbaweGqvoL19RJGhS-Ge-zWI4t5i-JtOdykeNmwknpYQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA6BJqib-HJeti5-GeNghc9RhS9lHstNwBem4ZQP-joaydrRghqYNWM3U9WOzYhwGbiqr-VfmbJaYxaZyYbpUErYrzmNlYGtRxNbvsCXLqyi0WpeNSmvwKDKi7sUXU8kKUEhDPyFFy5toGZ_IEyO8fHp2uGhTtY3iYjvjtyuliLMjECX-rBWG4RA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAApH7W1bJdckyJlmwf0dp0aNPspTHNK2SzCKPrRAFigJl3VEmJ-MAexj7THdEu11b7rt9fou-MQmWKPi9L4XuywLMFZ_f9439Yn1VYjKLMcjwxzpJ9P9wg3Rhd95OU5OkNEhA8OrIXv6BkHjtPqs7bvJB0GhQwqU4c8P-DgeoquN4YK1UQWC8jYQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAsT39-fC0X6wbtG-tVn7w1NkHs_IRyYtg1B44zRnkexJcuC2Q3MzDUi2bE-apECkdITtUWUW5gOW3r-2FXpXPv5Ixr_kki4LVODQE6OcjUzp6-rp_AO9TdIZxwJ2yL4jlEhDraYUP0V6jM2fBz7wQMRY0GhTGVf8MUyxBEhUbUcD1XplbmTu0LQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAFkDVL01r7_O-6Bh4tuBzrXSEAzPCRbp5YvMBHvoi1N_Ws6InMBV0VXnno8OdcKKNCLMeWX8f9ucDelKud35_kbzwnm9UO2gyMpLgpPMcRlIRYSyYaqTBu2KkLXmegJm-EhBzsvp7lY8xBvxqlHwznGyeGhQ3RgMbXIK0lfRzxxYoIIBQXBQZOw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAPOEVdffONlAd3MlwmIla-ZVvS4IpqetG2j-OK0STPicDqxzSXJ8uzDcCgl_0GBmNAhL5WOi8CBnjgFMyG3e6DcFJ0tYfQjJNE1av2iIiLhYYVuVzmbnnMdP4y0xRYJ32EhAZW_D81CmuTlYvFP4w3EK_GhSsol-cwcB6E0kJdpFHtrMr__sgZg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAVw_lhXLBj1h1mnExqhtxiQUNneM64Bx5PHGfSaRrGLP29PkO1FB4lc8RUn28E4eBvMs3UzkkQ4cjOHjJeV1bW87bNgsq4Z4s5KRjq9FbKkrbkpFj9le73A5ZxrSwEj4wEhD2HTXrTuDt5ltJp4sOlT6KGhQaea9EqMbn1Zg1HVxHRrma1PG-wA",
+        "type": "string"
+      },
+      {
+        "value": "CmRZAAAADUHc642On0Vxof7kk1iyX4DfO8jccjPo3AtUSEzwEK1FJWlRLVIlFjMrLMr8Re25A53gE3FZY2TM3HmZ-pZlsCARrRS5b_uIvk-Z681IQK_m8Hb6j4eBHr8ryriawUNLEhDdnA9zN09UlTwHZDHzOZgTGhT09qBcGnY-hGIRoUzpDANywuQDxA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA3GXhz2XT4Lg0VJkUX5AOLH-NR_n1-yKIWLfV-7iqGvaArDbsmFEklkfJSWtWqsHOI9UuTzgpnCd9kIrMtARADEyj5V9sP4MDoDR1EnuVSRztIn06Zvk18UKsnnxwnlWTEhCQwD2UIKupiblbZMh7Y-w_GhQat5w_K2FW43QRoq6zq3zrw_ltog",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.opstal.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Opstal Estate, Rawsonville, 6845, Scenic Cape Route 62, Western Cape, South Africa, 6845, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "023 344 3001",
+    "type": "string"
+  },
+  "name": {
+    "value": "Opstal Estate and Restaurant",
+    "type": "string"
+  }
+}

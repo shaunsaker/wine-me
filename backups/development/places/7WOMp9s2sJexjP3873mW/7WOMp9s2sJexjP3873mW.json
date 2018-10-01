@@ -1,0 +1,76 @@
+{
+  "website": {
+    "value": "http://www.cloudsestate.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Helshoogte Rd, Stellenbosch, 7599, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 885 1819",
+    "type": "string"
+  },
+  "name": {
+    "value": "Clouds Estate",
+    "type": "string"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.9221089,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.9237638,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAKG5xrKyHvHekyDWl7essEBei31HbM4Evo0zLSvD_xuywCvesINWH2xSygwNL_7O_dWYjBNmjFfDCftPUd6aHWEQbeu8troT9logGqF-Ro9Kr3AXGyxE5o2xLWTkMsPQUEhACwGzWmT-iz4u_FjIO-VprGhSMpUQP7lI-ecYucP_5UdiiPzgWHQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAdoiC9nbQqqWRyTqATTw6k_Uu3E1R0Ug_dh-320sDsNdTTCBoikacTGhCj8AgxjZ_Kf9iIPt3c1_0HoG9DIiuVLaBjw3Kk5J06xnNQFogDKbYwal_CYXKz5U6LaZF5TOSEhD9gnERTn2wwu0OTepTfK40GhTAK8vKhKKfw6B52J-8mPJl7vf8rw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA3i03hs3ZFAztzDrBrCxdw7PmMfzaixnHlllEgchwK5bCKBV8ED7IJmqj8xzf6sQF98vWYgdvmFZYqgtRNyqorRH3eifAOxHzfw3oN6MqxxJ6OatpP6MJwN9z7xaUxn0EEhD5nfWAf1bRMsX5YTS8l-MMGhRMFemmLFKjrnxUNXacpfyNLz8Xhw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAMGiA2wSyDw-Nzu0zlfyoD57RPSELYSNQme42Be5A9HhdBkcghq3LcjbPoLUWTYVrbWcSpz--exQllO7x4rbCWoKkOSlyibnXw4qPiL6TbYEWmostVXweARzqJsh9o2nQEhBlj8hUu8qUtJBy4PlqI6yEGhSlJousYGOtYMa8DxX9J6VfCxzn0w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAVH46Tsdc_Mxx4XJRq6GHgi1hqdgdeKpy8g5BP9wOEYG61jUorz0gq1rl-BC3kBcl4V5pEDAJrOV1xTMrUuzuiattom5Teq1fUOMN7QQprKabqQIMMMNMDoIC5LdE0aU0EhBHDyK7JHpELYnL1pG9iYQGGhQj-aL730EkRAgZq28TKIP0oSMCMQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAz4JHG4RnOcVjlb9L1a1dam8mL2ezX1BqoatFuDLOR1iwiWibzlzKKXvOFs_P8rB_Giu37IMY5SyAwWzigWMF3Q97UxRLAorYtwptAqO-4DXuoskwusquypvu6B65USeFEhBgPw8jwIbev3svHDxo_3qvGhSoDoMcbPrvoXpjHaQV2Vw7NCpgcg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAunaZZPGLOnvN7283NFLzQG6daF2J4ECOigJWOtd8iw7KDNlT_Jv8VyhSFbvmeuo2vIhRSmq60xYM8ZgH817m9Bf-BcB3yeLHrUAQD9pQkC4WUuifPh5GVzTeNxaUToVHEhBfR4YMqQpEcVe3BmkVkm-rGhQQIQgVxbpFDiJGcXmKEA7i9LZnFQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAmKJtxMQ7xhba7rBLdq56HTJjyf7QnrgKcUnwXiwCKQjAm-jpp5I0-pO3fhfwP1-FrX08h13mQ0ew6tB5jSjPJnnlg74G1-FrpHtgJFBxcd1eXlgjT6BE42bNAiuvG7ZxEhDIhVgzkIvnETqkaoHVFwsZGhSau6xpPilPdHUxFDJ1w0ecGfHw8Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAqHKfbU4H-rdNoR9QDrVN579-T68x6davzrpOvUzprxQfr735h-a2q1F7ryBp-40A9Eg9Hmt1A0WqQ1FJMX86IzyvIT6ox8V9hT8mxuMwhOlFnnzJSCvC1TQw6eY1nVjkEhAY4fTseBB9jTkx1yvokSnqGhS9AP78yjqaZZaW_Dys07bz-Z1Rcg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAMAyUNMcpFNx6XtHyK2BLbXf8kCf8qB0eFmVVlhWZsTGYp0O0HqdbP_khQgwmcg8zDSOv1LV3AlTtT91a5fM9LimNptxXeIw-d88nFCV7ZBWieRfZFsc4RR2bOc3rsSH7EhCTsXjkDKQZfcrrxnSrcJGaGhR7jVOWbQQe06Rr1L0fr87y9QMePA",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

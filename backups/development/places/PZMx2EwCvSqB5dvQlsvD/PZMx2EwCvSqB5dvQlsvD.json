@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 18.9300348,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.8224963,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRZAAAATK-zz6y5XOp-uYhuXgIcEoFSKyLdzBXnc_WVo_cAuFlloukxyuR_h_XaYLeeM13od02q9Wq7shZ_I7qsFXrg5zS24dYGWzHdG_VhwkIcsw798c8f2frwKrtcg74rS-O4EhBAQ1ibFpad8Pybs2pve0hsGhTmmXR7qNNm_0ynuupu09dfF_uWng",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAyw6ML7cE5WC6pQLH3H43ODI0XEwSkD57OrpiG6q4Hl6ow7J4Xd7RcagQKv8PGgtCcqUSGcpEqU48_m5pQozFeB1orxX3ngxnlthRpeyZErV8PkqkM0eDZuBJHdAwZMxAEhDUWTybXFutA1LQ3VKVPXUdGhRefnqwGGwlKt5VC69E-F7BqjRLQg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAUiat8XIPSxjCyu3W4JsjZCMxae7gW0CP1CiFmEqD5RTkL0SIenKMKfVLkRCJJ-p1BbsO8hnLBmxmg4IxSvlGzBLs9szb2HB88887ilHClO4Ey7lUJUVvNnVBRENwcd6nEhDcUdZcZN9vlcfqr-lUmVbLGhSm3QKjvlugyONm5miFOUJbx-9bSA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAlLhdvspYtjz66jS8pBdmS2IYzmY_LJkzzzAIELBhPRyqryUclXZqCw0uUrqbWR29FJr2FlJphT3MOcetafAezs7ktsnNNcaTe4ZS3XXxyPdTjYXqQiNmmQLzZw_XXy9FEhC1P76xMk8bseHd2F6JeZs0GhResbz83GKdrt3RYlywhzFMZc6pSQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA15R4d-2_u1Sc2tbYCMeO5v4DA7BrepagRwP-t0Du9e1CUZ6dn1w9dK-aBQcXYepSbwS8waZgqKv7e-H7JohE1p-1WD4IkE-Wwjx15xtwGtDiHALXbeTDABYfnhPt2GUAEhC4YnIyIKTkB9tmrPx_HWs8GhRT-lEWlMilo1TxrZZRy1LniTvrYA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAp30HedS-o1jftTvmbbpv6-yWQxfu0Z2FNB79TqTqsdFd_VP9VWt_SlBFEjW3Cpoij4eyiZD0rzyK2DTsVaooSUFJbS_rsSjRXCYZnN1SvdtpjvuGeXiRYEbIf3UbrG-0EhBnkwlvQVbfXw7_D8cETAk5GhSx4CbQwIYsXEbgazSyQOIxTwizBw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAU6Do0cQ3Xeya1YnUh9TNvW4VZ_XZmowIrUAV0TW90LnaxwNBjH40LaLuU7kuMc8NL5xiD-PEjMgnmPhCmX8Z01r6PKLgL4KkL51h8S0PA6s138IdSfkmF_HZxc-XdkFUEhAwzK_8Aor8j2qcz-JIbVc1GhRuzY3M3RVRoNJ6Xeg_X9gmfwuZ5w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAT2m6x1_4QDFF8w6JpBxyhLBktwvZkKV0FoMA2IAnLzwBPS9z7ksiwFc6wZCmpV5cXLKK-di1fvaLQxgjANzetiReWz9iJM6c3ltIkFQGWh3XY_AdACn1c0fmCkoc0JuoEhBh1KJ8MLVXa1RVp6dnXO4ZGhQG-JC6ppdArjgTOgBBZTLFXSxxFw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAEW_Yrmso_EU7Q7vsrala7gQ3iwP_BAfMUlxBA4yNkfz4og3eqKPYKFR7PHP7FCIGXU7J3bncmKV9RMEZWzgU74F6JMTkdQM30iB0NO_wpLCcqNv3F1DbQmHakcFEO6uYEhB2xtrUrimRMfp_QillOrGFGhSQVI434WfdkSEYhENoYClMh8evxQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAASCp9Y3WDWEdzL4irg7SSP-tk3vKy5QAhfclH-aLTuFeZylYU-X4bxrUgfGjzKawGYMpikSFqMT8o62mgRw9-Aec_IwJvMI74FCjmbowJtRJ7nKl4DkDGqZIEsAtUkHisEhAn9r5KxC9i53PT8UhS8IE9GhRCxvAk3IGqQ2YFysW25ABMEkUKIg",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.babylonstoren.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Paarl, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 863 3852",
+    "type": "string"
+  },
+  "name": {
+    "value": "Babylonstoren Wine Estate",
+    "type": "string"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -34.168747,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.085455,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAA4bCqaNW9uRRi65k2GQ28cQt3C9ubUs7UN_J0SiL4v_2P620WaemTVafylQk0r5G8uQAsSsQQLbpyyBw0w5UKWTXxNgBAxJWJGDFXphwBG_v_ODLBWKryS8J_QDABS2x3EhD0HsZTKeiZ_8jwzUzxBVNMGhTWcddK2xczMkqGy78nlyJCn9E9AQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAdaB3uXLxbw2eBywoTy1QrlyILOeykpX5Q7yLqN701GUwV0fcy91uQiGeNOlyLt7unLX0MWXPXwt0rfjPm7t-7Q9nLJh-L17_V2yHDC_ejqPsI0fXxACbYrytIvaSLDxaEhA8atyX5Y8LSWPfiQ-zp_MFGhSK-DK7Bsn2wGg9ODj8Qxx8uf92GQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAI98qqh9SttLGUDaFCiAvdZK4GTR5-6prOtQDXeO1cvT7F8HvLHgIKpCv2SdBgB36yJEi0OF5iHaJgASZj1DaqN_BgVC8ItL81KDviTnIY7c7Hh9yEbKtq2aqdPciFURuEhBPK7RuWm_CvpdlSLr5oTlBGhS-fDNj-9EP5IgdCU_6a46HN6Cgpg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAO_THG_iMH_dJ8TNXgIUxf3ncwxSGftjfIyUx9ovfx0iwz7VQdh9DEsLKLHf_qwDYdnikitup2X9zccTeWOR3Qzg96ZhMSz1DxZhh-ni-yN2U3mCvSFPnYbVU_Nfj7R4gEhCf_tQGVnYSJTCF9STAaZf2GhT4kUXV6kMqCmnjH90stKgK1izxUA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA0BiDV4Ace8G5V0mPOe5OYUL4E6e7nQiSo7MHwNq_R8LX1SYK_JPxw9maDoWZyN-u3mLRR5_cdjJ98_JvY3OpY_MDIl3Oux5Kqe6qNYnFhWLJnfkmjBSVIOwGS0DLKGmrEhA53Y_0dJTY3AcaNN5f6XF8GhQ8rzUbR2K_yMqBOqtZ_2Ky8aJoKA",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.cluver.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "N2, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 844 0605",
+    "type": "string"
+  },
+  "name": {
+    "value": "Paul Cluver Wines",
+    "type": "string"
+  }
+}

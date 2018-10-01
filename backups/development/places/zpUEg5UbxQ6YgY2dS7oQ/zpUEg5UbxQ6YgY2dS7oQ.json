@@ -1,0 +1,109 @@
+{
+  "website": {
+    "value": "http://www.onderkloof.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "17 Old Sir Lowrys Pass Rd, Sir Lowry's Pass, 7133, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 858 1538",
+    "type": "string"
+  },
+  "name": {
+    "value": "Onderkloof Wine Estate",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -34.1103539,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.8971146,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAqd1EASawAgT6ThG-769LF05G3uZnc4leESI2n5HXVmPzFfUgqu8CPE0zy6vv926zUnHTFFA260OFmsaGzFp3SRRIF5vjMVn7WWFZ-Wzd2xjXf1kPL9tuMEaAJFc-aTxfEhCNRZUuAypmfLARXPYxpeKyGhTLOY-KKWAAP5uIZE0xendc9M3CPw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAADbGcWY08tUQ3wpWh1q_YZxTUwsNsvi9kIejYyA4IqgNUVYnQLH1-fRNkavKpSmGEeYNCRb0edepGsqTpSPNCMOXhruFDZqZyMJo7BCXOBMYT0pGsujul3ej3fr-9Ov0dEhA4kSA78kJk1VrWhMjCqW4yGhTn7y1b3-pdBaSDtvzRTxeQ_kSfdA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAnk_CS9-8vHCeA3ThJidI_-c_U0etRBbwJ_xGWryqFqChx83ARi7L8vRDlF8w9dWH54UjX71bjG0EnIZMY9eiIqARrTqPNrnfyo5vBnCxj-5GPYxrUl8ls6AJcGfAbtGREhAchAv_I-XSc9L360RpNcjWGhREY-onUIcd_QPbh_Mw9LezwYgPKg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAaz1pF6tLIGh0Ey1SnEM-AxymXMBUHIe9jE5ilth9YT8tvvRH6hk3yd0VWrKKwcNDPETbMbqKmrwGuPk0R5MLiqOwIBqoplbCNJk2EMGoyBGiCyhMRSuKaaQrLXDVVneWEhBBOWTDuJiehcLlOwcvpcMfGhSjfBYSXkiF5_l5geClRd7zD2lifw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAc5K4KS9VeirCCV-C5-Q1jKID7B-bt-0y_zkrdDsXavORpT2LtVGug4ZLSGs8TMdZmyWLoz1xA3MlkKnXPBju-ZbfTAf_7mdqSixHQpiPhgOltNGslK3BMpxJm46RPzfyEhBMjXhDpyi9fbU-g4DyOINpGhQT46rmdzEYtcnHiZZ1TOS13JVANg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAAir4Z5vWrgOgpGfBwy0ulmumHW3OU2GAq4q48IzmTDFq8l-3sJe6kQPvz2pdNa-IEX9GXty04t5M3bGH9K8ecQZjEf69q6FlObcf0PAngBEHm8JoOucNo5rTub9eSTi5EhD99pBuXVW90Ls-dYGsSUxQGhTu32x1A3PFlLuaXOCBx6B7BXYzMA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAaPOj0cMQlPSEuKoJiseMMB95o9fQ-3pE5kiYKDauztFwbRTrGcs-D1J8Tia17XkxRcQmLJwFPQpv5Becm_FJHQR3EYsnxkEvfWfstGJ0CPgaHy6FBkiB0tQkfEcLIXUEEhCkoXw11Y-GW89vDxT5jWaiGhTQqRNU7Gh9eTukk1BcNQCfQ0RjGQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAvGp_UQHwWntQ_obh8xRgsH1dOGDfzc3zaJUA43qfCqdclI52A6tiY2DE5XXLnaQm1gatVjovxbbldQZheCaN-RjdO-olHBELxs5Rn8844iFoZh5YwPvjPjalYfzm42-iEhCUojB3eoPNMMxcEMhJTPpmGhT4e-ANeS6OUawH-NUT-brpqr44cw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAArtXCo9MD0NSVnjXqP-Mqxf2Ij1Qjx4ZI8DkjuvcTfNG1-XGZD9bqlqfxmsz-FVgeow0Z0pfiBlUvNSTvU9Dmpbh4y8EeB7XpQKRLzmJYAIQF0h-T8n4n36TRXatrrAcfEhDQoMLnLMypp5v8G6BduxCUGhQIk2__tNw1Fg12y954zeVgSKxbpw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAjldhA1tJ8VXtNe9RMGPoJ8HuyFWL_cT-Ycy2e2GPhCXNpj5sdpcXjg3564s3hoxT_3rNNdY7jtPXLd1wd7PlpaWOlsdUOhl2TdT_qskZk1XksGToKFG2v8NVisj_nP99EhBwxbOXuHmypABX4sAuV3oCGhQPRZuGTRabf_042qz8OigntiyD8g",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

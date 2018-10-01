@@ -1,0 +1,109 @@
+{
+  "website": {
+    "value": "https://www.solms-delta.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Delta Road & R45, Drakenstein, Franschhoek, 7680, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 874 3937",
+    "type": "string"
+  },
+  "name": {
+    "value": "Solms Delta Wine Estate",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 10:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 10:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 10:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 10:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 10:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 10:00 AM – 6:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 18.9896097,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.8642526,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAcAgnxym0QC7zQ2unswNxHau9qycQlDufm_0U4rnOm0vgUzhkXWx3aPzFb5ZsiixMiUvLYyxBoet6OCfOSmTLamP92PQWG7aCh0uLz6I0kBGqlIFSOCNwboC7oNULXowIEhC6kPvOHCNoNJLdPlzKkNA8GhQC2PrK9PNFMSOjmRZwEpen14Eibw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAABY45u5grimm9Ksd6SgA8evK_7FzeCO_mEkdp0g3n2nfg0rJVd4kdF67ujX0Q_1V3MslTiE7d0WEBQS0xWhDDsxBu0VJ5ZmAWJr16IEfdI1MumkVnQ812eWHMoeVmDG7nEhCHYxL3Lr1ET9YetRxXM2uuGhQymbfXYePAyRHq7yX01gtedcInGQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAig-lv5L5aJTXU5ZS9sXXOHD6yuVyKwGvLrw5KyQk0v0HOVcnXhMoXbN4HpMZncLCtmTtey20koo8CRGNmIVgu2tUH4qv4u0oEWOD1PS090f99dxTG7pWJdwxMY17dZ1vEhDohedTtErbzIqgzEQmzkUaGhSiYKfY81dAj0C0yD_Rv4XIDK9LDg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAVDq-xBLMZo1elNh6vcL_1VK4t9oaHMvTYmzTfhPrzKoi2J8t1cpST5vf1488hkHs15MO0sHC8As6UABRihLl77-d9a3iCyNscfMvywjqMhONccYADHNSo_BA9-v2MAPXEhBAnZGwh9dqFa5vN_Z6T8PqGhRU_Oue4K0y3V7Nzr10CirZFr-C3A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA2OqiZKJ76OHNvZ6VBWR7dSq4IBBlz8uPLHROSoqp1tQAjX8N5_ibz1vu7IJyB5JDarRBm-R4Sjql65xhHR51NE30wgi5xCgoT0UBauVhKgCXeenoHmIHOG9ITGcz8KI3EhB_m8UrA5lLnFDQLCS9LHX9GhT1Nso9EHfwUuSbUKTV7JRljm9xVQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRZAAAAYRjxt5lL8a--m-PAw92bJ2J3h8e5xOpZCRkMFeYS539AsmKdnujWLNtvdVeJlLfKtb3P__xpgh_ObyMHok3h0KCNEp5LgCmNFAoV2wWD2gvkrx84nEIFDkHlPIxIFYuZEhCHzLIVGu9uQO4aJJNFvSQoGhTqt0HYpOyM7jtANNRMIMtUJF9u9Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAlrwjjNsfPAdi-NTa-YbQrKXbXGwxApiMWDV_ieGN-q0ILJn2jPKZ_3zvRpAQqfjCA1KGzD8vgFnwa0inCT8PoBPfyHLEf40Fubeq--hvqMOirCiNWFC9QttkpwGm3MwTEhBv3K9BvyhRv1IXDFTxfnmFGhT4i4QC6Z0j-etnYHKSaTjS1LF3vA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAI_bWRgocwCv2xXdq8Ti19LMmazR1rGVV4wPNeFe3eYoOsHsQq_RaZORRr2H5QgbK2BhVWCjqGR6h23kzxnX9AG-XWRXAIthVl_IBRIc_y8zrrjIo8V6pvXWSR9Szsc5gEhCsXpTeVVSeS0GG5mUocWAcGhT8A2i5ZD1TC2aKblfXe7vsmovvYA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAgZk3btd_WYpeGRFoFlwGiN0F28CdcNUKSsTu6Gu9XkCELt7l5hZAryWF5W4cWBBMDm7KqssUNQjS5HG7n2P0sYsZ-AlEj86IRw_7XWEKD52jjv7Aw-i0eEdFMHc275x0EhAa6VLJVeuV5jpkPTeDmEDlGhTda7sMREJE0206GbwwPHhHBviLnw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAxzVYQPxjoFHon6JFxip8lbFdky890xyP4xWZweDysB4MMBlbFJxdlMV1TZb1MniSe8M8z6HsM96jHf5bLXBdKqpvdXzSvf9OrAjxTv_pnvciBszlXfA04haDqft0LQCHEhAmP7rPvVpjlgtemq6h0gBXGhQ3BL47k6InMQgimbSVHz0LETUjCg",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

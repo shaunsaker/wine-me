@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 10:00 AM – 3:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 2:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 19.0371704,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.86275690000001,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAzQNQzeSx1wJDjx1553DnLElaRpiAeCj5nd9erb5GRSfrpLUS24LucbPptWkvnEN61HOAd9A1853r8WaEGg5wRTJmafkDE370etLqwkZlvoOyZNSrABCpYv-maf_mcD5qEhA5T0y0d7Fd4rOBZGuuWRO4GhTkOB6om93LSNP_yScOe4Wrni0rMQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA230Hv6dCT9VzNvvRvEpKMRYoBD9MWYPM8CXWg25ww2i4xSQyVoG5F6cAx53I1GabdBHDriVp8d3EnD0S0DzkhAJEd0aLP4t1w2sqYeL2Xb2EOcd_Teb3369w0b8W4SeVEhCLCXnBUKMg_TnEP1MzWS1UGhSd7Lj72LCWq9QiUltg9o9wBVQwAQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAABeTIRUGY6Y1qAVPlbgH_afGPi0GqMHOTz2WjU1Tnom_b_-A4qrl0uMHu6sNJuRtTXsYri0NIP3scJ2LwVsLTtbFaW_hC7iQ95B2d7wyvjbC2l5LKOz52IPLaClW-bxjlEhDekNj8JhPszAvdhxmUa2fXGhT1aGoO9g2d1xwCzgmFFA17J3ZPyQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAeM9QRnZfuVTvnkxyynYWbd7SxotNWnyvrXwwZcR9fbigCDI6osdIHKNB97eRpqvKI2bxg5LJtonWYNhJ1efgyeI5vrPMdkAAwlnmSgN2zFx7h4IKGTzOk5Pv354_wesyEhDDXMvBsAB5cHK-QEFoYVQRGhRAb_tj1DOBy-D_usVOOGF83rI-7w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAEGyo9X5PsDwibyQnjC9p6ZN9DJl3fwoXF29HmTd3X3FepPdpXPniof3Gcw67Bc8INjpZfku2RHK4lYg2O4Ip_aJcMjuuT8QQ2MMoWrEIW5o0ImDn3uNEdr-0GkdZWsePEhCyuVSH5sAP5pA6tcjvrIpeGhQKvPieAnKN3ZA-7qetElp-nXUojw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAs0WRy0AYRpa6XcnA9sc9V-zorF7dxeIzJqkdbEuKRHpEtMyNjbTKR5fpiDj08P_pVOAgBh4vR4WPPGDa8klv3IUx11FWDd5VKpzFa49P-7iWZObBLB5KZgfkK5P45Z2dEhDV7ESTSTaP36v7o4_A9lPQGhQIzoXmVwo2cGeEfOUEJ4Si-XMuSg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAA1RwWMYqCccxKSUV8cSUQS39YQpwwCXVfQAybagwmi4-6KJwpLNrTceMmO46DwGG6q-Gt3Mcd-iSeLuDp5J3-6maCwTvZEOsDDtHPRVEKjVCSXRwRLJzIW_nrQTQJgj1EhCetK9alCpW18Yc84xm--T7GhR7yUqXdrtT3RrJcQCXsulN0H5QSg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAo4eyu-MWpfCZiOFgWCMuLUvFOfxNVi1BucM-_nGnIAfmc8b3LI0UtT-v6q8_5dKc5HbSpGb6eXF61NtAm0itZ2nXoiJfaAWpI_iCKkFjeHdQA0WZB4lswGZaT8CFNOtzEhBK3-KHu65cXs3xrHSMeZssGhRmwHMOYOjeUaK3ZcC-jKAUOSaTCQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAVA98jnOwNP3H9n4mUfBrxqnTsIbYmb9zoBaxZNl8XbEaiY_BKf4e_O-2olxyq9x16kmOo277v-kVr1yLtPtdBUYVwGCeTzdNp7o4JTWr_cEY4sEzl5jv3RAh4p68n1WbEhC79acp_oxVzC9Wsb8YvKj8GhSaha6R5zMALSaR_f9sut-7IGd22A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAuNp0aICoiySnIO2Xfw_bUPH-YVU2AGuhuPPv6Vg_GbyBPGSBvtkiiC49Bm271jN6aot0-DVZFTVtA-eXNpw2UcTGdtiqsXHNds5rNP5txoPjk8SVC4gmMS5p_Mt-qtF9EhDRiKsF_z54XOue15xdiJtgGhQoOZQPK5nLlampV7qZZN2KquLl3A",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.lynxwines.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "R301, Franschhoek Rd, Franschhoek, 7690, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 867 0406",
+    "type": "string"
+  },
+  "name": {
+    "value": "Lynx Wines",
+    "type": "string"
+  }
+}

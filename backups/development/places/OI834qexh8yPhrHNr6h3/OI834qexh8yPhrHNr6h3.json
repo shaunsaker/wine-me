@@ -1,0 +1,40 @@
+{
+  "address": {
+    "value": "R301, South Africa",
+    "type": "string"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.6376999,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.04843,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAnxjdkVc3FO7GJsk-QlGVLT0vkdcpBZPzCZsvd0qrE9x1lC0rGs-MC29uiu1YO675H-KuLx6zlPEuc4xbzzU1D0VhfoJsL04yIbem_RYXLPL5JD-zeMzx9syFgpL7H3QsEhBidNlEIDriq6Goif27RRXIGhQ3zsdb2X3MBzQj8jtTPYb1ZLkYwQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAEY0i_qWPFrLZStmN2QleymY3Z0ahaBbqboG4Wct6btIZ8VsJJrKmx57qt3B5GYtT8K07mZIpO5zV86PrmsJ8hzTZuRYIYE6JVixaICWBfXGy0Fy-5KGtpn4iDrp82CPYEhAj__pn7Kf6vKXN6KjP4JW4GhRCTHln-qBzHlE0njJAPyr1kxwYCw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAcWV7vZJepgQy6zpuptvbrjCrtzCg9a3NZ18-ChbUrRHgXFUe254hzFTODm0lsmKJ_jWN-35Zmb77H1vfUZsPiKuGkP0YCqs3E_VQR61ipBbRf1ckwgUyDMp6jaHatQemEhBdVzh77i3ageALxfkFxiYGGhRw5BW1xGuZEzSpJIGXUoORMbsptw",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "name": {
+    "value": "Wine Estate - De Compagnie",
+    "type": "string"
+  }
+}

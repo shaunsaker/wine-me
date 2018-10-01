@@ -1,0 +1,68 @@
+{
+  "location": {
+    "value": {
+      "lng": {
+        "value": 18.89145,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.674,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAq0h1eIzRaldrlbBJ0vhrqOz-RjdxzbuI2t8cycWtjlNIsF6FelCLF_V1Nh2bj62xlObi4M94TIqHrQRB7l3BivugKIRY8I6hnZG8i0rjhdLC2yAonldj58pG887MuUcWEhAaVgyzoe6eFt9t-kEynRw5GhTOhL3ovv-Njr7minGvNiHC6A_EWQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAfKcBAjan1v-u5xXkxCllASE1jOXTtWURoA982-KDSjSasBcnLoMYtIuif4KO_rzCBEABTx2IbVEA4I5b4IjLrzrMUrtdwtZYBNraMMzkVhGgAYhFbfqDlVglzyIDwCwTEhDBwgfp2mYDFiVB7EZexfD5GhTBeCKSwn9bIpdSrqdmSSs-DjRJWQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAe68pUVWX_ZVj9_kvBuHM05aSq4NoA7q9UHowybofKYXN0sK9VOcDIY8qEmPvqr-l7nEKpeX6O-HEJwGDDSiTj0u6qgTFsN80y6KJJ1LeGMJeNqXoachqI4yeLGSSyyQbEhBQDq8CxijehNzvul_xDs9_GhTTFBVZfMId4MLfZyEYpu1cXcsxlg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAzgx6Dm50uGZ0Tx5_pSG7YimSJJP775PVSzIXP_WB9Lkq3xwjVM1udoceS4yCDVwNtWTIVA5WRXSQw3Zc5uXpM4rE3xNvhF909fLV46S4k-YEikAUfj9VnAuZv7LwjRYIEhD0qIM8Qu0DOUhps2zMYb0pGhRFv67jTJFr5I4NZsaJ275E5uhSyg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAbTVIJNztMHtI2pp-y8db-ni1NbS7rF7fx3ATp5dI6rbbzhShbrP9_hhz25wgaXJ_dajjkmR32pgBli63Nncm349161YN2m-yrR6RDWGcQ_xSTW0Qn8fi7AtWkcRQ3-SwEhClfAr20rS30AeR2XHkt8eNGhRHkl2UUrk0tU2CFtFK8qmUx77HBQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAuA4vI6QkdNSqLo2NGlPj0iGo4-cpmwOCjcVhK9A0GVFVXGPrOt3mtN1Ycg1S0twKPcyzWB4dWqvVIDtZBQzBWxJe5lyp_8tb2WohF29byBWI-C3x3PCaI2aK0RdH_W15EhC18lScfwh1MJwdw0rHmjuPGhSqEJSMyNWAzl3gwJwUibrUYiL0hg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAPUe2SeXQOA0rFsONgo8Bey_uFD7EnSCfC-XJeVmpYnFkMSJZMfGCAotrhwtpZKVEXkS-z-iLzi7lI72I4psGK-F5WFYol74ZbEUTTDMSeXXFab_i1dwluvThYM7Ge2afEhAywea51i3kIoBYbJf6cN2SGhS605ovTfu87ed7xEfOdyt51NFmAQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAoVTR2LHa3joylSEzR34EnBGLA1f_fsFgyhWj8YFfmWD1CHC2p6y99J-nQJ6RxfxG4bRuAhMBEjMjwk18hfdEnA9-8igJ1Dfsv6KaMdtCh7xRRJmwMI40jL0UhQv_iu0oEhCFIsP2oTQLLAhqyCCpv246GhTPA-x9epaMnGveiu3jGq7J0S2_aQ",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.domainebrahms.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Brahms Wineries, Windmeul, Paarl, Western Cape, South Africa, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 869 8555",
+    "type": "string"
+  },
+  "name": {
+    "value": "Domaine Brahms Winery (By Appointment only)",
+    "type": "string"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 9:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 9:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 9:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 9:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 9:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 9:30 AM – 9:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 9:30 AM – 9:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.884524,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.968552,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAkOCwNG6oUYOKK-cnx38OAZHJxO2DnxIwTuqKu2GN7g9xaGuBEgpedPI5J7weVdogge5J2d4TxR5wn3n5mKC47x58Jnz_xV4dlqgQty4jlCbaTRo8q5YBLqKEwllKi9IBEhDeVhRmmBSFfzjNqaYS1HZOGhTzsqnF96KcXuX50XeEpPwOrsiRtQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAuMsh6tZFL9huHrhjqS3kEnzxr02t7Q36612plvyo-A6jJfsxBOOPrxqLKCoABKS3q7bzS7WlKM2EiLX2TeIzStQP63mYCkCDcGXN5soWxk1wY4dV94Tkf12IaSUzEVMsEhCcPPVx5680zysUJJelvszcGhTUop_dvY4x9eLUm2J8cWBIbNmTDg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAgOhXCdqny0t5sriqo2UEAWVZq4PCyXwHIgHWdOvA95cdEMHMVw0Gj50wTkfrs1Tvh2Bwa-lrsmbEvQtph2tgq2aHSZO5JuL7FDdsHZkj7aE-rHwkI4yMqpfossd-l16nEhCKzOu03j8yaIAwCHSyYkAKGhQd8nUdCXJQkUzr24PWHDYaCBapxw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAfSZuq-EKu8-hciNH4sbotUDls5seHjS44k8ZoIY5eT2EJBbPt4NOIeqf_H9l0CvbtQmGywuBWSChuYM3GOJLRY1NOgfqZwC9eG2Zi7yX23SNkFnfcdkRfo59bs-p5dg2EhCLQFRIiGOKzp6-V6ry1MM_GhSgIZVigixO05iP8S_tN_na2BtE2Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAEsGJbN0Je9OsD5x2Cf03CW9rQMeYvT2AiBpRFCrR3kVLa_IYAxU9OgbHBKb-L2C0KyYzhxXaVwtS_1VAbwHn6O6eWpXG9O390DnPhTga4FLWYQeI48P48ljG8XrI0xLJEhAks4J6pt1BPvKnQI8S7ME7GhQTaCXTH1RsmyVlVf3abY50RhWGdg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAQEcK-bnes_AWbbViRjaSwYSzszpEqJPR5gdBfmdHjEyGKfPnGofNpbkq3aTL_gdouO03sxxOceyzqA6s-Or7Ozb9BRbA35Ia8rFgaNtnxbFBsqF9_oTXB64KYYT8zoJhEhBFdxVGM745spdRokpsTp8nGhRYFw-Fy7gCkxg3wZxgUNPNZy_WRA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA0g7VBQWjSlvQMpVkhMi_wd8V_wAgWS-wN8sxnK0WghMZaZhgtZv2FpOSWjaC3vCy6ZtFjyzGLdjvAqd3QAVAmbrL0MIfuV327Kx9oZ5zGPqGTvj8K8Al9jcqWjGd1k4nEhAJYWg-XunXT16OH0pERB1uGhSi3ccQzIIGEChYx5rLGR_MbZzmww",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAxt0UmTezyq6bblNnPWtV9TVbGS__TeTbd696N6Xn19jvoJAC3hrIx_G3ljcRWpiaMheMkK36y7-WieoJkP4ITLkw_T5z90CL4_5iubfRV149PSZwHcMwvuKdSXq0hIF3EhB7eCU6BnnQkTiL8X9uJ1DbGhTEW7vSCljI6yuzRb_RNc25fgZkJA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAoqqTirmc6CxAokp4CGh94RsF-6fJ2_zFIzxmnBfjTiHDgQtlWi6t8H_7uJJ0mt9SGbqpe6BgrkqQLRhT5xdv1j8fYwNikJqcoqIIXFsr2NYlhuFRh4dM3lodEi7FIYMyEhDowe4lQjTU35zGTE1XnoosGhRImlCSL0Drh_IBNgmKBYwKGHOnyQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAvTasSSyzHuCPW_djJQFPDxfA9Khx0pZWMJtXlpoE6d7dztzJc-v560ZAhMBn8dD3xjdFIAwPXQgTRSkKWdSOf59X3QQbJ59QpbsFOHxzTLyGPtcu8883n2pry7TMRQC3EhCfbk5TsMWDxMsZJwB2jk-oGhQZtyUt9Ik8S7oN9_BidHATYU33Yg",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.boschendal.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "R310 Pniel Road, Groot Drakenstein, Franchhoek, 7680, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 870 4200",
+    "type": "string"
+  },
+  "name": {
+    "value": "Boschendal Wine Estate",
+    "type": "string"
+  }
+}

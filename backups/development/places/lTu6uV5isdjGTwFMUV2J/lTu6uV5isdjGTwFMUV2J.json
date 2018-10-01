@@ -1,0 +1,48 @@
+{
+  "website": {
+    "value": "http://www.koelfontein.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "023 313 3304",
+    "type": "string"
+  },
+  "name": {
+    "value": "Koelfontein Estate (Pty) Ltd",
+    "type": "string"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.2653483,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.3315977,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAA4Ci9geinn2nhZ369-3YsE6rjcGcnHemMdQ2tywcPpoxdohUeeYRC5NKpuTihUinzY9gKqfEzhndXptFsGJmjR1wV42Q2dIaLFWrG3-41zhHCfiFRFJVnpU1n6RGzospDEhC6LYl1Nsuj6A-b6MmpiIi_GhRYJLu0Pp1JXKFiniCvPA2EDNl77g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA_IEDXQZeTr3F4nGmdOhCPesq23S3kPaWaUsP7exoa23BxwJL-Umh11_GBZD_gmp7ekCHHIOnXcFSwYGygCt8IlTyLkIcVL6tmhkbuIncmLnBn6N1pFWjxILd2XXfWFDkEhD11Sw6Po-nbHgLoxkWPU4dGhQn9xJ-VEw-wT5UO8RH2Yfnm-V_Vw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAsGlUNqGa3hSBkOssgYyMUvvaVYEIB1_2-9m2CCNqMLvMjphcQ0lRekIm3PqRjs4I96SFxJbFaxnLzSnjw7tlHIHDVIzPJDhIavsNavMUYHT-YCKbgGm3kEaTmMG6ooXAEhB9OEZaFgPbZWBTSJuP9YjEGhQ14MyskL5dq5x9VaxOK4c1ylKfzQ",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

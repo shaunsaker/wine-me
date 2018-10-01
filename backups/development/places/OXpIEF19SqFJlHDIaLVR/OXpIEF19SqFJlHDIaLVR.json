@@ -1,0 +1,76 @@
+{
+  "name": {
+    "value": "Palmiet Valley Estate",
+    "type": "string"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.73194199999999,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.019351,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAVU-X8wQGEbz-ysK6MKX3Xrp1fIJDPR8MhdovG21a-tz-csO2OYA85R6c1118noP0SkQlsGldNT1DykWKX0Qg2G7kM5Km5ryy2vQIqk97cmJAgB_a3n22PhLEyPXp3I4_EhB8xPGadVIUDjDEfdCV9ABxGhRgrR5TTXN9x5iQgzJoCbjcjnrDOQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAXzdV3neuLUaHjyEyhDsdngT_u9h6_qBLPUDDEtzmqiM23RHYgtQLixEejxmH12V5HO2PGqoITyRnwDLL73lW-fAtXf2bYlQYRlzBeymda6rPoAFv-csByomyN_d5QrGQEhC4MX5F3NivtvJoZ_H-urW5GhQgIMEejdIftjzoXHdO_cyNHmjUdA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAQ2XBe-2Q0CrHhHlh9O-inhCs2KTYPR1apm6fZDCOs6dtqQbt9mJKSKl7nZoK-o1w4POvrrq6RTlKbw1C1wVDIQA2ee7w863giokhePh2b2zFaSQcS_6VucYK9otQ5qxcEhCwbj7lrRZBNK5mAOnXdpvRGhQBcog8H0HhLbZ5chlEY-FJU_kQxg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAASqOP8lT0ZXuilKJdgl0VrlcgnkQOuxAVCkmcfLA5VskaJRSGK5oV_iFFM2CLyy8sdyhiceqz68L7J24pAuUJesG6IilnnNEpG9YHtecFaoiioua9zWQFq8X9cb4_FoUEEhChHMFzJZajSgamQOwiiyZPGhSsx9BAE1k5dVED9PP4sE-6jX9JsA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAbDZpVfKzf06-pVxstc0iY2xhJZtB1Q6frRqttb6PR0OQMb02gUzeBmyyDebpXxR4E8NHibc6Usy5ZJHMhkW2wz2H0Y9mTpNilA3B3-2frOTXQfwmSVn4aI8Iq-6M3uelEhCLMYa6OFZW-nidNjJTqio5GhSwVgHfoCc9Ky1D-VaDr9FPCn2FxA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAqmEuYsYu6zXtHPvMfHupr96ZcXXeT_AlcV7cppnqd2geJsXU6affFObJKEvybiVeEr6FsTRsxi48MPx3oomM2PFN-NdWilOTHlTuxXXlZ1tH4HClpCoFgzBBW2kd6JAIEhC3dOQFhkx0nYOWjVk1JzboGhRx7Fyr0-KABL4L3FXRlmdMKGB6sg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAhaO9CE6auXED8u-ZRQQuxLXZ4C2bO83f0FtheW7h_mXvYrV5a32Q4y4WO9lIXVoXl6u1BIuBtRJP5zmAQAQ_bUWPiEFrmg_mjgUc4X0TZfvSSFXJA_XvtxGeclh5kaDCEhARqG-glmxdfNAe3wb0DFA-GhSUvrdJoHJfgJ_-PKHlyugNWrWbdw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAaBoJeRtyClTjVfikFzouGTXwTfXIJgRNK1tJTyo5_lFn68gdf0wxmpinjSPa66q28Bkt69_QipmB2lOlQ96bMnry6wUz0AFt9EGObIj9mAPpD_UClSSbCsGRul3sZuXuEhCk3XsiySnprv44ZrorKyWcGhQowihqxxn_CBjV22zcJaZT8kMWAA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAASjij6-e7iBd44PPSljjzSrtCgqjsJAEAnT9tBXIomvOT4Pi0pJbHvr6W_Adgqw4VcEy-RXuHijFJdT1UgASsPU1NibkTAQwDhIMrpazGzV8tk8NEViqeuAXGQKfOji2NEhAxQa8eOEDByeoRmzObYjUJGhSDfjcErvapD0eRXV79s7JmhhyUCA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAI6K4kVzQ24YLORrLCBruTrX9KqQzJx9zzqC5F9OWlVrVV6oWfnmLF4wd9v3DlTjd2jkzEyMoukZjHG4AhTNH8nCjwcQEDFd9w7RdnpsdUX6od-SqhPaYqj96_UCT9VptEhBKv42j8bsWhzsio-NQaFOXGhQrFG8fZU5TYn-n8haqwlaFIJqtPg",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://palmietvalleyestate.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Sonstraal Rd, Paarl, 7628, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 862 7741",
+    "type": "string"
+  }
+}

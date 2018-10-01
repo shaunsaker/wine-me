@@ -1,0 +1,72 @@
+{
+  "location": {
+    "value": {
+      "lat": {
+        "value": -34.0431699,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.75037,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAA1mKNqeXW1piK-P4_eTpRAuIUprAmvCBaLv3jN7XiE9IwnzpDxREykSKlBkBB8PpU_x_rHhB3cvSt55_LZ_D3HbjrOkwcT9EjodpX9Ogsj9H5JsDJEO2nqHSSbaUX2VuTEhAEzi-PNrwU3cNbrBHMKZ02GhS7R24rbimGKISb-NKjm2G6S6SWTg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAN1x9RZdUpRwpvA3MStiq9iLiOzs5aYsFQYJx6xwdRox71ns0qeEM19NIiscPKo_nGDaK3ADEhEm1Q1bePB03Ni2tqEH1Kx-1Xsvlzeoq5Zmp3yzUtEGRxSXHb0YQ5ywUEhAQMhgE7SSMjqr_o6z2pKGHGhTBEAKO8xKqOCGiWpE2W9KgIaYC0Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAigqaM6cLms85O4F2qbGgrs8YrhI9HL8-sNS_RmT53uY3wdR6qzwEpD9r0Ke9q26DwH-jjNkvPY7SnYMp2epBBeE0qlwbHA2RaUnTDpAJEoeFgE_evdqY7Y4S995-ROoUEhC1NbEwPbSBihN3oDER0INaGhSvxXi_W7B7tlwj-ZzRzPVR9Pml1w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAASRY22dPkDXlWXiPrTHC5XhQA9cY_a2H6vpQNHcTre_5fcGfYKjhqSQfMYTY7e9BvxFNBDnGcjbiXfimvjSoIizjA21bKLy9TfaRZKNE_I_MghCDfRpaiiAeTTLghE254EhAeNLM39MfrHb6cnelF1djJGhQmpGwbL6oRNESGd6QA41fOYB9gFg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAqk2RZYmzAgpIU_cSQD832IM4OPXmCxRGld7YWZacX6wgVJ3o8HZvweDBVP3CphlXwl1YR0OfdhRO-6y9CSla8sBwlreMOJG-2vI6RH5RlJUkDMm-dW9ObTBYDKv4QetdEhDailognSMry8m-hTtE10ndGhQB4D3dnBgCxyLCfig-NaiRKHCCRg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAgu0PIT4QKm1Xkg972_Ks49DRglgyxI07Tb_UUGRH-y8NK99e_CZtemDqK5WWB_kMggvbHPo68ddtTRn9Ng3NtQuUj9oLYcl2ZMhZiOI7scMu-kc0hPrFzGnPikwZsLEwEhDoFV-LTX2monUUeTA0b6eEGhQcjbr_k7U1e8qvxSqZBeD5b284Rw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAf10t9_P_iKtFpdF9-KiNWw6rHMhiOLXp3aETYpt9TkASyO8vMRPJo7Q4U4zuWMS40lLVHLTI_qRLlZhKXU0hkeCYOtnKS4zNQZ9vc8735qZdo8f-fFtUcz2BsymZbh-bEhCxPUoEYyAFh1x7utC97Kc5GhTANG_7Pk87_6AuzSLaPqQrN1Uq7g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAEB0clB7HbnhK_byKQNm0fLR5dKlg3P2gxUztYKTgXld2BplpwG-8NanvndjK1c0uTZvGBKETkn_EcUyRtayof1G0XGVVLnS74cOaIyi-BQ-mtRUOYUgNZDfpzCBaxlJOEhChpFBS4cpUOTmMTQPTqd3mGhRfaFQpwhwgBQMja1KtyMFUWWzDMg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAtgQI7jvxkI5tAsxRZOdzHnbpa9yAuxL2n0rdVa1qY843cAlm4MqTOHRiwe12jkBUzb11G2FKA3fcF-3nz1djeHZ1crMPBpHtg2yLpDBpLDMBMl0RdLPTeBfgMwWbgJHqEhCov0sOWOA_asTLykxRiJV2GhQjJ3luCsKR1F-jV5_gWILNaZcBVw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAEN7ohJnwENykU9N6_JOW2SXo5QOvMfC4430askSq5ZhW8nkjTQReEONk1XdYERqJ3VMyXS0sDNSjw1cp1V307vpXxSBJnKSgIgWpWSTiCwQXC6M4UeDMkmpKFvI74R5YEhA5hwxiW8gbqyiATJpA5paDGhQagGaYIAQQgCqmtgQBI7YPcngH1Q",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "name": {
+    "value": "Wine Estate - Vergenoegd Wine Estate",
+    "type": "string"
+  },
+  "address": {
+    "value": "Croydon Vineyard Estate, Cape Town, South Africa",
+    "type": "string"
+  },
+  "website": {
+    "value": "http://vergenoegd.co.za/",
+    "type": "string"
+  }
+}

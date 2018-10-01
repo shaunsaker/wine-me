@@ -1,0 +1,76 @@
+{
+  "name": {
+    "value": "Zevenwacht",
+    "type": "string"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.9299902,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.7294794,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAjQxCPDiuHRTXr8mLzLYpSyXE6_reWMdenLsQZRClzfWzPpal1DINDvYRkBy7gPclcF5GLyr6NdFDtCe58kZKlC0HIkKZKyYQAHFKe3EiOy5qNRE63hRiSoCNUh-FgtKXEhD-LnraD5gaa2G15c2KUu7HGhRZiRvOI_157q59YCufvjvWFlhhZg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAe9xMqbay6ngh9gtOWc8qKB1sEmI7HxgTSjLJqVzDbwge7IGC18422Sw28PSqXTT_J87Mdgl9Gtars58L9TsaY6JZ7_374TKeozO6W7PHwtjZHOUcoCeMk0hE7hGoNMnBEhA7jAHjfXtsVnJbrWXaI9-oGhQm188z6Bq6V1h4yKzGIMrcMf0WnQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAOQlcRUljJsjcJVu_G7cLDiBsR0IDqif66IWRC0qZPFw2sVFkZyvH2G7diGtY2FTuVSgIAWmOsktI5e23_cA0v3IAJoU9XxazK3SW73MtakyCnuQv0T4mFeOTUAAmD9ApEhCCv7w0KahlIWGcvl6jfnZ9GhSjoM80rQ8xELB7xzDEpo-TSWYnHg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAwn1T6zwUjMYRst8-bHX5FPdq4fNEEbBqNmCxaHINzoHxA9nJ9o86IaMBpqmIYx3f8CPor1gIvog5BnJ0n56xuu9H1uhypH-q8A33JfrccldBTWJTalqPELPwHXv4_zZnEhAEwQ6tXBTc8Fve-O49amIxGhTsLJT386nODDKsKAw-py14dP4_2A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAEtuqjQjokyayJL7lq9i-g0saYFZQv4S6HagGYP5cp2ple9GPwJYYJTWor1N1eL5BDspRvI5QJJCJlxdhYX8PUelHX-fO6doD2nGYydxB58wl2dgttMjwJwc_dJWisidGEhAeQc2fW754LY_XXQ6N8EFLGhRkcxZt0R72lLBeZ9f9sxzaETHCYw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAsEHDeLMmUDWUihd_UUITvrTmzLeXdjBby9rQXjlDmwg22IPdY6Ge-AUM5xq7WAZRtMqVJlFRpuVY4dUmazOwAnxK31Wbxktz33brVWMSGsdeFYh4yNHk_1I_an7aUvCLEhAT49iVkvIQCgKPzjPMectkGhR0l4cJZ1ygvZzRBQSrd3ifzXhRGg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA0hbE_IIlF_rr43AWOr-GxMGEnTNRau30GjRAO1Qj7H6WAhx2CzuuPhsgu9Rha_T5BD0ICCaGszLRGL3V2Lvl_AgeZ6gtDuR1iKyNQYVFWCWJA6flc79fK3R-IhUPEiZmEhCadBNEJ7S74q5I1NZCM_VxGhTKlrCnEd-FvswHPYE23zd3rl49pw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAqM9AtcgU6re6hE6CKOVqatqs4fICR7HZRp1cKml5amTQbtmXq3dWTLnoim_QzkExaoAjIjYSSGheD4tYNjExhuTcHy5KPMAqUrxRSLEyR-1hsuselfXhsfjXuHUP2pgLEhD61KeJSOcyJVjY9ahbJIawGhRFJFNNGZSq6boBDwnudNULZI0A9Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAAZONq4sRR3RJeSxlTL2qiQopxmonREJQbHp0NDJuIlO17sv1kDn_X3yMHpWhSveOh3f9SebGNit5PHfUSNH0m8k7zwcHQshvn3QiMDMx-W3e1M7fDbRud02BZq5_ZGtnEhCcles4X89x3b_DV8fCkWjtGhRzu1usG3NZhfPRiHP3tp6hVW5Hew",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAhToW_YENtuBUjzId09HtNFM60TCRouDDZ9JbibUI9cNPsrdSgpkL02Q4-fwh4StNc00jolC-dEVW1GqImasQgYafLq8EgDkipBvKde8cgaROzbUfzkj5DLIYkGFA9zygEhA5y6dmnR_ELJeoamHmnbEXGhR3FHasfUOdKXItTHdkTW2I2XwNmQ",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://zevenwacht.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Langerwacht Road, Kuils River, Cape Town, 7580, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 900 5700",
+    "type": "string"
+  }
+}

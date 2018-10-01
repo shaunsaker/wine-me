@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 8:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 8:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 8:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 8:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 8:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 8:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 8:00 AM – 6:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.8370195,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.9535464,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAbfXIFo3sK-jKnmPXxZnjZ4VeelATSCN9p0yr2ti6cPNDEikhwHdH5pdA889ZrYRtyS8MXM68cYnWENyYwS4L6mGpoVRFxBb_ck_vHuxunM8mtCrAajw3ow9tGrLWIEltEhBCD-v8nzjNmF9JG-hUxIQ4GhToGrWpml-gZlqgdkoGnGEwNjpxEg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAZYUErMogS9pDXH4PrxYIIu4oMXSmFkPDo1imIT35YMn9V1ljM1RoqWB6Yl5C4w9xSK6e2RbO-P035O3rgE7Cn_-xsScDbXsm3pl0VAj4_n1L2PQWRWhI2D9Rz8pnlhlhEhCp8q9VENhL2FfF4OSPrwMNGhTLvNUqbci7ZmMh-GSi0uXf01zJdA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA6xbGLtYq-NH0tOdeY8HBAe0iQGdccFst6-mNIU3w2ecANj8x8TAaxHIIENUpRwtgBgjlFqWIg1eITRsBDfGoaQYMhpWoWJwnJgm9iw24OZLEtOLaw3_OsH-TY9xKTrh-EhDdeCGb0MLoZIQHI0m-xjN8GhRZmZx-WvtQPeK_BbGXtVF7wuQZ9Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAWOGKyTZ9paTZQ7xq88kwQW2ZqPcrWirazbEfRE58VvM9P3x9_aqV3IWIbH487iGwOQNlcFjj8WtiG1bqAdf-PpmfQaWWOVC5idK19uykI_Vhl8CM9nSugUoz0Da2VbqwEhDhPLGQW0BLS01XKrRGjNCOGhT59IFDGM648agzNagJZht7kcWJQA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAIyr3JXqiv1-jX99B20iSccJy6mB9H5T85atAaI8kT51MUCkEJYM4U5sKuwsYiRGpMLkpKHCP_cPYrzq2-lLS-Hsxvz2EysdL0RzJDywJM_hTlwcfsGyBwtQcfjsnJ75KEhBJKs6exc-ku4xw4sr4eN0vGhRecoNS5TCuy02L2lzem2LeF0RUgw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAPss_inBtSo8Obi8qdnvI6e4ArFh4elJB5ATRvr4zNgsYbfe_-L7IuCBM6sRDWfF8czNf2DDnNYhKh8pKaDLTfTTVl7eA846Y-IfE0qMwhBSRh8Hbysktk90PLIQySctnEhCfRdQn8bfAmWa-enEp-T9jGhQ-vZkan2CrWbmmYee9lp1M0NuTQg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAcXDRJxOS6YITGWpLrSfwDt8xu3lXGPavJHRL246lvy0WAiM9MJ-5Yjzk4QY2edW6_Gn40KVT2LSl1-yUkY7JKB6CzfJWmcejxA3Dd4cjwSvy940d-I6YuFIxq8bhp5XkEhBOpXuFuiZpUJ7fXZJAoJhaGhR5kepvuZMzGn67cwELIonBBYKKug",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAEaLLo7zCaGsrzsaXVaYfyXVBzdTYjqZa9xCezlfhpRqMw-8gcenXTlAIllmWO1x2WABX1CbqxqaD2_EhgRgVayjPLEdV_d8wD2U4vSm0clvKPAjS4RVFCYI4JWH9PT9PEhAyR7dgN8lwLHtokcHTtOW-GhSU2r52CWbHDIk3Hp2NSmibmJTEFA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAApRxq9Ey1QaiKARZ0WIwt3lAh4CnHFNz82uhHSZFiKGIXcYSzXkbO0-FM8KSRzgCAqmDObss7XoOISkGUa0iu6rsPD8qe30C-vwzqOmApr0etqbbsVMNGr1QlByNJS5blEhAXLie105dxwGqRHjy0NkH0GhRJEWQ_ZIKFcWFn-1jlOWH-sGtv7A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAW9xd9KfGEPhJo11X-mvq5TTKC_7z1_iBnzcMzYBMsh1gTnlJgYFne0TnfnyoeJo2UvT89-ZHw2LSvV41eJjyOmquiLncvCZ7bJEzGhF4yC03aKn55BIHF91rtkzIeUFxEhCbALJ58_pnbZDSZ5CVg_l9GhTXjlWxe2M8UwqJ4hDVWxEItRTz6g",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.vnl.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "R45 & Klapmuts - Simondium Road, Western Cape, 7680, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 874 1611",
+    "type": "string"
+  },
+  "name": {
+    "value": "Vrede en Lust Wine Estate",
+    "type": "string"
+  }
+}

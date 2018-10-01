@@ -1,0 +1,76 @@
+{
+  "location": {
+    "value": {
+      "lng": {
+        "value": 18.804827,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.882582,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAANbTmVlyBqc0kshDuXkGzmlkAa15f6gF1OLqYqSDKmWtMEBirRu6mOaiPYomVA77zt3_KVYETQQDQJDEFwHTMhn6UTa7PHPfKfDzjsslt5jkBa7hqy9svI_srLZP5BycuEhCVNz_fesPBvKMSWzkgfwEqGhQ0tizBu3WBbUmjEz6b5yP9ua_3JA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAASvkmKhOR1eE3PBOVIezjw1AHgkJ04dOhq0Ot1OIzbWuoKZxduXVuEPqakksdvm_ydJTxSbcU_XJE8UD0nXFmVvZoEBN8Y7JMwyozSkPObUvc-bAIF4OF6LKcvdKH8F4yEhB8pYSNuNk1raMekMD6FEBfGhSoUnnqhlOnp_eTfwHSB7ojumR0Hw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA2wNqhnPvLWyaOYxliE3rYP86JAD15dFwHkW_l_eap1RT1ESMvgBYiTKomki3SbJGBAP5KBsDSe4B6cj1ORwWTbgmwwhBR4hpVj9out4eyyPELbEkWWimRAC5WWCCufBcEhClzTTM_JokvVF_YCpnXrwrGhTyRGWGCXMbBspSOpvM7XEnZX7brw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA9kBLQO6i6rPxeL3UYI_0QuozrPKWNLIa5QA-EVwMuLG5hyxZthpLtRq58qUIeTNheHzKLFR-FJp4qrgBXtNcvWPvzATyoxPJyr2hxM4XdU-B9Nr_Mnh3hkVlYBoo7muIEhBDNlfDft3lCfrIT4u52GgIGhTKd_Lb3vPM83G1oZBBiyb5JuRdKA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA2NhUGXMz5L9w2_7YBbaaYytIg5OyuzSW_LQ4dpOkKCjvMgGAtv6vhowU359YHBXHzp_hRtfNUXSWAKKAkuIZ2HGpMZSRMS3d2RNEYVqnLslLjhE4Tr05Knf6NEFmYBM9EhD74oLjX6qNyZnVHFUFqwKRGhSW--b27s8eoiXapgIhp4souaT-hA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAKPzy_lHVG289RBtkzt4z0PB40yZ8RCLtW2ERL8upTgFa38xgeVkL8hom_2tISKYAnlEDZs15sTZ65S8RiAi1L5CYlGASbolRS8RAyQqLB0oO-hb-jUAvgR-vsFsKRt73EhD1ko9sbHgKgLNVmxhSaGWGGhSo7LppS_SH-QMFoL-NKw14ccG5qA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAcAl_1utIpFwLCj83h7HW8RsrxRT55lliPmF94O7nDyN2M2PdzZ5_-J_WvaMtawbr4Xd4wL_G8aJ_LaGvjJibEXC1_cCqVK4Cx0o6-19m2NZ13iSALdOeZ1Nilm-gjuyvEhAiDM8aw9WvdN6cJijgb0m6GhR2GGAbrxoemvSef5_p_KsKuZCwzg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAttKBRe3XyPSy4WhuLBTs3ioploge5BXZ_Xr6A3Qd08nN9NEmwvqdFNQqivvVfceoNcxQbxGgqd-o4mjjAKeOnzo9BqS0VUUobqg3tDz2UX09Vt4ob7iZiEO3ryJ3GmUkEhDtY69pDbUJWcw9ObW85riNGhRs2AhFGASiYP8PS5ff4jfkt1sWjg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAATNzQooCq74QKLqCR2eGbkL0i6iPjwQg8JPP5tfb3pLnlxnEvyfJ_jcjVSVAStIn4cnPj2cSQqpMUZEMHpLend2nf59qWUDfTUhJpE8NChvFqrvgvYlZ8y4EXaVjQQN0UEhBid2iJwfck19G76cDYX8OJGhRrc9MgszOM8FBm3WMCb4iSkmPIvw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAHbuiH30U4ULZeSslf0nu9UpFQi_KvWx07ToHcwXR-0Atw2YAp16eMnfVLPbYhOIYkfBQCRgsSjCHdBB3Y9GZebjwhfF2nErF_9CfXjuwJN7eK1dlWdAjNML-P_ZXlZukEhDgvGoXdIW0GZem42qbG-TkGhTKjNWvROPdbcwtpxde1sK2S-QfjA",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.devonvale.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Bottelary Road, Devonvale Golf & Wine Estate, Stellenbosch, 7605, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 865 2080",
+    "type": "string"
+  },
+  "name": {
+    "value": "Devonvale Golf & Wine Estate",
+    "type": "string"
+  }
+}

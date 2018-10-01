@@ -1,0 +1,109 @@
+{
+  "website": {
+    "value": "http://www.avontuurestate.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "R44 Road , Strand Road , Somerset West, 7129, Western Cape, South Africa, Somerset West, Raithby, 7129, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 855 3450",
+    "type": "string"
+  },
+  "name": {
+    "value": "Avontuur Winery",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 9:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 9:00 AM – 4:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -34.0256357,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.8233999,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAApv0tgV4t4BUQEZG3Ab1VQjuD6WEWPIBf3KALdVq9Bb_MH_3oLEpWWsf5txkj3LKvIgnUCfoa7ZHLCj9pfKTWtj31_Ee9oBH0xnOJJpbxagA_ariOwGFveI8p7eXzL-E5EhC8YSeIx_1qmfAd3eWKHX1sGhQLYtYjO9wz2qez7Ipv3ZV_92iKhQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA5ckKOxNM70bgdEGPZ4SBc5VWkubSzZXWCcwRepjEurqpmAtNBlo79lKSqmjbOXxrUPnVmc9gCXJL7vOeMOUrjE8aDpcsvB5IKbS0W2kna91RpZWMM7oLKAbVlh0C8WUWEhAooK1jidq6qR5iA4pfpdYDGhRFwkMqwc4KMIgcCk_uUtp1wgFkAg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAZUu55Y6Vr9WyGhLxbwZSBGUv1xM0gmgEIX0vPEbqJzTvMgn2pnHtUEGK0jc88BOmiP2TxvgNWznncLkQR1gbB-PMjSCmpWYDwX-cbpV893T9ARsPCbTwHzhzh_hlFb6bEhA6uU1AgVHdTZQFENeXmUhzGhS1gMgYGClP5YAqKMGfisUUqdUW9g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAnIO0PEADyBVs-h5NyDKwR5gOFrwV0MwBoUV1Gpl5ZPj-dnU5EMgWg897-d2TfgNeJp3uotLCnaKmg9CcGfOfBEDK2ztN_lU0TiTLt_wz9atTtKesW8HZE3ME5vu_pJsmEhBgz0cxguL-cMNY8dtM7Bg1GhSVrUqvK3-2THUNv5nkmdA5yFR6oQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA9x9FJv4s3iRMqIVQRMEhO8PaLDumHeRw43xhl-dmYFdoOjpS4-d62LdHUVlQNTdkWYwLlRA0_J01wV0zpWabzW5oprJa-scBwyup1h4urNP_2mJ9Rj_idQGxGeJcuV6SEhBUk6fFfPRdO5rlnUmgbzdMGhR0iyimKzbv78uDnATS3hNfEvfn8Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAbEA-Rm9j8ykdhO2URynFCe_gME7SPabkJS_zDzkYxfwz3xp_Ys9xHdWAVgpFG81-eb31MXFKsIePR965LIpoEoGNIYmHPlfkyNqO2KclI9k4vmZYSO5OfgC_vPzMNMQGEhDFDou-e8EXRuN2nKh-R2SfGhQHnorshu2bjT8aKmb9taIEWZrimQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAhD5dbHembutHzcHNqAQwYO5WR0qnfNCaZXvff4uxtn9lGjX4ksQDh1Dsh6X_OuLWGuGBlD31zfXVTWsxRrmfSwwJPXbSJjpPm4Vc_HYw1_-qq_sksUolmuYIEVN9kksWEhDxDE9dpNIwob-WPE7pbum-GhT3IpJ78RUbjnLltLShGoPzFaDZdA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAACOwA_L23rzLjg6q9jS-5zGcR3t6P5TnZuz033RSfnt_dsOzLNeijhW5tFiVGPMAG1gCFC4-l2W-SjV8CfkfNsCjEmQPMdiL6vne3THtIMC2FCG6fNUeMTsDTsKopcpO_EhCUeDvmJSZ7sWdUVMQtHaUNGhTjgmb1Xyu8RT6lQUyh44WrSrkzKg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAOoBM1Wqw3W-I7kE1nZh-zPQlQYI7QHnTwNoBMHowlkWp5gbxpTxpvQHLu0VOGiqMcGWJttYbLuEu6ZRpuAE8-vL18WcXsfKq31Tyhk4zbiGTTN0I0CiyMI9CHphqXwRZEhCGSn4IU3GxkjvwW-THMK5cGhTRR3ID7hNdGspghwHB4dn_RoFIBg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAJHl2UjPL8-40he7pfEOt8ldJFuizPaqxafr0Aoe4r7X8QTWP_NN2zbgK-_PxFdSVLngfk4iS6VEOwv5XErOhTthoyyin8rFmNQv2FZhVXQzPjE-5k0919bm4PDV5YUWoEhCLQXId-3IP9SDPDDINAUsdGhR9_2FnOUUl_ag5Q2u7ZdM-rMABgg",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "phoneNumber": {
+    "value": "022 487 3870",
+    "type": "string"
+  },
+  "address": {
+    "value": "Malmesbury, South Africa",
+    "type": "string"
+  },
+  "website": {
+    "value": "http://annexkloofwines.co.za/",
+    "type": "string"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.5110237,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.8063443,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "name": {
+    "value": "Annex Kloof",
+    "type": "string"
+  }
+}

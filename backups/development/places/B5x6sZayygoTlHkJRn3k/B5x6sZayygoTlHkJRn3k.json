@@ -1,0 +1,109 @@
+{
+  "name": {
+    "value": "Dieu Donne Vineyards",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:30 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 10:30 AM – 5:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 19.1293144,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.8964988,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAuWlf8wQedweLh9K26RIdmPSxgRfgepoaeUxE_rYR3Smc00Z6lPiYY8c9GQ6BzsyeRntxKya1udYBGyY5ooxs9kr9XOZ2JJf8Lh_VLNwVlNFTtmegpZiXsDMQduKVO24kEhB3yJuVvQskuaHuOqkNoiDHGhSn8ZLHv7re3s8n7p1u4A36kWlchQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAANu8GdQfeq-xTkv_5Bhk88D5uTRaqqG_utqRd_HA63h9XHhNa6H3NTLLr9TuGvg6PwK0JMVLluE5mjMrgZrqAz4GK77Wfj_7wZM6nq8ED_XfVV0aqIoXJh8XAAnSCgZUbEhBH5Bxl6-lCYACp5C9psA3vGhSB3dEztd8Q2G1qXrT9ITZpqp3kXA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAMRZpkeIoB2U3m1lOzrg9m7omfWr_Rdi2NqMNGuFnzyB5XO6A-Tek6YZA9J5A4ftvFyvXuVYGyGfxE8weqyhAD2Zq7f4I-T4FmN8YDu8LoYrO_AofdzgC5Xg9q4Wqx2efEhDoYkcyZANc7olrqKNA6bo1GhQqYJT6Rm-SBi0vGasq9wiNV7pvZw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAADo7jx3q-rGj7pE6zIe3oDInyHinpVcL9w45_Hc4n3fm1EbwwWYZm1Sb0dSYzij4ShJ6K-mRiArVt-JfBGV3gNv4b1-PKRRkfmrKQ9znR1KTHM6v0YEcQioQkjtLDwMgKEhBenUFCDduVHh9C-A5RnBHBGhScElVunaQ1sDjss-HFm_lpUiCDhg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA7FdYS2faPChxuAZc4fSZOTFdA3-emzoW0cM0kA7MiTm0BgaGvHfA9aL_2-e_n2CRYUPCXhU5t-wCB9034XWtanIMuwp9Oweu82LdIIHdHQ709rt8KU0RGmTAYg-skCDvEhAbKH1almans1WSNG8yWTnlGhQYOA9ALSQ5v4vedS-OLkplotacwA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAR6QuLoh9LKy2bQD_DC8p5JJr36Hw-RT2jWtPKJiMHiSrSaOG_pUv2Hisw3PLGTLlofwlRhLUt_9h22n-uo2dPpq22TWLfYOM6JF0XNHVfZOPrtIAOJezehrAcS8Q0FBBEhDpuczes7hhz3TZgblNynl9GhSEdI92hwlMqdE_sVhQuWF5cIINrg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAgdpJ1HrPsBIoyAq_L0miO0eVtpPry5R1yP8T1wVCyvcu1VQrJxMtumkw-e-NRuOY2n7Xg9O7xi3A0_jcfFb27An6ttoyNTWVo2sdj2BttG3ZWCOePDUImOX-4T4XjRTlEhCwee6PTReukVZcl4bP9OXcGhS1y9MuTJDvPJmxykQhKLX3YlCWzw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAMv0PkKjm1HBerv1nU7RN5opqomnQmOlmDtNixnrF2IarJkgBkvxS63Ba2xD36_yz9xJpMJzMSxHCzeK1-Wbh6zmfRDM2GE7uPRFX-cK_B7ZgM3QeOASmH9-ee1weRubLEhD08i_tYVKDJenPNxgw2IrtGhR47JyXy6ju5dvCsrt0_9UbXVd0UA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAMBWeGFhDNtWNjLHhiB6FAGnqPe52O6yCmgmkB4CeCizr_f8hrTCCdTjX-MkAm2hMF5K5aLPTclR53iAgr-6x-bU4PxtXFnKUqe9mSB3wkB_6EtDKxwoxhjPNllWD1J6xEhDRA-R-LeZYdTn_DasLvaqLGhQycDvdhLbHcSwZtyqW8UE_UHgyZA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAttfi6-34mFz4rCp8yFG0D5s46v6xFQtL1LcjcN8kXJyiE0eiIrc5EDBQRItUos1MCuOV7_Ugt4GR9l46IwZSjMExmn26FS5njHjE1RGnz-X3qzJ1J6POIgkr0tNu9fMIEhBYLpIBFIWjvrjJ6esCGRXGGhSxqelOiArCd8g8SFEZ11TcadkBng",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.dieudonnevineyards.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Uitkyk Street, Franschhoek Valley, Winelands, South Africa, Franschhoek, 7690, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 876 2493",
+    "type": "string"
+  }
+}

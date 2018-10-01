@@ -1,0 +1,31 @@
+{
+  "phoneNumber": {
+    "value": "021 870 1070",
+    "type": "string"
+  },
+  "address": {
+    "value": "Malan Street, Off Main, Paarl, 7620, Western cape, South Africa, Lemoenkloof, Paarl, 7646, South Africa",
+    "type": "string"
+  },
+  "website": {
+    "value": "http://www.lejoubert.com/",
+    "type": "string"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.72516,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.95825,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "name": {
+    "value": "Le Joubert Wine Estate",
+    "type": "string"
+  }
+}

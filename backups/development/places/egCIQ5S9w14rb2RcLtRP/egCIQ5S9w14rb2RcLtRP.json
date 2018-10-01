@@ -1,0 +1,109 @@
+{
+  "name": {
+    "value": "Seven Sisters Vineyards",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 9:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.9906635,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.7754529,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAA04nLpvuN33fydrD1DLr1tQC4676Aa55vB4BJntq7b5wo7XdffQLDAZrcYQQcf2eOLOYVz_zu1mhtZZLtdx5ht_a9vR-UZHAejyVvCiAGIPN1VO5HmGfzhUIAxKsVBcL3EhDdlbjhjIapxNfZxsHgQPpyGhRUYn07zBXPCRfljInqzLJ_0wfS4w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA8a8vVmvhGL0GSUrGalBmQhBK8zG29r_wtZI1EWWc5UWyyrm-Ta-pSb51fqSqL5j2_AsNJ5q9767iEBUPcKBnFeBUYQBz0ZWdy2utnsB4lsgHnMfkH3gtgEq39r1O-7LfEhBRk1DUXpNLHivPn4bTQO1BGhRqhmzy26RCJl4w_PZKOVQQ70Gllw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAZykH-jYodxnfu95AV_Wr--pVqExD6jD0tEk2iAxmImvbm7n9KdRDwb7sf8gRNN9H-XcgImypcpmgpkC5YljJCEs_dQ-rS1c8AWJzPxiuKj6a5RbVidGGZTqhrTTeWrvrEhDf95LnmfhYIjUFqq70WgssGhQBFghs7M1Rg1_iEl816ciptud85A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAkY-AFc0nwUchzN1-p0Tampjq2Ukz9A67eXysno3Ve5qnam8UcQZbG1o4vHA3pCpXZCGvHEq4HpQT5QW0RYzgL--vHZ5ef-QgiPde2LF5-nZ6iYv1N5hzcQ513ZkOBop3EhCKCAnVPAiDe6lA1RMoDMdKGhTpu4rG0gEBDx1GBedFfffU2xYUow",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAbMk-pWynssXqaDPV7-NLqo7QLvmD1mUjs_JFT-eR1AKTXKmWlJhtorHOGcpyEvbuCKgPuUUi2F09o42Q6oW7IIfAQ20DWK1suoDXdmHi39RsFWW5fyPJLH8C0NTMQEvVEhCrDxlSGhmf2-_MQWfW3ZupGhTje-5H1dee5zi_MW8B-ScGONoamA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA1vHeX7njZD2zf5z2-MjwYrrTY9GxD-2TSwc5KOEa1pt9p79WgyCRSuWRwIxodm8tLdfzlWXlGWqRnBQwp6jZTZOABi4sVSbG6iElYiFKBYSOOMei2pHcrMY_MR_eGg0EEhBTqXKWrshHs0Kj4o2r7wyQGhT0miaEnXI0o_25VOSclKzj-_LP9g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAARSYrcpePiF2uxP69_5WtU5BkUj9hWb9BlHEptWbDEuEuerLJc6eOGxCS0-ZeO3K7-EaSHFBFMRr90MWwA1J_R5_6Pd5Efa4igJLsxhZ6Unlb7AcOSQA5OepEmeFFdyK3EhBKxaB5KkMx1RkJuzyX98UcGhTY5_hUZ9xkdxdIuf-qewuNfXz5sA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAARv8oQB_3SowWh_Tq3SRsac0hc9wEoFEfzSouXUZgPXsXQUZYBr8o9_y398unR3OHmiDTVkr2Y9vmfeyNN9HL8T9Y-yEtbizb24QLftR7ajcoi4FmP2L_NXTWlEO67wuuEhDN0_1Vp8Z-gT4ALM5iPs88GhT3jJTd8S1-gbBUJwdHmHKokQnXpg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAqk7Ggb4vLfmvdMU_Iya_5PLhHJpvbOFIxbWrrPupLyfaADh2RMepmS72qsEFA4_kCDVnWMV8rgYj-nPZWrMhLFMeJhaA5DFzrnRL9dGkpFqDYwZ0O21-fILwvpz2SH7tEhBCSV0J6qO4iOGRrjUepqnEGhRW1-iQ1oBc7gGZ7-5KaYhBNFx66w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAxRkca5CwdWKw8W9Ygy8D-tIhcd1BEnRzxFTxdrcipBd1kVpTtQpBndN4RAbyN8jfL1_NupSz3M952tvWLXcLU81ASYag1jG2tttYjMxXVC0vJ93k93UYgNeIkoGrvCOOEhDBL5alQ-MFtvB8dHp40Dy4GhTa6yFTuLCVyiUlmEUXc42dvc_AxQ",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.sevensisters.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Annandale Rd, Stellenbosch, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "071 049 4109",
+    "type": "string"
+  }
+}

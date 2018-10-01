@@ -1,0 +1,56 @@
+{
+  "name": {
+    "value": "Cordoba",
+    "type": "string"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 18.8452703,
+        "type": "number"
+      },
+      "lat": {
+        "value": -34.0298571,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAA9os-EZSWNJZd_YPx0p6Xt-zfDlIUUetl9BoK88jMCq6cG6aa73bmA3hOZERPB7OcrfaKdkPpif8BbUwdnv39lsk4zFR6dz0yv6iDibC50-pYknP-P5dn4_1yeaiV3VjqEhCSxnqCThAS_0Vl0w2KMw0PGhTpyJSnW99Ks0c-CIxhLiMgTmrwSg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAOb-8mespWnoeEhatAG5MwyM0hsuJ_15nqNO0IsaQGn1EuYBuc1OgBuG6zUhM4QbnRSEUSp7rZ4j1CmRFhAsaqJ30bDGpSk7Py42urXq_P5fK0LDas9TY2OvME2i6DblEEhCxPi4GWt3z1UZVzp0msNMcGhTooxZ6GTGu6kqb-9JDa7VLSFmdwA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAABfyapW-lmH2-Y7q5wL2BVICzihF9_Iwg2LZaT_MuKHSSuxN4qhxbSIde8eIeOdnEOJ_4KPiviU19H7PfqdUoLWGWY83f5V3gWA0kgKHAmhQGm32MVki_jhVZsirAEcV6EhDTtvcshCot3DkZdZVn63AXGhTI0pLrwgEvrO346KEpUNQ2oWl_Dg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAAVDqSg7ZxRfgpEUru-PwU-bhuKoyX_ko3TsQGwT9vW_q_QcD83n3-hBFMpGu8ZICwkQ7rlI7PpGM8paKefycJd3HcGr7jlLbrvFQxDkEPNRJvYEL3bqj0UMnlMrGGi8FEhDnqeVBK8rkQ0fucgcp3i9yGhTJEmXKHxYNDO6V8U5RdrdXjQ9law",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAN_wjeRi1cH9q9m2mTB3XS-KVpvTiDzQZPd2Zizk_O_QNPslLZZ00ijhsPOY1QGnwD_x19LIfv-ZwMYCzvdEvo8S_uNMhTXUTFjbUihb1M3F_5-jo4xMtCxWykSPmfI8KEhD6FsGkcoOeqaszNkQ9E7jrGhSXkMnH8xC-voz9KTdkW5YwfgN_hg",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.cordobawines.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Helderberg Rd, Cape Town, 7130, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 855 3744",
+    "type": "string"
+  }
+}

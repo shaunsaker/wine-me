@@ -1,0 +1,109 @@
+{
+  "website": {
+    "value": "http://www.rupertwines.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "R45 Wine Route, Franschhoek Valley, Franschhoek, 7690, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 874 9041",
+    "type": "string"
+  },
+  "name": {
+    "value": "Terra Del Capo - Tasting Room",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.8821215,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.0239205,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAA2_WYPKjZBFU-JxFyTIJnlM-EOgLdvsSNJe8NRkAUTZYWaYBTb9ZzJoylpDEX97w61l_UR5ialtYyHi9nuUTpRT9H7MovJd54RTqfaAFiW4Yfrcmwf2iAPUKZH96gnXAyEhAwMg65lOYklBa57KT2fRRnGhTvTadXregeXb7FfvkBtlLuJoTwrg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAzRi3uKu6EXSdAmbpYEmoEwflhzm2fTb6iBC0n2Z_e4_r7wb7KUjXMDJ9snxvYsVwcg6vhByxG2pb2L6Jc-oikZM3nirc0uGOwSb8qN4s7IQHIY85qGcPn4vmtAedE_ejEhDjynAFRaQne24LUXRQ9jrwGhS-N_HU_xPelKyuJbToNOnOXOBHLw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAACwJW04wU6KQO9YAGOcB9XMCwXntt1X-WJEZVmXcv0NDJixldeAURPhQpF01tWj55adwtkSYJmIbhqbHPFqN9FcwWUc3OvRovODGshb7WwQW9CGL6o7kljN5zAFfp4QXfEhA2VWmkO8hcdKzANIvwAyVEGhSrEXnQ3w3ic3le8LwZP2zq9rKOkQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAVouLM1eir-bs60sfiTmvVmsCDqgW6NKGeSFy7mTFZ1vxk4Tcnf5MyNdkzyCBHMJgPxD3S_hnCQCWfsnKLLDnrTdTqKB_xFgyBlMvnx-7NpGDLbLs5c11AmZnPLtNfN66EhAiQcrGuTR-0XFHatNwTiOvGhS4Se9OIEdWCWNLmXthaeZW8tT6PA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAtlpZpwTnenAyjAzwva8WUITIvunEcVww-J4A3qR6DkmWTJCna032WRREkrLL2NxgOOjoU73N17pu7zAU-I8R14MvKsGTYpO--5gtgWhvtvUsLrIrkXXUbKWYBEYVEKBfEhBtW5Jiz4P2O-9F3DVKVuR0GhRHJs2pcajw3WFrPeh1NqbmLXiGjg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAFvwovFCg6b6VXxK2Jd1BbvucqfdzaDZC9WMLsrUVpCyKRsqQCzQbkw1bZa-RPJ3a54DKYBZYGpFpxjYesyOZGMChBgBU9eC0abdShiQyVG8m0RGk0tqZGGfPNYpCqOqjEhDNROQob5ErfzL8HtxenmtzGhRZ0sHwWYxvN6et01IAPoCOpXG--w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAACZLvb7lOem77Ilm9NjOvOIXzwEd4iWmLCMA_3k5mBO2Vby9WEiiu1Wz9YqU5IFrRrx5tyx1IkxRfySBNhFvADTwJaRsRTrBmLbMm1gcA9xsAi5A5XFOpIGsqqUyK-0bpEhDVJ_gqj1mtiDbjlrTzLX3vGhTJGv_uFtha01aHV85b9OKdTD9RmQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRZAAAAn4QTr0yT3QE5FffspFoyMwwUpB3hKcqZ_RAgMKw2SBJvrmLnPx4hXLxaxEVNv9OE-7hlar832684P9V9wNHUTjk9PD9C-CQu_ocfdfOpJI_jO7J23vznuvLUmeWEgWXoEhBGyrvQ7_-joaLC4ztzoL5zGhRUm4_IUE66nzdKlPDZM6W9tJSbAA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAqiRP8vC_6Xz10y01Pvv9-Ht6PM7C2x__A3pnjHTSyZOfQujjGjKeA6XqCAPYp5VHD1zpv-gCCjPVBizFT4umRGkB7qWarGB_Q87UNdiPpoew2VmPO-YALVykPh6YCyleEhADIFkVnjuyJhDtT-Gpfn6cGhRTGJgP8GdJ2jaXJI_eFCzhTLvHVA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAzbZQUjyvq5d9SbcZYNHguh-fFIApaPxG7_OrT1stTR7aopVQyqfixoMJDNhejlPmDYHxHf2xliLMCT7nnOeKot62cN3Q6Ym0c6nktWdM4LHsCqcWwPiK2CBR3dg-KGb9EhC9AUeDURwLcsLOWqGASf6WGhRroWJkkkSoR09uP-EY-YYlhIuapA",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 9:30 AM – 3:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -34.02585810000001,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.819313,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAA7ASnylECat7jzvutXTyQzgNZ7rdoPEo3lfq_h0MzHQYUd-7hxb65k6XtmTAlBbnlo_pUW3Ps8TRM7aZayYS_o3wcdlow-Xh2lyuGRAZhIjCZBIYLgZvSs8BrHZHfp7JdEhDBHinVEF6ysMNcxdlxWpptGhTSYJdLw4N1S6HE1VOz21AcXcv_5g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA7jnOk_LpmU77kEUzgd0BGt4JHoPuLgLJ7jMmhOykVIDJtz0V28XI0uojkADLVzuz6mdksex0y9gZWVywGtcCEeYn8ggZPxWiFnjnSP0PIeroZHFiTI8plPRkakqTDmgFEhA6qRO3dFjTj6baBqiQVC6OGhRUxcDHCmvb6EgByapTmmcLtA0qTw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAD-ld-5WVKoxgdOgroIPEL-7Gr4jXxNXjxGo4WGyAgYbjV5n0-sbpdg4oo35tCJt_nCKPqFwjdw7qNJvrkMEOxLOviKGAeINR0YM4UdmdlYc3eaGXk8Q7ZlO3qWQkiB0AEhCyM7thPEdXyIG5r5-zeu4JGhTdH12gxId4-QJPTlxltKPYOEK_wQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAGcvVU7QmBXvM5BUmqgpjcOXtodx7ZlZi-gG7-uLhNvq4YjzcA2FP2wjsp-oWKx6Wi8JyJhrvlCktxjXuEezFE_wWmkjrcBNcFX5H4ODLmUJzNxwwuUI7cl45FlL5zI7wEhDrdQ1wUXD_bNYBX7Bm22hjGhSkVKJjSpSuNNg1oOHBUYDd2TwwxQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAF5sI6aSDSDlyQBD4zkgv6yEziJU84CTysam4ejrv5IdD3UFgs8tMhug6DwW0gXGwZwdZeH5I6koaKnYjfJd1KXAj--8xsaYTqAkGv2_w5ZsLfrIRyiNoawdWihi7FQuGEhBEIlfMuQjvbfatLJkXYsaaGhSMMh4HPQhjB1mGAhyc1Lna_GeDZA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAqknGHDjwJ34vKBVWDA94SyAbrWGeEEv7KbHgbSTNowNmcDjtAwl1IZZmGFK-1B8Vs6slaEIevtb5sK1Xu3-jfiAA600EQdIKgmy-C8IMF9f0IFabr3GDuEqs2LoaQsQhEhBz-7fh1AX6s-2I8tLzO2xWGhRvWosv2PPjU1j4phfrvYEc69wMxQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAujdZfW4oFggqh98pzZk0DAGKzM3gWylKi5GoGepyP0beX-pXUrHrZib-EOO4Axbl_Hmz9tLpt_hQHAWjWGeOxrBCDK_f3N6wAlncthdAsH1UB6f5_fgUo34pBwVNFC36EhDhCoVyAR68f174zJKT33H6GhSU8HLAYAztgmD_3L-eGvFM0u-FVQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRZAAAACu5v4NDjSrwb--22RCwamE5X8qZs0d6y1u54o3cNyZ7X8oxcmTyyOOqZHUZNc_uIzd9D0JMWOFrpatGm1jwLp2xkZm_5idnHrY8Hj6XcJt14r57qcwytSP7RHdT9pNCfEhCKzCS5WwJUeEbHvS2HVOMFGhThJ9f5T2N2TlvD32o2_Mj4EN5sUw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAg6xQ8YdXqo5OSA0dkZyW-8rlAiO-q-7kYeJo9sx97ReH_O2dqBLjjOTpaeE7aOmOtKYP02y1b2sJlnrycGs5MIpZAwXEoXO9HofZ1gBKXNAnfqWmY3H-1HxBivAVrEPeEhA8tFcjn4HgAS-qKoRgXUphGhTaS9z3J20O78fWJ4f78HHaXNqC_Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAANUYc3XhAwvzscdQteZS7d032Zl-Spi4DygbhfKGzZcY_L2GYEncWVncm4ET8ibHRxG6AHw94SW5kS5yC7c9W2TzgKtroWTCyWdn8wnqhVesdU6VpCprPvW7yAT_BOAijEhAO3khqlQoGDt-YMRWaHQbnGhR7Z9tDquPFDV66Zuwfp9Rh-SrJ9w",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.kenforresterwines.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Scholtzenhof farm cnr & Winery Road, R44, Somerset West, Raithby, 7600, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 855 2374",
+    "type": "string"
+  },
+  "name": {
+    "value": "Ken Forrester Wines",
+    "type": "string"
+  }
+}

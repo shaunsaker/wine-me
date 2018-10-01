@@ -1,0 +1,76 @@
+{
+  "name": {
+    "value": "Oudekloof Wine Estate",
+    "type": "string"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.2682263,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.0747812,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAdWrYtgSk31SDyZ6UEr9u8lv08lD2pyYml1LFj9qJv-857Lui2ANP91RS09OaRah9uWBMIIyF0lLdKYWdJTvBo4gZXaDJxRhNQUJXavoKfOv7U9pwyjW-O9vtltav3lc1EhC2AKY8jHPpNWLmt1BzjM13GhQa-mIr1DxbNjHO5bKaSZLiI0lFLQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAARXeG5MSx_0qQLYwD3y_etoV2n6DDdlwS9uHn3opv2HY4zqpKr02GQ5N7cklrwRGDM7LGEMMMh7hI1wKs4M0SVE-8Nvrv0vvGADtgYsoNgJzzskG0n7ROds033cJOKZ6IEhABJ9zlWdAIn4O7TsvEZ8pLGhRCguR2y7M2ht75l1oP_hfDpl2OCQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAJYONsPVgFc1CuWBzA2eY7UuPJw8PX27YcWE1ABaCZfG-i6VqF8ku0IcfIJlyHMnBeDB57bsz7iOMrOfa1qDMcBS6FPAMNvtGIWM5wFWRYMPM9FvbofMliJnkVknrpbIVEhCQOy7PSZyPpxUO4b4gAbFaGhSsGViLHlSzIb-xCivUsvfIfqxzkA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA0yHkNF2s4lOhx6FQ7NgY9YVX2AGfMCVxQCzZrUa0EfnNhtzEE6QMiQW3xeUYCILK7v00Vpz-WZTkY1iy3RS7aJPHGer6RUR6jyH1DX8pNvnvT5HE1usQ4JEqY7Isd-VPEhDO_rUIqQXhdqdsRDvzRM3nGhQz7hSu0_srCyYRpckj4xNpUistig",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAgMPBKAAgB4wm5qEtycD09-OrOQEdonGRlyDSSJ-SIlzA79M18TmJOzdjBLjuvZzOn5UC4njLy-obkAstzED5z-p9U318Meg5ONh2BSWkOEhc7rICZ8fHnJG365sfreJEEhC8jeues1Wa0hjM9GkT5cQHGhSt9Z_JSV0Agzu7Tg62T4op8MNhGQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAJkFczvwjx7uL1tQSAwWAXWZGlFnHlT_QQMdHfBRI0fRnm8TvJEXgxfuSLUBUtotAVRKDEd--dIRB3DbkoJNfX1de42YIaDGMyOVfRuNn15Jw1_pir6BdivDFPIfZPS9vEhB5biBetZl72gY2aWcikRMnGhS1Y6PPJbvpPPlu_HU1RJbETBDcOA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAMvwbdv5t1g1XKb06q4t4gG1s2ZSKJGFTGo8TMti4-iwqN8yNA1BXld4js5x-RqiwVs-druPR9AdFv0Ht9cZbJYPaifuOFoOE_6t-SpuagGd2QsNyYOoFaTd8w-k5mPbqEhBiMJSjKSj5KP9xuumYVJreGhQ6uUY3AojoIYcN3cuazB8ltBetEg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAmLpwh5fqdn31rKqHrvKTNhLwsXBOTJMwKEFVTvWigemacy4AsrbMlNpSNkIqyHHKrgtnX55R7xVQqZQmuO7GJNlvzVQB2axFZ9QBtxnmBBNvCZ5IywHWsbP9hsBwI7ksEhCqYX_esgM9eio-XTgNvhD8GhQ9j-jlk_6TfklmoEBLnvOxa4fXyA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAASxQVAA66B0c0ElRnfpy5ZouC59vV4xRLTXveDEiWFLNO9n9rA2P-qn16OxRMlIcQIYVqKFTx49TS1SR2-WKY4mPc87trXhYZCEngQ_fxxzVQGVNiOjTJLue5_V0okpFkEhDgcYexefa2z7KC67YcMJgJGhREDirFjuoLXtQ7GtOzLALcraO2ig",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAzbAV6Vvu4cLdzqSK51DfquImBLgqKwdHRqpvAFvagWrhv-AsnyFxXtl6JzRV5x5RYsg-RUSz4Dgmc2GNXAjbu7TO4PanCLWgvLcH4MgtD2AxUtmd1vNUjrQ6TXirxyJKEhBoOod4LPdWQD8dAHN9x0b4GhR5MqzfTQFzCRxXfzOx480D-FITCA",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.oudekloofwineestate.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Oudekloof Farm,, Tulbagh, 6820, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "082 440 9459",
+    "type": "string"
+  }
+}

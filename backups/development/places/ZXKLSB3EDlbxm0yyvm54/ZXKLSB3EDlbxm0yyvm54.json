@@ -1,0 +1,27 @@
+{
+  "name": {
+    "value": "Roundstone Farm",
+    "type": "string"
+  },
+  "address": {
+    "value": "Riebeeksrivier Road, South Africa",
+    "type": "string"
+  },
+  "website": {
+    "value": "http://mlfwines.com/",
+    "type": "string"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.37409019999999,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.8389939,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  }
+}

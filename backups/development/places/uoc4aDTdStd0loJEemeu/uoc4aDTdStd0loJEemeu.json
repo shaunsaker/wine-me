@@ -1,0 +1,109 @@
+{
+  "name": {
+    "value": "Merwida Wine Cellar (Pty) Ltd",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 9:00 AM – 1:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 19.334183,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.69219299999999,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAJIMKYWITlFdjMerTJ4VQhZWrZ9xHxQnSIGBUrbw1PnReI0mCNB5viX2sdFuH5s9kEBcqnoTa3fczJqOr10vNs5UMZ7wuPNDTD_snsH4Ebc4LcvsJmZjaF2sBIjCyf3EGEhAWi4-6SbmL9cBUAxcYlQEtGhQMIjtFCbj1Q5E0-p-i0FJjZS_8bQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAPKytFs9-HUpK2FOHfZ7U3PO5wpLnpgMmvifK5Di7_I4y5S_cYXuOSYsDUjmYSsstr74hvLWp0otguUgyreoRi9ekYcC1wau_BjSzTmYpA0wmIDK-TXGveRdEJ6cwrhOxEhC5RlUsfh_VKddBcJOd4tUhGhTvAtO5RWlFG6z7LoVTQv651brklA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAZBY4nPwTCyN-7m1A_oE7q2hs6adgkJA_J7hjZYOpJaHBpZ-qcojerhvV6qOY3JSi62PksKn8LHyQeN_FOpKgmQxk-b4UePLksLxwbh8l8nys47TlDFhhHkQcgzQW9CfGEhBKIuPSWopKhi9PxFidYi4uGhRmGKCrHLtFuEf9U-UWMLscV9P4Vg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAtSDx6NbL2tHFd2cpIMzYYU4YKqP_rCI32Wua9779O3EG661HqJfo19AUdoG1-M4LpTWK7eAPx9TKWENG1-FjifANofaSmc_sAJHBCv2zogyy937_6YgNJ6XpOmFmsPP-EhA27q0eRJkGRN84myl5wsMPGhSkxdkr19ej0_WutNbngV-Zh1UiRQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAWQTWCSLMXxPudwQVmesGPxFgC5vXy-r_1jjodngYCIWaMfpYCZJqXLUV05xFNMRhBnixWujbEFf6kCFRSgBcD8ANnzg_cgaFYmZDWYi4yuJ0WZFfe9-Qc7oKhpWU2h4yEhB2eltXknijizcszY0mkWliGhRkKIBSyoFzPGNMYXs8zESqU_l_fA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAACwUL3rE1S0Cptd2kZ8Wf__lst7eT8dKj4C9cYm6gaW86ST09IDHH-zS-YbEwJPZTzGJAMmDlDL1rMUI3x4P0Q0dhcC0B8Yzyrpqh1xs8l9fWTpq7Sbm2OA4kyU-CkqzFEhB2qJnvM0h_kT5JEHzCHKeRGhSt2H710qvnQbxp3xrQha_Bk5Nx2w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAMPWUEUSZw9fKmvMq5UdJnNDtgITzC2e2rBJkaeAWP-gZZnf_4hp08neAVNe-R3CI4yQHVw1MunTUmgTnnsa47EagAUrzqc5Utsxi7bZBN6Hy2OlT0g4vpUK00nhTzwR_EhBMrXAsdIl-3on2_Bjv4u-BGhQiA-zBMTQ-sTY4mrJYAFNgkMRGeg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAbzE3Cx0ihTA-Zriqqa6SiruFY6S9kVUvryB-F5pCXv5VeiFFwjrebd-s-8-30LOISqYoKfbj3s1UmvZ88vstvM4EVwRBFUT4EfZwwv-Nja1HM_9NXye2qQCSrJ63oDLMEhD08gTtxkhQ2yvL6OOpMx09GhTDLVUh__I15c_NhJaUvItOm4l4Hg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAc-swU7aCe6Jmz4bMbudigUY_qWW6XeNjDwV8C2YiW1IOxdrre-Di_wXPh-lp0zGZedWXCR-Z-H4dhHbEBmII6EdHiILMSatOeB30ruHKZ5ihuAMUr3V2Yuj8bc2nFSNiEhDDF3Gk4viVTX9B8s0Gm_TAGhSa6Q1tdD1SYif7ijpZACYyRprS5A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAOcbHQ4xhhntuzrDE2rG99AWdgf7J9UQDCEzjbDscqLi_bYWaqp6QII-SEsesVz5-eSPhjFdeMOs7W8bsQsKSKyz4jt7E0S-rz2Sat3nvqk4Zs2ZH20bArmjnrlueO2bIEhD5eU508J6jHmDvyvMBCCPKGhSluQz2D7T7CCH2roU2ijGW8Qw6yQ",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.merwida.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Merwida, Rawsonville, 6845, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "023 349 1144",
+    "type": "string"
+  }
+}

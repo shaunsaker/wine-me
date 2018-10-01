@@ -1,0 +1,76 @@
+{
+  "website": {
+    "value": "http://www.sylvanvale.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Flamingo Rd, Stellenbosch, 7599, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 883 2565",
+    "type": "string"
+  },
+  "name": {
+    "value": "Wine Estate - Sylvanvale Vineyards",
+    "type": "string"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 18.8395027,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.9405154,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAdTUXo-0-W2P-vUbb-tbVYt27nb0W2vuKa3Ortv6lYxYhR4C1bHSXH1tI48qbexoUXYqawkRTfSZpA1dz65viJXd-bH6c2_qaql2n0ONeGE5gExmhcRMo3DTJVAwEpwAxEhAThEhD41jm92PI6d0kcjywGhQMMPVLc9VEGZGXwvfP2ZdOg-Bj2w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAAAeS4hMLuSqbxQ1UsVwnRSiomJ21DKsvgZRtxa5KLqmsXHCMstaJtGRFDUJ6zQdgCKucO7EsgAtczPNahPTnCZyCpvv8hrcpSEIQcyvL-vmexniydE9jyaEWJ7euZZMPEhAhjO2W3ygU52uKojXA4SWQGhT506Hhv-lU6pXOxA25o81pUzcdLw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAd0nPuCnPhkQvCblGG9zTtuzbQbMBoj31x8TAPNeYXm2fuN5guPmIVs7ox-eeBWuselPNfb3s1ViNxE9wo-anzEmfZQFRj_gqYsUDp6Dirlq9I38LfJ9RZHUKeItE_qiiEhAsxfIViYhKWIpwaNCWtwC4GhQEFQEsb44FEDITQ2hUBL3eO69wiw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA7dL2Abz2ohwbMvv4xYO9nTUIex3HV0THyVd6R5b3ad_er0T3geCCt8lxvXTZhAyBqOuu-DVIrAMybgdkTQRj1tTSwhDa07sNm4C77GAVPHT5eFJUwYAamomuPpJUZclrEhDD5OoHJZXUc-wtOFswUmWtGhRLbWt-euRoLUPKwiyAd2MaITyJtg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA9PqxntaKWY4Zfz_ePT0TcBlWeltWhLttu2tbHF6mbZHjv-7odX282HQhyK4ayUvrTX5MCrNcVPpgpLPrwRzbXIqX01A70TkRwglmSk_P_l6-LtDeTn51ISfQuvZf2OlDEhAIDOa-4PP17lxWng6CjgmIGhRTBGavt3nuz6_ZmamsNxF3aLa0Gw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAf-bR78xr4zI_phaTK45GB3gK6Q218d8L0jtNqlLhD78Q4qIlXcXur9Hw-km5OF2GOSy0SBOVgrZEl5ulgdh4hIDckYFdV-eDVebqnJXxTAqo2GClds4UlEWYsqKrs2MAEhBNz0GBcAroul2PBo3i9sUkGhSDAWlM6aSHRo5vGs-fc0DvoNi0yw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAfZt6U_f4HMdHhvuvSzfa2etwXA1mYSlpfeGDKLJByXNay_vJLdcwiqqGqb7l6LWOvK8hh-8FcFnYaJMOV9w6p3LVLyfF5ZznyIm9DyVpbs0RU7FfjqOHEwOYu70tKVWaEhBHUesTZW3UpHnMgOGV6TXNGhRg5pC8IpytGasHwK3lXiot7JqQXQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAABQ4ZHUGCKYd2uunxSN8dBiktLdWkefh4QJQiceoYio1OBYe2ymOM6W-_l_bKSLC8Gu-khkE1Ejl-wdEZE804EMlUYVGmED3j3Z49qkD0X9mApsFOl3X-oteN5RGUQcjYEhDkW4o-GUbiqj_61WNIbyp-GhQlQlaRDkr35za2YTft56_LGSqMXg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA9Cr_AlIP4xcucYwOJXPr-tF9O-OZhIr5T-APl-Nsx1HxLykJN-n9zE5jLyUZgsgXP29vRXRvSPCFZbDOrp735hop6fPfWMXchm4mHgD9zlWYojMAzNZT6hBBi2u4Jao0EhBgjxP9o0Z5cex4v_5swNP8GhS57iKAkAlwyQD4163ej9g6LXp8vA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA9zMkLzKWk4tK6gp6_U8QgJK819RgB3h0VKUl6gD89or8KLkWDx2t_I0UyL_L3FqxfwrRyaViNDkOk7RpK7PuAzr5Ru30hMlzaMicGRufdh9NfkWRzDysF39L1yTJmhMkEhDrnQgph5llGMJdn-XGX9ezGhR9YzpbJLuyxQubPaO0t-5bxEcE7g",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

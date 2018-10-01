@@ -1,0 +1,101 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 19.02141229999999,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.7086961,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAwBLlnNVBOu4Gg15WGxxiITyLdWJ6FrSyxjpnlc-cmNZuuQ4YpQHymb2BX0guA5EhCVfTtmPkOp9mlBxXTG6alDaL1mva6moPE7VO03oV4wzLvcZdw8EqxXhzSgPBeEq7EhDUmcPmyQCBDxxsIPqOssHtGhQtNJ8ZkKClszipBJXFvYeiC-y2vw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA3_vLqiI4b7u1QEqQ7zWgJGeonKf7ktHK9oVxFtDnjzUxi9dl9JuXltmFLmWt1wBgK0q_OGtf3KYj2w0DGR3x2KcsqAwGp6TbZ_0Q9Aya3-ZPSKLKA-5uEjh4-sNAbRysEhAlJDj6wokdhyIxZsqM3UCfGhRnxf2c_-ywZ1ch29BbAhyHrYs5_Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAoXC-C9q09YMU79k8dMEE_apCuoi6AOo0T8azIw8dC63E691b9ch5w9g4t9Mvf7bUbCRkZHQ7mzMZ1vUIBAH-CNWLOqdANxpmKyqMLT6X0cNS6Oa8gqcqD_8Do12xujeVEhAjra-WF0vVFOwntDOrzmT7GhQZxu7dfX6jgl_yN7sNbCt3iNLeaQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAALdhfCJRHnUmGCldkKgIIXxmP7aMGfy5FtC993ryB2u56gJA7Jw4Bw6kSi_tyLDqZoitG0nq_ir6WkDunQ2UMm08MuG52XFGUI9im6cCJF-m0oZM8BYFDdr6AwAfP1h4xEhDo0jAO73dFtFwFMkVqNOSLGhQFH6Y9ffmhvHYv7Ib7JTipfsKQVQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAACvy7YZ1Mzl0mhwBrDxqp9u9SkJvhfNlLsGQefZ8G6TcJfXkaji6eS9dxaQNuCSC9jXko4BGbmAo-LloSwbpyAVmbhPPcxNNJcCOo9cr3dWgpllfMGBxjDQRRpAhEgm7gEhAKx34N4W2xyC9JeMX4xH-cGhTdTNrsO_OcSEPZ05yFLZbzfKj8Bw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAYMeDOe2PYY12un0_bq9ar2bFwWEDEXSoKKpFbKWiTQzWdp6tkc3P2zbPxiuJuu_xXvwqmyM1LYxi2sM5PfTXj9tD63Hz-sddbTW7Oewnw6hniDb0zXw0MpUJSrvhO8LZEhB24pq3R8CY0VjUuMdIRWfAGhQ66VO-Ic0OQtwxH0kHKN1HydJPaw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAQWcrfHEnY6yecnoUpJYbP9yJej_bkD_FGANh_S9pZC_6vAIemzD7bscoe0DG3B8KcBTXQrTtddnIzDpk778NQu5N3VBUGHz21p06q3o2rDuzsPp0a8jpf2Uk1jePEYzFEhClN4cNI39BXEQGth1AzHlMGhQjeD4JH9eIYkAg4AavbLRIrwHjDg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAmrLz2hunZ4kmoil6Uv5B0kY89XWTC7K3Uh_DsSEAQeVwWumCbJTwzmlwh4psqt-wWlW2d7sh0Pq1CBiOzA8pNMe2IWoOC2JHlurbfRdnVw12L7VNqzYqh938E8_thLkLEhB0MncT7faR0ZWUl27tl68ZGhR5w_k_F__2GWfq8oON_NtvHqruZQ",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.calais.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Unnamed Rd, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 868 3888",
+    "type": "string"
+  },
+  "name": {
+    "value": "Calais Wine Estate",
+    "type": "string"
+  }
+}

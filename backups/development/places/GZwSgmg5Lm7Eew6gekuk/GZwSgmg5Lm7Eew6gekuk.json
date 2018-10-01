@@ -1,0 +1,85 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -34.2144259,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.20703619999999,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAzrCROwslE68ZLi6GgiYWBrdJ-_Ehj4Vic5YR6EUNHSwk4V1jkNfVZog_ShQSzlWM2e3BPqB0L0aZ1S4gWGDCekQ_vlzUFTAwJ3picb0tEpJNzLkpjDF0KCY9LG0z9E-gEhCQSlwUlA1oXuQzJ7zy6UEgGhQ9IelBrZnH-0UsYU9nbzie8yIRDA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAa8n2QS9kr5rtjOmonF_WT3i3A-vXZOVYDqnopqzgTc3SRkydZvF1vsMzxs3BiUJXOE6_gv2xsFTmLOOzm2K0vByLfNHW1nnXCEuwLJmoiG_a0uUce_WOpuey6UnfvXbZEhAgBrWjZOsM_empT85KmAmnGhTHBKeLLgmkVkRTIOptvObJElZXmg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAI9QTziffBGVB-7SU0gPFL89VNempbjnx67dlIayxZWp-Hulgwool7zlNr8d3saAD7az8TtpmXmSG0kwdZ5TRGMwkGReecRI5ffpi_g2k0Y6fEUeJ99EtmUaP3dqyacd9EhDuNX-9plBuUdQDVnbYMbdgGhRT8WT0AjkYf82wVnfKGHVc72KLrg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAwCAJdmHMQRvBadCbAPGGzwCPB_fYSPn8bRUg7COkwlCmwtioAvXYqfQuLcHAHA8mO8YATTFDXFSKP0VkhVbzlcyXWssXQuThzkM2zfkOjEOhq1jYUJH_kDRZsYNa0PjWEhBwV5UcinX8tpeMeM625InSGhSvYmJ8don7Y4TinD-_LCG0iR460g",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.luddite.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Van Der Stel Pass Road, Bot River, 7185, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "028 284 9308",
+    "type": "string"
+  },
+  "name": {
+    "value": "Luddite Wine Farm",
+    "type": "string"
+  }
+}

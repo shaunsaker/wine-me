@@ -1,0 +1,40 @@
+{
+  "address": {
+    "value": "R312, South Africa",
+    "type": "string"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 18.891174,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.674502,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAA0vUQO1lMKlNnZENkodgsV9PVK8Nsnv9_ohHM8uhiBNnVOb6-g00Ly1MluhqgDKfXaRybSxQQ0TS2CrEi59KOmI9PmkltEMSVQPgwlzTiXqixpYE6fahrcUyAyRbIXa11EhC_CfBwARM_IBld-QfL__Q_GhQCDdj2w7ndtZfMzP4WUBhmA0tYSA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAgaaFi6YD2o4X6Nh9WChihNwRqDRW9zPIA9XjiHYlt2le_0nqhKLW64S92vkytONScG077-PaEFlXIlaweW07BO-J6Laz7-w0YV85NBH6dBWX2BDviNBz5-KTf0IzhcShEhBeotuBRBfoi8xzYx08P-IFGhSFuvh8vQtdT5nQH4Xtt43qhQne9Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA6R1kDG3I2-qUFKjaC7OhH5Uf16wQtSx48NURXI5LJq-BrlzCuWeOnj3IUyvXUWJzK7NR9-nDJ6QviNZFnfwhFZ8JQrKBFD5JZ3CjNSdXyfcXxnmS3OBVDWwZXbNUVrffEhApU_QgHur4z5bnJXi4hrw9GhRl8gBWKQDTvyqmizd38gUo8onW6g",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "name": {
+    "value": "Wine Estate - Domaine Brahms",
+    "type": "string"
+  }
+}

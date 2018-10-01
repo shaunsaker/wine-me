@@ -1,0 +1,76 @@
+{
+  "website": {
+    "value": "http://www.le-manoir-de-brendel.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Le Manoir De Brendel Esta R45, Franschhoek, 7690, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 876 4525",
+    "type": "string"
+  },
+  "name": {
+    "value": "Le Manoir de Brendel",
+    "type": "string"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 19.0610918,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.881316,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAqx3BQTTsd-BYoT5MR6yYziGRvy1pQ8hMDL2X6O7Q3T1mBc9Mc8EnjMLQG-Z09aLlk96qXmdtPmSP2mKVmRenOMlRyj22MCssIVzxZf_90lJST84W25c4cLLm4X5WFvnWEhDEPmJJu4HjOdh4k_ulw7DSGhT2oAV-1WmEe3-XGsEwrAexUFDbSw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAArghCnHaukYnTi3zx3lqvLFUUI4koQByEy-loo02dTeCscJj6MHq-uULkYIwYTEdUd4xiUkjp79AWiFcXctP2gX3sb13lgulTjDmgwps2tce3YhoL_XDjgA0vY5qs-zRzEhAo_8GUVFMlOOzZrXQ4kXwHGhQTMuZdmbpAR9YGbDS2GibqcPbMaQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAsb2MXeuw_NheiSrMFWYkUH8LkoF5tXLWAfnYLXK3088ir5ESAXLm835fXDyJ45exEweKT8WNPYlDAq3hBH0pe8b3-5D4Etdwv4C6bojvGfAmlDVuG64Xvq2LwEvF-OjIEhCG28fP0CA3aRcfKIufLw_1GhRFIc16ZvV_6QXsIG0zaotGQNw7VA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAJSW8QCIj5V-mSjQSbykV35dMD9K7cafX4ooOF8fnCZr2sE3AlRSxesi2EqTIDzs94xwMQZb8ab7fo54_KOi2GaUfd5zM3H4aJz_RdRBIzNNefwmFowIEzMnby4jdUnJNEhCbH11dVNfWxrGzYVKmes9FGhSbHpaw0BchX-iXZL6ZVOg30SZZAw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAYu3fRml9Uc2CieEW7VgezAYXcd7G8PZiAyvmL0hAFaK6B_6mnxeOu0vseX0-hDeUi0Q2Oktmm473r9QBWw3qcodcSSiNTixEyvbL5dl_grdz9kD8orDGFHBUrjMPT0nHEhCEQlkRnrxHhdB1Z8pPis7mGhRR9bBDGCVL0EUnjV0cwziGFO4Aaw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAL5KP0vtpeUzwzBnQS10X02z9afBGQEvQEboVe50K-iusDY1e_qC1whaptPz-T4_b8GgspQBLo1jI_zz0eIun8HWRRbZhetFartIZmKPV_rNTRENMJGQhBsS3esFKGNJ6EhD6BkQrYu97OO9HTlKXRQdtGhSgpVOkRq8Bp0OszpLqE2CT2YBmVg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA7czs8jrmXtGr0fpeODdQlRKCjE_y75D5gks0VrBNnFAxanYkhsr9hc_nINuLdhR75jCGqDTVos6HyimJHUmThL_unPvhF7ie_FW1nE450vPPsPq8AJPc9nfcr8SHf5i-EhCZfDP0m4irm0rF_W4D7JU_GhRsl0PmiUy5iE6Ieq40KJXUvuW03w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAsMdVXb3wIQRoPkwkFofiLHs-juGjts9UWUq2njnb18VwTf39Oli_tltTcjrHCz4IBNKNvRVTGYbKPJdSUinzm5grnR1BFMYcoz-X8_-leQro1TIl7UuEFnuJmZThm_rREhBN-5ybsK7j0xbRWrV-pVHFGhQFSbGWPZYy1D-KU48ZbsRg8C6uzQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA6Wi-nhekLLfwwA_QMQXQJez2cSLzPkzNtih2MGYtcSH-dN44W95RrSTGVgdayJp24yjFtTeUd_C2QDa3MKknv8qzop8L9OCfi2l3wuTpYAG5sV-mkHw_kAempmpqVFWGEhAlZ-XNKvvJcwOd0Xet9cMBGhR-jPEFg_y-BVc6tlkiwH3tN0zhjQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAUv3UI_eVOTr0LfgvSWKVaqFiu0ESjj4gT6k7Iqxo6l3AALqeMTtVFDFoAYKNMYSTIGroi4VPaBSfH9_lqYUN0CkApbUMgLa3TKvAdPi00ZM9reZqMHANdoz25CYPAi19EhCqhn0Vw346wC_uICbn3ZAyGhRXffXi1FMu26sJazCdfaDhgGw_LA",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

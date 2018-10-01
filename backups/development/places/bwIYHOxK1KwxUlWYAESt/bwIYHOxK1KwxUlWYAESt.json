@@ -1,0 +1,73 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 1:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.6940041,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.2841778,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRZAAAAtEuKhbsA89DGGCnqnsBN5RanqbDbjRvmYnZfbwnV0l5HXki82vOsL3H1VTvkC37gZdioARMdh9RPdYujWbbljkIBYod3PGUno_rhucguyyD_HFQkpzcTxOF9wP0RxmylEhDQkJ4kk1Iwx79UhlHvH6lsGhTyHP4jK6DYnrNLj7lzdlEuj4mdmg",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.dupreezestate.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "N1, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "023 349 1995",
+    "type": "string"
+  },
+  "name": {
+    "value": "Wine Estate - Du Preez Estate",
+    "type": "string"
+  }
+}

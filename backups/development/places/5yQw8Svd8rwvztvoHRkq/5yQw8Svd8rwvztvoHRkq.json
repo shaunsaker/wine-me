@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 10:00 AM – 3:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 1:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.971098,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.867111,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAA7VrB21U6g-jGtHNr9MJolid13JEyiRBFkTuxwsUrxmx0mV6WqRbYEsNBcktr5hNbuxgnUjoaylReFxWFUPBzBHaEcEInqqaSmxnv-6R3nc5SepU8KVVFCMbR3siEm0GhEhAWG_SNEH5hX41oz6WBtp8UGhSGJz_HyAkL3_C1EHl8G4sX5uN_Mg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA8vA4K6s6apouGjeTwUreEWJP6WLZXWdEXAxoPR9-d7hwoef4BpKURRzs9NiYz2zxKnz5cIRzYwT5KbNf5jUJniOaI8_IkxDOEhW0dKgQMCngEL9zOwEB6ER1QDkaRbGeEhA3M6ntIl7lb96ZI8u4zU_dGhThT3tuxW4sO9lyCk-MmoRHCPEoSw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAFVE5-y_0loLJ971uVzIkakia6kZCc9l39WwIEObzSlqh0OAyDKf0HbST2NOHF8GoLP8fbaf_jdKovvNjnfANoHj1m0MuJD4CDipA3ceeD0O0WN1lUqSv8ARQVMMNNOC6EhCFd8OWkwqEIbIVvx4kKWTmGhR5b2OiELS_qEZ28XLEgrs1Og7ZQg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAQebupXJb6oOMj289qF1C8OgOqgjbBdeJl57GLiiYx3TGAgUSV5MGQ7mBzLn3cwFw7sq1eSXJbTbRRlPqiJCDEO7dcPCSEaJFZvEpL9LRjiMclkD1sOi-JBvm_swjSzkHEhApcoAJ9dT4j5Re1ttdr95jGhTwyyQ9FJvXYvu2iCrgDY69oSc3ug",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAlWi3nI8TLnPYWn4OrFtLuJxYumm0mnn8v5t9m3qa9Pgpdbl3cgHFO84o-7HHLyahKuAbqL0PdKesZexbz5oR0eOJ7ebbtXr1bf8b78YuSwAOufYg7O8Ww2N41DIwsMZ2EhDpBEY8qBMrlZOpVMRL7LfhGhSa-xoXQU1iRz1HAYSdWM4IB2sTDQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAb5kmmtgHg4D6muvEP4KjjA5vZSU4fJWNDS8a7bFyXNa84ABxrq1xKeszL6ELX7rHHj9XaaxT95Ljvh7w8n-AKJiJeS4CITdGchvApGZ_hk1c7FnvFoAMpGVCizD8D56NEhAKjLZB_EVy8y9jJaRWsxzDGhRnNeGG9GBZ4LDg2fg8rj_32701bA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAzyuOlMSTSlw9_GTJVvd2Prlk_e3yJO_N5cqGEYNmI80OTuzpuLex4jwdUnSGVaio3HCY-yKklg5_6rt9J4LEqtwtMbjELa3X8hZYqsKvZn3E3dkMYXncCjSM0CMDqdsMEhBqvtk8aJ5H-flwjJGDAEKqGhSHZCzNhXComKvlphmTCRP_jwfrqQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAaDkUQ1eNUQ8-QYkdYQT5qur0al2RbqXlaso7VJs4qEFFTNZmyVZf_TXH8ifFXRsSI6zG6pEUXH6iSqEuJq6C9ldw_N8hfUJG-4ffGhlmmIfAhG9FBuoL_-WEuYslqMa6EhDGUT1HRaxuSy4RMnIko36fGhSlNrvQwWXYIKWVdvRhx7yyDaEO2Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAl2Q3yuV_MQeXQ0H6D6r0BTqUsLDBiKxLcuu55FnmFVbi0QZ7xnTzxLTgZg1Hb1fUsDu13msaWIT7UBLHhFez4j8qMVlHA8UrGsy-3beEXrcRDpWp7QmLGulNasYqH6MeEhDypHj5vMAgvG9QvHp6nPHAGhSQR9pHMkPztD7eqvxldWoQfwG3yg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA-GxA34zj50J370PCv0U0N1l5QIEFtj7OLzcpjzwscseUVjEOO7ATRa9xUY3qU-H_wPQk0-oNC5duzyaN2m6BMGbq5FWsJlMWwE4xfzuSwV2x4X-LBmzDzbOkwSJZI1yEEhDhJFosmi5eAEb_TyQcWAFGGhRom4YNLGWvye7ZfWDhNI_PtZazrw",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.vriesenhof.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Paradyskloof Rd, Stellenbosch, 7600, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 880 0284",
+    "type": "string"
+  },
+  "name": {
+    "value": "Vriesenhof Vineyards",
+    "type": "string"
+  }
+}

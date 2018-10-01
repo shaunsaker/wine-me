@@ -1,0 +1,27 @@
+{
+  "address": {
+    "value": "Helshoogte Way, Stellenbosch, South Africa",
+    "type": "string"
+  },
+  "website": {
+    "value": "http://www.alluvia.co.za/",
+    "type": "string"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.91847399999999,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.9296708,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "name": {
+    "value": "Alluvia Wine Estate",
+    "type": "string"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "website": {
+    "value": "http://www.kapwein.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "R303, Bainskloof Rd, Wellington, 7655, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 873 2262",
+    "type": "string"
+  },
+  "name": {
+    "value": "Oude Wellington Wine & Brandy Estate Lodge",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 8:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 8:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 8:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 8:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 8:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 8:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.641899,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.0431691,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAhv9hXms1nla_udCTc1g1aFnXqDWgKsndFLy3018RogSKHXvoAGKhqI_nlbAMCt13Q5FWCy0N2tNnaAZ9GhYS5yLkq8jbAUPuPFxN-z3k8Hs2C8ovR1CXOM-KMUSxcgfhEhD8zT612j1AvpJuIdqyMFJZGhReDTdja88JEfP_IxNMrrpTAf1Z4g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAFp2PkoaAvlldguHmkiy0FmAEPIVpeFTKWE07lbBGwOWdhF_VrbAbZtQf25I4S725SGvD2FVmAqANVTVziihOYFuBHvJs8Kz4xe161dzSA-xKYPAxkqYfd5AKPMEemHisEhAouGZLaYdjTkgKa20I6I8JGhRjPK6oom3qTUKYxgFRcOihI5sXbw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAW5AwQmY7gRfcf3GTYr9o0-0WaVCKSs0o1dxTmkUWTj39lTOfg6M8SEWXgujCcEPsKq1bmEj4RT0ROxSdguD29pU7S8edotF4L_OB3Xf76gUgFSowseb5IVnXXPu_U7roEhAEe2sZDke9QxFmP2s-cMWhGhQyoVlsJUPnwqqF7BOv73V588X_6g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA-2Dy8Piyggcm6z43YbRkXXsJrR8iJ03sm654DqeWdYzdgFdINe0pK9HF2pdsgAkM-oSS_azmWLS7ydr4EkkLGoWvOnh_MA-ZWKU4hxgI_TWRViUKFHMmOotLj4wvkR6yEhBCOeaBdX9E4sXQBaF1uzfnGhQGep3ZO56Es_8uTSHP8swiIq-5uA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAVcGE2dGjBIWomDnHMUBFmrVeSlhMejtKK25i81DqcAGRLvchIBcEYt4HwIeGuhYS24SQFLH0fFLpfeCjwAAkLBq6E7mmRFqNZTIg6r7WKNXWuQ7AOs9ACXd34evbdaLcEhAcFKQNTVqE_XxWA6R4oQQ5GhRyAubqmyJB6bkFWY_S7_pOVKyZFA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA_m3Fibu3OPhEZeRZ8FCZXGrQAhR4uuJPc_shGkmaGcVVmeVLMA50qjhQhKpuTAWojrEmhktnJxXie_9a6_M64Xo8zGhoPBLWJTpEMdVZ0eHkwsccit_s59ekx1AHT2vyEhDGA6buJu0IIkPYg8jtuRINGhTA9m_Vt9hPC3dWvqPL4G-y_jfoGA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA0YY0kgphKjj63eNGJVe1NGZzRQKHDw6eWjC68OmSuQBHLwejZtUQ8lh0KinX1Fzwe54gjKd2b2yZ2WWAJ-d522cKHmYCGKCcCppyq4vYtevENNcKtE9ng8QxqMM7-QgyEhCrF21Z0kxSl5OWrIriKFK5GhSdkwmIkk_snvzity5vGSEEJFpoGA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAE5JR5AMAtZwY0P7HvBtsziEWDtSwaYEdb3WGEROK0K8CmGODThaLLdu7k4O5H99f57_Q-3nS_TS-kqaz4pDoaiZOi526J5vBaT5Qc92T_XXY3hWTX3wUcOfTStqv1QHrEhCzohYcXyTZbJCCMXxbayYLGhSIGzzjCYF9dCdZtvpItKqnVbt_hw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAALt_oAu3DYIlmeNIEqxwv7TauznTM6HIXe2o0Mkat8lKGnSXk2nxjjduvcWiVBbeR7Lc3A47kjjxbvwobqytmiUeUZv2iEHiOOzncyJnzbsz3HvgqOlRG5fTZSe7kranREhA1hi2z8f1Dh55vBqiqHIGxGhSuEWsPgoYAB_dTuFL-z_dipenpXw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAHB_MkSGr5yfNY_ywx6iJ4AcgpjRhPkVsYNEsHBnfUdJr-tH8V_9PaJGlq2GGW-xFzQmg8Xwkax6Blnas5ikCRO_KN0Yuzm0-gypB5MPlu0teYvEUE4ygFOL0ys5GWkueEhBsgbh4Gw8rEKOkLUGpfZyAGhRXVirIWvBLZ-Z-7RXHrBExZIRj_Q",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

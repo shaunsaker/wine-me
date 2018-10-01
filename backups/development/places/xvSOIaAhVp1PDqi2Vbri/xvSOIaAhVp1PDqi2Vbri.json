@@ -1,0 +1,109 @@
+{
+  "name": {
+    "value": "Backsberg Estate Cellars",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 9:30 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 10:30 AM – 4:30 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.8285478,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.9146995,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAWnmS2MQqKcjRtFoTePQvz_l18T1_Lyeu8h2G0iRquu2i3hWLGnd7USRgY-T0u_QJDYPPrgRLzRAqHiKpNErZ7b7hUGw4zewSLRfbZyffd0sNlHeNPwUQxEmIMqQ0u2jjEhCw9-8KHo2ojJdTArlcYnwQGhQX97D8YVnOtmQsJY377dGpwBsUIA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAU96DOrAJ45jxmRwsoQqZCf-GS0KRVEvgCytQ_9jRYM2d5lWL4Bu8Cnjy9rBcKG2StKGmRRobc38eQYQSo_ufx7WK9TyihZ6wQdtZh4klA2W3L1I2kr7ioe3nbS8f94TCEhDBbeghDC8gApcDgF4klBRwGhTCpTDsDeceF81hOrpNHF4almdrOA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAKnoQbmWq5zZ3P1cg3N3Q_PfJucwv0aJYlgqFLAkS80LSDCNABpnodfLuRHbYStyLjL3ALvjJFlgpPk15vfWOcyFhhXMy9JvLC0zRPOaI40LTedy3OGr0xDa7cRP1bfq3EhBPq1_uQyL_HCnJZV0wOnnBGhQWOJPzRuVPnPhGovFNKcxTrPP7GQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAUFawFzBAPN7PyDy7Z3_WQ4zlGs--ucRAAEXDfVVP9j-j7GL2u775SmNtGFo-TcNCKGqEHRLpQZSGxEtSsSMKVpa9FXrYHc-Dt1Wb66WBCdCovkZJkfueQcsC931hgMe6EhBCUOBEFbu5Ny4HtUbhvXgJGhSA-7CtV99E2Dppb-JuEyh3OAZ9iA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA8j7BToSbWNW122RknP5FoMD-NOncNKPLFnWBuvm3wVcUuJ886siI6mL5Z_io9tzf6xAAnB4DRkEKJ4KZXCHOlqxuW76E9f6wqwrj8s21vBe1Ut2SYapHhldoNKqnl9TLEhC2lr20OS2B0lvNFewNK0k1GhSsC-P-BvbTStgo-wkJew2NL_A5nw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAkbMO6HWYNsDp25b7M0KRN7N85V8FUQplReKxQAdAF7-bDXNkv7SpSPUfQsRH8BTvsFH1L4t5fjwG6WFlgRR5vBQGO2GA2uhjniUF1VoPPQJgD4zwEqrcBakG3YRxJ9YmEhBYaGtqtjGbC9SxnMy870KeGhRr2fsHsCLHxVUTIZS06TfBPFRO9g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA842e0w7c1N62FG8twm_VOjovv9dAMnh-LOlPGbnLfRlXKXbjXFMTz3K9ZDhaYaf8QQyFYfaMYjjL_B6Ob3OCNqMKBcRNyD_mZMLcuuvqwQOPL8YBQLkm8A2k9yhBsuEvEhDI0hWwYH9y7OAl_HcDlvawGhSOC8KPE3ttR_zqB_VWj8rLlJAueQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAALZH24nsITQ762ew8qc1xL_frHZCJqqHTUahZLZ_TPkxyHEaFWuJLH3VyDot--0QgYETizDtTjeeuGcDZijsrt_MV1ElgBqmV2e4kE40nAhp4JzNpDLq7nhGpvUdr1uKZEhBvIGeTkDNrXwByjCA4pH6oGhS53uhCFYWxtF6NXuC5d9Aj-yVXEg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAZ3XGyGhogWXRPfLCmPY_bW-cG0W3GsSCeuqUqft-ktrwjwEExY-hF4q2c4u5AoO7j_qQGgQy8lHKY74cl8STkDUlzuCisEi5GBVyw4r_ac03AuvaiCHT_SLSYykjXFc2EhC3DiODOimIZLullwNrwYjHGhSmMHgBG-PicdkWyeX5foVNpY-Z0A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA1bFcm7I3p2TZ1VU-itiOf78H0MdWUvv6d76_GxFHdP8yDGqrUFBbwmpUBapbnIswujtB5sQMTGXYkumd9cTyVa6rqVAhj2guG1E4LM4UE9Thh6Q-QZUwQrEba8nnT9DEEhCUND9FM6d-BhduJrJkX-qsGhQFUdr5wXUzOD326OuQqdlV99dwjQ",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.backsberg.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Klapmuts - Simondium Rd, Paarl, 7625, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 875 5141",
+    "type": "string"
+  }
+}

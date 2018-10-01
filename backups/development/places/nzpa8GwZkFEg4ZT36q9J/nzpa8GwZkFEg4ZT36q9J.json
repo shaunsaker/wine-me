@@ -1,0 +1,109 @@
+{
+  "name": {
+    "value": "Bartinney Private Cellar",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 12:00 – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 12:00 – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 12:00 – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 12:00 – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 12:00 – 8:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 12:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.9263158,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.9324205,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAzvEy5Zl3liKJyBivN6S4SAETErCvI2OMO0t1I6z4lTEPfzAES5kQsW4ajHM6hY_8T1M6E1eDDgRskSfhFW77UGg2TmQ1jmFTS7LzfQUWbnWmnICkxgzoT1IIiMoIuzTtEhBkRvbvxi0-Z2RjGruhEkl6GhSsDRwaIGkGbqA7DczmDK_gtI21-w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAB2lSz-vT5iDNeP_0G1F1Q-R22JgkVr0_tKa3oJt03ywg8_bONmVneUI7KtPp13uM0E40vd1N55jlCQnMOIQHScW6LF2z9BKFOrWMgFbmBkWfNWZICl3RkSdi-FfZaJM-EhCTehjnBd2GpmMDnwvCKFsPGhSO1XQeJV26N0ekvXM5Jrl0CIF4sQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAqUSI3yMZ1Loa0yIu2NrDwy5eAgIAS2QeBfbqfCD9dtNzWwPVD8sWw18tH5dtA0q3v7UG6U4MHr9prMm-mmq5G8lfZcd_DZdQyEWsbVCyo9ex1h6xjowo3hqMJxr7hktHEhCWbB9xHm-zOBNJQbkvw0umGhQgsrNSSfNsVbzeIZSk6wspomRehw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAFSnq2BRu9ykaLqm0Lt_sFwRKaPz_2M44LygKIPHSieQtj6rSb6MHh9D1wqpuTXtjCjoUXomkjVP_5iuNGquQVmb9lKVtNi4YgkM9I8PfZDgpXtMu0KIJEujKZERUt6IrEhD-Ik5bhVVl8TTwO5-Dkrw7GhSjKazrxAX67JgtxHn8kMpCtVvn9w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAtoH06bTSfccNsRaaQ0wD7evHKJyFkhb88T9zDVXzC65HTUxpg5wIZ5SUF--B3NFDvkZg_RE_M3Z0ClwU_xbLcWuDOPd0VJJNEfR0RJXeKGAQCC-mc4_xLY-qKkvTyxPfEhBH48arJlWlBdgW18ARFg-iGhS9k2tnlF268cchjdAoXCI7AZIZSQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAhQOS_YuGHlzun7d6BFu60kq8SeNcjKaRnkfILZBrmYVgKi3g1vl3q7Z7aH1xQoxrosWo-WkejkfHVDnni_ADhIo12eAHI85tD2HDkTQ4R_4VPxNGdej5V-XWrc2SriV8EhC4ozeHVopz8JIxp_D0vIGjGhTnDgo3nZbuFXGQCxzHy02BK8KQ5w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAy9zYz6_xQi93T_vslKcqPwgfQCmHO7g_iJ931aKAr3R821CvspzbRgrZO4pOfwsQR2ojyEqJORZkvb-gZqVO9U1ZQaGOfzd_1_CR43290xNQJeUw4ZE3pt2iucrgMlnjEhAxC3rszMrJ0R071HWfiOlXGhT7PltaS98_vxKgai0WzNO_aS6AWA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAJFYliUQkxBXo8TF8rmOfkKt1Akr1a44wQ4uRTpY4fpv6i2scv8mHh48zefMneWa8U-5CR9RoNtDsv-WgRAhfnHFt2TUtXEwsokH7SPYcHDd3pSYzkGNt2-Gzf6z0RZGAEhCqJe96d7eUjKyN7MjgS4dYGhT15n8cxt3m2R5ZWsf4U6yUfzmtRA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAApo5PgCh6KUQufn7n1IKTIVJyC_jYIPdqww0iiH7oje-XpX6UedQnXYFMQjcD4i6xWv-pgrR8ywgkLCJqOiuRCWh5a_UP4EJnmZTBJKmqV6BJ_FM3InEzeMNcgN1OxI71EhDShN_Nfc6qdft477sypOQoGhQzZn9qpEsxlcUpy6k_jV5ZTdz93w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAACECRBGcHW4QRaM06MFQLXZTg9-_76KlvMz94v6ek3yRqANyF2lhiRAzuwUqG_X0zADKvkXQkI8mBqHrmoNGDtzzTyGZiFGy3gL4UvQkV87_Rby_X3frQQF-M6LLraSozEhCTy-qqslCiGPKjDT828wGbGhTx-CfvG-OVaFw8eTAGlQquMHB_OA",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.bartinney.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Helshoogte Way, Stellenbosch, 7600, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 885 1013",
+    "type": "string"
+  }
+}

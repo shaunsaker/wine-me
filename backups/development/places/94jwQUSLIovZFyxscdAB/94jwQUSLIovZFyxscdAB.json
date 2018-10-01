@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 10:00 AM – 4:30 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 18.8031562,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.9500706,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAXCc8gjYgolVIJ3trSMNhCQItbE9Ns87dxHL6G1OF0SblV4sRJw7gSgAps2pDnKG8cLG29nSlOjitDTXuzkYVAfvqg-PHZS2JT50JyA7MUl788_EEYHPXsuGcb3J5fwTQEhBvti1YjzRb-aiF86CFv7yNGhSHncoac_8LEicKUeBMZREvSXLjWQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAf113zdnoTdcGeaDMgyCiKMFzhmsvjQAvI50k3CGZ5m6AN4R31rQG-U-SwshopAQBnlUIozWuNGuClPPQsX28tqBILy9kLT0Grlv7Tvxy3d_p5A17OmS9NPgF2PN_u5-5EhAoJtX0XUQ4fxY3T4-8qYCqGhSaPcXyE6_bslfvyPO5VrAdRaLqfg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAOIhFGGb8qb0VMpEusWYCQf1Rqs4T3-2ZYQjq_321VXZ52CE0B_-17arbgXg38BHN48Mkfo_zPcZk9qBepqwOM35SwOkWOtRgfwGNIhCw6slUXD6g6ZWiz0j-7t2udzspEhDNCt-sKTNtbmHqDCGIbzZ4GhSYsxJZNI5jsYF-M_d2Kwx7m-LEZQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAANUprBdQwZ_-mAFcZS-kkxPf2XtUa5w-5Fh-3PA2IV3HHusrLPWVDBrVdIvgT7pc9UJh48s8lJj5vtfcafmgBuZFznhBT39eZdwMuPFWfAdB7wrl6RsFeCRR_EYjvxL-yEhDDJn2_4mhK5tmKDp10PHIZGhTz3i7-tUHxGaIxNPMzkAybaNW9Mw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAk208tokCC-qwBYR8aCm0y00p7rKQzRfQomU9cC-gtxMulCu66pcTYGxGVumQLHUCiCEw7U-YrsbMLZV3jF6RjiruwAgG20AYhwmAzbC23WU5TPpnEYJ6RNSdnbl_YMyPEhDqbxv5UFOKkZRG9JAAGXDjGhTM_2PtQfT4H6oBYVqE19pBZCxt0g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAACNByn-ziACbH-tgoUCChp6qdklIrOtBUE2NGbnc9jEhqkiPNuB03_aKUKL247vN-5TyxKgpA_gbfzwlNiVHkhSBFo0Ac9egIYD9NvECX5JTyo6SEntila-sOqhrL5CQjEhDxCAui04hsTHG7mbaAUYbhGhRewMuT135o2DapnWJhvYqqLTPoBQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA5n11unQaCcI4B-G6FJOPE36wS9KJMNNkhzIwIhRtpb16BuTPe5qPALYC-_KDmv21wvnoZ13DXsmKJnKhvCWh_vsK3s0QczgZIqe_TUt0uHtUC3w6gdEUPpqdl_KrAvmkEhBaNmJI5fprGkP9EFVd9Rk7GhTgvOrr5JCyPiQSdgjZcqh62-n63w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAsYMJL43dWkRAQyxhrMdOFp0LB7_XjidfFGljaRaM-PxfQDrruTuE7jMNkxJyrGstNCzIDdMaJAh13dxSeUuY6JnvSp0lhFxTpwRw0KQHp0asPxDFmMj4QJcdfi3-LxjyEhDXMdsltsNh95Rip5NZbocJGhTWO0u6n8H1HivgB5pYZCBfavUobw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA9WuTf0AakjKJJH_pZ0o8MJLMQGny2RuJEA2-ETNyHmVnZgj9b4iQvCuln49XC59pfgzU3gA5UD22p6VzLsjphXRC_LQPmhaiUN9z95kDcc2HJqevZfWeRr00Oekuf7wtEhCuWWijzuNrAv2LgqdfE1cCGhSR4a8BWOKUeMTpoPUBqzwtoY7t5g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAXQ91T3WhB5IQc5Gn3VaVOhnHDGmRfr8Zmq4h9nr1VGr_HwglnLY-CbzFwJI4NGstC0WwFJ7nXr-LtHwJGCafxvEBLu7Pwkr_h8scJ2aOCfNVxan41RfsiORH_w_SE-yrEhDHMYJe0hjwbsrJ2UUtzL0_GhQ0BkRd_6z_3GaNZCkOGBRwV5035Q",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.neethlingshof.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Polkadraai Rd, Stellenbosch, 7600, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 883 8988",
+    "type": "string"
+  },
+  "name": {
+    "value": "Neethlingshof (1692)",
+    "type": "string"
+  }
+}

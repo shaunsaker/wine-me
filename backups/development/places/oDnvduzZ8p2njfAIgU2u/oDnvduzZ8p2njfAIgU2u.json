@@ -1,0 +1,109 @@
+{
+  "website": {
+    "value": "http://www.biltonwines.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Bilton Wines, Annandale Rd, Stellenbosch, 7600, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 881 3714",
+    "type": "string"
+  },
+  "name": {
+    "value": "Bilton Wines",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.997711,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.84966,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAACJrwKemhoMJ9Z1aJ3yDkNC9wTEJUt3_A6f0hD6YoGOkALM0ietFpVrd0vOwmt6wAhWbjPjnGuLlrY110e3RXZabm3YAKv_By-uRIS0il8ruNl4aJBiZHwBO-eYi-RaOSEhBTMGdsaBE0IvJfpvzKAZehGhRfzdvuI1EGZXRSxjF_I25MKTklgQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAZ0-lYmyv_yfhFUP7mxYrrL-chJkvsHiwOA07tRnslbrdFPMa_ZKa_eZtNIv732vDOz6B9tBmzsutilgiV59nR8TsIhXNoEg9oSzLRKWHelxKrDudJv-jflQLjHRuhyHfEhAnofTfYpvPqI87eeWSmtiJGhThZxEZMQmkr1TA942LT-9OHyJPnA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAgfJS9S7oZmThyualolzcFF5YrFqnSQucZeY4xjwwljU4dgrWKOfY-BWGGSDbHYBbLBcT8z-w9coRJqKwGzFKlnBy4-AdlS182QoCA1HptKFCpSnsapz1MN1tVjMoh_sKEhBeEb3sbkZG829JIyWfQ4LwGhSy_TBOnK3AxAo7XPMItc3eMSPz6w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA_MforD5PXPYOQdLypNYdqYopZX5i0R8xTb_AhJBgXso86I1oeyQ8od2i1wePj6Ck4yURImc5E8vjnx3IIUUMVVCniJWUMPGs6zocpryWHP9SqEubMSc7tw0Y4FnplwXNEhCh4tDJ2CsytkQW5T4BM4qWGhSvbYtWzDY6gYjbZrcq1LmVMBmbjw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAqKiDtmKGiiliq4Tu5tEb9dMGmrkONf3l9v1H1iLfAAREfIVlgrS7aKcBxHletaPOt7BIa9BCzHkbU24fvWzeg4xESvp3FNyWEB2Ov59Xlw4mxT5oL4EDyNjLhbwO2Y9zEhBXd7GykFUrJKZcvuy9ouxHGhQ3z6K48kFmBc-xf8PsHKY5xkYOeA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAASdhdNWFcqJ_w9fq64ktdEIdnOAG5Ks4pmx7NUVbIbqTYzak6zjydwJ3uG2-L46UQZ1Aope3IOdgtichvvUA6Lnb26R4HQIxNrleFi8EY6UyJvzqCtK6owxsLcrhSF90xEhCw4v_3p10Z7dTIf-v52PcSGhTFXo3ZMMgGb56vfeIdnFvyzkOh-Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAIi191BCzFGgPtFW4sjUujeLqP3BD8jHmJmd6k-7HXjeDuB6-x5lBH_ngOwSdoGlD7TI92Suy7OXYv7vvfIODLnZ78vKv6K8QAotadrIRZ6yc3k0hmBAGqntQ6cCJ6LW0EhDPlnulZnjch3llLCysJZqtGhTwbO756vPdB5KVU7zXRMWLmrRZ7A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAVBEny4DJXvJ52v-hAhtraZaMRjHz6z2XWicSfHjW81Ds168SreBc1YpbkJE-hN-0Og26ZvevukP8i_mZ506si0xgwjC7IxFb4KkvvyKs5PpxBhGHIh0dxbbs0KogwTq8EhB9FCocGPWPJoIy0__6xp6vGhSFy0FnHp4lmUle_8YvH_dJlU3DAg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAvWfced_1L97wwY7U6dFmu1UxUnZVG4L9Chd6Y53ZspM2nXVUqjjP7jmg3b_mLWik9Ram0jzb5qdd5rNj2rT-4KfIaYNxAzEz7ZNEuK1gjFfGCw5ozdS3d_r2fFqqDMKoEhDGBf-XiQfV39cQMZeCnAeAGhQRomXuVKaPQzGaEwG8zyPHa6o3nQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAtDooK6kpKAh26OpCLIzPFXoIlucJcwWWLeufggUlvClBW0Zn8SFjolQ4laCZqQQn4aDcDFGBT-aYzvedtiOFeJiTnZ7bxjWi0dAgyL0umofs264L_WTPPp3RWHw1JhlGEhDg9vRr7zKsTifpDg0rIQgWGhRzyVbPwwgaYY9BdLptGbWIhQ7mng",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

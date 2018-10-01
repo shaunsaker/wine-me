@@ -1,0 +1,31 @@
+{
+  "phoneNumber": {
+    "value": "021 876 2630",
+    "type": "string"
+  },
+  "address": {
+    "value": "Farm Cabriere, Berg St, Franschhoek, 7690, South Africa",
+    "type": "string"
+  },
+  "website": {
+    "value": "https://www.cabriere.co.za/",
+    "type": "string"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.912692,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.121789,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "name": {
+    "value": "Clos Cabriere (Pty) Ltd",
+    "type": "string"
+  }
+}

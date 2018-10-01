@@ -1,0 +1,77 @@
+{
+  "website": {
+    "value": "http://www.dgb.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Wellington, 7655, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 864 5300",
+    "type": "string"
+  },
+  "name": {
+    "value": "Douglas Green Winery",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.6296789,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.988566,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAaImZhBCmA5spbSbRSF96VAeVYexk7Duix0-w74ku0cYrAXjClgHKmxuhQoVJ906x_pBBlU3Y2F5t_HQkfaRyYUJ5cp2kuQUEeQBxPjxAJFiWe8hx2Sk1nG8la5TMCxnMEhDYg8LCyJFVUgtQ3ZcTj5Y4GhThIR_61pFX0ko3DkpNvmsIAyYj-A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAxMTbQJ9j7eRIjMFVo8Hsik7JyiIKNn2RHgRdQ4HVvUdpQTsEzfvEPc0v-bPYGNLPdoOKorybTmhHOIIIL3CWBWaH4V9NXxM_zR9-LRfQkSLD2s8Q5CzwmEPDPdIQBZUPEhBpZtgD-WhcHdgCdvIl73tgGhSttoiFdveTtohKvzyGLfV-GJ7wWQ",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "name": {
+    "value": "Marianne Wine Farm",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 875 5040",
+    "type": "string"
+  },
+  "address": {
+    "value": "Adam Tas St, Klapmuts, South Africa",
+    "type": "string"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.8299089,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.8796401,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAI94Uw1F2PLNFf9Cp33eTgWCh3a-IBWjxCu1EHROcLi9cw37trZxuNhrB3iQLE50UXTRqhQ7Otx8QnydeY6aQC-N6pJAJu01wdS16DUsPHeibEfXTpYc-xWTjKF6o_a-HEhDteI6AZGT_Rq2ULDhX7mEUGhTQzaJSv3_2OsMggFisJh2olwwaOQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAREua9WWUd68_L1VenJKSgz7uKVguSF0Y_mYoqtcYeAvukWnURq5Z_EPXUakRwwG6vun-fNZVJl1r8Fbwoj2YEBOALT_kABlQ5KLHFpTBh7Jf8DHf5Qci3eMFs92KvRAsEhAKveti-neRkN2beYloQMdpGhScPsCV4-zbC3X6-fALJFVJII9Asw",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

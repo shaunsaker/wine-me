@@ -1,0 +1,23 @@
+{
+  "radius": {
+    "value": 20,
+    "type": "number"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": "-33.3710068",
+        "type": "string"
+      },
+      "lng": {
+        "value": "18.3721884",
+        "type": "string"
+      }
+    },
+    "type": "object"
+  },
+  "name": {
+    "value": "Darling",
+    "type": "string"
+  }
+}

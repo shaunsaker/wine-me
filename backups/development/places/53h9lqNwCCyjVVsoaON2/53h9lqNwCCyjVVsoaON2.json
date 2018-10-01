@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.7648743,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.0008635,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAAPisVqJmypgH1cHKqM--toUVGgoeCOq3Mk-9C302dzGC7Gp8MwKQm-L9MjbmscU-ee2SRNAfGl3onBYwl0SS7VzlNpp3za01G3lWMrj--ogwEepVVThuxFKC5zUjuy1JEhBHXmflSvehLQN_oFjZSdAnGhQyBEIiyr4IO93pO860EYyAqYLNmQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAANZ_Bm002eAs4xdZWWY3TFKnfCBOAMDdCYCsYc9ZcEwwadWFXIVvArdiXrvThZ1SuR6keGAfep0pZmqaEstXu0OAo7c7_eLMPmqyHZFI5Pcyd8myUyr3JieTURCwtjVEUEhADgY-AUqbqizSFu8DmgP_SGhRI5rLyPWXC6LimpcriuAm1fvgTiA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAASbWpkCejq6KXlTykDdfOwG1Ke3-IZaNKzwIIhPuNC1gQ85faOKuZ5no-3SOIEpqK3wmEpAuoSbZnO_TGPqLB0KDdyWpofIVbRQhw38v6NyFdzdSh5oe58k488msMuykLEhBhQUiUykRRZ5d2SWPg9d7lGhS0tnJq1ACU1-zMAPKxI_xpLMhURQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAfjZ5HrAMQ9j9HIdSZNuRVctDba7RGeLY8J2_18vxSzhOnOqUEce8QaDtGZJ6OrLTv9Lf92a2fZtK4bOC9mkjcqRNh_J2ob4nbo8wS50cOtY3lsna_VYZtoIUHXYt1vAXEhCjQFjKdN58FWk0OeDtU2AtGhTQLZrcB5VcWhptZij1-6Yjr8ZSHQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAaNnlWXSy2cmvQHazTDLcEMg4Pbt6nXQcCDB8XcTedsBweUcrJS6pl4S3KiWFUhDLrNfvUAGKaQUyiTFOrPqKz65P9TbNbsQffrgnl9JFR_RBt48pJZxJouPxAu1anZSjEhDbYW3Nh-J18wj90022_dzFGhTx5tKYXTx04jKOy5NOOEf5BcO47Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAt23MXwZEVrQh8ROYACoefs7z14ismuYK3gGxkgD0R_9SKCY716IbPNx6s1q2E9oxd0qrfAKI-rROeZcWSv__M9O7tdmPCXX8jMew8XPmicxkygg-FH7GKR6UwiFbgxLxEhD8g5jQ4CfKumCmBszD-QBEGhQv1NDj0H-2iGRmdJq6mbhsDn8Puw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAWhgshswSow296yFhc_Yo2UuwOmAIzSQmHTY6KehKzALsOb0UN4QWFehNFYJF0ofg7HBMinfyk8REHYsZiK1FsMxsUG_7u8jGxfjQ3isLyIvfliH2b-EA6STjuIhytd7eEhAJo8LfS8Kx17Bwsw_4HMiIGhTtcU5ov-TL62UuKbIkGYI8mLYQrA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAIESYQfEIIxbhnAQto0ZwUBzgUfjXBPIqD8xleJzPfAfJ45UFDOEDEnIyTTvwFaPjmJS5vi0rHQ2s9OMG-s7R-79DMwZODS4RVdkfDUVtz5LM8tA7xuUqoPL2DCVuOT1JEhBXJlKKfie0fXJWwSCZ6h4yGhS0_SAI-jRIUuzDb6F3f562j8Kt-A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAUPYS2yUCRS47fsQq6sqyQ7WeXFLeRg7Fuh9y-Pv5dOLGsB_bbohuLbHWEpbLz5zC8Ar_j_K_L6OWMcIUN2rhtId0kUcZGp796YOitKMK9wQAoYtj8w6Xeu8GycasMTyvEhB17yUZeOOQFO2NYFEs82faGhS3gk03gWA9QVP1id_VrkpceU-Mvw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAGgt4grDAV8szq41WtEfwWwE-vj20u4xEh6gEZzZ5PXChrMMTh_S4QMFC-wmhXuULKFCHXLyLAgua5iQQ2gCPDVQXgiNg3Bgl1NtKV-qDnrsUUFp1jd5AzCGhkuy615hQEhD_8HWn1eCUNepgh9IOCVbPGhTBVQdCF0hOjYvhRzf1L0GBkNgMTA",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.avondalewine.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "PO Box 602, Paarl South, 7624, Klein Drakenstein, Paarl, South Africa, Paarl, 7624, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 863 1976",
+    "type": "string"
+  },
+  "name": {
+    "value": "Avondale Wine",
+    "type": "string"
+  }
+}

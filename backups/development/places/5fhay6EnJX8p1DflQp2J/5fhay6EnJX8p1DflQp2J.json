@@ -1,0 +1,109 @@
+{
+  "name": {
+    "value": "Thelema Mountain Vineyards",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 3:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.90842,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.92248,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAACNtFpp5pqOl3n3-imzVh52dIy3HlD0GBV60cK4QjVAwHfrwJEqjPjUNJPCBXkSJrpNA3M_NuRrjZMc46dxVKi63hlgSMxcCNB75J-MpBIYI9l4Iq4NrGGsSeu9kX1-buEhB-EO_B_miklDJkoYruxaW1GhTmy9FBMS85k8yGTaJX6f8T3U8RlQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAMc8OuBLb0fhuLTNopZ7uLuFbaZM4-ejILrHGFk933jokBaaW_enczsOQYE1rjb5HEAXbq_ffW0m0qXGnzCQ_r9pNkKtWjuExIjrkAA69tQfemZ8Kny8UbBlf9xvytJTjEhAnZMkmlWtludjpRMi1VUx0GhRXTP5oRh-ju8R2JeSQHSHTOMdKhQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA_krF_ZTj96YQ40EHz3f7aHdeYMMGlyxBnLQv8RS0Re0Cj8zrR7NkYvtozs1YnmnHygp8sydNyw7VNMn7ZFqKlt8FPL93scwHaupYj9gVQsqET1OYZ5ukM1hFEYGCjGMMEhBfTL1w-TpZT4g0SIqdmOMDGhR2-IwqDTGWert-YPtE7tdmPrqDLg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAgoYnB-o9mfaLvzYwji6JZJQFXsmkL_FUC9BC0XA5nxuCW-8fXCPYh6H3kxvsiALGmS8saVxZfQknm0DxiVdgb1LtJYW4s3TJiIePbnEqqbdtR7UqiVtcdf5UTFsNr1bUEhDwIuopZVzsCtD4xY--7qkSGhQIcthg6_ZJ4AFL74y9_YuD9UyAWQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAXtJLs8gmDPKPtSwCBbMEoH9GAVEwzXzHJpx1w5hD6PUviUrKOaR-hG4QWd6BrwYEWtbrzdaUupDVnwZXE3krvhpH_qeyJCTFqD5Gy4l61QpwcN-q4vpPNwVX30Zz6aXyEhDkFVMdnaCuZ01nihF1Nw-yGhTKvj-0SxuEq_esVqERkWUiL0_b4g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAuWOTLEqNW9XEh1Gq1H6tygOQMuRPgZorCJAd_yTc2N9x3Njc-k526ejaDWx8EWMPlTvPlLbtSrJRlIZDFIBbYCcBmjmqL2dhZ0S-gdUrqtoswhlDL5hpwwkbZCmuczyOEhBzB6lbPnNW-M34XlmYr0oQGhQ9CVgiS2GpQfdHLu7dpqpP46iqsA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAww0fUG5Eht-V27hIbOiYO8K0FZ-oVXFdmBvhocqzkDb1LwP1qhwiPfg73ELVUWqrABUyGUSpI_opHQo2_4rSgZoeaBLKMOnkwntUWDvMhmgyiB2S-WG9cCDNhZ12UFNVEhADxz0DIWL4Z7Fc_ogCoTsfGhQendJ4JEdhWaQPri_YKqbg8rdxrg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAjCHLpG75xUsLt_vQytp5rOcLv89CFFdy5lNYm4Gbkbcg4r2Eii_ibycPc1NLcvKrLr5J-cnGE5tImobl6jr0E5qDQxZq_4ngBMrWDMRCwh2k1byDnBPzwapwcnoT_sFOEhAvX7IR4S65bAd2SjpVMZIyGhQQiteDtWzyl_R6C_aCFzK5oHJsdQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAw1tddPeCR51hWHigQu6q0SGrB8CAQIDAHp2esdw1vcQYALojgkwqgi1YrNrgq-sr8ZzufOglyTqb_hJR9acdlsnGSJPcZYMQCmX4pgFOQH3pWPzIRSngSL2Ye3h3hY0NEhBdyiYLZfh-rJBatQh6-oCwGhQMg7xX1sfCqDmSLaZ1Vur6Yx0aHA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAEARo4108kWpm68CNC7FrjlKLO3z_hUuewnm-Zc1qrXlC1lHlHUGq3Bf0ZQaisrUVrKY_PgTJJVOiMZckyGwfg4jXsi6SkFXLKohNTc_Hdhr36alsrIAq6t79Pfr6YosJEhBgunFypwaZhnVtjPaNC99jGhRnujKyZYxONLA9vJQlTEYqKBjDaQ",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.thelema.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "R310 Helshoogte Pass, Stellenbosch, 7600, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 885 1924",
+    "type": "string"
+  }
+}

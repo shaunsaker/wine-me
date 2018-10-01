@@ -1,0 +1,109 @@
+{
+  "website": {
+    "value": "http://www.doolhof.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "7655, Bovlei Rd, Wellington, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 864 2805",
+    "type": "string"
+  },
+  "name": {
+    "value": "Doolhof Wine Estate",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.6260936,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.0839009,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAA196_KZY59o_VzZAwUBUejJAq035I_blpPXUSvQtmHnI31GFoYVpbF1whsgh_RoXbUBz1t7VOFx4jzkzUQBEQibRA_FwCJqe7N6MMfnkhmOyBl-siOHlk8dwbwq0cPyu4EhDhC6N8-BQebsSFAvLjD0F5GhQGxCGeO7y1UrfXq_Vl5SRijifOiQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAANleVy7BDewo5FNvsH6Idu8kfEgwS-xivDdiBySIieKhv16TsAZvlW-vN5Kg-zUP6ueXwA9NtYwRSM6v62NGJB-DRiFmbRQmbtapQfSvCHkks7NYb45ktw5IJalzjev0eEhB5apjT4-aeBFxI1kIQENPUGhR1uJkdpPvmGS7ODBKf0LqaJe5Fiw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAATs4IRUb77pU3HNiU8RnJ0cPGyXeyQj3R8BzjkB0MOupsptznAW4drUBQEMZszYRMkNVIZRuGeRAgM9IVhRValVtDROzT8Fb8YixTt8u8yhl_8rRT2oF4r-dODcFpaPKsEhD0ORC9r1OO2Vh5uIrmIXiMGhTsHAcFseRfV18iAHDJp4QYvo37Ig",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAZAZVxa2moS4vxT5VeVpCjkZeGEzTu9yNZL21Yddfoe2DJmOgQG50DOxrRGgJYtjKa5QTWv2uex6qTgYDmZxNToLlv_3b4J-QgxGo_Nv66vqS6u5uDb-P84KsAS9itnRkEhArpP-NFpMCTR3UYD8sB0nPGhQ8xC0udH_rfRVEs7jMcRHcPC7wQg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAw2Q7t8LXXlqDj31rHeRotubCay0y_Bfq4oLClChRDPC9c0uFnGOOH29721MFqZ1wxloVebLajX6vqo3egIiPkHTs6l0tH1CnDgd6SEAy9Bx7TwhrG3rpMWf5ujqqlijpEhCfiTE8A5Ct46560Q7ctXTaGhR76bUf-AStIz1z1iT9P2Fo5vufrQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAKKbzD-koKn7BH-1ogwRQvQ_DGyyFfzVML1T5hAZedkoooi5_G4bRMgitl34PKS_kzt0Fng8B__wTTeIbsZRZCgnKduerUXD1FphPibSIZRupCLehAnN71vooD89xmUMBEhBS_fbRPxlKgWT5TBHxjpDVGhRfUuaBP7vwP_lBbbFrTOk7NoRfAA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAWde4zZRT2QMHnjYAapi_9azdT2pjB2Dkv8ewNwttd2j7LrY7rEPiME5OTfcU3W4s72iUiwp3delW0v-y-6G-V-sKyRXAHZq7e7WesDQ_iC5qG7-MZ6E2I3VHND6TPHSdEhDivTKEBiVIy0sw1sI5jWFhGhQWw3_TYycEGiauscy8JmF_8NLhfA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA-HYXSd2D3NC5EeiCNCN4b4OlUlIqSoO0rjwlzrS-WY9MvkudYaZfteeXBpdPOSKOu-D31F1NL73aXG25Upx5gZVJfAVMveFNyeClaiPt9USA7c6CGHLazo1M6ZxI_IbKEhClOnUlsK62b3Xz5NFCk2SZGhQKrC2TiUeHdN7yUaWSI58Dk0aMag",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAn11bXzd6vxi2JCv5ixYjMeAK9igIpagmF012Ccm3aH2H4mFCVh5jyvo1awtgT1SVfU0uMZJkYi5RsSN-VSLHxtkkYbzImUC-VQ8w4RM8Q_PfVkDKyuPpZQoOaOukAqjVEhDl1ehkyTf_cWxNHofazmHDGhRD6FS4kHfF5P7Jigu8IYAJ4CqjsQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAGAmveAr41nju6ZULp8kDEyJ9TJ7MSJASNhBxs-ezR9KUyKdyJYL43caUrSLI9jdYHP3Ou_HqG4N7AzTjAW47mwJL2UPYqvAle0PL8REI8erY1PocSu7NWrzX74IFONExEhBJTys0UR2fx-vjaF-ssPqxGhQWlYSk6-oKuwkfPFfd0Eyn-jp2Bw",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

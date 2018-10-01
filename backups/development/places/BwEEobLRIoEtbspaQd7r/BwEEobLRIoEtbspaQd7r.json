@@ -1,0 +1,109 @@
+{
+  "website": {
+    "value": "http://www.rijkswine.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Rijks Cellar, Van der Stel street, Tulbagh, 6820, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "023 230 1622",
+    "type": "string"
+  },
+  "name": {
+    "value": "Rijks Wine Cellar",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 2:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.267685,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.145079,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAXzRpRcbk93yUTDg8-4Mt9Em50Gjw0OWfH_FrlQohC5rJ9Uq_98qZFF1OiVLP_hhdV2j9a7EPH6KA3NbfEL8Eyg3zv-oIUldkifyRngYIVygg7yV8KPJABUXoO-F-JWO2EhCaWV2HwF6a6Qt0ygtD-RU7GhROkhk7KKgkdrcYISPpaMxrMK8vag",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAARN8jyYblZNoC6i-E1xG-WUfA4jCdY4pLi30FQnOTSGNXlpjH4iQ4LMdP3PH_Ce7v3acKjW_bZFJvlTX40wjpg28UeN4eHfWlPnlZEO8uLpr8D7MCSOQ7K9fQzdvKKZxcEhB2khNFejvylSWX8TSgxf8zGhRiLM1lV_ef64wgG1IheGp_7a1Jlw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAHljbohNWur2LsVsWpbaIifyg6Ka-lL4rtPC1RNTMa8t8GcdXwaTeu6NYH1adq__ZqjW3guVhdXHckjSEdJaWtIrY1eVl4xczBfL208hOBLNYtV99TJjgn7Y6pGXDo04XEhA1FDc1yjCaKwVtXIeX024cGhT4pdAK7HIlk2SW96fMnGw8zVDvmA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA4fbarnNoFF9jltYsXv9UqYcChhOq1Un0GZ3Lqh0oduPo0NcCHomBvDX-9M8ww2Zif0foLh7L6QhwoHMMTTl-baGHraB1CKVCZm9ceu433nYHBkmqnaIhtMrexrOiOGgREhC0FK0X8kbS2gWIuyHCoQHvGhSZSWRsF6deuEEllvvnpCB00Os11Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA1hClebetugVlnrWkTY-u4fK7-LlW38SQExHxrkFFjf4oHz_KAwjh4N6BmbyXexq3YXJxxWjgFrtPdNCbQ9VR-ajYIZRO41zcCM8EnEov5XT7Ux5Oc_UQ-agSdnUftkY8EhBuIoIIViRDRwPKoANKyb0UGhTjA3NHt214NKL1XGL9OLtq_1gDbA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAz-BSwxqHGPTBMaueADF3XQyvedj7jCT2R_zAMhtULUu9kM2w-zlcSEA1RtmtNWsKqBCaV6InWuf4snxM9N87vMjA8Nc-4uZIpSUpaD6w094LzTvONJDqrCZwPuLteKXLEhCLINWvj4whfUsGinvU2tq5GhTR0NDy-_8OGHrvE1zswE6Dh4zUYw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAUrf1xVS7aUOLr9Iz_8GTBcq6kVy3QQMLFBsN7YGDvEJ1q-sYUW1v9JI7il__w7iybNuNDTH0JFfupSRruvcMGAURGMMSaqp6FD7WKSeCjNWIDeFQAIQf9vZYGmaA0CT1EhDN0llYD_L0bJd0E3f8pfi4GhQFci3xUi-qkjgWHxH4JSjAniO7qQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAx_3xMglEY7iRlsqrecqLXnKyvxihx9K8aNZ_39A0MPgN1eEUD1W6gS5PgrNFYPsDWiFgS0R_uxSiaomNZ_ZDnsfV-CQgmdYTYTio-Y01GUCpjYmVprMudopQ6AcbM16DEhBxB1Rletr0xdDroE1xvpwdGhQYAoRvAQKQMx63ZGIa9AkIgnoPIQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAALKnS0k98pAp5TRkFEPenZZfGkpEaVWPOs3A2vfwLFb1oQRcYSf6H9qWqc6szEpH5E2P72jHcIT3_GgfOc7lhnmjx4o0VdJdSjsBtduLCXHAMADPvv7KTDswsfU86VPPIEhDmKH10U9Y0IBq254tFbBrYGhRaapTuzRpm0ufUeucg8LJaVOX7kw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAug8cFtGGQD61N4qG2lMf3IRLNZbtA6_AxIDkO16rHiOpyXew4ixGM_gfhrt2VKa77LPNwc5c_yPe8w0r2Q3uSkXaub2Pi49lI2y3kwYKK7PPG7E_aanchc_F6Znqhtz7EhDqdVuz4a0p1AZcyN-rbe_BGhSUnvn5TVnppC-dfDXhjivBbBJv7w",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

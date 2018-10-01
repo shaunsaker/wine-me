@@ -1,0 +1,76 @@
+{
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.9079025,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.9483587,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAhVUVUaGX5WsxvKSTA3sntueZpSD-IHzGUg2TM84gn5ROZ6rCk1xLU2ejHfEX9zdshDDFS_rua5hgfKjatlAxBGYHXXLAYQ-Bc_15rPizRO7hQazSOajJV3pE3IfdCmX_EhCLUcDjfm_UkJFJ6I6y5sm_GhRAwYwYGnWm6LBiJz228dVMuO2lkA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAI4yns5Mp4jeiDgXPEiJyaK9XwqnHXh-YRG3jJmKJUz_wXiHgNoPqIgg4QrpeGYx0ENwjGdiY30sgwF5yo51zbB1hICEzfsgpJxUImCahus5wYDVcPsUlIyh0lTkS4hmFEhCHNbVPCzWFfxqN1Cfxa7fKGhRlcYHYBUTgDJUOwIQ6NJsmZxey_Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA3XZ3yamaSN1FSw-3JEMmb_nKr9sNVWK5mz_j0Q0UXZzMdwbsLs1XdJ720IDhxq1zm5tg6gRcYAXkTyhliHzXFXtrWkBxbfYzSS7283fbsabspoX9I9Pc_FY8bAVTeWIQEhBgTTNLnVD-OVnHjEnyoCLcGhT63RFXd_cceY16X0Yk-iBRRWRJjg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAdkCi0Hyu2ZqV_PhCsKyyVhjni0cLtEEMB-WEsGM6rWPbH1UUSRPOIN1ipeovQpaumbPHaB0riqwqANdD7IrJn9u_XKsQdgAjHKwko5AUAjWsGTSzkZMiqT9hAy5Ca_TAEhD5kV7AzqFxNA_6PHQDsE47GhSzwhJQRIsdesywcu7j-fRH4D99Uw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAALwplqBKEK7I7kRjG865DJo9nzk-CsQaSvSEhcDWZFrx_EPNjCk4cQ2bJSoImnTX-ZD59bxoUBVThZBbEWTWPcBrVReiMdWl9GvtfjTsMb0UP_qV3vJQsmcwaPBTH8JNvEhBv-qHVSVkNBZo7K468sZfLGhToq2quNwlVJVo_ogBilj4ZAD_-IQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAOwlzgSQXww7U1D9Uv3STPG44imZJmLCcApiw5RE4j4_oW1vfTlOFg9AC8bFv19kyNqBiYemLFCF7FiynU9Hnq_wtvzlVKCKQX1bR56MjyNbWC2wI4Mf4y0kXDM9u1SHrEhCyqa9H55Woja4D7ZYstknbGhRVikTS0H6mezghZ_Dw5FbMoUMx1A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAApRc3UXLsgv4y_1F7IK40dIr6WtvWQgA-buMszxx2WOh8G-LXAAnDlPrq9HE1Bt0Hr1brxuDvNHQeyYAtldCSbuxl85nbsTmHLfFpetfPx3xvPQlbMKegkAWi8GlMVJd_EhAkvY1zGrXE5442SCoyBs1PGhS4ov9y9gG2vSDtpyQFiChroGd4bQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAxRMwPjdRj8Hc-EB-HPkNojStLGB71f3NMxlfbIBy-x8HUdLscs98lQAV4z3kLxp9DCFkTqDWkJZXq0c96PQq5PFnB5V4ooRlhXbt7IsRB6ZganoHfMYvvOvL2QAWWSwOEhDTreb_tk8AXD1PJ20bZaFHGhTKJFgTcPmjCSQvJXYV3BL2APsPpw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA_506icpBZDvimR7xDGc4za0jWKZjPR6tJghidflqV41TvGs0rgZKXiQDJOhVRVFOoEFRigpf9zBlgVC_WJFsDkmija-o97fZ5oXWrsiE6owPjVI7ByI1c3ZkE9Oi-h-mEhAh1tfSKOt_q2DQmqjuEbCSGhTnjcjXxlPCtdTdx27jxiZzujc86w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAIPZ84rhvjOhaR5HDqPFp5zzBw67l655z6h2GustRF3cl3aYR5Vj3FTX_2UFvqCqHpo-E7Q2hAcdOqqZHry2SlnxFhY46N5WbLVQ0JDqbOnayp9FAf9CqPU_tyE24GnfiEhDZMPCIFg79AU5DjyB18cPzGhSZ1v0BPB86MRXYzeIaxlU8vTz6PQ",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.vuurberg.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Helshoogte Way, Stellenbosch, 7600, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "072 182 7571",
+    "type": "string"
+  },
+  "name": {
+    "value": "Vuurberg Wines",
+    "type": "string"
+  }
+}

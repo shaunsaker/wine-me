@@ -1,0 +1,85 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:30 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:30 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:30 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:30 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:30 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 PM – 12:00 AM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 12:00 AM – 5:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.833897,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.902406,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAA28tkcW4_h7rDeNSs6VZ5U3oFJmOmqDkbJ-7BunSlFccfbxuZl05MD8UkvSnt4GM1F6Z299_JP6p0CwryCCjDM3jXJeGhre6JGv6V08JJmmDuC0sVtCNLWlXvXQh6US51EhCnGHOqdViXsOJeFbjDUgd6GhS0AXxJr01m527b6QMSF8QpvuKcnQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAbf9VqPMYw73PfrnmVHbZM0fEOnG7IWr8Bs_oxI2HzMf1XUkEopneYwCQVCOOmGRmyLCdKDi2-VwpaGS4bAQ3h9WJ2WM_0mBwq2wEeLkQKfW-qyG-Ss1KqdnorNNMP7GOEhAsFjpZUhwKUS9w9hfuvJWKGhThcKdGq7uiGyeMg2apTUaO7BZYcQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAranx151b9VvIc3nPiGbMVWgq5A0_jdC-IkDHnN8x0m4SI3dwY7oYBS7OdrpeBnBVl_UJLsMozRctuvtgT1Zb2ykcL_BGwzi-B8RAE_IyvcmI1GPqGkByRo_7wdVMej2KEhCL13rfgQbJlMaffofIEbkQGhTS3ahCbrcKBmt1J5HYXiDiV-vuJA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAATtKPSPavtNHf0vf5zQJB9XTGBGyAVFX7bqv7-oBjvOztvpKhyrSKDgYqeB7WTAdOJox5xDftRCIdE-KLqiEbzqd-uUPHs9YpfKsvHPPljodlETm_dVxfpBwvcp27EOtnEhBL-j3HbkM6l3NCV3ygxd-nGhSRpk79CjeBDLMPVFLAvzVAfjpyOQ",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.majorshill.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Karoo1 Hotel,De Doorns, Robertson, 6705, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "023 358 2131",
+    "type": "string"
+  },
+  "name": {
+    "value": "Major's Hill Wine Estate",
+    "type": "string"
+  }
+}

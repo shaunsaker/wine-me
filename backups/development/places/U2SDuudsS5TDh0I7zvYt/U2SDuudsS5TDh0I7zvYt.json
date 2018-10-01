@@ -1,0 +1,93 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 9:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.76799099999999,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.926418,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRZAAAAR2TL9DVVEFXWJVlz-dCp27DVos0_vQXeQGBKVt7SmbCP4EIYRuOMNLphQv7LcaJH5W6XYUJ9v92UDCQBLeRNYv1iUwN3tGUivaRUXeM8jVhlAz9XndwJeUu4-qdg60UOEhCcQcrw_aSjeGm5InT3ePVHGhQ-R2hJGtPxNt8stgVPyznWObHq4g",
+        "type": "string"
+      },
+      {
+        "value": "CmRZAAAAafUy13PJiF7zKYr_EgPwlyqFQPMLEM0pBqoygXeydYf2ZuIhjV7ZHBkazeytHALfzKJphVXOz44zt2lzXMyFt-DCssV_LPkmTUORA-C4IZMayxg4ZlqJEWu8XTpQ52_rEhBtMqlmkX-mu2xINouN1bk2GhR-3h6NpboPjCpO9aPFHqlC9Ik2Kw",
+        "type": "string"
+      },
+      {
+        "value": "CmRZAAAANBdCQmS1j-mspuKD_O96O4sDp-HlGBnT-PMqPLpe-XvLmwNB65EgaTKCP_9-risxgWlq1Haqh83iNcCtjumgFzqYVEZtui14RuoeOGW3I4KpSMqiCzxXkrsptD0vEwLcEhA9uCC1kZlnh-tiXHAjWGvFGhTtd_szRhv0TqHe-bxL3P1uYqLOIw",
+        "type": "string"
+      },
+      {
+        "value": "CmRZAAAAglSKDL_HpVdzryN9IAk6dfzR3WLwwy3VNjyrwdBtA-zHxzlCG3S-AtotflBUj1OKQ7QM6WbSfs26WJAM6z_g66NsIhpTrw64wOR7glKR_gLyHvFq7NW8oFj7EF0h1y9SEhAaqahyp8MfqBIVxz1Mo3VRGhRpE1RtESfyYRPE7IoL1fUVJNHF0w",
+        "type": "string"
+      },
+      {
+        "value": "CmRZAAAAQ17dV9j0pK2XDPVd0rivQzoxmiH_3ji2Y55T8brhmf5vIvfGjzJrtnBPr1-hP81axxEQLo4fsgLJs7lNFKcGOgmHU1TOrUbOdw1rRLyIizCmsqNpFAtdg03oVGSBBUMqEhD8MQqH9KoIYMnuvl0p8XkwGhTPZqPmPBzUqgyAq4zLkINtlNEVdQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRZAAAAEza4MPzC911sb3u1HorhL1RA-OWlb0zCLuqHtwCdVfOEKncFN28VmjwDKKCOUizZ4T3hncMqQ1LR7XFLMJbV-F5kxDVAQu2LJUa9J0SlTJgPD-idainanSdiA8SuEy4hEhALeMpxWz4dzQ2QYjc63jf2GhTt5mgGAvjM_Jg_ZTdlatSckcZvRQ",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://montblois.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "De Hoop, Robertson, 6705, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "023 626 4052",
+    "type": "string"
+  },
+  "name": {
+    "value": "Mont Blois Wine Estate",
+    "type": "string"
+  }
+}

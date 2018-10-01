@@ -1,0 +1,109 @@
+{
+  "website": {
+    "value": "http://www.degrendel.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "De Grendel Wine Estate and Restaurant, Plattekloof Rd, Panorama, Cape Town, 7500, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 558 6280",
+    "type": "string"
+  },
+  "name": {
+    "value": "De Grendel Wine Estate and Restaurant",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.851365,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.571616,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAqOS8BPfjAbUUR__ft5JA6SV3oVaa6Ptmv6Uel5Puue8_Qt3Qhmq_GYAvMJ_GzD-DTg7nJma2QoLhcF_Um7p346j1itsI8xbSFBFfo6wMi3m73NHw8q4qBmZfdyZCWbmEEhDuXDsFv2QfwAF6P6XyhF4LGhTMNbuPVdjhwlk61u-m7vsQm_nLiA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAcSi6nyBxg9Y49gq7BzjWYRPXT_VHv6Ni-pVtVHRYP01DnhO0ewo3kR_VZ7NHu0SXmbxC4seDrMJWf1tMTCMq_t9ASCF_Xy4EB6y3LxW1TKgTzBLAUZ36OJsKIT1gBbYsEhCx2sBCNfM_Gq5wPGcyg5ndGhSEV920ZxwRBS93t9jle-8aKPVaKg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAADnB9nB8qZQH3SqJIwCMHHJBc-R_kNgflKtP8puW3nRml43AUymDhwnKX-PjxlM_2JSnEMyADrHGl94i2uhOwsiWUnpyr0b8ZuEv1TvblFKL5lI0nKl14eMcHLVK097UdEhBREhTRWn6_3qL1f3nqkow3GhRx-_eJN-wwDPfA22Buqf-CoXyuVw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAqqfZfqFMd-MpmWSr7BlrrBieaNn-ATHKz4iwSj2BGGrlYHv4rRuDbwlZQ0VrIvVy4Ymixrb9I2YClw5xf7oDGTGY6-Y-gtZTkQe5xYKZsQPCC3_BlDSx5QVKN9p5q9oYEhC_VF9JOfFnXElKmyrmpVyYGhS9IAwjSfNWF-ZVdKayz1CEwLR5GA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAmCKhCXlwDnpi7oAE2B_AGoe6WPiPgdgw25k1aUj8W9ENPBrMsWMpycgIPfNn-Fhc4Z6JBrySmon8MnipN1wlBMhhS_9J7jBGOnxxMEbqSrp-m7Fh6jtEFUnQQPPPRNPREhB_tqigrRBUgbf3kw0WKm52GhR1lF32Msjd8mI4BKCCZUVbNJlRMw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAbEk37mCG2ALLK8iRdIES4zkw2bkjveKPkG44vAxHjaaWb9teNpz_wSQxwcpLDaQhJk8cTh1wh3BiKZHh9KuQ-SbDT3jUOtgYysqxry9qJaX3UDm2RPaTS1PMrHF8SSOYEhC3eaAuudc5WBhyaL7hDu5_GhRfNxjI8mACgk5yNgy1wsTSrLvSrA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAeRfQrc1YEh9p0ll4olS7JZMwKeOVAHbUL9ANEb1_x3Jaf4c0-SNEKmL9CiKgpt6YiHjCL0HZlE_5MJ6Hi8APb_ZuBgTkRJjxaXS2D1qaKNauAYFX9THCnjYJ69TtWujlEhDQg9qmOKqfrkZ-FJg1EPwIGhTcTDlFHg12HnFI98l_TncD1v4jYw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAH_-Gj4NtXIll9TBGuSGhgpfpIZCQeUWe3zbEoFgl4dIEHEGnHKx4bIeJmhFYbeyNdYN1rnS9pZztENBPyARd3rQT3SIHX8LZH-4aQcWTQvIMloUA7icABsjOIk2iVIdWEhA0zPcoGsGih8eGGhZMAb3OGhR9-H1kFOLY_uvFqlzi1BBPrIUDJA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAANbi0c6a34Eclu8jxcM480v7TlT9xba0oJON1pmKIgX5JcHlKQn_3jZOu8vEJmEX0PPfoEC1XVMyolk0RrSPLPoEuhBmKAs_JLocRarr1Myiw8oTFrSSnoT_GcPWJaOR4EhC7CbmNOaH-cU6zBlT3BYrLGhTyOAFNxKtpbilkWvr3mfUeiMG0KA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAFSQ_WxpY80tPXPqp4oY5i4aWqw1Ha9uA9B6rndgIBArS7b_8IZP_aIkPZEufJNtgbqm9IyIDg4XCUFmyRgO2Da5oXmuN-ZZLwgU_BNNdMdVv6FPXE1EtT6eCGsQIBNPOEhANWsbAqC_BMQxOStAqG4s2GhSRhhqNCYm2984bu6rHfF5avKEQ-A",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

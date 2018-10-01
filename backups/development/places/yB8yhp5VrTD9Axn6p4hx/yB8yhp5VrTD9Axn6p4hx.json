@@ -1,0 +1,105 @@
+{
+  "website": {
+    "value": "http://www.laibachwines.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "R 44 Klapmuts Road, Stellenbosch, 7599, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 884 4511",
+    "type": "string"
+  },
+  "name": {
+    "value": "Wine Estate - Laibach",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 1:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.8451044,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.8624339,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAkWfvOU1UNBC1AW9Qi-UOt1X6M7m2G4JsRQMMRdLEO1Hph9aZgaJGGjkvK7717lqlZ8xMZdX2-BUTh-5ib3rMJyqAC89Hmhn3g2Gk9ZGNeIWLcvzFjVkmUXwdBX63CLD_EhBPI0EEJreyyleQa2qY8nUuGhTD6jiYOXBVM_2crZTZx8EpmMRqeg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAArNFtDBwNewKQ5Mrt66Ih_cGlPmAIb1Gs50gkZ_UYkyTfQJBJEIHg4sD_pdvh-YV3Lq_CCxvvLxrbx7u3t93XzP7I36a_oUF6FH-aNEM5-_6z8Qms_YbgQjHCYZdPCVkDEhBfkT3ZhI1lmw7SkrR3R2peGhSDZgirSPqt26xEbzTydevxF383fg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAAbPCZJEhUCcw0tIdhlRjyv_udiQbQRNHlXwfQ2xd77x08ghQOp7qHvnR_kvTmMm19GvPC9LET0u_z4jMDQZ0RXpx79H7mAiKXJElGZfigKoXOpSPhwuB4wX_0u_Ws79IEhCFrCOGniuxtiieI8_g4HZhGhQ2MvNslOm3aNGw2TIQRhvPmgOgFw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAs1JXj7WLxqo1oqaIRjv7rH919yfclV8CBvKRPy0Uyr99iSH8YDP_xch2fZDP1xzYRpv0oYt0371L0y4BsuhGgTGzQc27GC93EAjnRff9lL4Ux0EnYMmLBBO53d4HBaZIEhDJl-st1deaIovWdVZwwdThGhQEN8qbZ8YtmzLPu7CoT-t31UG7qw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAKRd6eZlM6__L7JlQmdiS-JgYVe9R0i2PrANBIHw3BgPZ6v7WhChj-7smTLVDLFDaaoJ28rVZNdABFB4y_7rdtJmpQnt36WBlOSl51jDfApkksGuy6Z9G3NE3rVtMOK5wEhAIo-9YTfcQG83yQ7HEDBb_GhSpJuhDXtTs0SIbIjJHR0LtyA-muw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA-OgVUXWJoyG4DuK5vx-vomSeYRzxp3R3fkN95bL6i2Xja71_527Ml_0u8zwJgZ0ccphTQxAapIu55GizqUhQrsmcrgdih9rei7V4DjkxPUjd6xzsdcQjhJhmSWdLfiwWEhAc5YyOx5Zvr_uQZOhmuGkdGhSH73DTo4OzlX4bBUW7KwLzzJ9dow",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAwXeBgMjEl76DtQ0YMOer7qyGL1-LRL25oL90TNRON_GBn3lMqJHh8kiX9ShsnsItKhswuBr68f7LES4TiWpOQBh6IGsw2lHPhIYYEzqYCWk1msOe2CbySC5VF_Jv-dxDEhB7CFhP2JcY2aTNwvmESP9HGhRCWJQ_QLCUQYue_iw_2TqC9WFgmA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAVc9uv_7f5YVTMWAEImNiM4i8cvS9HvA7wvL6-S2oPZwPG6kQgulBWdoqjAHhHObQpTn2LjPMNyfkhagNQpHfKLo4aExpEeKvOZcZH1f26CuaDjj-p5XY2sImVFzjlz3HEhDvZYpywxxU8T6wwsb2bE_oGhRKqL2G7MRwDg1t8f3nqneiCrEetg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA5ZCybN2J86u6QAFUBjdnRxQr_8XDHiT4R67MQ6XV6A85zVJ8_1Z14xl5K_qRiqaEAUydLtzS7u_1K59ROJu08Oofpsmi5Ovht8MAgfzz1kBegRjRJPX4U_NJDO9R3lBIEhCKjUE39zGvdEzS7LokLPUZGhSq0iXFu4h-l6_tYN4QXmfxn0FkdA",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

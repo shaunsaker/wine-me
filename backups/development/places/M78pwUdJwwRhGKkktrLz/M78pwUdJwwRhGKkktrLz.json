@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -34.00283,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.847002,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAvKyZ7OH74LEtIvXTLzMdKoR2mrXbw2QG4QLaYOymxU3lV7bTbnszgtgPipH8dM65yxHv0cZ8WQVRUiwt0W7lRxtoBMtRFDD8p8iAKGad-UVSj6BUz74LfQ4eW5rzEW0hEhAsH1Yj-mLHSsxsl73E_jonGhTx3Nx8t33zug5oWQAzU7LdhtZi0w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAg-i2TtQ4XKuV2FwU8qQ-nq3MDWsQqhAQmmX4UqFVJow7T2xxn4p4jxCeI-x25bSmnRJrtR3I0cRLiN7ZHridtx7gYhEQkubkGjxqqU9lUFY0Kx0h05Io2emjGdbl-w8nEhAPzdNzlRyS7NJMeYvBn-PgGhS4PE3_zNnIB_D9Y-THoHeQPHhZOg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAEWykEhyB3aoe4TQRHdFmmJ-tnptuDW71z2MuK9_xUjBOq5x0WW-aXG49-1Oam9zuKuU_iDvWgkNtD0F9bgT0k9fm2NWEUkvBdoOo5xK3dRVWH3BooJ78IZ1E-W2n5Ej6EhD2lymeNYza3DgLZB0uJ4uSGhRYoBrPHT4Nf3WBr6gWNZpqb6OZXA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAOO5TeInGGrgbTRyoMSaDUgucFOKIQ8Gg5gLeYfuJE3n6mfDS8HHBo4h3jgmScezfVprxqyG3relUvG5RCCp2zvi5PCVy9D3AcG-Y0ID-l5vk5EMjMVz-oMaHZ_nHSlK8EhDUhFohEFZlTsYsXAcv6sktGhSmfP191eS6kbNCCDGZcvd2eSoesg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA2c0fNuVyJueLDSTGzDimZwO4F6TDCZ3EOe-N40prWjIrK9NfNVwKMg9FchPMZyulPARqIyrD8pc4avRWDxZYXKzHEqyOkWGYC4QR1fuQla6pLTDcUhYNNhQANKyaIBFSEhDbIPF1a_OXs3dLmi6Ye8SYGhRTYhe5r9qTstVtLwffi3KYCLZc9w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAKlgYxG1GsvxWnQEL-rQs3vMMyX5BuZoM4mUQEfvYzuyVLf-5Gt2hkO8PwxzFo_mxCSZXs8oPWxlG2yz7jJVTWt7FFZxi21NBZZZlLN5kkAy8qw2qpJtrhE1Q50pjGEyzEhAgGe-Dccg1KdMO8vWF3ZSCGhRUi7P_q30UL6tGQsD78Qdb_lQmlw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAXEI0gUNLvNxdSsQFbIysnmBRKtFrxoL6HVEi8a5P1xEey_gAhMU4Ed6G4cutavqXSTE0pYZMdg0ixH9b2EL6s9ec1bnYI1H1MjfGMlXclgPFUXx2UNZQYtdGcVRK-SOPEhCsfxPI5y2LUwm0-fWKpQH2GhRISsMr68h8AjkjPyZdImKwCUWsbQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAZfewfEbf_UWtDhQL9x95VW9DOOghlSua0fk5_aSlNCk4tZJoUSBKxM3SgP4mmYkbv1Re8kzm4VmIkluFqvhz8tLiEUKW9Mehv4z_xWVyJwf0jVQ7XZ5JbOt-oFwGI4gWEhAKoMo6E-6MgQlwSMp3FubCGhRNfuDVst8q1kQRsEJ-S9W0hQSvCg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAsmYZT5KpQf0pB9PQErS-UvjMNhtTPqxxpWIYY565ITDY56jQ0UQ6sm752uPpfUAoe23grGoIGkgMN0OOGyEsg6XMXwexSO69m_nBwNmI5U83IxVZpIeBweAq783mYc0_EhB95i8F5w8mk2u7_A5pCSrlGhR07ddQxGzt4i3KuUTMrYGB1lkcYQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRZAAAARrJMIf4tcJ_i4ncj4tksPquHUrQur6ZbjPHEwOcoPagORIm_LxEPu9MWbrieXIcbS1tIyOAaY5AUJjEjNTopzlyZKUzxWTdCL8SuMkA2J8ROLCm0gRczJaOOGbrQ5YJzEhCnzcvi615slSTUGej_WIF_GhSAxGHWYdFQdsI1D4HbBrQuJ-LDsg",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.alto.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Annandale Road, Off the R44 toward Somerset West, Stellenbosch, 7600, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 881 3884",
+    "type": "string"
+  },
+  "name": {
+    "value": "Alto Estate Winery",
+    "type": "string"
+  }
+}

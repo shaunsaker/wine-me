@@ -1,0 +1,23 @@
+{
+  "address": {
+    "value": "South Africa",
+    "type": "string"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.72542,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.0211799,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "name": {
+    "value": "Wine Estate - Ashanti",
+    "type": "string"
+  }
+}
