@@ -19,11 +19,11 @@ export class CheckIn extends React.Component {
   }
 
   static propTypes = {
-    dispatch: PropTypes.func,
-    userCheckIns: PropTypes.shape({}),
+    dispatch: PropTypes.func.isRequired,
+    userCheckIns: PropTypes.shape({}).isRequired,
     uid: PropTypes.string,
 
-    place: PropTypes.shape({}), // from place page
+    place: PropTypes.shape({}).isRequired, // from place page
   };
 
   static defaultProps = {};

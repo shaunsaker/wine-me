@@ -35,6 +35,7 @@ const FooterButton = ({ handlePress, iconName, text, disabled, alternateStyle, s
       onPress={handlePress}
       style={[styles.container, alternateStyle && styles.alternateContainer]}
       disabled={disabled}
+      testID="footerButton"
     >
       {mainComponent}
     </Touchable>
