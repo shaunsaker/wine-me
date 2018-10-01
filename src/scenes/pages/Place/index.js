@@ -13,7 +13,7 @@ import BackButton from '../../../components/BackButton';
 import Touchable from '../../../components/Touchable';
 import SectionHeader from '../../../components/SectionHeader';
 import PhotoList from '../../../components/PhotoList';
-import FooterButton from '../../../components/FooterButton';
+import CheckIn from '../../../components/CheckIn';
 
 export class Place extends React.Component {
   constructor(props) {
@@ -23,9 +23,7 @@ export class Place extends React.Component {
     this.onOpenInMaps = this.onOpenInMaps.bind(this);
     this.onCall = this.onCall.bind(this);
     this.onOpenWebsite = this.onOpenWebsite.bind(this);
-    this.onCheckIn = this.onCheckIn.bind(this);
     this.link = this.link.bind(this);
-    this.addCheckIn = this.addCheckIn.bind(this);
     this.setSystemMessage = this.setSystemMessage.bind(this);
     this.navigate = this.navigate.bind(this);
 
@@ -35,8 +33,6 @@ export class Place extends React.Component {
   static propTypes = {
     place: PropTypes.shape({}).isRequired, // from relevant page
     dispatch: PropTypes.func,
-    uid: PropTypes.string,
-    userCheckIns: PropTypes.shape({}),
   };
 
   static defaultProps = {};
@@ -69,10 +65,6 @@ export class Place extends React.Component {
     this.link(link);
   }
 
-  onCheckIn() {
-    this.addCheckIn();
-  }
-
   link(url) {
     Linking.canOpenURL(url)
       .then((supported) => {
@@ -85,22 +77,6 @@ export class Place extends React.Component {
         return null;
       })
       .catch((error) => this.setSystemMessage(error.message));
-  }
-
-  addCheckIn() {
-    const { place, dispatch, uid } = this.props;
-    const document = {
-      place_id: place.id,
-      uid,
-    };
-
-    dispatch({
-      type: 'addDocument',
-      meta: {
-        pathParts: ['check_ins'],
-      },
-      payload: { document },
-    });
   }
 
   setSystemMessage(message) {
@@ -119,17 +95,7 @@ export class Place extends React.Component {
   }
 
   render() {
-    // FIXME: Could separate check in feature into CheckInButton
-    const { place, userCheckIns } = this.props;
-
-    // Iterate over the userCheckIns object
-    // Return place that matches the current place id
-    // with the userCheckIn place_id
-    const isCheckedIn = Object.keys(userCheckIns).filter(
-      (documentID) => userCheckIns[documentID].place_id === place.id,
-    ).length
-      ? true
-      : null;
+    const { place } = this.props;
 
     // Get the google places photo uri from the photo references field
     const photos = place.photoReferences
@@ -201,23 +167,14 @@ export class Place extends React.Component {
           {openingHoursComponent}
         </ScrollView>
 
-        <FooterButton
-          handlePress={this.onCheckIn}
-          disabled={isCheckedIn}
-          iconName={isCheckedIn ? 'gps-fixed' : 'gps-not-fixed'}
-          text={isCheckedIn ? 'Checked in' : 'Check in'}
-          alternateStyle={isCheckedIn}
-        />
+        <CheckIn place={place} />
       </Page>
     );
   }
 }
 
-function mapStateToProps(state) {
-  return {
-    uid: state.user.uid,
-    userCheckIns: state.appData.userCheckIns,
-  };
+function mapStateToProps() {
+  return {};
 }
 
 export default connect(mapStateToProps)(Place);
