@@ -1,51 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`BackButton renders renders with all props props 1`] = `
-<View
-  accessible={true}
-  isTVSelectable={true}
-  onResponderGrant={[Function]}
-  onResponderMove={[Function]}
-  onResponderRelease={[Function]}
-  onResponderTerminate={[Function]}
-  onResponderTerminationRequest={[Function]}
-  onStartShouldSetResponder={[Function]}
-  style={
-    Object {
-      "opacity": 1,
-      "paddingRight": 15,
-      "paddingVertical": 10,
-    }
-  }
->
-  <Text
-    allowFontScaling={false}
-    style={
-      Array [
-        Object {
-          "color": undefined,
-          "fontSize": 12,
-        },
-        Object {
-          "color": "#FFFFFF",
-          "fontSize": 28,
-          "marginHorizontal": -9,
-        },
-        Object {
-          "fontFamily": "Material Icons",
-          "fontStyle": "normal",
-          "fontWeight": "normal",
-        },
-        Object {},
-      ]
-    }
-  >
-    
-  </Text>
-</View>
-`;
-
-exports[`BackButton renders renders with minimum required props 1`] = `
+exports[`BackButton renders renders 1`] = `
 <View
   accessible={true}
   isTVSelectable={true}
