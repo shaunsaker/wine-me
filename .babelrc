@@ -1,3 +1,15 @@
 {
-  "presets": ["module:metro-react-native-babel-preset"]
+  "env": {
+    "development": {
+      "presets": ["module:metro-react-native-babel-preset", "module:react-native-dotenv"],
+      "plugins": ["jest-hoist"]
+    },
+    "test": {
+      "presets": [
+        "react-native",
+        "babel-preset-react-native-stage-0/decorator-support",
+        "react-native-dotenv"
+      ]
+    }
+  }
 }
