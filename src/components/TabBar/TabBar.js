@@ -29,6 +29,8 @@ const TabBar = ({ tabs, activeTab, handleTabPress }) => {
       {tabs.map((tab) => {
         const isActive = activeTab && activeTab.name === tab.name;
 
+        const bottomBorderComponent = isActive ? <View style={styles.bottomBorder} /> : null;
+
         return (
           <Touchable
             key={tab.name}
@@ -38,6 +40,8 @@ const TabBar = ({ tabs, activeTab, handleTabPress }) => {
             <Icon name={tab.iconName} style={[styles.icon, isActive && styles.activeText]} />
 
             <Text style={[styles.text, isActive && styles.activeText]}>{tab.name}</Text>
+
+            {bottomBorderComponent}
           </Touchable>
         );
       })}

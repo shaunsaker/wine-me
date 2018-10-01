@@ -2,6 +2,8 @@ import { StyleSheet } from 'react-native';
 
 import styleConstants from '../../styleConstants';
 
+const BORDER_BOTTOM_WIDTH = 2;
+
 const styles = StyleSheet.create({
   container: {
     flexDirection: 'row',
@@ -12,11 +14,9 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     paddingVertical: styleConstants.dimensions.spacing.vertical / 2,
+    paddingBottom: styleConstants.dimensions.spacing.vertical / 2 + BORDER_BOTTOM_WIDTH,
   },
-  activeTabContainer: {
-    borderBottomWidth: 2,
-    borderBottomColor: styleConstants.colors.white,
-  },
+  activeTabContainer: {},
   icon: {
     fontSize: styleConstants.fonts.sizes.icon,
     color: styleConstants.colors.white,
@@ -28,6 +28,14 @@ const styles = StyleSheet.create({
   },
   activeText: {
     color: styleConstants.colors.white,
+  },
+  bottomBorder: {
+    position: 'absolute',
+    bottom: 0,
+    left: 0,
+    right: 0,
+    borderBottomWidth: BORDER_BOTTOM_WIDTH,
+    borderBottomColor: styleConstants.colors.white,
   },
 });
 
