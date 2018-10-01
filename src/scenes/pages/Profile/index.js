@@ -30,7 +30,13 @@ export class Profile extends React.Component {
 
     // Iterate over userCheckIns object
     // Return places that match check in place_ids
-    const checkedInPlaces = Object.keys(userCheckIns).map((checkIn) => places[checkIn.place_id]);
+    const checkedInPlaces = Object.keys(userCheckIns).map((key) => {
+      const checkIn = userCheckIns[key];
+      const placeID = checkIn.place_id;
+      const place = places[placeID];
+
+      return place;
+    });
 
     const placesComponent = checkedInPlaces.length ? (
       <View style={styles.contentContainer}>
