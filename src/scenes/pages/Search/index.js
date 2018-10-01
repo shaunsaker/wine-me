@@ -125,6 +125,13 @@ export class Search extends React.Component {
     // If there is a search term that is at least 2 characters long
     // Filter on searchTerm (lower cased)
     if (searchTerm && searchTerm.length > 1) {
+      // If searchArea has not been selected
+      // Set searchResults to places so that we can
+      // filter on searchTerm
+      if (!searchArea) {
+        searchResults = utils.objects.convertObjectToArray(places);
+      }
+
       searchResults = searchResults.filter((place) => {
         return place.name.toLowerCase().indexOf(searchTerm.toLowerCase()) > -1;
       });
