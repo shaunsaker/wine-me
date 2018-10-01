@@ -4,15 +4,18 @@ import styleConstants from '../../styleConstants';
 
 const styles = StyleSheet.create({
   container: {
-    paddingVertical: styleConstants.dimensions.spacing.vertical,
+    height: 48,
+    justifyContent: 'center',
     paddingHorizontal: styleConstants.dimensions.spacing.horizontal,
     backgroundColor: styleConstants.colors.secondary,
-    flexDirection: 'row',
-    alignItems: 'center',
     ...styleConstants.shadows.small,
   },
   alternateContainer: {
     backgroundColor: styleConstants.colors.white,
+  },
+  contentContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
   },
   icon: {
     fontSize: styleConstants.fonts.sizes.icon,
