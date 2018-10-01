@@ -89,16 +89,17 @@ export class Place extends React.Component {
 
   addCheckIn() {
     const { place, dispatch, uid } = this.props;
+    const document = {
+      place_id: place.id,
+      uid,
+    };
 
     dispatch({
       type: 'addDocument',
       meta: {
         pathParts: ['check_ins'],
       },
-      payload: {
-        place_id: place.id,
-        uid,
-      },
+      payload: { document },
     });
   }
 
