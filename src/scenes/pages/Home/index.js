@@ -60,23 +60,25 @@ export class Home extends React.Component {
     // Create places array from places object
     // Create a relative distance key based on coords
     // Sort it by distance (low to high)
-    // FIXME: 3 iterations over entire places object (could be one)
-    const placesArray = utils.arrays.sortArrayOfObjectsByKey(
-      utils.objects.convertObjectToArray(places).map((place) => {
-        const newPlace = { ...place };
-        const deviceCoords = {
-          lat: deviceLocation.latitude,
-          lng: deviceLocation.longitude,
-        };
-        newPlace.relativeDistance = utils.app.getDistanceBetweenCoordinates(
-          place.location,
-          deviceCoords,
-        );
+    // Limit places to 10 (NOTE: This greatly improves perf)
+    const placesArray = utils.arrays
+      .sortArrayOfObjectsByKey(
+        utils.objects.convertObjectToArray(places).map((place) => {
+          const newPlace = { ...place };
+          const deviceCoords = {
+            lat: deviceLocation.latitude,
+            lng: deviceLocation.longitude,
+          };
+          newPlace.relativeDistance = utils.app.getDistanceBetweenCoordinates(
+            place.location,
+            deviceCoords,
+          );
 
-        return newPlace;
-      }),
-      'relativeDistance',
-    );
+          return newPlace;
+        }),
+        'relativeDistance',
+      )
+      .slice(0, 10);
 
     const featuredPlacesComponent = featuredPlacesArray.length ? (
       <PlaceList data={featuredPlacesArray} handlePress={this.onPlacePress} />
