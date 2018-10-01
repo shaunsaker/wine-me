@@ -12,12 +12,13 @@ const propTypes = {
   handlePress: PropTypes.func, // if supplied will render Search text instead of an input
   value: PropTypes.string,
   handleChangeText: PropTypes.func,
+  autoFocus: PropTypes.bool,
   style: ViewPropTypes.style,
 };
 
 const defaultProps = {};
 
-const SearchInput = ({ handlePress, value, handleChangeText, style }) => {
+const SearchInput = ({ handlePress, value, handleChangeText, autoFocus, style }) => {
   const textComponent = handlePress ? (
     <Text style={styles.text}>Search</Text>
   ) : (
@@ -26,6 +27,7 @@ const SearchInput = ({ handlePress, value, handleChangeText, style }) => {
       placeholderTextColor={styleConstants.colors.white}
       value={value}
       onChangeText={handleChangeText}
+      autoFocus={autoFocus}
       style={[styles.input, styles.text]}
     />
   );

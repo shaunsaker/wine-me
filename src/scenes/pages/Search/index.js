@@ -179,6 +179,7 @@ export class Search extends React.Component {
             <SearchInput
               value={searchTerm}
               handleChangeText={this.onChangeText}
+              autoFocus
               style={styles.searchInput}
             />
 
