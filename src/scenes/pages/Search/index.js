@@ -150,25 +150,26 @@ export class Search extends React.Component {
       </Animator>
     ) : null;
 
-    const searchResultsComponent = searchResults ? (
-      searchResults.length ? (
-        <View style={styles.placeListContainer}>
-          <PlaceList data={searchResults} handlePress={this.onPlacePress} />
-        </View>
+    const searchResultsComponent =
+      searchTerm && searchResults ? (
+        searchResults.length ? (
+          <View style={styles.placeListContainer}>
+            <PlaceList data={searchResults} handlePress={this.onPlacePress} />
+          </View>
+        ) : (
+          <BlankState
+            iconName="search"
+            title="No results found"
+            description="We couldn't find any results for your search. Try searching for something else."
+          />
+        )
       ) : (
         <BlankState
           iconName="search"
-          title="No results found"
-          description="We couldn't find any results for your search. Try searching for something else."
+          title="Search over 525+ places in the Western Cape"
+          description="If you're heading somewhere specific, try an area search by tapping on of the red buttons."
         />
-      )
-    ) : (
-      <BlankState
-        iconName="search"
-        title="Search over 525+ places in the Western Cape"
-        description="If you're heading somewhere specific, try an area search by tapping on of the red buttons."
-      />
-    );
+      );
 
     return (
       <Page>
