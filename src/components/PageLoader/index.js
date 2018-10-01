@@ -1,8 +1,10 @@
 import React from 'react';
-import { View, ActivityIndicator } from 'react-native';
+import { ActivityIndicator } from 'react-native';
 
 import styleConstants from '../../styleConstants';
 import styles from './styles';
+
+import Page from '../Page';
 
 const propTypes = {};
 
@@ -10,9 +12,9 @@ const defaultProps = {};
 
 const PageLoader = () => {
   return (
-    <View style={styles.container}>
+    <Page verticalCenter horizontalCenter style={styles.container}>
       <ActivityIndicator size="large" color={styleConstants.colors.white} />
-    </View>
+    </Page>
   );
 };
 
