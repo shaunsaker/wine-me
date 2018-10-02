@@ -11,7 +11,7 @@ This was in fact a complete app rewrite masquerading as a minor version bump due
 
 ### Fixed
 
-- "Close to me" places sorting
+- Fixed "Close to me" places sorting
 
 ### Changed
 
@@ -19,15 +19,16 @@ This was in fact a complete app rewrite masquerading as a minor version bump due
 
 ### Added
 
-- Offline persistence
-- Cacheable images
-- Profile page with "My Places"
-- Unit tests
+- Added offline persistence
+- Added cacheable images
+- Added profile page with "My Places"
+- Added unit tests
+- Added codePush
 
 ### Removed
 
-- Social authentication
-- "My Places" tab on Home page
-- Side menu
-- Leaderboard
-- About page
+- Removed social authentication
+- Removed "My Places" tab on Home page
+- Removed Side menu
+- Removed Leaderboard page
+- Removed About page

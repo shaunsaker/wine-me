@@ -1,6 +1,6 @@
 # TODOS
 
-- Screenshots (fastlane)
+- Screenshots
 - CI
 - Release
   - Android, iOS, CodePush
