@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PhotoList renders renders with minimum required props 1`] = `
+<RCTScrollView
+  contentContainerStyle={
+    Object {
+      "paddingLeft": 40.5,
+    }
+  }
+  data={
+    Array [
+      Object {
+        "uri": "https://maps.googleapis.com/maps/api/place/photo?maxheight=undefined&photoreference=CmRaAAAAF5bkjtj7bFEGaZqTN1_uZrJMvM6EEOFle3UIDd5JEbZwb281f2F4EH-XR1o6frihMiOzrJEx1KlczmV8o4qLrYygDZE-TKthSRT1SdzvrEQ6AjQbCG6sVeZBR48V0lMLEhDkpyqJh9O9z4Ai-7All7swGhQwTkHxJ77yIZ9d0c8oqWifUrL6eA&key=undefined",
+      },
+    ]
+  }
+  disableVirtualization={false}
+  getItem={[Function]}
+  getItemCount={[Function]}
+  horizontal={true}
+  initialNumToRender={3}
+  keyExtractor={[Function]}
+  maxToRenderPerBatch={10}
+  numColumns={1}
+  onContentSizeChange={[Function]}
+  onEndReachedThreshold={2}
+  onLayout={[Function]}
+  onMomentumScrollEnd={[Function]}
+  onScroll={[Function]}
+  onScrollBeginDrag={[Function]}
+  onScrollEndDrag={[Function]}
+  renderItem={[Function]}
+  scrollEventThrottle={50}
+  stickyHeaderIndices={Array []}
+  style={Object {}}
+  updateCellsBatchingPeriod={50}
+  viewabilityConfigCallbackPairs={Array []}
+  windowSize={21}
+>
+  <View>
+    <View
+      onLayout={[Function]}
+      style={
+        Array [
+          Object {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "paddingBottom": 10,
+            "paddingRight": 15,
+          }
+        }
+      >
+        <View
+          style={Object {}}
+        >
+          <View
+            style={
+              Array [
+                Array [
+                  Object {
+                    "flex": 1,
+                    "height": 200,
+                  },
+                  Object {
+                    "borderRadius": 5,
+                    "height": 120,
+                    "overflow": "hidden",
+                    "width": 120,
+                  },
+                ],
+                Object {
+                  "overflow": "hidden",
+                },
+              ]
+            }
+          >
+            <FastImageView
+              borderRadius={5}
+              onFastImageError={[Function]}
+              onFastImageLoadEnd={[Function]}
+              onFastImageLoadStart={[Function]}
+              resizeMode="cover"
+              source={
+                Object {
+                  "uri": "https://maps.googleapis.com/maps/api/place/photo?maxheight=undefined&photoreference=CmRaAAAAF5bkjtj7bFEGaZqTN1_uZrJMvM6EEOFle3UIDd5JEbZwb281f2F4EH-XR1o6frihMiOzrJEx1KlczmV8o4qLrYygDZE-TKthSRT1SdzvrEQ6AjQbCG6sVeZBR48V0lMLEhDkpyqJh9O9z4Ai-7All7swGhQwTkHxJ77yIZ9d0c8oqWifUrL6eA&key=undefined",
+                }
+              }
+              style={
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+            />
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;
