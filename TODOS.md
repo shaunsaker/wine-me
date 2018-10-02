@@ -1,13 +1,14 @@
 # TODOS
 
-- E2E
-- Create iPhone5/6 launch screens
-- Versioning
 - Change log
 - Screenshots (fastlane)
 - CI
 - Release
   - Android, iOS, CodePush
+
+## PENDING EXTERNAL
+
+- Create iPhone5/6 launch screens
 
 ## FEATURES
 
