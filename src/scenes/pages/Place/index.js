@@ -32,7 +32,7 @@ export class Place extends React.Component {
 
   static propTypes = {
     place: PropTypes.shape({}).isRequired, // from relevant page
-    dispatch: PropTypes.func,
+    dispatch: PropTypes.func.isRequired,
   };
 
   static defaultProps = {};
@@ -134,7 +134,7 @@ export class Place extends React.Component {
     return (
       <Page>
         <HeaderBar style={styles.headerBar}>
-          <BackButton handlePress={this.onBack} />
+          <BackButton handlePress={this.onBack} testID="place.button.back" />
 
           <Text style={styles.titleText}>{place.name}</Text>
         </HeaderBar>
@@ -146,19 +146,23 @@ export class Place extends React.Component {
             {photoListComponent}
           </View>
 
-          <Touchable onPress={this.onOpenInMaps} style={styles.section}>
+          <Touchable onPress={this.onOpenInMaps} style={styles.section} testID="place.button.maps">
             <SectionHeader iconName="location-on" text="Address" />
 
             <Text style={[styles.text, styles.linkText]}>{place.address}</Text>
           </Touchable>
 
-          <Touchable onPress={this.onCall} style={styles.section}>
+          <Touchable onPress={this.onCall} style={styles.section} testID="place.button.call">
             <SectionHeader iconName="phone" text="Contact number" />
 
             <Text style={[styles.text, styles.linkText]}>{place.phoneNumber}</Text>
           </Touchable>
 
-          <Touchable onPress={this.onOpenWebsite} style={styles.section}>
+          <Touchable
+            onPress={this.onOpenWebsite}
+            style={styles.section}
+            testID="place.button.website"
+          >
             <SectionHeader iconName="web" text="Website" />
 
             <Text style={[styles.text, styles.linkText]}>{place.website}</Text>
