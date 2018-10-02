@@ -29,6 +29,7 @@ const SearchInput = ({ handlePress, value, handleChangeText, autoFocus, style })
       onChangeText={handleChangeText}
       autoFocus={autoFocus}
       style={[styles.input, styles.text]}
+      underlineColorAndroid="transparent"
     />
   );
 
