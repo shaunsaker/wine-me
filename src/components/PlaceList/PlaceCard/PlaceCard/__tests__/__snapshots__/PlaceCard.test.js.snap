@@ -1,0 +1,413 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PlaceCard renders renders the label state 1`] = `
+<View
+  accessible={true}
+  isTVSelectable={true}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignSelf": "stretch",
+      "backgroundColor": "#FFFFFF",
+      "borderColor": null,
+      "borderRadius": 5,
+      "borderWidth": 0,
+      "elevation": 2,
+      "opacity": 1,
+      "overflow": "hidden",
+      "shadowColor": "#212121",
+      "shadowOffset": Object {
+        "height": 1,
+        "width": 0,
+      },
+      "shadowOpacity": 0.17,
+      "shadowRadius": 2,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#3D84A8",
+        "borderRadius": 5,
+        "flex": 1,
+        "height": 200,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={false}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": undefined,
+            "fontSize": 12,
+          },
+          Object {
+            "color": "#FFFFFF",
+            "fontSize": 36,
+          },
+          Object {
+            "fontFamily": "Material Icons",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          Object {},
+        ]
+      }
+    >
+      
+    </Text>
+  </View>
+  <BVLinearGradient
+    colors={
+      Array [
+        0,
+        3003121664,
+      ]
+    }
+    endPoint={
+      Object {
+        "x": 0.5,
+        "y": 1,
+      }
+    }
+    locations={null}
+    startPoint={
+      Object {
+        "x": 0.5,
+        "y": 0,
+      }
+    }
+    style={
+      Object {
+        "alignItems": "flex-start",
+        "borderBottomLeftRadius": 5,
+        "borderBottomRightRadius": 5,
+        "bottom": 0,
+        "left": 0,
+        "paddingHorizontal": 15,
+        "paddingTop": 30,
+        "paddingVertical": 10,
+        "position": "absolute",
+        "right": 0,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#FFFFFF",
+          "fontFamily": undefined,
+          "fontSize": 17,
+          "fontWeight": "600",
+          "marginBottom": 10,
+        }
+      }
+    />
+    <View
+      accessible={true}
+      isTVSelectable={true}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#E23E57",
+          "borderColor": null,
+          "borderRadius": 5,
+          "borderWidth": 0,
+          "elevation": 2,
+          "opacity": 1,
+          "paddingHorizontal": 7.5,
+          "paddingVertical": 5,
+          "shadowColor": "#212121",
+          "shadowOffset": Object {
+            "height": 1,
+            "width": 0,
+          },
+          "shadowOpacity": 0.17,
+          "shadowRadius": 2,
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#FFFFFF",
+            "fontFamily": undefined,
+            "fontSize": 11,
+            "fontWeight": "600",
+          }
+        }
+      >
+        Test
+      </Text>
+    </View>
+  </BVLinearGradient>
+</View>
+`;
+
+exports[`PlaceCard renders renders the remote image state 1`] = `
+<View
+  accessible={true}
+  isTVSelectable={true}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignSelf": "stretch",
+      "backgroundColor": "#FFFFFF",
+      "borderColor": null,
+      "borderRadius": 5,
+      "borderWidth": 0,
+      "elevation": 2,
+      "opacity": 1,
+      "overflow": "hidden",
+      "shadowColor": "#212121",
+      "shadowOffset": Object {
+        "height": 1,
+        "width": 0,
+      },
+      "shadowOpacity": 0.17,
+      "shadowRadius": 2,
+    }
+  }
+>
+  <View
+    style={Object {}}
+  >
+    <View
+      style={
+        Array [
+          Array [
+            Object {
+              "flex": 1,
+              "height": 200,
+            },
+            undefined,
+          ],
+          Object {
+            "overflow": "hidden",
+          },
+        ]
+      }
+    >
+      <FastImageView
+        borderRadius={5}
+        onFastImageError={[Function]}
+        onFastImageLoadEnd={[Function]}
+        onFastImageLoadStart={[Function]}
+        resizeMode="cover"
+        source={
+          Object {
+            "uri": "https://maps.googleapis.com/maps/api/place/photo?maxheight=undefined&photoreference=CmRaAAAAF5bkjtj7bFEGaZqTN1_uZrJMvM6EEOFle3UIDd5JEbZwb281f2F4EH-XR1o6frihMiOzrJEx1KlczmV8o4qLrYygDZE-TKthSRT1SdzvrEQ6AjQbCG6sVeZBR48V0lMLEhDkpyqJh9O9z4Ai-7All7swGhQwTkHxJ77yIZ9d0c8oqWifUrL6eA&key=undefined",
+          }
+        }
+        style={
+          Object {
+            "bottom": 0,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+      />
+    </View>
+  </View>
+  <BVLinearGradient
+    colors={
+      Array [
+        0,
+        3003121664,
+      ]
+    }
+    endPoint={
+      Object {
+        "x": 0.5,
+        "y": 1,
+      }
+    }
+    locations={null}
+    startPoint={
+      Object {
+        "x": 0.5,
+        "y": 0,
+      }
+    }
+    style={
+      Object {
+        "alignItems": "flex-start",
+        "borderBottomLeftRadius": 5,
+        "borderBottomRightRadius": 5,
+        "bottom": 0,
+        "left": 0,
+        "paddingHorizontal": 15,
+        "paddingTop": 30,
+        "paddingVertical": 10,
+        "position": "absolute",
+        "right": 0,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#FFFFFF",
+          "fontFamily": undefined,
+          "fontSize": 17,
+          "fontWeight": "600",
+          "marginBottom": 10,
+        }
+      }
+    />
+  </BVLinearGradient>
+</View>
+`;
+
+exports[`PlaceCard renders renders with minimum required props 1`] = `
+<View
+  accessible={true}
+  isTVSelectable={true}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignSelf": "stretch",
+      "backgroundColor": "#FFFFFF",
+      "borderColor": null,
+      "borderRadius": 5,
+      "borderWidth": 0,
+      "elevation": 2,
+      "opacity": 1,
+      "overflow": "hidden",
+      "shadowColor": "#212121",
+      "shadowOffset": Object {
+        "height": 1,
+        "width": 0,
+      },
+      "shadowOpacity": 0.17,
+      "shadowRadius": 2,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#3D84A8",
+        "borderRadius": 5,
+        "flex": 1,
+        "height": 200,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={false}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": undefined,
+            "fontSize": 12,
+          },
+          Object {
+            "color": "#FFFFFF",
+            "fontSize": 36,
+          },
+          Object {
+            "fontFamily": "Material Icons",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          Object {},
+        ]
+      }
+    >
+      
+    </Text>
+  </View>
+  <BVLinearGradient
+    colors={
+      Array [
+        0,
+        3003121664,
+      ]
+    }
+    endPoint={
+      Object {
+        "x": 0.5,
+        "y": 1,
+      }
+    }
+    locations={null}
+    startPoint={
+      Object {
+        "x": 0.5,
+        "y": 0,
+      }
+    }
+    style={
+      Object {
+        "alignItems": "flex-start",
+        "borderBottomLeftRadius": 5,
+        "borderBottomRightRadius": 5,
+        "bottom": 0,
+        "left": 0,
+        "paddingHorizontal": 15,
+        "paddingTop": 30,
+        "paddingVertical": 10,
+        "position": "absolute",
+        "right": 0,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#FFFFFF",
+          "fontFamily": undefined,
+          "fontSize": 17,
+          "fontWeight": "600",
+          "marginBottom": 10,
+        }
+      }
+    />
+  </BVLinearGradient>
+</View>
+`;

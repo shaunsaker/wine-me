@@ -31,7 +31,7 @@ export class PlaceCardContainer extends React.Component {
     deviceLocation: PropTypes.shape({
       latitude: PropTypes.number,
       longitude: PropTypes.number,
-    }),
+    }).isRequired,
   };
 
   static defaultProps = {};
@@ -81,7 +81,13 @@ export class PlaceCardContainer extends React.Component {
     }
 
     return (
-      <PlaceCard imageSource={imageSource} title={title} label={label} handlePress={this.onPress} />
+      <PlaceCard
+        imageSource={imageSource}
+        title={title}
+        label={label}
+        handlePress={this.onPress}
+        testID="placeCardContainer"
+      />
     );
   }
 }

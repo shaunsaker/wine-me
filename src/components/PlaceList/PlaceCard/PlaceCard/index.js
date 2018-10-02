@@ -3,20 +3,21 @@ import PropTypes from 'prop-types';
 import { Text } from 'react-native';
 import LinearGradient from 'react-native-linear-gradient';
 
-import styleConstants from '../../../styleConstants';
+import styleConstants from '../../../../styleConstants';
 
 import styles from './styles';
 
-import Touchable from '../../Touchable';
-import RemoteImage from '../../RemoteImage';
+import Touchable from '../../../Touchable';
+import RemoteImage from '../../../RemoteImage';
 import PlaceCardImagePlaceholder from './PlaceCardImagePlaceholder';
-import Label from '../../Label';
+import Label from '../../../Label';
 
 const propTypes = {
   imageSource: PropTypes.oneOfType([PropTypes.number, PropTypes.shape({ uri: PropTypes.string })]),
   title: PropTypes.string,
   label: PropTypes.string,
   handlePress: PropTypes.func,
+  testID: PropTypes.string,
 };
 
 const defaultProps = {};
@@ -29,7 +30,7 @@ const defaultProps = {};
   - A title and a label wrapped in a linear gradient for better text contrast
 */
 
-const PlaceCard = ({ imageSource, title, label, handlePress }) => {
+const PlaceCard = ({ imageSource, title, label, handlePress, testID }) => {
   const imageComponent = imageSource ? (
     <RemoteImage source={imageSource} />
   ) : (
@@ -38,7 +39,7 @@ const PlaceCard = ({ imageSource, title, label, handlePress }) => {
   const labelComponent = label ? <Label text={label} /> : null;
 
   return (
-    <Touchable onPress={handlePress} style={styles.container}>
+    <Touchable onPress={handlePress} style={styles.container} testID={testID}>
       {imageComponent}
 
       <LinearGradient
