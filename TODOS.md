@@ -1,8 +1,9 @@
 # TODOS
 
 - Assets
-- Versionining
+- Versioning
 - Change log
+- Screenshots (fastlane)
 - Release
   - Android, iOS, CodePush
 
