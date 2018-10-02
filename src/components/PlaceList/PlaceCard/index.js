@@ -11,6 +11,9 @@ export class PlaceCardContainer extends React.Component {
   constructor(props) {
     super(props);
 
+    this.onPress = this.onPress.bind(this);
+    this.navigate = this.navigate.bind(this);
+
     this.state = {};
   }
 
@@ -23,7 +26,6 @@ export class PlaceCardContainer extends React.Component {
       }),
       photoReferences: PropTypes.arrayOf(PropTypes.string),
     }).isRequired,
-    handlePress: PropTypes.func,
 
     // From store
     deviceLocation: PropTypes.shape({
@@ -34,8 +36,18 @@ export class PlaceCardContainer extends React.Component {
 
   static defaultProps = {};
 
+  onPress() {
+    const { place } = this.props;
+
+    this.navigate('place', { place });
+  }
+
+  navigate(page, props) {
+    utils.app.navigate(page, props);
+  }
+
   render() {
-    const { place, deviceLocation, handlePress } = this.props;
+    const { place, deviceLocation } = this.props;
 
     // Get the google places photo uri from the photo reference
     const photoReference = place.photoReferences && place.photoReferences[0];
@@ -69,7 +81,7 @@ export class PlaceCardContainer extends React.Component {
     }
 
     return (
-      <PlaceCard imageSource={imageSource} title={title} label={label} handlePress={handlePress} />
+      <PlaceCard imageSource={imageSource} title={title} label={label} handlePress={this.onPress} />
     );
   }
 }

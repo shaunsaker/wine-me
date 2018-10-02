@@ -15,17 +15,14 @@ export default class PlaceList extends React.Component {
 
   static propTypes = {
     data: PropTypes.arrayOf(PropTypes.shape({})),
-    handlePress: PropTypes.func,
   };
 
   static defaultProps = {};
 
   renderItem({ item }) {
-    const { handlePress } = this.props;
-
     return (
       <View style={styles.itemContainer}>
-        <PlaceCard place={item} handlePress={() => handlePress(item)} />
+        <PlaceCard place={item} />
       </View>
     );
   }

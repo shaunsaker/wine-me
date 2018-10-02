@@ -1,6 +1,6 @@
 # TODOS
 
-- Fix profile press bug
+- Fix search logic
 - Unit testing
   - components
   - handlers

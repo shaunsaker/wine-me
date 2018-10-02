@@ -19,7 +19,6 @@ export class Home extends React.Component {
     super(props);
 
     this.onSearchButtonPress = this.onSearchButtonPress.bind(this);
-    this.onPlacePress = this.onPlacePress.bind(this);
     this.navigate = this.navigate.bind(this);
 
     this.state = {};
@@ -35,10 +34,6 @@ export class Home extends React.Component {
 
   onSearchButtonPress() {
     this.navigate('search');
-  }
-
-  onPlacePress(place) {
-    this.navigate('place', { place });
   }
 
   navigate(page, props) {
@@ -81,16 +76,12 @@ export class Home extends React.Component {
       .slice(0, 10);
 
     const featuredPlacesComponent = featuredPlacesArray.length ? (
-      <PlaceList data={featuredPlacesArray} handlePress={this.onPlacePress} />
+      <PlaceList data={featuredPlacesArray} />
     ) : (
       <Loader />
     );
 
-    const placesComponent = placesArray.length ? (
-      <PlaceList data={placesArray} handlePress={this.onPlacePress} />
-    ) : (
-      <Loader />
-    );
+    const placesComponent = placesArray.length ? <PlaceList data={placesArray} /> : <Loader />;
 
     return (
       <Page>

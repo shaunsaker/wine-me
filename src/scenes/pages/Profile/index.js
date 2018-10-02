@@ -42,7 +42,7 @@ export class Profile extends React.Component {
       <View style={styles.contentContainer}>
         <SectionHeader text="My places" />
 
-        <PlaceList data={checkedInPlaces} handlePress={this.onPlacePress} />
+        <PlaceList data={checkedInPlaces} />
       </View>
     ) : (
       <BlankState

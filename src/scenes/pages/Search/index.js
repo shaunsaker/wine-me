@@ -29,7 +29,6 @@ export class Search extends React.Component {
     this.setSearchTerm = this.setSearchTerm.bind(this);
     this.dismissKeyboard = this.dismissKeyboard.bind(this);
     this.setSearchArea = this.setSearchArea.bind(this);
-    this.onPlacePress = this.onPlacePress.bind(this);
     this.navigate = this.navigate.bind(this);
 
     this.state = {
@@ -77,10 +76,6 @@ export class Search extends React.Component {
     this.setState({
       searchArea,
     });
-  }
-
-  onPlacePress(place) {
-    this.navigate('place', { place });
   }
 
   navigate(page, props) {
@@ -154,7 +149,7 @@ export class Search extends React.Component {
       searchTerm && searchResults ? (
         searchResults.length ? (
           <View style={styles.placeListContainer}>
-            <PlaceList data={searchResults} handlePress={this.onPlacePress} />
+            <PlaceList data={searchResults} />
           </View>
         ) : (
           <BlankState
