@@ -2,8 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { TouchableOpacity, ViewPropTypes } from 'react-native';
 
-import styleConstants from '../../styleConstants';
-
 const propTypes = {
   onPress: PropTypes.func,
   onLongPress: PropTypes.func,
