@@ -1,6 +1,5 @@
 # TODOS
 
-- Change log
 - Screenshots (fastlane)
 - CI
 - Release
