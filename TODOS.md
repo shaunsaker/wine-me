@@ -1,9 +1,5 @@
 # TODOS
 
-- Unit testing
-  - scenes
-  - utils
-  - DataHandler => DatabaseHandler + tests
 - E2E
 - Create iPhone5/6 launch screens
 - Versioning
@@ -22,3 +18,4 @@
 - Scripts
 - Move SearchInput button press action to the component
 - Move Place BackButton press action to the component
+- Test app utils

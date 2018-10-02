@@ -47,6 +47,7 @@
     "babel-jest": "23.2.0",
     "babel-preset-react-native": "4.0.0",
     "babel-runtime": "^6.26.0",
+    "detox": "^9.0.4",
     "eslint": "^5.0.1",
     "eslint-config-airbnb": "^17.0.0",
     "eslint-plugin-detox": "^1.0.0",
@@ -70,5 +71,16 @@
     "transformIgnorePatterns": [
       "node_modules/(?!(jest-)?react-native|react-navigation)"
     ]
+  },
+  "detox": {
+    "configurations": {
+      "ios.sim.debug": {
+        "binaryPath": "ios/build/Build/Products/Debug-iphonesimulator/WineMe.app",
+        "build": "xcodebuild -project ios/WineMe.xcodeproj -scheme WineMe -configuration Debug -sdk iphonesimulator -derivedDataPath ios/build",
+        "type": "ios.simulator",
+        "name": "iPhone 7"
+      }
+    },
+    "test-runner": "jest"
   }
 }

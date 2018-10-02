@@ -43,7 +43,7 @@
     "operator-linebreak": "off",
     "max-len": "off"
   },
-  "plugins": ["react", "react-native"],
+  "plugins": ["react", "react-native", "detox"],
   "globals": {
     "__DEV__": true
   },
