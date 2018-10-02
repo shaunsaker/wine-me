@@ -25,9 +25,10 @@ export class Home extends React.Component {
   }
 
   static propTypes = {
-    featuredPlaces: PropTypes.shape({ place_id: PropTypes.string }),
-    places: PropTypes.shape({ location: PropTypes.shape({}) }),
-    deviceLocation: PropTypes.shape({ latitude: PropTypes.number, longitude: PropTypes.number }),
+    featuredPlaces: PropTypes.shape({ place_id: PropTypes.string }).isRequired,
+    places: PropTypes.shape({ location: PropTypes.shape({}) }).isRequired,
+    deviceLocation: PropTypes.shape({ latitude: PropTypes.number, longitude: PropTypes.number })
+      .isRequired,
   };
 
   static defaultProps = {};
@@ -86,7 +87,7 @@ export class Home extends React.Component {
     return (
       <Page>
         <HeaderBar>
-          <SearchInput handlePress={this.onSearchButtonPress} />
+          <SearchInput handlePress={this.onSearchButtonPress} testID="home.button.searchInput" />
         </HeaderBar>
 
         <ScrollView style={styles.container} contentContainerStyle={styles.contentContainer}>

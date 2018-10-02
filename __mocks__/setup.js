@@ -13,6 +13,7 @@ jest.mock('react-native-router-flux', () => {
       home: jest.fn(),
       _home: jest.fn(),
       place: jest.fn(),
+      search: jest.fn(),
     },
     ActionConst: {
       FOCUS: 'FOCUS',

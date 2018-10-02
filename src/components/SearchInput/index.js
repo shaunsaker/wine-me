@@ -14,11 +14,12 @@ const propTypes = {
   handleChangeText: PropTypes.func,
   autoFocus: PropTypes.bool,
   style: ViewPropTypes.style,
+  testID: PropTypes.string,
 };
 
 const defaultProps = {};
 
-const SearchInput = ({ handlePress, value, handleChangeText, autoFocus, style }) => {
+const SearchInput = ({ handlePress, value, handleChangeText, autoFocus, style, testID }) => {
   const textComponent = handlePress ? (
     <Text style={styles.text}>Search</Text>
   ) : (
@@ -34,7 +35,12 @@ const SearchInput = ({ handlePress, value, handleChangeText, autoFocus, style })
   );
 
   return (
-    <Touchable onPress={handlePress} disabled={!handlePress} style={[styles.container, style]}>
+    <Touchable
+      onPress={handlePress}
+      disabled={!handlePress}
+      style={[styles.container, style]}
+      testID={testID}
+    >
       <Icon name="search" style={styles.icon} />
 
       {textComponent}
