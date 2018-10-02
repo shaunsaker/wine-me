@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { Page, InfoBlock } from 'react-native-simple-components';
 
-import styleConstants from '../../../styleConstants';
+import styles from './styles';
 
 export class Error extends React.Component {
   constructor(props) {
@@ -24,14 +24,7 @@ export class Error extends React.Component {
     const { message } = this.props;
 
     return (
-      <Page
-        style={{
-          justifyContent: 'center',
-          alignItems: 'center',
-          paddingVertical: styleConstants.dimensions.spacing.vertical,
-          paddingHorizontal: styleConstants.dimensions.spacing.horizontal,
-        }}
-      >
+      <Page verticalCenter horizontalCenter style={styles.container}>
         <InfoBlock title="Error" description={message} />
       </Page>
     );

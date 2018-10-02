@@ -1,7 +1,6 @@
 # TODOS
 
 - Unit testing
-  - handlers
   - scenes
   - utils
   - DataHandler => DatabaseHandler + tests
