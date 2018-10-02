@@ -19,8 +19,8 @@ export class Profile extends React.Component {
   }
 
   static propTypes = {
-    userCheckIns: PropTypes.shape({}),
-    places: PropTypes.shape({}),
+    userCheckIns: PropTypes.shape({}).isRequired,
+    places: PropTypes.shape({}).isRequired,
   };
 
   static defaultProps = {};
