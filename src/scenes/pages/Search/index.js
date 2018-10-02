@@ -38,8 +38,8 @@ export class Search extends React.Component {
   }
 
   static propTypes = {
-    searchAreas: PropTypes.shape({}),
-    places: PropTypes.shape({}),
+    searchAreas: PropTypes.shape({}).isRequired,
+    places: PropTypes.shape({}).isRequired,
   };
 
   static defaultProps = {};
@@ -141,7 +141,11 @@ export class Search extends React.Component {
         shouldAnimateIn
         style={styles.selectedSearchAreaLabelContainer}
       >
-        <Label text={searchArea.name} handlePress={this.onSelectedSearchAreaLabelPress} />
+        <Label
+          text={searchArea.name}
+          handlePress={this.onSelectedSearchAreaLabelPress}
+          testID={`search.label.selected.${searchArea.name}`}
+        />
       </Animator>
     ) : null;
 
@@ -181,13 +185,15 @@ export class Search extends React.Component {
       <Page>
         <HeaderBar>
           <View style={styles.row}>
-            <BackButton handlePress={this.onBack} />
+            <BackButton handlePress={this.onBack} testID="search.button.back" />
 
             <SearchInput
               value={searchTerm}
               handleChangeText={this.onChangeText}
+              handleSubmit={this.onSubmit}
               autoFocus
               style={styles.searchInput}
+              inputTestID="search.input"
             />
 
             {selectedSearchAreaComponent}
@@ -197,6 +203,7 @@ export class Search extends React.Component {
             <SearchAreaLabelList
               data={searchAreasArray}
               handlePress={this.onSearchAreaLabelPress}
+              testIDPrefix="search.label."
             />
           </View>
         </HeaderBar>

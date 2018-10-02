@@ -12,14 +12,25 @@ const propTypes = {
   handlePress: PropTypes.func, // if supplied will render Search text instead of an input
   value: PropTypes.string,
   handleChangeText: PropTypes.func,
+  handleSubmit: PropTypes.func,
   autoFocus: PropTypes.bool,
   style: ViewPropTypes.style,
   testID: PropTypes.string,
+  inputTestID: PropTypes.string,
 };
 
 const defaultProps = {};
 
-const SearchInput = ({ handlePress, value, handleChangeText, autoFocus, style, testID }) => {
+const SearchInput = ({
+  handlePress,
+  value,
+  handleChangeText,
+  handleSubmit,
+  autoFocus,
+  style,
+  testID,
+  inputTestID,
+}) => {
   const textComponent = handlePress ? (
     <Text style={styles.text}>Search</Text>
   ) : (
@@ -28,9 +39,11 @@ const SearchInput = ({ handlePress, value, handleChangeText, autoFocus, style, t
       placeholderTextColor={styleConstants.colors.white}
       value={value}
       onChangeText={handleChangeText}
+      onSubmitEditing={handleSubmit}
       autoFocus={autoFocus}
       style={[styles.input, styles.text]}
       underlineColorAndroid="transparent"
+      testID={inputTestID}
     />
   );
 

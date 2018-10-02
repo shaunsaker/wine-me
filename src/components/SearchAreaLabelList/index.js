@@ -20,16 +20,21 @@ export default class SearchAreaLabelLIst extends React.Component {
       }),
     ),
     handlePress: PropTypes.func,
+    testIDPrefix: PropTypes.string,
   };
 
   static defaultProps = {};
 
   renderItem({ item }) {
-    const { handlePress } = this.props;
+    const { handlePress, testIDPrefix } = this.props;
 
     return (
       <View style={styles.labelContainer}>
-        <Label text={item.name} handlePress={() => handlePress(item)} />
+        <Label
+          text={item.name}
+          handlePress={() => handlePress(item)}
+          testID={testIDPrefix + item.name}
+        />
       </View>
     );
   }

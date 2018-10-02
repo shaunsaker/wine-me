@@ -9,13 +9,19 @@ import Touchable from '../Touchable';
 const propTypes = {
   handlePress: PropTypes.func,
   text: PropTypes.string,
+  testID: PropTypes.string,
 };
 
 const defaultProps = {};
 
-const Label = ({ handlePress, text }) => {
+const Label = ({ handlePress, text, testID }) => {
   return (
-    <Touchable onPress={handlePress} disabled={!handlePress} style={styles.container}>
+    <Touchable
+      onPress={handlePress}
+      disabled={!handlePress}
+      style={styles.container}
+      testID={testID}
+    >
       <Text style={styles.text}>{text}</Text>
     </Touchable>
   );
