@@ -86,6 +86,7 @@ exports[`SearchAreaLabelList renders renders with minimum required props 1`] = `
               "shadowRadius": 2,
             }
           }
+          testID="undefinedRobertson"
         >
           <Text
             accessible={true}
