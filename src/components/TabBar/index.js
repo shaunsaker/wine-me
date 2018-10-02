@@ -4,7 +4,6 @@ import { connect } from 'react-redux';
 import { Actions } from 'react-native-router-flux';
 
 import utils from '../../utils';
-
 import TABS from './TABS';
 
 import TabBar from './TabBar';
@@ -13,6 +12,7 @@ export class TabBarContainer extends React.Component {
   constructor(props) {
     super(props);
 
+    this.isCurrentScene = this.isCurrentScene.bind(this);
     this.onTabPress = this.onTabPress.bind(this);
     this.navigate = this.navigate.bind(this);
 

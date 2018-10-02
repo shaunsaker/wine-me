@@ -5,7 +5,7 @@ import Icon from 'react-native-vector-icons/MaterialIcons';
 
 import styles from './styles';
 
-import Touchable from '../Touchable';
+import Touchable from '../../Touchable';
 
 const propTypes = {
   tabs: PropTypes.arrayOf(

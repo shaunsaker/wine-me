@@ -1,6 +1,6 @@
 import { StyleSheet } from 'react-native';
 
-import styleConstants from '../../styleConstants';
+import styleConstants from '../../../styleConstants';
 
 const BORDER_BOTTOM_WIDTH = 2;
 
