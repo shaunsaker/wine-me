@@ -1,6 +1,5 @@
 # TODOS
 
-- Add jest config
 - Fix profile press bug
 - Unit testing
 - E2E
