@@ -16,8 +16,9 @@ const PLACE = {
   ],
   phoneNumber: '021 885 1013',
   website: 'http://www.bartinney.co.za',
-  photoReference:
+  photoReferences: [
     'CmRaAAAAF5bkjtj7bFEGaZqTN1_uZrJMvM6EEOFle3UIDd5JEbZwb281f2F4EH-XR1o6frihMiOzrJEx1KlczmV8o4qLrYygDZE-TKthSRT1SdzvrEQ6AjQbCG6sVeZBR48V0lMLEhDkpyqJh9O9z4Ai-7All7swGhQwTkHxJ77yIZ9d0c8oqWifUrL6eA',
+  ],
   id: '1',
 };
 
