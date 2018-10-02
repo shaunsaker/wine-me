@@ -1,7 +1,6 @@
 # TODOS
 
 - Unit testing
-  - components
   - handlers
   - scenes
   - utils
