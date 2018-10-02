@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Actions } from 'react-native-router-flux';
 import Animator from 'react-native-simple-animators';
-import { View, Text, BackHandler } from 'react-native';
+import { BackHandler } from 'react-native';
 import { Touchable } from 'react-native-simple-components';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 

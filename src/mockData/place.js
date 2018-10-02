@@ -1,4 +1,4 @@
-const place = {
+const PLACE = {
   name: 'Bartinney Tasting Shed',
   location: {
     lat: -33.9263749,
@@ -21,4 +21,4 @@ const place = {
   id: '1',
 };
 
-export default place;
+export default PLACE;

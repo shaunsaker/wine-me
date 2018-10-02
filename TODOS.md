@@ -1,5 +1,6 @@
 # TODOS
 
+- Fix android release build
 - Versioning
 - Change log
 - Screenshots (fastlane)
