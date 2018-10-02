@@ -145,26 +145,37 @@ export class Search extends React.Component {
       </Animator>
     ) : null;
 
-    const searchResultsComponent =
-      searchTerm && searchResults ? (
-        searchResults.length ? (
+    let searchResultsComponent;
+
+    // If we have a searchTerm and/or searchArea
+    //  If there are search results, display them
+    //  Else display no results blank state
+    // Else display initial blank state
+    if (searchTerm || searchArea) {
+      if (searchResults) {
+        searchResultsComponent = (
           <View style={styles.placeListContainer}>
             <PlaceList data={searchResults} />
           </View>
-        ) : (
+        );
+      } else {
+        searchResultsComponent = (
           <BlankState
             iconName="search"
             title="No results found"
             description="We couldn't find any results for your search. Try searching for something else."
           />
-        )
-      ) : (
+        );
+      }
+    } else {
+      searchResultsComponent = (
         <BlankState
           iconName="search"
           title="Search over 525+ places in the Western Cape"
           description="If you're heading somewhere specific, try an area search by tapping on of the red buttons."
         />
       );
+    }
 
     return (
       <Page>

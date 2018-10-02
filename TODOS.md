@@ -1,6 +1,5 @@
 # TODOS
 
-- Fix search logic
 - Unit testing
   - components
   - handlers
