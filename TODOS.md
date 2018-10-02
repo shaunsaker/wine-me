@@ -2,6 +2,11 @@
 
 - Fix profile press bug
 - Unit testing
+  - components
+  - handlers
+  - scenes
+  - utils
+  - DataHandler => DatabaseHandler + tests
 - E2E
 - Create iPhone5/6 launch screens
 - Versioning

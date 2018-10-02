@@ -31,6 +31,9 @@ exports[`Label renders renders 1`] = `
   }
 >
   <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
     style={
       Object {
         "color": "#FFFFFF",

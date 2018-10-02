@@ -40,7 +40,9 @@ exports[`FooterButton renders renders 1`] = `
     }
   >
     <Text
+      accessible={true}
       allowFontScaling={false}
+      ellipsizeMode="tail"
       style={
         Array [
           Object {
@@ -67,6 +69,9 @@ exports[`FooterButton renders renders 1`] = `
       
     </Text>
     <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
       style={
         Array [
           Object {
@@ -128,7 +133,9 @@ exports[`FooterButton renders renders the alternate style 1`] = `
     }
   >
     <Text
+      accessible={true}
       allowFontScaling={false}
+      ellipsizeMode="tail"
       style={
         Array [
           Object {
@@ -157,6 +164,9 @@ exports[`FooterButton renders renders the alternate style 1`] = `
       
     </Text>
     <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
       style={
         Array [
           Object {

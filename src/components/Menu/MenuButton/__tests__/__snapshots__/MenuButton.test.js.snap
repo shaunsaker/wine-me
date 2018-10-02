@@ -40,6 +40,7 @@ exports[`MenuButton renders with all props 1`] = `
           "fontStyle": "normal",
           "fontWeight": "normal",
         },
+        Object {},
       ]
     }
   >
@@ -86,6 +87,7 @@ exports[`MenuButton renders with minimum required props 1`] = `
           "fontStyle": "normal",
           "fontWeight": "normal",
         },
+        Object {},
       ]
     }
   >

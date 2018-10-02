@@ -40,7 +40,7 @@ exports[`Lightbox renders with all props 1`] = `
         Object {
           "alignSelf": "center",
           "backgroundColor": "#FFFFFF",
-          "borderRadius": 10,
+          "borderRadius": 5,
           "paddingHorizontal": 15,
           "paddingVertical": 10,
         }
@@ -51,6 +51,7 @@ exports[`Lightbox renders with all props 1`] = `
         }
       }
       enableAutomaticScroll={true}
+      enableOnAndroid={false}
       enableResetScrollToCoords={true}
       extraHeight={75}
       extraScrollHeight={0}
@@ -120,7 +121,7 @@ exports[`Lightbox renders with minimum required props 1`] = `
         Object {
           "alignSelf": "center",
           "backgroundColor": "#FFFFFF",
-          "borderRadius": 10,
+          "borderRadius": 5,
           "paddingHorizontal": 15,
           "paddingVertical": 10,
         }
@@ -131,6 +132,7 @@ exports[`Lightbox renders with minimum required props 1`] = `
         }
       }
       enableAutomaticScroll={true}
+      enableOnAndroid={false}
       enableResetScrollToCoords={true}
       extraHeight={75}
       extraScrollHeight={0}
@@ -190,6 +192,7 @@ exports[`Lightbox renders with minimum required props 1`] = `
                   "fontStyle": "normal",
                   "fontWeight": "normal",
                 },
+                Object {},
               ]
             }
           >

@@ -8,8 +8,10 @@ exports[`RemoteImage renders and toggles loading 1`] = `
     style={
       Array [
         Array [
-          Object {},
-          undefined,
+          Object {
+            "flex": 1,
+            "height": 200,
+          },
           undefined,
         ],
         Object {
@@ -19,8 +21,10 @@ exports[`RemoteImage renders and toggles loading 1`] = `
     }
   >
     <FastImageView
+      borderRadius={5}
       onFastImageError={[Function]}
       onFastImageLoadEnd={[Function]}
+      onFastImageLoadStart={[Function]}
       resizeMode="cover"
       source={
         Object {
@@ -49,9 +53,9 @@ exports[`RemoteImage renders with all props 1`] = `
     style={
       Array [
         Array [
-          Object {},
           Object {
-            "borderRadius": 10,
+            "flex": 1,
+            "height": 200,
           },
           Object {
             "backgroundColor": "blue",
@@ -64,8 +68,10 @@ exports[`RemoteImage renders with all props 1`] = `
     }
   >
     <FastImageView
+      borderRadius={5}
       onFastImageError={[Function]}
       onFastImageLoadEnd={[Function]}
+      onFastImageLoadStart={[Function]}
       resizeMode="cover"
       source={
         Object {
@@ -81,32 +87,6 @@ exports[`RemoteImage renders with all props 1`] = `
           "top": 0,
         }
       }
-    />
-  </View>
-  <View
-    style={
-      Array [
-        Object {
-          "alignItems": "center",
-          "backgroundColor": "#E0E0E0",
-          "bottom": 0,
-          "justifyContent": "center",
-          "left": 0,
-          "position": "absolute",
-          "right": 0,
-          "top": 0,
-        },
-        Object {
-          "borderRadius": 10,
-        },
-      ]
-    }
-  >
-    <ActivityIndicator
-      animating={true}
-      color="green"
-      hidesWhenStopped={true}
-      size="large"
     />
   </View>
 </View>
@@ -120,8 +100,10 @@ exports[`RemoteImage renders with error 1`] = `
     style={
       Array [
         Array [
-          Object {},
-          undefined,
+          Object {
+            "flex": 1,
+            "height": 200,
+          },
           undefined,
         ],
         Object {
@@ -131,8 +113,10 @@ exports[`RemoteImage renders with error 1`] = `
     }
   >
     <FastImageView
+      borderRadius={5}
       onFastImageError={[Function]}
       onFastImageLoadEnd={[Function]}
+      onFastImageLoadStart={[Function]}
       resizeMode="cover"
       source={
         Object {
@@ -152,19 +136,16 @@ exports[`RemoteImage renders with error 1`] = `
   </View>
   <View
     style={
-      Array [
-        Object {
-          "alignItems": "center",
-          "backgroundColor": "#E0E0E0",
-          "bottom": 0,
-          "justifyContent": "center",
-          "left": 0,
-          "position": "absolute",
-          "right": 0,
-          "top": 0,
-        },
-        undefined,
-      ]
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#E0E0E0",
+        "bottom": 0,
+        "justifyContent": "center",
+        "left": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+      }
     }
   >
     <Text
@@ -177,18 +158,16 @@ exports[`RemoteImage renders with error 1`] = `
             "color": undefined,
             "fontSize": 12,
           },
-          Array [
-            Object {
-              "color": "#212121",
-              "fontSize": 24,
-            },
-            undefined,
-          ],
+          Object {
+            "color": "#212121",
+            "fontSize": 24,
+          },
           Object {
             "fontFamily": "Material Icons",
             "fontStyle": "normal",
             "fontWeight": "normal",
           },
+          Object {},
         ]
       }
     >
@@ -202,40 +181,38 @@ exports[`RemoteImage renders with minimum required props 1`] = `
 <View
   style={Object {}}
 >
-  <Image
-    onError={[Function]}
-    onLoadEnd={[Function]}
-    resizeMode="cover"
-    style={
-      Array [
-        Object {},
-        undefined,
-        undefined,
-      ]
-    }
-  />
   <View
     style={
       Array [
+        Array [
+          Object {
+            "flex": 1,
+            "height": 200,
+          },
+          undefined,
+        ],
         Object {
-          "alignItems": "center",
-          "backgroundColor": "#E0E0E0",
+          "overflow": "hidden",
+        },
+      ]
+    }
+  >
+    <FastImageView
+      borderRadius={5}
+      onFastImageError={[Function]}
+      onFastImageLoadEnd={[Function]}
+      onFastImageLoadStart={[Function]}
+      resizeMode="cover"
+      source={null}
+      style={
+        Object {
           "bottom": 0,
-          "justifyContent": "center",
           "left": 0,
           "position": "absolute",
           "right": 0,
           "top": 0,
-        },
-        undefined,
-      ]
-    }
-  >
-    <ActivityIndicator
-      animating={true}
-      color="#212121"
-      hidesWhenStopped={true}
-      size="large"
+        }
+      }
     />
   </View>
 </View>

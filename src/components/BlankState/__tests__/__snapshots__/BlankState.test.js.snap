@@ -14,7 +14,9 @@ exports[`BlankState renders renders 1`] = `
   }
 >
   <Text
+    accessible={true}
     allowFontScaling={false}
+    ellipsizeMode="tail"
     style={
       Array [
         Object {
@@ -38,6 +40,9 @@ exports[`BlankState renders renders 1`] = `
     
   </Text>
   <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
     style={
       Object {
         "color": "#212121",
@@ -52,6 +57,9 @@ exports[`BlankState renders renders 1`] = `
     Test
   </Text>
   <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
     style={
       Object {
         "color": "#212121",
