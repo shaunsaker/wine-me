@@ -33,7 +33,7 @@ describe('TabBarContainer', () => {
 
       instance.onTabPress(tab);
 
-      expect(spies[0]).toHaveBeenCalledWith(tab);
+      expect(spies[0]).toHaveBeenCalledWith(tab.sceneKey);
     });
 
     it('should handle navigate', () => {
