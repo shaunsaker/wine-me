@@ -15,7 +15,7 @@ export class DatabaseHandler extends React.Component {
 
   static get propTypes() {
     return {
-      dispatch: PropTypes.func,
+      dispatch: PropTypes.func.isRequired,
       authenticated: PropTypes.bool,
       uid: PropTypes.string,
     };
