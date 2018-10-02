@@ -1,12 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import {
-  View,
-  TouchableNativeFeedback,
-  TouchableOpacity,
-  Platform,
-  ViewPropTypes,
-} from 'react-native';
+import { TouchableOpacity, ViewPropTypes } from 'react-native';
 
 import styleConstants from '../../styleConstants';
 
@@ -22,37 +16,18 @@ const propTypes = {
 const defaultProps = {};
 
 const Touchable = ({ onPress, onLongPress, disabled, children, style, testID }) => {
-  let touchableComponent;
-
-  if (Platform.OS === 'android') {
-    const androidRippleColor = styleConstants.colors.white;
-
-    touchableComponent = (
-      <TouchableNativeFeedback
-        onPress={onPress}
-        onLongPress={onLongPress}
-        background={TouchableNativeFeedback.Ripple(androidRippleColor)}
-        disabled={disabled}
-        testID={testID}
-      >
-        <View style={style}>{children}</View>
-      </TouchableNativeFeedback>
-    );
-  } else {
-    touchableComponent = (
-      <TouchableOpacity
-        onPress={onPress}
-        onLongPress={onLongPress}
-        style={style}
-        disabled={disabled}
-        testID={testID}
-      >
-        {children}
-      </TouchableOpacity>
-    );
-  }
-
-  return touchableComponent;
+  return (
+    <TouchableOpacity
+      onPress={onPress}
+      onLongPress={onLongPress}
+      style={style}
+      disabled={disabled}
+      testID={testID}
+      activeOpacity={0.67}
+    >
+      {children}
+    </TouchableOpacity>
+  );
 };
 
 Touchable.propTypes = propTypes;
