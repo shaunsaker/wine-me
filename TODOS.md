@@ -1,6 +1,5 @@
 # TODOS
 
-- Merge into master
 - Release
   - Android, iOS, CodePush
 
