@@ -9,14 +9,13 @@ import Place from './pages/Place';
 const scenes = Actions.create(
   <Lightbox>
     <Scene key="root" hideNavBar>
-      <Tabs key="tabs" hideTabBar animationEnabled={false} initial={true}>
-        <Scene key="home" component={Home} hideNavBar initial={true} />
-        <Scene key="profile" component={Profile} hideNavBar initial={false} />
+      <Tabs key="tabs" hideTabBar animationEnabled={false}>
+        <Scene key="home" component={Home} hideNavBar />
+        <Scene key="profile" component={Profile} hideNavBar />
       </Tabs>
 
-      <Scene key="search" component={Search} hideNavBar initial={false} />
-
-      <Scene key="place" component={Place} hideNavBar initial={false} />
+      <Scene key="search" component={Search} hideNavBar />
+      <Scene key="place" component={Place} hideNavBar />
     </Scene>
   </Lightbox>,
 );
