@@ -1,0 +1,44 @@
+{
+  "location": {
+    "value": {
+      "lat": {
+        "value": -34.00411560000001,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.7604627,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAwvmnqC66nC2MstfNB6MKpZ24XTAd_IP0iEJrfTE2oo6U7aLqLvUNo9hoRLpGYlZzJhbLOCEjmMLQOTwZCslLFylJDPDOIdzxNtSkTB3qObsohRDtntUVpa7Ry6-8i2kVEhDkSrhdcKwDEirCxg7czbhCGhTL9X4ADBp_-TqxCOEYavRIDjwX7Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA2_o1VtLj2qA9A8dxQy86huYOtI8x5AjPNhlCQebY4egzbuEs23wiDDBV-3eJr2ObE3XkZcXtp04ic7mbNqXSgcmbb5fZt4tzghV8TvCLTDwVQsyx-P8tJyJuz83aaKlzEhBJbZKTBDcEbKTyMRi7JUtFGhShiDeRdp6MO4m_tQxDKj5ac-3SSA",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.usana.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Klein Welmoed Farm, Baden Powell Drive,, Lynedoch, Stellenbosch, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "083 650 9528",
+    "type": "string"
+  },
+  "name": {
+    "value": "Usana Farming Estate",
+    "type": "string"
+  }
+}

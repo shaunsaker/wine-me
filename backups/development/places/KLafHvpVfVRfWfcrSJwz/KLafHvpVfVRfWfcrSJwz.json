@@ -1,0 +1,40 @@
+{
+  "website": {
+    "value": "http://www.ambeloui.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "4075 Valley Rd, Hout Bay, Cape Town, 7872, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "082 460 8399",
+    "type": "string"
+  },
+  "name": {
+    "value": "Ambeloui Wine Cellar",
+    "type": "string"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -34.0138052,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.3819938,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAABAVSc7fS8Q0NH37XnXu8EpPkpvTuUWDPdZ5xvJlIilHM7pz7i16xLTjZ7FFpYNrW1380uq_tsR2I5qYXgmtahcJ4LoZUkV1Hevhwj0ihCsC_vJRonTl9sY2es7cKwIW0EhBbVJQ_5p6Jam3dC4oRBepkGhSvuHDPKSArOMsiFs_-NzYiyTrf9A",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "website": {
+    "value": "http://www.kloovenburg.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "2 Main St, Riebeeck Kasteel, 7307, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "022 448 1635",
+    "type": "string"
+  },
+  "name": {
+    "value": "Kloovenburg. Wine And Olive Farm",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 8:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 8:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 8:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 8:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 8:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 8:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 8:00 AM – 6:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 18.89112,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.3853707,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAA-_fVbmsGZBVndj7lg5NAbAB4u3qniVTe0B9GsR_8wD9g8tTZwK6vYfhLC7MT42AmM3Dfw3MHIeqFXb_IjrdbZXIUR_sXbv9qC_1u2OTZrMdX7M3_l8c3RKBW5VpLRl-jEhCJFsFZx9Eu8v6gG75Z3NTxGhTwqWWZp6AFSjOlcJM8eOaG28WG3A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAVjvSXwAGtHBWCc6esGVWYMzYA6iykwsClLxEav275_sy3X0-gC5DdLLPv9VAz3wix8DT-UxA9VfVqUKt5nreaIw6fThhU_DKbDf7sjZHLNMBbzXkVwmq9zbcgPMx7RmNEhAmHuln_0aqbYpS9y9iCtQjGhQ6UXdmKug6SsDAgMLopwSnDr63sg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAIe7mrZIEZq2AveapgDaah1TB7Yis85qc1AStJkZF5TCKNcfYMUXtGZKvV_gcsP06n7lwQLBxag_qIpLitq42fX_onfYDyYXCE200AEBfDLDx4puxZfsjcyMc6U7H2X05EhB3j5q7NdWVPe22l1Z6lQimGhTnCPzKhrlvLe0O2szSs8-BefHtFg",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

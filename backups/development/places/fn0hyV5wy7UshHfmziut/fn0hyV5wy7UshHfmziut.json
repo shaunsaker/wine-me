@@ -1,0 +1,109 @@
+{
+  "website": {
+    "value": "http://www.laibachwines.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "R44, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 884 4511",
+    "type": "string"
+  },
+  "name": {
+    "value": "Laibach Vineyards (Pty) Ltd",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 1:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 18.8627,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.84566399999999,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAji8q3p3pKJNfJYDP831WY-jpqIXSmjmEtSugBtYB7qYQ-UujxscxnqzSPW0evCsF18_W32oGht95l2UUzW3TfHwQkSrpMk6uicUC73u8jMAgYVLCCYw7QvoACIF_gn5LEhDkQKVSzrzC7Bkszd5v3tDdGhR-Y9CXryEPdMK_I_7Weiwhp7LXsw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAePveDixpYNCbFFpfxIGf6JttP81fy8NOKYaP_5FyFeExBMbJ2zUc2WY_CF3chCWfz3rjqXQ4UKAzQ4UsE1GQVRl7Tqvp8fVvX53lVrua5tSj9UE6NSPFxWXJQMk2zmHREhAJ_9GkXcdU2Bpz84QShrjpGhQ6CYXPsntZfHIdjfHqqByw3dQLUw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA8lL7EFwCyG9jT48SpLS7ll_52ScefwI71FGUaKzDQDqS8r5XFRq7628OVwYJMvM2DUEK9KU92HWDYxsJOExj8kTudAD0VUzImTh7cU9IhUHdb8ET1XNWg__Gu0-sMrKgEhBWPbXTcpIIpfvmH0xE8RfSGhS47lL77zxE__ASrl9RYycesihkLQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAPAF-BD84cQFoiUmQUnl87z9DuV-tfMSa9Gnn5GTkCf88Goh44mb3b5K7daloYZP7Ekto34XO_7CpYf96lKKw5QMK0Sk2Szg-JU5jRGHV3nH_2ScrAgTNS_nWD05JR24MEhDdH5BtZ72WPmqo_6KfHIb-GhQRxXOt_Svu0RJCyR_QAVGNbtsycA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAQ7lBnMQT6E3ikSN1bRG8WVBlSyCCcgI6m2-tN-xPTFys5eFcoIJnlwx37DLeR3HbvXgGr_DyWsgXTLvRECqTMYuV5rff5Sq5DMvVnElKSZj8-98XdvVAPO8VvdeMtV3xEhCO9y2PYKSv0gc4WCifqWD2GhQWwEt93OzvPxvwV1aaovx7n6Lv1A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAsP5i94O1Gz8QQFZuecMUBNEd0Vr0Az0IEhALzLy5SCqjCtGUmZZA6A-HdMp9HqF8wDSVV2n_xPIJRaW7iRWbktxIQ5JvY07F9LsnTgoG5DqWyCdrw514b8TW3wovV7weEhADDtMrzvNIMu_R_Hjmmtl2GhTV_RBx6V_VvX_E0b2icIBSYH67tQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAaKK_SX2TQibhIv-BShu6NusG83VdXpHzI-GlaqTd-UnfCQuvyrKtbATkJrP0UKKnwfJn8OnCunu0GtfIxAvhF3O09W2idzAUBogI8xaI6OCRMIEu3brGRfU_1078DBfJEhAKuC2LsdTGwkz6kQbbpWE4GhSU9NlPaV1J_5HPcQGIwiYgZv9tfg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAANjbyZ2JpLA8KWWK-Bx9gUlmb4W35D1JB64YC5mb8q0Gyg9bzG1kX0XIJKyfgu5_Mo1t6MZtadQZh2FvSMoDZsKGEeCgBqBBdVM3SvZBsmSNTsKwg0Uw_cZk9YN3nd_ACEhA8oTG2FTi0PoniUi3PfOBPGhQMfnoS5FaROzbPVqzCNRgFlQYz6Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAkWMzVR-L8EQidqglSb6aQGx5MAy181VxR37RWjelqvqfALotfghfD4Pq0WbPYPfPUDLofBOLdfP5LiLcw8rKo_jFylSSd-41EXXkpgYPFQvtZBSfDtyK_v8r0BJQyVcLEhDr7DbsBDWNRV4CMTptbOkEGhTEKdDa89UswZhvir4CrlE-H5LhxQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAI3H2F-bHQC4kebTWpgNrgFDCb3fimiv3hFaY2DA4ob-r4RhBSLQ6lvkfEzY5kX-Or0LfOX-40mlTZm3lVfa0YH61YO3kwB_C9uW7ZfpIJFAFHR9v5KMgYktgwQVCj81sEhA2CzfQl5KAFJ7ykigyeNvCGhTaSq6t8mJjz__Oyl36XRexbrDZsA",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

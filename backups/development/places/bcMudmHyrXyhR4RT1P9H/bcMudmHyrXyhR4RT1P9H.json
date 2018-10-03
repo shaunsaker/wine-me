@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 8:30 AM – 8:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 8:30 AM – 8:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 8:30 AM – 8:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 8:30 AM – 8:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 8:30 AM – 8:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 8:30 AM – 8:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 8:30 AM – 8:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -34.0990537,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.3820853,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAA8H_mrAFFqlSaXoZ73UkOjYbyg6YROHGAON2frffYsO2FZtEopNq8lfw-buKxKrHztwwd1SAlmkJi3mTfS0QV8C6l5ew9k3FjqrqIqEe452-UATSU4jS7TgFpVw6T80A9EhBqWrdvga5zcT79QJnMRIxEGhTduWfZNsPqUAnIftpVhLGfnBIswg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA0MO2a3ifcycsaJuUVMvYywioJK82X02JYkz63Pa_peCYuFrb4X2RXJfREsFZ311fvHNUV3J22rjUu_K1Q8nEftc2tYao3vqbQ__J2w8mBOAN2Lbk6LFSA7gPeu3lfY1ZEhDbAZXebP0DduI_55txXsGTGhT6X3OabxX5y-d5nby2lMfU-Kn_pA",
+        "type": "string"
+      },
+      {
+        "value": "CmRYAAAAwjfXyzdGRYXKEEkhC-ptIH1j4XLt6ui0Xj3mtyWx6t9-l6XQukbeINDYR9xgcWfUWszXMTd-yXhW-_SXvnpJ1JYgs8x-Vh__rI1QhRydlIzO7W7sutpzE7n0-64N_FMYEhB1_NU_cCjGMli7IT7EsQLrGhTY9h53uEUXFWhYShWy3oBLweYImQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAAbVzAmaIzTncyxbJykVOBNaUdQBkjMyEw1STzS_KVJH4iTsACHPvRntD6-xcN2VYeVR5SUYZ9EVdAeNMCVSscaKy0glSEDzeynfukFgsxdNkgEv3rfmR0zo9Y1N_HjUHEhDu5u6OJ8_SFJiWiy6eLuBtGhQbSK1z-sim6zd70YuNXXlRkfFVIg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA0UTROI0Ngen4wy58k5F5GXKwXhzmanE67-83RObFL181iRXlWY_phcdtGkkXh7pTwFw0EmZ_J6pc-ULN2ABD3Zuo1Ik94uUxjZSupS-3nyuNbAgRTVlRbAbl1q8XEpDEEhAY96rNHtO9UOmp8m1zQ83RGhSr1xdT-mfq6HBdTqxg-5m9q1kDrg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA0o_4qiqVQuR0Ldq_hERXhWmqDOj_-41TKrzqMqFjoBXYk2xAvm6MEDMxIUPvpo6JVy71rBTa2CPSuyp1Bp4ZzZuFW5OigeOyE7-pUi5ilLhGAcLQHgQh9meks3ADLaVyEhAqftS5BpRD2Irgz1UUH_VtGhTNKz3FCB-Q6ImXq2moRgsL1Og8Qg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAnQIABx-3iFm2XcqFCNIVakknyAOpDMu7zN_tlSNp0PsDfha4okm9cW-sDeM3BHobZEktrmfZXWwiPGR1g1_mn-kuM7uIqoyKqeyJiDCRXD8OLdtT3J3k3Ulpku6AoObuEhDhgMSxMPHEV-VubdolbANDGhS3e7xfY9Cws94_0Ar6rBnFpwXAfQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAzrs0_nMCNggMQ5q9OQ1ws9O6JdKv0IxWX7IP29DugROYiGZs-YLw82R4ZgvBYNe2a0m_pfqnEIsKJMyYPztGu6LlRIebDB0EHO8L3y8zOkZbLmtueAnbfgKyEvl4yg3wEhAtb9vNF9clWUx3FUFxdf4cGhT0shj9CpCv_AFt7bp9YsCQPXLvug",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAFoavINNF1EBZD2a3tXkYhzhE4jDbVXDilRfsoGfUDGf_nhM1kXFaY2kiNgcPT85kp-48RkRcG2XCsVmIzHe_2sAhlw8-u-FtjkLctVC0dR22TvBnuFBqQ1OaBvYv5a7lEhCh9g99p4eJObYHF-65SpY8GhRdaAbbYA8ajpZlt_iDHJjgSUS83Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAPb8cEV2i7H_S7C86e8mB0aMDgHqqs4mN8YZF-DSpulopLnjMPMdvNehbOHQWSoCjXzjDguSU6IGY78Dzj5oVXS3Rq24bQuRnj_yfKzUBtAhVB9LEpnD4OX_Pym7EIMl4EhAUNwyndInAjL42ghzFmwW5GhSC7dLZ40m7wLtwU-SZSIOhVqjunw",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.cpv.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Silvermine Rd, Noordhoek, Cape Town, 7985, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 789 0900",
+    "type": "string"
+  },
+  "name": {
+    "value": "Cape Point Vineyards",
+    "type": "string"
+  }
+}

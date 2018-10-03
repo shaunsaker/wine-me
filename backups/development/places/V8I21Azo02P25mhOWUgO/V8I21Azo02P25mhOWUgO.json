@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 10:00 AM – 9:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 10:00 AM – 9:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 10:00 AM – 9:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 9:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 10:00 AM – 3:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 18.8130497,
+        "type": "number"
+      },
+      "lat": {
+        "value": -34.0099372,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAoKLjVJlzq2QsEWDsmBuSu_goOCI9kVT0k9UeSvmoSt-5XAeosIdXos1QXieHC8r9HVSlJGG8waVEDbVbQg6Hf-JJcuxvT05baytFqShUlHqAVlte7wZZu0JiXmtZ9E-dEhCSbfUH2pQie0BvCk691iHMGhREeliWxM2pAz6Qe2SujeOeikfw-g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAzABbA6B4c7IbiUfONHQy9CW5aBc5F_7_2ht9LpEWeUX8aZjCeyOJajv6w92MXJmKVY4W3xwHVJ_KogF2QEOCavesHc_A3X5MCXKhSE1EmvpFVIJ_0FWImaGeVf4SzN1gEhDZ0TG0aCPm3XCuDcME70_lGhQ0aovrNoZTeAFrEU8XeHIP2u0Wxw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA3xpueY-g7pfeVD-eHIGdYTT9EE1_DHOjCfA30JhPiippfNFTZu86EJ0F9KiMOPAJpHRL83JuoYgbkjjK5-eA6Ah8iIiftQqXHV9TyI0iJSoPUnl70l86wwe64tH2mf3XEhAu7GX25zGoqL0C11jS4uKyGhSUT5ifH40g7hn_1GvJn1bc6srJUw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAyd9JgbWCHHCfHmUWWdVk6iRP4UD8JFO0RjO-aAWetjxodeY1jqQWlu2IJOPNKL4rTzyMyDL5wgRSrmqzJpzNND5R0cHfPLF3ll-sE9xjsYmB2lIgigbwCGdZD2CM3HYZEhC7fzZV9FL5eKYSfoHhs-laGhRE-c-Cbo7Tgyft_5reyh01QcjGxw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAF6apNIrjCg0sO8H6hpxE_yC7m6J1yc1jzEChfURWeSdwIc--B3k2WQ-ripnFfkwUfsvK8eLfzjN_sczVI4N90cOEJ9uv5s2LjBI5T8e-q3DlG_PqwavnhdX1R66ccrk-EhAQXFJZkuPCa-0zruKa6uMGGhTTaO45q800QT_5GmSH6dstZde8bg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAW0V7uw-RbqjDAtQl1LGfyQVMeR9LluyxvWzoe42k-k5bvspcvR8mbYmxCblu4QAgeIX1MWBq9x9XOXxVxE3OlcTZZ8PwLYbVnp7yY93OynKphOl8al9YCjFaCrxAmPEiEhClMRy2zM_l8mkruLzUXh5LGhQRqE6fTBTQZwnZ6M0-AMqviu-FLQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAArne34kyKnT7k__8pxS0aY9KOQ-bmBaPHYk2EMBqQBxXc5P5Ago5wS38WilSS2TpnSmvIAed-OOqT9mHUUytrG3GuCs39ArLBxOZwOTscu8JwaoZa8O0m1gv8qjEmSCslEhAONGXa_Jid3hqaUYLlWni3GhRq7O1qu-CowFPX1H5zPv97vUBUXQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAcWoNb0FHAkF03W_f3c4CHgewx6DYNIPZYGibqgnRyIwLwAR-gqagXeJ72MngYopy-T1osc8rLjlsXxGCLbc25k1nLvrwoN_IcymNvzP-eJ2B0iC0t7t5z9ftsN9FgFwREhCb8arZeNdbdPhoqIE4-bWdGhTqVkzmojU3KctfHBhBukr_AQlUCA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAsZXp-C6C_5FVNmFIyjkGu4fWsOoDLyl10Z7jRrUrBJ662bPuJiJNpZxJ4dO5UFXSFGPgTaAMV-b5yUqRWTsF0JJpnUAK34nwy1Do2gvDJ20n9_pmjkmcAZLEYtPJLZiWEhBNdgGIXp3r0znUFzPlFQPuGhQ_ikfcDWxKAUOJBnJYPSZyEwNPgA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAM9gYIGM_vHE5I6pyJrVq65RNWmk040f_onqhQyfN7szmXxbCa5GGe8ogkLm_0t8t0nSlrjxCcMY8ctfLWJox39494CVSA9Sm0iPMFsRdDqzjDNoLcmxClfx7tQqQRuBZEhDc2xjvJ8csSnzOBXuv5CynGhSdQpVtp9ezkGpfPWXTcJ_mEN9h7A",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://cavallistud.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Strand Rd, Somerset West, Cape Town, 7129, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 855 3218",
+    "type": "string"
+  },
+  "name": {
+    "value": "Cavalli Wine And Stud Farm",
+    "type": "string"
+  }
+}

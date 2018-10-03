@@ -1,0 +1,105 @@
+{
+  "website": {
+    "value": "http://www.rupertwines.com/farms.php?farms_id=1",
+    "type": "string"
+  },
+  "address": {
+    "value": "R45, South Africa",
+    "type": "string"
+  },
+  "name": {
+    "value": "Antonij Rupert Wines at L'Ormarins",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAo3HxalyZA5d4B-F8qUO-m50tvxLdjLZfFlM8A-FJ7fx06pG9YwJWgfmPBWijrJrEW3nGilgNYSEgeBFo0OXH5mnd-y42KOCA4LEfdrRcyyhaIkaHiiw81pubxyXGoL8aEhCOz0-6UwYCCnliQeiXK9a3GhT-Dqd39q_LmleZQ-zJyd136Gh-Zw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAq3hfR8dFGScA9CiqZt8W7_aBrdllFcQVdFF1wkCWKaZMLsHOJM7iNToROaB05ycukjWaJVJvKySHgV3B2dTK7rhlFQcxdrj6l2kU0S_ltEDekH1Pj00gGv8K7F95m5eJEhDndWPuhX6qtpbS2YQ5zzU8GhQGDVcHz3mW_3cC3QxCligh0RI0tw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA94kuc7ApL06X7oKemBBeBbCjUSMbYkpY_Mj-zpSt_U23IXWFH8IZA1F6iYlqfyybokPQvFbLlGPO9chLJvY_Qjt0_yQ7G00vHAA54Ih3gxfcdvnk8TOxLDtzjaUoCEz1EhCB9W-FzoaUUDSV_fWmETyIGhSwceodHQlyn7kCg4jlOXqAumLT8Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAArdtBPd6ma7pOi6kTowMN0pP8KLuPcOdVHvKdbavWNE769PlNWMEp4UMN0xWG7pPh2QxDc5DJEUaP2JDOPRTjhy1dTcj35GpczkCdyJG4PW4_hXY1rCa7keZZpNXjFxKhEhDME-RhcCWY-PCaixX5izu-GhRXI3Ya2xY5YtlR3gDhfbkCPE3EAw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAKoWVbqFOBiRNEQekXRHtERCrNhXs6SA5CosZzzU30k8Fz9a4-_iEt6wQtcniiWJEKgpcy88uZ2ax4itJyjae_u55uAZNnf3EWv0K4A1g695wbJp_nxV7qD3ZCdLPDyzjEhCmoBlDFRJyRqB23PgausENGhR1OMUOX_70jWRPFfYmBk9EqK624A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAOg1SATjuyJwpcHNCA7bf0akANQaHwMk-7sk3hxYTnXs49_4XKBw3LWCLk7Oq_mK1f5QvlB0DRw66LiR84Rn39dsmaw1hRyrs8eq7EiSr-8FGKITqzh6pxpVYJC83Gw63EhAhIsWF2yp6bG9ONr2ZkYbFGhTNuHmCUZLO79qeSaLtk0iP7ull6A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAFqCOG64YNw6YUZG8orALBtx1niC8yEKJtoFlPWwFhUzgtXbBUgq26Vj4G7PkdiRAxfZNsmIakDfb6Vow0i8T71YcGkx7OJqJsqWlQ15AKzT3ykkopVoix9KcwNe_NAUoEhC7s-Q7XrSA5YX598QgiQKmGhS8rj-smISKZ5fbXtOhzp_3-XIgxA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAEKKAgwRr1SRsEGKzkxToefhsKjm4x47_-qjeHWKRIa54b1c1rX_i1Q_sZnS023ZLmkM6tPLaEbydlAoWtYwTCLvxJ8lV6jofTPlbBLai0Dir-neMp6U6-4Zl5_H9pQf7EhBrzn-ZGXbSvijC-31I5EC3GhTDAcpD9nBKY6LmvSKWNFfV3CbmuQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAALePhx6AYg8iXkY5wCnTHjclkPvQ-ugutPvzhvLRe3VCcuoGTpzyJO5Qljehpo_ffzWUqtXVfp8Psh1lCvhDcUWJeuex8BsCw2SyjT4wh_FzsHJ-F5xxWHPU2FFENbsM4EhBK_bDA6BlBWgvdxHFXl7JBGhRAV7dU7rb4xOXAfszh-j2XMlCOrw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAvAnxqpwvQpa1FYz87X-gTHv9pEzjhKeFgERQWMPiHSF1BFdYIidii69TXSgL3jABML3xqHN5lZnkDetV9M2qLf9cc7wvLE9lqn11HaIDqKrz75mOIr0q02RSpts5UedBEhBCF-xObbOIXBF8mmARdn99GhS9SW-vrykTsiBkAliWHDvSkfbLsA",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 18.9988188,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.8723073,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  }
+}

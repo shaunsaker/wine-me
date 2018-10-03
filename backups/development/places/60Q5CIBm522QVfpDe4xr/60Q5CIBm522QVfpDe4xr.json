@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.879426,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.871423,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAyLKD5gPOULwHVR4VQhBKObOpSmSeQ1XJMBzjB6q8i_K2BB3ct1S0pEHDTXPwDUDyH4CcZM1ftoi4C-fJUO9Hf3nlfJUdH2-YChLuMtIWopYEz8HhtdNQFORHDaaDojj1EhAWPvV13N01FVogzKiFPMMOGhQqkLiqrQ0QzvsJtcMWxp8smtbHww",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAXZrRP7kzQpRLoRdXa9NDK3UEEuqWL06LGyN-m-ccS0NZl1N2lK7ULJL-T0_FpZTcvzuyU87zaDGKOS3S9-SsOjlZuql8v2JRcxyr5oYCbi9XQ4ibqtnmdt39aLbutLdHEhCWfqlPHkMGrkcA7V2YImkRGhQKN37-wbWcmdQqsahvhiwqqmoB-g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAbCdndIbtd-V_tcvX1SjOPIHWIcBVZyyYOYRgtARTd878ZiOgC_q5Pba1xggM-fsqx-zgh3Yzku9FdVBvAUcyj96zCmh56m21dRCRQBLEyMdxpFO7sG3mh6MzfeR2dQ0xEhCOkOvECWMTUyPc0yQrqaqSGhRTW23F58j25THtCy6GmIgOE2v5BQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAyL7I1x3DbX620C-v45x55QycpuY01MoH_Q_CywTZom8HNa09o6QUyYSsohp49cufPFYKBlMisrtgG_l-VNhYOmq6kgGpuO1Ps5uIVjWaNtT_4oqoazRcSmhSHUx_zA5rEhDlSbeJzACcF-vS75XAozhWGhQd6dsVLfmJJiTk9eAskIaifmqJMg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAaLyUfVFCETaEbEWTvF1bPFhWdrsxNtsWc697OYBrwEDwOmp8kUyTQjiFpC8UTK1wOH4SlzCRM-sYia4YxHe1YS5NsNGpnctNb0sVMrBvlQyVwxsE_410Yweu8xOFiKb5EhAUiQtl3t17pmZoRkTz21aBGhQXryNd4pB8oqirt4hl3BFtOlSt8g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAsAa9hHSQKvnB59U8bhBTkZGsii6XfPcARzhymFNwlU8ouOaV0jg9VYzCiTEjl9STmOsLfSMGWXLSpy8tvS51frdtUts9lXzYhEzqnwA7PY6zUrbNPhmxjTc1Rd62QSbsEhAJ3Di3etlC3iEwN1IehvZLGhSmazpNOiJ0yIQsu52SaFOzA4anDA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA4CpvY599AHhJ-UmEQO8nr81rUZRm6gwvyXbQZo_wlyOaBgg_YH0MKWy8fZeFoecA87CLR9yu7GW7c1kUtMUB_4Tgq5_52fMhrdWRaTXHtOHtpv550n0Hl8GMKDncwouLEhCIAMuU4iRKJbCjpFnJX2JqGhQp_XrmWo33NPILqWSzcYNN0LMjcQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA11MItJ2SqqdkYGfjoFfcYiLaT-Dh8nX-paaGW5wZFNni5mjRcEpIkNJvF9n7r_9C45ptRhB6kvxOJ3jkSJUB00DO1m4CmefhZPzHvislPIjd_33aXksQZZUHracO6QLTEhBIqe_3KuiU3XBz_EqgArPFGhTZ1Q-ThBw_mdfyDUp6PMGK-azP_w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAxBlQ0EtjcNeUOoYXEjUs7ZAw1ilE_wR831k-J4dG9ovcWInCK3iR0Y3ValtYXPJjLxO8gM2TxIAf6qRRbwj90nQyERUPBh0nyw9dNNUaO0QZiFbmw0VLPljI2X4dLeDfEhAaWnmonZMTU4o5IJOI8dgVGhS4FRYPfjw7sLqxLUrYPrh5S1_CbA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAApViv-JXvIdxZ2NE4cO0YtMxp52xfQVVweD812HulybrH4FdDE6BQ64mvE5BA0OWGsNqpyicmYMGY-WOMCLegl9isv0hIRvErENtd3D7qyCA_hcc6mwK3hZuHaLyPMKS3EhDTyzHHaXdugwosOAX46pftGhRiODM93-Ll6198X7TFcj08bGzjdw",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.knorhoek.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "R44 Street, Stellenbosch, 7600, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 865 2114",
+    "type": "string"
+  },
+  "name": {
+    "value": "Knorhoek",
+    "type": "string"
+  }
+}

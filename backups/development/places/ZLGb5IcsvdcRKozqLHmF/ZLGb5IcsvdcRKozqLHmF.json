@@ -1,0 +1,60 @@
+{
+  "location": {
+    "value": {
+      "lng": {
+        "value": 18.722804,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.936702,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAA4S1boDcitAenVp2R72Al7rNlKfBNcOi_Q1fB6AR4naxQOqaat_78zSR6671Bis1L1Bhy4yr3BNRR8kLB3Lg6WTKHopg-DC5za4ga_DqgkcPv6LJXb7hIvYJgD5mIq_bDEhDL7ZJU8airY9cd2V5GdejuGhRNT8577CBQBXL5x6YMKzW_GIpQwQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAnVRDx5gaqrZdA-4yOKXfDmHvRCkuyJwUDA3IwguW_gbWTgV65IkAiz0cdSMUDhHaPiNGVF2p1DZftc6bphPBmCdFWuHzMitqUcDir8GYvyjWlmnG073pu13Wnyny1asgEhAJwierJPZAiCoYuVskbDKIGhQrsfASCEsbxSnjkY6Ca-e8zAOc-Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA5rOobulTvMz6Jrdg6UJshUqchyw-IUMZg2pNdH5J43X_kxlPG5YJFo2GYJMRlkv4UhoRRcUEJQPOzGQCdYJWV6pnDFtdu1_WPdBLeuB4hUBUyPExF0Dyd_8gJ8M69TjMEhD8d-RsdAnrGpJ5uStG6UK5GhTImt3lKFFkENsrAsFSbbPOQRVPZg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA6l3xU6GNtzYkMPVSwgceYATJqI1Brlz3qe_GiDdqaOODChNMQx3_SvJy5UdzeLBTGF4kFTyu_nYnZGqoCKZBsrSTrK-ETDE_SlgJYz-PABHzjV4BQLLowrIda51p5IWuEhDjEHmtURzeexFgCOHem6iAGhTL6bs5p7yFEQw25FpZwhrrco4WVw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAanA6vnxGfyozwaY2Kg7xyqdTAesrPvkVTRghaBKf4rqlDpg134v1fM2l5hOYLExLpZ1q74oKvjdh-5JAVn_PqvToyo5pcruabX7wmxBNuZuHm7sbu1Jt_cLB-AOHOMYaEhA1y2ArEFq4z1PgUTD2K_NIGhQg4VAs_LtnDgbNyU7DY_uXO1HSNA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA06My7MX8lEcd78JpzmIr701sxLJJOank9mhhEKYVeLrNqZSZuWC6L1i_gaR93gRSWo5wYGprERZkaiKDkzy3OYYym0AQPwfKKRm8QoWb5vTYYBZ1CgPq7f7HHeM1HIhrEhCAlPXlt5bd1B-ihP_K7AjNGhT_8RhYez1ziMeoHSYAWxdnblHrQA",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.altydlig.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Langverwacht Road, Stellenbosch Farms, Cape Town, 7600, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "083 708 3062",
+    "type": "string"
+  },
+  "name": {
+    "value": "Altydlig",
+    "type": "string"
+  }
+}

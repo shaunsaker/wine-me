@@ -1,0 +1,68 @@
+{
+  "name": {
+    "value": "Antebellum Wine Estate",
+    "type": "string"
+  },
+  "address": {
+    "value": "Malmesbury, Afrique du Sud, South Africa",
+    "type": "string"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.4055306,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.8707389,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAqO4XgKHdiAPcZnY-0TyieoMa2du3DIKQTgqefaCA3fLS84sNQI-3UFuXcw2RX2CiE68WESC8COlP8U5kqdLXT2D3UWaMdcP0-nc1roADW925jONJogWesPhNj5au6kh7EhDg3eUjLyVisZRI0nHSoS98GhT52qQEs9d-ieP88s46N_e843AEhg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAKtiPxj5eSAMSERnw91oBKETx_KadhUMYM7lACITDXCqwEBGqItvZovNXZX15-LlqeOr8_UsflEwXhqPKd5HJhXgV4y0FOq9Bi7lFAYlZTLtPGP5RwlU_uwBztvoxy_Q6EhDi_RmNoyRGlI-rVnfjDkPtGhQyK9wmzIeDdWeBYeW_sg0jN_2ZIw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAQqhrdDXl8FtuNeF9byWBFRmIJuHxsTkWygpXN9s1JW0AxOefe-8Tcu1hHHT_sC9pJo5y9ej1-xiAsvciNThvJP9RW5c51tRnnJhxNSbtdtRkYsoJ9jDwc1dpRjE5rB_LEhCg-d2MjhxNjmZeP2MpnNLOGhRwzvoezhsKIAK3xSCork48oI56Qw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAS5jmEZL--UkNXO6vL1iCGwddEK5y-sPldYJXJuNJ_C-RYVxUeXht2TASNj7wKruikazCfT34JpvoUw5gnt1HBtZK1GPpEMGSmBcwlNdDkgg-c5LEuf3BzxDzzVyf3y-8EhCSgUnzWMP8a5jRFMGPUD-TGhQCaWwJXuV69anpvL5lyfzKQ8Ebxw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAWuMr5SZQH8GDH8t9GD3vqMLW-uDUaXT-9-YMmzk-cRpMvC4nAZrQqAaM79uEA69bJYRehwTSpqNmfx4TAe3L15QEUh1yFEgnkEDbO3M-ikGV8xXR-GPGYffOu3lTmv1iEhA4c9E45Ch5QYxvCVBLGNOlGhSNGcAl_24A1YNX3pDt8lJkmH0sOw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAj_lL394EWO7CD-g_GDVEBaA4MO_dgW9BEVFh80-_Zsr0udiKKKkrhe1DUg-TzhlkTWBXJKQfsEGFj7mb_eTzsDP1FY_GQSQOHvHwS0cgWjeb4RgQt5aAXrs1qOul8hcKEhB-iFY-RxpqD6SpoxuaNWvCGhTcmAjhqsBQGWkhzu8ET9EXlzv09g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA3luZOrc53ksLSIOQ6vjN6ezOMHl9MYwe5uzBlo01VSZ5mAnPdXLAPbrqK-fy_mMiiypChQW5wWIt3ZV3KgAWDxz1xSWJWpPCE4IUowlFijW2T3PTJAOvPNo2XkGNLDDwEhBCg9h_-4vjkw3sxsYI766VGhTmDsRIh72weQttZPVZ49DdfwHXig",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAH3flP3nNFzoIw0N82GhqyXafFGjkfZu3IHj-50LjscuRiKJr_PDRDXa8SqhigAv0m6lAvbEm_smW-5XAzVh5ZH1aU83gEVVS56ubsWdcbaFMs2zMV_uckaJsXxYBImuyEhCKlx4zufQ0vgFOOgeeWgAiGhRTsasWI7bCn7mJcTNsPbazCNbhGg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAACup6prxENJUNUpEou6YL9jP_B9M6xkoanB6mcNI3fwfdbpn7g3U7VPFwM1Agf8xG4tSwcQbwk2VZOza-x-4NfaUmrMFe2n1qpB113r5iVWS_oyIAIfmrxH2Uea1TbG-9EhBGDZADb-sLwpN6x1t6aWByGhSI8d5NU32ycc_ac0mkTdL3giV_rA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAl9HqwfPisobRy8McLtOrWL2t1NeeYyKq1-SPrq1DL5517mP1ZZ7n1HsOXBpSUYAzD1xjTRW3zI_tIytTwUEu8WCPMHrBBPZyZnUTbTrFMjJUMPw0VJ9qGhGipiUPGJnYEhA1TuCTuS0riCjqoFVvc42kGhSd8geNOOC98vbGO2b6oxJsjkHYtw",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

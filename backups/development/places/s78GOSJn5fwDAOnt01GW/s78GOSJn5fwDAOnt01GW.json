@@ -1,0 +1,76 @@
+{
+  "website": {
+    "value": "http://www.capelands.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "3 Old Sir Lowry's Pass Rd, Somerset West, Cape Town, 7130, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "071 400 2073",
+    "type": "string"
+  },
+  "name": {
+    "value": "Capelands Estate",
+    "type": "string"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 18.88496469999999,
+        "type": "number"
+      },
+      "lat": {
+        "value": -34.1083591,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAo2-VTcQ8oXVJWEi0-2nO6ySU9MtXA7Sw8BqboYfZ3xeUOBhjTfYnyukGgJJ9djv7Ctm4DxH4RAd_4nD5LHqj1_51dOtGtAlDExC85oO4RaRkciinanvau88w0wpx3STmEhD6YUGeTO2gd5DyKz7owameGhTNIROjQ2V_LhLAoAeorZd7PHncFQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAYJcG1QzhK_m4InvDuTH5QY8nwXFqgWndo_a3g6f9KbPUma1tAv6VVkWSc2HwEqpl7fb1uSFLklh7xz3g-njkHMCD0M37vnDtzB530qEqZgiXP8IXOGStEOoXiRHxD91OEhDtOKOv8UzMYNM9DQ7v798kGhTYtrcN0iU20RTrGWJfXdZA3f2kIA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAvZ2cN11dkJEhCcDitoSlXv-kPMlu4g5WqcXBFP6W-T9axK4XOv2ECTYveDdV66Mh_MlChzHsqKXi84WVy-1vvI8bLad7b7J5OZuOIFPaPnii8_NNm_TxEZ0SvHCrJ4PyEhB6tJB6QwTx7UA8XrX_9gZ9GhR9OvOt3RTQlEEvy0smUalWZ1zJfA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAEFsCuEGNuVEvXUZtoLYCFTMO6s2BZIRguHwXfxmj_zihXrRhFAPwE-OTS2GpxxlJLoAQo6LTxNYEg7NHPwbaPywHybcHEurigTZCwmKnAj48jxQSqpo7zJ9MB9Z7ocLmEhB-wWbvLweqEcaDSr3CBNAYGhTqEyY-TY7KS3OHw6jg8_19bD3yZA",
+        "type": "string"
+      },
+      {
+        "value": "CmRZAAAAfwG5QYzw7n7ssxtr3fI3B7Ncn_UIA-jCjiwhjsduz-hs7zkmjscwEw4LX8QCUdHjiIRwJXomnrTnlx8xmLFo4eeXSFmnGc3jhWZ3R1Q8bTQdR2D3HkRqWN5Ih0j-SVszEhBcV9vGrGL6aNi65hzBm2HPGhSeAQkzmB1PvHSWqBK3JXjZumtn3A",
+        "type": "string"
+      },
+      {
+        "value": "CmRZAAAAXQTTQOdCm3HFHHCMhVw3nfX3K_opM6pnM9xnb2XE4zVqBRyDfeaMEkBSAaI1B9mFUZn0uSuocifgM3RBgOhwjLggXhWFnyCfOfGiRA-38CkcUp_YrktJRMzSrVU2frqkEhC_YiCqBlKLV1_N1zp-uHrrGhTQ0K87rtJB7444DXgaO3yGiguTTg",
+        "type": "string"
+      },
+      {
+        "value": "CmRZAAAA4nTRDMC7sR2TWCJLkGVsN3KDbp0te87k6fqjNuG7Qh3mBsl18fdf5yuCSQz0WHTIrqnH0r0IAVcU1hnmlqgC5Vt1rqEB5WWX6B6EDdOF4mmp2nW1cijCiwhAy8R-ckw0EhDVLbCQm1enR-o04eXDHHqZGhRDFxKWAotcDlF9IJGA6EXu7wduxg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA7A5xwVCfzWOfasrEgDdotGgIVO7AgPI_L90IawUc_alrLdV_yfcGARoIBGfHHzVgbQFYgtTifyDL2D3ODcbdiObY1p7FgSm-8NMtZeKoiz8bDljoO4uBaGeXlpTiVK4xEhAtDZem0939NSlOOcmYJLAfGhTy4K6GxL570ufJX87B1B2FXuoUrw",
+        "type": "string"
+      },
+      {
+        "value": "CmRZAAAAJwELhD_rh92EMukP2-qH2UGdS12m6oBAS96gVo1sRAW_cRJL3eWql2eOrMp-xc13ZPDOfZBOsjeoYeMuXwLvVW4RXf4jctnSXEjMm_UWNeqJZfd7qOZOXBj3pH8BzUu_EhBYv_briiF2RLSuUbbVaC6dGhRbrTS9hsBgRtuJhwLv5GzXLrXRlg",
+        "type": "string"
+      },
+      {
+        "value": "CmRZAAAAZfKim-SGsgylnLPHet0XQESZEoXLUPkKOCz1vFRCsOyl1jCbzqCtQImzik1wb48QDAlhO0xJZWk4xvzYnaL4ImoPCCoWjSjTSSOeMTdSs7mFTG_XW-RU7TNV5NxvsPufEhCvWcorwruVbLTAOYeyvMAcGhR1pyBNWG5cGao6-vlIUoUGJ0UHvw",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

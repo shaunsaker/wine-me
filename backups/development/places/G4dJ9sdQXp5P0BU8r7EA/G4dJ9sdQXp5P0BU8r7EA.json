@@ -1,0 +1,109 @@
+{
+  "website": {
+    "value": "http://www.mulderbosch.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Mulderbosch, Polkadraai Road, Stellenbosch, 7600, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 881 8140",
+    "type": "string"
+  },
+  "name": {
+    "value": "Mulderbosch",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 10:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 10:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 10:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 10:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 10:00 AM – 6:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.9499282,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.7643695,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAA-GmTlXD8O31aLpSJqEcB6MhrlWwt_52466foRub5GsIybEPr7DNOGLtJTkvMoilprxDWtL2mCdtOGehWp29GNNb1yYo88QsPJLyRDRL4Xy9KeH2lGCDzcfQOfuPpQhhJEhABdXyn9bEi-2lbJHGxkgLxGhRPNBAYfCZGAG_tBXBnWffayculPA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAj885QeZtkAdYxVrh_RiAnQjBUZL5Z4oK8o3DymS9ptwqgkVXI5v7iq2-KWxEeddJb8JwBuAe5wun2D4EAY_kY7TyW0wgXMr45mE-VoUD-eeSd3itIdvFbrbZ-DfcqfJDEhBcPk3Z_K48rkKB2sKIonRYGhTu26pkv2TZD3SUU6_iKZNiS3semw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAXf3-VhkQ9EANUOqdUJALDc9d3CUqK16AVCtg9qhfRGodFMwkyjbjYyC38Hz9Mi67Yp3KlsanbJppgIbBenWULwDaB8xnjRQ_UFNzGt7PKY2JpFX0XVrS8fjiRtqAQYY2EhCW98xfaLGYtBpU5zg4lmIjGhRBWmzvGTvfUDu1cglXDQZwUf6yPQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAFOZMIf51uSzahsPa0TMQQiLjBEiF8j1RzPmAGnqxSKskp8F5yD2kizji8kMuIuemjSx53uv9FA472pYt8r7hYFprEmBGoDzAzX3tAN9rT5b_LDrm-Pg7M3e3rLTQ1BZmEhBSFA8mGi5Vz79kVqWvqVnrGhSzFE7Hp19sQqRoBph4c5pRSBoP2g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAchu63yW3M-I2IYtfB55QCUnvrg2RQJt408rr96w7JnfHSdG52wTGK4Q2aknEB-zZtyP9kUGckgDGCelMs8svAKm-rSXGQW6HZNLOIdLINZq7O_5XWxeRSjbBjITOWwDeEhAdjnMHzzReLZYay6qjTDY6GhROXUkZxaHMi5C5o6iOocaCLb4Sog",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAzT48G_SXGUkyr8Q232jfE7_-mtZm460VRYEeqkGwLwQQE3psajv_PnwwcINOiOsJxbulwOQqvxwXk1oJsIylnuYUj2uuVKO9IZ2gt9mdeXQCbJlXAUSkFjlwpMCDvyLQEhBDmx8EeYWXDUKDz1u4WPGZGhSn5rf9PZTTRIhkZSjULShj-3LyWQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAR2twy4IrI2MyPYE28fp-5vISYDLTcFZIUuLhnbCuNDLIptjwEgt_F5c7DCge2EwqKeisnAksPs1gEiMfF6fGYEG-3L4fVuVX1lewqJXMEZuJBY0hUMsOmdrZ6X4tI2mhEhDPYG2lfdz2WgyW30CuQtv_GhT6-94tGwvKP-od_tge6Y4Zfm7wfA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAM82lDiHtpSaJOrQ0GxSTbI2izHlhSzlLCX-bPXVlO1PHYq0howYieaTNpgWtu6sgo_iD4YPtO3IjH-TI3ys6iWHxZ5uAi_m5xmA_EUHJ3lzjVO-HhvfszsJ5Q94ucvyjEhDoo4UWAlZV44Pqi7Azteb1GhRfRriujSV1CGaWgqBcTXEdduwudg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA2T4ElJT0ZKWL62KIZE40w3U5zmarjR6UEpKpMoBWpfSsfjjRHp-4O9EyYy9w5zetmBEHdU6B1-hJJtbx0zsuvps0B6PQm7YvU6-Biq4E0AA-uVwnNQ90hGWDmWxn2aMLEhCz35lJwz4Y9SvDIkS6r7x2GhRhv6UZ66DXJo4il6QEfL7Ysw0G7g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAGUFBRjiBg3_N4wWFKtCy5HZgq19GEtsSPo22tY5UDR0D-B1U2b4Uf0tK7dBhs-6_oSxPcu93oIcqxmxDY7OuXjFnjPcVBYFEaxTDFN6TKp16fTiMO9Cx-P0YiLRzpFZWEhC0XVbSLK2UhD1xLSroYa4VGhRGcy6pnfG44bf31IBN2mixKuuB1g",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

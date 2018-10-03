@@ -1,0 +1,76 @@
+{
+  "name": {
+    "value": "Burgherspost Wine Estate",
+    "type": "string"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.502755,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.535394,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAFO5DDX2roKajjTFIOzPDcbzeWqdARP3-gJvAtGriiXAwgHGqJ_Bl8rIHFH0Ebm86O3DSoATKutIonnXtPXgcaU7cNpLgE6gaHn9ymS7_qEEP-_j8qfIjEgQ5WD6C9nr8EhD9uWxoehicQBB3n8rmsixTGhTP66FeKyY4hdO5ajwlYb5bq3z32Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAZiDVjW4Ufu9wzZE9cBZol43Yqq3zRA8BFOHuz_fRhT8z37Po0a016PD6CYLVps-OGsqbw3D7Z96IS_xN5J9A8CVOwghhvgr-hpyiLnlPaRqPEMgg3SoE9sply9YjXpKMEhCzFJQ7xKeBJouLeR6CwEfAGhTqM5vXqhIcw2yjfGhu5ZfIwJ4HDQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA5wZM43CPYfCWkNeHC7pbNXfQG3O6lDFpwjQ6KoZsRw-GtudefLGnWxhzQg7ahCJyXPPabLuMsH5QEgATaWXh2XiJRCh7KGVAgA9LKpd7vnKTKtPuBhlHEBcFkYYd8wXOEhAqD4tkE1OrkYOZfpgqj-hKGhS-Cwu3I7aTGYRNsWpiSOyi6gpSpg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAZ_3xyppJPvQ_q1ogPwM0ccqs7t6CCtyace9a8LjTea4sBYB8wNFyM_W4T1nJgnUIz75ESBBhvJ4cD-0RBm48GO_P9-lRgwaAi_xGAf5zRXAlmHrnKPki9zS4oQZXssq0EhCRTtFWBPbvgEXSkvOvnXcTGhR-7Jqi0UqNBVTcZCIUQfKH0lANuA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAGfDuV6fvXu3IH6SiR1DerFdck0RZER3ikvWzbknimXT7kgZaNL0wrpmlgrAZerXlwADBq4Xm9Wu2lbMdnHU6vqLkceyykxsgP06tM5TVJmuk1dGbTqJTgGniVUcawAp6EhDw1RPLseSIH2rdBGO0LkXdGhRcAcpZlmxuK5Icvfn2dSjd0GN_fQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAXYz8aszdJRkOJUKETtZUoENPWpDESEbC9QsduOaoC5E0sZK4-gRhYX0RX6ATqQi3Wo9iZVTXA1G7B3dIb1qDNW3dEZQ8d3FP7gc1C5S_Ceh2iyIePxGUdamW39ua8ZeNEhDxkQrvZte_NpznKtGny9_GGhRv3RSPje_gOkSHMtoDtTZY6NUodQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAw5oVe1iIWQ2ISmHzm1DFszJgT-ZJRu3wBiZYlrhITQSfh6wI21nVlxGps_tZK4lKkI4Ekn1sXK7ut6U0p3HfZDfZdh_9P6aipqGn0nhEDKlxNHUPjzHy-mAz62yYVcOZEhAqgnwUyhb2_zoKTyeD9jWdGhQbAzX0cDHs-93sXy91uLFhamtNSw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAPwEV5JWq40nEJnOVY5Fo2CnKBC2RX4Ui7bsTqBp7cyI5125ScVIZa-cYBM7_s4jNwybmuG6Vy6mwQCBWTppCrYC5Gs9VqirJQWBQ_x0z5np2G2pgUs5pIN97OQ0x7WnhEhB60ob0Zdoi_csZKOtAZViWGhS4pQdOF3y19MZ-JVB0v9mHzmqcDw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAtf88YBtPsT0TkheHFn_D_qzV_gkRtYscwj2P2Gca8AMzBscnRg2kBrHVoe-WD52Z6UcF2qJ_npI_3yUQtx8s1xhBvf7VrDpdQsZ56XxRpoQVoo3_DmT8CJjddHEN7cLoEhCheb2uzW56F_i3n8PfLU_gGhSUbQTBOH3TdyJnLjBk5tATd8Ox2g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAaNOYPVTdEr2T4Owzhd9hHeW_4zvJJo9qmjhs9fuyrf_K4GNprIXuJ6iRMsi55Kif3YFzPZMWzA0oSO_f1DVcUNy0n4QK_F9jSimsHpRJPcdt5Vkx6U6T-rdS1FSj6IatEhAyCn4MuYa-k8eZjHguNSNiGhSU6WUxEGsVD4qZVsGCFPhbafXp8Q",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.burgherspost.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Mamreweg, Darling, 7345, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "022 492 2830",
+    "type": "string"
+  }
+}

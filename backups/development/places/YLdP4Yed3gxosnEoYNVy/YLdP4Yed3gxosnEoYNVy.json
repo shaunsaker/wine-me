@@ -1,0 +1,76 @@
+{
+  "location": {
+    "value": {
+      "lng": {
+        "value": 19.1273839,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.9227899,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAzF4_IsSn21NJZhQ45Ivx9xLttl0hoJEN5O0APhJ5ZsDnMVbnnrMSEzICgkverHctdeigxgbrbC-zJQ5-wv39zpZyY5GG7oJwqvTpeCoShWup3KQPZgGKQqPeVPq-YdVxEhACCoSAN5pQKPO9OBD0SixRGhTl4C_xJwj2y1aN1vqfVNb-PMXwlg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAhOAQtTt3ikFdlGPRSLSwXgpNGFfi6oqdlXPtNijgDHn5cC2XFQjU2jWZZfdTM28QFK2bkLwHBbcRpnF2Eglv9leimyX3gR0g2DYr9GZ632tqf1y65UxexWF-ko2w2xTpEhB38tE4d2NJeadmej3nidmbGhS5WBsnpmJjmfuDtq2LnPcfMAFNWw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAA_A4-rDiXaLKRI3gI0_kznPX9_AqXOs6icxWd2YZUiEXTVEB22Izvv_fOaZGnrniGMai3KY7BKAmqH8QGzYp2jzpRp2fl36eOpVXo5TK-i-D-rwV-c7Diy1yDzTcGGpTEhAgKNGAGPF0R2CxIKHnKAZkGhTaASC4ywMxsYs-6zkE4ORkVQdMJA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA0b7OL10RmEzB1bDzuy9wjkK1xt_sDbHJmFg2bq2uVAxTtuDiS5F-reAGVtQps3EQPab_ImiNMuIvHpIovNf3mCrTwZm4WhwGPdsQpVHeAuVwvuH-yXRzH36nTXLFDvFuEhDzyIOjKmHpfERc9vn8Bw3LGhQWh5zz7WbNb2hXlJomh7P0Qrwi9g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAde_WjKlmrFsovyC78aKoikYizwD8LRrWRC_cRNNV1eAdXsoAx_vPmbGWGwnI0kcIlKSVpBrjY3h7_60hx1-ax5_zllt5X2gZPq_-4Qtd-XtPCB4B9I58kaeCU38C4OeXEhBRkfm-TpR7yqtNrYVPE_1vGhTqHw8W7aXyFjPSTxetqob93JLZ4Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAmTQzBKK0InYbSiGnoD0YkmG6adsOUWVmuctV5Zmb5I2jWn7olUl9Ow_NiivAE4WLLevc3ASZ2pdhvBsCvoKD7c_8S9py3rRLd7JCCxNneKvUqn3ZDKDDJre8VZdzFQnnEhD4Ll-cR8yrZ2gjeE0XeDMbGhS2cg-cx60rzbew7qImyQ-FPJyGeA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAe449RqOVRC_OYVbz6hylFUt0uYZRlHxeL8mJfCJ9Tage8T5Y-Mu7oQLMhQFNyMOJJLOuVIpvrAMWCFN9eA434WMflzo4NwxrSOQOU37LZap-sZtQi2FZsCQwuqfOs8cxEhCzI3M82o07YJpNzAgOJrCNGhS4pQvNMu854wR2sYuLpWGu1GCESw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAb7xt0yGnp39O-IVXD0FunyV1OmhlfFCj_YoJQbXkpcfd7OP2WYO6zOdMnfMcbBi2eZnOIQoaJr6ui9AOhS49u55i8wml-QHJUOxA4WFisc3YNyXcoF-AiQlKZJzOl_jqEhBY674SEZ9G98mRztqBddMqGhTM2gSZwXuQMKqk7DnL3xVTMmA8zw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAWmN1iaawH0UYjSxSka0H9MSYQlNcix3Ba4ANZwrfIuQTWd_VL0wBldV8r9hrkUjBx2PLDiF2gR5fT4a_DIYAXcpSnCcs6B-99rDN6L_NK7My4pevP2JmwYwRhAU5W05YEhBiP4RUjXVgLYllRLY6R62_GhR9HVHWf9FZ6lglTCwpZz9dp8CWsQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAgvEucX22mA4VFciwvX48PVW9yoOeaPTlng00o_Y1x8JKgjIsLloNUbqLQIL4Vb-uV_d-xlpr3NCRoC_txXrLJQcKKdbqfe5ZZmy5V6O2w1d3CyVkxiN7zbRTS3CVp-84EhBPeYDpFaBEIoa9btEG-dffGhSsBeks6acqaj2N-jzimLW0nTOAmA",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.colmant.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Franschhoek Valley, Winelands, South Africa, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 876 4348",
+    "type": "string"
+  },
+  "name": {
+    "value": "Colmant Winery",
+    "type": "string"
+  }
+}

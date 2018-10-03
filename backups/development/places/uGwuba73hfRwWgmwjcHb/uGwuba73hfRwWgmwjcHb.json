@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 3:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 18.800415,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.96084460000001,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAoXYsKvHph4FPQBVeJAMd0FWcbUqLjnvHVLU3m6aND6w52FYiHiZ0odioPXer-lgdvfcszL3i_1AQl5M6ZHSq7XFWoqJrBUcxBw_9oLqB28fqc3pGRQVJvOZ0Jta8ghwAEhB53OEQiMa7DB8HkZblDT3xGhQrFIQzUcPFeX6iOOHCz_PyWvK8pg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAE2mlbhz8L-5fqlGY9ObwTxEiIOSN9yif_GXNN9S0Xf2Nc7-Y-U1potEUrvdnJgrWzu5jZFm8NyteShKsgCwsWmzbuOfsgjeYckHHiaezPEbyg9I66TqmkRvl1An37fffEhCYljuowUbr2WmlAjPfp3C7GhTRu6_HdqnzFgrxowbkRBnbQG7LFA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAdQHD9i9akOk6D5XXXt461k7qkyAeKtt0EwWq_KZ422_hevEocEk2JzRugknsWErE6wjvzUOU6FU_TGVQgK88o8TUxd3iqxZq3mnjySIN1-GM_FtpAVxsB3WpnBdsIKi6EhCDea2TkjY2vHsa6gHOmKHMGhSnhPta32sWQkdwxwxPu1CLwimZxg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAlgZKgVHlHUwYCBwvBkhHD6z9TaBQBdMlYzGBJWsPImNfkWOxbbjKe8oflGfgu-7aKSHnydSAEu2te6zGgycwMXE8fBNYDcyggEFzYFNtMULxETWBdxylSHvKUr5EYPJ8EhCEcTDDk6Idd2CBDCGRwpTyGhSxV83bfkgmOYJQTGVL_8pxF-Gpog",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAZJqPAum7BJYjnLG0N3ISDZd_3jDA9hKwCH5nrUc87U0HnrIFfiBEI5E0ytwC9KjO-PJ_Z4HNHkPIyT3EG0oZNqz1uh9hyFT30vIFhqbZGZUjSHEznyUZBPKh3Og2t8m4EhD6itWdtlZGp1jWq67OnAk8GhRSfvjtE9pnlukPqhWWoZU2bjkKLw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA-9Cn2qEP3_WcARry7UjLS_4eSadsiO0M_Dnaukal7dMx2LNZHcBQbpWI2j4oH9gYh9sn8hfNivPKRlTZQbGGOclAxIBBGA0_KOfVsQ17qKmsykZgx0l-QY3VawVHhWuqEhDgVLEUkDhweV8iOJEQy57IGhRJR5pxWwuZng_Hd1WKvxLIvNFGXA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA3cR7dTXto8Ervjuy38loCYhhQM37JosucKQlSBiU1zNzFkkkwrHX1W-0IbJufiyMhZ2rk0K4mU-XIHWS3UxlzgyUdqOE8pjyso5HHpZKl7r0XCV9rU90TICSmX4ijllBEhCkmK6Y4Hto_3rBJMseI1nnGhSnXCAp5GzJUCL5AblZZt60RXHzBQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAArCAcefnCcTKo3-q0eP_fFlOUksYkh5aPehLdFsOjoXxT6SskFAN75lIP1ArKdgYhDsDc9xrKtjoxB6ECsIgMT-cjhv5cA7rAIOw8Q_pDjHjRNDxnVBkE5E7t2iD63rA1EhD1laM9dbA-vC701TUQc4NYGhTv_CXPO6ZfTIXBjI6WbnF__mq7eg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAMgvaQNhoFGz_s_71nrE-CzQokrLRHHOrKsrPwy0Dc3rPweYJW6lnLJ9dqTDjfpaMJ_IOWCxxrPomqITBiPCUiiMqQl7xPuU2isJ--Zt_8AyJVwKNy5zSw5E_fr0EYPrdEhBa5i3LlT_GPBcO75V71lS8GhShGwz4mN8vwtEW9MIX1xGcrndi0g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAlHtkyRXWadtNX9rpnwBUTXcJuBxwTw5lNUWwX4p2Q1qN9qDSJj5mHUbRN6T5bWG-Wd86CY3AwYNODvADkr4cYuaoF6c9UHYZ9uC_I8KoeMYVnaHYAxz_jFnQCMtd_u58EhDjYJYD000wcMxHDMco8kWYGhQmPIAxnmiBSvQ14d47vDjSKivqUQ",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.stellenbosch-hills.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "c/o R310 & Vlottenburg Road, Vlottenburg, Stellenbosch, 7604, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 881 3828",
+    "type": "string"
+  },
+  "name": {
+    "value": "Stellenbosch Hills",
+    "type": "string"
+  }
+}

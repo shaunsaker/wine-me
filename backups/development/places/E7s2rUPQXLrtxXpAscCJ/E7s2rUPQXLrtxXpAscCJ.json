@@ -1,0 +1,109 @@
+{
+  "website": {
+    "value": "http://www.labourgogne.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Excelsior Rd, Franschhoek, 7690, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 876 3245",
+    "type": "string"
+  },
+  "name": {
+    "value": "La Bourgogne Winefarm",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 8:30 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 8:30 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 8:30 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 8:30 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 8:30 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 8:30 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 8:30 AM – 5:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 19.1199353,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.9257185,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAhXm25cBaTcu4a05Q4ReiU8aRrk4LTDes3UzuVCxiB8y4QataxYyawFfGRkRqKRM8-29TlgKzktfZ8nTIjH0fDwbsKuIxnxSkKXARZhKNyh0q9CBTUGnaMLXmOJx7y5TpEhCIs9xd0jQixGndM-40DV66GhQPsa6GmLlsyGNy1Qsmoe5EiBnY4g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAWS1FGMHBdZWfM1epRgMB5xF-Gbl3bw5jm5n6HHQwXMy0IJVeX9cFO5olLDaSLOnIhQ0quEeakOh5S_keROhVCSZzKo0jSssNIihXmokEipQx6-Zx_X3aZlJS1wgITQkREhAxnpSKAN99ogZj4LVgqXWyGhS0B_QJdw9-qiaD-9CTe9jIYomq6A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAH5g72abJTNubJbo9c09gtKhky2ydtzwerzjLs1m_BKp0O8KzqvxqKVnHHVG9ikV09J0YxYhqNLQfwEguMT2nSpCadNejpPER8ZW8vYj3d357l5JrLpiEQhigMm5qZlKYEhBQmcV_bGKv2Ud-EwXxFXnBGhT5BFBoOlQnBqmqyoO_3mhzTtSrTw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAHWH3mh8gdvmbnZx9z1b5KofFf75wCaLhFZNh_A4hy81VPWwRdRGSfPccQ8d55s64c-6v9yvekDWk9sUZJjyQ9gNGRamYnlWWomeaRLm1ajP_88ppzzYlOsZ3WqR6bh-JEhC1y8HghP9owW7ZBQuJIWbkGhStEYMR8SsPB1wZSYaFusyuBP6pGg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA6Ic4pfUXrZSHtJSjI9vr8gR0XjfJJk658RH5RL4xCwxuXV75bK7GblvnG81Y6JoVaMcQcY9sbQwKMiUCOK_WsE9Ty593UzxLtMFKrEKTcNcj-7bppF3qZ7wVuySzxUX8EhBdMVdgUy5mM-dGIaB1bbMsGhQ8GY8VDsg54nixY0tuuRJDv09YQA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAG_bJLyvr1RcFqZCQc5GIO1HwloQYExDkPiXKl5cm8zwbKdGNh7VdzhOzxEbDF6hdMkc6Biin3-hLpUM3NTi6z_cihsI84cSe7OnIwa7Z7-bx49wbq0nxNr9tDMexj00dEhDcAqiGU9Y4PlM2YwXOx1gGGhQFhZoki21C3BgAlOaHVay7oLNrJg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAQq9VDNrQ3oBNofEicWuto9vQDQTSTRu27Z8Dk1X5yPB-jIIJOFaTTpijmCE562IPmIfrCd3nedHkq6oUFtRk3ZlQQ3hCz4MCbMNKmeYK8fzkRyvpsQ_dTT49xHKFnsErEhD2Ei7IAERsZ9ZFasrJ5xZQGhTbI7M6XZBqfOUZP3Lvx4sNwnCU0A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAb3P1CvnTLPH54kik5i2ivYjpEeUkTzHZ5EY7aQONv6LZBgCpLZT0MAQNbBAc1KxwqulfJXTE-grJ4fuDcke23o8hvtLcy6OBJZJNuDrfX_oRSnfAzStfnqW5rMIJAYupEhCPMB0Kqlw2DiWvnsePj9vjGhQjwqG3Vm8mHgw2XNgkYNuKAj3hAg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAceJ5VZwK-Ck_8wxKDKlVmXyYFT8XyW22P1Z2xbx-l7gOt_SYp71yH8JH1v51cxoiW7BvkmxnxpAYBvfmnDUdA7m6kozMidgbefafhVZ4lt2WRVCDcMpPvCMXxw4VvM1SEhDnPmKlUTM1jrXwVO7sVvvoGhRbjwVD8wiY2LZ1HBNDrAmGQs7FWQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAeUQzCkogg7e9GJBCxbaTwjifOetQJ2QyCbWUSK3uSa_CIjiwoMPfeKg2NnDEjJfs4I1g6zCUP05JOONhzCSRHfFnPcUeU5XFzlrFy_p6Y_ucCtsozBxxsoYwNaBu5tWdEhChkLTEfmRLtgFYG4a4Dex1GhQDaRixtbkIrdvdWvrfcjVzO1kqfg",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

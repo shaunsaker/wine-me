@@ -1,0 +1,109 @@
+{
+  "website": {
+    "value": "http://www.uvamira.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Annandale Road, Stellenbosch, 7599, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 880 1683",
+    "type": "string"
+  },
+  "name": {
+    "value": "Uva Mira Mountain Vineyards",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -34.024637,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.858752,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAEp4ADRGPIf1QCJl55dk-t_VSqmjCH_uVPw06AEfJgcGSjGlaff3v35EXwrfpaBvVzjy_eB-2b176_lGL0_nqSjXiFg6oKKs1RT8MI0u8CNnzgJmvm_DZVLCvJl1aGfc2EhDtvk5T-lV8LH-aXMXBXIyaGhT4Eo4J2wi8glL8GU5q98CKylzIaQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA3D9VgozqeZS-UxdfW5DfznsfcnjQQYnFSqR9nwJ6ghr7_O2pnV1-4zGOJIVTH3TvlHvuFlVOmjcfRJJmzAQteCuY13bGDFwzDeQkcvMACzjvpMK_m8ExFfLKFIRicKw2EhCUURed3sf_L739_fFBVjuKGhSGNZgsixfrNaeTZR74EentQH3tzQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA_msPc81OMOsC1RyeetEgq2NCF1TDg9it5z4ajjQQzyWNM8wvnppzU7RawLRaGU93gSmZW6hDqT7EoxNGU-SgwnJpMkx5i2k20GcghK8RNvYZGDq4r7_cncpYFCi3WnAlEhCAUyhuYoi7abm0f7NCj0yBGhTQGRTxGkqyW4_wqEb9BGwQYFQ3WA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAASPELnTfroX4VwLecqCjrvce9Uq49Xlmv0G8xDDqIhUTZB9WX3JqyDsyq3RKch5NXXXXqzkpFSXBp5ayGZS57lxoWxKo-ecu_Aydr6agP34ZU-O-ZKDongmTlA_dEAryaEhDZwzNWfmB8HvnuD33EHXPQGhTlqZS35zlhtiXBtfnrcoh1wIOXxw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA03cw9lWb8s9RZZH8C9Fm56C9qvWk2n3pz9pjYclJ-Wlb-37NPRwTUvYFLN66WuWLbc-aYMZtYtKYg2sg4FFXn0mUkk_uzLgN1Q4bBLApH4_ftd--fMsQbVEJBkU1vzOeEhBF071cmKjfa8TRCJzs6qJMGhRtWaeg5OYWe9qxLJ9YJF6-padPIA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAAscIqoxxopnCAAshmT1gLeYPVxU8-5VUJmrxSDvBA60nnQMAveDi4vk19hUqYF0aqGSvvPfvrhehxrXED9MFOq8934gHbBjQHzUjly-CUjjoMJ2dqB2VOOAuIAiuCzAEEhBimobTOt0itYOzOFlLO1VkGhR3wB42doR4aGKhLWa3A_mV9m2e-A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA_KuzN8rfWZZ5zpCuoJGyZzvdzStXBw94al8FSCFu_YOxTk4BLAQtzPzcuXwzkzWMywzs4HfdANzCdAbXnWQ8jIU_r_Kvhf_OfY7_fbf1LBw4Jg6afDc_i-ERfl8gM8YJEhDTaAb9MJazf0L980zLI7fIGhQlomTPQtbg2NG5e08VL1PKmFkrsg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAADMFI-ZrImVIeov8VEOOU9_rpzuumqT8Uy_7xVz837tKL8tJP6Tlf1l6Ga7eI6SXsFod_rfTVJmw659c68917Y-vIlmfWsBwFQP__w9Ur4IQCvkYWeUju2Mcao4jvZzCVEhDEeqzO9rW3s6w_t9Q-raY5GhSX95Yi7b8fEZX_kKvGUzdJjdq_hA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAASrHPNFRNcTvBtr3H42jiVPV0y8UPp72hvpWAmY9O2hP3OzMqYR1kP2KryKqAFjYfw8R8BZAIzZNUUYUqN2gGK1pTUi-Al42mGjr18iDiSF8cac_g-Xg2e9DKdBHhw7KoEhB4BzfaUijTCLNmbhfRL97WGhShdIsjmGdmFKNxNTviB1OBYTCVOw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA6FGGn3Os999fr8GK7kYcWwbLPC75zGuj-O6tXI0edk6q-LH6Lk1v85DN4JqrvHdKiI1bB_e7HZh9Zgj4FsEwmVYOh0IdbilDm6EgxIukmAB0VS5rB1UHvM6s2lqdZsa4EhDGz9l3Kg38GWj1VEPbi0Y6GhTsUhXHyJMK4b06PeFuIAZp5mT1zQ",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

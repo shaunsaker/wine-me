@@ -1,0 +1,56 @@
+{
+  "website": {
+    "value": "http://www.kleinood.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Blaauwklippen Rd, Stellenbosch, 7600, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 880 2527",
+    "type": "string"
+  },
+  "name": {
+    "value": "Kleinood Winery",
+    "type": "string"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 18.873653,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.995305,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAuhhHhoJRh2g6oNbXG-qlCDL-PlMRV1EGfMhVM8KkYHAsfn9BNpax5Aq3kzj6lfPFSK2W730hFoy9OfEN0MxieSjm0aGlSmwR4gAoX9Sqym81ny-abk8dmHk5IHxbogG5EhC_W8Xm7wo7kyaDplvEaUuXGhTKxNuGpiWC6WB0PrH3_Ge9jekhAA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAVaRX3ICAmd4cOPvf3HOT8-vcOU0Win_OdaaCZqOHwACQnRB5wCnHejx7rg4o8dxmvswo7-GtKWmYEkjyTpFebxXCUPYf2so5cp3blJgwPNJQYkyFQ8s7gBg4IC71NeQGEhDthmflOVcWeWZ2XsKn1cdiGhTo-O9V_bGzPVjANvJaZP59tbZtrw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA_tLa_yzd0urGZBq8GTM022GC16odOYp5WTO4xHfssmW43xNEuM9ldSLcy_C2AduGMEKO53s5_sqUNN3jXaDkzSb0OK_cvOmCiPz9qERt4vyRG54rckSb4Ky3a32WD2QrEhBiXVoKOEMxMkHLuMc6QFHdGhTHNyrM8dhxWrdjXWxa5oujuvAHZw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA6gtF5P6ZcNFyQfs1vbHNRiQsE5Ru0OPkFHyABfyciFVBWyaE6Y1QpTmrDXXA638YEgrSN4wVnA--x_OYOd7XwlXp6vlsc9tR1NFJg6T8B9wjARbycPyOG8CGr-s23-tOEhD7fAIm2oTAAKbkDPR8n4cOGhQta8WQVfmX4rmheyvld-B2NzQG1w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAGSuWXj9mss5Rm6XZsGlaPsAdNKvF_yfcEAsTudrU76EQPSRyTodqp-g47MYPTVBe6F-ot9fumUlUE7g_az7l7dB0LUzfBNgZxwntRnugAUHsm1EE6y00IhDSqsrOToLGEhDEti16H9_9JhtNkq33ptxIGhRYW_9C9PpWK2MGtH4hKRvf3AfCsQ",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

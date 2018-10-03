@@ -1,0 +1,72 @@
+{
+  "address": {
+    "value": "40 Main Street, Paarl, 7646, South Africa",
+    "type": "string"
+  },
+  "website": {
+    "value": "http://www.dezoeteinval.co.za/",
+    "type": "string"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 18.9740599,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.76327000000001,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAANrCuvBDfzLkDF_JuV_nzXveUHBlBeseWW8IRdVrUKE1YMmjlwbHhSIeicTkTPjy7kvU5E7-CIU2CBrGkExO7vDKiCtIF9tCFruttGQ8LOftwL1nk6p7nhT-4hcG9kIxTEhCQf4wjQQpthiMZ__CFnygGGhRO56ScWt3tm9IV5NM0t_jO_VC35Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAObglDQeUaMUn9VrG0X0C-hqQqc9zq250fD167B4U0vZWjeNEhr1vWhAfE-AX1IxGrmlyqNue2-b7wB2lVNLHsgsWMHc_fXwh52TDeGGlLu527bYQB7g8vnZFR93WCQy8EhDL3-7cx_57F9-q5knrENKbGhSF5YzRzrEN65kMRHCNoXerTNHEkA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA7RPJlycneDBWewZerLZqMbVp9SUjplX2R8ZPpZ-NfPCQpz0-ak_WvZatXMYtCyS-_n4JLOaCJ6MUIchTIKbeaFOULYcrKnGA7ecM9HyOpbLVkNoBstc06fIHcHGGxR0tEhCnrNrXHj7Bfsw815JJIQfZGhQEdh0s8VYNGfJ7He5Wez_JENMhAA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAe4gx0eEEznzKh_wJUHLW28dXlo7m3idw9odJwaNnFZjoO76bgWMCbQk93TZo5CdQAml9QPX89dL4-wgQdtcBkLmHtocPQlfKcturwx3VlokA1n79iGRLugA_ZvCID7uOEhCpAXimQQ6KNiO0p_BEZQXLGhTsG50e5kkMFL_WUvMToHhW3DFbWA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAC3n8Z_XQf3ZAs9tE5bwdR60eOgj8b9MhDemloKWjoObpOo7Tirh2fx27seiXcRZHuZeOcOwNeEuDz2cK0Ix1zJTGDsZZuWUeD2wU19h_uvmUpS_0sEBx7h-y9wkvdJQzEhD72VpFi2rcvW8gYnDPLg7UGhQDl1pelDkszzOtRUArNOKFPm3Bdg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAGgNzGfrODtSpWQKqUxI5yKJMGpj1QDYm_66icwzseWZ9zBLYS0lP2z0aISfbDyKjc4Y2QMkpPaxD36NCZMO1YjYymuOoG5VIlZqw2MN9ysPHWLC_QSVu2BgGRqM4zoH7EhDQMJfKw0IK-snco4zrk65zGhTVGzCys6tapdUtXirzPKXQu9kW0A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAyfvuguMHyc5Z0_gpbiDEHZStpcT3M30PlZDjKkZqDrHt4Ht4idknxdZ0zC60Fst4YI4PIYX0CztiOBX30cvumlbotL0stFvmZJiUJlt8WqLKLBwBaq_vMlxC8HV50Qv8EhDAO5WCbA0SMn9RanPbG3ZkGhRfnYXCpJdDzTqL_G8eZbko-v420Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAD__Xf4gqybmQFh0E9iu7q1TcddTVnEf1xQ0ExG-16GuS9YyBiOFJNZBFGzBYqbBXuYSbh04B-ZDO5r-JrTxYXfgwUfP1fyYF5McSIaZBedggN-xQLVTKdAwQn-zrxyOiEhAUL_oWJueAs_TjkDhw52Y6GhRZ6omO7ipHVAplydLxHKg7THxhwA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAnQT10hL8ZBf1s5U4UXaiMM1-7txuI8ELQCc2uls1CT_U-9h4bAnrHoGdRPLmGvGOsEQBlMRSLAGmF9rurjzYDlgrvPheIijekuwOMv-4jA16ICCznDpiF3C2cFFx2Zi2EhCRuGDaYlBZPLKfb4ISi72YGhQHM4SUjpBLxmXYGHIDiMaqBYDnqQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAVzRZDy7cSZWAxQ6EbW7wDjSAK1vls8mzhaiS0vzHez8f3ZwnUlwVwCO8APu9-ipDvgNWvklx6lzA2cyv7lFFvl6cLDs9ZPpr8slaEWYIs1rX4p39WAFAFmQlbfOIWh2dEhBJWSddSMxm-8L0SHqppoHEGhTRVWpCR1jJhPBKEsYHPDjo3xpY8g",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "name": {
+    "value": "Wine Estate - Mason's Hill",
+    "type": "string"
+  }
+}

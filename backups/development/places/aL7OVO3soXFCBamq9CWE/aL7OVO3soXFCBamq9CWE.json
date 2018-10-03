@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 10:00 AM – 2:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 19.00453,
+        "type": "number"
+      },
+      "lat": {
+        "value": -34.20311,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAIb1Y4GuEOA73LGkkfzPDLfFcrRbcpZZbEMyh_C3qqSdnWlSyLnM4Ofkbd8f6gJtVYCNd4lalIHAgzI_XWpI49ARqVY0BWKlhOF-3WYd8yCMiwi3s_KU28Eja1kCZ7pGqEhCYDkyx0PQXaBeP1L4pImjBGhRedr5TmTvlL75S16MiCLU03RozWQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAxYCJdW_aPh35veCZkAMvPECk5sX5bIcKNfxVz26bTaKh482_DKmJ4wxrT1EoYskEMvFlxcm-FEd-sCLRy7nAlPLA_zl6TAHqK2VKgYe0lx2MG0u94w7BKF-dHB4u0allEhD0otIGACDWog4B4Z09kdMCGhQ6zEP2gjhWDZIezsw1REVxQUBtAA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAmJtQpX7w_u_FaAU7v-l7UWBttmtPyApztKj6p6Eh8pb5oKhpSBjxappIohGAijyAFbYNZt-fMr8jlhL-WQlEzSRmIv6bnZPgOP5v6qpnyzLXCTj3KK6w-CA5WfXeDT6AEhCjedtWkeORbls2jP9vsumMGhQb4PNFRAZ1P9n1gFOtVPvnmYzSZQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAQq1dW77H-Xc32DddAQW4FtjcFk4p1JpZrJWMyMXSl9vfvzy5RJMArhl5lbWMcdrhtLoqxYZLsg6egXmtIIy1uleUJNG9VewkQKo0xYPZRy1s9hjipVAs1iSKRFEuS3RAEhDpvrkOh9z2NlYdreoA8P65GhR7byTUhYXYF8XvYnDMMMUIhK7luw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAAeW-mm-5V_Q9oTBV6-ed65ERAyX8C8b3N4GyiOgmN9HOPedB8el0NoqIenX5z2Dk7wNfBlmGiN7U285yq6JuxcXj0qUH2FHpBNUYWfcOtmZewriRe-kmmn7pBpNnOCVXEhBemAGZ3FGDxIid7EBr3HhBGhR4HzjCzg3A3GMohAhOl5izBPpUow",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAMLgE9BjDrLegst-1hAq3VAvHgylwL7LCbOPC4MCMGZQnv7wZJ6HBcdV4gWrxK8cnFgb81nxuoxwweMYv7vS4yii4NDpizWHpnRHb4WNHlQUQI_oXKsSd4Dc-LI_a14x2EhA7FkPyycyRug0jHu6JQ-AEGhRezErM2Gd0UitzdMrgFS2OXzhHpQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA8khsWFV14VtSfCyX9UQ04ygq0F0NOIkg1aFYgjYuORcgy8K8m3KsJ6J-PfG7fFjLMiOKPXk0dOme7-bhn0auWXN0w-toxSlUhXJMKKkt_aWBkuAe9Bjx4E1_LME1W9rHEhCEVnNJTPWxbetcr6sQ_8O_GhQikS7iprI0zkgR6AT1NCyrIWaRXg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAMGsXi7MCMCAez3hhMPzO8Ejpl5oHeHKHriWp0i5JnzEQLK-VigSL4U2YK-GfBF1v_E6KtElP69kSqAJkXrKo-9P5N-CX75JZy9HhkdJ6nZHt9Aj0aiYr-UQ0gQKNJdkdEhAswyVb4rd3dAW6em6dC39hGhRjIN0-YJwhsOgVCleiAu7qRqzf4Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA7d49BIZ5SH5t4b4rIs77nJBrDivHcywk__SSheCH7Zcif-0NnBiObbmtLqC7lElfwdQY1UFfw3es2DDbPj6xC6_SWzGM-1IqgI1OFeZ3ymw3LjS0_H91IYUjsvmG22pfEhAt1G5ypC6rRNnjF9M25j8EGhRyGosWvy45T7AlQ40MwsCSk1dyLg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAnyc9lDFLNihqJnap-PCMj8UC2egZkA4cfbuttSr3_vt4Xx_ltcppCb7DEOtdsZzyekL44bqn4QpiyNUoYcy1JzfEuAO3-MY5DDRUjIs90e84IpNX65dEUaMgK96jcUVlEhABmJ5pL_d1F_DsMF0UtYDQGhR2zTi2aO0FbpXMntBKOEOyv8wrhw",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.elginridge.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Appletiser Road, Elgin, Elgin Valley, 7180, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 846 8060",
+    "type": "string"
+  },
+  "name": {
+    "value": "Elgin Ridge Biodynamic Wine Estate",
+    "type": "string"
+  }
+}

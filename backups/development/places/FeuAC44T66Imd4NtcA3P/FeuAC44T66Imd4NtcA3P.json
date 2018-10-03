@@ -1,0 +1,64 @@
+{
+  "website": {
+    "value": "http://hoopenburg.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "101 Old Paarl Rd, Muldersvlei, Stellenbosch, 7599, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 884 4221",
+    "type": "string"
+  },
+  "name": {
+    "value": "Hoopenburg Wines",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.8242696,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.8175543,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "website": {
+    "value": "http://www.closmalverne.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Devon Valley Rd, Stellenbosch, 7600, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 865 2022",
+    "type": "string"
+  },
+  "name": {
+    "value": "Clos Malverne Wine Farm",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 12:00 – 3:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 12:00 – 3:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 18.819279,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.922841,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAjhRu3vrxj-0LmluMiC5KgLJkKg3NxYlVWpce5aK0ci2geK5AoBPr2PkhCOL2u6dkYc6v7O6YS2waI2yCa9SVV0FBZeb6kf_c_3qGJ4k5A-jRcqWatJtvUns6VZlp8cruEhCyLNKB2NsMAoikTshmhJZCGhTH6kHAWV14UFKDWT7cDIMIZBctPQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAnt7Pn8QaWS5yn3yxmeEOXDFv_fv1EzEUEHGZXLHseWUECVZKn-8ThgWMu6INmz05_N-x08UaKc0u-rAf9ekZ7us4rhrAdkCj3-pre3xeN3Sr-kEsZZcjs9gCWnarF8hlEhD6k_w16k9J-Xv3nO6Wa4cbGhTPdn7Avj0bO48c5GGsZVHWyMPIow",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAn7PwWqMjEw-z_FeNABdPRgm9oh5WawSMPXqMvOmj3xjFjgc03Xo---VmvZHLIEl0wvgs_QT1blXCK-iDYELXAMLp5T-J9Pk0dXQYwSd222jgOZFw_8cQal_DTz0WBFtVEhC3iz9Bpwf7NDbNkAfwkUNKGhS8CnpE9w-gDyBmsuQIbGQ4nS7GKQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAhhRTr9iqNGdNqxzHck8dIBVpnviOCMdOJU4jKDHrYJxdLqN_vHinOuMrFd0vQJD8wp5FpaAqkSK5Zydwq3aJcjZctAvKO-M0ODWCa9jEz8Uper9stI9KSv0O5aXbglJNEhBhOoEQ9UwruPjwTDA5wyLrGhSmHs3L08FBHhSm-_K8lW3qwDOq7g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAqmTx1uAF9xpbWo2je0camSddjt6gO7OiN7S_nfDgkAfKd-hifpEo4XxzRWAgY4BxKHeVnXrQOcBLTsjszxNRM4klwyX3Dm7-7M2jTrYUQwY32wJRuFyw_9uQZ-v77fpwEhDdJ4IXh5sCoVhoa_FiT8V2GhTfetR68cZUL_VFAaYKVRLBp90w-A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAApG6xd4bQFwhjlXD_2clqyou8KXDSiJ6-wFQymw1SXjvNrjBX1mxuo9yVhToBLSeDnAULv0HXp0S5Yyd3QAZJpI09O-QL3lIL6eWlHboqH7FH4LTCLJQ-f-wcIoFB1G2HEhDVXe2DJ4KtPoxETRrz9aw6GhTrAb8D6S3w4qQGUicl_FIons0iAA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAGD3guvjJTz3zE7L2YQcZIuJaSx-W6zsNVVZ2O8xbgUJDsQDQFTYGj1NQX6LfkWFg8li_2P1B0Vpso_SH2ZnWAc3YDon_t2knoPlt9eQ_Zmo_cCdcx4yDC2afNUGCmaSAEhCIEwiXKeEXJktJ4IAS9ehbGhQ0MOjpWFzybRRrGJHTsiWNJuLKHQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA0Gy1bf-rCwDSehddPvjc9_FQYnS7TvlGmK-xSx-MLUIeuvts-YzFltVgHncBQBSTt9dNPXI8kqabhTFbXg8VvIPV9t4cpC5A0v8bsYmsR9OW_CX_wDk0ZotFg_6UuxPyEhDCouVtEF8eqEzecl9K-FWBGhSHLsXpOMo5dzy5gocIRPFaXU5ZBA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAirz4HVAxSrG25fwzZkNJd1i7oUO9oXRt7dawljw-DwRkIZb-PSaG0vFdI_p2f3HfrWJNv43SWWNcDaFBA7UnMlcaZrNXh-0hu41W3uGKz53QXjaYlPxXtLGHP0obIY77EhC-FtIK31Zt1-mrjXy2ahtuGhQ0AfLIHpzizKhv370Xlv9xJnjnMQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA6IcdZVTYzIxDPK1YLrHFpopIav4HkbVKGNA-KBwTh6E0X9r3mK5hzS1Phk-ZG_uh8h1qmVswaie2C5WUh3yiQXh740aL4DZAFnglYGfCAlq2F2KwfHGCvx5atUDLUFslEhBeEa2jjfeoNYDyizLhguH4GhSioVRitnJ7pxWQaKPOEjiiYJXDYg",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

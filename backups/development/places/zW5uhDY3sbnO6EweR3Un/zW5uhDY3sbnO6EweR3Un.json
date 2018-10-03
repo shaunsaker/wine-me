@@ -1,0 +1,109 @@
+{
+  "name": {
+    "value": "DuVon Wine and Wedding Estate",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.8129163,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.7853305,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAiUxYFzXcqvkp_EHRWF1vTRcF_L5OtvwekvQZ_KqueaRoc6wkWIGEoMWmLskH5xFoMl-TaaxF_KX8g3_4yIAt6nDIeAHPpWxRtqWgf49BNRuWa6blOa13f72b9sPMvfD-EhAGnZF4WZPXJHUhLjZvQ1ePGhRbozjvcar1YaSqaFBRlm-hzocxJQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA2-Sj7QbA7TGIN3csJtFHmUPPuOqBZ-XC-WoMmlm14iXpGYaxJ5zvUCJvAWjZwKPv5R9DM4FGdSUF5gn8Rl1SSS-cLnuYh8FVcRbAA3E665T49FNVjfVq4hd2LUHvTfMIEhCa23wI-kT9idoxJHgU6cGZGhQPx4xvlBQH1U2N99ZOlOkxTa_kUw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAHWnw6dGANspTdAk2uo-nGq4t2bOGwK1JJDgpk2dHIHA8SmMOVcMmLFH1JtPznqbUetyetp5LUwRZHQnbdvife1uMm4XKs38MdrQz14427YJUU4a5cLwU4g9iZ--Od7xiEhC8j6AYcO9LdRt1OjKcuU3qGhT-CoOg7A_dGqgWJa7uGnxgewZlnw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAFPebM4nz8bQX5kRF9AzpBE2VdraWddY9xID1UdPDoyNZkSS_7lrJD-s_FdO_BA1uqSzaLStgf6MdYORf87NXkG8tg9YYSzep6WCdHfLcuPtywg-obRGcHgzOIq7y__qsEhD9UsZyB1XzSewf416J1MDgGhSFNLASqCvbtqAcUnxd2fWaet9ihQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAqG4z4JDkevCCfJT7dBTl6Sn1bSM8joLNlydvNyoC3OP0UzbsKSXhMGzj487dhgzD_0WI-lFCCsvUj-VPUiEZQm1H2Q9KAdLWuItmjv666B1F21ioHglgPHynBf13hahyEhCxsmXS5At6MFW6ZG_16TBqGhRF3TjIV-HRQci-CUYjljktgLUIEw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAOjeAqWuGpgxcQ2uh7VYk2fE_wkVlXA3c0Z9ZkqvEb8lX_bJk9DmQ4V3gKolaVDqcRyn3iWyP2dERx0dEQ1y4kmUlVW6UQVB5_8M126ZEbkyGvxYnDxho8Pz74XZ-IhjuEhD6H2pkDRPj9qj9TrF-6kVNGhR26j6Un4aUFkQu2f-mVfv0tD5FTw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAoPeVVVH27gmGzOeHFtVCiMgGv8WwLOkQdtjgJRjcnxl0ryr8dndyU6_dszIZ6aSR24agdpSGy4532cHmOeS_zzoaHnrX9ZK2-5o3iCgUOhgGdqrkkvGzmehL2XFNYYyyEhB2wQHAFIoO21rFBMfbonzeGhQWeg1jOAt2rXLRJA7jJCuoTjwrMw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAmVJXLPSBMNZMbQAiC20tBObz1s76Qz2HCudp3Nu-Te97OynAk_-LHOzxUPdkL7-zAP5EVqMDYBGh12glN8ZolnhIJJPUUAUV-A4m5Vc07lSwD_GzT2i33msuT87KlESqEhCFtYj-31DI3pgSFtvXiTlAGhSxXPcC1JxiqG8p9sqS1g0Rt3rUOg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAiKfWdIZQyIjqqKfMDtzDQzDlb-KpcK9sHwdJhX_ajDIoDgss1t7RJ72Z-5oRS5bvtXZhiio-ibLEc9L0y3W29T_J4MdNGWQKmvywaiCKN5_OR-lTr8XjRPVBnyGpH6rwEhD5EVvoNrZi3m5Q0Lj3VKJyGhStXH6Gx1klkk3nVTrE_K7b58aZjA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA7ptVIm-b_5SQR3cFFeFDqDGIqTDBnif7Ny2JAf4DkJwammxdzfF_WWNrBVu5EE9D0Kj45-LOV79c_T-_Qrb13TC_qjCc9ZwFlXcMFD1Obxq4eWlPC1u_Xn8Q7PE8PuwcEhARwnZi7EcPr1Cj2STQKRiSGhSKcAYeTtNsr41sk6etJpwpmLe1gw",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.duvon.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Little Italy, Robertson, 6705, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "072 514 4204",
+    "type": "string"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "name": {
+    "value": "Skilpadvlei Wine Estate",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 7:00 AM – 9:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 7:00 AM – 9:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 7:00 AM – 9:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 7:00 AM – 9:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 7:00 AM – 9:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 7:00 AM – 9:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 7:00 AM – 4:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.95961080000001,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.7678426,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAALzOsP2pee00BSzxd3uq4qsui4AZLTFr9pvG4Ou5gTU_Rauwqkr_w6fStQSTeMscWpA1yGYh7Et_69r-PZN46D4vJ5BH8JEL6y7X4HW_4ICuRlwTk4_utIsTRtxTMq5fHEhB85BblAAMWzLtWlb3mtw7VGhQYoTnjXYv7kOrE6JQDkHK2Y1zcWQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAZ7x3ZLiG98WReqlirbGyT-NGMykEY3wPsesx2aTYuM2Qs1C6n7jXuRpEL64UnNVsNIePhTNzdhqN_8XA369dhOWCrFFS6UOV-zZHG3TYRrLyDfMKwIQZnsD33yZkczMXEhDb6N1x8o64IVCqlWh-3lvoGhQpPVWcJ-xeCeL5P1I2JV99yBGwiA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAIGW0DXY7MVvR0q-_99aWcBFHCRj2EYEHoez84BkpWNvOMkco2VhNV9R6ZmJdPiPSPzuOl2me3idvMA0tzzAb0POfaKGFFe-x1Yh0W-Wl00czEI4ZNlZcndAes450J487EhC8IdMsegLc1r1j3jCG4mQWGhSDCoz0Mxi36C-UoJqlxmLBag901Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAjkp7jxIAsFHlwcNoJHyxpFiyjH40YMsjJAIMhAq0IaXdDL_3usChz6IfSDF57W6BxiV5ysgLZNrly9M-Oqdu-2eUxXR2rrvi6FLbrxuzSUl0pB5WmdOB1JaatSezCs8WEhCN_Ro_7TxVInxHX2Q_we8TGhSOffe9uSfCUzVQplRBnWZq4GaUxg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAANhBXgKXomKmDPqxVF7JVmK-XZkPT-LgwpzWZhVIVjQx7zHeHA7ezTpYTX4GvFju5-mYrQQa6rTGyCPb7htvsHb7xS3JEuol-nD_bl6U2Wl-S5pirFZYvSKQNEo5HrQEaEhCa2o53BN5BGwN7XoqPBdLNGhTRrIrhenOpVwBu-XhBvctOdNc7Yw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAqHOI_ZxhZmkkNP_IXJ9PbgDnPM0hLiywUHeKjRFGx5vltHiEHZW5-O7kSQ0iWM2XC-uqIfYwA4c5-z6v1n8wYeS35smaiO6xG7QPD4majGhn9KBX382lMy3jAUhayHcJEhAu6lFO8Bu1h2PqpDZAvFBOGhQzfa8Zm2Dxn1VMYnmdr27UHKkK9g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAFqbg8L-IQHlV5eQQHfjwrXALd9lGPQBtXl-i2FbiB1q-dAUAz3-VRcMs4L0BUMg7cFyEa0KCCKp3jepdsCPtD6bbO7xodhtSoeRQki8oxyAgRHvE_jbl3ktuEx91Ft0wEhAZoKHlYO9Lwki-4r4z42SzGhQNEXbfSgNLof-kPKbOhnaiMIr-sw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAABEDKjaqt-M40Nu8k43mHm9TKYs-zYHjGzVAhWNpx0RTQGUxV7SXz7622QSatmhwXEpTu5G0xMk_McuxnYf4tsD1w_CiH8HHF81JRytVCdQE5SSgVL9kHVoCfbjGC-0euEhBWA1QcW1e0OX9d23SBrA39GhRjUnSuWBFuC_Cskecry4-wGgihIQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAwnjvLFFUr01tZiI95WLOVkmyHzvj5Lh8ZzRCSll61AzvGDCLOVHR9Swd5oz7K__4Ns4FFuPPlINVo2sbyH5Ii3Xi-PkJQ5gF8FDc0s75gCzVpWdwMCziJGPfzNVxy8_jEhAnMI4x0JfE8u8_IxrFUFwaGhQ15E2j-QjjDqT_0UyAWonH0l3Fuw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAcNbm-EvGQpCjjgXRYyx4Dys7WedfBpqv3tNAV_ih2kxdnbwY435KCmJ94qNiLlsbtFmo7LNvl79hC8UurJVv5yDfq1DzVNu8V-WqACjynKNv8OEFAWhqeKdhzdazqYduEhDahn3b26HCEeNVuGMUfpVkGhQ6ybILmNRmNP9JIgfI18t17IvWuQ",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.skilpadvlei.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Skilpadvlei Farm, M12 Polkadraai Road, Stellenbosch, Cape Town, 7604, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 881 3237",
+    "type": "string"
+  }
+}

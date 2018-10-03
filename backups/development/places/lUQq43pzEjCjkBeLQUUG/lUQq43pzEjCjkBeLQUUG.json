@@ -1,0 +1,109 @@
+{
+  "name": {
+    "value": "Chamonix Wine Farm",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:30 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:30 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:30 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:30 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:30 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 9:30 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 9:30 AM – 4:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 19.1274906,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.8995377,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAHl8yI8KDPgLM7dGh-si1t1f0Sc6xn_aXwyXXFnqNGTGEc9kX1YA09WXEFNL3AXQLKVqEn8G1x_Yeh85hC1kBm3If0Y6iYgQkEffkxy4eUd2SbFi7pyt2YLutx98SwDOREhDnQmTvg5g76WNDc-aMEmw7GhTHFxKJZLjovQFo8CcLAfx8EhaRoA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAQnX8dQ5b4yG_9feRw83__VRT3gNjVXcLDocJ3-5vs2OUelACbv66WblhMO6AwFBWiMMf-8FUkNaskQfeKEiphbpYdSprE6sNHW20IMCPgjgzCCraVGWrgyuAtRhz-BqCEhDGoInWEiMz0cIDJE6gqRQJGhRmJ0EYr_pX1BzByYbi-NnjFu1BdQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAk8rlStxNn_vJGqL9J6r3BMdzXBxXRjvCOSnxjPYoSg3rX0ZCW2bUAP6JvZlj1RsgbJDjNREzhv0oG3rO6HvdOE8WaVJCof39gPn5OHvjdYU31KzVh3GN5lOk7v2dMxfpEhDn7vAsoLnyHarA-NzBigV-GhRE6Dj7x2MLGolj8B1ziAY8Rl5nNQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA1GEhTUav5XuxOSCTuJliT3qzgHPwOheG-POlwvtacnsPP6Jo3BVIcw1llEIOsAKVQbIn4z6VQkD749N5uNrrYXx-2cuO9TA9pWTlpreUNwRqK-DFao23ZWR3sK42rkKUEhApEXbtYHqEJN7hFSYdoCI9GhQjuVTIY6jdcc8NIX4sjPFjgcfdkQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAMZi4IUTY_yACEbAokbCsiHrTdT39WSS3DVnRNpsYM9UCRGHGQw3age5RhJq_XmSlYLfOuQXQRnb73Ds82iKrSFmTex_y7o5j7tOSU857JKbE_JABcGMS_QDhRmmPJCMEEhBspq4VCE6uGgYFK_32Tr_eGhRtLStjyGIcSdiZQf1rrJWS03oJqQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAACJDpElhIR2g1hgYwPsFws1VByexxIMWGYDThrg7YIQZMjHuksjN-gW26dwSDa9Cu1tl7QyjAuKMFOPqdqHSXqhp8g_uo2BRxI4-QNNPdicLqcZkojf-4w99YmwZbzJoqEhDCjliQAmTWLRGPzYioSbsaGhQ2j0omjRPNwGfEBqYJeZQiEl4k7g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA287IoVsau1nntvzxZw0Eq06UhZu6MRNF88W4CMRqUTfGVR-Ww-MNKYfL-GoWc5Y4wvzayj388pM3fEhKPArv5eLyn_6Nnv3ixSkftqp057DmP1znGE_Gs8c5zkTNhYWzEhDpmqIIfOs-5pScAKyeq9E8GhQxoEs85OG3CKge13pFsXifFZYgtA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA28RcUhsJ0f1CF9tevG8nu4t9MDAZ2OkBn9ce_gj_w5kFNIRfyTtNnubNPniIJyMaPfpxBBNNOjyw68R0GrlRvpIZeyXDmiQY2rsEv6q-zbAQlDsFLe3KbgsfPDtbHwWfEhAGIvweaizsI2XrU9JPLTSdGhSKHKTHdYtGABfv7xmmLqKi3pZIBw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA4t_LHm5Szvdb21qdeiSXgltw3gb1tVLEDWh-8vXZzbfgIfjsj9uEUbmooCYCUJw90JIH7jZ5u-scjqAMQ2AW0obsLOuF-_wBDmSVffoCHLWXizvF4Jozd9B7-u_nZbXuEhCUM2YpB7-moA_YE-GgXxsnGhQAyP2xlO13An5cvQDqn6jYWFOiww",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA6u2Ekkxd6PzmMXNSWvN_plLjE4UEQhJj2US4JDbyTkyeT4B_tkNvZnNdz8KwGSinJU72N46pLiQL8ZyMNxpAAqAIbFmKcY_tktpgmSswNCshU62w4KvPUpM7TWFYvdnQEhA320NUXoDog0QxmRLb-Z3GGhTVfsIhQXkyGiMTP9ltLdEgVDD75g",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.chamonix.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "40 Uitkyk St, Franschhoek, 7690, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 876 8400",
+    "type": "string"
+  }
+}

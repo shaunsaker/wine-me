@@ -1,0 +1,109 @@
+{
+  "name": {
+    "value": "Iona Wines",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -34.27871099999999,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.0826924,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAASZpjDQVIVK7mFAw4ZNZDoiLekFYUAO0PScGTAgz2lBgaCUeE33ZA1PHVA_DR0jjIy9VW9hQ3FjTyWqr4epBejq7LQAJtN67TCLNy5G4Z3oseL4Zw-yeFlpJp4v4M5SizEhAS6NrRJRXUHwx6QBCrhbPNGhQmL3mFjrb1a5LheTiBYHcDOJKrcQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAVgQ7w6EsaQ9sbB_bJKj6F8RhAcqkyz3wFOWZ4tAD-qQzWjbvev357uUZTqnK51nI-QbuDg1Nvi1l_h5cbZHvWB4ES42mEtq4nt06ohlVcZ1MGVvdJRNe-HbZbKu7EugeEhC4tWKq4lBzVqAPStFPKuBtGhR2xGE4YedLO_5CHIdexOhQ8JmuhA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAVb5hKbzjgTSRQqz8s6ALd8DvBj5SZP8Yr2cBHAit4mWHO4mk1j_SuwLkCvwglXWMvO-7YXqdZhX4kllJE3buSYoO25xYO_KBfRljvU5OSMU_i9jZEuXx8JY1-G96ESpVEhCMYPPxJsFiPo0h-kW1ipsrGhQEGFCwD0aVyPcL4tUKtSvaemCAog",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAamWw52fHXOhdALvN219mOx9K3D793y7fIRtDYeNNiFYoq_EeDYA_kshBrNBAOMYb-ZnK6vqABrMMwpSPmd4w1YNrjAFgWxalSUvF2HGFJYC16ij3EKmQp9C6m84gXnX7EhCXJKTShVDmIpG37kBich7JGhQV61QPtXueqlYIrDAP6R_sGZWzWw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAqSpvVIwikKo6VOJJeS_n4_ak7ZV1GTjLyic0j02sr3aK3TZ_C8kHmnIPiApDCs43UaONiBsXEafh6sM0rDG7pYEekia9IG5tbEaOWbpRZHOIL7OsYylD-rPKVeMjs-3JEhDjswxnylQInuo0L7JGUeVlGhS-iB1NzM7R1CjwCsjdYqfkZuA8qw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA2S0P1pPlhKPSUxbrCYwcRN7Nu9inY-UbwarDV-KYwTJLnJBVRiKSHh46n7-q-TyBdXx4xPQdr3to_xNTVELO_g6sH3yPcJTyFUlS3EkQWvvo51kRrFgWp-Ew0QnqDgIyEhCkNpqsWyQi8w3VAdaOkX2TGhSZaP3TSSL1H42wEmuaoQNI1oINKQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAACviz-Uq8gxgEEvWvDXIn9Jfbt7ALRnITkbQF6lwfPKXHtNAJnHCkray2clZwpF0BgmJ42GCWoOxDx7EwdGlwCZnyx0gg5JZCXqT5kvPkV0KVXQNJVkWMYIGRPqCeE48jEhC4BNGMzy6I1EoUyRiQqZ-kGhRPgltd-PDZPB61wBrHIEP73xDVsw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAkIYh6QccOFFHtrrWgbR_iWkuh_J_WBhzzkLr4op7NQYxD392CJItoNu1nIRraqZ3JMdm5GQ1QQSjHzjUpnso83kcMurJ98_ixfD8W-tqYPaTiBaiFWcwFTmcrjkjJI7cEhDP6vZZsTcbLdQzPpJMZ6dGGhR4KcOslwlnQL4vfN7mPZ6s8w-geA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA_gp5pJlWF_cdlWfN8mKaVR2eHsBc2cAmrAAtelNOC5x6t4W9JxII4f7auGCj5yfeYFpGrKaU6DbzLMCGE_lodWk0njwfcSs2aYJzEJ9kuzMDCamXssl9OmYF4aeR9rjeEhC9n4yXnjv_y-dw-QWKT5sRGhT89eioUmBtm7qNpwcvBnNlosllvQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAi36VX4fEX_QeQ8uElqly6sEGOMaFA0Dd1jqMCiEWKbfgJptAYLFkRNqD2fb0GX6awenefVkhi0zklFOq8hZxvs9wKsdg_Yh9e5mjcCMPuwaeW_0xXCcEfqVzkEDCLDsXEhCxOdyFn7CN9QLF2i_QxvRRGhQhCMQQRMK4Y7FkLnphz8F1xgd8Kw",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "https://www.iona.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Highlands Road, Elgin Valley, 7160, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "028 284 9678",
+    "type": "string"
+  }
+}

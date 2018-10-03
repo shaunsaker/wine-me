@@ -1,0 +1,76 @@
+{
+  "website": {
+    "value": "http://www.vondelingwines.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Voor-Paardeberg Road, Voor-Paardeberg, Paarl, 7646, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 869 8595",
+    "type": "string"
+  },
+  "name": {
+    "value": "Vondeling Wines",
+    "type": "string"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 18.8586112,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.5984053,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRZAAAAg-RFiUDI1rUAcAbG6Mp6jmazCyIbTVemLb3-q2iws4x4TKSzbSdVziPVHF235eQjPaPNuTEPdOcu6vbGq4y7qzYJyF793fSTa3vR6c9nwUenJ7AVA7h3qRQBECUCYSkiEhDibJeF51ld83nZtcjBnyNWGhQ2hNNOUXUW89QHGR0xTVhfPe6rKw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAbuC5MXCmR0ngz5M1XQ2OC-VRaxSLL2D1q6DXmLD3CxH1TVgoQAF0icw8Ezwk9cqpEMz3egDGTBJ1GNRORiQT9RHueLOVs0qJqUrxfnUcQCatP4vozo85Z8BXUC5yeZRVEhD3nDLGIdD8Aigujoqn48Z_GhTaFMzgKLu_flOy8wfgyoxKZ74G_Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRZAAAALmCA1z7DrZPmrQVT2a5y6bwFljkRWKAC9kIZcfvjwCi1obUne3x2atLrLSMSnQTe-POs4-Q_Phog4mpPpL3DSEYccegeOxcd08D89kKyrIr2I4f6Ra_cL_ooQHbmQU6OEhBaiBmEyR6_vgmlt6Zyqg2uGhTeVvb2oHkyrxDnK8PHfgAJe8Upqw",
+        "type": "string"
+      },
+      {
+        "value": "CmRZAAAAIriHUk6EvR_-4PYWMOOq4Eo-_li7UzBd7YArg3ykwjAcMjag6q8LwqB9UNLCGb78x7scGFZS-yA8qnt-IKtVpK3xg2bxXTRoqNwFrAWpCUCfbRfJ5DVvCIYR_fdmsmUqEhCtRdGwsBDJQcZxoLevCHh1GhS3RL5NJP1aK8H0W5Rrrs7zI6HzqA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAHB8SUiaHkLuzAndoOaHBLhEp9JMPCWkAdI48UEH5dFgZ3T_gSMJTHJcOZfjnex-EuOAM-3BUIc3m4SbGNeW6fTnq-aeCf4NMi0ZKpIfhrjbLE8sxB_DrxOTwyRrJ0db_EhCYGvHWz4GNfHze34c2flELGhSwRq_TQyh6zhV8bHGIsz3RnT_nMw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAHzlK9k4OYNqAY1LEM75LBdNWzfb6Fz_WLfEzKiMWvNNkBvTgm06_YStk70qoBPo0eUr4O39UxjS8gJshujnj-Cmzl8fmmbRxjOkgiE1K3w_tsJS8cILYdrmjyA172bL1EhBTXic6zYJxFtN-t21T94QTGhQK1MRcvQn9AjYLkXalMnhqanYPPw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAApp3gNTKW5nSNA7ONRCe_36lIwE-96Z8EWOMIrqDQk6y9kjMcOHGAju3tlk1yXdEIcIsLKlvHygTC428auPjQf0sQoi0w_s5QDsiIYEqCxY7214MYunPlG3fP6eARV1XfEhAVIG9SNr0bItJL1wni9cO7GhQpjL7QEULUJ1pvjOAUoKS89y16DA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAJ9flxeQmg7XSLXNAEsnRECIEhQxkCwIaXR8oGpykv_ele4dYDD593kqo1i8qpTLzLsf8-d4IwJrUYopDNeTLuH_u1m9VWMwxs-wAcWVzJKRo0RlE4M5vXfRV6pVAfa9DEhDRSlq3Q7vH7vrwhXJ-FXJ5GhROU3QXsTDTBuqS0PIJVwxrThSmbQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA3ef3J0sQyCC4em41S8LaA26xh3BNXnCFExHsC6n2W5f_pkvKN7iaJXhqaQz-a-jUf7a0avSU7X3hDldwCLfckanA2a2MgK1BZ1Sm_F0MsL4cHMVpws0NTaqbh47AqKqQEhD_5K6lwrVnp_I6ES746sP4GhRv80bVl-9S7g8v67I8SoD5qGQL_g",
+        "type": "string"
+      },
+      {
+        "value": "CmRZAAAAfn3XodUIL-gcqpF_dQnyOx8mQdmW3QK9U8WP3pjDwWrCuXO9umFE2yqt09xFsCCUUqUn4XRgW78iyV3LEWd9Ocxvhq0yGlMVEvooeTH-owTQexJ4aaKsC-iwosvS5xNBEhCNOK7Dqh3bu182rfqKTPy6GhTt_tCGh_o4WBHAW26W9vWEaA7jag",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

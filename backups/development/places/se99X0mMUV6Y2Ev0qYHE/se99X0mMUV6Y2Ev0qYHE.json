@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 9:00 AM – 3:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.671659,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.908458,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAg07BYupyedvKgeHY6O0ejp2jC3TuyuTs-CBsfUIj1qIuY-KIp3Z7yXAflB-mPd4P4PYYGBIbivVeeMOHG3DwjqkViQHN9T1BFr8GZ9CEW2WPDhZPf-wlW6z3DicsTiR1EhAgmL6IUyj1PMPiH_J2-yTVGhQEN2eGskT5LvuBOvtooPRAZpyQjA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAACwGcpOE0Y5xzOECH0Mp2ALnj3ICkygZq05eL6wU64DGY3WwV-pv46jGH_4RqTi8LyNbmG-D-T78p87HpRD3dmv6vSthi0Xcqtw4WVIoCZDyyFv0SKQLIKkkaU_WxMCK9EhDr0HYWwTCugum1ugopVeo2GhT-5nEuXVhNwAjB8kP0xwvVt_e4bA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAGTWl4KHg8owPMBoL9zVAfwil0WVSVXDW4-xo68RWIKXhpbXM8jyLWYPFERaAkCjnl2kj2TRZfWlXb8bZreNgbuAM9ysxvAsOrveJn0rrBqBFM_WihIBLD4k-QXhpbTjQEhBa8cJFstSUExkGzcbhfCwoGhRxJRd3VYHcWbBNRfvoYNubmqL14g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA4QGxLSkbv6iM4ypQTM1AG_S4QDN2pDxvTbaOxa-O2m_Mtsciybq62OSr3f64GJ6fhmTIjGGIIIw36jE4l74LHPxhOwrYVGT2fGSSeVlQTHWhW4cVvgBYFSFiaM1B0DhDEhDzmz3wdukGE_qsElYC_2TIGhRsZQvjbrw8b4X5RZa0Jbou9gApiw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAGHSKHLGgx3wNlhSE7-5FE7q2T-QcP-CkjORhI0pM-ZiXsc3d2W6dyJ0jw135MVZ1lRSSKzJIs2YlMqHZLiWDkqxGs914-CDXs_RyK-G4DPcJjN4shqbtyR7wY-29uka5EhCeLWnmcBRj2vSjI93h5T6VGhRhW-EeKRnQDbLjr-mI2Q_1Mw1SNQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA_2i5oSN59BKp2fep-B8EtnQlNjJinQP63dI-s5yBYR-D81MmVghNZdJXiOSLjX_eEf14AZM1Pi_1GTBBtUy11vLQqQ3cFr7ZBur0eEqPrUDuRhib6D7_Lkio-oTsPPd8EhAyQrvGFkHmDzq6ruqL-DhVGhTUgWS9JG1guVxeoKCZcCW65Vpq0w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAI3Sgmbkp8-YlL8hZxYSrHIMM6uIYvK-AMDLP4bxEko3qzEIOShegp0YoCDpWluIaJo7bGNYOqLbump3mK7QBlezJHfJPQ_r6ier0D0Cpb2WWtcDOpyGgyomro5XCs9KDEhB9lu6AVv9rTwaCOf-ML8qyGhQz4VruNGIxNC6DkE-D8rfgC6cmtg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAj4_Y42wfdpKE3DnBKDkNSASHLIFpVJhsCPS52TMzE-6nt62vghnj-uzVgfk7EesTyBT5gV4__ctX2ngMp23XZR7cryxML--GUmxS3rkR7sejSFd6nQ1Z4W_IMzuz1WDbEhBDNXbVbhvlg1vqe4JJYabmGhTGp0aupW9u-rM-lCURpMK5hABsRA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAJx1YXVEd8vHcqR4nS5dv5fayk8kiJc1HiGNUIcfU4_FaQTQEd8-xapWPOglrdSl-Qk7CK-4qopZsiJwqkJC88kTb_XA8k9GOg-OOEDsJYfbT8DYcXUy5RxN9qVmvCUfrEhAqhU0aK-DQSpUmW676AUl9GhQUdQT1Tedt2LCTH5EBY4_pbAwCRA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA6tBMQ6QtDdiZ5MURl1fZMTcFEunI057bH_ZxSQM8rvjLn0I1nptdLoR491bGSI_u9ydwfL3bzjlqKG3uu8lO5UH5ZHM8DtIMC0CXSiVdcwMZktIehKlO0xw-x1p-8M7VEhCGENDE4_hmh3Z3YbPjPIrYGhRnIQ8pi3hgGpyQR7llOfPgeob7Rg",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.windmeul.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "R44, Windmeul, Paarl, 7630, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 869 8043",
+    "type": "string"
+  },
+  "name": {
+    "value": "Windmeul Kelder",
+    "type": "string"
+  }
+}

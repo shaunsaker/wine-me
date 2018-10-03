@@ -1,0 +1,23 @@
+{
+  "address": {
+    "value": "R301, Wellington, 7654, South Africa",
+    "type": "string"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 19.0258699,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.63801999999999,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "name": {
+    "value": "Wine Estate - Bovlei",
+    "type": "string"
+  }
+}

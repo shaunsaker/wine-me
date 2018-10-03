@@ -1,0 +1,93 @@
+{
+  "website": {
+    "value": "http://www.breedekloof.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Rawsonville, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "023 349 1791",
+    "type": "string"
+  },
+  "name": {
+    "value": "Breedekloof Wine & Tourism",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 8:30 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 8:30 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 8:30 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 8:30 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 8:30 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.6929187,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.3210622,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAHAgXD21MuYYSoHYlDTVQpSD1NNwupPhDsG3yhhD4euBQAsXBK7kv3DzjWbFwvA2PmTzAGB_HsWI6Mk5S02_zFXtQFcGvOQs4NL2Xm1XhTgP0YeMC4Mnob4Us_4I5tR-bEhAGKhIpJ8eVSwRucxhmaKElGhQnUynNFaBCGPGjfLKW1dTyEpfTcg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA0Va1YxGfY8B_rqkHbTpMlY4Tw3uZT5YlM8pDU6MSHIb1NaG-Ye_AzWs1bqwZ5OCw6cynP5ca2F423oLcqTTd5L6VQPXl5-F5iTYQs5NP0nWCxhBVQ7KEFFFyweOxhKm3EhCklYAoQ4H6UbdflsEvLt7FGhRLcxXklZy6DicC4lC4A5JM7-XcKQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAQgXDeo8E_Z0UDXxPedulTJgzUQgdyjO5LIAdZFz-XK20NCDDiKzAsS5WR4fRujKh76sHdG6WZx206BDMHUIMaLU4N29Oim9CaPw-AGm044hkwqqCr1_dRPDcFwhQtdv5EhDqCrJtSwgWtI_WWmuFEjUsGhSjt0ALsIHToE3_ngLqa764LoLKcw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAkNiriVxcLHjvMAiXKLX8AcafqpIRuTfnbSCUxxZ0PqbnSxmkI5k7znKKfxNEu_vgyK4d5X_UCH6Wp-m2_3qD31CqX5XyJdTd3XnmYd-NlswLc7z6jm7o47YqSYkeBHDxEhDN0LhAd6WjUjvRupNDTo4DGhTGN5AKH-btzNtg9L0n9Y2WODUNiQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAMAJ-fq3DVO2XOEsZmk8AX-B1Qzb5DNtqnSIMdvfU9Hnm5l3vitwRzpl5O99C9BPHKqrZxQ7qCYvBmtzkT18iLDWFtsSK3dWQgiWP9z23SRn4bTIW1aybOmwnBAzPSglKEhDjxxDuUbYEZRczQBhUQvWbGhQTVOwbmKkoYvr4L_DWpHOzbZ_THQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAhSox7oh1EYiTHiOyXfOTU4yJVmnuCopiIIpOQ8BYQFzHyP1e5Ypx1KMND4DYm64T-nIoviPIvQmNKkeCHarWECp8lhRr3a2JWYusstPrQTEKfYIbMSD2nUVMdrudjfC_EhAR1xDqc4PRKHM-O4W8md_UGhTjUjunHlw9j0g5bjHYElkGN4kTpg",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

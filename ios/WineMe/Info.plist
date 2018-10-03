@@ -20,12 +20,34 @@
 	<string>1.1.0</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>fb139216243389050</string>
+			</array>
+		</dict>
+	</array>
 	<key>CFBundleVersion</key>
-	<string>6</string>
+	<string>2</string>
+	<key>CodePushDeploymentKey</key>
+	<string>vUTJSG8sVyj5Jf3jE-BYYNgdOZ3Ze941d2cf-909b-4139-a2dd-196406e4cc30</string>
+	<key>FacebookAppID</key>
+	<string>139216243389050</string>
+	<key>FacebookDisplayName</key>
+	<string>WineMe</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>fbapi</string>
+		<string>fbauth2</string>
+	</array>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSAppTransportSecurity</key>
 	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
 		<key>NSExceptionDomains</key>
 		<dict>
 			<key>localhost</key>
@@ -35,32 +57,18 @@
 			</dict>
 		</dict>
 	</dict>
-	<key>NSPhotoLibraryUsageDescription</key>
-	<string>We require access to your camera roll for you to change your profile photo</string>
-	<key>NSCameraUsageDescription</key>
-	<string>We require access to your camera for you to change your profile photo</string>
-	<key>NSBluetoothPeripheralUsageDescription</key>
-	<string>We do not require access to your bluetooth</string>
-	<key>NSCalendarsUsageDescription</key>
-	<string>We do not require access to your calender</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>We need access to your location to show you wine farms closest to you</string>
-	<key>NSSpeechRecognitionUsageDescription</key>
-	<string>We do not require access to your microphone</string>
+	<string></string>
 	<key>UIAppFonts</key>
 	<array>
-		<string>Lora-Bold.ttf</string>
-		<string>AppIcons.ttf</string>
 		<string>MaterialIcons.ttf</string>
-		<string>Circular-Medium.ttf</string>
-		<string>Lora-Regular.ttf</string>
+		<string>Nunito-Regular.ttf</string>
+		<string>Nunito-SemiBold.ttf</string>
 	</array>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
 	</array>
-	<key>UIRequiresFullScreen</key>
-	<true/>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>

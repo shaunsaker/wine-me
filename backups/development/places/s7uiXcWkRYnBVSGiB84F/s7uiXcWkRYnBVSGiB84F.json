@@ -1,0 +1,109 @@
+{
+  "website": {
+    "value": "http://www.moreson.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Happy Valley Rd, Franschhoek, 7690, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 876 3055",
+    "type": "string"
+  },
+  "name": {
+    "value": "Moreson Wine Farm",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:30 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:30 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:30 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:30 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:30 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 9:30 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 9:30 AM – 5:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.8880428,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.0619922,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAA_iNqMFz9-mUAKhr1HE-3KORD-l2xotOnvV--fzRD9Ce9nG1j2wMFqx0sspemw1hSmYMgLlEsrL6IG9XSys8xg4ZQhk-Fyg0YUsSDtsYbqAqyQeguks7jJJaALostLdwLEhCP47pCuBdnziEn1qVc4gUsGhThCh9vcNA36ZgZoRaXrYDEOGy4qg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA1OLngzxBKIqy00F-YGLSC_d3kUp8WSoS_tfshOcg427l28sMXCFXGtHEhv3w8fUJMp_Dap2Uc1yayealWBy69c_U_KLlHhS7tb6gIUHzTqC1P3qmWkvwqHby1zFr1hQEEhCHhPps-NIDzB3rEAI8GlhGGhStx0ATuZc5Wl04KNjelx5FalsLUA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAoOUvX4Ugd873Jmcnm3n_XKDzFQnneKvF9FO0pCU5qVMyeGvb1m1j0pp_ox1gwurGql8VrPbACA5YdqSq_vvSVhJ-OOpr_ujecgGKs7052vCReYf3uXFcJKBkf0oTtcENEhA207JWoalFbqPO22WjHniLGhQ4GohxbxSK5gD00XDyoKEdVVEScA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAd4ZjP5qXAlGnd_fzr72BAylMqlttrNFli-W2xe_BfZfodtpPZqb2GPIh1dR4p3ZSpqm1pNn_jTdAqxEbSlGckIV5EoHijb9FBIw0dku8m8rzAwoK7X9PyMos8lTtHijBEhDJZXk5tKAen9-OXLq-aNlRGhQvv6zx97seh5ueIjFedhS1yYXAhg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAqzzHS80DFv2cYV5TUlCOwOMDhO-OJbf-GpL6il5ZiTd37tMvlaMNotEdHKWhG1NXBbgkvquNHNtk41nsAXmxTDIYQtUoAaGEV5x094SvKVKgsbT69smb6cUi0kxTrP8aEhD__eAVgsJOsiGunciJgdpaGhQ8tonkAs7Bama6C_xXVDF-gkqIhg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAqrGxqxUcgC0sX76Fdm05DkJpRyEISfmNQei7K76AsXO6fcWHOAQE2GvDgMhtpaAr0ReNM_KaxejdrgHqY_Wmart5RgNS3VQIF_Z2IMKo-lw3CySqDCZn2AIdMHAykH6HEhD2Y3tsIEnr_TNPmtz3ShIWGhTM71_T53wZL9kD0h_TXo8ktoP_Iw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA8yGg7hZ-cmkCVsqfnrepN_9leRjHdxQbXywA_C9MVrw3R44GaAYZwDP8qTkiSUQOFE18XkbOMFHcduS_9FlnDJC5uu2txnjbkR5RVwfyO5QKGg5oMUPLy7nJCnxapA0cEhCe_bhaGCEsrNOolrXpxo5PGhSsq1GrVgBULKb0FEp--9EvsE_ntw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAADxJyvuDN180gJZJ8ws74ObUF5NkFspxGmpuA_NVuW1waLAEfTFgKUhYv6rgtH6wQiBE9mDR8KcPk4OLOX-zvmxUdv6UMQuM3vaMn8TJBHZTp-Scg7Tdgl4jidrMoSvWtEhBM-BJBpt8SfFwSMB7pyfWyGhR-C7XZNoSKD_VCGsLcVXSktunu-w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAASyIiLOFArRpFyzpXlrWTb-AfOtoxiKddKY2QDhePXO4qm9gBMgYHPXeIUy_QdrO59UEEH2zpxyYhC72tEVVoMou82hERgdQ1N4p1_ELpt6rAjPcQCbVND5T-AikeQCL1EhDb9y0Jl6MdZyqDfwt2ZP9WGhQjOE-Ty686kYY-_q2a6RHvZYQyrg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAADJ_BjdS67wOCaaPdsHvkANWL3NvnSZ63lbti58FC1rZJJ2GdnIJ4dKXyD73KKMNbGsBMKstfnN8On2PJpxAMY7lbbv2HBkntjC9yA_KOIwkAdc2Mr10WEPXldSj8FK9ZEhA1v2l9Tx_dfxVwUuwI06LzGhQmA2hwJJ0Wp7q_kfFrHAm8EjKfBg",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

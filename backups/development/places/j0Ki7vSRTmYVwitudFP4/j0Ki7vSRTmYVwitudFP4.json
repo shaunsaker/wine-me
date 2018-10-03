@@ -1,0 +1,40 @@
+{
+  "location": {
+    "value": {
+      "lat": {
+        "value": -34.08085,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.681663,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAhCFOBHJnW45yc3wDpxj1wuvvqTUaAfNOBMpVOT2AYV7h4TeXD9yixT_whRX-03DJ1QnpScJ11P6PWoUwBo2iqu1nQhemD9MA-QxgLx_wUpr2Xf-UqRhL3a2MO1op3m1ZEhCA1z5vei25-c3KF-pOYD3WGhRxgq4tPM3xuk-2pXTV-hU_iaactg",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.lismore.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "R406, Lismore road, Greyton, 7233, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "072 101 5495",
+    "type": "string"
+  },
+  "name": {
+    "value": "Lismore Estate Vineyards",
+    "type": "string"
+  }
+}

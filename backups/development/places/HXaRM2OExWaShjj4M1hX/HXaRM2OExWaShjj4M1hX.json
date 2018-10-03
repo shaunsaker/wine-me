@@ -1,0 +1,109 @@
+{
+  "name": {
+    "value": "Bosman Family Vineyards, Cape Winelands, South Africa",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 3:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 19.024447,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.626211,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAANJ6pTFndzi3NOPP9ROyzxQliphnFC9YSEelOJcMq50IDNDdCMgMQiEFMOj-K0s4o4RzY2jyAfWksnG6q5xeZzyTfy9hr1xCBzBleoltQxByScZtD3bfBMsSP7Lq7RBs9EhCoC_eadKf944bYH1o_J9RyGhRtRMb-_cENQdItB1ghmOjccrlWew",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAArJmqxOHPdcqyHVtkngCw7COU23yXcdThPNvbhIX6sp10n5Se_UzYP9fL0YDP787ZkA0XMmTllHpgyIS5L3gQsFmKp5EC7t3Nm_Adj208bteNlgiS6sgo2inq9wlrO_nREhCxmj1rI435keK4kysGSEBXGhRXYfRFLHrhXdLX7k4CyEViH5oO0A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA72-suQ3yRdo4Qx2vPnAi_PWuYMjLFdOgoMjgHUA4yEZCFAProJbyKWOvxH80WzOBrmUTSN00n-GwcBtNSETgJ2sHx-zvvdFNkl4ZNzlvbGuEh2izpalruR4MPT7oQ7XDEhBEHzf56AwKw4rwsX0Qon4qGhQLIgOnFOE8Uo5vR7eYsw2D8qovrQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAuSwBmHPaEQAORjERY0KxuI-ZmGAdEuCOX_HhmjxjCdr_H9BMyEH04ZLP7xN_Vl2-igCqO5G9P4rMZBdaXHhlXHEBtWbrJfb9gmqfgBjcKzak02yym8MaQlRm4m2VJ05TEhDqkoe-1G3EerU5t0Svw0y4GhQQrcvGPChD1WCVPw7phYGcbxHVQw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAcD_KscXgGRSCnTBM3izvipjbbXmDtYDgVdFWnJqttSVVCI2eA6cQnZr3q_tJn5oRdyOlPPUbEB3nFrLHcE-MLUg1i8JFdSqUXOITSMvpO9cqP3YBvOT8hnUFNLsH4UJdEhAVkhIwefFN_jxWcevGo-BGGhR89dQxrtt5OPHrRRm1IEBoyln8vw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA7Y16h-1bz2IJKHGhfYLsLu9Eg7GvgburrLSYaCl_mfJ2jzfONgXx9C3AIVVtEUKq8aaodBxPUmHUYBkmEWSvJPBMeV9i61o2R1ZzqyZMEegbPnGfYwV7X_l_2G2qNTglEhB0Qdprdf0YTdMgkZ5HmdD2GhSnRzbcJUcW4NAa7P30g9u0PZlM2g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAHk6Gqwp8nqy2UDQkSO0fd5jRgiPduHITAsrARFN-q7PagD5n6EEaUdeeJKLeC1W3eDrbc2baqp_V19hazI3L1RXqT7zIDUzkKzFy64pGV-Xg_OBAVbTTx4lgdDFg3ejyEhCXWJfftV-YdE2gN8O2NMRFGhSVRtIyKtqa8DZ3qPefl5NgyW5wYQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAALgrX08S6dW1by6hQvn6eBdMJAMcL6hBLuDl-Qhr5SEHMtwPo2Ey_RWUZyqabw1VaRNZi3xtCqfszcJq4Ya90AMuZrLg5pHlyjFj3ObnYdZmzbruC9DnAtKSdhv8tP23WEhBh-LXdBnbSWPqMvhoslISPGhTIXAgTe-PI0N5GtF8ZiXB5mVLsAA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAsVDbTKnZxLbnBBTA1THxEqMKGyMYNaN64KEx9Y8D6gHhcFKjSdDs7K0MPF6ZYxsDftw92yo9xNpZ06d-73D5yLGVbQ2wg8zZR7kszsH9D1RfgyXvwJ0aKveX7lMQZLWQEhBVFxtbhZ6lWBcbCv-u0pDjGhQTQJC8O1-l5CrVDODXCg-DopNaOg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAArqy2vhcwkjuORT7JxVtCyBQxFUq3ObiHwUn-hCweCyFHU5NsnwYDFBKxLYnAQC5OceWPzWls1rgL45Pt6cX5KvqNf9fLwfnl2J9QecVLN52SsS-uLTrYdbtfXIt7VDdxEhB7nOD8F4BtkY5ZYMB8nl-fGhREPte4YhnAQak9FVilO0z_C5SUSg",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.bosmanwines.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Lelienfontein, Hexberg Road, Wellington, 7655, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 873 3170",
+    "type": "string"
+  }
+}

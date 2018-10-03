@@ -1,0 +1,109 @@
+{
+  "name": {
+    "value": "Cattle Baron Saxenburg Wine Farm",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 11:00 AM – 10:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 11:00 AM – 10:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 11:00 AM – 10:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 11:00 AM – 10:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 11:00 AM – 10:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 11:00 AM – 10:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 11:00 AM – 5:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 18.7185879,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.9475926,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAOwOQlta1Wdw8xkLtpIrZgvycGpiYJrGb2aLz5oLi8PN5E5W-3UkYrkskoqPf5Y2BwA5yo10bbkpEZIdo9G9bBUpcQTtrgR2yzKD4oXJ7ESI7nh-DUSkTBZRcKbduXThAEhC_Oy1knulQDBMGhzoevoFLGhRu2Xr3N2rS9TvKZFfnTcqem8H65A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAu9xXxr08Uct2t0QLVJD79IfmBN7Hb3b5jY9MI9sPw7G4M4aYDqLzN9N5gucHuWXvFSB67Dakq8c85g-znBFoievdtm-LpjgwmLjYXo6D262Cm-SH0fmEZZhsSLCFSbzZEhBDPyuIUQ0cFu90rlARcQe5GhQ-vhgS0Yv_7LbbS9jdupB1KQBhUA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAACe37SGxwBkWln9pA_klseL_VQ-0hpCsCPKab1if6hhWznXTWSgp90z0DKrhoR3GFpW9xUidt3IMbTqdmKEZsjlZ_jf24N3ve0vRPGJiCzHKhNrwtNuLm1RWzgs1YzEX5EhClI5SYAls1QEuGLxdg2wY8GhS1npX9lGQe2MS8lzhRg7CnfrIRLQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAASDF-ebgsABUGhr58WgifqDzS-xTKb4_-Pp5EhAryxu5c45-WZv2vgBH2YP-wQu_F3fBOVcMW-qT7JIzwCKtQVUun7mJ_gFqBC-ssLkKRggr6e8kJwzRqoauw6CeYLds-EhAJ-lDCGruEn0epq6kdVYL5GhQJzxcCY8QwjN2HexUmyxBTG1Dcfw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAiigVA4BapCDF1Nh5VQVhaVCO_vyYkAxc-NkYmPM2oybTx_N0Uiz3XcpSpqU9fg8w2Xe6BYI4hfGoUWnUVaH1Ni_y_A-r-zvl0mex5LgkcDbe-YZdJUWp-a7TUF_QyXw1EhCJEkHWZEUM1CAO5Lv_wVhHGhQ_LaPLYXwPD9YuSzIJgOQEiLfBsw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAXPmFCqR6CJqWikRBJBQzFDcdsMBLC4hgvRitwpm8hoCCi8_cr-xZRJD1Tv0720hCVK54qxapzjZSh3RazKtKLbG-off0E6m-c0xNV4ei8u0NRUFJ_egcfivaVyE4KirzEhB07h_4Nju1wS2APmcoXmE2GhTfbQF8wlqZZSF5e4YuNMX1CSEIwg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAGDjT0wqLCd5Eb0bsdFg97bkPxfcStrDRQext1jVY9tZOgIJjhVhCwvhy2kHM377Q9woJ7DJ1k4M7sSlnA8u-0bN4W56R-5537vPqf-C6nmgYAwzBavbyMkSoh30uUayYEhAGXin8U3gKhcgtg0ZkSwKbGhRjcrXbH6tc1OMs88TPu6vNVrRgLg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAVBhqJf4QlMeez8JkfJBjTdbg2IRtQ2d1LQIQQzNFe6awCHz-p6JMhx0UP36GiFAlTWgVSiUKzA5TmawQ1o-Tsu6nXd_TLMy3L1FVU88QqatacwTlBi1PqHeatIH4iEr0EhA7A8MU68YTxKyTKU1ZRmJLGhQBsrKsVhZj497NQ3Nko8TzlgP1Vw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAZICnOzgOqHF1Nb5uhp-bF0AKGm2nS3kD2AiYuCqgJi_paQ_KzFyBNzgbUdTsONpqLps1dCDkullqhCSsuhVxX-FKQgePkk8wVxhZU7eFWNOrPqXgNU7mXThQ9ASEj4RkEhDLr3d6cIvLvhUbPi0CAmbwGhSAKQeqmbMOQHfbFbbuRnBwwC0HEQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAyAXMOHk7SmsSowv1dUPKCRRdGNhKCG6NGoEzPTctthTiphnY2xIgMTOYzUZYEM60qSLz--0BuyKj6pUHHmVxzYbLxN6pWqDNPmkWQgUlEiNtTcY3iUcdWO7rtzjhpv4uEhBzukaiZeXVbedZWoKiN2hcGhTrspOcdkwS6DQgEsQHl8e89QF7Qw",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.cattlebaron.co.za/stores/saxenburg.html",
+    "type": "string"
+  },
+  "address": {
+    "value": "Saxenburg Wine Estate, Polkadraai Rd, Kuilsrivier, Cape Town, 7130, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 906 5232",
+    "type": "string"
+  }
+}

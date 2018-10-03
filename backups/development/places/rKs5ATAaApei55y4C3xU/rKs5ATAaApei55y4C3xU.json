@@ -1,0 +1,68 @@
+{
+  "location": {
+    "value": {
+      "lng": {
+        "value": 18.72731,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.9582599,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAANS6SmfrMC8ZpYvKAIldB8TQuOPWOT1RqH42TMyebFZRpdET44q1Qnuz5YH3edovGCygfaGvT-JcG4qlC33Bky1zq1w9GKrm-0IjKz0MBGjnKLfqvxpDvyPObnBsKcUi1EhAEE6Tb01trHEzZLnKvwB9oGhSolHpakVn6X6kKufS1ekzsyPyOxQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAN5gXsnOdKDUcyFD4wrKCdQTzAYTA1uHwTeZlHpM35sxqn155PleAwPsE2Ez3xvUCAbZLz6rWtvwZm6r6q2OVzRhDpzajGwiWo4lU_Uby2Wcd2b24QWWYK07PlgdpBcXiEhCziX7RJyi0IelbfuzTva3XGhSH8RMRyZ_3dvo5iy070wQstRPJ3A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAtSt-owioWRGwb_ejdlYAYmX7eYH-AV_LuDptgD6nlfAcqMHzkThhK6IeGwEClyg3vfQyI0ODiNkmzaiB77xL2lR2PtK1jLoWceOGi_pjofh935yurHs8OHq6jXDuYm-bEhB9J2HX_U053eyGALqIyMvfGhTkv42VtTvVq7EkK18NeFp9mSrL-g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAl1XIwBLijpdUtLtLNjYbOeXO6EMhRNt4ciuscc1XBgmzGGHZVLfq5Qg9lN6lEbKGIk0JDk0_Tg1Wf-Rvj0ksXlGePGDVJrTzelTa5Jhh6ydf8cZztUjZAjuy6D8zh3YbEhBUukQtW_Lt-VXGUDfGRiJyGhRHV4VywwnG_Z922n5H5rD9cfVDxg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAfKgiYNF4tBPJy6pwc7snpzcOnBfABAAtmpFz6PRHgjBhzhLq-cMACocb6DEBwOn4NCQ5Mkf5yOMKX_Iy2P2e2Lg0FvGi_jLKgTTTxJ0j81uMKqi_7P9VVTB-9_Dh5EK0EhBdvgmCdseTrV-meP3-eApqGhR5WHXph6_JQDXl6TbNdzewlJr35A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAvKtfSXc48Uix_sGkglhXbMfSnB9cRKjGrLDSl5VQdow0yjYrpuRT31N3Lq159sKBrACi7lNzfBqxIWn9bQbcHwNjPSdEB3PywA4UVpoLYeuffv_jIBSY_PTmgPvloD5zEhDi6mZlJ6_ixZsGwXSqhDUrGhRrgeYtMxVQ92bGCLVK4ikmGqYo3A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA5w7yXrN4Ehi2DmTy8p2Kd4Yv_5i0XMZeeluFVFGCsXoSHNIa3KbRFpclgweb5j7tn-sJnx6qYB4zQCQweF31Bxc2GG19fyEx-DUY5c7tA--Ykm5RIO5hv8pAzHswePEmEhAl8GXovg5ymIdAm4z6Fxe6GhTfQ5uvJDJJkeWo6k6Qk7ExHx_TVw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA5tZRkev7xEQBmSDfJBFCGCuDINGCdITgcQOS8Zn4w9DgqvUxPQVJaMEwU78OzJ2NB0K50ZxEUUGHoMxMbw2TZr8_CM6nX-yYY6bSJpZhHNWFHnWuumss7D7OWm5pwJU4EhCUtr9qIwmuijvRY6YZqFGcGhQUiksLNwG-ozdx9v0Q-lA80HXJ8g",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.saxenburg.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Polkadraai Rd, Stellenbosch Farms, Cape Town, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 903 6113",
+    "type": "string"
+  },
+  "name": {
+    "value": "Saxenburg Wine Estate",
+    "type": "string"
+  }
+}

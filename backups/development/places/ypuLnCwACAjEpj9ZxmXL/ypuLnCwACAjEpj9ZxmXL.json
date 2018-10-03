@@ -1,0 +1,109 @@
+{
+  "website": {
+    "value": "http://www.signalgun.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Hooggelegen Rd, Durbanville, Cape Town, 7551, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 976 7343",
+    "type": "string"
+  },
+  "name": {
+    "value": "Signal Gun Wines",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:30 AM – 10:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:30 AM – 10:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:30 AM – 10:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:30 AM – 10:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 9:30 AM – 11:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 11:00 AM – 4:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.819991,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.610621,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAAfD3nrWk8vxEGSCSTBehJZd6Cnd-rdifKFp8aQ0oHGmF2_mnYgcZwxv-S_SSHmCrTzBAP4_IiqFDFR-xGTitroIn5yceqYUpaJLf_8ASyfpvSKcD5gjBmnXm3Rlq2lHVEhBZDFH5orOs0KTtKChC1JisGhRx6B0GXDQWtvrP-Fx2nFK44CU8-A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA1sKrfRx4guGHfpEU9oBf698xhmAXPToUdVkuPC0T-ZlyNQFSEcuK5UQG5t9uKh2lFPfviEuhzdowTrsfSoifTYxXP9fXyK_i1LLEonTz31RKmFwCD5LFrzg6lxdt4kT2EhCng_7YdxBA0mq3AQ3sOKXdGhRTwQFunRvpB5-P-AArX2tIaynpdw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAL9cVKhV_giFWi6k1QKzmDGkSVVYy9mzBFOkSVQq_sJ0LuAKNpPgxL9a67he941c7bFT-BPsOoonkkWjE3reGEOQVD-_frKJZ10h5y-zy2R_PkDoBMGeZ1C3E5VIMeOy3EhC0X7vLXMR_v1YuuLR28s9uGhQWxnflKXwPPCr2CYd2hcikz6Kk-A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAul2WX9iMOLO5bj_OHfU0o4rflMnsQxpKmpSeATuLBf8qp3nFlSp4CGhGs84J09ZJFo-SYJUOjhdxXk8IS2qA4oFfQx4vUgIF22TwvukahYVUIxC_xCFLfoaBSbLD6DKKEhBc_lq521THlBD5yKKxrYEXGhSsXB9f7Cf7hNHe29ymI-nCkrsNmA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAJNCsDUMFpQsQMw2p5s4SCYQaULyKNXPlB7ZpnL5fiUx68FrZ9m3OwfGQWrNqNEwqeqF_oQyxa2rPSj8jDHvTu5XxUp31fN5Tol0juyNgBIraeHQiRAbminiHa1826EyUEhDkFXEeEmJff-lDYYX_2ZNuGhQKddt0xIb7QyoNIZPvYvvZYk_uAg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA8vbf2gI4zB4MPB5QYm9kNPWT9bAJcRWJX5R86XTuu27Q_vsx6vWwUzGtU_BMwkDA61N6fue5XzzT96Vcekr2uLoptCPjRgPfTqaohseWEVUlBV9_s-Jyg_6rskvgYRs-EhCRsDmaKAG1QEJYbJKEsR81GhTpnZ0Olv8CT7pKRlPTgpSz4ainwA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAkQWkJc664Frc6_3cV8kxE2D2hVRSwcjFE0r4eyNCJDVF_jJVNEgAYZ3LdU3MLfnz95m3hkft0tyNAHPaOaz9KCcvTqpNqYJhLLvG8I7CgE7oFiDxFVQxAxOdtDGzSyKsEhDO5YCNJ3hbBPan9aM5ikJ9GhQE_2jyfo9IYUDL-DWaWEZwsjNVUw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAJd2oJjs7hUDhK5m6EpqZJzOeHX9vzw01db1zRPHf_kEYnkedNFDHTpk8VrMh3XDBFkY2KIIc1ARTslJlI9MGUj7LeLDck2OBGd6sh7apSFLqDkbPmGTAlWXpMKouxUslEhCnjIz9FjtuN324hSTycW7uGhRT2O8i3v69-TVpU8a85PhIFCFGpA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAEEN8vVMNqONfPf6-XVPwZmpCEqknXcOxJiDzJt8eVVpxpJ7aKJAxxZDbJZEekDAakF-X08H3DDNG8nN77bwnzY3YAB2jGlxvSeg6ix2oTd76GCyPwXgBgGcwAnQQErQ5EhAyBzMdPpbqtOexuf16_SGzGhRCEEWDA8lKG60XZoy6a64I9IUlug",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAnIFFw7RvwCFjyNHZ4iLZwe7mJHZgqwiYo0dO_Jke6c90PHrGSIo-oAuemL4P8odcEdJOMG8F9tU1RLeOjiT2ZStG2WSqKJWVepMr8SKD5L6hAIJ48opljMPXIqfqgEqEEhB1W4e3DdKVMlypKSOpJgX1GhRsndmyF2ttnotGFfLRcBzvEP-opg",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

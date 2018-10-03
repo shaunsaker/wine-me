@@ -1,0 +1,109 @@
+{
+  "name": {
+    "value": "Klein Parys Vineyards",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 8:30 AM – 3:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 8:30 AM – 11:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 8:30 AM – 11:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 8:30 AM – 11:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 8:30 AM – 11:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 8:30 AM – 3:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.74861509999999,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.9779376,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAA4uSxWzinMotSs6aWM9xRESg76eHcJnlryp4TclTqJ8R4uxDu6GX3xUqL-_a7syXCeDo79a96T0TJebITck4JQhZ04G2vw71TT1H9uwwC5b0Gtt6-0jwiymBU2fkIcygNEhCFp-PaEyRZP8wHUvN4iKvOGhQVK4JR1qyetFE9YHs3p2a2Cd5MNw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA3g4Llol8GwXyJ3_thOcoarqjePXi1YGwW-cDJbaMMK-HKp91ulh2w7NweSdYggaCKlgOeDmJQxbrNFwZK2844q3-wjul9ohZUGHA4O8x-eqaLoJO4Gv2YtTQPlQFj2I-EhCG_ntdwB5iUdpV1dCcvjkWGhSPZ-v1ls2aFgt6v2mgVsXxm_NRzw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA-MO1Uc7OfF_IBPNSEPH7SdyQjMYQqMIbkKYBc-Tryx8ZuKCEUvrC_X3HkZRGI0zwUq94sXZNIywgHh_dxh_HQKIgBwrk-YpVOK0waJkkHMcViKpf7Wxl24CiMzFU-TYOEhC7TGW1vl4YQBf0kWikZXM3GhRuHZAmAPq7wkUsF3BA_fl3FeVuQg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA428Ka683pHD8-swquMhfPekM3GnsiwTFPpOnb_Ht8kvh1fbfkGIPwpEZKtfx8ceIXjT4KoOOyLE2mKM4sh5ChbSsDWo4QEFsxgT-dEkRaHH1Ukok9buN6hyiDHjsTXzfEhDn0qF191CTrWyftcGjGFNIGhQ2IvsSYQCgZov-ipFl-IK190MX8A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAirNVUtr-lPFFLTGgORNvNE9DlXLP2TzUBhAFZU6PxaP76vgwt2vLfYCv79-_-3jua5TwzWWnuVXOvDdi8rkHNdaHmkhlxytkruxb1WE7jidndtQz1l4QpWgiKbtfRoivEhBkOarTYsAYn-2wmcP2nx4hGhQRX3YRdbd5SSKf7ZGGj3eExWb1EA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAkqu1XISHAkQ9GIHDrtoS3MTATEKYtNIwpyKbuR644FcumzriP-j38MQWQ-6zg4sN0rP3rf0tQROAEz-JR3SXoPOpHAGL9IwPoqUpMYy7NCqH6Qn-07ruykQK4UY9D9EnEhD_6XIVXI-RufulYYVlBFYpGhRHC1rtMG_bLTeiPf8W6Xh9zXo8EA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAASpfmDxu8hOIOiRDeQ9BrCV3_D_snwP5jFgaI3mHs7pQPTUKXAGjDprPYSMiBVApfSCRpBwHUxvNiLDkLzNKS6UNkSmSg-8Ph7pgCK06xDPzSHCAnztFQ6KXuzg7A61jGEhDMjC2I4FNac2xfSqH86fOMGhSjzsiQfqHfpuwsmpB4cA-uqoyQjQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAANxN4s2HShFZgbtc4-Hxm8MLlG-z-S19K77MX5GLQuFbXlaFrSksFY3Q-poDqa7JwFgEOhr4wKudXwtwPiqdOov9WYmtq_q7pLXgACiK5z-GwvLcyjokJpAh3uDk_UqbEEhBccNr5sxtIcuBdCIMeVvrmGhTN_LirPpK6Ov20WacZ76cKIhkY6Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA4p0JM0DOMc8dApSZULr1q47iwTJ9cp5l6GN6-lunNrRZhFwMAm6lK0tdfPn6mPrKn3yWeT3xxkAG29aD3B0NvZHiUBPYfeRs53oYYqiP2SQAGq__xFxUko44BO1F4sTdEhCxQ-FszpI3zA45_ZJEMv4xGhQ7D4_qnRb0pE9lTqtm9EJNFkjz6A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAnchk7p-0rYp7z_cYdhlelNQupud6W7kX4AkycajHYbleLT6-5QBiHY_WkjAFeZBCiiAZIA6ztiRRwWDJkCl-CeiUjmfi5v77VbFXwt6aZNdjYN4Msaxh9lSilGTwWMR0EhCE_vGqGxySgC17F-982pgTGhRJMappqwCRQXUg99-ydI9WQc-W4Q",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.kleinparysvineyards.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "8 Jan Van Riebeeck Dr, Charleston Hill, Paarl, 7646, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 201 2494",
+    "type": "string"
+  }
+}

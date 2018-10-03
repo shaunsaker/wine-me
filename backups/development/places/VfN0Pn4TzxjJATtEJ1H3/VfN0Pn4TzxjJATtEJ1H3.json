@@ -1,0 +1,109 @@
+{
+  "website": {
+    "value": "http://www.perdeberg.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Vryguns Farm, Windmeul, Paarl, 7624, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 869 8244",
+    "type": "string"
+  },
+  "name": {
+    "value": "Perdeberg Cellar",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 9:30 AM – 2:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.65813169999999,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.8263459,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAO9ppPYkPpFLXHhkjV5TiRIA3NXWvcOMwL_Pw45YQ166JpXvvAd6g7_y_DGhJ003oZvpaKEfh1ePIA8rzvYx8UBOahWwcoZo_h4XNQGKpPA1J9F-O9QYG41-rKeGemBfEEhAhBDUUioKYnp_SbQqIy_6bGhSfTQeRzZem1pySkhrNUlHF-Phhmw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA-DWBlIhyOb6Kj7QuTAV4feWzWXrCVxeDJ9llrEXYKKan2cG5EiqzSNCObvOA42NBkG_bTVd8Dq-p205yu_BH1Ma8A_Pq3ZL5r9GzaJdAQ5i2yHfvJkzLbhOEO9fiRGRmEhDCTRP4Jk1XCP-0cJ0QKCjUGhTuS0M3RE8ij3Tl2v58xXOLix_B1w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAApbIDXQwHgfAGV0-utFQv1uLDkVixHyngewYOhhdX0sKnjGIuLq9vytYoM2FnQ1zOThnxbdR3_6U8u3EgeYKzEF0x-Wx-iarkaKTqTceHRaoWrOLVL9JMATpACZTfECyGEhAnMxZYwDj4J_rs6lY1jMKCGhQUmGEpzyX1ZllBQQsA2tJ3YF8Ldw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAdbjoxraS_BkgSUq8yfeWJqmVc_4qMz75AV88iuVJlc1CJkNqChuTcyyhE8CcCDe73DUMg5bROZt5j31aoJ7WQIXG4giZQMrPyMxeT16dPSp3N4Ykx0Q7h9Bnal6OqZNSEhC9nl2JnOvWc9CMmdMdl76aGhSib-4h57Kc52JbjhgBYPGHFkG9jQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAlo4HF1YHOpq6zqcyZ6Ec04rv2SrWNJE8mL2xm-XlyLONAg826F-2DbHNZof8LGIks-yfWdi9rlYaMV5va44RM7L-lEnBSNK9SzJJcOneADlgAKQOuGj-deFrRLbr638nEhAO6EBFcSHBo_fwsJww4xmpGhQbpbEiENoeHWRE0zxtnUiHrItRrw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAKGxGNiZAONDFOH1plPbG5iSURAu5OlqXOF_0qBzDQChg32IPxQEtDXlsven53xrjxQw8bYy84d9b0pe8PTe2_EEXBBu54KSm2gtixNzTMrOJgt8a1VMdeBgDHF_VMX92EhCS2emrUkN4hM69TIyWJkaoGhRXu4seS7zq9Q7ZwO6k_9tFKd8UOA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAR8IzbWMjZkwi2LwRwKNVHPjL8fJxpHTTij9oHsdtqpWcgcMtraU0DFsBydyQiw5_TjUMWOJxsbey0UFehOfLPIZsujqjH4af-VdVjP7tdcGWYu-RikLGqSgo62wILPhdEhAt1z-lGPdgYQLLXphj7V5BGhQaDLNTWSmwYQxcTcqnsSQ_Kz9Cuw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAJ1VofPjZR-V2EeEw6Yk0wU8WWK8-tBtNzBfO1IOYxLagpt3o74r6lzKeUwxzw_1xU4oFNGiFKWKb31wocz7Ozt6MOxN0mdP9khVwFgsWh7nkiDP-arabgp22P7kc-eLEEhBJEz5SOoqUvW3CQpGdxvi-GhSgcahVQdWHwZ1SBwSeWWIXQd8eFw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAANRpVi6N8x0IbZ20jkJFTNWPDAN-dZXicfwoHyy7dJkMGBOjfI4dN39XXWq_0VxYAFo97HkpBqwEKwacuCfAnA3ijkgFtw5J1_0IO55q_dzYEj6tHJUvaGApIbaZHr-A4EhD6OPFSiw1BD2_kRoVazssVGhQf9UsL9tiU29yAqmQKKwFVxsM88Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAIHsVP2Hgzj1_AFWsA8gTTROSxzM5IaGoYEqdz3utSd8ALeh9UwBl_jCkmlW_yECFtxSap1x1-o8Uqz8Rx2rHvsCOX_2hHuU4z1Qg3PQw4nH0vTyepptA8NI5FnL5w2uwEhDm-94pr2XigUkqu3xZ4MfPGhTFioy5SKKIfCEAhAtV17EXt_J1vQ",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

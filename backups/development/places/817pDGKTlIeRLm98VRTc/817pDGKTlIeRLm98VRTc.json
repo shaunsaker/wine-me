@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 9:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 9:00 AM – 4:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.68655689999999,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.588441,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAzbqua9an2qngxXuN-X5fP2Cl7D9VTEN77kEKh0DMN5LzNkHLqAOs4nEATr4Qql4MsvwJPrG3t_5HZxbZA9a5vPTqEjS7Mho29tTDTnmAlvkunWmdAvZWSbVearV6YYXZEhAQMIxLwC1JWStVWIrC8Yh3GhRqbEqqe_djgmlet6U6rrnWBykQtw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAAcg9q1EUw-bd5VFVb6XMdXIo2x5AyFMVkYyGI31Ur7eR_KkUxMogk7blDjGZszuZLUu6ATn1YV_ZOTbb6Kg8dyISnnlpe-mpV9HC3gXhCsa6ESzSjOEqYhdK68RtGBjGEhBbn7ldF2jCBVTWdY6lRWV3GhQebiB5n0iGVWJmHiTHtzf9pWdGuw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAQMFOEHOTj5BkUsHoYD5YRYEgj3_1yZIe5kn0WqqTu6Qu6XUVCXRHGKonPxNypN8xrMLntSRk0ld5_kz--ZTdbiCYpOCbjK6hiKfkMQ-IqGWzeKcvG9KnUxKUQ8iL7H8cEhDPXhStvR_o_xGKwO_Il0RrGhS1AqniCCrdoq8O6k0LRxeHLXoklg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAxXRo4ksFT4muVZe3mJq1z1YjRoiPXrpHOuiDlXnwoCrJRr_bWGmXQyd_imIZl93GvEvAkxTuiKljgsVviVr9J8uf6_ek2gEe3Y7RpfbZmdtf95wjAq9J85tUQ9x5nlqSEhAI9FLCzg5u1EM5Vdnc_kuhGhQNgPPagrFsY7PcQyXPKXclVeizWQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAKI5eL49xCBnz3tSp0gHLcQYVFgJHsXg7nRukqvMpsTlwieP3GXYGSTkg6PBcqsoJrvQDHionI0oXGjVExnYsCX_bjuaUHdSNRzpl-wuZpHZPOkU179q1LPJsIK305LYiEhAQ27y-439sswkavKJL1PEOGhTfRKol2BGFHRf-yEoAWZf33C-mtw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA9GwEqTBB8w1Xiv6f86aWx5b_avHIMFLG7I8uq9soMenE1Y6MJi8i77mkDMV0SKM0iw3TmMo4J4BkQmGZX2uvcswt8_kadDnYlr2lo5KL9SEwY7IywfSbRPFPbsbPBQc4EhCpXIpUCzext85wtOm3wzhUGhTiJfSZ8tdf-mulYVaqEAjPj55-wA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA0ZfP8TPPOY6ofMNAXaX1wbwBaCF0i6FN5hdl4MjIZBJrkudEDO3zNwOyP7uCBdybW3Eh0yIhkfwGqH7pD3RnLn9fdf1DE4UIF0P4UoDSeweOxFiTmGs7ql74wWUh8jbBEhATMBD2jO1mOxLL6n6y9EryGhSMQ-ixVsbhFNqDJhuRA2EKTFvDww",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAApaCr2a8HjgPPWU3Qjzmz9vkwvsRYh03txbFGe4XxVKYfhKWnxAbSK1a5xD1sHODTSO0rmHrrt95fJWrfV6wIARjDm10JBYcrDTFvr0D8_nYP5hmP2fc86DODVAE5PI7uEhBpFrccSbbFqpT4-B4jzHGqGhR1OzAty_miTwyZVL_nEG1H5ITMyA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAIpUvkaDkhY2bTieL_JDQSa0R4aQCfyuE7Zn1y2S6s7VNzJoKYvhUvvsgKNpdK-IQBYBWX9hNjWu9G67hzTQH8ueAdoqdtVki-U4pWrWme507nS0UNORNEv-LszjYza8CEhCHLyO5pWS68Tym7USWJUnrGhRLMP93LTaH5MTtU6_xJ6LUHOhWJA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAtsAI6p5-taqpGxD4durCHbbsdIdF96LYbwp77ZB0s3xopse11IluTQKgoELGdJlvl5wP6Oh4ShjRvrYZ1KJ1E-aHmGMif6ywPnpohjKiJIktdt__nEKfqynvN8rRvJ3aEhAbNEPlDnpXsLaa0twwoZVqGhTKw0ZpfbLUpzT0tGIGtO_gh1Aeow",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "https://www.facebook.com/www.nuywinery.co.za",
+    "type": "string"
+  },
+  "address": {
+    "value": "R60, Nuy turnoff, Nuy, worcester, 6850, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "023 347 0272",
+    "type": "string"
+  },
+  "name": {
+    "value": "Nuy on the hill",
+    "type": "string"
+  }
+}

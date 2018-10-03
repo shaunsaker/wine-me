@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.66156359999999,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.0069902,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAcSwTOHBM6RUAseMJjk1qhn40T8pMoT07lkO21ABx-khBdMazu9cG9jf6OCFjUwINBZbZaF3wctL0JpOcZAo22rFELIQXBSXqW_-9Qt12vsxGTq4hEoamZXmJD2lMYQFgEhDlXa_LJGSORRE_-PW7c12bGhRh0SwUAgMm9jro2XSNyDAFkXkD_Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAzi5RTBlv6UZTQQT0l9U17D4q42jwznmgRCOZn0QiX8A4v0PK3ZGLra8W3deQ1N2bBnv3aj-fCRXEL4r0M22S1du5eJHmbFs12KG1PEKeSoGqmPEg204pSXiKbG8wHpywEhBhnAvbuD17Vhyxv9rHStc6GhTub1vX6W8yv8WfpBhEc_MVPoNJBw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAKHJEOog003SoYw_QkqK9TujU_kpA7qHV4-2570CZCpRSYkGWlUrCrmATAOnd3EetyDX0Er3AvwtouHRMzZaEGuiNG7N4fQnbPAENK9YDWWf8EB4KyRPBFsQFIrOncjdJEhDMgQRGz7-NO-PpxMyDbL_BGhQmBPrJgFCNBR4X0AWR0GRgdyQTew",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAwD71agGaeqH_w09czgiLMiekIoyULiaoStlWeiflDD84FSGIQeH2bRO2efs0E6fMTdr4_RBcqWg21dSJjJUdDaplOdUDhfvUWNzhC2i31B71qyDPShn2-XxW6utiS36fEhC2mRsByElFduLqlVmnPYGmGhRxvv3v_4Jbscld2Ot4DU9exI7zcw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAmiWX0vaDhxjulpi1qO352axD1GLYzBqJ6I4KWx4vo2MtgNJKu_dgy-krqyPOEeSZ8ndcyHKXFJ5IVTdjPL9E-nC73rqxQ7J1xpfP9BUrDEa4rtFlUSWmDx0jVA_qE85YEhDV-5l_syv7h5ssa3wRaXi5GhSVVemSRoORZi4ZXeGPjCbuti3E-Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAe7ANW6qj7gBiuPp7lccbRAN3OlVwmaHV7RvumuTWlV4Ju69I_TdX0KIL1YeE_ZYVLaL7c3dJAOkvevGQ3oAaJnlV6Pto-2JGIGQsMkAXff7g8aACcKiCxdLSzlmOFmk1EhDGKOCGILqzAUEA2y_4gzmUGhT-t1SXc_BRaMkMeLotsRy21xzneg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA0zzwIw5lpOKu0CFe9xImTllsIO2Nq8ku100JLMiKidgeoA6ynraIRHN7HcenmUF-hYIfNkr5h5eSWtVi1VlVggp9fIaJjvQ8RNWuaSPs-QwDR-E2lmZTwRHdbjPyqfj1EhDeFWKubVG9beX5fnTrGFttGhSXovsUKueuwVnPdLokBtopQQ2H9w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAtlUrHsw5BkHJZZfDEd3E1M-X2jsW4agOX452Kua_RrNKMHUloLu2gFWfRuj9sqMJeKRCXbIS8nNGN9dzTzEOxhH_P0g9MwmJcTaCxuFao2uBz9oo6Pvo2W5gHa9fRCoyEhAZa1_xD5C8DZ38Q-lTTNMBGhTfIbAvDbbLZICRv_Yb-Pa-89wWLQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAALans5N5I_mva93rv_IR-FgxcS_dyNUQMJGkMu-Lw4RYZiugtXsf9TIrsmVAA3jAHmmaaFuJRY8g6HZDifAsQzJJTdWisZpXyqY_KJhjnXIH7LKBXtleMz00RhilPhAcPEhCGEGWIe5woUrYGqxliKES7GhTkIGnzfwF75OnDSwaayukNsO5QXw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAn1h3DWgsSt82vLuAArqR9-S2DVBqYOmXTVC99GxWJARq1Gds4AzHtNDhuKXYEmEGUDKzzeh45qkk_D5Wa30POeXhF1ydURq14sTD_HWFEWmxIeaINkTog01usdAjM26oEhClzOJF_-AeDl0zoBa3Xz1WGhRFZTNO1WfbFcNcHzc_7JmcHwEOWA",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.diemersfontein.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "R301, Jan Van Riebeeck Dve, Newtown, The Diemersfontein Village, Wellington, 7655, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 864 5050",
+    "type": "string"
+  },
+  "name": {
+    "value": "Diemersfontein Wine & Country Estate",
+    "type": "string"
+  }
+}

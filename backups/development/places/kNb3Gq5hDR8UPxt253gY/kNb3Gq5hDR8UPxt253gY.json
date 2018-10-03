@@ -1,0 +1,77 @@
+{
+  "website": {
+    "value": "http://jacarandawines.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Wellington, 7654, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "072 432 6716",
+    "type": "string"
+  },
+  "name": {
+    "value": "Wine Estate - Jacaranda Estate",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 5:00 AM – 10:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 5:00 AM – 10:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 5:00 AM – 10:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 5:00 AM – 10:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 5:00 AM – 10:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 19.0040302,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.6130468,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAedN0bCLp7PZkMowGJZRJYaRtw-300VMiyKyglWzV5J1YBHKxTurDmKnx1YqcpUDL1xEe_JKidahjsMg0esd97bz-wpE7dGS1Zvdryek_ioyAeU6LidVefLMFwh1xQZ4SEhBbUpSCaNs3kwSInyptwcuPGhSA7rZrInUTxEZNhuDm4ZxJwyQFbA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAj_yzXvH4YoUMGh1i7PXcQu0p_RMXQ_6Bc0riosoZUEfNROztytgklXHPPfcdFuAiHAtGXD1PovZ1lMFYMVZoh9oYalBlcXH2TRi3dGs8R73DvgX3uqPgmAitQilWgH8JEhBwn5-SNYTXCgl6eZvNDca6GhTz0y7_uzr4l45G2Pk-1-jjkWw9Sg",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

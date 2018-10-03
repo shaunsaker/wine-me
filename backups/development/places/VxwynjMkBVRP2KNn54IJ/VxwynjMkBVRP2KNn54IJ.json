@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 8:30 AM – 5:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 8:30 AM – 5:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 8:30 AM – 5:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 8:30 AM – 5:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 8:30 AM – 5:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 9:30 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 10:30 AM – 4:30 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.8284813,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.9147466,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAQ85-lIba-BUKL9oV6TKg8q9wCnyUnLw2VJMdbhlzKXB0cWcpvS_eA4rm7F5-00rTVz28kSuRUK9ogFiTGwooeXZ4FwbuqhsegxZielgc-9qgbmJhljnm77GT3dCcNMumEhDG6z433jiCsPaklbtscrIBGhS9AQ5ddUJbHEQMNF25HeyQEuLcaQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAxFYZaem6pB1DvYnjyFdkpREr43tHuqFQJJjYy_FKJyNQcqNe68cxCO-Jsn9VcF2KK_plG93MS2RL2cMja48c6Q34IIeDQniIbH6Td7mZLpcs_OLItCMznr_3KJXboOHQEhB1M2VUnG8u28ZxjqLrE_TAGhTWJxD3Z0UXJZKUIXP1X98TJlXESg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAnkWyGcJKK2t_qL5f9MvGkh9DiDIAA1hscreuN-lnvWnRIYUzCTaTU95CJLFWQqBDBe0qOSgAExkvCzRTm9SkKDvxKGxO9bA5Aufh_nZS56r-OYCYGiZCZ8PSEjRen9c9EhB-qIKNkopPSVh0qfp33X7oGhTw5udiThYQK-qsCu9ogzj978lrrQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAog6CDJe-MzabWRmzm6789JXYDa0x75kf402sBtwJyUrbTRcwok_bh61RxWYf5HF7BU60tMaC37Cn-bUOF765RFOMffhCnjcu1MUiaamEKbHHrHahZuyRip87l2lq3DUVEhC3zJub5TXv_ki8Qd9pLXE9GhR-41EbNhYYO0_CThIfPlQhi3x0EQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAXwW1M1Ap7LwODvid8u1XFWJ6RQvoVMUKg_qhexnr6mc9U5BcuPOO7VcDs-8XLWm_LktLZ5T41gkieaEjaOFOPyAqdk0CJZhZO6weT1_m0w5lzsRbk4CnHDMlpf7RkG6HEhDymm5SseKLN_texj5TjvNDGhQUb2_y3h5KpleVJUKAaQH4Srz0-g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAa6jxjcRebsY43vqI0EfZIbBXIx1eLb3Ru7mn39xALhXARyXKHqgI5Vr9fUVHU6SuH9fnSWqFd1_qn60Ybwz0ZWUjCEZzcNy-dbDeyhFG4s6RHI9Gmb1SubJQY2KrptNyEhArwrEOhuS7wf1eW34zYqA1GhSbyltpbYVXa9PVz6Jee8bbKLCrvA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAM0vZfcflIrcIe4NRKXGNMGN2VMHyh6NouIVp_of3f8gt9WPdJfQIJksTZCrqoYS2iwXuBjLkGA2XIaX-R_YBjkiS7y6loKGzDsnDAPwUpZ26jO8SAgts4vUBnsG14u5IEhCW8dGuPdp0nKGUS4A6g3gVGhScnbBNnc5eCOew_n_bApxxWnpj3A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAhaaTnMPEsI5JBqol15P9qdfjBErnfGFCeHxuUxx70ms9TE8sMzCrqlgNlMcKSYO9lFH6-3cY6313GgutrtuPW4l7i3f9yNypPQhYiGRUhkQE28SM2AYUwvOF3dcJmn3REhDGtwMZLatvctTRZux_YqeVGhSjcm8ZqLjpDCmmXhGHFCDBpJVHGQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA73lyIbtE4cAqjLKoLmtsP2aA9flB_x6kLi6kgMn1pgKKW5CwI0cvhGAfpYKxyEhL8B0VGPLKbcn94SvwhioG3l0e172Y8Llvba4fX5JCd47WewN-UObREhjbLrArZGcTEhC8W3pPiXZmYwJOVQ6BRHtkGhQzhtwAkrNsjhmmtH92k3Jl08v5cA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAmWtqkLReNANQM06sb556IygnnyQdT8tOWYugLcp_J1P6b4K1D49DlvewHbRNmcq9ROHnG1QQSwsI2znItHVjVx3gCzY-eB6auBQ379pRNpRUpSVeoaoAlVRGqv7vUelfEhCnLeUCw2kvfod_nKZcFV5mGhR-1sOKCuqz0J1A3gkfvE2agI9i8w",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.backsberg.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Klapmuts - Simondium Rd, Paarl, 7624, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "060 853 5593",
+    "type": "string"
+  },
+  "name": {
+    "value": "Backsberg Wine Estate",
+    "type": "string"
+  }
+}

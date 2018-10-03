@@ -1,0 +1,109 @@
+{
+  "website": {
+    "value": "http://www.labri.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "La Bri Estate, Franschhoek, 7690, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 876 2593",
+    "type": "string"
+  },
+  "name": {
+    "value": "La Bri Estate",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 19.117625,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.922771,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAmVj-EVyQopLHMKQve_mu2aKZI-IMtV17gusaLW-ddN74LuR_8dw8aHcBpHEGl50q_KD8AI3SkBPazyYh65_is-H0kvZcu53vrrdNFVFRQufswkUk_ZvUBkXGX8f2NJbKEhBXr9tqkr0vXDqzDiUic3zMGhRQhzDvt03hu_NYhWnzFtB7ZQwwXw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA2P9kMrXcwaYrMuvVibf5-lMWsd0bkRpm6ufqxHfG1uAcqUG8DYjiCmXMutFabDxQI1XuDJsLdlRDfZOHXpLjm2iVj6GfhqUbrWiArRgMjrfEI59AE16xg5GWuz9aSOomEhCa-qPH10MWkiNDVYCB3QFbGhROMCSu59hmrgWPUc11OQad8E-yGQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAeWNck2WPPY-xRYDD8KbB0sPiMvhJYUSuPvzw18Llu5tTometq5hyYPeR2Tr8revHf9uZWRgT-Jnvc_imrGH6dcqCnqYErfVhJJmX4SeFIloQf8h4KbxYeutIn8MIJjEjEhC6eRhKrljg7Fv8q74YGKlPGhRK0h_Y44LzZYtbK5MQiGN3CVPj5Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA6C5x-EDWvUKBykOjcnGKL2zuZplqpvX1sSQ4kqeircQ_Hr0Hfl3ufzSmhfA2qREId2koqGEL0Dr-0UoVo-cYoPDc8a_AiQkU6GV9SL21h2iUWv9Q-R5wEc_1pGAD7vEJEhBg2cEqqjC7S7Ze3BPp7CGDGhQttmuEjqKovjsilO1C9qAV0aArHA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAWAVTNZzGmCakyJUiGcggyBLa-NAhksGLUps2sKyXZdZ0qEF4JtLtTyU7xwITIw56o-Siah5-llFtbAnxMnRKlAwZAOn3sOpwqk3ItpM-5k4Qs9LK34lhgHrFvAA49HGCEhDTOWhaHSChD9EY4aU8Tki0GhSFDz4-utqT7p_lPJj2KFjQwZxA3Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA5gA9SbPx8oju14avY3S3zbYGq9dkQJgUkv4U3S4NGJPYrUu13aRgDpPZaEKcPZXIjG2RBLLetHaUMW6cVkTpYM-kO51M3sKOTL9taFeIAgIPpHHCNtZxyVf653KrJxaMEhC3m4HUMq2O9-LUqLrBZJOLGhT8tVh80gQmuWteohZtYRG7CHR_6g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA7A9-1zQKQx8mZ5aUIck2PU5QmkkYsCbRNIpB3uPy901sb-7dcpCHkMLbz-34iVtGujpWGd65TufVLxAfPafAW9B7QqPZCDcNSpaiVINJ9CmnE6fr7F83kVXBraq_rDmSEhB1L-A1B24sqT8I5hximxdRGhTrQIvODiaiFL1GGeNBo2mUhMDaOw",
+        "type": "string"
+      },
+      {
+        "value": "CmRZAAAA-mIU7G78ZL8d-mQAI84LYgyf9sbDEY8ZpIM9ej3w7l6Jt9WrgBK2iUUL1WV3cmIQ7Lshuhk0VEWV0wv5y0UG_gvpiaBeSHaupcZth589b9TycFnTlLiRbT7rKRuaO1Y5EhCX1u54an5EjEV5vEC8iV1pGhS6kAt--2_MRyhn3DLgFYi8-m--fw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAt_WXuzxq5Ipd4iEuKyiZQosInT7rg8Cet8hNh_TgykbXy_z6-n-nq-0Ch_HF6oqiFSFX90i8s-a9n4OMCsPSu_1EKY-6SFcGo5DOTd7I-7CmFxqsfiNK816dqZP9zjigEhD9_4iCB8kgJgheZg0ksICyGhQNmQ5NVPzIokZN26O6_a1KW8Poeg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAYwkar_uTSItAkpgv5dCWtlYNRZ4WxfHjDlqhTMDTuaC_wY_pmSKzNXdKEq2wbN2raz_sQ25NIu7aMUGMRzL5xHswky0zQc8qrzOCK2nY4bVQY9Mbq0TaNXnR3OI7iJL6EhDXDeCDVs7rp8Wnvvq5bp9LGhRNetPGcK8Oa2mwr3gRs9-fn0Kszg",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

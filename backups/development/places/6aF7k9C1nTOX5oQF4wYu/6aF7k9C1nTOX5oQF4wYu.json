@@ -1,0 +1,68 @@
+{
+  "location": {
+    "value": {
+      "lng": {
+        "value": 18.96032,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.66527,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAjeyzXMNpLwffvp-Igrrpxbi1osIPUo0qjRJB-ZgJx-7TN2mkCE1McrQU6tc_fW5f5xY4Na5X--5Psyj8lymP8u0L5UdpA5IVwL7Dp-Q3EwtLQXnYQiUuYWJMx26C50tCEhAJpLJwqevHaxPW4sF7XYPAGhS8K3Q444eKQbLu5TMzLLh6dwKbPA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAFaXsvmm_TnoKiscl_Bk7kzvSwISVMcYQFriq8W5DcUy2bgOAzFaRrNC1oKMD6kf4IXMpAU0redHlS2keKK-iXel4jAIX83caDexWjCFeVNBVP4Ta0LImi0tdBIJ4nB4vEhA_0ICI5KuEKUwRbo3A66UfGhRIm9EGYeDmukyEfpTUM2vQkieTfQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA1jeqvJ9OZa_8P1ySr88XzCYfk_Gm5ey1GDTKkgfaH_54Kb3zdaw7QO0ylODRKUZ7LghE9iZeE_ilgiC0X_m7pvkwnyNJyS0Ry9JxyqTQWUmB8CYtUbKdlTnl5ds-TC0kEhA5Kp_157P18acTeO8DP23CGhR_Lcetoi5uEUwdqS4KWt9O9-IHew",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAu677z0zp4mcaTjcLR9QSN7D3aRkTW2qDN42H4lMAYzJfkUfNFIi17J8LRu-VUDVhL1QjPh6hzwNU2bIzVeQA_MrtMyAj1VsPFfrLFmhzrfoq0A11z3HTZny4XS9FkjqTEhD96XQpUDZDppNVf5Mkfb9WGhSgsDNtB4OXMtw-OHEh4y4bxtejOQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAJHUYhvHpxX5jR43_K_ZOE8WOGUorXxFH-UkbgLxkZXiom8qbyZ53NKRvwOX196JC7QcyVJxsY12s5Z0hHjzfXJLdwUz63Ny-wN8jblVZYqtOtiGMiChIqiSpaeMe8nVrEhD6_lYbIumW2ez4W1lkAGd-GhSVuV3hT1jJPhyposZjQs-Ze_PlLg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAA9EnG1yosqkBsZ_adKjUy3bYlcVGM-cLU7XKaC-OyGY8GCAMCKC7IxxAub8NyW_m9lvpZtBvLWzZAr6nq7WSZYva_Y0wJDvx6SidqqGnLGQY1yBHK3RuSM260g6uWReaEhCTxX6S3bFqSMAk-gGcOgVJGhSQaOR3WdQ96MvaITvXBSNu_VtQ2Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAxhqCQ9Bodk1RBedAmLvpSPgUeMTMqlgFvKXTXEGj_LX59M6NQ_9C8lfflecCyv3RhcVI_9r3ybBPNOj5uP2WFVN01hpAf18H8D1mI-gFUT1aBPsDhbn9caFgUMcajk9oEhAU5JVQ3VCadjPSVdteTbuxGhTA9NEhO2SpQ9FCyR2LVHjDxjW5sA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAApGaXOqenTStMDrCnkTGlN6QvvhQAoGA1ev2uveLTcB8arEok_cQXahNK0VPrdVrRjD2nLoJeEF_0ZsuCLntbr3jaisv_YnqFeI9giW_w4jn8sKjtq6Mn5BaXVQVldPlIEhAj5ynR-lQTBo4tpydczsfJGhQUHKzDoMHrlopVAhrAuOJChttucQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA5wgGJnvPfu4qd8V37EZzExbvI3OTfT7kN0X3tgOFb5IChjFfWFLFOsKLXRnIX3LMX4vEeuHn9311JhRhbDgtC-OfTEjktWJroz5xUeTxOnXwGN36OSevvOwPa56YC2USEhDNc5Xfl8VCUwow1Z-TKuK9GhTulIk630GBbcuqsiv-5oLov-GJNA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAXiVrLN1A0Kej7rIqGeh4S5HBsNfpQOGKfz6CKDyWP7oQWy8YLXD71xRcszaQs9pRYH3iCSoQ3GZWt_ns8xuzmW599RpitOKPlDcq7hSzrr3QIxQ6LalQZscCrzAWKZmcEhBrYZCNhJgUqfmx6Di7D9s6GhR9IuWYaxpB8a1g8cj-QPTYw7BJmA",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "name": {
+    "value": "Wine Estate - Bernheim",
+    "type": "string"
+  },
+  "address": {
+    "value": "R45, South Africa",
+    "type": "string"
+  }
+}

@@ -1,39 +1,45 @@
-import React from "react";
-import { Router } from "react-native-router-flux";
-import { Provider, connect } from "react-redux";
+import React from 'react';
+import { Provider } from 'react-redux';
+import { PersistGate } from 'redux-persist/integration/react';
+import codepush from 'react-native-code-push';
+import { YellowBox } from 'react-native';
 
-import { store } from "./store";
-import Scenes from "./routes";
+import { store, persistor } from './store';
+import Router from './Router';
 
-// Connect router to store
-const ConnectedRouter = connect()(Router);
+import ErrorHandler from './handlers/ErrorHandler';
+import SystemMessageHandler from './handlers/SystemMessageHandler';
+import AuthHandler from './handlers/AuthHandler';
+import DatabaseHandler from './handlers/DatabaseHandler';
+import NetworkHandler from './handlers/NetworkHandler';
+import LocationHandler from './handlers/LocationHandler';
 
-// Wrappers
-import VersionControlHandler from "./wrappers/VersionControlHandler";
-import AuthHandler from "./wrappers/AuthHandler";
-import DataHandler from "./wrappers/DataHandler";
-import NetworkHandler from "./wrappers/NetworkHandler";
-import GeolocationHandler from "./wrappers/GeolocationHandler";
-import SnackBarHandler from "./wrappers/SnackBarHandler";
+import PageLoader from './components/PageLoader';
 
-export default class App extends React.Component {
-    render() {
-        return (
-            <Provider store={store}>
-                <VersionControlHandler>
-                    <AuthHandler>
-                        <DataHandler>
-                            <NetworkHandler>
-                                <GeolocationHandler>
-                                    <SnackBarHandler>
-                                        <ConnectedRouter scenes={Scenes} />
-                                    </SnackBarHandler>
-                                </GeolocationHandler>
-                            </NetworkHandler>
-                        </DataHandler>
-                    </AuthHandler>
-                </VersionControlHandler>
-            </Provider>
-        );
-    }
+// Helper to clear local storage during development
+// if (__DEV__) {
+//   persistor.purge();
+// }
+
+// Disable remote debugger warnings
+YellowBox.ignoreWarnings(['Remote debugger', 'Warning: isMounted(...) is deprecated']);
+
+export function App() {
+  return (
+    <Provider store={store}>
+      <PersistGate loading={<PageLoader />} persistor={persistor}>
+        <ErrorHandler>
+          <SystemMessageHandler>
+            <AuthHandler />
+            <DatabaseHandler />
+            <NetworkHandler />
+            <LocationHandler />
+            <Router />
+          </SystemMessageHandler>
+        </ErrorHandler>
+      </PersistGate>
+    </Provider>
+  );
 }
+
+export default codepush(App);

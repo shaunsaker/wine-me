@@ -1,0 +1,109 @@
+{
+  "website": {
+    "value": "http://www.muratie.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Knorhoek Road, Koelenhof, Stellenbosch, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 865 2330",
+    "type": "string"
+  },
+  "name": {
+    "value": "Muratie Wine Estate",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.8706,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.87583,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAQ_NvBI9hcVHpX4YXwCs_EfZt54WA_TPmkQucjUbOxqFZ1ooCPeNbAmuGcF363gWxC_lNwxjrFkH92Or45_M9FuiXxWrpqCIbvYWTcmz4zJUJGuanSzpJFJ4RFpJCpoFJEhDwegjX4yzeTFp07pXjMZv7GhTe0qi_w0yUbwRKf488AimCfnaHpg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA1LbCBLXtAcI9AOmo4mlVgoRGvc36t4hd8nbvgoj6B2mnei4ckJR_uDFn6md77-i1nNIZQkZoAFmsqSIvttlB7AZYJiLvySiDpOSOhL6wsIPCvkA9f2K8MxqNE_EDivdPEhCbo5jPoeaC4y2ViLQ9MH8_GhQSRJ0VBP7UlDO-U86DgLPI3ND0Zw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAQ8AKDNjjOIy3K4RHYPDB_0eISAsuizY3JSLTcc1acdi0kpFeDxYyspbgBn93E4oZpa55UD9ELRFaYxrxHwWz0_p0afMxWxbNJzoyuZy0D55Itj3o5e6C3jzxZZrnZ13mEhCh92pmgKvFTcVhwZGRRMQvGhTRu95YgG4DJ_81xQ5lA7YMDBK5ng",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAALxUXBmPTsJDeB7-cs6V0OyjcVBr5laHBIs-7qn4y4TYh-h7z9jg8wPR3_acP2EPuDBB7w6SM5-JIpAP6JtHNfIgiOdn0crCdjM0fmZYhyfFO23P1uLrpVTkI7sidT4ANEhCJkrPshRsPIgu_PywOHiGJGhSEoq_VaesgCtL44IqQDr4oF-QM7w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA_PkGSuDy9FOMD32CW7feXFwCp3VLVd6Ja3mLrhUmt07Foraf65jBAnKCDazYr5cag2YiHxcjlm2T96TbG8s6Z0z2khYQrEZu_1RhI1voQiVB2r_I0tVPTzXHXPqYzT1FEhBlBrBWEWfGkev6qJd1b7gGGhRE80DWGCAKx7MOcFglCEzHp3bysQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAlNu6sfpJXrH-VUxajBZ_7YWXl7SaLwZEKWrVkbdVEl9_hjVQ9jcmpvHryFZ3pX4UbG4YJ4BrCnmouZIHojAg8OVp2cSx6-Ve8vqa87t_bBqdr_hl2URblDiJ13aNPStpEhCW5GZQXqCDkcgUSGt4RcunGhRWFOrr3QhJfPSoTrnq-JegaHNaxw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA7QjDtRRpL-j6XE76a3yXcwQCI6BbsL2KCnLAc3vaHc_cJ8bvVcQ4zhXTZiVpuzloWCf_7rOH4wenIv6-I7nHbyV3F5YC1po7q0RlcDknODQTjDd2p26IS_q5DeiX6E-BEhBDqdCViJRas9Rn3kZ-_OODGhSLalCGYAzhtZIp_Ig1AHd1KG5RdA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAGdB8WNe2TIy7RJJ62Hs-L6i1R8DrA3Eb2EQOkxF1cWjz9kZ0-602hthzr0nqBg2aryCNII6g3YHhlPjoAGG0d5MXECSD3Gmm9rdZo1EoCLcv3pM7B8BLUeN0HK70vuFsEhAzRNRflUgGySDVER-WwGPpGhS1tzr4Ya2t5J-Fyjb7JipOlKQK7A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAMC5JvsTBN0OdRDbtwlX1qv_rawjcqbs8vW7jGZ0RVTbZE74pcRSkJYLFPNumcyflwkB7IFNr9C5pFSxerNv-jIyn6jRv-ACn7vMyKLaJplxIDjjAnkLXO3HlzZ4e2suIEhAENJJR0wlRyjxbhLI0MkwhGhTNgozegrbOlprt8shICeF8AHRQRg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAaLF5MSpiiw5Y--MHO9TBmuy4-at_eBQhVW16Y14xdBrcnTzC1O5hZ_dBzyku9d91p48XT13Gc81_txN8fg7SD1dKkEUu_cAE8ZrCUiQSL69Hj_AljDlTF0EgFl3iOGj5EhDS23EGa_3P6RbSgw4XRXZXGhQpoj1yxa3kQ5CO4JcWk3G17ByzYg",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

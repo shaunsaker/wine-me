@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 5:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 5:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 5:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 5:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 5:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 9:00 AM – 3:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 9:00 AM – 1:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.8104753,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.8809888,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAlukz-WQYAqwVMvBhkEFRzZki-rnLU08y1NBUL1sEtISqYyOt_iSCHZthBWRPKRsKJESQ9QnSgy04Ad2_iwtzSPNkrV3AMEushCyXDk_aEQDdlU3BmFbAfwspcQvWJDRjEhByh3I1MnFYxfxbEheYGy5-GhRiQgZtmoHc9B5VzsKPM3wq6GaQ3w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAaxRhuBphMSmYGh_Lp1TdUt1bK1am3cS4BupoRxqnUAJsEwYvSBsVJujGslkS7NReS1vSSyY7v7zmF6OaRYrGrPimE3KSnFT_kjobYJy-QFxXhZABl0wknrpcP32xHgYYEhCiqFNddKyuIg_fIFAa0kmkGhTzDKSAZ3rdnf88n-iFHREOW3Az_w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAgPClQKuyju3Q-T6YfIWyM9RWySW9kuqfuN1tzFDN9vTPfrmh3iveKEUx07CtatN0iYG8-S-UfDz_bwciHtwg3THH8bh6oHYP2DEeA93AQfXBX1-oPAh6ebvEWSjc0jKOEhCY6DtXsjXmol0O-wbWLHVTGhSTBoJ6NvKLtqhkpJUEUC4yG2IKzA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA-MoY8Vkvs_FLeAosoz9aGsYKtcNrYqPicAkxfdJ7fYfPWOOAequ1SMcDcEVRtdMRrX5bqDxb447MUO0QupfiATjQkHnYBV1X6IHpDEZ2POT0FluNtXLobUwVdd8cruTjEhAsgBA3KZKRntMjBmgIscw6GhQRw3OFMRCTwESvmpDoUWSyW6MBSA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA613nwLL93gv9mBlfje1ImUHqa7xW-gisYrgMkQB2XI5caHYwNfWHmMETpX9u8bhQsfDgveHzhJDLfWsKp_40HSwpY5kW0qFS0eHgUa8AngltU1BS5VMuURs-Tmu2uXwlEhBBkzglh83mzxqUN7EIZFpzGhRxfzo8Tz4zmcFiu6NXI8xN_LihRg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAbR4WHpn39vpxiShK84y7ZFEpuCy3su0HbS4Uxbe4Vp1dUOXYj_WusaKGO9BTXaxTNiBWEj4zgKAcslRF-Nuv6zMoCgj2H4bt9-N0M7Y44oTfktlumhWF3lKb6h8TGH4nEhD07xtIwADE6smf855xqUsvGhRU1qEU9z7QDalQE9-M_qmoIDRVXQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAYc5Ss0GmcYKWL5QubWZ_7QEBb6MYDdwHIGBMS5xzCQNiw6soMwCuBS0HFmBG8fjT5HGxOdMyqCAyMGEeIAD3fk8CxLLiHcfgy-2OVssnt_M1PeqbUU1klN8tqTiZDlqJEhDCn0U9fAczZ2sCwIZH8CqGGhQKgCgY8K1YwdrbcRL8XKd_uCbQng",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAwAevjs7AU6HgMwdRX9KekIRmyIwgCn7TK_lIP1HU93WglvRlPIfiXr27putq-imrov-lhPEWp9qxBseTSr78j5V98ZRpWGPosnPlUjgV3uZ1Zmtcr5gQ-nkE5wbDucPoEhADBUpm08OT7ey1t_jf3fsGGhTJ2Fgdq4sPqb9-vtNYG3Q1kYPf4Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAuJ6yFOwQfrQk_V7jFFTWCQaVkrFm4FwKaOAV5ZtJRuV0P0X-GdY69JKm3Jk9st2GWu7OCb9gpCucHIH4UZhi6w4BBYkP7KnXPerTSRcF9cAZMfwxUnbxHI_cAompQjsrEhDl-vLLyO2hBx6f8doOkof4GhTuvXFfUQ1_L_vKLCJbZJ8Be3Jwzg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAtFf02NdIFfcZkWKAa-T1qOoHkFve7QmQ20o83dU8k7sJPddcfEs4ptH32f-0Ns0gA7ymwSwzLwwntq5lYH_V9-OsMbn6pxMUOQ-ZHv29D9NdAmWp_WbPbQfBqNjoJCyzEhCD8p0eyxr6Sq4fhXs-OH2WGhSlkO9gpms0UePga04GrikRP2pn2w",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.robertsonwinery.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Voortrekker Road, Robertson, 6705, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "023 626 8817",
+    "type": "string"
+  },
+  "name": {
+    "value": "Robertson Winery",
+    "type": "string"
+  }
+}

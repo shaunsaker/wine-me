@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 8:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 8:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 8:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 8:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 8:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 8:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 8:00 AM – 6:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.362821,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.20536299999999,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRZAAAAiEY_OBwGaqzlg3ASuC8556kXp7VwO4JJHKTDn65gj8TKCycEY4xf8r4XW7nYGUuMwdx6qgFNx8VhFqnh38dAHAnxuXBuDNKYnlSNDb7e0E2T8vPLdOrRxcPVY0pLGEkPEhBbx7VYBf-dYgrUDAMeVtRfGhQBqvNelGIoDUPhf26fEkITB1lJZA",
+        "type": "string"
+      },
+      {
+        "value": "CmRZAAAA_RHaK_0b1dg4qFSMyjO4pCMJcwahRHbo-pL8TxUQ_5hEM-ONhg-BTUyTH7NuJnnAu7bQBq5hWZGnjtG_aiKX6VhmDcfYmXLtHFQJTBNJ2Svz-iQjNcwFBfdXuy4tSgSVEhBbjuYuVjfkFPaJe75QAWZ5GhQashz2psuofWDhw-nUs_oOj9AMrA",
+        "type": "string"
+      },
+      {
+        "value": "CmRZAAAAAPyH85yMJpG4K_koJi8_oVGoLUq4KepyPcwfJtfJh95UZq0ZsXpqTpFfkWQERfyJqSCSeLWr9H3j9uoP6Mz7-U47ZK8MalWtkonubumpmHmqE54fS-yy4bzvoPRy-pwAEhASDFFosuTdLCkaFx9OFL_TGhS3pKwHyeUIkviHfRQxq-fJTJzzLQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRZAAAAY6NY23ChozVfaHEsSrxAIQTaDQL41va1ON9tsHA73OsT62i85AetwsagA5Hz1mb9yQE0oRqmI4ol6LkCoLIjeYGq8htxAosc6bFqxQX5C7AEGulJlktsaC1AHgyULAeIEhBWaL2XGmejpfBUNQBYYRr9GhSfqIODCL4KsMMHTlXwvd-MawIHmg",
+        "type": "string"
+      },
+      {
+        "value": "CmRZAAAA2oOubx2H2L2YOqanKiRIKvEVXnMoPX6zkRP6QMxOZD8BEcg8zuXuinm4jSYtEkd3saGjqqTpu2jeoo3-efRqTF2zuQmGKB-YUAKRgXKtPFuYa3NVshkoUtAdAJ45DbfoEhC7SB40EDOWxm-R2JNvOx2cGhR0Kd_vdSTuyw0dITNO8QET0x8_tw",
+        "type": "string"
+      },
+      {
+        "value": "CmRZAAAARjMohigtQZZ6pExR7gO2yHAvcr3o1e1XJimHcg3Fhf061c-uU4RztXQLcvlzGKVDrPikhvIxMj4rqSZ-Q95FZpeYILBOOlerpu5I6zoOGOMx_8S1CwsgmsLtJnNAM-KIEhBPw52UYY0Xgvg50kJB2Rf5GhRBeJiQ8rnhw31HhlEe-1qaXtfWNg",
+        "type": "string"
+      },
+      {
+        "value": "CmRZAAAA7P4l5Nq3UcASdtdkusRdGO0BXWj0FDae48tMMgXUMaGcqrL8aE2-s9KlTyJ6HfVHwX263LQAjk8-DShg_1J2H6Fm8zhNRtZg2eVjlIZEkzoesb3bIK7Q8GqjaiaSfnS7EhBJQdhVkt_BG4JvdOTqi6kFGhQCy5ut6pOiqtrRic_hajhTLD3Cpg",
+        "type": "string"
+      },
+      {
+        "value": "CmRZAAAAFmZOuXgp8Xv75AD2y5R47ZxpBjdTU4S_9RLmFmzxbZ6zcrySIt0SFmFk5RYZKssAA7MQRFXmN0hoesbMH7PGmQ-JsxfS87wgjSM3BrOiQumtyGUjcWT4KKL3bttOuhClEhCL6ISMjiC1ZnHfRMA-n4m4GhS6QgyN6XhJkIvs5l04lf38pz35kw",
+        "type": "string"
+      },
+      {
+        "value": "CmRZAAAADYaWqP4C2-yY9K9WSiAWjoD8cNTm-EDj-t8pcyQ0Pl8Ur8cJF1PqoSd3Zpfycowkqk-3tMhjIAXdvZgC_KeNmdfs_DU_psPRZIv_13FXDOxr1C-uBUzEE9F4US0rJYy_EhDIk_ZlvwJnb_4b9N-daycEGhRmqHTw3YAVJSXlMyyIuxsjadKiTA",
+        "type": "string"
+      },
+      {
+        "value": "CmRZAAAAZlrnL3zIFr4oCX_SaMp8W7UEvqckzicYOzLzlFvi79YLKJWpycnafrQAvuiGOYM_oE8A9Mkthetg-ujaCv89-dHlIzf6YycjN-HCao-umyBMgvXZzVWIdWtocrtg0vV5EhDqFd5R9hgNK5BTK-gbSf_4GhRegM3FxKWIhPTdCcJ0NUVx5aAoWA",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.fraaigelegenfarm.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "239 Weltevrede, R46, District,, Tulbagh, 6820, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "071 404 2766",
+    "type": "string"
+  },
+  "name": {
+    "value": "Fraaigelegen Farm, Tulbagh",
+    "type": "string"
+  }
+}

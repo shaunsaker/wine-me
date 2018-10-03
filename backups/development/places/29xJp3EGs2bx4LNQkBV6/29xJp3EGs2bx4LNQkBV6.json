@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 11:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 11:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 11:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 11:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 11:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 11:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 11:00 AM – 4:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.9141041,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.0871053,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAYPiPfMqdfXQdm_1SL6Bds4ecBir4zGCvhIZ9a7bQJu00ieR1mkj970RovtVg9y2KpGLKOuxWuVgR6tEsylCCOqUI9pg7kMQruaoFycMN_ZA4Ithx6TeC2vaqPPsNQrirEhCC5DG2hQLzEl8OHF1CrjImGhSPMSXNYcpeUbIhLA7-FcZMa3e5bQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAkOTZHBK_sHjHs_TgIlcJz-PnD5NgwRyvsTzpXZB_Esx4We6QYsyR8iwpfUDqbQcCGuptu5JkEd-o8djlbgOExEZ5A9Gl8MUXtxx5k7NtXoVLLKZe29C_aFd7e8nzV4jKEhDjIx7eJhcl7sE5sEYBV_DlGhQLQoCfHS9qNlcQMBvtprDqN4VM8w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAFBOaxBlqE5Y6xqarnnoP2bivOEVr1A2owSjXZoqANALbkm25lERgmeHeTtLbN-Jm86LUqB3Ha7cZMrQmd80sU0Xak_MMswTTzN9M1Z_5p5AMnkF1k4ac66saxqBXAsQ1EhAn4WgRdmQIII04BmVjXvnqGhRdYRzI4jCbFGDdvYD_wlyoDM7u_Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAT1sYfiEphiViDh7efNBgl6bQajhzzTtqjkeyrbp83BG_CPdroWCJPH9jzq3Wskbof5jtQwg1quXKJ_8ox1QfS_Knwn_Slfv_a61lnJtT_PAngWxEby4njYoos5yp_kOpEhC-n829M-FlKHZA8b6kWSdkGhTu8-ZfYcVObbWyY9fjetoP0g2H-Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAV95Ye69TVGuzeGmCsqYZYIO9-KjwIfK2p0caxfCsb_TDfjHQEejsKKKoKhRboomg1MTYcmEs3E-fi94nIIg8wLtnx6etuJt8XFKNeu3Meu_CyPYJO0G4TNc75YvYIdWwEhDcI_DxyYRR-Ze8EWYMjNg9GhTMa2ybsFKkvFGIr2Yr5j9WnIehIA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAArjew4qS_1kCAAgKtSz1GHhs3gkcGBQzp8Gg_KFs8h9Zms9NHc4ij9PZdvWBt7W9eJIY9fTdOIzhRkn47xe9ExO9DGEGEpa8uIAk06DrcqntK23GtShqzOzoICJhZip8nEhCa_BlhJp8QKXDtwgOxfwbvGhTAACE7ZNmgQOwPfYlLM4g97Y68aQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAJ3dJ8V_NGQctj11jecT0S1Fs-3W45ZAIR5leR-9sFsG2N8Nu61kp0mTpm8tu4400fXDs2cu1S_yR2OFi5bOtfs-SW3kJW3vdBB5tdZERmZdY_mlI95Pu-z_PUTn7VvACEhAscR35T1HqYQEdqHRyt7pmGhS-1VPSYwgQOPY1-JJ1bkn2z0LIQg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAIhUHfn7A1PJyRnrOJatfplUAyREwxMpQePssgTr33xqTJVtLCGSXKObs4XsA-BqyMIrkX2sNooclb0j_VXeA4mGCF8xpBBnLFSg8nHPlG-8epm_V6zieat3J7JLi4ocOEhD33yKVjX9TJ0YICwo_jYHtGhRqbHudWLc2-FLTx6zppoNvvF7JKw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAU9lFuDwYcgbiMmVAbBniJqmZ-StSQFxU_FxJoejAf09Ffb9g1bCC4umbtgp_WxDssfL7tSPS_TrwnALDZSVZK5a8xjwbmHj3N4bzDcFX7Jycpe3m8TbXHLDPYefvmmq_EhBQumKpaSvtFlwsIsIj9I6xGhRpmTNy4Vdv7PWiQqDaBajK5_HZ5A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAHauRG82HBxUedWZYdPOijl8oPiOzMYI_k4EkUCSTsZHHF840U3ycEp246C_EmI49IfQERmNeqvCVPQ3EHXme6xhB9n8c4zJ3nACfBeAVuuv0yUvTYKYgARaF5cH4cq9WEhB_8YgsxBmQeZY48SulrD26GhSh1BRonkiYjwGYDyFVnMgg4PpqTQ",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.glenwoodvineyards.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Robertsvlei Road, Franschhoek, 7690, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 876 2044",
+    "type": "string"
+  },
+  "name": {
+    "value": "GlenWood Vineyards",
+    "type": "string"
+  }
+}

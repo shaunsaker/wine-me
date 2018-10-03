@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 11:00 AM – 7:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 11:00 AM – 7:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 11:00 AM – 7:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 11:00 AM – 7:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 11:00 AM – 7:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 11:00 AM – 7:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -34.00084599999999,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.839181,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAUFsCucSbtsufSQKm2WD46tS3eFMoD1MLQr5lLuCf65B1hvVcJae2PDb7Z4_ukWKvwxzJI_8Dgu9padYPoyyZOUaenL67gzdtYhTVqgLt1iJPeYCvTbf3fetJ7MZsJ4StEhDK1jcDtZQGx-Sjaj-iRMJ6GhRkh7P-XEBEdni3O3A2l0m714j4oQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAs4IuhGOZmDPbgUsf6uKNHNGNx-brk2AIvYrll_Y6hH4Lx8HJOslGoCPai0raiSgf5bmPR_qEnkGoBGtuqU7P4D3rqNer-fx1ekcXPqFnzf40ZIZeZJghuU21SXzgbQiQEhB5yCaAc7waIUSDJFX_Rc2qGhSkGpvKHHo2EPcMV6BJO_-sXOM60w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA6G4oeKAuRRZBeJR1BmIIfsHAVxqmbjpvEaTm5qk4cLeS0yXqQR8i-dxlLpoQkEWgKFOEN4pPitNzIMJ6aMV1wcGS43l9V6NFimFHIAP7Gr1Ua6AzqofSnY2HsnnbWxSvEhBrUYwwAhII0Qn-ltYMX56FGhQOjto_jvW388n5oLoSdD9Hpn7f4A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAsCjTgT73iahvA8TPBnSI66rXfPJU6m691m8unqq8lKVGjfiFwvmgCfAzag01U0gSEjRZGUzW1MmBky2SZKJJ8awE9AP3HhMez-dM7NrNJ9UHluBQ5i7oEnDyW5MO3DYXEhCA9_BWL0OEYNcbNO8lWErSGhSOsWtc9ztzldjzzlReXBFjRqtENQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAGImUJEdyBdc70LZYzFO4qBi_uGSzAtHoV-bL9p3xxQgG_KeHqUAoKHYFGaspdt-U-TmIw4OzVcds324fD43Cpisb-d6UOA1OvLOgjkaQhJgDx5j6_NTBH3zzrM3D0MaZEhB0iU0Ky03m4dvXjJNnFtiZGhTV09rbxIZ1_nvnn_WDmr6JiPa5vA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA_gfsRCKu027-gnnFsMbw2uZPf0vOctVVMWp7lalx5xlMatPjsCmpykO-i0ERg82prREKdwRcFaqImgoa3_hrOr-IAmJY2TF2M7_8xhGLq3LpdU5BPz7T2TxdmZwzEi2bEhBWrUInHlfWUmEcbr6Jvvf9GhQT0fdnJaiD2ooTuc6uWEqlZeIucA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAzVFAcDsEupVys1S8kjkYb5lGGOoFWl38s4B9F3iQHqCfz_pZUbtpOsaGI2kKI0nUzjnSUaWIoH4Gb_5Rys7abJQPVbycD6hPiGu4w0cNws3feXAIDyUNqcb2oQ6KKB0jEhAvdrf48CBc2W0QhGnST5-dGhSrpxj9YXg5KzCXLOb-i1cvtKyzrg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAuL6M8M6PuNMC9C8z0KGOpLOSY2PcwLxr_08uAzLdkGRqNyjl5qbDqXz8WRQsFQbMgvhzdy1kdQ1qwGeF54hrfrva-lpQQbL-Z2VhbpUkR0z-ruA8pcgqdZMvYKysg2PeEhDLSg4Kmo0H1yB1qbdLUxFCGhTYpwWG2HyfsL7uCu-AZdhku2r-wQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAxWkN20fjXcL6lxJbl4ogr5pAyBm85ogU5HUVaBjK_xXe3QCgxOakF0gHb6iL205u2Ou7L-hCu8hRRiz_5n8CqOPlpRFK6QVaU3AUmqJpX-YbX_j1O2P2_IVvG6ofGxXnEhBowSlgiabE6OCbbx_ot57JGhQqO9jLpBprQly6MnYVEijwXN4qAw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAC7KtPRjQmFvOwHE5WDNAaC7qnvL7lJhzoKGJqsRcivUB3A4G6qM9l2lGoxJDwcReh-2ud4ooSuIzrddgizioqLMUUt444wb_kC7PKQOpOluHNiGnX45Rn4Rj5BAgEuevEhBBDKUjfYx5zrThRudDUUCsGhQm8JM5xvr073W4xMr9RzJtgaS15w",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.peterfalkewines.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Groenvlei Farm, Annandale road, Stellenbosch, 7600, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 881 3677",
+    "type": "string"
+  },
+  "name": {
+    "value": "Peter Falke Wines",
+    "type": "string"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 8:00 AM – 2:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.7048597,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.5684921,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAR10yzHokXABCzZX_6YHCLd8LxQdQyFmseQCAu5KLPH67Qj-hpeOu3KggA6OU-2DGkqx0rdsJ78477XUxPx2jY_5UF_XRiQQUV5INyCZaxhR1BWxcljh1LtqfDHxtonCuEhD5yuZR2OGzUIgrw5dHM8SzGhTKOs3OhMkhMJtB1z1nil8sdwmSVw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAnyyN0SUnoD8NBi65AeyqpJN9TdwD3PplRnzglV4u3RYmVOSbx-_ODHN36e4CJTc_uS_o2rMQ-Dyx4Try7_JUFiGe2zRMRZ3sQY1BPIE90b43lTNhuxZOKgrOf7BMO4ImEhD7pSPccOTXEgoXcheCd8-eGhQzQl6T7A7pfYm8OubVhqsjAPFR4w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAlzP7IO70RX8LePqjqfN_zB2NPdHx0xi7xDwKfdhBkLaskTKvDjUd_PLnZyH9RxErOMYXhhKDymcEH_2FEeC6J672zbCNwIlUXrcCh948oklpt8fBS5RspLcwwOzNxnkmEhBB2JCb4yBh-7000JsSySEdGhTcw3UbTpoRrfMPjncPaRja20FSRw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAfARVJt28WbErLm74nxLLzp1W2LTqxuhzscw5hZ6lMt_sv0Wrj9d8nOlYMlFesE_dlhuI96gVspsnRKEc7esheCUq94bW0sSk5FByxh7PmN4CernQRXeaZrw0I1jP4lz9EhCioStlLRMseieWoDyg4XOrGhQdtR-52WwWRCVsWtcx1SYstFQ2nw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAMrxetbx4WlynhBGp1-10HJMXzTdnjAtUQFfcH9Kha-NlKzhHtiU-GuagxPc1oFcz5a1o-fSiqgtBZ2_tJ-VXk3uoLpikfgkNW85w_DDtFgx8OxP16GnB9i1lDtpAhnUrEhBMrqHLTgR-pcxnz-EyFZyZGhQrj4TMIeEGSqgUVoVuE22V8uWvpQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAxnTQ4itUhP1hCg0KsE555tMP0XwHQoyE4nrA__bAiUHCJhjZS77Drm1Uk4A0wKjQ8QFLDPvKFvVRoS2CGzS4DMsf6jVm_DlTybTwnmhGQrX59DivkMigS9yPwZvcwRJXEhDEbrcMN-SrZx2P8E7GTTH0GhT7koNg0KtUag47rk2AqZNUN7kZXA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAApukHfqJVDr7Nxx33flVLxYW-C_71bsbEiizFYEy1rb4vaUWlnkQL7OUTz_UXL6ADubq0yO0W-Y8Y5hE8pLkv56176P6GKKpky8VrXkUoOgJ2DSyORhWGDgOHTxnOCw3CEhAQt_2CzD03KMbRgupACtakGhQRuqGMgKXjFczUanxxG6uX6qnXQg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAKK1j-jkFWibCjSmm3xqyWf6e4U_Y_pdDFI0zgLamgXszE_ZBRPowebFwcE56BniiTPqad8CoE9gwoklMnv3R_uQ6EZFzXITKzD9rel2LoV_CQHR1YL9sDFa2vChXotnyEhBXb6fhcxqhZ68vY01V8GhXGhTkxqbkthFj_39uOQC1P-XtW2Ju3w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA2nrWLrNtHsuzCjY4_my028MCoByVuCbTUKho5WaSyaDlm4RJyy_iwLHk6k1upAg3QkC4Aogy0yRlqTC_y63qvzg7vc47fcU8P6iueyUIWiRqrIfCEtlzzMoOYeJNH2SPEhDaXkf_sRZ0qCGE1C9WnJlzGhQxczPx57OrQuP8S3FwCWzurSRH4w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA5qMZFtavWj8cTC92u4f_7IWCgbhtrLxTCzS3g8PJETVboCGRSDMl7hYmaZbj-b_UAYavgAR_n4r9v717KQFXg9f7wyA3sdAvZmMBDvbJx-5f9LtA8e-VOsmVEqL_XJiMEhAVkNewqhSJZ3dW1SZMLv0mGhSRfQ_hR6iYxdbxXq8C1-0dL8y0dA",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.capaia.eu/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Botterberg Road, Cape Farms, Philadelphia, 7304, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 972 1081",
+    "type": "string"
+  },
+  "name": {
+    "value": "Capaia Cellars and Wine Sales",
+    "type": "string"
+  }
+}

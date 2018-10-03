@@ -1,0 +1,76 @@
+{
+  "website": {
+    "value": "http://www.kaapsefamiliewingerde.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Arboretum Inrit, Paarl, 7620, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 863 3905",
+    "type": "string"
+  },
+  "name": {
+    "value": "Vendôme Wine Estate",
+    "type": "string"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 18.9799415,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.7574165,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAA8MtJAnwutyCddvSyCvainHLQXO5iRaUZ2Q6WZnPBTsbJkJ3gEwUPtcJuvaSGFbgNewqQrQuZdhVBRKzxnq1BvqZ4ZywCHKew8-YEz_rGUMb5RElmqEBPFVoccdCqOtXYEhCZkmy1HQBQriiBNboMT173GhQDiHI4K5DY1JmHEoWmPFNQ5hbmjQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAADd7jUANj4-N_GLiHfEbZqc10uRv83utSpvMbHfGfrwlcqIFDjQjFr83E04f1YeBmE0hO34-CpvwMKFnNYPGVKBgjP2E2n3d6EMF3Uv2BKLHj8bGKhwdLYy-yYKT-Gq5vEhAw9WcXcZ-SIbbC3YJQZ79IGhRpn2xxqFrzglya5SdyEIhfmx9kog",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAqZx140Ovb_7mkIukEDLqSoH4q6SiebhafV7vu91yqnWJawGK9Rk4mJ6N5DuY_7lSQgcNYhtG-PYHNynuK7bqRlUeVKh8QoDrjjroDh4yx21z8hbFNaloBGsc-dOhR8r4EhADvfZZ8wGT86FtN5K2JBamGhQtVpE6zc_vf-4jJh3z9GNUw0fUVQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAIuWhdKJJ5rjlsnepQIKm9-QBikeq4cz3JupOGwt1QjrSXM_NxsztZPUHWDBrsGWXd0iwapbB1RC_wGgAX8PHq_y_vL3mPYLKJMlVtF9vMw0SP2K1hvspAf5xVDoi4SUpEhDle369KuoZMWbrKmfv_6UdGhQHNGiFnsxM_jJcn2vYPWtZtb3AjA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAxEOE3iVDMeW3EWMeMLX9fKGiXu0Uu3GJRxKW0SxQ1lcvi4v8lJH7cO6-NpTHohpBIub8U5fw4TywtjmCDZucm9_DUzMV5xDj7tC_oHwg8K_kL_R44evKb_yMyH9qC_dyEhBb_xUuwEoFcOYwazbF_cK2GhSDY_vkIicj1pQiogdZgIMmvMT31Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAqHzJzZjFk_alOyrYiFX2eJj9t9kJO34Csdq-cdIIY-MLIvlfSXJIK-ZMTX3G--yMSPoutSLoOPMmb4J50S8gjCXLmtUQjCwL5hPV5eBEeZzGXMncs8EHQ-y7YPSH8GhiEhAgBfEaccMHRaAChv1TzUwuGhSmxjEt5JunoCtt4yWB6SGyAR4y9w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA9ID3P8WPl-W-9RA6VqUtX8DAaNXSXY1Oo7Chs8eQHLFq_WISV2d690v5VWhUUE0yVEIG2nxJDC_uV9P4TCk5I5x8jtYjKJ0c5InWMyLbHqAzHfQA64ffMdkUK0jnewLbEhBOgn-Jr9t8cExEBAwqtdXoGhTIy3AV8aO9EZmesyZWZSQbks7D8Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA4Jcxp1GZE-kjUUG8J-FeMh7niC2s9Wz0fU5MD0mSeRVCqxO3n9Y_WcG93WMqTMGSXHii8l2sObNLPRnzk720rnRexPccb9Xcae5a48NqD6EWkVaBrJyJljxZp8oLLhk8EhA3BIKZTrdhG92Uv9XrPJ4-GhRujihg7Yz_Zhfryv2nv0GFwwaSXw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAL81K1QRjMJjBafFqacpYIBrJRUIpsAaDFCmuP77hzsEsi0eumtFduqHnb063GsmK3MjnGykSlLa7L8FDN2E7umGyP4_aP-iATtD2Px_ktTyUQq59L-epVHuidngwQ4rLEhDXkRNgBeWheQ_fU1J-Kj9KGhS2P7v2fyIeTcsaGKjpIkmcFNyDWA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAzZiFmrixD93Xb-8P32qPP4Ps3dYb7JPvszL02GdOHdSX2EBneDJF28dDxUFdCuM5Pk5spvVn-XWj2CjJaKpclSb3h3impYHGgRQXdLRcbV2nu2pZVkdxI4GW2YN9DcHIEhCRvGYDCVAAK6sexcwHH7n3GhRf1ZNGR8r0u6PiwDHbqzLkeCSnlQ",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

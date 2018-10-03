@@ -1,0 +1,109 @@
+{
+  "name": {
+    "value": "Meerlust Wine Estate",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 2:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -34.0170159,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.7571449,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAE88ZKN6HqHaaKvaGL4AIgvVxoPXShcYmxlTpYwYKjSeT2m6NOBUUUu85VlH7l0R82Lo7sW2MWMtVrJ0pcZOevcjPB4w4ToF288MEDV_2AMZbI4ZUjFzmnUPpSXpfm_pQEhAHdt3m1DIAJJx13XhFs2AnGhQ8928Uif1PsGL1MIMICecu8Fe-BA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAcamoGN3dp_buIeTLstQfpMbxpS85dGZA_3f773OAB-nzckHOWuitcvssZURxpUi5Kc-KCWBJZ3-lM-qYj9VMwwP68OX4xOWPE2rBVnwul-ohLHFDUAOyPPrxsepUYSgREhA8VBEMXgAw15X7unLgkqGYGhRUubTuec4ztrdpcKCSuNFrYOziow",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA8KJ-O-pWX0dUfaNe1ns6X0K_mbPzR_3WQ5kX0zylTZfDGsE36ZBL_DPAnqpzaoBProWwHM1-IWrHeggRK4gzMj2rD8IXIOcgLsWyPnq3YxPh5c0aINZhVi98zXgH2I_NEhC9Hk9Ioj4eAxBFAbKjrdh2GhSj9_NJFGPMK08wLjdKPCd_7Lh8QA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA8BFnz97rPjzd2Lor425UVaDzQVLmCovr0m-KMuR-UfGcK740lfqOq6jY-otVaZlk8TcO17MiCsjRVEBakqVbgHzwSHA1rp5eGlolbDUIXDjvMUMNxfd-4RHUSoO4QkIKEhBT_pgkO2vsZVDsFZdksisnGhSFw5n24_e8qCQI6gYLh4rV5R4M6w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAYQjnZ_EjFX3rawAwfQqVdcIaNfjySMY1KHzBWj4CiELTmszZDwSoBx7RKoNGNbwLuLcqQaFWPXSA92Sc4UQYqVg9VAKSWMaCK-iL5QbprFo-ZCI-xJCaldSjfkbcr9_HEhD5glc_5nD_PJvknoCVFdUSGhRqCmOTVzOqrq0DNpSTx57bcRTqEA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAvCG3x3BvZiwCAA6NXPY1C8Dz2RSvnXMxsAUW7zriSroh_FDCNpQrJwnbtfq3qN85mQHDbfkwafiuM7Y56KHDlT0A19AglQjaT-70iUEJOBE97q6GkGUb0TxmcdHWRFbQEhCeB9y08gb_hYKw0ZB0hcTFGhRuJouWAtIhGbKPW2O7arOV2kiPzQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAWnMaLdHY0BU8ZPXLEowavpbuZs0vOidVk6sU1EXKNMN_4ltp8C-QEBtVjIIoO1RNJstxRz_tMXEPCf_A0Vvb09iRwws3BzumtDTuYkIu3JKka1KfdCwGvAXVcG_42BAQEhBBjk6t7rxDGg5q2HLY1PwVGhTgnbJr0AFdAQL_LwgYKUdh9fNiiw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAASeFwzRy5VOVbDGgX63NoGOX3dZ-MQs_5dfYtKoreqDQbgKawm5CeUGPqS5uoSaHvEQWCLokP7ly-rsRBgJNxj8_lwGUIbk9SRbmmP6zdvudqGG_hEICsySs47RWNENHJEhC0kjq7ijnmMiawFndeL57CGhTmA83jbCrm6g1u6fOhtSWTvOWQMg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA9fQBTekjv8h8EuPyQ1ddoi-LesawXVaIwUl-hUtLsz_Ni4QP7ZHBNp0j-ljLm_uAPxvurvpzOpO7HAyRA-YDR0W9Dn9KH-YKqOFCH0HMVXOU8wWAf94Y-yVkskloDFxOEhD5_Zf2CXEPWU-QXLPBQfVUGhT9maZ1p1Fn2r2n-3Sl6Gj5vPauyA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAOCX0Gerq04DrMbYOmbxYxYN6JWQjlRtjlf7bE5-SJgzncQSb52_CodGEBtUikporpdPALmi-CZPFIhY8n0IrJqx2sA0nYObM1RjNk07B34zOqeRifJI-23pE6CyhvtXMEhBOmgCld0xCtR4FLoFqvPatGhSMcVPGB_BAfJnX-nj_pzvlvdf94g",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.meerlust.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "33 Baden Powell Dr, R310, Stellenbosch, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 843 3587",
+    "type": "string"
+  }
+}

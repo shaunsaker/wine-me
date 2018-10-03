@@ -1,0 +1,109 @@
+{
+  "website": {
+    "value": "http://www.onverwacht.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Wellington, 7654, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 837 0352",
+    "type": "string"
+  },
+  "name": {
+    "value": "Onverwacht Wine Estate",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 8:00 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 8:00 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 8:00 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 8:00 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 8:00 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.63143530000001,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.0029696,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAOQhA-x1i7mCPb0JAYDx6UqTMv5FMNDirK8mV4bm-WQCUeo9_iE_qEXJZJthl2DdHg8S4ix5_vkBWbHUdhug1-AIYqpg4OC-sMkRdN2CUBplU3o3Bz060a87bI_qibE1PEhCGBauoZc-RSN-rgyM-8nQvGhSSV5g6eQW080G9m6m8TPGQ5us3SA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAURtgr26oSjKef3eDbenoQuhop65B0ONubGyZ5Th3JH6ulhhfxgMGblngC8tkHr-ocpTeO2NyNFHBUv0AM3x-2po2cO4RH4SaNC_OqyJyZmzjOnBNtvyziq-fgKE5nxRCEhB8n9bqW2pTKBSTMhNOENVXGhSiTqrZnA1btuIN6l5NLDeKF2PFcQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAuItEkh9B22OAtjyWXEjDzbnE8eP4UGlAmn5AP-pvrHWU-FEOmTbVh4Uo4JfbO0SjneAGTZQFO9TUN_grBgY_Ni-Ks4kvVTtiXGQwpuvwU6wYlDXxakwqVECBRJ4lNVD_EhCjYKLsDyswnKOgk0IVwrp2GhSPK725X6OlJbXYTsipVMF6lYkxrg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA0wWI-6jB-8SjBEWo8mpHOMkPCtxPQPzyRvOchWpS0syjmKC0AZryTlTHtUym8vn0h0YvhunCZYdQhGxhYeFUxfcJOiFzuL21N6Qc_pkqe6RfHVF5avqgTxaUW69g0MpcEhBDZkWKFBfgHp5AK7QV3k6KGhSXhhBHxc16O8y6XjadIxDiICwXHQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA5nObPnKny4A5nP2fzCIh_YWL-kuSLo4CUQC4qnw54v2vzyBK5Xi3fUDqDuvh5sI0_654TbxJUSqskzElWUR8uKJQ4T6te8PGcKghxBK9FbQ1BhPaSVld_0sW1Zu06Qy_EhCk0SGayyt7O9-Qt7utUPxJGhSwRZ50fFmbcgF4jkctNV_TMWTeIg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAATKsQeF7Hun7ff-6LtKIARLnSG71KGYIpacylX1m1e0xoa1T9yCSSoU-1in6BytsTKQorlb5emgETl90KA4PRRiTZjCnGXKFBNkohRoAo2JyJsP_eDftvDNvGTyhhrD2OEhDFGWiymlg03sR6s6f5EfvdGhSBVRYpUeLF0rPAgfAucoS_n-oV4g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA6qktgme7zSsoawzjBm5tQb6YZPcxeXeFULdvc_LrKl9TQsT9OOa_HGNQicURDQeXIcmEL0dnUZsxtMNC4A-Nq6OC-Rz9G38Ez0bobCVZJ5RnCHjp1zsURjx1AWwBlojvEhAKiufvvYUQcMhqdAJHVqJwGhT7IepM6FlCcvSAB4xNMIuaHDomyg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAq-R2H9nVLgvYLh3zMfNw_E2VIqQ8FuG52QI9a6_p8xoSvgxDk2pBRecRHdgC0pULThztlee7JNBpCz6B2dsMq8AUn9iT2xfIphaa5CAJOCNn-EfjddZ7WhPJp7mr1rJeEhCP1CnMizSBkYeMztjd0DuQGhTq-CzXmxBC3AOFwVJJI9spb5xdlg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAId_jTnd39TQaMfQnC7_pKyKC7CwlvUs7tRzWfhUNYxgqaOYEJBka_ALKKFeFJ61-b1VeJ_DSJLpTZwAZr9R4HL9LngQk-7K1mG0aVXGfs45UvAp1LVGPYlItEtjiZKetEhB1nrHX-IA60seyn6475hEQGhRAYgyE0DtTj_acd91L2Tl2WPg_PQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA01HjFZ1KMcABEmY0qmPlLtRFVwfE30mi8W56j68vfuFwT3rb0VhaniQSCKbh186hI2OTZxcg3dnn0iJz5-H8sStpKe-VmXsZgLtzzfsm1XnYmgX8wZDkjMoC-H6qm5esEhBLs8p1iEfjFXPQTYeK6rXiGhTnVla40MolG0s6DP1uiyrJEL3Dtw",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

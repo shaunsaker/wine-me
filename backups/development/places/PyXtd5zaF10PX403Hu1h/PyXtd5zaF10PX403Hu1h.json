@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 10:00 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 10:00 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 10:00 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 10:00 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 10:00 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 10:00 AM – 4:30 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -34.015094,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.415135,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAl6re8qzyXNHyEOXyHZEIjzWXBIEbwsCJOf_PZOFfNNdx4qRlGBhErEbcIhg6weN_5nrxtM4LiJOSmZDLl_TQYo-I_G2nz9W6qP8he73M2mvcDNuOQAgwHwSYFMDGW1dCEhC_qQHYKZj5RSClDv3uWw3NGhR_nt79LPeMiTt96JO37dBUh_kjMQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAFmC-nwf6YfgkawMre9GlKdDj4GV-gZydkCTMEukt8MAqmVcQX_e4KNOEsvSEFHHvBiMBDHKip7MhWmL16ePuj43v7rhjOdUhnYiSoWLDuoukpOkk-IstGriTzSIpu7XxEhASqCDhyN9S0iXPlLVsJGN5GhS3RMi2zv4Hf0dXhJkLGHO5HpGKFw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAOwOqCky5X99mPetG2nyxoUhDpwrQtd2IS58N_85JLJI_MMQ8vQp7HWAHJXzlVfL9mL33cy5XJWwFUGFNZGnnVNoV3S8uQpGaPGxgEPb90Muvg7JU6vsf6vaZK8TstWxXEhBZKwiyXI80tXb-aU1RgkAWGhQDyMVEB6P-3JcbB2PlpfyCI9p6Cw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA4BrN0cuN1G_9si_Cf-V6wPgHi5zALsN023WjN7tBqISUuS0VXkvrzXJanTPcz3vtsHylW26FA-Ylvmwm5dPJFtbIm7B6ys_hb76pQE498NbCKw73OcNn1-iGdjU0EKBhEhBAzfjeyTbXkYN8IL8Qu9Y_GhQ0S5w92NPH-DcPbqfDt9zEmxZoow",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAdawYh0dVcSUKCC7le9fSCRhI1jPHVOHG4-50HF2wTnhhDcy3V16_O896QPf7RTWtjlTKHClYtImZVPbK6R3Ah8HgbSM3vqlrsyrdtiKO9DIzpgn0Hr6nGPtQe7jjEeBzEhBRgwiW6XORGBF3St9XkpGzGhRkKMY86JJN4P-hjjf6L39FIvroTw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAxKety1Juu17LJt3b2dsYB64G6enKYEAgMj_WYTIixy7DM95nlj8TWV7hsyVrNH_Gs22Mb7-YzJhRHY8fnX95jHsN9NP9otw5mDB4ZfYRHpGb_yx7lUZfPly2DPYuOqJQEhBqicuXntwhlQsx3T5JOhY4GhTDo-KgK2FYZCOE_MEOUHsTThGJcw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA-v-2pT9Wj9W0qFSOcKamg9Qo99XqTCXsvjGkzog6b4-sMeYwikUsk-HONfl5rayUk90R6NL7Jc1xJVrZFDds40gAB2j2_g17hz_vGq7lyk1NWYnBHhdHetIur57Y_QwsEhA_Kctoy7TwXlkTzcoKXIpXGhRfYPdMhtESLucQv4ce6wPfAFBSsA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA20HVpZAfwx1bOjHKX853NoV0skvlqNWLCZ6WDDAA-9TTbLwmU4O440X5J1ZgzRDr9dgxlwC2gIkZ0YWll2Lz8MdIYwFO1TQWhhV1ihY9jGHZvGeBUce4LPUFur4qQ0SpEhBZQhf001Cb6-MyTM-NFHkDGhSC-dWEp34pyzcVmjQvuuzJTOapvg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAxrwW_nOZTCttw7C4VWI1ekfN3TO-e7PlxgKjBzJSYNRtLvQdAmxExVGJpd-boLWoyLAPnnyM51P2qAoLzU0vL-eoj7mh3n0zgXmwyNUimFLEI6wk2YBkj61bJ4exXFJcEhAoITlqC_eYPQM8Gtaf_3miGhQfwOcsjbYQx3yrFN_xB61OBCKvpQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAxVDeAvMvcqPWuU3162GiE-10jV2KECChakHI-oST2GGf7sXuv8YoeUXlbN6NnAhm_9Qht6ooBZW2NS9cJaHpa_fEsWGLz9NSMA0RWjdcsh4aODJNM3L1ETNj5znAwZ1DEhB_GsGJtzSef6_LYy7fNbB5GhR0uRmVUOsPM3iPCJ7kQeFJUVzSZQ",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.eaglesnestwines.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Constantia Main Rd, Constantia, Cape Town, 7806, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 794 4095",
+    "type": "string"
+  },
+  "name": {
+    "value": "Eagles' Nest Wines",
+    "type": "string"
+  }
+}

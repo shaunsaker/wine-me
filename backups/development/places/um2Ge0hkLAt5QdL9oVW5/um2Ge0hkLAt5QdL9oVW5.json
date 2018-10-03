@@ -1,0 +1,109 @@
+{
+  "name": {
+    "value": "Bloemendal Wine Tasting",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 8:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 8:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 8:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 8:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 8:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 8:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 8:00 AM – 6:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.8401143,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.6014178,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAlKTctfZKSKKIdJ5661DqTngBlihURoMJVxMLpkAzxd9iFnai5xMMz0v3yHep45QB8CTdR3EosiVqnKP4uiqsfSdBDbgp5uBmbnPwd4mfqkBgs6aCpBaU8j5Y6yU2pyyUEhAyim18AU0oiTB6nKetAQwHGhQprrz79JgIDCjhKEVhzCv6NNFP2g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAsWaUZz8aginbp8zdFWBWpWonW63F-SQOhjWEuDjQob05BMygrCDls4GEPR_ktGNX6RWLz6BvO7YuFb8yQiaA2hvn9XX-QM68vt_Uwdbfz-_5-x7HJv6n0ZQeuZMqybqpEhAlY0mj4ZALKszyyIPjquFeGhQz2JvWHFQXOumRYWMApNsyTmdMwg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAPyIcHnaOaVPmLa_oPZL4zt8sGXu6QwZDkTMJSR36xBzbGTzD2GS6c-IoVyUZ0mpMoeb_ScmQ_dHqICOS8SVbDJ7l-mRwtmZfMAkecwZDYWZ8LQEvB7re--qVY_Xn8HCeEhARKqmsbq1hCio0GhFOvAj4GhTIRLt3YyByi8VJu9G3d3WsAwKUxQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAnaaP6yKMIHC9yFgALmEIZnR0qhV6huj1mby-j5e8FZdsL0twkquo94k_gsaQhcOZboKlTnI0o_deYB1p5oc1u4LbybXHov4mYaW1ZBZg9_bCY6MdeZh5w-0rzOnw3-FlEhCCtMPCywWZLYvx2vJL2fBhGhRoO7VOobMaDi5Xjy8Vf6GoojCw8g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAOoTvqX58GbgWIMkpTR9OHkn31VQaohuMYR5-UjgVydXLLql7gzSxhTTQEuG0q6mepvYOxWjJDYktBTfnxohjue7YhfC_XXLtKUzQqAvNFYaRwXE6n5KgJGCBJwS0POCHEhAz4xFFIR-ZG_UUlkkAL_znGhSHQmMHsBRvyvdCCteySWo6CmqfXg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAcG1HUx131juSdPDap4U_XrDv7xw6gwkFq1M0W__sXKNfzvy4PuN9S0sbQuSg4YU1qwcdHg86tclaQXWDy-_RFYhkkyf2kpLoZfZfRP4_EezUT_zxsdvVmhFzOXu8GeFEEhDJWVu-YeLz9ml_uF3TMc4UGhQd82XucvXonqxGVVCnD05XhpUtAw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAdPV8jFMMGB_OOFLO4pFNo2d_0mF0IDljNPnbhcDdVI4E8X5BS5e6cjXMLiZWgcyr-qZfD-7rCNa65uo9UDErOwQ11ltPGU2-Mg0CqtByFumEYjndpvu4Asi3PgHzjQTAEhBTafXUPX1m3VG6EeHeWzlmGhTz0gfm6EbWwXzIelAv8XjIRpvgkg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAxTLHC6FmXt_BabxZFLEwlI1R4x9K0AB2WW2vxopuTGiDsmjg_GMS8Pq5sNvPamMx1GV0UILVQZgIJsspCrq_ZuOzBaAarz-eq3wUro99Fx5PJr1ULLyAI9Wl9wnhkT-pEhBuXxHtFMUYRjZxxwEPUp0bGhRSCy2_mP5vTYTYzOUB_SqIwUyJvw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAc5WB3hbWfacZVX0xCh6C225AeygYgPSMabSpD4SfCDpmRqHUd0WRGq6iufktia-k2janPHDjMPOWJpS_kSXaRmaPXX3pqjSPpH1Z_ufGLD17mjpHL1F2rTQtTbSPa9NmEhCOIRkuwOdszRas-YwKmQzRGhSVDwK7gyx2v6wtW6bh8RstQA2CTw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAxhYPq5mZ5FyjpZSTNZf8xRfvRrpebZ1QhpcZ9VA5PNA8N4z_pvgdITeZi1hb2Li2P7Yn8qkrcPBmK7QOTUnCmqe7G6sjBIV-FlzbVz2z8dLfZirT-CE3op3y9Z0hS-PhEhAXVJ9S9_YXdU7wet-EzXPrGhSteEeI2tM0FYYS81yf2s0ZDV0gPQ",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.bonamis.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Bloemedal Wine Estate On the M13, Tyger Valley 7550, Tygervalley Centre Service Rd, Bellville Park, Cape Town, 7530, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 976 2682",
+    "type": "string"
+  }
+}

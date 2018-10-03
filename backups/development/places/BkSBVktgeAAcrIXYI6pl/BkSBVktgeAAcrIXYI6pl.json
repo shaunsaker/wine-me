@@ -1,0 +1,109 @@
+{
+  "website": {
+    "value": "http://www.bloemendalwines.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Tyger Valley Road, Durbanville, Cape Town, 7550, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 976 2682",
+    "type": "string"
+  },
+  "name": {
+    "value": "Bloemendal Wine Estate",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.84010930000001,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.6005802,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAA4RJN2gEfDCdCnEy5snaL6amIJAnWarp8tVKfvjLXDfH7uyytF_WjAHe1PGipHdWnChu8CbPox6UdZHQmaD7O-t4pwWU_Mj-GPTE7mPfpQ2W5moB_IuRaBIjdNese-mogEhAhM8c2doM0If_Ak92Q5nFKGhTwo3-KuMcKXL9Bk-ZzfKTLSK-BPg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAQRyXjQV0DUlD7FWy5lMxF9HdQ0O8h-SU8WwzyxgCgz3jibF0M5RV2rU7BETUohbrhABWk_1wi9sloOzx4C1OhnwPt40sK6pKhNdW1NbHVVBTYpkx2Im6EUXDH7zo7Vx6EhBdTJmrLB7FZBikqqpeWf8JGhSCISroDMUpmQqgG27vIHVMlD1omw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAvQw6s8O4mPv1JiP96o8A48RGJCxkgTRaAaEtOEcfEqBp8y3DDc3BcH7P4uWw5kc-r1P8yFQeTbDfdYCCJVQ1pt7Exzg_bNeREofNgPrgw5lZBE4_CY9sV94qCC_r8uVaEhAujGSjFQHk6aMPVb-nUb-6GhQ3cb4gX6bWNVCCmWmTXzivssF4Ng",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA8ZEFFoNXGIlMB7dNg703M5eFtluAE2xe_Xf0wNjaBlc77OEU-TRRlyNw7j3G3w13eEX0tKWV_RPo6_t8Hu5CVg1DDBuCCBepqTeKhSh-DmGdjIAZsgZXXDtUOehj3atREhBNh-yLdHCFnfh94Xhi59nfGhTwnpQ929cdqgiL3WSVqwtV4rfetg",
+        "type": "string"
+      },
+      {
+        "value": "CmRZAAAASY9DnZQycKZ8w_OOMVhM2yLOjUEHSBUPM7R1NJffecH_lrc7bg91eLOlOSYaoeMOVPyoDXWLX0jTAJxoxpU2JxEQ9iiQ-46SNuB-AB1DNQElTCYGYexAAkSuhRVFIocWEhAae1W_4u1HfwdjSaXGnWb3GhRWUPq9xHGDs2-eEy55tFD4q7s6jQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAABKTh1JK2iEnrAYCwV95xh2AaR5S9KWTJnGh3CkHTRQSn2mbJQ9Jynzot-fR8zQfmGobWQfmUTINAP9NUAdEtZtNorX_m-0KJp_rFEo5uvkQ63wJkxsfyweqZwlQFJ7B8EhAkV_nFER57Hda8x7Lhh9RPGhQrf3ZHzwib7Ful-TLuCTV1R-z7yQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAX13RicXpIj5hNFra0BPyCLsFqfpUgCkmpQv0c7v9BUPt-T-XZXGH7KD2hNgICnpISqSbrpAfqzmreWJURyoPgxdFVkUJINCvKrDZ4RyQaoCZpKuTxovvbPPWam4cHtF8EhD2qYvkvAMtKfV42ZwZDTNhGhSYJAlI_JuxaAwl6lJEWgYdZgn6cg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAJs3Ot6cD6RN1VnjbOv-Rkky5LqPhB8qMv__0vb03aU6q0W65fTCceTwIGzitM8XHQbqtJCCFb6k3hq4yZ8quFK3ZdyiRReTZu4CzmaEyQ8r0g2Ppyo5S1l3QSwy5xw2ZEhAJ7eiHFOleYn3EmV295uVDGhS5tzYrDP7Ko8fkmdcNx_Gei5RkMA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAVOj_d9EPLny1aEX0Rj5_V6w8rIHQ5ipwUGD6l4O_DnXxhB_tBMjZ3XknsnGfI0EClNFbdMc96E8JEfwuvp9Y2nCL4Y9CnPet3YnX3hpqns5Jjipg9WZLczSKSc0kGrv9EhDrzMYCkVuv6U9DU3jUzIH5GhTtXmTdGj325aWR2TTMeldozd80wg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA_XOP6ek2Gzg2leFgyodfcgz7bzOYP9-2AvCqklIWl3xQs-xBQ_3KfdVh7WSwudWEBdUc4ZtmBvX8LbCoUplRZh1NMdPrUNKEp_aOjfLYwmuyqWVIefakOwJ88GCzAwXOEhBC5loomDXA92OXbQxAWWdgGhTdga6Rx6QQ9zBNo5-Ax0eRrmKoUw",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

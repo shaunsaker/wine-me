@@ -1,0 +1,109 @@
+{
+  "website": {
+    "value": "http://www.creationwines.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Hemel & Aarde Rd R320, Hermanus, 7200, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "028 212 1107",
+    "type": "string"
+  },
+  "name": {
+    "value": "Creation Wines",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -34.331081,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.326533,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAp3jwaUsVu5NVznE2oRgiJEfEaXXRvld6kpW9YnRy4VLCOoQXgAz4WPfQVzjqRbNBdz6ugBoEaretyvLzSQUKItTHyFLL0cPuvStXd-lP8Ztyhw4yI3h3v8bj-O7dCaMqEhCrkcTFb-AU2UX2vKOdO3yfGhTQuMccdIblslbZVuM3NCO61ydJWQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA9-eR2fsjZrAuV0fsAl2yRU_3wLFM5WbH6k_BGyblMOS2lbhxokqkYhK-sRUdL9PRaLlW_om9PzCN5Ym-D65cxHEf4mv0wT_k6soohyIlsHavKsLSVaEYXoxiHpxGAStoEhAloFLE7J7LCd8xoxBfa1YXGhQsu81rBI62KQ3DKPRdCA7lW9KE4w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAdW95s59pMGZ7svPNCa0AJO8XZEO-WnRSOixho4h_Bsktgg6_qxqplAJh_mFHrW1rcZiH9oEpMNEJK1835U20kHNeC0YvwcHs-JcZoXKyg9sMt7jXH3ndOJQJSNVi1hq9EhBh13ZbUj0q44THWRpPexl-GhTj0kOuJpjFT0bmVFgQQHbwhgp0sg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAvx0L8yYrXh7vXiv5Q2xNBVhHX8WHl50dSQFTkxRpT6I7yTnaMjsOol0qaXFHKwbb5L4p36pFEE3ffkNmgWCNpU3tjcBCvd9fB-CzqG0Pvu_tbS-hdENFeo8UIxB10nt6EhDmcBWhcz6dSecKNZURFnuLGhS5JCggcfPKkRidFsRKqyZFKuajTQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA3dc_qAWFMafm7rGUtXgsO2bkZYMJFtTp5Ub0hM3n_tCuTvYaAG9UM8xy0o2iiPCEPAku-eznw4MyeFMwUuZ-FlEOuECLKzC2_Q3iLfds4gTyrgB8yztV2IgU5lYqS7I5EhBWBAYR9VR-48q1pph4yl6hGhR38srVkpUW7IUcktO2Oz4Xdmh3Uw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAdzFz0c9HLKZdsYta82al9Z7ARnjW4Q5oH0LHrQZUvVPk-NhG20ADhc7eHOREUYKYU3R-NlOezgjVDkiAmLvF8-UlHRCiziy_yRu6B2jmJHo7l3ClaEl26YwAnPtRNE9EEhA_QFiIynhYeoVJO8NkCvirGhT7B34UwAIroxTFb-RTi_mXneWZ8w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAACAXEa8Q8i0jqd16HbuZuhHqIdn1sA7jL94ui9ZjQpMMex2xJImWnRcyB3_uHTPpqh_Hylt5XD6M2YgSfJ4JhojQPsAIKCYeorNiXEBGLRhCtMl3pqGhFBzX5ZKE7sbDEEhDn09J3n-yi-A_cpUfUJ14DGhRteA_X2m0z98yZFEc8bOQL8JhxVw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA92iELwlM4M4K_SHVzmaZzwj4LMMkibtjgKeBxDTjvmGTGAlH1RNTtBqivMH7AD2zgdPrrCBQnyv2HF8t6_vF8fnmTBxZodCtT4EJ37cFZ13hRXZEAbN3eY0nbiBgIaDOEhDbUXARC7_CKgzrqEUugRi0GhTJNzgveEhcgkFuXpyDukCVu_F31g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAARwh4m0H6w9wBNf5WcSMPpLccwjJXvw_MpSC9rlVB5ktwTdxyK4VXIoHeXzRY-XOYih8JlXbi17gsNWIASh9mr9wc-M7vgcHG3nQ_pp-NKO4YhUyKceJ86TSCXL0HIouGEhAIHfVNBy8x2-A7yZ7T5b_JGhRXYAQHBYUgk8tifqZMhWjgFK9new",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAApmzaILGtlr_CPTDERq-qi5syaFzWj62frlPKh1WYBnBZ7I_GhAe5caLCfWWLZrTkVq69xp7TF12Slu20WJTIaLEAR1NhlgAk4XNYggkbRbRBvcpe13XkvOAUmK_7iT7DEhDMKdk0g0r5S_x9706lnbS2GhTSoXrxYcWckK4oghYNxfQx1X7lcw",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

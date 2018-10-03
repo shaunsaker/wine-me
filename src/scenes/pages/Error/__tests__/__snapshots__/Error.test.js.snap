@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Error renders renders with minimum required props 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignSelf": "stretch",
+        "flex": 1,
+        "position": "relative",
+      },
+      Object {
+        "justifyContent": "center",
+      },
+      Object {
+        "alignItems": "center",
+      },
+      undefined,
+      Object {
+        "paddingHorizontal": 15,
+        "paddingVertical": 10,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignSelf": "stretch",
+        },
+        undefined,
+      ]
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "#212121",
+            "fontSize": 24,
+            "marginBottom": 8,
+          },
+          undefined,
+        ]
+      }
+    >
+      Error
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "#757575",
+            "fontSize": 17,
+          },
+          undefined,
+        ]
+      }
+    >
+      Something went wrong.
+    </Text>
+  </View>
+</View>
+`;

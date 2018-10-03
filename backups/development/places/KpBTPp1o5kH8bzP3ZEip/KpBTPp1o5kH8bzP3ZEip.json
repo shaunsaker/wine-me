@@ -1,0 +1,89 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.671159,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.044574,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAGCBEmTpRMD-XfqeLryqgotNwZoRv67WZWfDOydqJHrUpVCh_Z06rPNJQB68KK7MciPxCga3HH4hwRS15vBYbpo_lVkp04tQ0_1IHqiEn-kQNkq90yjEtldKBm8fliJs2EhAUk-_4Eb95DktY1XoP7v9SGhSX7rBtl9zuSKVlypfIwCkjYEqRMg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAKDFW_QYmi40ZkEdZJ2xb9WGj0Hihx4_BHwF1gu5kcocCdy6tZeXvj_BPog1Nyxvh5JAHVJWiWs6Wc3_7w4V9XQ9yzPAcqiBLcqlSfY0DO_MxW8GKz3K9oOU-b5nnGSSWEhBuclBocpkeqMJxJc6pSEUXGhQ2ve673vIJ1b7bZfHtzjFC3_l9sw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAo1M9VOV2g5tiXfKETYpMqIh96VlUUSNYFEfJyZ_rizmpgENFoFwVBOlA7e3KMxWjKdRl2pxIAliIoOtLKQ0FSNzLN38As0ToZOITPbs9Xg8GpqKYRDJtxP-UkQh_6OspEhDs7E_8CNMYzyn3RKuJcIMEGhSCuHA0eus9ud2TjdTP8HeFDO1-9w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA-SsVF_op6a933d491hts3iwnEyO0_wykRRSKSZ8AOQDDzhkPI0yyZpCw7sX8hRd36AuWGiuqgDPNEB6YomlbyNLnmSArvMDWXpjFZwZzrhPWFY3y5amQeoDLCjDCf3TWEhBGaAkOqANA57IMQXR6TTvYGhTW9TN6cUVe0lSuNYSi1Qd8BPVcxA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA3zTboJyX5N_gqvfgssoo15UfJRTVZXQM4iHQNPcq06q9GdthWf5EalRD9hQ0FfPaCHx3HLvHORTUVzXCPq6J6A4hvJCRKD6ixZLYlVscKqoByaTIRdpyd8eQg8jmWFPBEhCAb1iASgWqa9h_NSFtvptXGhT5CXlRABXQ2m_8LtUccov1rLkHJw",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.organicwine.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Fisantekuil Farm, Blouvlei Road, Wellington, 7655, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "082 731 4774",
+    "type": "string"
+  },
+  "name": {
+    "value": "Upland",
+    "type": "string"
+  }
+}

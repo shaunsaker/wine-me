@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 3:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.66504059999999,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.2274785,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAaGt1etjGcCkJL1dNqtvBdVNAkEaFTG3Ct9YJydVzOesTpsycsC-NkghoO03odVLri96P_QEu59LypxSpkx6T34cKbsmBLcqQSc75NPrEf7eGV5gAtc2lW2YeCm6hU8mnEhBWvSRwZNteLC_Pbn5M9RrbGhTIO1PD4Fh0W4vGsItAmE3rAz8x6w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAsLGhhhslcDYB2uRjUDcBJK2BS4luJXYTqia-5gt9D0Lq4vfJqeSP-5sl1FsTnIkpfqKTuKpsttZKhOpIx2G4qxa_500WiCYlXyqFzbz1iFg6DPhZ5DrUD2nk423TjV5LEhASag2jCMMdZe30qd3kY_lkGhTg2Ykio0CZV3gHt2NdBVhf8GU7Cw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAASBg-5IFQPeRPCKyhNy8uD1oGvRNFw3Fbc7R58TzqvGArbyCE87sHimIFa8Cf4n1gjj2y_t--sulXYl2dS1qUUdecl1Ygt1Az-ex-ewr63dM1HrgqF0bn601UDpa1dpTnEhB2sZw0QZ5yxy-UwsmoVkkGGhR2G_8kSqCZtUO4iKmJfUKySmzhwg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAeQ2UZQwL-TZpcb2cC9GoHvQTXmoBMjnqzysPNYRz7t33jcWfYIUTY6RUn3aRP7KceORzJsYsde12neuelCs22mMHep3z4K-3D6NOWAJtkFbBZ7RO4rFIPvch8rikhAUDEhDoD_66xOfERsPLVj_oe02sGhT2v5pE-OVo1l_UGUN_hcZqLriZSQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAbung00w8nOYG60dGLKbiyn09aT1Sn7NpLx5qJ0hoDgCIO0ctZNUpsppOTmJIWdxvR8-5VHhHnfejB6T9PSHEX9XZqI1AmnuiD6K3X-3LMvOJ4p3aBPxQRKfykYztTNQcEhChfIrwhZsSrim6Kn1Z7rSRGhTtK7d2SvExZ7f9FxFwaCAnvgrD_Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRZAAAA5-ryTQXj8DYHr5wgug0muJcOn3Ym849871vyV2GloB3MAjIyXGk9voFwoNtoU_vESHS0Vj6xfAjRuRYjFaxzthYnmOOjWLStfRRemJqWGR8Q_D6zqUDPsMa6ehwWkwNUEhD-4EZn_qrSXXa5xIwDaK-LGhR0wYzYaezt6QPGrf6s6OQNyB9Fxg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA_nEoraj6Jg91ra6s5t-ItnX-rLsFK4SaXiOr3qKfp8MwoUFkstVZHk6sYi4839-tkGPDmbLGfFIilToPMYntkz6Py0_O-BzKpZoB-JkvG7ueAULWGeh7jBvRpC7t88LlEhCjCaRhortUWiMmzpiXNuWKGhT51CLVf1K2_ALdFCjR_iNYUGz3sg",
+        "type": "string"
+      },
+      {
+        "value": "CmRZAAAA-cvMutY4RQ_d-uzBQuRdDOlLXgj5VoJQtARdDYyTRpQSKug5JrRZLnXKvGqI1oLWkSZvjLgFWDcDV7m4b6XTRDaRsZgUFNwimUIVvoJ0vggR26otPPGqNUZYlNrxWHvMEhDLEKI-rkh7wDLeQ3MXu3dEGhQ47sGWjQVBjon-Ab9WOicLiOCefg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA9iBZxRGe4EB1DQLknlK8JuzwZVXHXvS0n9qnzIb-sTlxNZWNUKvBOM3zk3No_iUznmjBPnnbgifd-b-y1AihOI7LYvjBdFg27jJKpwWcs_KQFUR0Z_9wgirfGP_7DaLpEhCZ4QIkKSvBHDCc4MWG3EGkGhRihRjxk4xy8npSPRbdlvCWk7r9RA",
+        "type": "string"
+      },
+      {
+        "value": "CmRZAAAAsYTGE_0Y03ODwB4pvxDdOw60rpnyCp_xqUEsqq73phJkqMhBvStXq-MRvH-gcqMIWbbd8sJ89mvA5L-lIVx8pyA6W6aETM7CxW7MKOibTCJX-K4oxsCWV7mFeLCSFMibEhBsE4ZqcUks7kV81tg43BzHGhR-O2hurNBxKz7QuMXsDWqetWHA8w",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.jasonshill.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Slanghoek Road, Slanghoek Valley, Rawsonville, 6845, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "023 344 3146",
+    "type": "string"
+  },
+  "name": {
+    "value": "Jason’s Hill Private Cellar",
+    "type": "string"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "website": {
+    "value": "https://www.saronsberg.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "23 Van Der Stel Street, Tulbagh, 6820, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "023 230 1782",
+    "type": "string"
+  },
+  "name": {
+    "value": "Saronsberg Cellars",
+    "type": "string"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.2849507,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.1391832,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAmA84Y_gFut0KPw8D52dQN9MxI2RsTy5co7rThreuO-QY5AEosirMBTnXYcAxit9r07Ej2-3kBSboB80qrVGZJ1NpI0DT5Eq0-x8BQxVCvRameZH81kYYsRDGxn0Mc93tEhDVr2jMUxsJm5FfB6JYySzzGhSGJWR5Maou8x42KPvnILfLCLigog",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAswtQfVJhSPxkesmw_Bt0NMBpvoRLiTOUPQriFdAzw09_Vd5lQoXqJMG2HWM7HHZqnzZbLc40Xxzpc4Vtskv1BYnO6P58pmf2rQ8i57OUMpCSnFoyqiP4PztOV7vAi_TQEhB8jvtpIw7xDD9Bs1RJ3BssGhSnrT8_TT9zRI64uOIeBeMJsqwt6Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAASZ1nuWewvRa6m53dO-81InxFwNDx9Pw-NO4plgNDlEFwnLZCZMsRp2ULOgz-MnhVgC31wn1yzBNLbyZNls_TZE4pyoKtOEV2Hmu4T5WjtpJQNOSoD98z_k4TpZdR643aEhCqBUnPBc5zorGIXtR1vv1nGhRgYCUZNTCZut3dLYy8YByjDGU1iQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA6c2PMj8z-iNWzYoUOPvSRgJs2dX2TjCESFs9GSkmjz9u8qX1fGLmJ5Xk4fNqOUsib-5R_gZEhua2lDHNbu8Amp9UeSfHhpTheSI0NqJS_Qws45sBeSzHnkNT6hSh3WFZEhAS79VVKfCAi4tCoqtETyV1GhT04TLxELeCLbelrMr8qVfz3x_S5Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA1ZYGHVuf_lFKmZSfd4RShJvA1kqwlSPzzY1BDjmCKLE2dIN7R3rvQyOoOgJw4OoB9YFqRnUgG_oPa8LRa95XXRBfVic2bX7weE8xgMAooX2DfzAOHO-FytdTnKhoVwauEhDg_WEFhRRB2aTjBOPKP30-GhRvyb4yEuY-5R_Yh9RQdibfMldeLQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAl0VCofYBpQVzpxVARBwdoS4-36lBYA2nycF_EM5o_tTCDfhzmk_GUP-SjTAoVFJtvbLGYfZK6JWWlhRqMoDh_s-qLjGcMIYE8J0tz1W4xuhCc66gpRWOqDCkqgKrSKxkEhDrGAggK2DQ1Ahwz_En6hHdGhTtdQ_mt7xLiCAFYxmwY_Ls9oYisw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAvkk767jL9lygLTXpY3bSv4AdZ7xlHik76fpCbmAKAT1oGJD663qsWpcqRNhK0tIgqExXU-1N4VvNvdUwem6t4vK5KBwMwmOrlPNEjnOgP7x2e2jOOM0GR-joNk0Be1TQEhC4R3Gpx4MNusGQ4ldA212sGhTaHmDm2GoC_DHn1f-QMEeGRASs2w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAvySCCZxzt6JoeAPI7Ks11ggkY1dJCFVopC4AXgX6-yfMWr2tHbg-hoOQWHdvMBfTV8Jc05vC7m-ewPZFYQnvDe3_2zymyfjS-qdSRLPd-_42RUBYVfOfuzEHSe6d3JQAEhBq2Pqur_DqEWPaZHeF20M8GhSiXghUYd71iQhTZo7P35ugfO4iEw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAa8tyPh5e0FsLF7A1jW37FXYNuEMYCkMV8OX8bXUA2JTdP0doa6nD5MRztkymnUp6ordFx-utW5ubmrZWkadGmvDNxZsMWV54orM57Rn9rNkcxJSLWvofC-0WK7Yv42I4EhAJTM0zUGs4HSmtvIZSEkmhGhSEmNOU6wtda88GoVeLU_TNTPttzg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAOf8sFns-jp-IhJskAg95f35yqkBNEGj53bBpYjY36-AyU7iA1gLbRqJoyVCdsyFMx4c70xpUzKEcjOdDdMSBV4KQU38nD8NOM-VxXoYT_KNWSYrrHhk-EGfWNpd3ieCAEhAb_VtFXSuQ8eFqn24EESDCGhRqsd9xOIohliMpkPgacFvhmbdV4g",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

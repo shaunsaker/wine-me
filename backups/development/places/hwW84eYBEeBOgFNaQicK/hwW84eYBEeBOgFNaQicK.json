@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 9:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 11:00 AM – 3:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.84743199999999,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.6246425,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAABUF6l-ArD6TJy40-psLWwq2fZcbAeqFcZePL2I73fh3O6S2UK2cO-fJLL1J5ugzrPROtaghUYyg8H4L7cL96-NOlLjXbuT8X2WIPCFAcGN_afi_UQPTyJxj3x-8tcO0KEhDd6goTEw6HXHVR6osSqzgzGhSf0PPpuM3tgiUrWVoZuLravmExDg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA65SruFXj5IdL2w1RgOihy0C4l1gZSkGEWAwQ94bEh6A6zUXTIWs4gPE5-YqfS1efaFtSwMyQcta-PrMpRmmUdoPfWGTAsBDnZR0VRsI1MI3FPT4L12B79RFnitXlpHhMEhDlSB1tlOWFscnV9hq1OuwGGhQ66FmGGPBF0wbECJsY6BTtLlmrCw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAALlEsRzF-IQuW6lAcjmNZNK0g3-njrUkqi297oI1JJ_bMo3rAKO7i7SbOOL2e3F7htIANHbKr2cd1WJEPVCgoIsR36hAcEbU98hbsKy7SB_kEktBl6CGbYJFQ2_AWrYv3EhDSx2tmb3sPIhuKzOuFVXrmGhTW-ei49EmKbClIHSFKYv26vGSK7w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAcRfhvy4xwnAGbB01JbSteCD5os2Tf_byTNLYH_I8d8pZAqV0f7FCyQgxGHP6Mc0E8a-9xyJ-HQWGO96NyzCVOyBVOcvAcUmrqj3J5mfSbm4lppyd9-qXh6w-KpgU3BAwEhCRR2cm5FaZzsNK0iEp7XELGhTIEWDkmZJaY5Sd44CuYFDjFPRfmA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAhr2z16lcaTMJTVDPrGy6KHKvLIeAGvVz0K9wnW06e6H33ggpUJvb2iM9Rfobp50hbwilDHlYeAXxBxnKfT90FSCBwVMmh3uGPKhvcgGyEb-5Fm_3dm-RUWxe2y2uV6sBEhDDPJ-rDm_00OfHVixz_LogGhS41GD9HF47A1Z5oVn_Emj6Ydh65g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAK8B0FAnhwPewnUQ5PJmRua4xZps-Aaq3Dxo0-YLRyQ5fIn0nZa_CG_yve3UgtNQ4kp93QtrYLAL6tDlyzITcmLnCzuWWU_NRJ1Dh3fHHlGf-64xYExY_dUpG7hUZemOZEhDYUaXbPREKK9eaykCyZuOrGhRVsmixbQQrAhcb-KceIf4ABnxFAQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAmjR2uFjVNLgvP2Z-M2vBepFrHuJUqWg9ZVqGKjN0BbNgXauUPWFxo2XnQUccIWQwYTKvvkrt4KZF_NQeuc_JeiacIT5XjF8LQrYgaP-yOQAzwQ7ZN2YSuaOOjsW_d2imEhBNX-oLl2qfL-zSGLTt9TDHGhQ0Y2P-jRRcED76SRnR8URQZ3XR0A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAqCOl7oZyhIeqkitA-yEQ65wAB-MnxXz_yDi9TaZ3vv51IVLiSfFYyG-7hhrfXR81zIMDdkfQ8Aojbq3Xn7wLl0fnxpwmWCQnUlqGuNU2TPrPQO5LFN7dlTRjj_IoStSWEhBmwkJLk5D3pHxXd4dyp0zbGhT-jV0rkeRb08SifAk138aNBVPJeA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAALGDr-_pMnIw6KKWSeMNdChtazuVtW-xFcGAYfpLbi6MT92UpHEBekPCobFYTePQunVO4tie_TekIef8YDmBSVnvMRLMwGWsNaJr_knEmQAEw7Tf_NOr8tIv-xtbemKEpEhA1MwijKbQzubOOS70knXR1GhRggXs7cF-gKt07DRK1oZJ5cHNB5w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAANcqK7XmnuQviXH8uZfJ8EsSXEUndq4hZ70fD8NyrcfoEAecLGYZWzj3HWHRQQ6tonLjXhjnOQHw-F63gmpDnONNMlOroJXJQchyuTYWs-lgxnfNBHCBJ-8h2OKzZBA37EhCgpXqJoot3PnkPs9Fvl1MIGhThSX2-SYAnCiSB_qQedCTDorSlZA",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.altydgedacht.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Tygerberg Valley Rd, Cape Farms, Cape Town, 7551, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 976 1295",
+    "type": "string"
+  },
+  "name": {
+    "value": "Altydgedacht",
+    "type": "string"
+  }
+}

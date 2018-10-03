@@ -1,0 +1,40 @@
+{
+  "location": {
+    "value": {
+      "lng": {
+        "value": 18.80762,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.8774299,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAVh_Sn3DUDG72vOpgPVqx-mZykWaSIAn628aFGmahPrp0QZ_PiIaEY8dtWwk4aleVToU5o7lQJD7CsEMiQ-dLneZr1G6QFwfGaiRzZwM7As3oWpfjFSiQucQDfwM5nReLEhBWG8B8D4DtEAtFi2DkdkRCGhSey_E9JfSNaA622UQEohDVjoxEgw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAkJHqoxfa5pp5ykkMs1NcvbSf4Vd8Pu_uyhxK3CG4mkPFMyBAqcXIVRV41YzmuDPTUqadtK-6f_v2sQo4ac-CcHGLOvYYYFBs1C8Yf2Rve2nTGUmReRk84ER87O9rrn-XEhDbJAoLbY7g_GaaOgLeBYeqGhQ1PvEvjoFchU4-zEhrmmD-IyN5Rw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAI1ZU0_G-tcyIxbi8ncgBaSn9V2tRwdkAR_Dqp5wPvyM6zUB9ANBTcG4ltnlKVumTrkNXW9j5KIV4f0aPiupXfuaQtb8q8txXuoTY_iiARRz2Q89g27vRqeHiqGoEX0VkEhBztSHGnwpeY_jilD8EYscfGhS2_FlZE1TU_47oCPhmduNRHo1KRA",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "name": {
+    "value": "Wine Estate - Sterhuis",
+    "type": "string"
+  },
+  "address": {
+    "value": "South Africa",
+    "type": "string"
+  }
+}

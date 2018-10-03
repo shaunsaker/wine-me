@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.66176,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.03149,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAArKaQZfPURSEw_t-UcpEZAnJ6xOpNy1Okl9sNGJ7yyDPBGLOmfT32aX45ly_SySMbwzbbz3jh6uYCSMcRHUiC9XX5tU23UTDI3vnre3RpyeCb4T1tV1kWhsqaox8agkmEhC43WWT1LFSoJrcrbAnmDh2GhSUk6TNn5B0zNRaMgDbbUsiFCJhIQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA2k5a-Xp-rONU5j2WK78tpjccyayvN5y2iovpzwWYqCBL7u6EKAc3JksalIP_FqT6Nc_8bK8-xcf8nl_ciRKxBu9AIj4SI9p53vc_blIMhaRxoz183K6hHuYjrxsXN5PIEhBaZMBPAD_Q095sPfitKRJxGhSD57_G2J4unnbKMsBJLh3S3KZT4A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAu5vfHi_K5u-MZdFFnMp0cE4PC-vakcfTqk55n0O4U5KgFxPlum4MR-WxzrPD_FTs5gaAx_5tPnWfnP6zAxhQv8b-IpESIt0h36mLLvtXAOTk7vyW_kVr9_3JKDPnD7DTEhCoUnGMDcWSSd5yrEaZzDdOGhR9836CeES4dZ5CrcTNZQtz_stweg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAHAwihpAJmPGVR-x1Qlm17sPZZ3PaMnUGWK9k_VrNMAwoU2TCCKe7siTAD-p2Lju9fxcgQeSoDAleaWuZ-_24e7p_To-dQ25vNeN5BMG8QU5VlgpeOazt0rfvxMikThMqEhDF6bFJgNvuUUQbw98GDhHKGhQ7xaeWCAdXHkP1c7lxS6gD3dEzrw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAK_lnLj5dCqkaSulTIUJ9kMKS4tovt-ER68AhEP8bjVHdSx4ecoOYc21JvaI_fwIPXNnibCbZi2PU48HIUcttWqnP_BD9otHDIETrMxyNn3siPh7_fkFeveT8PgP507eKEhDcwMXZ0_k_31e3JT-ZyEGKGhRJZK4_q_xaa280fslXAbLxSqPPJw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA-xiximV3PpcUOZy5QlV4Gj2vYFc0tPg9nSPNTRMKIsy0jGA4P5Zv6wGZt8e7tXgQH-vjuLF9frJHfm1h1g53b5Y-c270EXOIEN-FnpQNnHJIeYOEOmG_KOVPjBxjbZr6EhCHRnXCVWNgl7jWOMsuh0M0GhTFsu9x6fMRKMupvcq7gUGqIYz7_A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA3O0QpTi12feZYGqKVzlNeJwonTTKCPs0P__R7CJxx6nffmVIY6zuKlcxAD4j5PVy_q5zqHy3zubZoRjyq_qfUphU5kVstMONUwAXcxRgrE6eKQw8oJDmMWujxlKNpLQREhC35nR87ZgKlnXfXHY0K6U8GhQ1tx2K5ElvJSjwRvboksLSdBOYxg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA7HRIE6bZ9_prrjVLMU0cJnbcrjGpK8uHlgM9ZhI9dmBSh63afNYOHgzA1FGscXSzGw9MNLy9QPU9fqX5eBJmqYi9syXK5vNf0T4FhICba3zmnH1irmw-6e3Kibg7BsgeEhAWzSZo9IfjMOpJeWCbePZvGhTO5-QcGtv33gVvLwwYxGfnVaE2JA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAyxo0H9U9rhiFzAWZEA0uLksYDC00exs1mWQgucqnEZukothBhcfQ_f91zeqPAohzvLjeP0EpUs1_HRSLRWFI47y6IR_Us1-1VMImq1GzWSSFTB-SmH-4UDVcQZq3-sIWEhDtriNUrr0JUHYZY46nx3NrGhT6n-OmhCZrU7EBBBslKC7oCf1Gjg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAR8fd3Iy2U_TjkhEhcuEseVW5qM-WdtGZj1LG9vgoCfN78tN3_L69Ba1WcGtIT37SZlnxo5oCiafcH7vb57Ls1EszujaQDaw1MvZBNMb-Q-vzP0fMf7WNsKMKX0b0kL8AEhBafxGr9PCcz8z6-wnuZ9bbGhThmGSERVZEr4sZHXo7q_mxlWDptA",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.alkmaar.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Blouvlei Rd, Wellington, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "082 453 9830",
+    "type": "string"
+  },
+  "name": {
+    "value": "Alkmaar Wines",
+    "type": "string"
+  }
+}

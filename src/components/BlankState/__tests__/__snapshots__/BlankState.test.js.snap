@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BlankState renders renders 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "alignSelf": "center",
+      "flex": 1,
+      "justifyContent": "center",
+      "maxWidth": 300,
+      "paddingVertical": 100,
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={false}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "color": undefined,
+          "fontSize": 12,
+        },
+        Object {
+          "color": "#3D84A8",
+          "fontSize": 64,
+          "marginBottom": 10,
+        },
+        Object {
+          "fontFamily": "Material Icons",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        Object {},
+      ]
+    }
+  >
+    
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "#212121",
+        "fontFamily": "Nunito-SemiBold",
+        "fontSize": 24,
+        "marginBottom": 10,
+        "textAlign": "center",
+      }
+    }
+  >
+    Test
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "#212121",
+        "fontFamily": "Nunito-Regular",
+        "fontSize": 17,
+        "textAlign": "center",
+      }
+    }
+  >
+    Some more
+  </Text>
+</View>
+`;

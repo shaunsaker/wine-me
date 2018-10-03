@@ -1,0 +1,76 @@
+{
+  "website": {
+    "value": "http://www.nooitgedachtestate.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Koelenhof, Van Riebeeckshof, Stellenbosch, 7605, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 865 2407",
+    "type": "string"
+  },
+  "name": {
+    "value": "Nooitgedacht Estate",
+    "type": "string"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.890296,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.829107,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAWdW6rQgtQ8czwWZCuwMpAN1OtshVAlQnK-QVoNwlyTypECNoHvytEtsF2mFKV4L2R_3n2A-F-toFqsxu_zl7vgYGNF2TUDuBg1Tv0sxvgGvRZnLAqy1mC_age8CpFnPGEhC6Qn5jllTZQ7_Osj_fuTz0GhQxkjQZ-NttFBIlxw4Y8ZJOyEz_vw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA8dgvLFTTAAytZx2HseH-paI5fCWB5PnAbNeuAAzGIegiUlF9j815q-P0dFQvVnasyQ77dEYqj1yWv7tcbonPRGdetJ9_eTYK8hyADzVdWeqAz_MHnb53_zkaOWgTY5mHEhDl3RJgR29-m9WBjWVGFr7BGhQWCRNjT8asaU2DCoNv71TdKp_9Sw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAzzyn0IgN8uO0YEoj_Ssa-dzuNmYb76USBYyc5LLkxsz4TagamUnhzSZptc3pqc3sC8LfpRCedb5uEfRSI-t_C7ROfvaTZBZoONTOiTNOI3aOkXNZIr2G3DE5eYF4MIrvEhB0nNNwopG7xu6T0nYH1Wz8GhS_vbk3-8qO1ztVAywtlD-BxHWqTg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAYP0xUGH96Gy9oYrPaEmfmUoMim-gZ9SFGMtgZJoV98V336wiPHUo47P5CPEfYnxAyIW4exWTJJOyeWXTVkqM-NmkuSeXVY7GJj9WQsmjYW4gIy4cd43YBtf0xmZSzXlxEhDinlt28wO8ETsRUcfwQDqkGhRNOU8KsxdBycRcDHmNN4HeDSIZag",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAptweQrvF_fphYloNudgbs0LoZRWnQk17wSdZI-h_SuZ676pOrg50S3MuAacnmzjt2O9FotIwRoaIZoUotIVJ4x9Df1Q1YIIDP2eUtFk2H89qqSnlJZ5iDPAKe3fA7RXFEhBI4Q1i4rNr_Jy2BE3S73T2GhSUtFsYS9gSDDC3M46eT9qyaygswg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAePHGv--hfjvqcLDiQxw1SKImFp30HFsnvHrPDJq1_qCT9catl15IOucCtR31LJAVdh0wJpfAdVxBa49ZdbjRw74mPH1qSPXGQNlHhqF4F_wOu837xa0gNhym3inHYmFyEhBJljquoxu2BQ2_YvEznjiMGhT3r0ZKhxMddP9PmPtCoTqlqCcUWg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAV0Sx7YvEGGnprY4txzzhdDzOHGO1M_BJfbDM3Tz9YO7BBKDOmbABxGGW1GsNfMk_E2VM2Zuks8fq7ejlrMfJAGacJJpcEr2wnlqQnbBFrp9kUvhVB_BWdyxaESLRGCEKEhDmVAPjLRotNyXJ7KZxjZ4QGhTVAdIYa3YEGZQXxKRivmPcezoyuw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAKSm4WI48ai-eiQQ7OK-ME3IEL4JrDcON0Z45IVOUvxxPaZfZmOiA_BX3KXy-58daXR6SleUtaVtInaemDUt-rnxzpThbkCQCXd0RJ_ge6guNcyIP7WiDKqBVfye_ml5VEhDIY2odi2euo-S-7eBVcMTKGhRd6818gSdkTlOV6BkIfa0xElBpGA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAASox7dlX1k0qJ_QMAnbl13Q2Pjpzk_qc2xG2qeSDWQ4pGVmNgTPFtL1JLVbMd9cPGyCHxp-QwVh4UdmCijVeb9_E01aZ4ZWM9m33Dp4SnyxNMwQ-2njMPZ781KwKJUCwaEhBM9GR8_cAvtmPC0Gy56zJqGhR50ECCtX7VHbjgDUb3vLPWKFe0pg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAP0sVnVKdDSZPBHKANlHjbKOT7ZzFGXrPExW6zrBcQ8fGO-6_QNtf6BRSMcAiMt5VlO8GN0WmuexMAuALkaD385kgUk2zfxodHkZeRAYtcmSDzlXKUQlUKjJfUmbUf0g1EhBG2BlqU_K6HIfNZgguplbBGhSD1gJT2JlSpobJcfGdIQZSTS7CTg",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

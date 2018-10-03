@@ -1,0 +1,109 @@
+{
+  "website": {
+    "value": "http://www.wolfkloof.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "White St, Robertson, 6705, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "074 339 5008",
+    "type": "string"
+  },
+  "name": {
+    "value": "Wolfkloof Wines and Weddings Robertson",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 3:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 3:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 3:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 9:00 AM – 3:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 19.8665665,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.7910783,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAA71PmKRCVZob8VX1KEiqZgmUBksLfRCnOGRYJJN193XL2qoaiDJsFb4_uAuDPQ5uVptS4t2j3fi6gzcqN16SuqQ_C87nTkTB7PdPC6yQcInnDm34S-xoeiIJfvd0XfJVkEhBAxRj48wUsEZ929V08qAWaGhSjrwbONRFO_mmdpASntjHYTvB-bw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAACKplgA0xWT9DX_0U1Rh-IxekFkdNJ5LpN-IQkY54Ncv6g22WZE8KmIB1dhhQndhW_-AZsZzzpP_D60hSAQATw7tiPkls8xuqK7G-ejVcFXviPNi7-85GxJdVUdjr9UVDEhBpt0osUZT7odOP2GmsBX6PGhR2T5xBTIHabIzEsHlC1ltzmkj3yA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAjlkyUJ26dknO9_vYtDrF7H5YUjcu2OC5hM4A3dXHDc-n_P3TEHWSOgKNf-OYxPlO34pJwvHi8T-n0mSbhfReQGt_0n2U6PIS1DaL20BhYPwm8IxO3f9qx0Y-t8LWxI8aEhDNggn5FK0fKvz4RaJk0jM7GhQAHjAoSTyWP1bBt1LYB3LaYGU9Gw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAwcUeK-Oc1WGOBEG8u0ksXsoaG0u-cfW0drFmiECJwfPNfzN1Fqsodf9eB1ZZ_QM__hQslOaGlab81gKVNL4j8NC9T6_9kgqda0lrMzh8R4FrP4s60fCwH0y5i7nNZDZWEhBVTAE9eAVXkyBmXDjnUk-EGhRWSugGKPBqdtr7THAxImnDrAWVWQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAg0t0JHjDV3Ey_xah0yhKCCNvUMOffJPDq4IDLKiHamyvFMdp0FuUoGhJIJNi_mafCvx6dvSR9sbibrHw8byR2O4_mweUa-XFFHr5LZV6-hZm0YKgfp3Zi-odISbXbl_YEhC10JdYF0Vraz0H73SZdc7gGhT9g3SrAP-UG5HoO364yRhKTxGH4g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAOlFH9dfPuoce97NXMPRo58xkN1nmzR52yKM8CfqE86Lp9IqJgsUgFHdEv1vvjlIPHHHf-_Lr2bu7njcPSle_awJolWCUqfILkv8bTpBbxhjyMKfkGHdrKEluuqwLaWUqEhA8joVGdUUjlP-vLgHLAwQnGhTVOI32_betPJzDy7Y9kBePnx6djA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAn81dkdnAlBiIKEaanN7jIZZDqYBCLpBxJOLJDu6MW4j8ckQpLZG4WR9dFPZIxu5G9ia5n7A11HVhXC5db7fOYyacYtfo8MX7tBuZ2M_2ny-_D6hmtViPFLK5ngWRXsLuEhABb18H0lYMI5Oovp5yY5kBGhRHiFcd2JU3UYFfIxu5dbvEEKN7Vg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA3EOJg_zEi-GLpG5KH-hTO1PfImemop5uqN7qQHruAfZu7a0khIj-g7sRTVGo9hFoWKtlU0NzgaSitfjRC6ssTY_U11KhJfL6L86GeyEHHZV7MIEOxB56kIDbpUvQj3dvEhCfqPW7kdUUvkc_BYIRPWDZGhSf8b7EaQw2fZhulYaV2kvQ1nf9RQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA4y2q3qYaG2lDpmGRJRzYg5TKf3SzTmPWCSXDwjcPQpLJ8sZ15mzcvg8piPPOMFi7_ll_PYJJsGuEA6MpUUeib4-_RSPFrghD84QJAue0oPpq_Ofmt5hyYgeLhE6MmN9KEhBVn_FAJ2ROx86furEQKs-kGhSkGoZVeI9Qba1pwe2uojWgc5YDGA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAD07IK8PYx84X8BKupYO18wirpY_LPaFWGk-dXnOzxG9ap8iRQX6IcgzGnDyq5pGhVlETUNIVDJUVWRPS5JbguV6rSUjhXH7wKcnjlYm1LqMVtsfQLcqNf2eELRucIA9ZEhAzllVCl-ek7kXsbxW3G_TWGhReC5q0qt8SRsGi-qnkluVKVlaAIA",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

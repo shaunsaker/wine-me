@@ -1,0 +1,109 @@
+{
+  "website": {
+    "value": "http://www.lanzerac.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "1 Lanzerac Rd, Jonkershoek, Stellenbosch, 7600, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 887 1132",
+    "type": "string"
+  },
+  "name": {
+    "value": "Lanzerac Wine Estate",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 5:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 5:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 5:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 5:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 5:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 9:00 AM – 5:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 9:00 AM – 4:30 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.938299,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.894264,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAMu7m0b_PopJttCJQluJogVk-5_aypVfC_rLGFfp_RiX9fC26hqPIeFMlKSTNdXX1-zKGxKj2aI77NhRpDmKs1mqAemH3aAfZ8645LtwLBA0rcLcslStNMeF2flHF0yyaEhBo4Rk56FfcCgIOgkglpOWTGhQgSi61uCs9LUMbA0IEADFilsvFfA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAEPhYiF6B8jmb78PRk4TtuSCkTBddebfRrxdCVYEv6XgzT7e6zXzh6c4Ut-zkwLHNiuB_JzWofGdmZn0vcRHNMUdlFiO1IGjzG_6jDvuogUjlM5_hrpRI3yKdG1AvNAxlEhDPw_fCMRsQ0tDiRyV9XD8FGhQ88062EADf5Mo6Qg9xjeiRwR4gqg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAArAULv76W9s4or0CriQp-eXOb-jXUAWy0cE6i4sSrLz9iBsL3ehN46j7y1S8PUA3dQtbtM1omoK1pFwCQWexzN2gy91mfghIGAJ93fEHXszlR86ixphAav52YGzg36-vNEhC7M1CCnqL8hBgMA2_1Jr9vGhTFPe_KAneZuNwLJzHAEWHWomgk3A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAL1FfbYQ5N-SzTiqauglfBkewsTIPLYXilwKfM_PygPiWnW5cUNhArE2p1qlCygcNDDUHZpYFcYimlR_VrsQoJL5JkGXD0rfmVyRVP2OQMy59VSNTd98oeM2p--P_j_XzEhCwtELgY4A-ig65OGfs-C_EGhTCBp5CQXntAitEC75oYK724-GakQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAWOv9cMS4TvlW5_ObCwvsksWnwt45oKW8y4AKlKgjhvvTZtiRiessaMqEc3U8DlRHXH-69UFqskmfZOK2CL8EhvjIVLah2ixg9PgsrK_CwUOJq02C5ROMmcr1wGyIEAP1EhC5yEh15C_siZvgc_ofIhDoGhQpYt_Gng7lEHnd2WqJBtQQ7mKaWQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAASr5jHaYmg8HYuVpYTXzc99Ht_M9S1uqMu3C-iG1b8mFbnianiqwJ4XppbObUs0pZVjRLPJptQ5YR77w5stILIkrJLAv67VMOQ1dHRJbYGp68l7MDb2guJSYvWupiDRAHEhCVT_LTMguskofIrjO9F--tGhSRdSnviJ0RGLeQG1y3hsRFVxrTdA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAaDSZX72WYzjlDq49coteev0YCWQQTUTwcyEHtMBCX2lvkjgncocexpDVSuidEwJw8r3bwhseFgz81tCDl9qk3fEKSQJHhlO4G_Mypox8QdCl4pCsFV6XdSKO88sX98SBEhCg0wSmWJzVJVsyYOKCqgA0GhS5zKqEk2yPbIhCFx_XjPH9PDJfCw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA8uimIX9t6lNDUiowdYvqWfF5cQ_G9Zuz9jk8e6XFK2lBQW1r2saM4LNUPnDnn5Hrm4q_9lWvtRTs2bzB8ICHBFndSgTD6_ElYS670-O5XsLdPO4XceCjiQlSqTlz25GnEhAOCv7qrbv1ahbJX4AmKq7VGhTjIDO2U7DawJ-VJbrtFvWNguWccg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAdJK7JA2KUAcoR0B23jgmNF5r3Jna5QbXSJVURCLcTJ3fGjLdRO2JGQ5qvpxw8JqUf-s-xTk3EMdPGcuR7xc2_gYVYjDOmK5Qo-VLGBRIoMqsEc0YNHBku5xtHGvhwMBUEhAhaFbtU1kYPGps361OID4EGhRJAUYG8txVJqa_rv9eHiuOLIyU4A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAkkygmxdrRleuA3tHXHAb4hCKHgIUzp8qRYL8KUKj8vJ_-9uXjKxFGOfvsyuRTnjUbgidtiy8w4k3r4QH2C_ykj6xEkaikUA2dnlcM9BdJ0eMbo3kWq6VOAhUs6aBahYzEhCaZdCl_osC35JNlIhNEE7BGhSqIjU1k1N0B38BM5JGjSp8RXxAkg",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

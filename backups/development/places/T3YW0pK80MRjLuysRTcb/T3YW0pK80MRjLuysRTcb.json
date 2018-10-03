@@ -1,0 +1,76 @@
+{
+  "location": {
+    "value": {
+      "lng": {
+        "value": 18.9803862,
+        "type": "number"
+      },
+      "lat": {
+        "value": -34.1915994,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAZ0FT9JqkNiViPnUadlllxTkoMSB3JVBHrrh71ErCCOhTh0rpJXCv9zut-sMgr_tyWxP30UqKPtj9WuQA9nROA0xGkhCnqRhH6wPerNxS4zUYEj0VH9dT3rAStY94cV4lEhA42gpxAbIcM1UPOBXA15O8GhTysjsC0zsMTbrlQnQkD6axKK6mqw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAxFqhQZ6gUvAC8AKiVIGpvtYlkmiP7rJpSDDSfS2BYmFcTDrAQbm-SSyvt-czvQB_r0JuPOmnsqPxd_jZNT5Oh0Yzoy-pFm338yEi2S1LRsVCP4RJLa89LTBFvcdttzvMEhAXd_MDBD2Ki7IWu6wGU7hsGhRjfQJKvz1qtX9KAZ1in7i5EAfizg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA_RCKh4K3gBjvg52BZP8dr1gj8IcLphNtjsIkwCZeMS6ZLZYUBpdrI1Mzd0lM22-wgnVS0FJ_axoptjPB05dXc9D1-3Orq4LURhtB6tOrbg1jET94AgKds9FZ8NAfwXqDEhCeLzJF8tM-0pFLku0hbNKkGhQQPE3ORoMmYnUPHuPz_gU5CgcCzA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAJiLAAiWrCJo0GPxIuTJuRNLMGWnOEv6BDMEtIP8jNlNYwSBN8zg6LZgTqXHIhhfxAlyYlOBcXyVFWMG-Iqq4KyqaqKX8SemkVENNb0qvMvptSD4pMRaiFV-zz3_Iou_sEhARnBOY5-QBxycJCQwEEuXvGhQGyHWIGEPuvKdd6Xg4XeCE4uIvNw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAHF-H5HEo-h_xXFWiM6Fkxc1eiZC5QgL48ifNpNnkz6F1eTJXmBEQWe3PAz9Lf9y_L-pOuC1rbK-R8dCLp8s6mefUnThwe4aLppSLCbT5PdGxoZESJ7HUNOKhUXRxUX88EhCEo5fA2DpmbQoJ7UkxYxP8GhSuaHflPF1NZkcMJ-BlUCSqkll5sg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAoXXz0Mmie6o276nRZjxSyV4iWUPrAvIDEPOmNOixi9VrhQaOQ8xkgoFC9UUi5sAxo4q_76cKOzsFGcyx2nhgXWE-kIF5x3R6zFqzRzfnqb13MQXoTjBOm9kOJlpQimWwEhBsYJZIHzfvZ5StaR64Cci3GhSDojPDO2gXceJawr-6jANIh2sn0A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAvngi7H2eKVLu_wGtDMnaFepwd4VsnyKIQiNk0E-7LbXMuDNlg15AIEIQpAuRaHqttlzvtopHqxupJNf37kGr1dhEZPQvsoI_IsxkOatxsBcyyfrvtbX8XLffr_h3JbOjEhDLtSakeNgmQjz_0v8LhyPXGhSQiJgQQqkI_V3rXT0vixxjHh5euw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAyvCLwNOsfEW5rqaWxaa26eCbFsuF5d5tJ0XJcgKfes3Ffa_TyxKNLN03nT_IL3peOdyipPb5_p5IVXpcAj3o1on2sRpf22-F_5OUNr_C9CLoq4tRBjvGLWMZw5e06twhEhAsKCIjYeww5tZPIEBGchNmGhTRGmEM3M8_kcL5krqH50W0n4i_RQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAExssE83r26mU-RMENHZZHBayb6UwRG4la5BRjXQdW_f5QsApJiPkLX88w2o4bTVAFn1YQ_XXRY9bbKJXkdFLkPYjm-1NU8c3KNMaMbvV2PvtVedwNAC7aahlCNFjrZg8EhBWYFf1uXHqStgl0s1NYjDUGhSgQjlROBepNRgKF0CX_FUFsAZjMQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAETCbEQrZPGT6cBgqwYPrpAjegRn1xv4BIJoaPVcGzCS5Z7-4Fm49GiD8YkqwjtWI6MJe-qBWwTC-cYfZqjOdCrhbOzgPnB456zmHSTvRsbB_md5hf-E55WgFEwj_FGIaEhC0ZmoIRHAIsXm92ws-_swoGhS24Glcy8fhGKVZfxyuqsOjryaLKg",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.lothianvineyards.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Rockview Dam Rd, Grabouw, Elgin, 7160, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 859 9901",
+    "type": "string"
+  },
+  "name": {
+    "value": "Lothian Vineyards",
+    "type": "string"
+  }
+}

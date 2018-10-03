@@ -1,0 +1,2031 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Place methods should handle setSystemMessage 1`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      Object {
+        "payload": Object {
+          "message": "Test",
+        },
+        "type": "SET_SYSTEM_MESSAGE",
+      },
+    ],
+  ],
+  "results": Array [
+    Object {
+      "isThrow": false,
+      "value": undefined,
+    },
+  ],
+}
+`;
+
+exports[`Place renders renders with minimum required props 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignSelf": "stretch",
+        "backgroundColor": "#FFFFFF",
+        "flex": 1,
+        "paddingTop": 22,
+      },
+      undefined,
+      undefined,
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+          "zIndex": 100,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "height": 22,
+          },
+          Object {
+            "backgroundColor": "#48466D",
+          },
+        ]
+      }
+    />
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "alignSelf": "stretch",
+          "backgroundColor": "#48466D",
+          "paddingHorizontal": 15,
+          "paddingVertical": 10,
+        },
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+        },
+      ]
+    }
+  >
+    <View
+      accessible={true}
+      isTVSelectable={true}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+          "paddingRight": 15,
+          "paddingVertical": 10,
+        }
+      }
+      testID="place.button.back"
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={false}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": undefined,
+              "fontSize": 12,
+            },
+            Object {
+              "color": "#FFFFFF",
+              "fontSize": 28,
+              "marginHorizontal": -9,
+            },
+            Object {
+              "fontFamily": "Material Icons",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#FFFFFF",
+          "fontFamily": "Nunito-SemiBold",
+          "fontSize": 17,
+        }
+      }
+    >
+      Bartinney Tasting Shed
+    </Text>
+  </View>
+  <RCTScrollView>
+    <View>
+      <View
+        style={Object {}}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "marginHorizontal": 15,
+              "marginVertical": 10,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={false}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {
+                  "color": undefined,
+                  "fontSize": 12,
+                },
+                Object {
+                  "color": "#212121",
+                  "fontSize": 18,
+                  "marginRight": 7.5,
+                },
+                Object {
+                  "fontFamily": "Material Icons",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#212121",
+                "fontFamily": "Nunito-SemiBold",
+                "fontSize": 17,
+              }
+            }
+          >
+            Photos
+          </Text>
+        </View>
+        <RCTScrollView
+          contentContainerStyle={
+            Object {
+              "paddingLeft": 40.5,
+            }
+          }
+          data={
+            Array [
+              Object {
+                "uri": "https://maps.googleapis.com/maps/api/place/photo?maxheight=200&photoreference=CmRaAAAAF5bkjtj7bFEGaZqTN1_uZrJMvM6EEOFle3UIDd5JEbZwb281f2F4EH-XR1o6frihMiOzrJEx1KlczmV8o4qLrYygDZE-TKthSRT1SdzvrEQ6AjQbCG6sVeZBR48V0lMLEhDkpyqJh9O9z4Ai-7All7swGhQwTkHxJ77yIZ9d0c8oqWifUrL6eA&key=AIzaSyAu5M0b3zBi4gT50BjpspZnEtCNeyCJwvY",
+              },
+            ]
+          }
+          disableVirtualization={false}
+          getItem={[Function]}
+          getItemCount={[Function]}
+          horizontal={true}
+          initialNumToRender={3}
+          keyExtractor={[Function]}
+          maxToRenderPerBatch={10}
+          numColumns={1}
+          onContentSizeChange={[Function]}
+          onEndReachedThreshold={2}
+          onLayout={[Function]}
+          onMomentumScrollEnd={[Function]}
+          onScroll={[Function]}
+          onScrollBeginDrag={[Function]}
+          onScrollEndDrag={[Function]}
+          renderItem={[Function]}
+          scrollEventThrottle={50}
+          stickyHeaderIndices={Array []}
+          style={Object {}}
+          updateCellsBatchingPeriod={50}
+          viewabilityConfigCallbackPairs={Array []}
+          windowSize={21}
+        >
+          <View>
+            <View
+              onLayout={[Function]}
+              style={
+                Array [
+                  Object {
+                    "flexDirection": "row",
+                  },
+                  null,
+                ]
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "paddingBottom": 10,
+                    "paddingRight": 15,
+                  }
+                }
+              >
+                <View
+                  style={Object {}}
+                >
+                  <View
+                    style={
+                      Array [
+                        Array [
+                          Object {
+                            "flex": 1,
+                            "height": 200,
+                          },
+                          Object {
+                            "borderRadius": 5,
+                            "height": 120,
+                            "overflow": "hidden",
+                            "width": 120,
+                          },
+                        ],
+                        Object {
+                          "overflow": "hidden",
+                        },
+                      ]
+                    }
+                  >
+                    <FastImageView
+                      borderRadius={5}
+                      onFastImageError={[Function]}
+                      onFastImageLoadEnd={[Function]}
+                      onFastImageLoadStart={[Function]}
+                      resizeMode="cover"
+                      source={
+                        Object {
+                          "uri": "https://maps.googleapis.com/maps/api/place/photo?maxheight=200&photoreference=CmRaAAAAF5bkjtj7bFEGaZqTN1_uZrJMvM6EEOFle3UIDd5JEbZwb281f2F4EH-XR1o6frihMiOzrJEx1KlczmV8o4qLrYygDZE-TKthSRT1SdzvrEQ6AjQbCG6sVeZBR48V0lMLEhDkpyqJh9O9z4Ai-7All7swGhQwTkHxJ77yIZ9d0c8oqWifUrL6eA&key=AIzaSyAu5M0b3zBi4gT50BjpspZnEtCNeyCJwvY",
+                        }
+                      }
+                      style={
+                        Object {
+                          "bottom": 0,
+                          "left": 0,
+                          "position": "absolute",
+                          "right": 0,
+                          "top": 0,
+                        }
+                      }
+                    />
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </RCTScrollView>
+      </View>
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+        testID="place.button.maps"
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "marginHorizontal": 15,
+              "marginVertical": 10,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={false}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {
+                  "color": undefined,
+                  "fontSize": 12,
+                },
+                Object {
+                  "color": "#212121",
+                  "fontSize": 18,
+                  "marginRight": 7.5,
+                },
+                Object {
+                  "fontFamily": "Material Icons",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#212121",
+                "fontFamily": "Nunito-SemiBold",
+                "fontSize": 17,
+              }
+            }
+          >
+            Address
+          </Text>
+        </View>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#212121",
+                "fontFamily": "Nunito-Regular",
+                "fontSize": 15,
+                "marginBottom": 10,
+                "marginLeft": 25.5,
+                "paddingHorizontal": 15,
+              },
+              Object {
+                "color": "#3D84A8",
+                "textDecorationLine": "underline",
+              },
+            ]
+          }
+        >
+          Stellenbosch, South Africa
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+        testID="place.button.call"
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "marginHorizontal": 15,
+              "marginVertical": 10,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={false}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {
+                  "color": undefined,
+                  "fontSize": 12,
+                },
+                Object {
+                  "color": "#212121",
+                  "fontSize": 18,
+                  "marginRight": 7.5,
+                },
+                Object {
+                  "fontFamily": "Material Icons",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#212121",
+                "fontFamily": "Nunito-SemiBold",
+                "fontSize": 17,
+              }
+            }
+          >
+            Contact number
+          </Text>
+        </View>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#212121",
+                "fontFamily": "Nunito-Regular",
+                "fontSize": 15,
+                "marginBottom": 10,
+                "marginLeft": 25.5,
+                "paddingHorizontal": 15,
+              },
+              Object {
+                "color": "#3D84A8",
+                "textDecorationLine": "underline",
+              },
+            ]
+          }
+        >
+          021 885 1013
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+        testID="place.button.website"
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "marginHorizontal": 15,
+              "marginVertical": 10,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={false}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {
+                  "color": undefined,
+                  "fontSize": 12,
+                },
+                Object {
+                  "color": "#212121",
+                  "fontSize": 18,
+                  "marginRight": 7.5,
+                },
+                Object {
+                  "fontFamily": "Material Icons",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#212121",
+                "fontFamily": "Nunito-SemiBold",
+                "fontSize": 17,
+              }
+            }
+          >
+            Website
+          </Text>
+        </View>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#212121",
+                "fontFamily": "Nunito-Regular",
+                "fontSize": 15,
+                "marginBottom": 10,
+                "marginLeft": 25.5,
+                "paddingHorizontal": 15,
+              },
+              Object {
+                "color": "#3D84A8",
+                "textDecorationLine": "underline",
+              },
+            ]
+          }
+        >
+          http://www.bartinney.co.za
+        </Text>
+      </View>
+      <View
+        style={Object {}}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "marginHorizontal": 15,
+              "marginVertical": 10,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={false}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {
+                  "color": undefined,
+                  "fontSize": 12,
+                },
+                Object {
+                  "color": "#212121",
+                  "fontSize": 18,
+                  "marginRight": 7.5,
+                },
+                Object {
+                  "fontFamily": "Material Icons",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#212121",
+                "fontFamily": "Nunito-SemiBold",
+                "fontSize": 17,
+              }
+            }
+          >
+            Opening hours
+          </Text>
+        </View>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#212121",
+              "fontFamily": "Nunito-Regular",
+              "fontSize": 15,
+              "marginBottom": 10,
+              "marginLeft": 25.5,
+              "paddingHorizontal": 15,
+            }
+          }
+        >
+          Monday: 12:00 – 5:00 PM
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#212121",
+              "fontFamily": "Nunito-Regular",
+              "fontSize": 15,
+              "marginBottom": 10,
+              "marginLeft": 25.5,
+              "paddingHorizontal": 15,
+            }
+          }
+        >
+          Tuesday: 12:00 – 5:00 PM
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#212121",
+              "fontFamily": "Nunito-Regular",
+              "fontSize": 15,
+              "marginBottom": 10,
+              "marginLeft": 25.5,
+              "paddingHorizontal": 15,
+            }
+          }
+        >
+          Wednesday: 12:00 – 5:00 PM
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#212121",
+              "fontFamily": "Nunito-Regular",
+              "fontSize": 15,
+              "marginBottom": 10,
+              "marginLeft": 25.5,
+              "paddingHorizontal": 15,
+            }
+          }
+        >
+          Thursday: 12:00 – 5:00 PM
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#212121",
+              "fontFamily": "Nunito-Regular",
+              "fontSize": 15,
+              "marginBottom": 10,
+              "marginLeft": 25.5,
+              "paddingHorizontal": 15,
+            }
+          }
+        >
+          Friday: 12:00 – 8:00 PM
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#212121",
+              "fontFamily": "Nunito-Regular",
+              "fontSize": 15,
+              "marginBottom": 10,
+              "marginLeft": 25.5,
+              "paddingHorizontal": 15,
+            }
+          }
+        >
+          Saturday: 10:00 AM – 12:30 PM
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#212121",
+              "fontFamily": "Nunito-Regular",
+              "fontSize": 15,
+              "marginBottom": 10,
+              "marginLeft": 25.5,
+              "paddingHorizontal": 15,
+            }
+          }
+        >
+          Sunday: Closed
+        </Text>
+      </View>
+    </View>
+  </RCTScrollView>
+  <CheckIn
+    place={
+      Object {
+        "address": "Stellenbosch, South Africa",
+        "id": "1",
+        "location": Object {
+          "lat": -33.9263749,
+          "lng": 18.9319848,
+        },
+        "name": "Bartinney Tasting Shed",
+        "openingHours": Array [
+          "Monday: 12:00 – 5:00 PM",
+          "Tuesday: 12:00 – 5:00 PM",
+          "Wednesday: 12:00 – 5:00 PM",
+          "Thursday: 12:00 – 5:00 PM",
+          "Friday: 12:00 – 8:00 PM",
+          "Saturday: 10:00 AM – 12:30 PM",
+          "Sunday: Closed",
+        ],
+        "phoneNumber": "021 885 1013",
+        "photoReferences": Array [
+          "CmRaAAAAF5bkjtj7bFEGaZqTN1_uZrJMvM6EEOFle3UIDd5JEbZwb281f2F4EH-XR1o6frihMiOzrJEx1KlczmV8o4qLrYygDZE-TKthSRT1SdzvrEQ6AjQbCG6sVeZBR48V0lMLEhDkpyqJh9O9z4Ai-7All7swGhQwTkHxJ77yIZ9d0c8oqWifUrL6eA",
+        ],
+        "website": "http://www.bartinney.co.za",
+      }
+    }
+  />
+</View>
+`;
+
+exports[`Place renders should render the no opening hours state 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignSelf": "stretch",
+        "backgroundColor": "#FFFFFF",
+        "flex": 1,
+        "paddingTop": 22,
+      },
+      undefined,
+      undefined,
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+          "zIndex": 100,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "height": 22,
+          },
+          Object {
+            "backgroundColor": "#48466D",
+          },
+        ]
+      }
+    />
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "alignSelf": "stretch",
+          "backgroundColor": "#48466D",
+          "paddingHorizontal": 15,
+          "paddingVertical": 10,
+        },
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+        },
+      ]
+    }
+  >
+    <View
+      accessible={true}
+      isTVSelectable={true}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+          "paddingRight": 15,
+          "paddingVertical": 10,
+        }
+      }
+      testID="place.button.back"
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={false}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": undefined,
+              "fontSize": 12,
+            },
+            Object {
+              "color": "#FFFFFF",
+              "fontSize": 28,
+              "marginHorizontal": -9,
+            },
+            Object {
+              "fontFamily": "Material Icons",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#FFFFFF",
+          "fontFamily": "Nunito-SemiBold",
+          "fontSize": 17,
+        }
+      }
+    >
+      Bartinney Tasting Shed
+    </Text>
+  </View>
+  <RCTScrollView>
+    <View>
+      <View
+        style={Object {}}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "marginHorizontal": 15,
+              "marginVertical": 10,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={false}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {
+                  "color": undefined,
+                  "fontSize": 12,
+                },
+                Object {
+                  "color": "#212121",
+                  "fontSize": 18,
+                  "marginRight": 7.5,
+                },
+                Object {
+                  "fontFamily": "Material Icons",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#212121",
+                "fontFamily": "Nunito-SemiBold",
+                "fontSize": 17,
+              }
+            }
+          >
+            Photos
+          </Text>
+        </View>
+        <RCTScrollView
+          contentContainerStyle={
+            Object {
+              "paddingLeft": 40.5,
+            }
+          }
+          data={
+            Array [
+              Object {
+                "uri": "https://maps.googleapis.com/maps/api/place/photo?maxheight=200&photoreference=CmRaAAAAF5bkjtj7bFEGaZqTN1_uZrJMvM6EEOFle3UIDd5JEbZwb281f2F4EH-XR1o6frihMiOzrJEx1KlczmV8o4qLrYygDZE-TKthSRT1SdzvrEQ6AjQbCG6sVeZBR48V0lMLEhDkpyqJh9O9z4Ai-7All7swGhQwTkHxJ77yIZ9d0c8oqWifUrL6eA&key=AIzaSyAu5M0b3zBi4gT50BjpspZnEtCNeyCJwvY",
+              },
+            ]
+          }
+          disableVirtualization={false}
+          getItem={[Function]}
+          getItemCount={[Function]}
+          horizontal={true}
+          initialNumToRender={3}
+          keyExtractor={[Function]}
+          maxToRenderPerBatch={10}
+          numColumns={1}
+          onContentSizeChange={[Function]}
+          onEndReachedThreshold={2}
+          onLayout={[Function]}
+          onMomentumScrollEnd={[Function]}
+          onScroll={[Function]}
+          onScrollBeginDrag={[Function]}
+          onScrollEndDrag={[Function]}
+          renderItem={[Function]}
+          scrollEventThrottle={50}
+          stickyHeaderIndices={Array []}
+          style={Object {}}
+          updateCellsBatchingPeriod={50}
+          viewabilityConfigCallbackPairs={Array []}
+          windowSize={21}
+        >
+          <View>
+            <View
+              onLayout={[Function]}
+              style={
+                Array [
+                  Object {
+                    "flexDirection": "row",
+                  },
+                  null,
+                ]
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "paddingBottom": 10,
+                    "paddingRight": 15,
+                  }
+                }
+              >
+                <View
+                  style={Object {}}
+                >
+                  <View
+                    style={
+                      Array [
+                        Array [
+                          Object {
+                            "flex": 1,
+                            "height": 200,
+                          },
+                          Object {
+                            "borderRadius": 5,
+                            "height": 120,
+                            "overflow": "hidden",
+                            "width": 120,
+                          },
+                        ],
+                        Object {
+                          "overflow": "hidden",
+                        },
+                      ]
+                    }
+                  >
+                    <FastImageView
+                      borderRadius={5}
+                      onFastImageError={[Function]}
+                      onFastImageLoadEnd={[Function]}
+                      onFastImageLoadStart={[Function]}
+                      resizeMode="cover"
+                      source={
+                        Object {
+                          "uri": "https://maps.googleapis.com/maps/api/place/photo?maxheight=200&photoreference=CmRaAAAAF5bkjtj7bFEGaZqTN1_uZrJMvM6EEOFle3UIDd5JEbZwb281f2F4EH-XR1o6frihMiOzrJEx1KlczmV8o4qLrYygDZE-TKthSRT1SdzvrEQ6AjQbCG6sVeZBR48V0lMLEhDkpyqJh9O9z4Ai-7All7swGhQwTkHxJ77yIZ9d0c8oqWifUrL6eA&key=AIzaSyAu5M0b3zBi4gT50BjpspZnEtCNeyCJwvY",
+                        }
+                      }
+                      style={
+                        Object {
+                          "bottom": 0,
+                          "left": 0,
+                          "position": "absolute",
+                          "right": 0,
+                          "top": 0,
+                        }
+                      }
+                    />
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </RCTScrollView>
+      </View>
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+        testID="place.button.maps"
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "marginHorizontal": 15,
+              "marginVertical": 10,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={false}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {
+                  "color": undefined,
+                  "fontSize": 12,
+                },
+                Object {
+                  "color": "#212121",
+                  "fontSize": 18,
+                  "marginRight": 7.5,
+                },
+                Object {
+                  "fontFamily": "Material Icons",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#212121",
+                "fontFamily": "Nunito-SemiBold",
+                "fontSize": 17,
+              }
+            }
+          >
+            Address
+          </Text>
+        </View>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#212121",
+                "fontFamily": "Nunito-Regular",
+                "fontSize": 15,
+                "marginBottom": 10,
+                "marginLeft": 25.5,
+                "paddingHorizontal": 15,
+              },
+              Object {
+                "color": "#3D84A8",
+                "textDecorationLine": "underline",
+              },
+            ]
+          }
+        >
+          Stellenbosch, South Africa
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+        testID="place.button.call"
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "marginHorizontal": 15,
+              "marginVertical": 10,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={false}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {
+                  "color": undefined,
+                  "fontSize": 12,
+                },
+                Object {
+                  "color": "#212121",
+                  "fontSize": 18,
+                  "marginRight": 7.5,
+                },
+                Object {
+                  "fontFamily": "Material Icons",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#212121",
+                "fontFamily": "Nunito-SemiBold",
+                "fontSize": 17,
+              }
+            }
+          >
+            Contact number
+          </Text>
+        </View>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#212121",
+                "fontFamily": "Nunito-Regular",
+                "fontSize": 15,
+                "marginBottom": 10,
+                "marginLeft": 25.5,
+                "paddingHorizontal": 15,
+              },
+              Object {
+                "color": "#3D84A8",
+                "textDecorationLine": "underline",
+              },
+            ]
+          }
+        >
+          021 885 1013
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+        testID="place.button.website"
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "marginHorizontal": 15,
+              "marginVertical": 10,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={false}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {
+                  "color": undefined,
+                  "fontSize": 12,
+                },
+                Object {
+                  "color": "#212121",
+                  "fontSize": 18,
+                  "marginRight": 7.5,
+                },
+                Object {
+                  "fontFamily": "Material Icons",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#212121",
+                "fontFamily": "Nunito-SemiBold",
+                "fontSize": 17,
+              }
+            }
+          >
+            Website
+          </Text>
+        </View>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#212121",
+                "fontFamily": "Nunito-Regular",
+                "fontSize": 15,
+                "marginBottom": 10,
+                "marginLeft": 25.5,
+                "paddingHorizontal": 15,
+              },
+              Object {
+                "color": "#3D84A8",
+                "textDecorationLine": "underline",
+              },
+            ]
+          }
+        >
+          http://www.bartinney.co.za
+        </Text>
+      </View>
+    </View>
+  </RCTScrollView>
+  <CheckIn
+    place={
+      Object {
+        "address": "Stellenbosch, South Africa",
+        "id": "1",
+        "location": Object {
+          "lat": -33.9263749,
+          "lng": 18.9319848,
+        },
+        "name": "Bartinney Tasting Shed",
+        "openingHours": null,
+        "phoneNumber": "021 885 1013",
+        "photoReferences": Array [
+          "CmRaAAAAF5bkjtj7bFEGaZqTN1_uZrJMvM6EEOFle3UIDd5JEbZwb281f2F4EH-XR1o6frihMiOzrJEx1KlczmV8o4qLrYygDZE-TKthSRT1SdzvrEQ6AjQbCG6sVeZBR48V0lMLEhDkpyqJh9O9z4Ai-7All7swGhQwTkHxJ77yIZ9d0c8oqWifUrL6eA",
+        ],
+        "website": "http://www.bartinney.co.za",
+      }
+    }
+  />
+</View>
+`;
+
+exports[`Place renders should render the no photos state 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignSelf": "stretch",
+        "backgroundColor": "#FFFFFF",
+        "flex": 1,
+        "paddingTop": 22,
+      },
+      undefined,
+      undefined,
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+          "zIndex": 100,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "height": 22,
+          },
+          Object {
+            "backgroundColor": "#48466D",
+          },
+        ]
+      }
+    />
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "alignSelf": "stretch",
+          "backgroundColor": "#48466D",
+          "paddingHorizontal": 15,
+          "paddingVertical": 10,
+        },
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+        },
+      ]
+    }
+  >
+    <View
+      accessible={true}
+      isTVSelectable={true}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+          "paddingRight": 15,
+          "paddingVertical": 10,
+        }
+      }
+      testID="place.button.back"
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={false}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": undefined,
+              "fontSize": 12,
+            },
+            Object {
+              "color": "#FFFFFF",
+              "fontSize": 28,
+              "marginHorizontal": -9,
+            },
+            Object {
+              "fontFamily": "Material Icons",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#FFFFFF",
+          "fontFamily": "Nunito-SemiBold",
+          "fontSize": 17,
+        }
+      }
+    >
+      Bartinney Tasting Shed
+    </Text>
+  </View>
+  <RCTScrollView>
+    <View>
+      <View
+        style={Object {}}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "marginHorizontal": 15,
+              "marginVertical": 10,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={false}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {
+                  "color": undefined,
+                  "fontSize": 12,
+                },
+                Object {
+                  "color": "#212121",
+                  "fontSize": 18,
+                  "marginRight": 7.5,
+                },
+                Object {
+                  "fontFamily": "Material Icons",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#212121",
+                "fontFamily": "Nunito-SemiBold",
+                "fontSize": 17,
+              }
+            }
+          >
+            Photos
+          </Text>
+        </View>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#212121",
+              "fontFamily": "Nunito-Regular",
+              "fontSize": 15,
+              "marginBottom": 10,
+              "marginLeft": 25.5,
+              "paddingHorizontal": 15,
+            }
+          }
+        >
+          No photos to display.
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+        testID="place.button.maps"
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "marginHorizontal": 15,
+              "marginVertical": 10,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={false}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {
+                  "color": undefined,
+                  "fontSize": 12,
+                },
+                Object {
+                  "color": "#212121",
+                  "fontSize": 18,
+                  "marginRight": 7.5,
+                },
+                Object {
+                  "fontFamily": "Material Icons",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#212121",
+                "fontFamily": "Nunito-SemiBold",
+                "fontSize": 17,
+              }
+            }
+          >
+            Address
+          </Text>
+        </View>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#212121",
+                "fontFamily": "Nunito-Regular",
+                "fontSize": 15,
+                "marginBottom": 10,
+                "marginLeft": 25.5,
+                "paddingHorizontal": 15,
+              },
+              Object {
+                "color": "#3D84A8",
+                "textDecorationLine": "underline",
+              },
+            ]
+          }
+        >
+          Stellenbosch, South Africa
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+        testID="place.button.call"
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "marginHorizontal": 15,
+              "marginVertical": 10,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={false}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {
+                  "color": undefined,
+                  "fontSize": 12,
+                },
+                Object {
+                  "color": "#212121",
+                  "fontSize": 18,
+                  "marginRight": 7.5,
+                },
+                Object {
+                  "fontFamily": "Material Icons",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#212121",
+                "fontFamily": "Nunito-SemiBold",
+                "fontSize": 17,
+              }
+            }
+          >
+            Contact number
+          </Text>
+        </View>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#212121",
+                "fontFamily": "Nunito-Regular",
+                "fontSize": 15,
+                "marginBottom": 10,
+                "marginLeft": 25.5,
+                "paddingHorizontal": 15,
+              },
+              Object {
+                "color": "#3D84A8",
+                "textDecorationLine": "underline",
+              },
+            ]
+          }
+        >
+          021 885 1013
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+        testID="place.button.website"
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "marginHorizontal": 15,
+              "marginVertical": 10,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={false}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {
+                  "color": undefined,
+                  "fontSize": 12,
+                },
+                Object {
+                  "color": "#212121",
+                  "fontSize": 18,
+                  "marginRight": 7.5,
+                },
+                Object {
+                  "fontFamily": "Material Icons",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#212121",
+                "fontFamily": "Nunito-SemiBold",
+                "fontSize": 17,
+              }
+            }
+          >
+            Website
+          </Text>
+        </View>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#212121",
+                "fontFamily": "Nunito-Regular",
+                "fontSize": 15,
+                "marginBottom": 10,
+                "marginLeft": 25.5,
+                "paddingHorizontal": 15,
+              },
+              Object {
+                "color": "#3D84A8",
+                "textDecorationLine": "underline",
+              },
+            ]
+          }
+        >
+          http://www.bartinney.co.za
+        </Text>
+      </View>
+      <View
+        style={Object {}}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "marginHorizontal": 15,
+              "marginVertical": 10,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={false}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {
+                  "color": undefined,
+                  "fontSize": 12,
+                },
+                Object {
+                  "color": "#212121",
+                  "fontSize": 18,
+                  "marginRight": 7.5,
+                },
+                Object {
+                  "fontFamily": "Material Icons",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#212121",
+                "fontFamily": "Nunito-SemiBold",
+                "fontSize": 17,
+              }
+            }
+          >
+            Opening hours
+          </Text>
+        </View>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#212121",
+              "fontFamily": "Nunito-Regular",
+              "fontSize": 15,
+              "marginBottom": 10,
+              "marginLeft": 25.5,
+              "paddingHorizontal": 15,
+            }
+          }
+        >
+          Monday: 12:00 – 5:00 PM
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#212121",
+              "fontFamily": "Nunito-Regular",
+              "fontSize": 15,
+              "marginBottom": 10,
+              "marginLeft": 25.5,
+              "paddingHorizontal": 15,
+            }
+          }
+        >
+          Tuesday: 12:00 – 5:00 PM
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#212121",
+              "fontFamily": "Nunito-Regular",
+              "fontSize": 15,
+              "marginBottom": 10,
+              "marginLeft": 25.5,
+              "paddingHorizontal": 15,
+            }
+          }
+        >
+          Wednesday: 12:00 – 5:00 PM
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#212121",
+              "fontFamily": "Nunito-Regular",
+              "fontSize": 15,
+              "marginBottom": 10,
+              "marginLeft": 25.5,
+              "paddingHorizontal": 15,
+            }
+          }
+        >
+          Thursday: 12:00 – 5:00 PM
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#212121",
+              "fontFamily": "Nunito-Regular",
+              "fontSize": 15,
+              "marginBottom": 10,
+              "marginLeft": 25.5,
+              "paddingHorizontal": 15,
+            }
+          }
+        >
+          Friday: 12:00 – 8:00 PM
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#212121",
+              "fontFamily": "Nunito-Regular",
+              "fontSize": 15,
+              "marginBottom": 10,
+              "marginLeft": 25.5,
+              "paddingHorizontal": 15,
+            }
+          }
+        >
+          Saturday: 10:00 AM – 12:30 PM
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#212121",
+              "fontFamily": "Nunito-Regular",
+              "fontSize": 15,
+              "marginBottom": 10,
+              "marginLeft": 25.5,
+              "paddingHorizontal": 15,
+            }
+          }
+        >
+          Sunday: Closed
+        </Text>
+      </View>
+    </View>
+  </RCTScrollView>
+  <CheckIn
+    place={
+      Object {
+        "address": "Stellenbosch, South Africa",
+        "id": "1",
+        "location": Object {
+          "lat": -33.9263749,
+          "lng": 18.9319848,
+        },
+        "name": "Bartinney Tasting Shed",
+        "openingHours": Array [
+          "Monday: 12:00 – 5:00 PM",
+          "Tuesday: 12:00 – 5:00 PM",
+          "Wednesday: 12:00 – 5:00 PM",
+          "Thursday: 12:00 – 5:00 PM",
+          "Friday: 12:00 – 8:00 PM",
+          "Saturday: 10:00 AM – 12:30 PM",
+          "Sunday: Closed",
+        ],
+        "phoneNumber": "021 885 1013",
+        "photoReferences": Array [],
+        "website": "http://www.bartinney.co.za",
+      }
+    }
+  />
+</View>
+`;

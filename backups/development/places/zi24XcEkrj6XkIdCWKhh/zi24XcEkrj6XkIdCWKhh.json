@@ -1,0 +1,109 @@
+{
+  "website": {
+    "value": "http://www.bartinney.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Stellenbosch, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 885 1013",
+    "type": "string"
+  },
+  "name": {
+    "value": "Bartinney Tasting Shed",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 12:00 – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 12:00 – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 12:00 – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 12:00 – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 12:00 – 8:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 12:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.9263749,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.9319848,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAEUPNRTlFuX0Zm6nOT0cgQrZRvkBmT-cByFfvUQvGHFn3fLgMiuCDtj_eeTSowV4__nb_gQpUE0ayYP11GK3mydfK5h7RfFqiQOCPhZasoa_Xk5D9KyCzks9QeUB5Oe-2EhC7qBOR_Sa60wG-kVQrv6ucGhTsq23MHwxX8zRfS_48spnEPJusFQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA_s_6VoKR643oKRFb8lfCJl_CbuMJJ8NrBfw1n6XUXVmF61tYJREH5ryaDG7a1rLLJ-irvJ2KGd2iHklvqz9iK51kXgMd5Jy79k_aBQ_T3mkqnQV2mutUkFBEMJ94WRWPEhB5wJOHV8hMjqGY9xMSQbxHGhQqbv8yrssDVF-p251F2puN-BMZUA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA0VLdljV63rPdC3D-gG6GVQt3Y8c3EfgMDz49HNlVlGo3wkYlUZbCQBllfPZoWS8ixTJdbSdoX8oJ2rWWDznQPjOXs7FJVueoP9M2crHyeqLIxSKbdixhAGLQ7oFIyWKpEhDWijEnOoth_yErtPpSm5WqGhTa9ghHLuLoOBsok3dXRKDGN-b4nA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA7SNiHikCfHLEh2IncT93E9o6NDg2ojoSkRz6G__QGR5pAu2PqzEy_2-viY_h5nnYW_3GJ-zREFW1UvxkTrPRqwHYt2aZu-FR_TypeVRLNpBuOWVcCTlcICFMJrFMuxIVEhA2JvJ-0yFN8YJGsl2FQmDdGhQghjX5MmDqskXbnb7lkC_zfjMgFA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA3CDjUv5d3rR7138cVZciqx_d4W9f1v5MWg0H_42DZELzR8sFQ2uHfLM4q8Aj7Wh9YvJSTkL8TzS3KcPLy_ecIaaEq6IFr38rOEXJLeuqu_UTvIksoyUI58gsH-c8m3IbEhAcqW869o6LDMR6Mzbtr_mDGhTJ4PYlCCSNQxW8_Y9vPCZmuqDZ7g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAEoI1mnM00pfL6Mo9p1LF0JVQuYOFEdcaPOZ89UEPr2je-RJWznyp0XF_NkHuOVz9KAL-rraoi-d1PH9WRQ_eQ4wjWaJZtbez4CN8V8qpi6z7Kbky0ga3yEI1O0kVzEP2EhCzpXXStrSWrRxV8fLIY-TwGhQnbPtGgWI0MDdu11KfAtb0-k_fDg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA5DFjtP7AHV6O1TdOqbxcZabGwOy4sxId4Snl-iBkRg9zzdep4LtTrPZO970p0XSwGvtRr5XDQ8SDWDLAUKWNhfH7EAsxaLb-QqOxm5v8HbFEOdftEdcQxaEHW1r3M7d4EhAGWrWWCo2VT15ogIJH4dzkGhQFIVTkEi7TCeAHY8-t3Dw7YyHdLA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAvuSaTCkF18R4I0qd_zjlBOy0bgS6eHtrcoJmXylN1NmawtsdzyyWe3qbf45qfhXwzsrUZpOBTsU5FNbBHeq-bJOQ8JA8HLO92uLz0MjfojF1_tv2FS5K-P695FIH3SKcEhA-THWBAzpzYSJhqeij18TqGhTBlwNdi7HC3d5f4A8D8B4Y3-vMgA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAmKVvVuwmQQgw__mFWUjlOJSZeG3woL3OzIguGdUqSK4-sLBZxUauYNHtg4iMSncxiN56lmP5sjce8UuEc-Eyh_TuQ_uu80H_up7zVNKjqJ3uFFwZdK8gQm4E_SXTnOsXEhAWgcdazFYeAfxJduKsYzm3GhRYelkJlZ5Qjb6sd-EwIRw38GQJDg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAADGPoAPBKqSPpJUSsiL3ZGUkY7DMHNPOl3BWq1q0-6ew1qSIdXe2QWm6zXww2l8i8bpWBVet37TeHgY5cFtBPooa0AG4WFJ1YWcPQzdhm9QFJkzBGkaQHs85DKuObq9mZEhBvQVdeix8uC7-gb_etdUBjGhQha1AUwivmj1lJcOxzJyXVDXsHeQ",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

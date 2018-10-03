@@ -1,0 +1,52 @@
+{
+  "location": {
+    "value": {
+      "lng": {
+        "value": 18.7814498,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.9268746,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAK8tjCn2PHOSxf1aHA7hDSlxbUIJ4ug1YcMyqFC8RFFccdQzxs9LNOqvpi-NYdz6F9UPVg-jvDNB4rSzUjazExcKy57OHrWdg422XMP0sHDr8R5OdCbHg7d0mYsdPg6H7EhC1YjTEDTbXyATT84wqP_WqGhQdqlR96s6pfBtO6BK4hcyAPSQuKw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAALKe7JvHvOiPPjqA4EknwY3mXV483_HTf_NFXpqHTn41JOXhCfpPBamICQqtmDHMkCR_rXL7r4XgzQD3Fl_w3Cln2FrBxWZz5PqXXS8EnbXnKLl0yX2GSE1hPFY7clvf-EhDY2KiCMxiRwWJjZjbzX1s7GhQj10uva_i9lddQi-FTMpjzKf1N7w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA8nOMZaMXuii2QZMqLxDXAkFYrEe0Meg91IQWab4T5mDVrSrM88idFC1qjl1wE3fOFnQ4qWgHTXUmU522A7jhk7MLz3muAnpQIz_4FtBwbMt-YPUnFP3Z-2pk8U9zU7ZuEhB8bd7I5UTO8oTxKZWGXttCGhRwMw8Z7DRVARKaFd398RAgRwWJHw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAF2A-GRdG34DAgREy9FFrrg6-ndobFv9XBRMWaaxRLT5oHl7udGaAKAzAMxRpAXy1iVqzVabVx8GFPTShDY1b2G3eq6DvuT5NzECms31nm9Ip7yGdNuG6l4DuT23YEu9MEhBx2ucaE426NlHYyfOFbFFDGhSpKH9fy1BgdFhsym8AcTmNZCqjbA",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.lolivierestate.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Stellenbosch Kloof Road, Stellenbosch, Cape Town, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 881 3218",
+    "type": "string"
+  },
+  "name": {
+    "value": "L'Olivier Wine & Olive Estate",
+    "type": "string"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "website": {
+    "value": "http://www.hillcrestfarm.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Cape Farms, Cape Town, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 970 5800",
+    "type": "string"
+  },
+  "name": {
+    "value": "Hillcrest Estate",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.8263021,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.5902352,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAgu9ufpWT0Cz5KT96r3uBU-PamNVkBfbI2b2uv168hLZSoCpWwsxKbxvd59OBZ3sEdRdSpmJBSyyZa5D6apF9XesCUjPggUzIj9PKnlTBpapVCZT6lLaWpmlc6ny70MupEhCdKQr35qahUw3kCbl4wnKaGhRNCkgCckLOKOgUXLngMltbpfRlMQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAt3uHM77ab5dMowFZ-Qxy4XQ2fEuizLXHbR8fAzApMfSSrlhLQhH_RL2admgW4zleCUYo9T0j3mrf1OP-5J5h8VB3xS5HBdgj9hGGR2VILnNCga5b7uh2XeJHIAjx-572EhCUBaYXTnSnImYUGuIzXtXYGhT3zKNTnXOYg8Qde91dhnSl54stKA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA8_ugzH-6ToEuXRqQly0mPtQ4llAyIdBm3-NoA1LIpcyHz4rgDpQTx4mWMzrJUXMG-v721KN5aAfAkQoSpnS_zstHOkZiDKWvS-GXWuob7xrmBXCpFXs5ChBNXmaQzvUtEhBsGPidylGvT5Ijt3jiliW8GhQzUdzFJUaahmMYhpfxe43wpfzZQw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA1r1uEz6uALpK0CJLn4aKI_iKNqfKToJJjVpsHKBgWum-G9sDByyxi_EJZ7y1lOxUBU-BkGBayNfH42kdGvDZk0qlr4bppidrbfM-zw8LNTrLmcsAEuWQevhtrpXJtRa0EhD5_XhRZQ8dc9Yn1-2FR0mGGhQ4dgXlj9xuu0CgEpzNWMwRgtDzjA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAAdtgiw_iWAhUI2Z7bLeWvQPx92m0GDK8wMOCEH5ozTitFdXL4ZeICMpJj7PdnFYbqLjquNS6WqB-MLPWnitUQDAeuXqnFNfmHseTZcfXyfJ1XYHR143_EUcMEshNQ5FNEhAoviZd-PiCRscBQ5yPHbJJGhQNvFaoSXlJakOCSwarF72Af_S_5Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAMghXKPhSeZQRxgoqMMGyXE5Q77oGm_MkIoa39nlxw_kzwYU88560ztc11zm-sGMWxF8qwOFPy-ephufWwShjcGT0PV9wp4u4TauQFgvIJ8z8RHQq7zL_vg_XjIsvzbVdEhDfmTsAiPJmIAZvoAJkIWCPGhRyOx4zvVRCo7E_l-QVelqvVUtnwQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAnPtnz7hWpQqgp_f4AAqGXe0pymsK2dwHxqpmWfScgdd_WlTTmnbvWJ-FmkDwp0sASwi1wMbem-HqEk_dO2OE6fKvH3uO-yKSOr3CAghi4gtHLkxKK1DYtGTfQFdInxMJEhBZv2yHB7eVZ6SRg2BLMZS9GhTwgWsf2HMsLYzu0VngDDI80-bghw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAhJlvggM48p-u6aA-DxpnfYgSe_jvUuZ5Ti6jilPhzMEW6nqib_ytoxiglO9UALp9lnHzIoPOw4CvCjDOaMCp4uXCtHeuYYR5oA8jYR29MHaxn8Tw7l567p1WA4RhobsqEhBv-7GL36XMIU23Uso3EDCUGhRtvy4sI6gpEi_vLcONh0HQf4hp-g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAjzSDameqLQeIiWxXrqhSJJmg2zyqWLKQCQMpm6V4Y0parkAYkEdhRXBLOdTkRe_RgzEqCCHx17WnlU58HMKGrIOPKpD8OzIPAGwwcfEbMR1XO7h0QuNRd4GyekKYeX35EhDBnOogu1_Ip6e0gG77SArQGhRh9gMoN9hY4Jiu6iIsptD5aIg38g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAALW93Yn0j-Ehq-_20wTWLgGN6-fHYXqLQK6Mje7LWLZA7B1btqkZlJEfzNNHwxSB349RjhXZdweOzTmfAZ6CPqDXSu3cHTghyxwL_UdXZAJ6PT0y_lLBEgGXnKbk-imEpEhDhVYu-LmAIDDD5Gt2yVtNEGhRO3S4orFvPa53xp8WCCUZx93KqXQ",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

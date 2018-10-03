@@ -1,0 +1,76 @@
+{
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.9008148,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.719137,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAALZrEnmf1bXHCByAYBkR8yPMXoBkVJcUiIRZAl8XNGMHdXDmY5dFiB_mJdOigusUKdIcyZdvDY1QRnKS5LEhhqZnrbu7DTtxLxgvmtdsT_RTRKZ5tUW9L9d826WNMsP_hEhALmPvmNDxuEM4jxepItbpUGhTp8CSzNRw1InQKGRryBUx6ni7OSA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAOaNjBPGCnqOahUbmNM6ClUWDN4YmUyCGvCfS_EcWMVL4QWK7MXPTGkiuap1OTddY8L908yxS0joltOJMl2vNzSnxFpivMhj-k7ECDSbjHYTldu0SGikz6o7EHIOH4MzUEhA2-VCu4-JRlTdw0N9nI7vJGhTewGWINmocBAWPaUDok4QqvIaQGQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAF5NGH0K67TtOFDSWYbHRcwnAcWUSCvIq6rNsU4GJBBROERBSt8uRr3xZlMx0FU2kBKYosUNlCSX8ElAVWAsRY6Dr3HAXF4GicT0p5OjCtvtUXSe_EpFNo2YNJOsAnvQuEhDpCZTwZIvWd_biiUNkdMfaGhSGKdRw1JwmBxLhA8Ixx13VFAdlGw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAApc80mXy6UyL6ZOmMYO5CoAkSgRH55Lj0ZzSU8UzktgDLf29mp5YhVGuSh1pltOPdY41nYQL84zGdd79kFDUzHXm6t0fWzUOcssb68qVfLmEi6LLKGqRtyKaun6B9Z0gjEhBRlwEutwA0h5vREU3r6EX8GhT7Ye_F3fP7z61fNA82l8Tv6CidYA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAmtSoA9pnQVJn5CAkBJS09bfTV1tiqEYJiY4Jwk-Rt0TeiDfzQZHs-FZy5fgUcPAjqUqoifvWSuBAL5tERNxAbVecpIXln42BJM_j7xbe7KHQ3pSlDAh3uK0OgZXkugroEhDXEWcVXlneNWyHkxtHAIQiGhSTLPRVl9U6RggPxZx_znMrXBdjXw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAAy1q037fkb0HFvj6o68PPjJXmFqCM1_toiwGkyfENlW0L8pFi3xPWBcVn5yPYilTZPmlIV10Sw4A_Uhk4Y2dGxaYZGVSldC-C0wOpRc75tegWirMp09YMaDUatdxMQ-5EhDNYPunxcvq0cxYuSgrCOlzGhTxzVDR5ywzgGUw-1A2IiHwqeG3cQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAJGtlbwZ_s23MC1OIEEf0Jr_r1-88mbqcJ4jgamHn2qxHFJUkGnnNkNa1BOHA7CRG9fymF8-B8NoTuTKE54KJI8fY3aImtBCj0jyyeXzZqerjdNetBCZipJi_X4voEBijEhC6wN29A3hNsS9jbbwH3vaWGhRZUIqcPACFPilSVADDJqvGK8QexA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAMWy9w9F4s4xAPD2_e141ivzlLRv9y6o_1hX-TA0YNZdHEaScOEC7pMq65_TIJwlJkn8MQdrNfSaMdCuqR2ItK8W6eVGCVlmI52PkVXHQ7CfxEII5K2kETwOX5vWJj638EhCTEXYKKLuEYs-gXtnv2vPZGhR29g2oYoNxq8NrCSoRxHmy7d3M9Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAdgs3pAxYzhQuDJTJ2zLlvOMHS7yPZQhO8h1zSG4LYzcg6ULxLs3o19CTDohWLQSCbYKdYiEPZB2DmfTIJoMQ4pWpQuD1IyUV5C8lgf41xzugG1_XftHIaaVA_CtD9VfqEhAPx9cUMEUTz6f6LnRoBT5jGhQotV_bNb1bvgJqWfw9JrmcZhXwcA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAnts6mMZ83j7yWlXCuBfgdET_4XPuDSSU4MzN1vVBukLZMNptDDrlWqlQXFpENg1D7q63t_DhwW2dGMaaMJvK8a67Y8FKuP11uO-5GvAhfmM3Ogsa0Ml3bopbivb7KJrUEhDvem5asRC9ZnuVTeVRhVZAGhSVNWsO9YnYITanqdjxGICGlXMHxQ",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.hazendal.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Bottelary Rd, Stellenbosch Farms, Stellenbosch, 7599, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 903 5034",
+    "type": "string"
+  },
+  "name": {
+    "value": "Hazendal Wine Estate",
+    "type": "string"
+  }
+}

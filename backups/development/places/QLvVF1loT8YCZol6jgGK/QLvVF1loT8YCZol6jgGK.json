@@ -1,0 +1,109 @@
+{
+  "name": {
+    "value": "DeMorgenzon Stellenbosch",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 18.7511314,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.9396119,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAxB8HxwOXnIGYwlrS1nEaixZICBzHO-fHYcah2dTxWuTF20WiQR-3DgW-T4ssmF68-eGRmpWTQ0x2J_Vg34hWlmDwwL3NdYxDDQ6w3H_BPYddNX5N5P_2LRQffz76tn8BEhDjj4_XMVKXAtpOoRGxH-72GhTyfzs2VxToYpflC1tq-dwB1X56_A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAW62ch4sxfxBp5YqQulwvgVJf8V9ctoekuyg-dQbvbqaG9pVfgEh8qtP_LTMLuWFL8VrB3hm5VNCcOxk4KitdwHFk6BIoMaePaN-pZ2NKtjVSDwNmZ-O1LIzCLypJO4lYEhAC5_pL5tDfAuhZYHpb0ldMGhSyjGMgn0rR2BVWi9zpVzAbgWDDmg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAATjA6tC2AcujkKyoV8TJeR6B5XYIsI4RkWvW5yMtdLOjWEnk65bd0ghM8eEVv2POrSBPiPwUnqRMbqtrOnvfYF2dkf_0Zhx7YOHGN9MlycKa1d5Ie644zTDYjmmH4ZAH0EhA20oX3nXtKt2SxLXpQu6MqGhRnxVBZE3KqbS3gqLX0E-vDNIihPw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAqaGqD4nwkjuahxK6ACaiMKGQ1DfVEdXHIRtJCIZ3HESiUEI4lDKFJCxRGLhFSl6dUnoEXL7ggmZBthU476jA7Qtv49xus2hZQu5dUZjVnQqYt-Drgdtj3yCEww1SRL_zEhArZjq34oCumOhK8rnNuspKGhQt4oJH1EwONDpYiyLmGij2Nr4Tmg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAZkRldOK7sRNco7u83B9ygB6eAa0fP1qxPHXaKTJtn8FNdNfHulvlWqNaY6xMgVF10txfdjDzhxqF5YhjlyH08F4j179A9Ncur5XOhVXgMykNq1sJFQPK0wMdtsV0Ta_oEhBIx4HzPzXHgrw95gtkl_IJGhQy2yuyYgpMFdv_-Yialc2TF61_lA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAxhAhQa5A8ywEhBvWkuvNU8z4v_WFt-cDkfTtOuQB1NVSRcNX9YGgZCASl3TLfiyBzGuDCXS7xhSMjFqzhgK5Dg6QzbIdmDb7-WmoQoMbsGOME9ueK8SRyqsxpenGPI0aEhDsbScVwzVZIu2xja5MQDlnGhRNQCpuL043fF7Rxv9n1s-7TbGjWw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA08spx5pA_6mOzl1LOAghfu-NBgVgk9puwYIIdUtKDYu6_xrYuGEPhPRl41xJK6CxgJciX8A-X9bbS72y5dff0kz3lwgqDMfJNo7SKuimZcZjeauQzKr-jp4Q-NQ9naOREhDtlZm966kbE24upKr_2l8NGhR94FrhSn4Hj_czK3A4EwVnpaj5Tg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAxa7KSFgh0yLDDcsMs3fMFzuB5RlRZj2cn6wE4Wj-hfCWA7rnRFB2D2hjxC2LPBtMKA_4ve52uwhj67gw02pxj-gZJxP30MMJg5qDaIHn78uWuDsX4mrnsN72K8W7_11cEhCmIYt8bZSUsDKSTya5VewoGhQBs9p2rPPBcc7ksDCeKv_xlE5Q8A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAATnwA3Nz-Kj1nJloNIpPKiv_odJR8Jh1RxiRH0O_Dg7OaODaVUsf8Wsx5BIoT9eCxdc-04Pk9k92-9nD16A44KPuJnBIsnIBCYuvPi8_xl-BpioHqPvB4eOE4ti6zqf79EhAId3DMqr1AOGbZK6BhuwkCGhTlS6giScc2-vhx1lQdizXYjBYA5Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAa7YUP-ymeUF0Z54w2GpPQQI6RHUgKbcSv8IxIksC50Bicy4G-BAzttrOEC7bz83Nkmwu3aWgPLHq8MLBTV26wB5PyPM3o2ptva8ndNxJ3AOdlgOvtKOHnZE9OaTvC8VOEhBxJDX3YPTtDsKuquzcyF9dGhQIW4H8PI0m9GzJvY6yTV1zcsa4TQ",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.demorgenzon.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Stellenbosch Kloof Rd, Stellenbosch, 7599, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 881 3030",
+    "type": "string"
+  }
+}

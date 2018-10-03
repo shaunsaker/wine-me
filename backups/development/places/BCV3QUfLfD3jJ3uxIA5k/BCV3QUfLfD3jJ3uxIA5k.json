@@ -1,0 +1,31 @@
+{
+  "phoneNumber": {
+    "value": "021 975 1655",
+    "type": "string"
+  },
+  "address": {
+    "value": "Meerendal Estate, Visserhok Road, Durbanville 7550, Durbanville, Cape Town, 7550, South Africa",
+    "type": "string"
+  },
+  "website": {
+    "value": "http://meerendal.co.za/",
+    "type": "string"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 18.6531909,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.8259414,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "name": {
+    "value": "Wheatfields (Meerendal Estate)",
+    "type": "string"
+  }
+}

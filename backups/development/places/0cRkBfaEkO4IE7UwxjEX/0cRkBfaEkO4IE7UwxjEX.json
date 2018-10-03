@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 18.936521,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.827964,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAFZ_-V78ao6rXzST0exHX5hgcjUnqlKziXgxFJNdcdhlPRAq5uzXTpCSmNYheJH5CV5ZXd_Voe-qrLpz47CXZYeW7OcgAbMu_k8-e-Ttq1_g98Y5TJBWAcHXndz5W-EEaEhCiGsxhs7MwzaP3hoBmOL5xGhRQhyo1PeJd2N0zCXFak6U78B8Whg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAYLxLqtdrS0TKqlyUV3otXfIwdRV5A7BnJ1nrbtO-sMUhD4rWguq0tmiGPUnovzGTQqCeMHpzwCGeopGsLk160K1LE1mZBn2Gsny3YGykWdd26LuMOqp3mPtCPWh_vUEJEhC2_OmikpkQqLmWaK2oA8GnGhSPKIXhvnISRL3aD37DQGcYYUtVoA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAJqFdMPPn65I5MAWxo24ub4M7O5vBGK0Q5RocJy0TPOr5T6TyAqQYVkYmj0iih1HXWyBEiwdfFueBNrxqPZfap1sPdfTYWAyh_pZ51r5ZoY8HLLp4SgBEXKX-QpBL4X8UEhAoFlPT6ed8Q4Ae-O-GhUHPGhS7C23UB8a_TrtGaZO9in5UVECCSQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAANzT2sRg9XHPOizKKfE4qlyENPXBZGz6U4Qau0TI5czJPCXeRP13gvtvyWnAmJACcqLHI-RGti0eId9sbvTj7Q6SHUYCy5BT1MF2OR0TRWmX0kNu9gcSsw6JCTW_s9qjXEhCxRBqo574E2ZhmOW2nInesGhRshv0dx0-VZBdqOtp8q_koB9pFPw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAQTTEg4uQ8F3ava2o-M44hIOcjJP-nqn1zkpq6clVf99xbmiSGE3Uo2sSZMGkov7TxzANbVxPl1-5dLTyP-ZYX2TE1WUNlrYBWcExLU-WCb5j_p7uzwNeJYxiSPsXXMR-EhDRZsi_9poJeuz06bRgq4wDGhR2l0QgM6EZ8Lkq9YEJA2OgjMKRnA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA1AH8x1OlJay78B4v04G17MPmdjAw_5Z_2h9MLR8Be-MB73SL9Vj39_nCLKa-eX-yf-yBQSytsd9GufmRNhn622JjtBTE3t2s4AACVPaiCFKd2H6n4VCnBNtI23HOxQIxEhACpyDSoLybKm7S2sG-uXSWGhT-EbVmfbThiY0gsCe51wDSaAdWTg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA107hyqG58_NXHgGXudI7QyWkKi4PTLkrBMQAvWuxKOvkD154Glqo3I7gCG_40KLM1SCRhtcR0Vm-wF7PXyLx3w9l-CaMmZDgXKjP1El8kYZbz58UPnBU9Ve7SG2F2pTpEhCD9OqelW8GobLzPEAFb4eXGhTdVdr758o7oiOI_gPatlEQeF-p9w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAWspxC_prnotibvphBWiSj-GCyANDSBScmWaP-hCNf9GjWBsLyfz_jVyyV2u9slu4763LVnYmIx_1_nI5z9xiJTtU-R2L8mcePRH2yYmugAZCNYbVyL-OLtLPWjUlNzHpEhAHYCQ8RgrLDx9cHwrhYVLzGhQ1oTuDGz-71Hg7xbOg-jgtR_0ULw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAbN2bBnL1Rv0bjqBGLJ2Du7byS5eWGRLZtSTszyNStCxhLWd1Nm_2h9nTLqiPJX42b2TSZCBUXiJQ_Znn9FgJsnvsl7xMWsbtepBdV63DyF5cQb7H8DrePRZiNzeDQxsJEhBF-0lYtOOrjAcPG-ZZuHvdGhT6dOnQfwR3UzEf7z96rpmJwN7Eeg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAwrO9yLBVpFemtchohb6K6XPc8wG2OUsh5xLZs1fHCDtYmVVmgpXu6Th_puSZfmn4LTwLEyHGGVeAQnFM0AQFZ2IIPY3aQGet2rHcgM7pZTGLXJlqtcbABYQpS1U8WXu1EhA0tRVFqicrd2d-x5bcf5BDGhRa8x60OMwJ4Yhrlg3mbR_33kwSzQ",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.noblehill.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Klapmuts - Simondium Rd, Simondium, 7670, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 874 3844",
+    "type": "string"
+  },
+  "name": {
+    "value": "Noble Hill wine estate",
+    "type": "string"
+  }
+}

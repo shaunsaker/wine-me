@@ -1,0 +1,76 @@
+{
+  "website": {
+    "value": "http://www.nattevalleij.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "R44, Klapmuts, Stellenbosch, 7425, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 875 5171",
+    "type": "string"
+  },
+  "name": {
+    "value": "Natte Valleij",
+    "type": "string"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.833882,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.8789374,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAYmHt5TPDNOdcz5u7rAY-UxxQKqBrd2J2vX9Ub9oOYXvJgSxemer_zXZw1WUc2lYvBSqCRHNUwHZEgZjieVeh9GCELHd9KBLT2g5GDVGotqxvvGT-FVJs-x3aRW_4H6q3EhBeCa6UMsPkRQ618pZCllVLGhRrAkDaceGzYezhtyjCj9bFztGO1A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAACY2JLn65KDSBfwcQaQEK_9iOJI60mfyD6FvD6_czt-GOFSE5v-jzQJZq-uR0bZIHyAcshzslIhO0IfKXt4aBz5JBp5rKyikFWze1JfU41KoqaSF3pPWg9DV9BCmfpuzqEhAmYp3VtMka2B4hVzjV80j0GhSQAoPvlv0Y_RbsKjh1EEtMGXZsKA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAATP69sfkj8skUJ7ODweTFbop7Zm4Bz7l4cqQ5sFSmYzMgwNdDOEDVZlpuRCAciMr6_69_iy-ecFFbuBN0SEIxRMUNKoRp4rv18cyE5uoZbPfYdMqPmyzYKzyJNejNdA_JEhDf_SYivxIXRaN3sT8wTDO6GhS8EgWJJa4JEBmknzZPIwsk8mCmGw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAFy4O2sxa6a5XXyCSQZK-SfhUp8FQHwb6Kk6-B-1Gtz3qUSFHEufAz45C2GdZbFYHKEnM5vbYWH2Na2e7cDwPo6tyd0-ATkIPgfzhFqDEciopxQrdGgMX5deDT0txb4O1EhD9DRJxKzNpjicN9-4muu-_GhRMoDB4lmVVE6lWKR6vPVq8bY-fKg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAACgJLIeCiIXVzgnJUQduK3xQXFlViJa0xTSqV2ReRG4Y0KSWL9xBZLSgdoomT3REI0DYS3U3FfEHBZCy607vciCfgBwKAiq7m6Ijt8cljR_PewfnHvHYz7jTmoKD3QR2pEhD5qkTW6kKl3I_RrDsDw-GbGhQ2Vj7pKjztd0zEobMvgrWGXUvHRw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAAzNX_QxR0tZQDJyzrDgozJSbggn_M_LEqqfJkRvAKbqAvuJkYXNGjYQdUNDZbUU6cZRWL3DlAehS5bBQzEDcDogilIyc7nwLP4y9wEHPwzCti31nLWNG8haIdi2vAmbdEhDvDCl6NpVXmX-5AKGHP0z_GhQOs-VrPoj_RGDkuRT1_VMquPy-Nw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAO0Y-ecT8DZdbx46C9XQJW67LJxaHPxVRKH4Tb-nQdG-cm5lQuyGVWYC49AdMjauj7E0gEOOFKuJ5LzTRXm4ocPnpfpxEUOs9xX4_nJpmSuM5GOH67Fds4gaKqFbo4IWlEhAvhCwlw6z1Nj6w8D635QBoGhRDlLlCe7Ki6L0XGTMztQGR8K6byQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAd44279qUYWNB-DlRl0lVR7404Kf1kg0eTb0svgI2nea5rigJ50DdBNWcoK-z5yM1isz35doIHOuGQHQ2aH62HpfMQE6YOf6ueerWJjhz_gg-VGlWV45XHN6M-j4QaFQjEhDjo0biLeTd5jGWU9Is8XPcGhTDvNdaG7tkJ6b8lSqoO3wwqxcvNg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA-OTbI4-xhXzAvhbnkUJT5byY_2mlPZDfV8BNdmrNSUHXPjx5u2-Dg5ZUUlR0k_3r6SSw3yQhH7duyzLnF5tqoel7qiLQvY1SL8yMW1n1BgQDpGNlfpfrgjHR05EePHR4EhBNJ4IuENLiEtlTYBtazyHeGhSAbyA9GmpmmDoNz4FZUh7RXpA9Xg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAIBkdyPwocG1-u12KcHzudczz4xZ2R7pdzJdcr1cFPD4UxibOzbXn8i9zvPg-MbFrdgLUDeoKTWnaExqPFxgO1-SCoFNg4iqpB0LAY3t72hGN9ERZnIahPMdC5OhZQ0eVEhBpA8uJMirk3G-Trk2BN3MnGhThUOhxDWedSuxyfOUSEiYwti1oEA",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

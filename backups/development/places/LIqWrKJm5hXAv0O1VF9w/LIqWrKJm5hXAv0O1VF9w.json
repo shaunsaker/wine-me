@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 18.4130637,
+        "type": "number"
+      },
+      "lat": {
+        "value": -34.0385497,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAUINJ1VMi23f1gJ7Z_CB1wCEAkNxqGbcedaObYsD9v33sXLI-S4G-lBiRbkMI2Gxoxe87G_D3L9bSzkR4O5rULl075_ugLoJcPqwE4qrgXz9x3O_gvNsRi-ppRt4y4KgsEhB526nTmcPZUgYj9_F_-ByHGhQpDVDZGmLmq64XvyRPnz7zSSRH_g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAST_eQudrzfbV9ssN0o5Y8MUlhnxISpODgMaQAthrFi13lcSwJWmTR9tbR8_jmAn57El96szjqedfG4fbrL2fAcEoiXSuuT8YR9w5sFb6IgPN2kbU7oGYy8GZwrjj6mA_EhD720Tl_wCtTTWI6nY00YarGhTB0R52Y4Rkm11wJaVbMBlLVPulfQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAnQ6lXQQvEsDaowpafJzhd0dUFpEYfJoFY5UirEgUoL-GVK4ANDBnKTeB1Ed3fnvgTnt3HkmRodBd02bszHOL09s_4mtqvYMHkOGtGiRI3Ha0fr2DYQgNzdSW7lwI4Se-EhB2Ljj_pZq4s1mI-veRR3tZGhSdv6KWLJY4RRypbk-GdVm81aq1HA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAdaiAPyydY7lO4vkElUbks0J2hpIjZZ2AQwBpKF3z35UatTnTE89NLz8wUk5dvgz0eNWmFz_lY2bGdteI1UAay4UDTTBqIVQt5nirEfY_ggJHCQWkQGVtr5to2oyu7dUpEhBXjBQWPWKmkGVj2DJBmxTmGhS-HSlq0fQKACP2fj42W9_-pXiNXg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA4TCH2xrhk4LanNnIAyRbSyuZCcNY6EW9oQHx33ZqjDngA6E-lG1xbApwT46fcNORvs4WdrrzpWV7IFHkft7lnb12AwD-zK_rsQxyGYaCAfoYPpZVfq-wBOktfqzpxouCEhDkobmFZWDMSaARRxqJ4RdYGhSdKABGZVmtGb-NIIbnkaTakCrFIw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAPTV6J70TEKYz0mUMwEUAQ9_2A1jNDc7dTNH0cjC67O3jhAsN3O2NZG2ppOPhlK1pM5kBKYWrMBVFMalcMtYbSmzmkZqfVONyOl-9b5DMvgYNYZzLIm2e9IFQtlaTXEQvEhAFbtccqS3QbZpfbWCoLUu4GhTUDdAaRYgBWsiiD57dARlbiaEV6A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAn55c8YCaPrCn7XFUm6kotY1aUKregdpNo8ellHPZvkO3pPf1VO_Zl90RmEnEY0p_r6te-1bW0gyFyHxn5TPWRi5M5-hZ6yNczPLAn2Q4_Z1R_Rn_L9wREIB8L_5ws-IwEhAqUG9yW025wHVAWz4cbDq5GhTtiEJ_e39IIln0xFc5oZ90S9yrTQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA2et4C0LnrTA6c7E5scACBsiUOuPYkRqjAgIlpQxoP4ApP23l1faRXiMG8_iI_PGeNT1R0ObOxj-wv_nB4yh12nhfPsxTzMofsv2B1ZHzGB-PP8XaKdoMCxO77kZ_5WggEhB42yFLJNOhxSpIipA8m2b5GhSzA1L766OajNK_1JTDkPOuEVolbA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAAXpBNfh345mGGIGOk3JI5RNHnwab10agay9t9DCj93v4wG7we1yHRFoXgYF1vYhIh3dNKBYL698DM2ykiHbt884Fde4fvczYSMO4JJpczo1SLwu0vixz-pk7UwWqDI2kEhCgwz3LIVmjE7heHX4QqPi9GhQlIEV1nKXVnJAV87vVBaL4MHiARg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAz4tTgxUDvivFb7Q28ilPRSSBv0qq5TMqF4Z2nk5zfH3YFaPamT9vAF9rTo15f58hgbPosUp8G6Jeu3SzzKKgRessZZQ5lE6EDa93N_h9HgXQrekjHQbcts1JTNyiulD6EhCZtagtaAclaK2627B5hPFpGhTkA0sfrA4qIfDMwHDJPlrod1KBvA",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.kleinconstantia.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "37 Klein Constantia Rd, Nova Constantia, Cape Town, 7806, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 794 5188",
+    "type": "string"
+  },
+  "name": {
+    "value": "Klein Constantia Estate",
+    "type": "string"
+  }
+}

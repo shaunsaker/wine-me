@@ -1,0 +1,85 @@
+{
+  "name": {
+    "value": "Muratie Wine Farm (Pty) Ltd",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 8:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 8:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 8:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 8:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 8:00 AM – 4:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.870332,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.8761506,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAKlsiCcX3q7tTndhnApVZBnMovcfjNLZGB4kIrLHR-WHtTtJwKjakFWrnsKdDsfFEeTD_ETbhbOSwG6FLqjOXMpXqcBmBVPg8KJ8DBX8w440YDZUdVT6Uat3UvLimK4_qEhCbIEiufDvKar-nEbXBztvUGhR0Svj31BBZ8a4AGBpbot5qy1aCJg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAG2mDWDmWOGScwgnQ-2R9goWFQ1VjZuFXTYBUtux6NQCWSpa8rXFuTrndaPf7o0XKVISEs2IeB0VeikwMNqj-oWLBUCSkT3oBCCQIlZHVeFIvQhazF2RoVER4axKh9p9fEhAx1GBZJe4gqiKb3D5szadiGhTkCNarLv9kZqSpRc614z0IJIvW9g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAGc4CgJTFoEE2-xwK3ILGWt52eBjocXGrfmeX0RGy4CeSY0dxTOhcBddB7-IEpxX2syoo2HW3Vl09zfGJT1h2v5T5RYxPiSwOsef7ARLAOjn6WYairnDT4inlxR0ZGP_7EhD0Zym_g9FnlO8e-Sm6c8vaGhQxreePJPYlvJCB5qy634zfA6rSYg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAxI-w5zal6Hd4M26c7xqZAXI538yCSND_8dpIuNOTquq-9eWF1uG6Cub1RflA7qnp014L1frkY_TZ_uDRPgXYpTGoyDZakKCJ6WxjDnxyqLIGzMadyyx-al9CjVqWqTGvEhCLTyccftPz0zku_9zIMolnGhTOsQGUxcueDah1C6l_F8KbGI_KYg",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.muratie.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Knorhoek Road/R44, Koelenhof, Stellenbosch, 7605, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 865 2330",
+    "type": "string"
+  }
+}

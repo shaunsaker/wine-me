@@ -1,0 +1,23 @@
+{
+  "address": {
+    "value": "R46, South Africa",
+    "type": "string"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.41177999999999,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.8313299,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "name": {
+    "value": "Wine Estate - Meerhof",
+    "type": "string"
+  }
+}

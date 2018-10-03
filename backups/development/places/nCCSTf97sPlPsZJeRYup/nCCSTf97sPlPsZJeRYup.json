@@ -1,0 +1,93 @@
+{
+  "name": {
+    "value": "Bovlei Wine Cellars",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 9:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 9:00 AM – 6:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.63781,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.03234,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAA7hz5mYOidGxWhCxDlm4zJHa0Yxncnxeu71UcsRG5DthzGD9xLwZ2odCqvQgAqXV85J2JbY8DwCKD4ASu4iZMCW8rG2xenEqGG7SuuRYeYBdFY3plNaWaEO75DiUoiylGEhD1-vNA51sX5sQiV7JCtSy2GhReSnEn3VCoX7tPp-pCZcp0nZSlUQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAcb0qGicxrfXOZmnwomO1NCKiaNpKhJAaqYMcrVRlE_Mq_F1oTRa8BOC_QId8aVmZbT_zeAwU1_2l2hHqut_NeOzxEplI7taGC6GvsMew0ueKfO6fpVSLPF7fbuBYU1_6EhDE_YtEfls0AXfo8_2bP7nfGhTp4HZj-BDDAvbokOq8XWbNfvSrEA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAGlKPKT5k36DKZhFfxPeTybdMrkd036CO0rt4k_UT9SVwNGQZ76ZnjAsJfRB7BB_ogPa-0NphNjlUQ4yC9XlykIqBAjZyqLn5IWLJ7whnO6uhZmugAVOnZASLiex7IOi9EhC1ctRquyfzAIssXTs-_4lCGhRavBxubHzRpkXQoUQlLGMvPKTZbA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA8oFKhmvZlBoh9ao_W5BFnB1jBveCFIW4ACdwK8Q-RpHrSsNqKXlymDpl9uAYdPqNDXJ9JmOZEOc3N7gHS5vHkGYxx6QvmemJyXdcOuXUOTF4LaiKgrba7EC9iYWf8snREhA20DgrSDYhnMlL4dgvq0Y1GhQyx-w05dxngGIsgLe6DQ26FuLuvQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA6uiUgSjkezqnDTpz330qP7O2VcmAXSr3xisufW0G4XTuw1r0tM63ye81493JMTorQoPsj_zeLjuTgB9TSYPn2U8KUsmHv_ZQGpevkhBK8Nc-AVwO0KRqG9QIJ1sV0m3KEhA16aJHGTvL0S1qdAPsojARGhSNvzveSu8VNdP0qNKFVTiZHsh_rQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAk3aGCRnT8fJbPurCbHXDqFATEa0WjfefnT-t6smltdxcvLgthDupI5gMP4MlBz2ytQn-kXPD4sakxBZzx-YfjthwdNya1mmfF6kj7xhrJ_wE6jiXe17LsxjG2N6xHkA4EhBtd-QPtJxiqGQuC27pQw36GhSqy2518q4XCqbmfwR0dVXllqenrA",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.wellingtonwines.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Wellington, 7654, Winelands, South Africa, Wellington, 7654, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 873 1567",
+    "type": "string"
+  }
+}

@@ -1,73 +1,58 @@
-import { takeLatest, takeEvery, fork, all } from "redux-saga/effects";
+import { takeLatest, takeEvery, fork, all } from 'redux-saga/effects';
 
-// Auth
-import { getUserAuth } from "./userAuth";
-import { signInUserAnonymously } from "./userAuth";
-import { getUserCredentialFromEmail } from "./userAuth";
-import { sendPasswordResetEmail } from "./userAuth";
-import { getUserCredentialFromFacebook } from "./userAuth";
-import { getUserCredentialFromGoogle } from "./userAuth";
-import { linkUserWithCredential } from "./userAuth";
-import { signInUserWithCredential } from "./userAuth";
-import { signOutUser } from "./userAuth";
-
-// Geolocation
 import {
-    getUserLocation,
-    getFormattedAddressFromCoordinates,
-} from "./geolocation";
+  getAuth,
+  signInAnonymously,
+  getCredentialFromFacebook,
+  getCredentialAndSignIn,
+  signInWithCredential,
+  signOut,
+} from './auth';
 
-// Cloud Data
-import { getData } from "./cloudData";
-import { updateData } from "./cloudData";
-import { setData } from "./cloudData";
-import { pushData } from "./cloudData";
-import { deleteData } from "./cloudData";
+import { logError } from './errors';
 
-// Storage
-import { uploadFile } from "./storage";
+import {
+  addDocument,
+  deleteDocument,
+  disableNetwork,
+  enableNetwork,
+  getCollection,
+  getDocument,
+  setDocument,
+  sync,
+  updateDocument,
+} from './firestore';
 
-export function* sagas() {
-    yield all([
-        // User auth
-        fork(takeLatest, "getUserAuth", getUserAuth),
-        fork(takeLatest, "signInUserAnonymously", signInUserAnonymously),
-        fork(
-            takeLatest,
-            "getUserCredentialFromEmail",
-            getUserCredentialFromEmail,
-        ),
-        fork(takeLatest, "sendPasswordResetEmail", sendPasswordResetEmail),
-        fork(
-            takeLatest,
-            "getUserCredentialFromFacebook",
-            getUserCredentialFromFacebook,
-        ),
-        fork(
-            takeLatest,
-            "getUserCredentialFromGoogle",
-            getUserCredentialFromGoogle,
-        ),
-        fork(takeLatest, "linkUserWithCredential", linkUserWithCredential),
-        fork(takeLatest, "signInUserWithCredential", signInUserWithCredential),
-        fork(takeLatest, "signOutUser", signOutUser),
+import { getDeviceLocation, getFormattedAddressFromCoords } from './location';
 
-        // Geolocation
-        fork(takeLatest, "getUserLocation", getUserLocation),
-        fork(
-            takeLatest,
-            "getFormattedAddressFromCoordinates",
-            getFormattedAddressFromCoordinates,
-        ),
+import { checkPermission, requestPermission, checkAndRequestPermission } from './permissions';
 
-        // Cloud Data
-        fork(takeEvery, "getData", getData),
-        fork(takeEvery, "updateData", updateData),
-        fork(takeEvery, "setData", setData),
-        fork(takeEvery, "pushData", pushData),
-        fork(takeEvery, "deleteData", deleteData),
+export default function* sagas() {
+  yield all([
+    fork(takeLatest, 'getAuth', getAuth),
+    fork(takeLatest, 'signInAnonymously', signInAnonymously),
+    fork(takeLatest, 'getCredentialFromFacebook', getCredentialFromFacebook),
+    fork(takeLatest, 'getCredentialAndSignIn', getCredentialAndSignIn),
+    fork(takeLatest, 'signInWithCredential', signInWithCredential),
+    fork(takeLatest, 'signOut', signOut),
 
-        //  Storage
-        fork(takeLatest, "uploadFile", uploadFile),
-    ]);
+    fork(takeEvery, 'addDocument', addDocument),
+    fork(takeEvery, 'deleteDocument', deleteDocument),
+    fork(takeEvery, 'disableNetwork', disableNetwork),
+    fork(takeEvery, 'enableNetwork', enableNetwork),
+    fork(takeEvery, 'getCollection', getCollection),
+    fork(takeEvery, 'getDocument', getDocument),
+    fork(takeEvery, 'setDocument', setDocument),
+    fork(takeEvery, 'sync', sync),
+    fork(takeEvery, 'updateDocument', updateDocument),
+
+    fork(takeLatest, 'logError', logError),
+
+    fork(takeLatest, 'getDeviceLocation', getDeviceLocation),
+    fork(takeLatest, 'getFormattedAddressFromCoords', getFormattedAddressFromCoords),
+
+    fork(takeLatest, 'checkPermission', checkPermission),
+    fork(takeLatest, 'requestPermission', requestPermission),
+    fork(takeLatest, 'checkAndRequestPermission', checkAndRequestPermission),
+  ]);
 }

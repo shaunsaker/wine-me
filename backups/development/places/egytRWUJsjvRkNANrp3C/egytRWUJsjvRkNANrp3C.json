@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 11:30 AM – 10:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 11:30 AM – 10:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 11:30 AM – 10:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 11:30 AM – 10:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 11:30 AM – 10:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 12:00 – 3:30 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.6751573,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.9421926,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAEAYmHRXV1L7VMSNikH6iuQwlGiEYYOGyLvlnF9jDGjhVfDZLAYEhqjyiCXbf54O5fe006NdeNPTMELyij0hUZvqsGK5qlKjZK_y7_NgGWGSqJvQeWfjEyFVXbeBrXYJqEhBu5yCg6QYDZEzxiNZk3XmiGhR1iKv5EvwWNoKdQZhdgJBAlm3Ghw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAALflk8yOApMaAUNccD4ueo3Ra-K6H1ZlnjXPp_1pUYSHUNcsFIZAx5E9WRsYEshgdwl9z7e-GtEgODC2kv7pJmoLYl4zC0-9uVCfe4xINxqPMevB67ZTK9O4Vc3UGyBTqEhCSmasgQ1uQ5_Edqq-MhZ72GhSe2lR73JJ1HvnjBD36GJgHWStlcA",
+        "type": "string"
+      },
+      {
+        "value": "CmRZAAAASf8zbX5hY9vq5qJOcI8s99Z-2dzSYxTJVyHriNYHCj5bgNi_QsR6XIlAET_Q5ACxJCezdOb5iYcybFnlrPu091X_Kz7C-P8dkqgu1TjxZW0N7Q1ifZTEI5-k673sUM1FEhCbym4W4ZSQjMP7RDLQ_1wYGhSQ7z6Yjy4br4PZH0lbjhGyAH8ypQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAdPVWWacNsMbB6cZsp_URCczq21A1IKcUg7p67w-CM6cxxNBTDiMk8seXExkxVJUqTFA4sPbGExmX0Jh1bUl2_o7n3sIjCeMjI39VS0_cNubJ_g6C2CR6Vb0xCL149vx3EhCAl7t_6y2Cv2SQSG8NpWctGhSJaHI-EmavsJEm9eio1d0qMyE1Iw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAHa-JvDH6WnrTIUK_uh2wk5K1BIOCG2BkyfGQJQAH6T4DGrv6j8C2bqTMJyop6BUfIi99Uih_JPOQuu2xrc5-AHoNKBLvYw4LeLnnYbH_6MSroDm9vez8RhKxgHLZyshxEhAd_nVXEJMUwGTAlzsreFQPGhTHieodrGJ7Nr_Fd-u8dfbmPauiIw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAecTr57-7W-nLtIzfOLYJKVgupiGF_8MdjRLQ0KOhTU2EOaBgTerClpWgOx5uB65ELE8IcDWLNEbdLmRtBcArHgZBQ5XrSJCtibGTxypnBDCT6qKs5kdyRAbubuBYW0K1EhCoYcJ4wklxxl1qU4xaQtjjGhQrqhRfuGi1_f3_5h9kwz4CzZ0dZw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAfhWrbR5paeAYwQ-rNmVLiW6-znfS62TMBpm5KNVhCNKlq9jTiNUxMCnFxjJeCIT6ZjIOCyZCA37Lkpfr3uwikvBqO6zmIbUnQqANOGeKjoGVUeDw-nynV1zkuMW3J_XsEhD4Jztd85uFfE3wO1PyvAiQGhRAHXCa1pBqCsYqCR5LnPXc9AqYaA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAApfDKUg6NmbF9K7yW8rJN80xRRO820OKmefLvGB1rAQJjjAVyGUdxnaUBXQuuMHfGgujnapqcSLeslXO1WcNXZdBzDvolHebcuD05896cxrFHqC2w2Y00qnWt9_FTXFKNEhCXZBT4ng7HTiEwDwzkHXDIGhRoft7h2-P7uXdbQ783T38oBW7YJQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA6Ak0eFRG67hPfPfxl_N_JUHebPPk0PDgKNNHojjilQgFbK5khVkOLkT-QpiecIk4wXjNmhsERyEno1A4TJHLEPE8toRGXZQvHtyo_6NYvXYYlmm-eyyavw1eIzreSV89EhCsbpr3OFnIyQaq2tcgrjXsGhS51BhBIuAvrkQbPiaITaJaqU0mBQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA6V9TWiSE8HFfSXzL85vuV2BoSgFTwNXtQF64s4udA5HbfEC7MMz2cHz4FqJ3drfewJuzJXnE36ASPdGWkrDUFz3zkFYZW9EbLcxYYQq0FqPWUfvwjaRgb8-nXXE2EGkMEhB5Jwi2qpXkvw0jAWuldmOdGhSzs_d8npmBmOLdFqx6Y6kfRLCJIg",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.underoaks.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Noord Agter Paarl Road, Paarl, 7620, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 869 8045",
+    "type": "string"
+  },
+  "name": {
+    "value": "Under Oaks",
+    "type": "string"
+  }
+}

@@ -1,0 +1,225 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Profile renders renders the blank state 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignSelf": "stretch",
+        "backgroundColor": "#FFFFFF",
+        "flex": 1,
+        "paddingTop": 22,
+      },
+      undefined,
+      undefined,
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+          "zIndex": 100,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "height": 22,
+          },
+          Object {
+            "backgroundColor": "#48466D",
+          },
+        ]
+      }
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "alignSelf": "center",
+        "flex": 1,
+        "justifyContent": "center",
+        "maxWidth": 300,
+        "paddingVertical": 100,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={false}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": undefined,
+            "fontSize": 12,
+          },
+          Object {
+            "color": "#3D84A8",
+            "fontSize": 64,
+            "marginBottom": 10,
+          },
+          Object {
+            "fontFamily": "Material Icons",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          Object {},
+        ]
+      }
+    >
+      
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#212121",
+          "fontFamily": "Nunito-SemiBold",
+          "fontSize": 24,
+          "marginBottom": 10,
+          "textAlign": "center",
+        }
+      }
+    >
+      Turn water into wine.
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#212121",
+          "fontFamily": "Nunito-Regular",
+          "fontSize": 17,
+          "textAlign": "center",
+        }
+      }
+    >
+      Start visiting wine farms, mark them as visited and they'll show up here.
+    </Text>
+  </View>
+  <TabBar />
+</View>
+`;
+
+exports[`Profile renders renders with minimum required props 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignSelf": "stretch",
+        "backgroundColor": "#FFFFFF",
+        "flex": 1,
+        "paddingTop": 22,
+      },
+      undefined,
+      undefined,
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+          "zIndex": 100,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "height": 22,
+          },
+          Object {
+            "backgroundColor": "#48466D",
+          },
+        ]
+      }
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "marginHorizontal": 15,
+          "marginVertical": 10,
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#212121",
+            "fontFamily": "Nunito-SemiBold",
+            "fontSize": 17,
+          }
+        }
+      >
+        My places
+      </Text>
+    </View>
+    <PlaceList
+      data={
+        Array [
+          Object {
+            "address": "Stellenbosch, South Africa",
+            "id": "1",
+            "location": Object {
+              "lat": -33.9263749,
+              "lng": 18.9319848,
+            },
+            "name": "Bartinney Tasting Shed",
+            "openingHours": Array [
+              "Monday: 12:00 – 5:00 PM",
+              "Tuesday: 12:00 – 5:00 PM",
+              "Wednesday: 12:00 – 5:00 PM",
+              "Thursday: 12:00 – 5:00 PM",
+              "Friday: 12:00 – 8:00 PM",
+              "Saturday: 10:00 AM – 12:30 PM",
+              "Sunday: Closed",
+            ],
+            "phoneNumber": "021 885 1013",
+            "photoReferences": Array [
+              "CmRaAAAAF5bkjtj7bFEGaZqTN1_uZrJMvM6EEOFle3UIDd5JEbZwb281f2F4EH-XR1o6frihMiOzrJEx1KlczmV8o4qLrYygDZE-TKthSRT1SdzvrEQ6AjQbCG6sVeZBR48V0lMLEhDkpyqJh9O9z4Ai-7All7swGhQwTkHxJ77yIZ9d0c8oqWifUrL6eA",
+            ],
+            "website": "http://www.bartinney.co.za",
+          },
+        ]
+      }
+    />
+  </View>
+  <TabBar />
+</View>
+`;

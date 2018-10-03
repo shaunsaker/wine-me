@@ -1,0 +1,105 @@
+{
+  "name": {
+    "value": "Groenland Winery",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 1:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.89674,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.73507,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAFgqKioKaAL_gvKRzKvG-Ynhn3Cfx0uPD7RIk4b5jFZQpzyWhHZDIsekMKMSuMQvemPpn0K1-MDkrF9K_Mt7ZBQyf0icwYBBbgQ0HYhdGXPNXhykMrfljp4ca98cMChVfEhAfLp0RflalxtTbk1wemAVMGhQppqGBRtJoPLitgXxwG-AS5d_2Hw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAymF0yQEUKhQYddIPSsr1BQpmmydpa5B5ofuW0AvqAbjS0Y3v3ldYxWwTeFf9Ce8oCZ76BXsV52cTSU5fyds6OyCD3xzxdc0d0PLkn0KVfQhgI3mWP8_XK03222fm2Hb6EhC4t2WEuSGCMkkx-3WoTapHGhQYo595pSskpAhmqfw09ClojM-vqw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAnCbZKOTT4ZYSSvLE_a6q98MnX_gkvNrLqZ3Bkoj011B4BWJ8N_CKl-Ia9pwH3rcr564hatiZbbViN_G0FNkqXasaM0GiNawz2AObCbLn2OcNZ_5p63rxNePjL9pyLADmEhDVz_UnCr4MXAe4m77JOtwWGhRPVcyvAKPS0rqog4ztPZqLhqwyhQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAkvF8d5EUrxLqGJvf4_lKIgNSDfoCd1h8P2wyt9xcqHIieo0NcsEoKy2TE3R3n-AEWaUGLh35exSgQJRZXzJmomwRHDrUndUrANS4y15cw5v_DEuqAp2hGsi1Gvge4_ztEhDJ6ksv35nReG9Nvy_HH76DGhS9vPggtdEdPA5CvZ3nu-5czQDB5A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA1iKdwHiXq8CY5MrnZ9YX9jlVkC-VPRdUEqGpqeXuDC7Di-ggm4SI4d8JL2hJGhysHdCaNzCeTdoDkIfk5CqSR61lFZek3XUnM5Azr2t3AhvieQalEc-v0fcSyYtX1mG9EhBl6e0rWf96H379fcENCWGDGhTt6700TNW8-ycT07fdgvSKWX898g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAPyjX2bkNKPK--Zv9nE4ZaEL8FxtI1t2ZCWObb-yYpGMYPh0AYKOzyPBbdYU6Dkx1ea7-KVNyDGVRDeWb9Dsx5cLUJqYO_89ufil0OCkZc_Tnp4GoHXTSNpSsTQO6nB_AEhA5IiyoiH9-kTsTGlZEdvRrGhQ9f-KfnBjlLonUNFs7WVnxtJDaKA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAxDaEkpcPaXma0w7Dgo0iH0YwU-LHE2r9BREir6v7tmidxJxnhc7AGk_Jr-drqJKcx_18swrsg9j0lT0OK0vO9NgUYpOAHOsEWMsmlK0ukCOsdLyq75TUQNMohnu7uTHoEhB0umReTLN8tXV9Zsge7uMhGhQ_EE_U8V7y1p293mSW7IAg9zgXAA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAmsivvXju7MLkq8kMfWjXtOZpM_yaiQ8grMuCprkliywx6RiqkRunrs88q5go4DfoGzPZBqudQ-1SsCoz3zLqZCLV1cFdwHYn1DDvUrptBvlDwYPdy59q9PCISn1o2qTFEhAoeaxewklJkGEAXmEay0ROGhS3ZFTMpQVMKcK6gcm4wQU5-4YCaQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAmjgqt7mmq9Eivil_n5wL8MXT9P98dHJ6aZZoj3MnCPLamQ9nM6kDGuOB7ZqW2aPuqpZEnsJfBDt0ynJ6ENx5I_41d-S3Myu-kqxtpFhQxUG3Htcu9CuiqdP1HodXjld_EhAwKdL8pCjQp0xGFDvzsNzXGhSEoIobBDA_iiIcWghzfl8j2twF7g",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.groenland.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Western Cape, South Africa, Stellenbosch Farms, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 903 8203",
+    "type": "string"
+  }
+}

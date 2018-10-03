@@ -1,0 +1,109 @@
+{
+  "website": {
+    "value": "http://www.delvera.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Stellenbosch, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 884 4352",
+    "type": "string"
+  },
+  "name": {
+    "value": "Delvera Estate Stellenbosch",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 18.856714,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.848652,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAfzqyE9Bafs25cQenk17kRAGrQvmtbmKix2Ge_ukVnFmLSdCefZINsdRdpHIsHgJiN-gdTR8kILVSrtLniNaz1mbdvaReXL2q-3H_7VqnQecaEH6IskzrDy2yRBVjM6DDEhCUd7seJUkP2an7vrnb28DOGhQ8ZhKh1BIijDy9jcvYfF0XzcYd4g",
+        "type": "string"
+      },
+      {
+        "value": "CmRZAAAAiDxcNy6Zu0vaOszh6YRdrmQFKhLyfpnO_QkAAmx9gqWZYALdFw_k5T_SNmqcuf5opfYbKuVUmXKoxDkWQ2BGDFOef18tDSZT89Mxzd8iiaXoYi91Bo59JXTOhtYYnrPuEhAXToJw8OZJC9iqGlAMhK8GGhSFxTnON0_aHyAQyQcit1zA6SvYBA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA8BnNpI6tivswjBqNcnIn5OjPRrn9zPXCQjXu7KxRd3IkzYF_WZXaI5Uc_8Nv54FU598h2cG658MDC-FS0Q2_C2gSZ5naI5MeOHlu3ePH04ckMhkYMjHxfehh-HR7wyKlEhAHT_ghzRRR2gQ4H23N3LNqGhTdSX8gcVsxUOSUd1p2ZFgbw1MOXA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAEv0UmumECN7POR1ZyLe_SR2Ya5OIU_uqxKofeKPDtKkLvoqkpZDVuo6nmpaQDhsHet7qWZ0Ul7spAzC-O96_Ot8-w4gaJxNsxTvZ-EQeRhCLVexiTPTnE1m2KfZa4MsAEhATYggQbCs0ULIiOLYfz9iLGhRtFqPQMUWM0bCnsen8SVkrKwoeQA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA4w3zvw2xEakBLMJOJLMDkcYryuq0Ddg013BPpyXTUorAZYAfXfNrZM9eE9GMqB4oebBjwP-bNjft1x_sEjhRFsjwA9K0dU8SjOwRN2XMoEa90inRuQQsO1Qff48idA8oEhBFZYCYH9GSC4JQRTE-rCwdGhSLuH1caOutVrp5ATrGTMDM76St7Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAANntX9yslqVn7ptei13uMakvOB_Zbfs71oxOT28T-kHk_ELUQirn0acVez0fJ45m8Z0MbADBeQvh64DLztP9lFHGTlBX_jsnJJmG4_Z0g6-qHTayXH_AnNaxBbqakfkXOEhCuUTNmxXLOxlsJV3Cf5NGuGhRDZERAUzBnP-Cf56635gTD3x3rYQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA0qfU6JiN1NpVz6NtwI1i-yGB8eQ5OJWwfhg5wadOTSGFasv6qLtAkvOd1pLioPvjysEfkmBYocN8eEoTwXrXVL8AOamI2Kgz4tUB0A4YqC7jKt2HVolYSIsXzPyV_fugEhBiS_aQzK88ozTg41e1VqUvGhQiLuqsSHptOO5GwXLuAzW08cPWog",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAyq4oGNNzBM1Ib22Q92-OKIjx0CWyKgqX02RYWpe0FQLBBgrilmtGYbBLlsQROZ8LK2YF2cFtoT3jS6LQ8f0SvgtkC-Jb4OLKdBv-35ZXR4vay9X4zMVApqlPhwtOPxSQEhB-kUhHcYlCaGHEoV73D348GhQTqkbSsC0Q_blwuxuM591X4Vdrlg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAMPS6VPWlhgoIy5lhXccYYRt39DPH9ePIiCWEvDOaR17EryNcnyjP0vIGjKrcV8pDyAiZrCKW08b3fcACdtCL8zu8tDYi-YI1vL1AxMfnBbxPxUjMJD5ARm3vP9MemywfEhBuxE9C_KfhDei0VYcSfpymGhTg1fHDMk4oN8FuJjimoyJxujrqyA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAH8Bj2Y5aycMeniF7lSufCFWCMWCI3ZguyCHncO5ra6kRymRIOVz1IpoY03wAs0ckBjehaVsgWZ50A1XSkjOOJG1rzVgAT_E58OboA55ZHHSD-y_pZZPCwKu_KfM0EBP1EhCoIO7i7T_EdQVI6Ve7KvBeGhQ37WkSnFLq3lgDbgVE3soM5txoMQ",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

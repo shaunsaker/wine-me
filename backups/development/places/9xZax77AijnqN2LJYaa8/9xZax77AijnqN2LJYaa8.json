@@ -1,0 +1,109 @@
+{
+  "name": {
+    "value": "Highlands Road Estate",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 9:30 AM – 9:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 19.070118,
+        "type": "number"
+      },
+      "lat": {
+        "value": -34.234654,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAobWgR3X2r5QLZyKMeNRu7wbEmNoo3PtEiGDGdYavACEerU7c80-ONSeq8_ElHaujJscy1tF_ybs3WFPgdzT1xv_nPkf4sN5aqEzdWRqqQjbFSfcxL2eExofiwSRY2X2lEhBndhP64UeMJSbKV8CLEsoAGhQgkWbb1VNUNz-zkQBYKIpdBhZbDQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAHejyMbrRwaEx2FRuwyQ7pLlHWOdRrGlP6uQ_BtqRfa58Radp46tHhTMMh-rjZk_L9h_YyE7ArwmvIGZuSK5aTIvMRhnrGEw-dkht70RGrO6VDSwFdycv448m3mExdruMEhAWMGtUq8yWnbUmbj9i82vcGhTmPz4gHciuPYhcI4lXsmcetXUTIA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAXUnRTSOE30pdbYQckmYDi5QH3Lr0NKr-6ziOeZgvESq06Pkje_h_cSlYDTD-EhBOgYVS55tJHiHW3syvYOlz2qdkZqUXm8Ea6EioTAdKjFxhBi_rxt5rFtrF82EafUssEhDKJEtnwvjOu7vl7l0xBMPiGhRhvwoUydz6ceibLna5gm9ggIBCKg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAjMLOrhYkJFnnU4OfOgW0nF85aXvqkso6kJ_QUZ-eiQUbd3CeVUU3QvwsCdaC93l0ARdhNRvUfA67ib09uuKEtF-ztVS3bpqbJ5d3X8MGzwUs6eFi_P5ZUHT0CjN4_wMREhC4pMDyQTLMV3zIuJgOx894GhR2qQDrw-Y3lFU6cacgSNKBw1ypZw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAWUcLx7DS0zQleuQVFxs8lTTqOA9TtMeBNym6bn2EzAY63GTxpwqcc56r8kL-V3hUyWffvxoiB2WzxKjXjwokJcnWhxcUujpBVnII460U77DvjHqJ9Uokn--NNAfS2NAQEhDgh-vz8w7FxsBGdSGeLnaPGhSFbM9kWRTTGSC8vUjmEpbqGinsEA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAfbI1U2OgRVEzNLzUV6TC5nfPAVBOjwV8ZFezYIWTCNZHdYD77TV-8RB78fotEe6e9ih-4PjdbhMlJF7-tHH5vOFlpn7ytQrWmz8EHZ9cTiwnaYsPBMdCo-LQbGYfAFmkEhC7oVS_imtLu5t4qhZxvpb1GhSLFyXFBkz6595PQeGKFotf6tml3A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAcsSg3KYOWskn5K7xr38N6tHlXS792zghdEAjRoLlqNrC2NLx4DudgdwpNXsSy5Asq0cEcxeS_uUVBOUnsxXvTdFbkd9mkFl2uSyXJ9ioBvUMSgPFsQTCSaPTUAn_cZJcEhAU4QQKb0qbyAa-bSzqyA4EGhSNCrrl2TpajMqkSFw2F69PtbhIrQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAobZixxrD9Y85gUyIGxZJx3K8koF7vB-uDaIITtBDVlVFX46LJDXRTGJCY4k1UppSqmN3pbQg2Rg6z4sF3Xvcca24Pp2YSX4KUuJkUkDPQxS-j1IedYnFOUVEBMOOMMLGEhC9o4beLmPk5t-wsaqEB67iGhSdiCoRno2uVYfwsqdqyD_ud5O6QA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA4lw0zRD56TqqHbdbdKtsdAmFZ__93tQ_03mcntDHSMFmPz1hicIwop7p_ca5wZB226Tq9KUpPh8gFfwa5v4nRed59SLQa4on1KkURih73PMpNpzj6nyL-CqwWx0FKUxlEhDj2gx6-mNI09mEusXMQ6MHGhQHanfhfc9bJXDtRjpTT9w9GIz8Kw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAZ4ZqeHpp20PzKxkNVfJN9NmlyIrLIo50Oyy8U0-bPujot0lj00q__WdILlVNMs8HzMbiE3GlMXZEGx00ibBDKamup0tsOOXTKS01c5QWM6Qg88Agltetw_onNJeLkuByEhBqYjyEIOar0tRa_aYgzQV7GhTG5w6P3zHWd-qF_GX78RoQ5aqpMg",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.highlandsroadestate.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "75 Highlands Road, Elgin, 7180, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "071 271 0161",
+    "type": "string"
+  }
+}

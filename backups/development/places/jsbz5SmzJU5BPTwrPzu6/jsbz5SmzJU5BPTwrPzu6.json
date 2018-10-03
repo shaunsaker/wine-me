@@ -1,0 +1,64 @@
+{
+  "location": {
+    "value": {
+      "lng": {
+        "value": 18.5233523,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.48270169999999,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAA-1tgOvUtAKLqfZdnf3FkORmkY_gY-V4d7bD1lXxDcuaubEZDgl8HSki1NbrosFqV2xvk0zS3eAd9b_S5EUEUzEU1XFL0bi7-LOgTt7o8um8BYugn_MYfM9Og-6Wdd94iEhAarZlf-sN0eYDS00D8iY0AGhRoKL_GAJVyUedHITPvKEbBKLNf1w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA3kUeveRit4gmZE_vP2LuakKhwM7B_t9je1mpM26w-tQZekU3Sdy4iCePWSxMLyVZhNOmn6vO13Vq4kzAld6MLPp06U-2-oStG2yfLHYsuQx5EwNmnF50k-pTcOjJ81rrEhCzbufo-WD1jTqP_rbBUfIXGhSKfe6aiY9l8IlDt8O0zeEpe7Zv5A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAZUptV9ds_7VqWLjPSlWUOWYjVUnX9BtFl1eOxGVZuGLZpPaPisIBvcBPEr8WwGLOUlO63mj0Gcb-5i9iNmqLj-oQ1eY7qAaNewYi6inZjA1bh1unICMgmyy8W_sF63FnEhC2zUlgUHNzvIJr4C8bdtjaGhRvlNGK0TnB8tl2ZSAtbtxjyvXXFg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA7UlhmtsB3HknqhM9xT8b5zMRW5_1I556eeaXkXE32CiaEgDzPPP4hakiiUgVPnRgcfEo0x5noX7DSMtiYXeSo9YtWKaD3qn85VaZuz9hL59BEFz9z-lJr73Sp63kvjzLEhBj3DuzivXkyN-vg3WaNIFMGhRHKx7K9m-jPOk9ICJ-MkQm3qDEQA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAASJmka_zVOqrgVpC0jbrJvXE2X1MocPxZVgDeMDnHbOqWGq-dAAVUvVdhnElnouGcSvne3dX0NVl6HPeW331i_WdK4s04Faypr0ZZyp47Cr9T_pm4i0Ka4QcCK8Y8XiuPEhBkyEFjQ5f-7hPLiSnZrf_yGhSmjb6HE3KLFZKuHwmRnQMfx7cBKg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAutuewsh_nwObQnbwaAZ9uHAqNoE5uPOEHFOa947hFrhg6aTnqRvWbwgQq1i6nti3F2gzYrA2ofeuqUQgsCr3H8XZJCnHhldl5gQ7py80cR43jizqR4RbEhtnDHbuAbkkEhDyHfGM2eCtlZXWjtsBl5GuGhQIG23Q8IR1KGStdBcqRbNA5_BQ3g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAldF1jHBgvaKFYJAbsoQzHeTs-48YNPKH6CCTqMIRGs-JCVwu4zoHdn_fg0quYbKx5JVkUndiZYwlhj2VxtGRfX7s6Gzih5KkEE6t9doZm_6PG5Tn2iIBnx6RYylV6l7qEhC-LMj76z-DHrtv66WHJbrOGhSOuNyT_umMV62xZk8cE4aq8Y-euw",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.cloof.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "R315, Darling, Cape Town, 7806, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "022 492 2839",
+    "type": "string"
+  },
+  "name": {
+    "value": "Cloof Wine Estate",
+    "type": "string"
+  }
+}

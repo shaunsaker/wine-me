@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 18.828603,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.996266,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAUVavAK_kNzxIjw0NMU2EMBelw2qoLsBQgfmJnUO-sGvvm0itqxmFO2lFjq-U50WBdxsofWXiMKzruwngjcd8AlS331wPU7mak3NRWCWZRONAgbr0a3tAfIhAmU_z3jWYEhBxNCZM75iOLiDZ93W8tR8lGhTfy8xe45IBb8s3H6QKm0qqspwP_w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAWw0KTpZNQt4lCd0D0I6WMZvLwYMG51tCSBGe4FNkMQUovHh27fZMWEo9Ix1vSZPHcSGJw_cs9ASPtSEYtbFyVMUCqnZolnXVPBR5IJJoTY04_CZsxy-9gSiGREVqPe4OEhBgHeaZ0ykKy8Lbf5ejLe9aGhT-hIkpFh5qqUwNXAfR2Z-i5BNeJQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAsIOw8Saa-taZtlGxhun6SMNpNFTgkCU3YjVfLSFOZ71gXB-zTRYP8wDM9ylSNizlPEBuCPQauSPp_JgW8_T2OVKK9214cMtR9gzYxz1A1d3MPODUryTelIRbU6k47yCQEhDMyx15ga1ocBubnqZdtA-zGhTYzgXCE7NeGwiOVslRPn7jyCuJPw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAADkCBcy03tWf5buHq3GqTQUASCSyuhnATJ5x6P6wyqjQTm7YOX6jxEZI7aI9Vhkk8s1VHrejzTZ26F6DJDJj6HdZXhgU6vKS8CyCIKSESq4pQHcSvYDXnIJA2GHGZaSzJEhBxvb82lMsTItXViVoQYSNrGhSesUvpygG-59CikAVmGBhvkKc8yQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAd2m4snJ8pi12909ZXzOnlelmkJDLWy72EMyzG5cHEcXaCCybOMm82BXv2B_ZSXuzhDMqdh9Q_Vp3GsfEedxOiqa5zSBcwwaPi8O7FmW2BmepxHV-mnYsUJHoIedtNEjFEhDgMIYxSBhP7Rn1kpgVN-ymGhRbbspFZbbUTgefHEcxZZ36m3FHmQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAOL2qUC49DPHl7SjESxo2XCa9HIwZvIjE4xJ9j6GfZh5V-IxLocBU1_tKsQxro8RCzQGPHcxIQScPhRr-u4ga6WFf5qgEWnIj4C97kjEd4cR7l_DDFv_guJMqL_4frrTnEhAahsoWRJ8ETMlAAWshJkEtGhTW5wBohj-6Hpa1hXYnrz7VVVe_Mg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAnJlWTXNCnLU-7rFQnbRa8xTdfIsKg3Mv-DycZSgnfSC2NWnn54nykYGpRUithcO78hHuGhCqb9SvsPVrco4QRRHH8ULM5y1XCHvDrlAsReA67pOCwZCy0tm90KWuZ4okEhC5r7hu1BjZS567Fg8IayyLGhTpGejJGvy8gQE-WY6YFzTF2OYG2Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAVgGoTXY3VS6Dm2uAUySFerDhpYHCr-Lc_3S5S2odKB-4p_4U1CEGuK6nPCmpjn5sokYLeOrsGi6hNH84stwp8BZonNQHS3CvFgEFmvPtVzrlFwR-43rhYZayaYKo9BKWEhCkGewl-wpDWZCpgOEmyV8TGhSc4Lac9n3XHoM06ckX2-3tz4gQZQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAStvZ6xB9s1LS7x76_5S0Onruah-xOt5z6SyF26ceFSWVSSIYRqnY9ul1C-u0GU3QyB_8hYlPOVAUjs0FC3Xl6IGSih10sXXLXu_UzS3wBdJcpAuRv0Umr5gcL-4AoQ39EhCcEnJ3AzKQ-V44BDgfcM61GhQo6Fr95WeR2zFV-C_qyYCaG5FzQQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAVgDId2yEqRC9-4np50ajpS_RXZzCvvIZCwvg7M4_ffh0ELwMHYyl-NO0oSZc8JcBxT0QP9NXc0e5q3hxnfptu5FE0ZdGfwCWYPYP27cDLMIgoiRxPL0kaPCzp-vXfCrAEhDKhUjPozA4UQffe2_ltGStGhQSxW6JBRQDRYuoY5weN7z5-UoJPw",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.audacia.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "R44, Stellenbosch, 7600, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 881 3052",
+    "type": "string"
+  },
+  "name": {
+    "value": "Wine Estate - Audacia",
+    "type": "string"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "name": {
+    "value": "Reyneke Wines",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 3:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.9560893,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.7435925,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAATOtFFn6abSKDpNdl2NV7-eB-AN2TCfK_ugUhfvqFkOuHpOngjjrXl0c3UYSSTjg6GiXxJ6zNkgIL5VsQergDIdEHxi8uqt4SivWk45SIuYzOzmULTuJhI_69nv53cQVmEhDJofsOI9i6GHqYIfmMgG-8GhQ46Bfr5ELBXxGBp_hqGwi8jIzg0w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAFJenkJKvLe5JeBpJfBfIFOFpkw3ARO5v1Aj8VDY4BeNjevudLRD_Vw6rhja-DAU_tBwaOj8UBhpGZVpNep0haUxlS_dRI8qAkYUW77HRuCYPHTb7BhTteedsTMc5tOCMEhDFDAQ1OiXByIuI4SLme-I_GhTt6cQFZXcQAYLoDM_xWqzyJNHC3A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAPzJYbQd5kduAn9fV7uRAJmHNvgPp1sn1QK9BZFlQTI9UGu7zdTVQI5MYpa-RooDGnHoLDsNlzX6OPSjnBn2MhA0mhpr87zPMgl4r8YGq1m3YeKkIncQnfbyeMCH94-chEhCs7mdgeMDnIqNNhJaz9ZB2GhQWF-VCPIEvLuwHQTfURc-ZRkz7Mg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA5IZyQmDq90H56PXyHygxPaxrL-XzHYY_KTahqU0mh25Rim2HTy2oJmUSaHdBejHFiNpKrBNRLw7A7oEamHhUyyVezPsGDhEpyfqzhuCh9Hv6qdUJSgOt-N3SDwqQ626bEhCkMfOKqpoyp121D3bFseSNGhSU0FQOk11BueL8X9YTY6IH-dOtyw",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.reynekewines.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Old Polkadraai Rd, Stellenbosch, 7600, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 881 3451",
+    "type": "string"
+  }
+}

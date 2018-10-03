@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -34.016526,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.832969,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAoAW10vIJAlZ204meIeIwjtQomESRqreBRkNNA8lR1Sx0RbRzwjagdjcIHl0rWyKCStqTkiTQZizV8M39Eo6mjGodIjlhBFP9UmrK55W4njqj46wAL_yR4yOqhCdJPo5EEhBqdJhvvFHhnZIHvG79LJyPGhTJ1kPbqNHZG74m1okFU9xavIVSaw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAaFY0SKQ0xIsnGFigXMx-CErZBtrtOdviR_sieg9sj2Vz9CZoV4lbVApDAglbIzWZHagojGtIf0cTdvwoXk50owfyM9m91Wy5Jtez9h1gtEmOdCbSDN5rRY_7Nb0OTGKvEhDEG2chF3WD6QgAuIlZQUKzGhToiXKyTNuKSbxzY7rIHwWOqBwCfQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAxiM-prw4w7F17gjo9Mv2P8p__85TaN7xmCzlLjRrtLPWbUiiIHQ9zpV2jvwtp9FO3zbRMBO_qTK2bdIMWkjwK1G_0rs7_NNaoWfblE55zz6jvqQXB4HCiZSac1J3ov-iEhDxunW7ZhVkotR1oArE9ICzGhS-WcTQxNtYvRTL5s-VHs2EYIcqJw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA5cjyEisVX75uqWFyU6uSRbnldg5OVcHofXuOlnv6RLf1BjJ_htZfubysim8Z42SE3sDF6qtqzMbzcO_kamMS3RnCSXLEfo0P54aZhbRBQA_17aZB8Wp0FFBVF0b9eMKpEhAquLbgPHlhaArvwGvKVV9nGhQjscQo8uLbHu_bklJndFoLP7jwLg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAANQPAHIFHeeiqYQtyvGgeowyxRS5DF2KbecnrDiKlYjS9zv76AIY5Jf0_7LkBRLQi9AkWnge3ivA-HN5bESoeTXwNyT4GwJm4Ikx2z22AwsV6rbiyHx0_PthmfMogoMxxEhDdl1SqRR0RJKuFNGCTnVbEGhQB6kfbWkO_Q80snnuwqUWVPOu4cw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAJCDE-ZPMBvleNBwPx2_wYYdGwWjO6_k72xqd4-560XZHGbvqhrPtF2SUZBXcwUELZiA8Hsb519S63YM30iuyECkmwjxtqJ3eLSZYm3uw9QV--QrZN34UNRQs96YAf-UnEhBVFrxkqnfJ2SAY358aawG_GhSVCw5LN3g2Zx7do3Zn8ixnVP7B7A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAaf1sIAs89DIOHuRb1cElOwteLPlmQ48HOiO3Rb6KTwVBsLRXW5mxlZaSQhC-1UVHELjK4Yd4UETVnSV8aq_LeSgFZZUZgv_0Mk0Ob0WTYSDqnxFvzqlem7-fX9WDJTtCEhDJ-GNaWd2yCouGapzy5etsGhQM1juVv8ez2Gqmj0k0hXgusBR3EQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA9Q16q59wOSXcHGAQoUOwyTP7qKo4BCPqT_rLlVNMK03Qreal4iPu0tLa1W6wfOzha4OS6HioGzTvzQEhZ9Hk5Ofb6XZeURr7In6ZuE_KhKXJYDrd-OIL6u-vIAK6ObJUEhB9-rcNSzxlt6gvQnwbugcTGhRxP5GGmJFQjg-h19M0MJE2TaKPZA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAWzRU9NaDajHGfhsKt6x_TDitsefvmTD_hUFpMI2hP4pAhIewHKotu1e0o6LRvWI-vMk_t9w1FP-7GiwF_Lfcxs-hQfnU49F30e-0uVvqnjyOdMn3l30VOehmac9p4K6rEhA9mWdcu2ds8KGiAz1Vq3sNGhTMb66rBNEla1Nzce75L-HXWUOHbQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAKOmbpuNGqb2nE7FJ_MJuyOUr1hjRxhro0V3W8_1LcFE8Qy22RfXZ_x4rxBTUgERGwampyrYJLedgE_dNuMWcVaN1EAv_FcksJTa-GlYdhQbviq90pTDWFKjd9w3tnQdFEhByfAKYzQz2u4kdY2a1vp7IGhSHFS93zt2O0mklpCVgwXxlWz0Pdg",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.longridge.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Eikendal Road, Off, R44, 7600, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 855 2005",
+    "type": "string"
+  },
+  "name": {
+    "value": "Longridge Wines",
+    "type": "string"
+  }
+}

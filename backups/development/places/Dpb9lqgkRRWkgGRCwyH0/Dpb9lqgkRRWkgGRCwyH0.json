@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 8:00 AM – 8:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 8:00 AM – 8:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 8:00 AM – 8:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 8:00 AM – 8:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 8:00 AM – 8:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 8:00 AM – 8:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 8:00 AM – 8:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -34.345893,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.137862,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAANiptm65SJvFQPlpYrjqrPMp5VABwt5q6OBQd9smGJweEmoJR8fDjFKdXxWmNvDG3MUj46dGy1Lz5zX0hTDvZTJ_pje6f8PXhNHPoidGI0HvLxJ7LNNdqpFN0by__1msWEhDeUYZBazKRasbIttMIBLmSGhTNtIyN4GRSb260_IfVVkGkHzYQ3w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA928DoX4_66MnN0YxsdXysrHUoPiUGXiZ9OV7opvJobFTNWmPJLIuJ_jA13M2W2MN-7LltmLJ_NoCFf8f1OswT7RU5PDiKLV_tX4O23ySFRhWvqdY16YA1Iqfb8W9-UHNEhCZ9zM7ZfG0wqvE2sPxFrFPGhSCBqie8f2UlZvGqEekXMQ5k8nzEA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAaJDuvMmCXVwNoANVF2Q8rz-m0cyZzUyiNoyX1l5Mmx2osOxKHrBrJ5zDcpa1NpRQg69gaE8UcLKB7GSf0OL9wJ2u-yLJSNJq31jdrdB6i-t197pK9TAzr0I8_vVHExmxEhDJrkpYkDjs1WMRhFycwt3NGhQpWqeTRjkZwFjlrVyrq5Kx57-fyA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAHynyK7pBQzb1PiEnF8vUj4P7PRPYHDJiVA0a9WQ5-_5gJ6eIMYekbeTU3tUQqLLTtiE3KowWlqnA6Shv63ZyXUJeA5bEqoWdXvhhN5BKHUmgAKIaqUeKZyfr7LRi6FbWEhBNwDSmlZGW-FhEZ_Z__gGzGhQy7jmJ-9Jn4tdpYMuU3ScjFRbd-Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAtUYLvo3Yq2bm4IlPJ0LjqawdiPiYF2gakkw0eJhn2p77MQAzvqhttkc15299TW_148WhwADnYNmIwCyh2VgRjXIa0RfrruLOUlXv_F0hjPzebVAkrTnU5inb3LJGtRDbEhCCbi9rYLk2rzM9YSGXWCNTGhRp6hjWbMbxVpc3axaLENLkefEpvw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAkMT9xUlFXraOo4ezHUD3zhZHCaGo47mimss1Bx0OP6vU8RlCkTvooSQwt9EmIb_ikwyO7iOQ58R6BuNOOVI6tQ7J5cg-OOutlmWwD_C8nODcmrBQOiQIR9sgetIH6UjNEhDOofYTdWxMRdfK1qDFCSscGhQXnqhsKcMlUicJ0fHvf9ufYf8Ziw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAfi-fRTIJmJ_ueHun6sz4CQTm4hwNmhGFIQnY065CSahtC3Z_JEHKjhYDHQajydFmj3RoiLO5lsNNzyxm7-_B0S4JziAwlXsA1u0rQuX1Z-zmMXzqzueb5_w_QvAFvdMsEhDBuV7bwfSKBc2CZhAvRgfNGhQOCeNuoYG2h2DaanYr2z0oXz7bgw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAALmS8v9CC8Q6y-TuamWApQkwBFnhXuF3r2vdRCrtTmbD2IlBtOx1-z-PiQB6N_GjuGnoP7ZU5NjyyTi4fasJvRbWHtuvOl1R-nBVB_ER91PBy2LHyEGgVqlMeWf9DJZptEhBC_gi-ifcvl0XmSs7mxPA3GhQkZXo8r0ZIyzxeKPdR9gUywxbA3A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAz_l6lBfHeDJY6KzliMDCkyN55S2_8Kr5pjzWD3Zo0d48-yL4Lg1REzpNJ1SBjeXOf6T-xE8iqfCmCD_fXzr1s4zWWu65p04pJl3UzVYOMFd94SQK5K_xx4XL4As6l4JdEhC1MPzSQ8GYkqD6zOa3YUE1GhT3p2V2E3UoILB8UzwAtBe8fBhOjg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAbuiVrFJCR4Kh0RtCTXdeASzqpHdU4nGFK0Bx8VI2iIcETX3OjY5TExPhw3ALYufDRqsB0kc3GfBau2xqC7907n0bn5QRhYo164HmAi_jzMtLQ-6g6eGJ40a5bdykPYuwEhC1XP-qFg-SISPmiTcsLXhMGhTttQ5FRd-NG7UY3S1OApOmkGqPfw",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.benguelacove.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "R43, Bot River Lagoon, Walker Bay, Hermanus, 7200, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "083 645 6198",
+    "type": "string"
+  },
+  "name": {
+    "value": "Benguela Cove Lagoon Wine Estate",
+    "type": "string"
+  }
+}

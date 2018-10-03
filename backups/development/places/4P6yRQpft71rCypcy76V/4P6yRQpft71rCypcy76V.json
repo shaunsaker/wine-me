@@ -1,0 +1,76 @@
+{
+  "website": {
+    "value": "http://www.belfield.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Viljoenshoop Rd, Elgin, 7180, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "082 767 9932",
+    "type": "string"
+  },
+  "name": {
+    "value": "Belfield Wine Farm",
+    "type": "string"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -34.17236369999999,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.0287945,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAA756U6UUV-kMgvr5opHsHY67FkolbFSWiHnZOGVucgwj5XO4lm90gY0aI89V2UsHuVszeTuLUIPEid3KzGoSueuAMaiCJdEMgvIZV_IgHRPvekB2HjWDz7KRsuYVg2IcJEhBt-WuKT_N5Nuo6cpDgDG4LGhQrQeql_p4C0AaX_hN7TDMf1YGgAA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAZBEsesv1O-geDDeT1ayQxA3CLFPI-j0oTEJPyKqC35ebq_C8WYeiwCobCo8TqYfgDZC9NFEs1L-6DFxJHF6kir8kCr01C3dWZn7budW3XN3amcCmbyAJnT3t66q0MeUIEhAufs0osBicX-vTd8MB1XrxGhSrn9dA0ZGOG6ck6_JXxa8S2MXy4A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA6VxOtg11k_V6hb-fbLD4Tm22X5lsHLU6VleqEu8t5K7A_MRG26pDfouQTkkItpgypZ5a5uBCyhjMyzX8VxgMmMnti504I_T-p2a-TH0WW5Q2zwgFlJu1Smw-4n7HtZ8tEhA18_q6ZU_qU2QohkX4TcOaGhQu5nLg4Oy9_Hvi_wf8dTRIRQT-Ew",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA-jzkO8O_-UEYs1IO9x9-Zjkf0TxXb_fgLIPaAATVWOvCYT-SGk7sv8hzOaFJucHakw9ogLyzbTcPeukVe8le8UR5T9F52Gh2JniHR-hv400-Is60zPqzyySKPOAyuByFEhCvHptfl--C3NZgC5KQ0QiBGhSThX6WRajcr59Pl7rXpJZAyEOfXA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAcJSraSSLkY_VEwac0gt-wyNibIej4ViZ9W1TtdCZafIDOW3UZotfIn7Q4SWMof_HNRq_7bsnjh0QYHlh6bwWy-PnqruEWCPGM2Ra3FyJAtytYfAct0iAoECYvhgN0DwtEhBgWEKL1vtBO1-sdIJkSndeGhTkX7v-rHZcTJnMktZFMXG0FQR_1g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAy8CCCu8C0Rj7VVYd5MkgK18PW6qMdDs0XFbgzrM17Ez3y585aNXlEsnFEHvTBBcaLlT6c5FD6QZx1rgX-6T7mifDZ6Mx1PIJwsJK0q7VtCOVcrIKmGi2zY6HVQQpc7VHEhBw5B9ehoihZzRqEv5nzt_tGhRcAmEwFti1oJ0GDaXoBxLS7947sA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAht_q6DS3cZ2HJBCZrZaGV1yP9FW5aN1clrSG6B0ZS0f2OZ6cM9kzcBggh2C0RyK-tUbgkR0u3dBzE-o5NF5LgymR0y4TFSzw755ZxUJA8_wR51FZPiBFDwC8qdBkda2EEhAdbJSkNCyqle_tpjTcTVBdGhTowJTXLbS5cynlPNnnidNMds6eHA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA2J5pDRMEfMd8nAPiCVjClkqOlep0feaqNjH4JfKQUwUiBOQBxg1nfijkA8qr8_P4dUApIcGUelQr5exVpbQUxWAftJgc0CMfQ3Y7i2L3-xekuqOAZWXWsXRlzUTKaXlbEhCNXjh_hp0a1OkGxVLNdCUlGhTwKuEOSLufqHbLxUlbr7xoXvG8NQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAYE0puNt9bPhu6tUVotzaZMF39WTDV1jZHeHQLXGaIxPOmtYX_pjnVu-Ogesa-93ZfxTP_rVQ0YQk33rZxh-_p4z1hGc37rx0NfhdTFSmAoQpl0dV_J6_L4t659oITN-8EhCymXqYdDhzjbtBZTTLgQ5_GhTjj-xabn-dLFcUH-U5pHdOLlDXkQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA58TSAr-V-pnlv0dkijpA19thDfzrtz8-yfoHUCEDkjqh_USGqBtmNhuU_FlP6BaaJOcUOfuiM5dKG40nraJwJjAxPJ2IEngLGxOfhhMS3kWJwFd8o0z58XhQNz6AzC1GEhAtHbZsNNhV1a-EsD2se7yFGhTREILh2CRAmJYkPq4DK8zwIkVemw",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

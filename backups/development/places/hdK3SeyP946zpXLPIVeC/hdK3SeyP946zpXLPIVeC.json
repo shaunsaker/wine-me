@@ -1,0 +1,76 @@
+{
+  "website": {
+    "value": "http://www.bernheimwines.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "R45, Northern Paarl,, Malmesbury Road, Western Cape, Paarl, 7646, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "084 655 3340",
+    "type": "string"
+  },
+  "name": {
+    "value": "Bernheim Wines Accommodation & Functions Venue",
+    "type": "string"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 18.972125,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.681731,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAh8avHzQyW83uRE9aTH-i19ZV3M_c7XYjNVotQh7fB06uUhkqD9DpWPC1cinoB-3BX1YAVCDzwwXu3NM7ujJLc7M4OOawFYLTIvLcB7ng_3Z1wEsSgCwRed_JMuZB1xzfEhBJzCixr5qM3gDqb9NTC2dZGhRzmdMtp9wvfJU9rx2938e1NrdghA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAonfkcWVq-AtGnfsezMoN-Y8FGNVvQPl17NUMxhD9yLgRnw28ymqofm0vbMEfj_VW1qmGbqfTZswO5Uvs56DGwg-Zj3GnDGwZH4x_5O5LB2dtlYukoLiXA1SGc5F9NnO2EhDA-LTxNiLszx18yNH6HTuVGhR2X94o0g3wNiAAR--lX8n1NLG4TQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAPL61-7q98oZwUDldi1MQ83h0ojY6-gQjUET6SSNcR8OXs-qnSZFIIYXXZj7qudKzOi3dnaVkeMN2PXA_0unKfFq6mp8dWirCtxPznc8wOIC25egjmAiaL1cvTmCoz19YEhAQkABreaLFan3JGX0IORQEGhSxE4eM1NfWkOaIa75ZUrmj0O3r-Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAhwQtv3y2AvxV522ZMVJVnuBHkLTalOqRd9cHdH2DuSK-kOubR94LnKpt8OvdU0j7CCROsAZjGujNttNDrY3oi7jZ6dW9DGmOudXT6QQZCS8o6DFXVEuP042kfAJ0OMX0EhAzyJt8elNBVUdtYHmrSwxaGhTaW_ctMB7XyU7Hy-rPECrizuI3oA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAbDUJt0Q6It-yjLy-te1qctIKjufGpDEGjrx64-kHcuygqhqkXXNim-7J0q-mk1l5DQudCSetUu9YPLnXcH7wdZIFj0_OvwCjkYN3m8AS9iaKn9cYr8khB3CXDiMVy2HpEhDCt70AM7sXDm5SdZFpmapkGhR4n3Kfn3kk716ESM8GYoL9WRjV_Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA7EgGtGz1Q9FvD4yBDQwOFveopT_Fq-8MFS1n8XJJZMFRni5TpiEoA9q6ZG83pLpksg8yDdTjQa4Bx8AmcBMX8JY7yUlIoGD4SX2VMEFqCMlM3BuGpJpTMUlf04FL1FBlEhCsvDeSz4XBDkDxQIzphydSGhRj843G0IAVbcddeG0OmhmTe7Okxw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAwB81bRuLEXZaXKtsMeeVC5FrgBQE8kTlpVNvlfwTnNxIEnuGWZzl2ScbjTOAhElGYoTLKiffx0eXJDaXiK42aO1p9WAPOYik3lrq_qpIzPtDEDpVFEXHOmgpgEBaiQvSEhAy-0xKeZlgiRq8bXAA55mhGhSmB2tT1HlN4wDDd3X6PBYVt0NCgw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAbMHsCExXsxNr0K4di8Mk6g-Uv-QcHcZu8v5AdaJjI864HKxZGzIgvBjQwpOAnayxTbfcO5jyxkU8lofxWr5vGCDS8ImsbZ66w2MqTFnnA0iKj47ixRTmd7kD3dSC80yxEhCNTRaCYQ5sQDkMhnmz3AGFGhS-aWEk-TAkS6ODhw4zZdJwhMIqtQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAVG7WLJfKatVMy5jo3NYt4p0G9jUERWpVN2dwJXOKDvza2376PqmVUVarlcSPBcXOqakzfBIt0MDzG_LjmheEyyPZdkh6W01e8dDzW8I6IpurW_21GLR4XiVyzw-j0-GVEhB-j-Z5WkGgYPkUdg_dJfGdGhS7_6qIpUCtLBINupupEqGb9I3S1w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAMTuZb9mnHJJ6qHt7R6VQbYx-H3EDefi6vkY9Femo-petxkAr_tUG3QFYUZARsuZypmS43ILkSEYxozjDXLC8jX47nekv-_iZZOhpm_u3s-iM4irmuwtfpWvhJQzGHSIdEhDQOYzrUt8lktnfWuT8LBZmGhTI1uDSvYpHHWhOB1jAd1xu_etZYA",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

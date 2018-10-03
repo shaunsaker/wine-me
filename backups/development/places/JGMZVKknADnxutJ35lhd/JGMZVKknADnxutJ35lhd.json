@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 9:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 19.2689816,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.7025716,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAASLSeqy6vYoFiiPx5KZioxM7O_t_SWyCROgPbO9sO0p66tTTbfhG4rvoktcudEufc15oHlaKiarM3Ede3CjbApS5oohKpqPagU7JGU1EQCD5KuVP1K38yB7-KC2pf-EZxEhA5qzfG5SsJ1X5hYG_d-FZbGhSNl4WeZNEl3P4TsJ3h0NnQX3RaLw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAATl_M5ubMcmTDgJNu5YPDeyqObdGQQ_G_4iPoTzIJknZCTR2TH6XSU4KtzAO-rQvmDHTnNwTPa3dg7W69yWK8kM2OAznfOYSFTGoAOr6-kqIb_mvpsycjqn1tatWsh5BMEhC9Svb7SdqROMm24mqsdrSgGhQIlopFvS4wWAzPAKXyr0AT-m5hAQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAPolZGf99YrifygAjqNcMB8g46FqcR0eSkkA9ug3STREvjBCIWraliNGXrv66n0Aww1isKjDc_bisEAwAhi9Nfnwot6ZvkH6EGMQD4y1zj11hJgOp6PD3pHhllyOHm_y1EhAQ8tSGcJP2BnoBtM7wF_ypGhTz6yqb6l2l3Z4lzNrUEETRUlp9Gg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAqUiOdsFbVBSbo1mtgyVRYJPlZgl9xwtVg3HOQ-1SUGCqejM7Fh9LQFHHZmMas1_Wk8Cw6kHKZl8cLtMUg8_f4aNaDDsK4zux9_W2MkO4rGFaoO63j0nDGI2gX5Y_ici8EhCVmLTOQQioK8x6AkfrVTU1GhTDniJX3WHAnv8z5bq7bn1hAjkHCw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA6qaH4wDHYSLorREG-PkzxOUSe2ReQgOfybCUoU7YB7S0YFH--nauybH5zB9ewx18vPYS0_m2lJtvuKQayrXK_WpdLaHE1TzEbgqH_AXN4z-EGnCT6_yXzykFzt3q2LeyEhC311Z8kRQbgExX4cJ8x4Q-GhT5HxWQEetYpXSse7jKvdzAYkGQcA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAAPgckLC8UtGVdRsi5pCn_jW6b6nUu5qwj_5agB7n-bFKOEBB-2QLlzqRD6_-_XPx3PwviG8I6umdOzo_6RXC_URwiMN8iu4hcC7lpAb1zWHInWRzRF45MA3E6I0OdeJEEhCWX859o3TY-QFSRmpRPhOtGhSQSHpVS82vWu0IZHhZZUR36XAomw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAArCggNwha0AsGuDNdwLovN75c1Ke_s_hxSqyvPXDtf-uaV2NlrqcSr3eFP4mmv9mu9I4Y37910G459NwqbD8YowwX__j4bQvt5_K0rE_lPI3CD6eP69NT0Ze_xzoUfJ3wEhAD6YjRQjWI9VGXC4JDoERlGhRumPNzh2Lxj5zTIyMQRtdQI_Kmxg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA3nndFWFw9QBP78xUl662HwpMDvYAlX67_tFrhNDeGJPlhzTm1i2qksjHGTuDriR-b7byX9Kj--WKdPKXvQpmlEAcMAxdoODlx8V6siGDHE8LFN0PKoHUF_fiueuk88IhEhAN_-f-AXQVYESu2rVFeaRcGhR1IywyJ5evOZKPWaXxfXGWVZ053w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAFCJYqwZT1EEVjm5H3djAiclRQ_OHVZdMwnXfX7sqbSXIvdm8oWD_FENmiF26AOfCS3b8kBZ3xpKGWEK0VCwGB2dQ7wQbsmwIB6oD1BxkfUV2YagO2fTOjd7eNLLTBn1UEhDEbEjnhdq5ITENYDZv1YmIGhT_6PPRv-oLtZhuUIqq-6kJtHQCNg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAfjV8IGVZyYj8K_D2MQGhWi7SlsiVkHcWQFxygyUWFNfr9V5JlHEHMG2eI3OWuXj3ZSQlrW7Q8W5wfQk7UQIJUue7l4cXsgzn49QPJpDLbpHJu0W5qF7go36x9BIOM2ebEhD0U6kAw7gBGYS9F3wAbkGsGhSLnDn40hNRXfk_x2CdAa-BNeTH1g",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.dutoitskloof.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "R101 Old N1 Rd, Old N1, Rawsonville, 6845, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "023 349 1601",
+    "type": "string"
+  },
+  "name": {
+    "value": "Du Toitskloof Wines",
+    "type": "string"
+  }
+}

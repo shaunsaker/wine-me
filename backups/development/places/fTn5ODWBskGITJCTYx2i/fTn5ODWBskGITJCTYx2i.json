@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 10:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 10:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 10:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 10:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 10:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 11:00 AM – 4:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.824656,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.5655333,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAK7TAC2D2FSZbJAj4zHryqOrQfuODVZLCbBbHp7N5l0gCUXOsudFx9bkth7yE9o4H8oIaryquu3ow423DtErN4_hLbRm8G79VEZmNM4QFBgC5aYnra22N02UuSy5ePujeEhAOxb0xUVqWdotZZ_Xfd1OjGhQyi7ukz5MqyhqSkds8b9x1oUcZVA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAPb0IxT9ckXht56g-LpGFoB9juRq1m_C1CtTotZyG8-fIY0nYAh16RSzYxLC6xD6Mjga7vhE0odqgmZ5mP45sm3egQF_Vpw7Oigca1YHqLEr_SWob3jTmfe4fHy-6bZGfEhBV93O-OXv3Kd650H83wtWLGhTofIN1bVIykWfgmK8oitmnBMiRxw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAC0_v_74g17sEzbNSUR0Irqp8RY_NSmVbJTei08-JepBPP7f1B7OBRbTLYZwBiTOLb59RBTuUrvqX6f0RCt6d6kvprQKHH56Z-f-TG9_yk2gKAy-7lfrU2TdCxiG-qep5EhAAcJGJkfw4DqFr4DqR75-QGhQjr_u7DUzC3sWdlRdP1qz_VOuUZQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAxYJOVXzFtGxWvytoGKc0XbB-4dfc1QYSdGtgr5ONAQPssm5VntXKQR4bpmP9jP7GLJpNv3r2COtbLKCZcZpCUMJvtEf7sIbZr5ANi_4d1bYboFW0_y2-5_4Pa4I6wGgyEhDEFvlLUrtV-ocDm-60J8VxGhRraljYUxtMCD7ZnrLvtnLZPHUmUw",
+        "type": "string"
+      },
+      {
+        "value": "CmRZAAAAnllYY5Dt12Izitv0bixmaxfSVIQRBJ8m-0-5FLP1JvT2ScAZZnmhW0rV7V5IwEMW70uhOiWhDp2k7uQvxncmsd4kFIZibJzsvdmcX54lJfvYyrhRgHjTflbTT0DRW_77EhACWwtijXMDr6gLS4xxY0YdGhRNVCk-0m6mhw7NcGfZV2s5e6zvxQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAK4XHCVvBKsxy2Iw6cMWUcoskVOfQy0Q54nXLOloVa3Pb77JQW0SMmAx4FdtN69WCIFgyVh5rMY3UgbkEf41DuVjtU2wz2i9oOTI82WgaveKJW4Pa1Yy3bpKye44QWBDxEhCk1pmu71NMwnvMdJjtgwV3GhQw5qWsOxu7V8KEY3pw2QxSo5qRaQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAqJ2nr8m1W0_QJ3EhMZ7GcEiWRGPuDJ5Ae5uUaHJey1E-XvkI27SNC-45ZX8-mctEy4iLoLWmqjW1bGXamXDI3Tgf9e4SAtMaAzmzg15zJ17xD5R5JoR7aNSlpSZoREcQEhDAwKfa7EmOqeTNoXz8KymyGhQtW6V8lbaGUHRimRoJaIhZ--VvVA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAJaBUXqt1YSBoXbuCwmpkWeS1qbrea6nr-RnTS1dzB7NFlXg1MBXLVRYZwv43_cC3dHFUN4Cwd_5-71kTvth6p6PkwBoX3rrh7_p0wr4xk8XJ0uMEZLay_7LZbkmtkQkKEhD2aruIFWPGhO5OQoTgdm4DGhQWGW1jIxTBhJ7JPj-Wi8FnVCHdeA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAozhUdYDekK4xanqXlns336VHkp_phV_HD8XF0kxIShC_eEKIxDAvy7a-8AY-lTmLo2sB_nj0yiy2nTMPBuFiighPE3-46537HweQGaPHDu3gYrM4EjNgHDO2VfoKpm3xEhBl30cuvXJU2N3vNZjqMS6DGhSPZY7NbH9h3BtN2nAMDsEih1N0wQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAGVMfA6rOEEGFm7FwnxapG_5mZ41s6LyB3X6K4vqR_tXnXHXJWuoVxkq5WEOPYQ2oKGDpHeMO0XtDI4d2JGLWKJ2Hj_69Ty8cyf7_d-n8KCZuUc83C6XPQMwLdFtfFpUPEhAuiKWCj45G9OqD3XhyKU5wGhQ_ggMmYT2OU4M3qpr4Ogt1dXmGPg",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "https://www.durbanvillehills.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "m13 Tygerberg Valley Rd, Durbanville, Cape Town, 7550, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 558 1300",
+    "type": "string"
+  },
+  "name": {
+    "value": "Durbanville Hills Cellar",
+    "type": "string"
+  }
+}

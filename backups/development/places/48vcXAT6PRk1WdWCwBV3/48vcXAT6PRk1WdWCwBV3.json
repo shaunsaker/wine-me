@@ -1,0 +1,109 @@
+{
+  "website": {
+    "value": "http://www.vergenoegd.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Baden Powell Dr, Faure, Stellenbosch, 7131, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 843 3248",
+    "type": "string"
+  },
+  "name": {
+    "value": "Vergenoegd Wine Estate",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 8:00 AM – 8:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 8:00 AM – 8:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 8:00 AM – 8:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 8:00 AM – 8:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 8:00 AM – 8:30 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 18.739318,
+        "type": "number"
+      },
+      "lat": {
+        "value": -34.034568,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRZAAAAfChktvj8ZVhRl0kDohvDmBtpNeMeKRdobr10Fc14Wgh3r1eXWsFuV923ytY03CMzXfFMqRoS-1vMm70509zhkh88-L3EZGw8xpJmzfiSnIcepwuxoMFb_ZU2lN8DSZoCEhBfaovc1GmSwlNHvPuezMAlGhSqNYa9zxdW_H1f9_xm2gDP-npJfw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAaFSmKGH1A4kjSWGplM2i9qn9p3R4w701q5-BVGhDaMh2aoEQWMObU1aolriSMwFXnkmLoMJYSWQRSoZV_jrbWM386mPtmXPbCGemTsdAWAy4zuE8B5z_t5wUjlNEmIcTEhDQX-dzH99oeQRCLC3vEdp5GhS6OKwmlQU3uxr5I1_RXfwByYN_2A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAmAstNUHP-CV5JRdsC1HsaAnbraSYoSTqPfe3ohBFFOUSFQ7J6QmrSKbjB6wk5zcd1Oy-fHoWsSgZbX7199g-_oVhQrHNTMMcQkFr07i5aZpPmGHFezVOZvoXIv-a62ZQEhAJ9fmth0zPkqGCxt8nt21OGhSE_2cNj5itZ0ZbNZN8FpNGo60fBQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAVzDQtzOJWfeYowHViYswVjcLiChWFDmp11jVa5H8qkwSfl4MDDhs7g4i0uBn0CqWjCRNDRqN9ztEVPNQLEwVMSX3bO-yNcWr3kOhsvph0fsoQ0Qs1b-xn4T8bzN_6_K1EhD0jskRi4BOu4unS_Rr1qCfGhSpjwXZS-J-54FwZqjg8Fxo126pww",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAuDyxMn1QcEj14J6bBDoh4f3QJBtH9iLLYgQ-LYi4u0BGPh1gx3pB1Km3PQqLOfrD-fwGKP7-w-fd16O6k5QHB7Ra4o7EKAvv7X8Cbtqvn3bV1X4XX3r-bxMy1Ayrfcf0EhAazzEsOiHknkcNinCB4mCkGhSR3XPxMAfwAp9B8H1n4u-x0tV9aQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAZNgwdX6tlPDda4DsH9HVvuhS8206seCcAXB9vqdaBDp8lMX68CMSkX48ZLXwD9wfSTdked8s6JoTq-HUoRx6jdwI_g93smBaD6cqv3wEUx7TDRUlCPKJQD3k9sM5EgBxEhDv6qWU7fdoqZHu8vROgNzqGhQCyLWjaM4-lrREJNntwvXjNJyzDQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAGdK3bz6XmVivQQt1TRSJwHeLH7MIBuRe87r4M3QJfmWNlJh1E6KBCUItH-gAnRtle35vBE4Y7ico4-LgYK8__FgbBmMzshtFDMPBX3UaDhpTSfjMEYSN5K6PfJEnMpIPEhBMs1A18TjmqwYeIZQ5-tGJGhQb-FnCAtAbJ6UFvDWwemVozu5uQw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA4VUfRrCIyVt6sMFMCmUZzRi4r5gBWivydzAf8VxAwLgoVpcJUbgb1JwhsZdVGyr4x15pnxlwm-hxSd1Sk3bI-N-LW1RrvqCHCb_cu-6Sd5Pvm4oZUMySBWRxlQ4el-iZEhC3y708GECBcfpemA4VpsWTGhRCLOHwPN1enE0ADRHIiAf8xwbMag",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAJ5GiGWZ17-mI9kIdQ5i2Ncbvi71_X7rrzAw_3AJEOHR3mXqHe8b1Ll36LwFQbimb1Yvfbrxy39DNtNkAYHobOccEy3efnGyaQNYLY6XUhu1znGjyRMOyrAQNN0_D7FTPEhA3f6d_HRDVB0vDugM90CaUGhQ4mS_2ikZapNVjYPHqSCLKwRMkZg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA_1i95bz0-vbBIpvTem5-fwP8IfFDVyZ9hSkRN5Aim3_5fK_ojJqDkGLQkeb4_hOdy0iOzQs9U8p7t46D7O6MvVc8bmuqvw-5-3IPioR_w-JAvwpa7SyiNeVGXc_BQjCMEhAIS9K8Ss1xSmeltL_fLFQTGhReTis7xekjmyveJJlgoScoQtrM0g",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

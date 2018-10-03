@@ -1,0 +1,81 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 1:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.6317148,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.06431,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAPrLsvUjkvxgjdzu0_pSXrhKGvAcEbgbnhVIFOlO66ClewKw1iFJSxVxXr7RFIKaNoPrOaYFlb4U-4mB6dnPEVS8gMnaz7OKkliuNk62TWamD2SMs5z_Vm0cBQ8Cld2U1EhCoTXx7jfXKPhy-rATeTFOJGhT7wH6o_jMsUHHjrkGZ0HZGfUJJvg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAZofrNsSxCgy7__7jqO67Qg8kLJq2N0sgFNmHpjeS07T4no36PgvdjBkfuNZh387LnZrpilwBU6aDu8AuXKUrfTKwF6d7a0iRG3gFE64Zg3r4zj_guhHdRZqbzxqf25_SEhAPcZ-H1lVPf9dYMTCklTd0GhTuXO__8zMjKzOS3zZSgRvHVp7zRw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAos_K1Ilbixz8bKvdcjax2ReLNVtNEEK3RsawIt35KCk7kv-y438duv7QSaf0vhDo6wzIlPbUuakECrqCJiuttYow3MTmjK0Nwvm9v4rq8taHRdlxteKNkDBdsQVKpNglEhBtmLe4B2h3NPg3Vpqro3aPGhTWXVh_i49OaM8-gvsk_Uo9VZhyTQ",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.nabygelegen.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Bovlei Division Road, R301, Wellington, 7654, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 873 7534",
+    "type": "string"
+  },
+  "name": {
+    "value": "NABYGELEGEN PRIVATE CELLAR",
+    "type": "string"
+  }
+}

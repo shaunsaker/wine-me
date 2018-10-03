@@ -1,0 +1,76 @@
+{
+  "website": {
+    "value": "http://www.delaire.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Helshoogte Rd, Stellenbosch, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 885 8160",
+    "type": "string"
+  },
+  "name": {
+    "value": "Delaire Graff Estate",
+    "type": "string"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.921626,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.923115,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAsZUDyIeMLe5DXkUgThQhm8oRJzjxSfS6Dm5tz_4-2s_0uOUhxqXKnw5jNcU4xJu-t3BZ-e3y3YPZI_P3yb6YyLSRUKRo9Tdpvl0erc9ro1HHnpFPFR5vlyOGPSiZqAmmEhADxNr1eZTGMIQ-poEGo6wnGhR0DKuMBvKTHRf24bI-78kgKp_NKQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA-Cw3aO6za-CSvKB2ROkuK91c0tPQPN6DFnbxFth34YNqSfEOPqEsZjSkrGOPGVHs-Xj-iFnmLrN-erG4fG3Y3Jg8-JtB1JGmO-0CqOak6r8teo5Bwf5TnwYC0mebP2j5EhAd8xcgrGnA5IqfJcPC7LeAGhQvQNLjY4GMQRt6WilSLyKL04Xwmw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAUC_hhF_02YdDx_ZmSrvlWZF0ovPLtAeqqG9pZ8licr8MX77_lRkvfzmuUQ1JztDgpSaHgJk7L77rvcknZOnJN54mwjI95tj0Wvp9VN09YyM02MK_sqyBB9X5VxtIH6GXEhCknF-USdAWtaTUVfz8xpA6GhTp8GHCepLSp88LhTKDf8MImywl3g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAXxpd-xnjY-olh1FBpY8G0YWVypzTOT73rqf_wwRyPonj4W7rcJVw0zuYI0rsIrdVL9HDhFPqaNAL6agL6EuMRks5NDQ1xDR7Qf83zmKHR9LLLWzyzXyad5Or18DFp7FOEhBnwwFTZbIOeuZzPa0eLB_uGhSGFyiCOBZMLfkvzNCvXRPJN0zugw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA-EtqQn2idMJhog3eKWob78Sy1eRriepl0qlefgynIEFaQROloyUFw6fx38_HfJt7I2A1L5EdUV-NheRrwIZ2JFlK48e5ed4mFQu-asnoIUO8QiX1-IX47-P55TNsHJBeEhBPQ5i1t1TUDWgZYP0_VYyaGhRm5cJhgLAvMYXwkuJJu9ifJd7gSQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAArcfeemPlwzl_c9pccVXnUFKVutXrhJYCHyj9Fvb5EOr6N2LKdykNdbtRYHDM8hMcA7T9nfi651tJNZia25V08Laeh8lqLh-bh83V2h8yTQ-8O-lDds3DP2Ted3QqwTU6EhAv5bYTqATiPrX-0epzxXlbGhSOA9BytZ101JkIidaqAuU_Hw6Oyw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAwy5vuR-iOrnlTV3xpq5zm7dkndK2msHXA5RuVmfxcnnO72DqTPDLfVECpcGcZmacUp5h_H6qakCikt2Klg29tzKdqbobdtusGqbTGaAEBhIOnFpZvnASn4EsuM4v4gA0EhDmFeLXpsJVU3FOPGqDWNz6GhTCRb_Z8vR7fojIncYFV6Yf1jtQDQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAALCX-7TeOAlDoikalLjhlHysYVpT84B2ind6j2_8vfZWJOnioV46XpFhwxriOZJYNJti3IBAc5a3UhCwHza8nSP7GAtTmQhpxDnWHjdFzn8NANzgeuL488UD1zVMxfzmtEhCfZ5Wcchz6z-VmG-P03ilEGhSJbaK72Hdx-MtUQj3sDrwjnZCYxA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAONs4XJ5ALD_J4R3zvamURtCkc42nDXU5WQfTAWXFwBi2q0PgDSnNSpSDaQq2KvSSTj9zRu_ueZu0Oq3KU88IXcNtLFa_OyddKR2zXwuR2hwmkbRIZQMDCnTfNibCoRb4EhB2DdqjOIJU1MCzXkfdCl6vGhTsUN-YKAse-LGTyIYJYQr6yGbWiQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAVqT0NbtWVQRu_0KhlZLrS_QLBrH1-fFSIPzFNzuXFgDQN3tdjfO_GwvVvu504axO91SgW8vZjh9SD2Wr7YA9cEUvGk8ixtq17dWqp-ytywgSUjBo5_G3PH60cHYJDUCmEhDsGRzubBSobOhTw8Fca81JGhRgvk3MhVpYhkbZmCY0Hx-_JG45rw",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

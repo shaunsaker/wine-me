@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 9:00 AM – 3:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.38135740000001,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.37323379999999,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAADlbzeVPJFm2XmuGiAt0k9S2p6DMqIpt9k8ocFQSYnGpr4QeggC55zF8orz2fDHgcxmklZMUd7s3PUvSUvKDtwXGwH_IBERwMd5LEpUxeE20kggKWxhD8-bfrAXwOkuGIEhBiGEeofxqYATydAhxG4Rj5GhTBLHfOE_s7qrPwMz9GwX9qIxnmTQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAnwDruboMIn1ldgpcs4zVdjmseXH4Ve7Idaol6BsZ0Xn7GtxsTfZcMf7pN7sZSnbfPiYK_TAS9RfB8QDM-USYDmvXXfiBU4ryzx2K1ZycXImH4SJWnvdfvMZscUGbLYwOEhDFSyW17Fr3IrE5u9IL09rrGhRIUZ90A1VB-Wjap0Rx4JC3nH777A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAV92CKLt9cqS2HJawBxRMJGLRA9zQ2ioEbkrWWOOjPVxYCBbxnNMGclv1shoBm2fSTdDXoXsJZ4PXRqUKfIKz3lo91IrzYd7dugF0jvVSx4AmXOdiXKgtlYQt7fA9LHN0EhDL9xqGHwc3GjZkDtaV_Y8VGhSlNys_7VX0_hLhsgP6FZNxvaAD_A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA7HdplkaYPvpQP0b6oMGc5Rd3J-g2NdVLrjStU4pZmSPYTxykIOix9dyeXKh3HYBguGn6jzv8INRaj-1YtzFUYsXqOw0bqBHaN89amS6i0yM1dzYOvexBU9U0RiQpb5HNEhAcRed5DiqNKbusTdKU8ZrQGhT8Mu519BUzfSdLYO3zw8H0VAfj3g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAuMYIlyO2SA0pecPiuDOi6RC3YYokc4KUX-RaPIKv7FVTzIeVIwYPa1VPYj57S98Wp_4wOGvNf-1XKinfbp_nnWtJoYkPwu7qo9ryR0WQx2UA4VksGUi_81O4cthruHK6EhDiM-MH4p_C-Vjpc4dznIWOGhQWZ8DEh3Znl3sxjncIAEIG4Xr-oQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRZAAAAp8Gm6-sGZjWHu2rxmX_BOc0064yxQSFO7pOUDdeoxGSHF0Pbg3vXjq0NO9bfsnApM0B1Pf6cFI42ZwWwsWepFaplpCjbpMdUxifl5tiMRvhvHTgEZEwMpjKKWtzKx_2AEhArFC6Rj5b5mupb9ZTp7xH0GhSryfP7f31vO7bLOAxnRqv88R1pTw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA8nFTXUWVKZOb8PjXT_Iw3vHE5QjXYiZvwoXall8E4j4rE9UyeO_7yTl9MHl3dPmpeHhlueiGBPOQDp_iXzejK2xur0fGXLq6bn6Xd2Rtjt9NmutNen5Bq6ujMKRT1PZLEhAOXrzHwtCDlHu4HF1n4sfgGhRFf7kOrkIqCwVk38vuXNaSlcU-NQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAmmqhQvVQ24-wRMDHEp6N0GGnrApzAtl-twQovShGDP9lRIxGfuyWgxvR8smyRC-GH7TFKQv1lSxXWxxINFyYTfuWPf8ZVV14bHsAYzjW86RAIdmX-c1Sfqa3Kj_AoBrBEhDOZTDXwzG0xQD9dplDYSscGhQyq_ob2ydyp8h-8LXSS91NEU4sZg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAAV9oLEiiuTza_pIO_jaDfwBMAx2w2L7qfY7CWUSoReVdU3v1m6a7iYFM83T7S8HSVNQze74Ey3OYhZp9fp_O1ZA0SXA1_YVk2et0BWy6ubdBMDNjM7Gr-Scy4uTs8zPEEhCxW6AxsY3kvgjxsBHyCDCcGhS3GLspMFG2EoElllJTwt5PuQWdOw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAp4E3dJ8wNIr2IFJU5LMgaGYtPd0OD4JRrj69zpKO7y2dQekmztDgPg-wQCZWyDYAOMbsI7AGYD6VW6GkgGrRqe4DgcpCOxNaf2Q9yE-d0tycXw_831tJW2nVGIKmv4FPEhCPNh44RkNYvZh3TgKPgVuPGhQTXQ3SFUiuNYcKrO036AzmwXPeZQ",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.ormonde.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Mount Pleasant St, Darling, 7345, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "022 492 3540",
+    "type": "string"
+  },
+  "name": {
+    "value": "Ormonde Private Cellar",
+    "type": "string"
+  }
+}

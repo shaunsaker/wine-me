@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.8418644,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.8759801,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAA5V6yGtRHTewAYma_gmD_CkAjoX2_wdXxmmDXbdL-y2hTTAUQafC2iwPSoil9rB1ri8Yb9pDqTZZdFNct1nzli3lufi4KvU4842sIfq2Eny80wHZQmdRMRUkPoxMdSti0EhBXoz6oLzu5RjqLxBlOUPxSGhR2GLTfvCHsCXNFRDvj6fsvogr5Pg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAYl_mgNKWCMaWZ9ts0bJqcYxZpaszJVC9YDXHMaoSS0t-5VsSX3YxvRAXjp9sU1iQhSq5f9T0aXtK7cH8tZfNO1_UvSmFpIDXbtunrmT5ftYKQihSbE7Vrn3S4aNNGMYqEhAlZKXr16URjqCNCbIaVI8oGhSJXLvutzbF-029LV1071GJH9SrWQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAkn431JxG7wfkLxWVjtjRfMylKsv_x4o_7k0fp0FB7mgp3gdGxTDLgSCuFXo4gFpmH0PU2MfGtxEkOlRFBLaEkYxdJwbvTl1tcFOw18DG9Xua0IXtcjlW8vL1Xe9jc3EFEhBLwXYpheh1Jf168UJbkFMBGhSUq-nsEhh_d-s0cV0zKbQrwnriLA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA8127xaHgGzYKYBGXvCMRJz_DG83WXYjl9azcH72xt6a_OSBNhlx-S8pvGga7cwqnRBvGhKtfbN3-O9DJ_qzCGW6uP765p27ZTdsiRYE4HpQ1xYHiLX7Ruf3UzV3YdArEEhAusuUGz_p30sBC-gCWuyyzGhTUSEfoBDW29f9otfnfwCL9JYpiow",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAcXE8xpvbL90QwFEZiJqd7VMZY6YRRaJbzp373IB2W9WIechJkAFYb7wSd5ifhzGeqlMs4D1OGSfn4QGRfwiho4e4Ew2434ftMC_UqZWHIjDZgpQTHCCb3b8c0Vd0NDY3EhC77cdbK4QgVY45ZDJwrMF2GhTL-QMaSOzlzQAEN0_ZSKhcYjQpwQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAACkzmsIq3l09PU7hzUB2FM0bx-wat6gfai7BGfu9cfjFb2me9wXWtvUGVwVCuHF1OxN8m04McfBGwZKETA7qsymkLRZQgc1UAyDidXxLd0fq7ezoKmX3gUaGc2ZK27gyVEhCJY37N030mdy3DWcILucxYGhRjqL6_ZPSrVsSlU9j2V-LZbdLW8Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAADJnoHm3-0ArhvJHprNpzVhA6Jqfya1gqfpvSoEZEzpXx5VSiSIMfWrfjoICHA6xc7yFBpVFcsVSo9s430fi5R6q6pSFa9Z7lOi6CEue8fjChvnmevGlV3tt7AVW9aEPDEhACx6J4rrghFTKETpjydfeaGhTTTwbytvMnmSPyZtG0CfgxbRBP5g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAeSRjE1m4MK7l3qUhz2e8_i4p9H-ZUX5vSZKXFzELZnKLBZ09Ugku1GmDIxexA_-Neci_2CXLwMiLSFdXyRc2VC-ZrX8GQoZ0wVQHXxCnMB5uHzP7p1lDsFpN10SUffgZEhCK1TktSvPWJQfuo8lvMzamGhQ6WUTThWEvjMPKMKah93PMvQ8DwA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAnZhTr3fmQz2M3lB-YUOQR0X_qJsn1RxSrKZulW0SqxMHdfbNXT-c2QTCCRSqmsXFufVVjui0-NeAtfNOVdLeaTaGsoptdJ5v2H7VhkUQioPvf_urZwpGQ6W9Isd3QE2fEhAcjp31-84vZj-BUIHYUslvGhS1rwOTNYJxpUdx4UTTwGgIeM5dmQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA-yKnI5Zv5WoAIBvu_Q2ebnJYFKl98NMT1rWA-MCtYXasShh4Srd3ni8IyAPa1RlVdl_bU-XSYiSfj4Jid06SVSj1Og8aPR63RJ1Xjb-1Y59WtmEz2rYPedL-rUWjJO_5EhBT27T5I00MWYoTSn_jshSWGhSg5sZYjlc-9TEmKVsxlRgwcetiUw",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.lievland.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Lievland Wine Estate at Route 44, Klapmuts, Stellenbosch, Western Cape,, South Africa, Klapmuts, Stellenbosch, 7625, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 875 5226",
+    "type": "string"
+  },
+  "name": {
+    "value": "Lievland Wine Estate",
+    "type": "string"
+  }
+}

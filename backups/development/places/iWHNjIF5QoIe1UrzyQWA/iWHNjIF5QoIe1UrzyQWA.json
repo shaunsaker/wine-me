@@ -1,0 +1,109 @@
+{
+  "website": {
+    "value": "http://www.nitida.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Tygerbergvalley Rd, Eikenbosch, Durbanville, 7551, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 976 1467",
+    "type": "string"
+  },
+  "name": {
+    "value": "Nitida Wine Farm",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:30 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:30 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:30 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:30 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:30 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 11:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 11:00 AM – 3:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 18.5933197,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.8347509,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAyjxMVDwA7q-EZQLpq5X7u8R8ilZRnHYT3N4i7PHdGVHoeWp2OAURw3z2JFHB8anoqu5TBhZ5hVS-R5LrlBJUzEMIPDnnAY3cbozkOdu3KK4bN9hKfCJkYDOvfesGevlWEhB_4o6cztQgI5d8z_KrbXOGGhQk3NhoKqyinrrli685N-ofU9X60Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAP2p-XmfBdPIDemiQBwHlkYlf3YtVkDnGKYMSig7E-BFf7_ijpOsoa8m5mkizI8BQ4iZQg4LNE6xrcZSGMgTc3N1qkTLp_ynvdb096s2Z40wZy66HzbuOXxtQrgCL_mA0EhB0DrxH0NU9SsEq3QNN6NSTGhT2HlXfMCitemGsEOuJUipofLUbNQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAukX1blXX14Xy_1_gB2ruj5GdVDzyeChh2W8C5ZrqO7v8O-VdlKm9iPYBRePzXspSwuMwi2QXsCZ6Qad_DTmjJf_2WLxVJtbEtgSQw7O4dPY4Ejd0Axi3LdvBJCBQ4_aUEhCFJU8tz1fGKc5GL9goSqfjGhRLfdbePWx6rTn9rjLplhRYzZ9wpQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA3KxD6LAihfoUGIEMvWFz8nqh7mBxhnGhK2pv6CbWMU7Fd11idCjwWqtQ_LAO83CtTgH5QXZj6ycPTKt0LkH0Gn71AJnNxJJBco8S8phwgVF-C87DdU2er_YTzNUAYWoPEhDFdb67GItRAfa-9FRYpA1RGhTDKDsly5RK9rpPeTg5WL9T4w-zlg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAat-PqWshZAXv3IZ_DiTaJe_zu6i8F5_h9d6swCd_4IiQzZEObq7JEARnsInW8tC6Zk8vvEBfKJX4nohErVFV3hgd126GM27NMIJ8hz16ULIOdmBY5zxgIQIkG7oY4bt4EhC4alSmWNzpHQhzV_H2qHAnGhTwOrM3s_PaBkEcJ_N3dikfNxsfdA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAi1Yrk3quAufXOulsh_hCCe9F8II1_EKKoU0EOqHxerKnGoL8rqbpz4rDdgwhLL72U43UWKTrVt5mwFMI39VR8sIza-CCvKvgZPR17M6-HAUQcF4goOWqr5TMlxewGnrmEhBJ9It5WoXs4WOuqJUKCZxqGhR64c_TNejppgGKlcI0DV76sv31tw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAmWiFPcF2HaqJAO-Gg63C0Gzcwb2kOMgw8g21Cw9EKZIM7N1Ri9x0snYRhCKYsHX5mqIEBk86eipjlxPkQfnzPSkvfsyhcj0wRN8WRqLC0DjeixD1NFbdcGKwTTC4f3RTEhD62oUhv0B87cIiccq4XcfPGhRYhvGGS_izwXys0bZYLqpEDzR8Yw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA_Wp4ZsOMUS9Dv7axYlr4K7LMlFdld4fXh8vjxJNq7zN6F46OTEmQW5alcZp4yOlBtRVHOoTfHS6WP2QFVqOHgOJ_yeKX03O-4zHzMvv7G8jNHnyQ_64ocv_qSI5BfGx8EhAUIJmfyZ_7XGHaVMGV0_MAGhS39Xu7GUzeP4fVVM565HbCbSd_7A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAwpIPdCjCyv_XIFqr77tiMZlxES2IQSjbL7RP7yAWdqpIJsVVkvy0A9M1m0QhIVthIgpqOsuH9AP5Ujtycmpni1udk1Qp-VnZuTuvImxXuUKE8CsdIkg5d7V9SRfGJu9eEhDvsQbnAGU2yDDxIPEmxf4JGhT8Zy6GyAul-3aATLZ3kSBdIU8jVw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAerRFgKCQuqaHU9joMU7TVOjCa3yDEJPG3qNNlGS82CSZDiAMq22_eflQDQNnv172dhzDoM7DzrMkK9n0htakI5NFtyKyKghT5ckP7PEA20HLQW_WM9zAXCbA25Kb89QwEhDttN9Rpw8vxS1EXJhg2BhlGhTFKpghEWP4YntrBinRdsklJcfwWg",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

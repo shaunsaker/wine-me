@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 2:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.256453,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.148547,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAvfjbEG-adfJDleKglL7pTwaJ6w_2vR0fhVs8blCIkh20El45kVBapj02KsSlThBV2KZrS7LtoEUUDUUnD_qSSRwbyBUnR0FV7mbVH7W2tWk2tZ9ExN6zQSegUil5wbFiEhD0m_2aWq7yQ9msHQNEC8tAGhQOGcAZaq7-V0nwUuYcR82hraP50w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAQAh9pAawTAHK6bs4BrVAqeXNtI79w5LLztT9gY_G-e_85H0gChbwbvdgXiledaS2tGi9Fj7uT-goxOeQLhpXVpQ_q4SZAxfowEhLuP9jwtYAvfdhxMMG0v4JC6MmGk30EhBZn-pJiV_enJjY-iwzy6D7GhRCsqWSQ6p_redXGupIByR0pLeXpQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAt1XtvHnkdHOoQtKk1QeeUEKBt2A6ETfeisbGGaEVqW0lqwwwVroQpKj52Qq_vytesenrnbyFvsfo8Bkito_U_gi_krvdxJd7RDVvU4tVyUg6bMlrpWmDioDNhA0uaLC4EhD-m8MvgralznNwKSM0yeEPGhTly7U14bNlxVw8hSDACCpvHA3y6g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAAxAhiVV-mSst-ME1xwmnJigfK1GzmZ4BISIVUsYQJc_NMOs85SZVQl4yCPkTfd53jqtboKA9rdjrfCu4BtzDl0zNoQ0fIZABn7XQbi5PuaCiWkaNWST3tQepAAhfJnjqEhCNejPBdSHx-q1icgnbGHTtGhS7fqA-swC661wMNhwCRNOPoyjgOQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAK1anpJXxr0kUix1oPlOM60RHH4CwvUgNtZvHCwAK3s_Ijql7_Kq26NyKdlrP5PCpHQ5ki1ADdaex2zs_2UdhnXKaJtHKCnZrP6IFbnDoAl1IbkudMgRFF9Djl4waKj43EhBHwbefhiZUwIv180fj9iPMGhRBsfyzVH_oJeIuDAS7c3WdmbgIEg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAB9a9MPWN3BIeOIMoY3UMUvE8K4dKvYQ_qA6mg3_nPSz2psvv5mBZ8Kjs_wRbv48GrciiMocHfuihjE3hibOLR9TOKbqUYbZkmvgh3HsbvLQNWIEI5RkRGpKTSOxryF7UEhCTFCnExEUdqtPp1FTyfHiwGhSqYfUcns6MKo5SZZcjHVHJvUM2jQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAFOKDiOP5f-0HD9qUv4J3oEWRvyDbPL_pkcbQBCUtfQ1rDP2CMikfMwdTQBJrMYyXybr1Vg0GG59jcSXpGabmRTHR3x7t7SOpVaPMTnnhej2TsThtRvQDmOFIHUPrnnqEEhARcusW-lFj4pRAF6aNxJfuGhQd1VgUC_nWJYk9ETY79vjHke6oxw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAArnWQMvASszhfzOZsaoO-rUt6DJ5cW4m9ofsnJ99KytU2KktYZAnIPJIAijXQKikItA64saT5euvYIF2E789W-Usd4oZG26oCY2sWswUUj5ex3ohY5F8KKpUlcgZlI1R-EhB2ePrZyzZikEEgDqhKLal-GhQUcy-Y2nks8m5zS_oe6ajJla8kdg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAzl8zmSo_dA5xzGqUQm2MQYJ7J-e1HLxPoXdo4pOd5f_CpvXlHBGOKG7H6pb802hV3myYlYehUNJC2BUwB7Co9vPQ9ChFDBrYBvNt5aKyQhfzP78o4JlsuEcnXm6pTlLPEhDJ8ub9O1igouJoYppD-M3wGhT5zdl-saXHVlCXTdgtvBnYL9_Jag",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA5uZIFkDS3r8C75GNMcwS-FQh8zhPAPin6VMnQ8NiTcgDrPfuI0-5TtEbdpxlxjSCJIU245RrOvgfFvWZIteXAHLYxvi4IowO9VK5b_9uDg5rlRdqY_0_taoHFxwP54jsEhBk1aH0w5TVJaLqcsCa-KnGGhQtq8eDkGl-1LnmXNYIwk31FKfNSg",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.distell.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Scenic Cape Route 62, Tulbagh, 6820, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "023 230 0203",
+    "type": "string"
+  },
+  "name": {
+    "value": "Drostdy-Hof",
+    "type": "string"
+  }
+}

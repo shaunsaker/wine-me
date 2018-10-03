@@ -1,0 +1,131 @@
+{
+  "website": {
+    "value": "http://www.waterkloofwines.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Sir Lowry's Pass Rd, Somerset West, Cape Town, 7130, South Africa",
+    "type": "string"
+  },
+  "rating": {
+    "value": 5,
+    "type": "number"
+  },
+  "phoneNumber": {
+    "value": "021 858 1491",
+    "type": "string"
+  },
+  "name": {
+    "value": "Waterkloof Wine Estate",
+    "type": "string"
+  },
+  "checkIns": {
+    "value": {
+      "-L9VIBbh4LqJp94TFHbT": {
+        "value": "bfefbf43-b7cb-4fd7-98ac-c22ea40c2cce",
+        "type": "string"
+      }
+    },
+    "type": "object"
+  },
+  "reviews": {
+    "value": {
+      "-L9VUUTLM8za7rcX_0CP": {
+        "value": "d4b3bb23-ff3a-4e11-aa36-aa29371522f8",
+        "type": "string"
+      }
+    },
+    "type": "object"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 10:00 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 10:00 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 10:00 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 10:00 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 10:00 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 10:00 AM – 4:30 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -34.0988621,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.8895607,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAA3oVbfcxcwOkGs9OZp_fi3SA6Uet_GbmuGyEimnJQxCmN4aZoNMAO8NQFCAepA0-Pw4rWLNwGOrNSY7qqMtlPtkLqen36U0F6b6kLBDSHVJUNLrS_8qTzt04FyJz3_5OLEhCLJnpT1G88za9-LP2b5YdxGhTMGzDIi1EE_PgHHYY0erTnlYS6EQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAu2aWznDbtdFpifCqwCoqCtgUN02YfStqRIkyVY3Paq8EVGCCJLnRN3UcEihAVLZkgP7S9IdEIlfT1P5JCBFSrdN8pXZhgjrkxYUQ1x1J3CPU1Re1CPk0yvCvm8mlGftyEhBQb0PUeDviCxDJtNVpnqmBGhTx_8tKk2v5Llh1llaYbCGE_7OLmg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA70zLnsxLXfXw3TzFU2oRR_gCLW5MGq3SlAEhIZPlWfAKK4xRCruxeM7--KfreBa5GqzYz7XSR9L7mzryI5CtXiaO1VsWpP67CH4Ir8doXgL7p6cYJF1p6d3hrZ9x7Ga0EhARccS3RthfKMTSpuO8T3ohGhSS2UOE_8zPvfMiCu0KO39ydCtl4g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA1mG1ellOMsUZn5LWzY-eo7fw4n_wG6yqZD4vnEwMNnhA6gw_LSrjsGvJBKj2OsunnpwLmebE8s1hDxFDEkO0KzdszNrqbHvNotIRPmzn4xz35MxHvAgTvyK2X2wVYvbGEhAnxyJSJHvqSXs1EONcaw6wGhR75VcA1VTdh8q4ArkO7fPIb_Mgag",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAlMk7hcKswgT1cXWoXifnY4mBvOHxdVJyjpEqs3qjPZ0HXv55tEtC90DgF8MxAO7uL_0aTgZJ7L1bW-F8vfZJXhiNCiAeHb5Y9p42AyHPyNngM13shtPYU8DpErKyreQxEhAyt_d1tqOvljVP6qbggS1hGhQAIKHjGOBU3u49Yq0Pj4oHYjSFnA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAO-C6re9F5p54oAgUW9qPMTJev22A-Th7RiEKPfH8d2XsIWRQ_pHUwPycGFDElPAR4jRohgHpzciR8L67YEcqk_XWcVYValdxZG5fnOXOJEH7aQwEWVHiVoLnsW1T7T28EhCbleQ6Mab3RFZunsXDrLBLGhTBH6j35lmQNMtRseKerR9RTHQ4HQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAMQ9dFYpfNGdHEn4RRs2FDCa54qiMxhkaqHnE8Q80qrBkuMWz0ZDJ4jltTLExzWT7WdD7boyJIy2HOQcimMTpe6ixIDa8oGx7M-2Y9QFRbj9aQbTHYwaaaE04bPemv3imEhC3bCnNIb4yg_X5JtuQPXgNGhRH_gwlXlaeBqhGlKVoMVZ25xQK0A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAuK2XmUUjCpdfv8giqNTtBgutFmf04Tk6d_OhPwnH2qa20VNnSg2xitkJ_W2-apndwEdB0Ny6TpN9pas18AzdMp5SMF4CUP-EECo6O049llyp-3h-KMp9-yeXrwQym2cIEhAoIpTJ_HQs4mAYdKxkN5ruGhT4SSbSlPfxFb-qmPhMxkBlMV_huQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA6UWTEXyUkh8ZxYvoBZu6nTbHc96S0RNVSSNl94SIVnBESy6uRuq3vB8_IaYOWG08QmC5GmYUgfEy3UrS_Klqrqv6VfObSN40pmakhz3rgDBgnMEvV_3dl8V8xRtwfi4EEhDFi20edusThYuyr6zmUmE9GhSPkBb8qIgm2pl1XR99JbQRTXCysw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAseGXL_eJtbySblxk2ziJJiNOiO0VthSz49wTQstRXUZPS10Zw3fn3opXTciKOpe1EkGfjVUQeXnPl_UjvnEYIpG60zYrNhaZtb2EidG_rZpLUpbJjE0x9NUtEGsr79K4EhAxZW3kYLxWiDD_9M1WwO4aGhQqnC37XNCqZgTJxNna5nwLF7J6IQ",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

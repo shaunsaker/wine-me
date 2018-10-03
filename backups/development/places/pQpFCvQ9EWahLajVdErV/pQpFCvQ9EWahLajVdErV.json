@@ -1,0 +1,109 @@
+{
+  "website": {
+    "value": "http://www.beaumont.co.za",
+    "type": "string"
+  },
+  "address": {
+    "value": "16 Hoof Way, Bot River, 7185, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "028 284 9194",
+    "type": "string"
+  },
+  "name": {
+    "value": "Beaumont Wines",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -34.224879,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.2066658,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAhuLQb-FU7Q6VH0gKZ2JBfBmDXAyqFt8F2m0OSRmMJme8TVN-N5EcOzVkryItsGjWMXrCE2xxrEx1dS20Tfjmt9jshHOf3rECOhT2CKmrGIR7nzirTAfVaAxZcVw5XqyEEhCw09ZuP6-VdGb3n2XrvLO8GhRWCkcgBFlmCvkSp93I22aqWTDnRg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAdVG0OoO1nWa9RbDpQsa7LzekESgtbzFQKR3ZsM12pmlURf1KPE1TxuMQFNUugsMgt8X_YTLSwlJL_b8tABCSz9rftBVzCRf_hIOb9KT925GX_vvHxXEy7CRDewVpL5XIEhCO_N58muUwgPffq9JsjKKjGhT09dguT4Ljm15PNITYC6AhdF71lQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA0kcszUMDNyQu52ZBviNbsVy6_5Y4uwMPcfDE6rkDC3UFZjl3vKVqQ7M5FgGzTVyzIAhTH8-_S2h55kTf4cNtj8hV4DLYW4NbSUXZWzLwBAy97i7H10ccv9LFG_Q33QeOEhA-QHnhNC43RwnjUgKnC-ftGhT8GxsvMzKVCBWHYKHlxzKoj3uJ1g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAANKOxJUYi3oLQJKs65gjAPwJByWfyTxDrbESE0MGfky321Dgxh9mxFZ90BwEJB2bJqBJSDBUpOEVfZIFqtMpZNv0fP5j3SjqsEsSw9-n3vq4sb4tlA-oCiOSEXrMIlvL4EhAv8SjWlm0sfxNSrw8_1ErwGhQInyS9s_5iNgb0lDmQMJdvNw1kOA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAjS7InMjYMLdpopeaRey28XSs1zp1xULVBUrZhNy6vUeghWXgt55oBtvPDqNvXcc84cuSKYZcv3ygZuZzA_aCQsLen_4FoBIsrSeuYJRQrz8kIssVP7MprbsPY3_9rIIHEhAFm0hCi_fYQ2sjOzaLEq1VGhSKyjUMeuuQTzQhkeSHOM3v6EpDWg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAhmzw2ZvNyyOiQ8nKW_6CqdUk1cUZC-zDk6UnoB5avKT3xl0uWQn59kZZ_IUS6XN82SPBcq46f_rbRk4Unqt6Wen3CqyCuGF2ReLA3F3Mf7qEZ9LMH6XImuFCDZXF3XTIEhC1JvR2RnIBWZAtWeGQx-qrGhQQlGVJEhrCXkm4FdCCchUZzquXPw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAg4vkjP_jmy89ZJzr09-eYYAZTxdYKWE3gRGMqow8HddGfY7Enih6UEoj-tpO1w1qY5FN4usvy8iZHt6bTL98HKNKpuYsVxf6e19Rn-BuilY1mqDbCPj3OCbFL5LYJApKEhDjSr7xQx6wUuTkxO1EVXECGhSsIGa8z2YFwNGtRfpNhLCgZ0RM-w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA7no9ksHts_zHg21Yhry2nNEV56D3FSvyUfAiaYWvMNvAtDMnLV-CN7CYfHV34qQClYoNfSWcieMwWt-3pxKud1dvUCv0bjzYSb_VIpfSelgzYikD6SfaSuNzj3cNpxEMEhCLI1nQ9LOZbUY21Ru3ML5aGhQrvrwRGDLHPiwC6dbc6dL-yyf4FQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAASRfB7n3BfSCubr97WM-y_bLkTU7u7FHDqtsdM70tHQ8j8Ye5oFat1L3AvWiLmBu18FgECHyQeZIaIBPRpMP8wYa-KYRZFVWmn2Q7E0iar1Mau9_sg0zgBrqQVf0Vn7aQEhA7u_5ECDM5nXvbFI9eg4XhGhRZ2MJZ-wQg_q8BPZpAROFdCgPQfA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAdOZQpahUlc0cwXSyWkAiSw3tqPYuzcX8p5WRIymik5b4Dc2NbrR1qZgrY1vuS5ukgy52MS1_FZNMm_Im0E5gT0aZC5cOavL0_p6_kMt4PM_6Do4z3BoDpeCpgSB926YWEhDjytJNIXa2mMV5G6DpEXMKGhRGf8YR5wABSrV34t-yKERmSPH44Q",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

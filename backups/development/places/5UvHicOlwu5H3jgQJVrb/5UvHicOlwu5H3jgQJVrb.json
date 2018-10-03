@@ -1,0 +1,48 @@
+{
+  "name": {
+    "value": "Wine Estate - Crow's Nest",
+    "type": "string"
+  },
+  "address": {
+    "value": "R44, South Africa",
+    "type": "string"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.6826099,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.9018899,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAeqhNwKJoMHIH2n8IcyxrBio9qK70Kf22btVQRnIqiV1Q8sUb_guyEf0jFSObc77iZb7ajEcihoRzT5H81HamKjhylkmj8C7_XN7vOJq9jLtscV1IImWGAVvTggSwlx2WEhAPrLEYSh_WR5ZJU1qQpni6GhR2Et5xYyKUdGebHMPYHO3obk-LNQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA8fNCiut4ZEZwrcFqBdqkqawMrZovdN9-MGvBR8kodNqmNlSz9kDvlCPghJJ2krDJ45aHe2GO6yJ5TOxxT6u4mJNhXAyG_VAQm7lsSU7lKkKadICgQIXvm4CzesqxET2nEhCyLUeaMm12YObO9hxHFbOlGhS84_h5ZQWmyefQNxh_FnsLIpT9Uw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA7XU1vqF4Bf_d29W3OIX7VqTPV7JB07vcm2PCEijUE9GuEdm7hzBIXXXjBAnWKGk2S72F__oebJ1IcUDlGxFgQRrNyqBBtuWJRMagapck9NppkTbFa8E2yMDnRy58TI_aEhAUKhTA-lab_Jqavay-bDwNGhRrzQUA1plLgEd_iTmneaocUqj5Mw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAOpMy1_e3lQBfbJAJOKHwU5b3FreWay4PkM-HzgJf55M16biAOYevDnPwfqeBjGgQv4Psa7vGWmsBatUJ2Fb809dGMeK1uPKd8ocyXW1vMUyTNQWoaOA24KKppAcjbtooEhArCEePn03UX3gDnlzaW7ruGhS8zTmaHkk0r_zoVo7CQAxWIxcuoQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAcRFOiX1KLHe5Me8xQqQtAUQNHEufvpjqIKGJy7Lsj6tuST7yCgDD6TOTjyo0ddysgxx4NNfc06g-xEfuQ8-TnkcBz3A3mg5sgiz8u2S0YEKWz6ymY785uDY_A-1IqnQUEhCwtXEK_p8-kkgiugpXFOX-GhTeCBMDIZTI3klvj0q5yK9eivgQmw",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "name": {
+    "value": "High Constantia Wine Cellar",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 2:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -34.02521199999999,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.426758,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAA3HWLFLlj-7CDG13WVpS0ErsTfY1m16N184uPAaRDvIXIxNScxZ36FoU3e9c54QtbPevjEhCOCkb5Zn53i909raTl7oFiMVxIz3DYtasx1F88Y7emTwAZKEneVWjibiF8EhB8b4uWUANkr1II3A6wwyEwGhQDfhSDSn-ZBuxfjLKmO7Rfw0eB7Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAI5pGQKMpYAMhjCBaBWB-sy2FrWRj_KM-e3VC-boxfBrXUS860_-TDT2r7QJ9caLH7GPbQoQvsEvLnLH18wc8QMCZcov4hFqn3rw01n_gj0KeZ3oaQSBg1oe_2UveMJ25EhDSE_aWQ9foIEr-BYZOfFe6GhS-zKJfCJAbHwxQghcjtesH5ENVOw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAaawmGF3iQ9fnBAtgxJiAOsbBsyGIu0Gpuwpso9k7TF7UPNDwkU1sdWRspW47_BEducxNKHmcFq_6w8KTFDJOdC7flH0Gaaqn4XWMkGds8voycRfP1K21OS2xqnKPzPgUEhAS9Bb6hF3i1PZhCSJSVdKFGhRaWLTdYTz4ZX6n-AR_710Mx8uNyA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAePmTwHhuO4w0YnTO2IAX8aX1DYG6Zlr6nFfkPJOKtSDBLr_7Iff8wmzs4TcODYBCMLYL_kQf2HLnZFAoC5zBWhgVn-xJs5Fq3d9unu1jPueCISGlXW62pYmn6dtxfq7CEhC8SghS8AjPCAyITwbmAibIGhSO5OuGo5VWEahCU8w3XVFKzPEXUg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAASbZRE7pHWAqT0SCD0F0-ECXduRJWX5hdFAWofeQIxknjYzFsyUvF6j2tqk2pSI6NRen_HSrXGbKVw1XYmq5V3_8dDzBCz41noE7Cv2TuRL9uRLv1jSAJo5ZhZjCBzAEqEhDgNaptnmXV1EgFmslBKZM_GhQFgRMttFcJgtJh9qJfZu4sr_T-uw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAznvY5uY7SuURal0rGNTnxKieb2WTsYOOj5VOIHey5PY_8ZS1CdPyaWy2Up3vypHuDS4jodt5eqzjLl_FyQGy1ZmiIhLOAh8jyJtrKOTmwwnu71Gqju03PNneXWK-zJKzEhBGCQdeEHAcsTL0LP5FO4lnGhQ0bsx-O1dd1W6K0q3aW-ypb8S41w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAcRhvhT-Ks0XV2HzYgaIkokg55PF_3g6JEsfYjSJhEow3bdQ_5koLd_hYz-hwtnhPmlh1VMkJCEVEgj6a0SZKzz75jTnIuAHL9MIrSAtCYlgW2isCns1KS9nuqcWXVwmAEhAJg8O8r0f_mucGlQYULanNGhQIrEZHnER8YDWsFldv7iYQA2NBWg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAlJeE8tWmC2KwkjBy4cj_89mH5WpdeXPxtpMIWXOA6qz54ZND1yRUjUMeBaxS9UWOM-Gy3L1qPBgqacJMYqVTAb2g1AG9lwRN_Rasg2XwURcVhFMkOPoLvs4bowpX1z9QEhAFvG-P3GAtdzesFdyxY13FGhQQexGr5ur7KncgogaDPKImKmVLzA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAQP4s7zxBSTueOPbTPlS_CPRdC5C8ovQf3ICwa0MRSE7Ru3VTQxW44-xBJ2hMzzoJa57gc9Re0P-bwpPyXPMGLTDVeY_h5bC4LMw94D4Eb0etiSrCj3A5aalnPnJ_4_0NEhC004C6L3KdkUxjrrcRxzx7GhR2_s3XhL83zayjc0lsr_IizHIn8g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAMGANc0JvYqHJpwIi5LqJSOoSKRD9dnDVHUlUIaB-_c6Y473KwbTDD56g7OVBuhw4iwtyrSip45kAHLIuj2KXRLn2pIExCHvK_slW_tlxziXcYbE8C7u85bcmV7dYdBS8EhDB1huJX-Ezks_s3QW5kPJvGhR4ZsC6PO3d0USaDgOcL-w3R3O8vQ",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.highconstantia.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Groot Constantia Rd, Constantia, Cape Town, 7848, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 794 7171",
+    "type": "string"
+  }
+}

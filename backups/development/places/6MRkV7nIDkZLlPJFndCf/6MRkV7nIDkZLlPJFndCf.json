@@ -1,0 +1,31 @@
+{
+  "phoneNumber": {
+    "value": "021 875 5073",
+    "type": "string"
+  },
+  "address": {
+    "value": "R44, Klapmuts, South Africa",
+    "type": "string"
+  },
+  "website": {
+    "value": "http://www.mountvernon.co.za/",
+    "type": "string"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.8162556,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.8784693,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "name": {
+    "value": "Mt Vernon Wine Estate",
+    "type": "string"
+  }
+}

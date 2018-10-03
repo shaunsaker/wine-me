@@ -1,0 +1,109 @@
+{
+  "name": {
+    "value": "Vredenheim Wine farm & Cat Park Tour",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 18.80692,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.961016,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAQf9SoJKJj3vpxZXpAF4lk_2d60VGXXOznnJ9O7Gw-2AyiTVOtGR7VwZ-Hzg3BVwzFuhmz4mkEOdksocPP0_l6JIwPm2Zn9BdVKglEX6rFaphtncmoFmgu9lyRUBiR23aEhDFp6C65q9eeIdF-ND7jEHFGhR-NesoBIy3m1cuct0LUPeBQeXkTA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAvsu8EMypEMZYskCaWEv-gxNZ3jULJ_yNXPR5ra8762J9-8NAq2aFpFs2u5IiYaP-zE-zWkTr5XPFW-4cirpV6ZiyzWZZwJu3CX1UkFgVn09e5_lRbdgnMSiaNncQoyvHEhB6885ql1AfexGl_tnGzvMpGhT2H6wuOtzkLxc7VkOCgumcAg6KSg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAV-LmZ7953Z5Uu57Ej9MeUVd8gPtLWTQSQ8R_1M4MuC564GeBGnp6iTfkKURHxNKwhwz7beYSYKY_WhkdFZ3QRrKgOPTo5IaDxwNqLcpIfR6VJMr1vLt2fjisuR18FWa1EhBsoe0V6KvDqFiyHqAappM4GhTaLeVc9KVz9RUBpsJ8dl1d4TKQxQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAexNQLVMABvb5Z_aVS9OvOmCmYMYInmyYRKVoIwNvro5rujTkgjLSmB7svG1mhP7Tj_uHLvYLk1DyOumDxfzbQ5_xnafiS1B_UPJdVc2WDIgCc-Vpm_96luR3eX274V4sEhBlxrtF-Dg9sG1ppaJxOnx-GhSQdKXQpIHwE9ia2Aj99y0oi-9rIg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAcBN3hzOMNu0sruCJ-L6qSAFa0SHwswYK_ydfFA2mUfOtK5EU3hZD4vt5kVrSA3DyZaZBSIlVL6ZUaCyUpl4yKFH1agHhUyv5Jp6TxJR8tNW3yi94EMU7u3_nu5oSlzj-EhDXJOJvFemKUPsFe6g2gR8KGhRM-iWXQmGiI8ErRigycxcMp5MhJQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAW6s2kKs1fMubi1FK8MOfPoJLvec4FR8ZE4xNNkapBfPhCTUu1bA-ODZW1nrSQOzQ0ybQhwwCh2sAFN872GflQXB6Z0ptcRKjQ0RDTpUOXAjP0NU8I43ArAesvF9ZINYAEhCC6GiUNjOwoJlZ6ZVCVmOLGhTQvfai_UAMjMpbBGKAnt6PVdCpPQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAFIlRcU6rONuGSpP634yObeCkayWNG2MnV3repQR2Q5IdfkaEps01p-wkjZyFcFC7l1HSGO6lZ6Xqt_db3M6TmJ7rEBFCOZqnF0rU0hz-OIFv0dfQ_zdn9VqpTMIRz5DNEhBda2PTVALzN4FsFGJamMxBGhTnRmPxtHJzJcBEcjTIY5DP2wvRiw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAEcGke1Se2Gz-KlPesAMJB5vONf0szImuZ5w1kj5nMKC1lS7WDLug_WTvaKpFpAUKJFUlCXpsZiTLx9j4HT57ZEj531JfhSXUJiSeMtr3FKFdTN0fQum9bX-7wPR15etQEhDu61eFs1YDJjOXc_NQUQQWGhQmNSblKKytGg4xZwsEb1JgIHtTRg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAArTEGzLYboA-ExBM_ylkp1q-mSXc5qkljoGqqArraltVX1XPV2x9snhUCL3Q765NoHER-ZJpDav4MUDfXC6j_JZUC-rCa0D8Vc0xAGQBO2GJ9P8V7oIqVrIqLT-qD_raYEhDSygwD5339LIFRatvciPPkGhSb7R6t3460CWjofzH8nlNF6jMRpw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAUrUffwxpsfy3Ml2IoC6XxDdk31uMRZWBzjviThr-hD8lyUQsKbUdFeVWbqDiQGpcy1c_qOaizwtE7L7wy01-kWbn8ghGEf9XxRvg3noUhuskALnHZRYC-QvoJe9y8Tv_EhDMSsMabnh3QG3cD8OMa88BGhRNaxMrEACM0sHvE1M2-LOoPpQyaA",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.vredenheim.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "R310 Baden Powell Drive, Stellenbosch, 7600, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 881 3878",
+    "type": "string"
+  }
+}

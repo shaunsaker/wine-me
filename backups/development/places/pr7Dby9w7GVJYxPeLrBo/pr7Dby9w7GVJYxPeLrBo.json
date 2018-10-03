@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.4833989,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.4097753,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAA44ieTo_4NKt0jxIXwiPZGdRgWksFOcg7NWnNiwVtA_faNQaugkk7BFGQrHuw9kEs09wkDpF6cXUiRgRfmO8ATfr0VJgwiM6gBc-kEu7tUOD4nl-gclEK_KYZtPx0pbfaEhBkVXFvbUpIZU2QEFbTIB-LGhQzUl5oksJYfOd6Vhcf2v_aGNIiCg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA6riY72BDZQZiWETHxzQyQ3MUuyUx_rHh-er8xo7UZRjsIa3OeqWxXXYdolzo85_B6aoR51vrQAtDPnfCECWsWTFJf_cvSFmGrlFYL9FJaysiVpbD100ZHT5x6gsJUK8iEhDRrju6VBz1aUQq7xKZutX1GhSCZyLPDGtowLXt3uV3mhCkyw3Yiw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA4l4oaaIAHoPkIO_TjXFA6moI60XMAZU4wQtcQP8HclyRNC6j7-bN7ajHfqlAShqy79B2k1iSy5QCiH68vdvvqpskleMCIK7U6Y7g6U43HB2lH0gBisWaMLTThwu_Ab4QEhC59WfBnboS4sb4pbfZ7nRgGhR8YKOdatQOz6jnHPpmj38AYGEKmA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAApkuIRoB7Pxkrea9adfZWe6PC9wLTOs55aHt2mb3lrlJvM8JBkFwILLjl8aAi87tSYr_HVXt-zQbHTsD8CeuQnRcxjIj5Z3-wJHYTUy8F0Rr9BC7VxlYwdsaGgNdld3TaEhAgipkJzfQ8yD2K5Mfb5IUYGhRydEowk0ou3iPlp46F6owvEmO4wA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA0Pg1S1vIANux2fs7QoS_EXEXTbxWnbgLaLavmNAGfZqgZDCptsbHnPeqe5Q_19strslzFQtCEAvfQct2eX1o_g5R0PFrzCP6tS7v3VFfzpCghhjcNPb3hWgSVN--6hmZEhC82Evu5zcQx4eYACpkDUJPGhQHm8bNLBjlQ2BQurYXJlCQyqo1mg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAdnCzKuw9CaLqyUqAjYJRbA1qH_se2OOl8ZaGTWwCTEHHRmWMhs6I9mu90dAtzbc8bnHHbYa6feKrw6t-nlZgeApJ01bIin-cikD9VjBq1_KY30B-HxZxpm8yVQDLeblsEhCfEOiyAWNhFAx_btbGc96bGhS5KL2GdauNWRFjooQxCO12D3ZNnA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAl_sKtf3MnpEOO1V8olJmZVmNWrOxgs6P1OJr_Zh-Q_hu1df8d93WOqzSAIqYv2NQ9mdXho9f13rq4uszST9SyW6jkd6QUiH5cr8i26nkKJGoZdMx_uAhn5x3pBnDb3TNEhDLptuIoqJbbE8ICX9_WFgDGhTmfQykoeo72L5BJW2zxwkOtcqVcg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAto5eJZpbKjRLkCaesCtRwzPTjjWWpbr0lxJYm2Ao3HfDR4cz47ArEohMln83Ck9KQgyMx0vsymlR_2K7lQZK2-yx65L6i82WbXEzo7HzRJYFtnLbHLP7UEPXexvcQFW3EhBWCU67JuSurcRV9ZhEYYI3GhTHy4m2pn9QLc-pjnuQBlPLw_k8Eg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA4RKbUN5D6irshTRQbqOgTfUJcRbTLRAZwTh5Ueb7841sLQ5zJYTDoJ47d_l1KIp3mV-OJyWLW8QQWk95Arss4HPNaMTb--dKFWBZzAEbtdUOfEWpY87fRE4P9GFLx1nEEhAH2URHdURqZQVhD15s6uJDGhTOUN7XzUYReTsKTGEX6s7bautpSA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAaAg6tefSkc3Zn0CFGjV7QxY5d2uWHF3gi6OmdKZVUE-CKbvnMot7ajyk4r5c19dv8cIjy_cJwA3XuuIDpRo_T2NLow1vXxY2AYB3elGSxMPdPQ3ObUFEZlRZFC5god07EhDpIa3IVxe91hHaVAh-gYOAGhRRuvD4iJ1_3jK63g2ONwKgwoPr3w",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.grootepost.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Darlings, Hill St, Darling, 7345, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "022 492 2825",
+    "type": "string"
+  },
+  "name": {
+    "value": "Groote Post",
+    "type": "string"
+  }
+}

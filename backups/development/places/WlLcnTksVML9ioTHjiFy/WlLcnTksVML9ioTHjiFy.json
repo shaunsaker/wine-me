@@ -1,0 +1,76 @@
+{
+  "website": {
+    "value": "http://www.morgenhof.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Morgenhof Wine Estate, Klapmuts Road, R44 , Stellenbosch, South Africa, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 889 2007",
+    "type": "string"
+  },
+  "name": {
+    "value": "Morgenhof Wine Estate",
+    "type": "string"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.89402,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.86061,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAMv9bVovLK_avzh7ERtU5_yrnYCc-2IybKrKCIlXFRpFbQ6G-fcpC3CeK2O_PHkroKMiO56oYtbLW-pa1BLv9VpHXxehWEabKSkDSDzZXAza_q2aCXjBxYuYGOtsNYJt_EhD48xhohYTEskd84FnYzziCGhSFe9z_15PJFUUTZgcbcez2brOFvg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAM6nmYuUFif4RzbOqpOo17-Kymp80EyYLpSroq8XPN1wKykG6XwPDIehrYeeh8ZwWG4xk13Z8_VDppOT9pSI2wBYjYjZ7YnC8X_9ptbt58VverfoX130MLeJoQvozme5wEhDvtBcdQAl2BehCSj177yjsGhRlMdf4KXawUOenVxkcW7GBkkt6-g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAxsT8xUQzXyfQbz-ZmaX-4E4Opsi4pMUPnAG_aJbRgtxBBOw1lNgMfGKHLl-D4WWbfd25taNm2CNt5yO5g75Vukf78MyjE6rzfy4WVyH5S4rQkN-U39FTKeNHxSWc1W_sEhBppyaHPW726fE0Q58KDyrYGhRbFGpP1xO4VacjRzLD3oAFovZjuw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAIXVuYyZp1S0CyccN9ELBF0wPn-zUc0NwDfq9UTS-uKo3q_3bWxmqXC_YWnWw46qA1nlOjMDx26EMqDxmBd472bZcAuT5O174kGiIWXvSX2aGiEQzvsZb3yqebUeYan13EhChw1x2iv83qBrvZRpEcVZGGhSi3xMu_i1oOwa8ht0JLfJNE6qiZA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAO1fOmFT7O_k_x1rSmF_vzHxmjOdJDIFEFQRhDRmLBNqBGGXDQpfcLOWQTmVXK-pv44iB0lhPe6TIj0y0lCNNdZayX8Vdxai5Bqu2US6GTxaD95KR-lJn9QUZB1vOM7CKEhCqgvVLnwWvi-n8saUA7o55GhSb8fd4Ojl8IF2W_1KaMQVS0b2bXQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAXbZ5uAmdGiz7_Yn7QoKCL4tROAheTUNTjwYsPrpe88shkPtlY0ujs_J7RWJWbdMn5jOshtuQ4cH1e5hQopvTqeTP1XE5RPk1XcS52lUMGd2gwZm0aD5gwuUo8HGmmpbOEhBTvYsKKOPQYyMvOIJe9aaeGhQwyn2txzmJfuG-k8XmtF7Ps-Z0dA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA8D1RTCNn98Eo8C2tfplgFEjbF53XrLJltoz3MBgSV3D0xw_AwBcJ2dD91smGNAQb4gYWVXuU9TLjtIGEVXGIQaJLjDxN6F1DHBzG7dUKz73ABvjFrjGPeeXNXRSr2bSGEhDky_xqJKZmoxn1hjZGqo4yGhTjiCCtfoplOz_2V0hcy4Wb9DB88A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAASoEWcs7BanSwMTZZaLUWKqiDZ5HWR_clJuXn2jsRAZOqLD8w70kTT3qmkw2rOEKk8evdK293adh_eVDb2q8HXm1Gsxae_Ii-l71PaEiWGL1r_xdoGsiE5IUUkR_pBeiGEhByV4SUGYD0jAATSw1scbawGhQknhjUiNMAwYKFbi2fQI8N_rG4hA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAzOMzySc8gfzgBaBTTcHvmjLtGqoEjpj_18UnZ1bUXMmPBG4npaNKe0bkLBlfBpU-CEa4poQI9G8J5At3Xy0eSgKmLuFYe-ziaocjw82hu-O4yl-GHyADMA0kVBDwUzj4EhBTOCdqSqBXjHEB69Z9m8kDGhThnkfEKMEyZy5Oh_cvrm7SXUYSrQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAARqjLP-P7kdLrDHwPta-SbFcpSDWqWagAseE3EwK6SNbXLgGrJcbw3oAz1dxZ_t0EMusoZVzlfnFh_2GLYha1FRtzEp5_Iv8iLx0f8FeO7Amoewzqax45J3MyBdneZdbTEhBQp4_0VlEIgToUh0gSWffhGhSMh0jdwbj4nxC945WulQLiQDx6eA",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

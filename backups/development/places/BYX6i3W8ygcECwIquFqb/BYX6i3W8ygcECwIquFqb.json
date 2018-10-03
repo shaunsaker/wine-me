@@ -1,0 +1,109 @@
+{
+  "website": {
+    "value": "http://www.diemersdal.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Koeberg Rd, Durbanville, Cape Town, 7550, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 976 3361",
+    "type": "string"
+  },
+  "name": {
+    "value": "Diemersdal Wine Estate",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 10:00 AM – 3:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.802626,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.64632,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAg04QpJkgeLB-H2Am1arZlMbAGXVJaVgNrz06cvw36Vc4mHoYsJtT6kWWik1D6Br_kZbh-F3KH-ya8xpzm-6LwP59w1jKdKVWnkemU7uTNP0YcSsIBexQsd0ZvNUWwLTxEhCXofQ-d4snGSgT1x28hnfaGhTUW54WfrMkwnyZV0mQkSg2O85j7Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAABFqlLDYfPahULmYxyQzoCKo7r6IOqUcUITdd0GLmTkhxlG2vXNlZBHnGskbuFons3BrRgowE6r6-o0L8xL2VExNpINZNKata9S6-ypEYrBPNVd-HegTtaTBe3UFay6nbEhD72zmDYEuXYEHTPqtCwnCbGhTjwyorfVF831KKoxtb9VvrXcSViQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAwdncaDCL0ewq21FIv6ZOXxT7paUwyzXy_8MXVr6wTY8Pb0gwr1kxg6lfK3QB1aikZv8dHcAeFG3o4lOZweQOtDCuekQ7H-KnREn5uPXsxRq5VaC_vbCOEyf-Cm2EF-z8EhCo2JlReeBL6nea0lzwvJnbGhQbKy-sp1wwcyL4L8vQVIe8ul6RtQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAZ1WUpaZR5PuWG9SHkOWHnfei4RUTN2nq_rTv27efbgqKbQdo3d4mVfgX46GE7T92xnLal7-hMACzibXFjnDEMlDUm-bLcqe5_5IL2NQcZla9SwTtvbrLjkX7iSvVxe0zEhDgodSS8z1JZYv40TetDZ3yGhQO8U1LFk8iWm0cNNUyvbu0f5r8gw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAbYgfeJG2E_ppigTiYaOT3fXLEC1agh0zW9dqwRv8ojlugAxkqv3yinxcWJdns9o00CT-GxBQJqoxMfkkcg8marSwoIqqSsibhJWYv-QOdrDK-WKlww6F5VWIwqz61d-WEhALQYfPCWX3-RiE-zWCf9h2GhSaZLtWPpVh_iGgyBGQE6vmaVaCwg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAApLo1aQfEAAgKGVsD7jbw1SktdT2zXVldMqv3cc6TsIP1EgbNIitzcttFc0Nghr9fF3r7XOkZql_DSRm2HjW_QUttZkFBKfI1PZTG-fniJOik3KI0gRithbS6I1u9IFfjEhC8Yu9epuQJSTFvOvoEgqSzGhSJGXEQHd1xEhuEZMLYwDoB-VbO3A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAsSzIvWVule3COlrdYxRKuus53gTbqDvy-DZ756i_2ulBHmU36KpOiicI9lSofTrA0Je4box58oKPw4SjC2okQPkxnRrVURJbP2JiytuVqCOKXGA5X3wt1V5TRiFoVAkTEhCkUw-xrsryuREltesvvLPWGhSwLzYfPyeE4DUTmrUxdW9PJPd8Nw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAqrN5x3ez-HW2_At_AOE_1HQnvO7uWFLka6Cm62DLuzq04umi71Fhara0GIXMBkm9KVRbtz8vxM3L5rbZur7Sx1KtPfF6z8klQR2qutvMUokyTvq_kEvmuxH4utFCTbA2EhAyOPxwO7utoXlySVfBstCmGhRTxWMoF39Cw0NO2aSYfHS-60m3fQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAN9uo7yFryYhijS7uCmuGBP2F9jphBW9DPJqVc5w0USIHocAvx-3mK19DZO3cXt3yj4muI_XOfucLkWh4vG5vzLe_EE-u2rCS8FAR427w00EClY0ClF6oqHjy9y18tCj0EhBl098GP90KAMTGbjhwbMBMGhTFbFOhoZNwEUJUzT0FW6g8LiQylQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAANvuXdS52uy5XFl1RwSovFX9oF7QMYcRFEer2btPzCIZQIzP8nb3i583zLogx1iYJ-CfUjN0Yryv3LDEk-XltWF7530jQrj6VBVasWsgJjgjgRUjt_U9k9FpYJuv3P8_pEhCJtkWgVdapA2vqIkdtcWY0GhRz1HOzOk0C0qEVA9gG3rx0g3pZuw",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "phoneNumber": {
+    "value": "021 883 3830",
+    "type": "string"
+  },
+  "address": {
+    "value": "8 Jonkershoek Rd, Mostertsdrift, Stellenbosch, 7600, South Africa",
+    "type": "string"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 18.875114,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.93566300000001,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAjNR6GjhzxSehbuBPpq1soGOy-fHz7n18UXDDuuwOHkewUtt1VBa-tA9x7jHETmrLt7jwCenDN9bJX4rmUNv2AHUp5aK_9btM9kvDZ5ZauuU-rui1HyGc-DNbslyiUsD5EhD5srMUMiEeNkOFC-JZZD9UGhSNgmBZoLIxkahMt9SHSAGtrX4ggA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAkHYWywwxl6FT86DU7b9_SkKXJSV6ML9hzNNO6sz_DwHZZmA8sCOADodeJuoZYazOi7iErAoPBRCNnNCx1bo59v-Pyb7iX0RgCgkQJkflFmfAzsHSCR5Bf-UHQUT5wQ_aEhCzRmtOfh0uKgqv5bt7CvsLGhSwnkaxlfYZmaHKGr8o2PgL06DIfw",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "name": {
+    "value": "Cottages Mansions & Wine Farms",
+    "type": "string"
+  }
+}

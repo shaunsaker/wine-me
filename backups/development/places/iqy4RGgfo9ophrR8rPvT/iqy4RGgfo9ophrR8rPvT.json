@@ -1,0 +1,31 @@
+{
+  "name": {
+    "value": "Wine Estate - De Meye Wines",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 884 4131",
+    "type": "string"
+  },
+  "address": {
+    "value": "South Africa",
+    "type": "string"
+  },
+  "website": {
+    "value": "http://www.demeye.co.za/",
+    "type": "string"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.81811459999999,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.8273965,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  }
+}

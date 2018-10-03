@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 8:00 AM – 9:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 8:00 AM – 9:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -34.0138578,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.4041904,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAzH8rfMByUGt4QA2eYovSLceOre3IHTH76TX8HMuoVOuGYQrxdtY76RikNUjIMCndfdlN9GNhzSsGt0g7LoET-Y_lHLuixqZeY86jv8QoYqiK9MGpdnVk5RF2cziokeAlEhBdrRWTauabbQYrVoYApAQwGhQm_FyUIdZ4qykN2GcMUgs0vfbTxg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAZ5eznJYK9wyPBpyGarEhJbReZRTB5TAEnjTPre7s3SgRRywRlDfcit-QxLFCkdNt9cIv3JwbgJMP6Mvb4luY1O34DGP5kKDBMDig647qRdrS8WAGGXR4P21__y-TwnLQEhA_aHr9KZK3qVFVRi1gYXZeGhQM6tfnbLPLk4RaKZTKxzMkNDp7fQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAVaz9ebAu14hw5aCtnwGLDJQZwd7TC9olEeDYsvF7qQQ8ZNPAUCpVDZ_YjyOM_un_7o7m0b2JlWqUDjFJNfetclv4_MwLCvgBL1FGW-6Hc3s5EJ5v7D9JioutrvngyEsREhC9SVex7J39Pxdm_tzjizRmGhTlHqhPJxipqXJVlyDHDvf3IPvE0A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAulcAGmVHRs1UBulOh_fV7xsh7DbdOQXjCQ0uGt1uLafuZOzNu-s9ayqOxPQAeo9LhJQ-nOJFCZUpmHCnfdUWmc8MaHIqM9nSKYGAUeEmnbpLCN4i-4qoWBcfHSASZSlKEhASRyDF3AR01iRcsMEQZLz2GhRg608RN0SH-WwMoJjpv96YiqbktQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAMy4bIwn7opEaIwEOP2RVQdEAGBTitICvdyzEi4RZ9mumyRGCSdK4SPdib1KsNS3gyW0cTUvMGUjomyirQTP0gMHfI-L3TNe1biR2RHG4tam7unL5EraISJp6Cn0M1bpwEhBBTgJsr7S7JdnBSQLM_FB7GhRtjB5w0GN14f-ddwjcbVLfzurzUw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA6mrWVohEYwj4eJ_kPflLRiqcw8y0NGo-Kg3oeW0ZER4CfnpkTHj7hSWwhbKo7x4PEJD40hTfWT9SDhx1Tbssb3JZyN0LKPnUJ3CyWXURVnPSHDk7vHVgOMfqFtcP7VHTEhA8ot1-NTSsimsApg6ytdP_GhQgnIEPuFOsJAUB1yEeRNug0gSYQQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAdFxa2-RbHD25E93-L4VqQkl1LMA8LKTtS0fl05StLhmxALntA6gmBYw3rA-OfQ5FuZRE3FIWQIDESm6BqJSXtnLGcccVoF0bty6Xs4a4pN4CrHwf59acFrCPnq2iH4JmEhAA3kQWabXZ3vuKvbPOzE32GhRwsRchdVUamX2J0NIoWTJ9SDnf7w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAv5_sKdT95TT8kNvS_vrBCdc3zee-wCnlXBCZqUCdmwX8T3jReu6Kk1R8RLYv7MlEzk1ugx-u5dO4_DZfR6YKkYdSHLAYM4TcAYVL5YeoTJWpIqWk9z3yo_5GYWITuYTEEhBw5Tvdvt4EB_0_DQs7k8pMGhS0Tp_W-gqiUFZs3gizhjShcUqIgg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAW7JB9Sh4rHcmu0KHoH-tccWkqQUTkAKBfntAuzRYb_GNNWIXFBLpFYumX2pxCw8otvSkrrQR-TSPQcCYEzL6br_0Xt2K7a3Gtv3RPdCO4sihJ5QXR9sm-UsH13NADZJSEhD13ztrVhDj81omI-GPwh2aGhT8OayCSuwUyEh-gFwnBGo51LaUCA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAgFQP9QLkyNM-0aYk1YPEG__6DVerNnkIpI4mC88TZBYFusI92qXOMydxYA-0XNDuV1kJmMiE4zuBbmxsHti8dz4M3JvEXTErjE5Qyl-W565Afw2Hcj7o6LVDskx0wHzUEhBEYaD8cP7Lm34IrpC_EinwGhTAa3Wr_4g9h12EDYS2KmhvaMPpQw",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.greenvineeatery.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Silvermist Wine Estate, Constantia Main Rd, Constantia, Cape Town, 7848, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 794 7601",
+    "type": "string"
+  },
+  "name": {
+    "value": "Green Vine Eatery",
+    "type": "string"
+  }
+}

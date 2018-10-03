@@ -1,0 +1,109 @@
+{
+  "website": {
+    "value": "http://www.dmnwines.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Bodal Road Daljosafat, Paarl, 7620, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 868 2393",
+    "type": "string"
+  },
+  "name": {
+    "value": "Druk-My-Niet",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 8:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 8:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 8:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 8:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 8:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 8:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 8:00 AM – 6:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.69008,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.02806,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAATusrPSZq6uwYZ0rpm3bGzfmoehG6g_5YsFmQeUgOWAjQSzwV5u-wwIuzyxGsm7T9-pz0iiVIJOGr5YfGEPbfI6L1_o6X3TpZcvXsNBVWas0-eemgMsoQWkUvOnc11_I_EhBgZu-Ir0yBQB8vVIJQPHKHGhTXwijzY9zi62xWYupsr9NCxxW3-g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAsHPdm_22hNElWwum9RvNzakVCYM7lypuaM6idnrOYYXFPGfXklL0JsPFDGO6zenearstz0kXJYGzjUgPitE8d35pcvPEZ3UzqFEFV6W0xxODDfesd-NNBB5io0rLXSzhEhCdDXIe8mTpYL0QRTAiEGSkGhRaaZsXFqC4VDaRemfsZCCnsmxIZg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAh1qVpUqy1Tij-cRY2V8wHhLdAVV8cSvM3Sxu3lDh1VO6mrUvbRo-W1Q-F7u4E70QGg9Snd1AP0WKMs51QGCbKkx2YAQ-wkOPVxV9UeDKtVwW12O29jKAzZykOoTkZp9PEhDtb3EWNx5R7PaEC-NBJvkiGhTspepQkltGJdN-gcZ8XBn7wWyhMA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAMKl6Khldb4RVqxSQjrnA3U3daoyMGpJYOvhmiPs-VsKgDPszbqSrZ3pcwfBNRQua4gQiccYFpBIJFweAxVvTiLpGoOJQZ3auMB3X3KEySx4S0loVlAlz1SKDiPAdl8WLEhBge9pj6dCtIltH8eWUivCOGhRU7Mt10pLjMVcaCycwgJBUlPnApw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAzM9tcDy9-QCXe5FsLryM6ljaiimvjmrlauSuVsAM-f1CRCtQ-K_yzeMopNGuMZukUMSHx9XlwQKRnJNpdWkggjJCXIK2Wqto3LHd-bBZ02QQ2C5jcgnGCqVtUZA4IqTKEhCZATwiWQjqAX0is7O7ocN5GhSp9lN6MivVqw6-6KFztR8M5LdIkQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAVfDOXwnS2QkI7iOnyySZLcNCLvdEyI7l7Ckl-HSM42il7PHhHtfHclhK139gd9zvApRK0Is4Hr8303J5LcwWpvU1xwUDFyD1jDMC0QcpNWHirO-QudAHPy9fsH5RefOxEhD9Xz2dnt4FhoCxHcaTI479GhTpL8cugYRvLdL7a_N0KJTXxFe0aQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAdmI3bL7E1US0bSIy9n17Zp2H-5NW1TpO33qFUc5MuI_3z9qB63_7xKLDSCP-4AX9O1fRDJub3LrXHV2GzranfUYGLqZlMrGcqeeXo3ELEVLIL0TVjcL4yM-QMupuVl22EhDKEA9FaCjeQcw7hgMwp8e4GhQoTeOqDhTGkQg5PevU3Nm0k_1dvA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAcq4CRa0vBEYARCqlNgRKfybivsmgxTdOzRnj4_gEPkUtfNnbzkTDTzlMB8IwjMDgTlaCFnDf95ahysdl95nX5aU7UbTcuf3q5q5KskX3awvH5BEKD-uGVPsLvipIWJTdEhDnLH8PPRAue_V7vHxgi-jwGhSeqJAOJPzQlN2-b9Gk5bpI_6BOBA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAApDPa8JoQJstoJSEoLHwqzNnjlmaJwtwCDwXIlmWzlY_EujIydc4FATdygEUioNxW_JiNosyRO13KP2puUrygB197u-gt1CIlEQEowoBZcMtpYU-LvOnRMtjnoGe52GvlEhDHsnuCuamNQVNaE_UJ9bbdGhT_S02TWdhwIRB3IIBtuOC18Fj6bw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA4t4wznEjiE9n8_T8hYuULC3pGHuBB2qfXAnnD3lzPDPovkT9TSiVcPxnsX3CVZ-3rrLOGVYj83Pryvtnu-SXSb_OJEpW-E-KU_lA4TIRURDFUDlsBM1f7aX_snCYNzrTEhAZJpM0VeoYuDp6F0dKkjHpGhQE5lDbfLb_Psu20uAzye0gHy5yJA",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

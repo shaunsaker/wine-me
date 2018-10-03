@@ -1,0 +1,76 @@
+{
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.94266890000001,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.1078838,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAFEJu9hdyTOWYxVeeJiBuZq0rS_0sMLR1OHkfeq652-6j99GjBQNauwFZH1cEIisaB0mrsiKtUu_0S1MG5vAY6shY_Rvhg7cDD80kT11KWJJ4gkH2_iczNirJqxyqiDeuEhD8Xl7IpxNHgWPFhTrVVwRmGhT-W1vMSlwbWnh_nPgGJG6MolLRPg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAGLsE3waYqvd704pncZBUUdS-tPCLoV8jEPpprV3w61-67_lgMUOFslktT73WmFlhMMh-Uogrj8L3Pweu62q8q0iYHTEClpZgaChdvEZhmrqo4tFLOX3u3_T30QydTSDwEhB_7QFbD__AhBFaO8c9GDD9GhSV8s1IKZ2blRAbOb-mv-pksgpLyA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAASfWP-3-2iX3RhmIxkDgWJh36nq75JaHeKfoNXwcwyttiiyoihquYubkcQN-TegRAjFkuIs8no-10ubzG81WjAA6LtTl3pzVUDAQcSBSilLkT1yLDWf6V-PHPhbvpFF7tEhB2CiYccB30Ye9DYmii-GbzGhQMV2aKpWhOwffrPGB5r6zoH1J-Dg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA3qZesV3OLkvutiK2anZxwtjvJMaiXTKuVNbOGi81AOF78Y_gfrZmZZlJsLWA7Ckwo5IjWrflnrOpPRiCQlRIc86GqqJDXI6IKecA16gf-ob3gOsKU_saiI6osdMEiSosEhBatRXMJvxWmRj88X122qAkGhRIRDeofuoYOaLnajq-wHtZMRSHhg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA8jH2sHb8CrF8hss-v5kHbrqj0GO0fLXxYEiB1KVHnk3pTk5rz_XQq7_sy9ghhDbzIpYOXi7fURTygRqW71z_hoRz3jMvgvU7AzAHkEtkjTMGH_5TwEc_tP3dz3nFwVqSEhDYG202hUG8sQ3rhOaZbFE2GhSornhivxfGVso9hwSphbmnOjiRGw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAO39KMlbu9oCTUNyywxNzd3b4m3l_Jzjf53xez_dPTse5g9bphXJf4jp7INgVFEhC2iBIAkJOUKH789GteNT-dgzlSiwnz5zLfUH2fqc_BN1JAFXagLe_3k_NOuy_9jDrEhB_TrHI2jsY8tL_tujUI304GhTVtqdXxJaItukzz7CWiwa6-Q3zrw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAJah2lR1kVKyieEiPxt0GyKDEs6El4NIa1Un_isXuH0q0PKjCDxPxFZB-2BVmLvMapDfknCMx3wNlYSYOrXIlm4jhX6hItmmshQV33YrIfUMQCFO-DIbcMADBz-WY6fMcEhC-R6ROQtSU8d5M-mDkDd_FGhSUsUhVMAbRWctButsopBRXLWSdOw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAhB_7F7jnysMElY1jvHlczh8jHN9yqgLn8hYXQqLsTzXbFsFZNOdLBwzd4muAtmDjJOGHwcqROrI1sCh9nHrr1Y5Rt_ecHdfI-wRxzVLLSXzOSiBRN5NiFDQE3fuT-qwsEhDqHBVQsHNSn_SxlZvk9gEjGhRT_zbP838CbRuqzziZmzPROyHL5Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA0MtzTtukvdfL7tBeTaqbH_lvkglaaA_tG_bHXscmB-4xtoQnfmyE5_FbhupCBI_FWVujR2tcVrJLDdzXpCw0aYKQco4wXQAT3Uhy2fptWOaoddN5_N2ZzytkCvzXpdL6EhDuc-iYISj4rlx02b0jbvuaGhREtg2HP4GGbN-D2YT9wl5gSrbnrA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAkQxE_GfH0WfNNM1PZAlb4ehhEytP6KYHZFjnNWzFTEkRojENB27wvLfjPQDZXr6ywe1JaXiKj9jyEZrDYcF1gTJUt6ifAnQJlW3hEvS8zJvF1Y12M5283UFbFHM0utU-EhA3-75EFfxsHzPHv6IQjXCCGhSyjGv9IzfTNtce3TqsiuhJNVELoA",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.boekenhoutskloof.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Excelsior Rd, Franschhoek, 7690, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 876 3320",
+    "type": "string"
+  },
+  "name": {
+    "value": "Boekenhoutskloof Winery",
+    "type": "string"
+  }
+}

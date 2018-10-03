@@ -1,0 +1,27 @@
+{
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.65947690000001,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.0300755,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "name": {
+    "value": "Hildenbrand wine and olive estate",
+    "type": "string"
+  },
+  "address": {
+    "value": "Wellington, 7655, South Africa",
+    "type": "string"
+  },
+  "website": {
+    "value": "http://www.wine-estate-hildenbrand.co.za/",
+    "type": "string"
+  }
+}

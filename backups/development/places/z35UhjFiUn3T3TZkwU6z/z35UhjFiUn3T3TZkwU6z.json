@@ -1,0 +1,44 @@
+{
+  "website": {
+    "value": "http://www.saxenburg.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Polkadraai Rd, Kuils River, Cape Town, 7579, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 903 6113",
+    "type": "string"
+  },
+  "name": {
+    "value": "Saxenburg",
+    "type": "string"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 18.7190938,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.9467554,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAp3dOxhtAqFMHzNat60ajNxNH9rgqrQOQl9SZwGfbgNOkPAbwLn7NxvBG2XfwLIjvgC13up_XUii3BsKLhPYTRWa0lFnp_hJjmX_BtW_2iwL6joCZ06uo2XYMb2cHOhQuEhDv9cNn64fT_91V4BqpfvZ8GhSHOeSTIBfXHLJJ9abUzRFBimFX0g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAGARFnzB7N44LFtpEMLumZaLuWvokRM-QrbWgYUe47fbz_egcqiTjqbXub7dBntbRtycYcchoLuhQus9_uCTmsuB3O5D9JkvvV34vSLXb5yauqBvt9awASHeP0WkqnKHoEhCv8IC-StBQtTTTsSTSLImYGhSJvHnh3-9NyZXHiCg3wEVhBAZoXA",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "name": {
+    "value": "Kloovenburg Wine & Olive Estate",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 9:00 AM – 2:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.3940998,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.8900336,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAASajuHAkzehEtBgEpASn08x--kQUJ0YX_1DqcHideMtREZWe7MjJX6rN2BHdXUcakgjIvOJhG8p9qLFiOa1xFY20Sjtw3Hk4uo-0G-9TnWgphTi5wAQjVo-0SPGELQ2WyEhB7alPFs4mD3J9CVo1q54O_GhRhmCSxBHuWomvX1iffNFq_e1Y4HA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAT4xo4CNrHlXg7GaCGVfOpaNAaOZzVduGRauG_W9DSFLSK13CGU3Yi488fZD8crCUTmNiNsJ7iZayWDX14AKEWRTovh2Pdd94zrNbPievGtBCCkiMwa0yOdKmeNMW8xwyEhDOQ0rRdgrpCcWRTNlOLkmlGhTeeiRxUQtGOFxTmws8Mcoa7qLUHA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAkAzljCFvpg2tWhEKX5k7jNaOdozgi1VQaK6hgRBEhBr233HWzZcyx1CCKd_F3-DLsn4c8RVPRyuI7LSrvCpXcRx4OW3AHUcZHP2esb8-5W8Hwt7ZO-XBbDUigkVLI3QFEhBNPUHEb6Bb2ceMLrP7bGWBGhTKfBXH7a-B9-nyAe1Wvn0a2opXjw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAANBgHPrZr-qb8YfZd83gIhDK4k5OInszw5MKmEJPEmMYvlYzlw6jMqIUmTAyIoxjfbkw2eGk5LFVswEmSAk7Myjyv7bf5qjmfAu63WWeuW7JwSmOKi7rzEUBqSjxof7mgEhAoZD-prViUED5f2sBAyfAjGhRQx8eK4C1uY1IgPNyXOV0LsONXYw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAkFU0n2acrcAU-ldzu6g4a0xD6GtMnDBiNnkF2x1B6Wfcs1A3zwX94ZV2p-RuJ4sNG5r2lAPqRWF1VdS3z-35-fNb_tzE_JZs_ObOVsCtUY4a9tFvwKDnSdlEsWp124a8EhComMiwQMIw648jKPKxgZSwGhQq1lGdisyQAz4QnEc6Md7qOkSDgQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAMulSguSe7HW5RXvLj5EOREFdD3Uu5_TKj8P6riQUwIQWYPZbkrJgEiaabddVVMFkEFcqeMvtkaJMSpbHU7JguxxUiNo6qobfS-9UTqMxkXQ8DKN-NUlrx_oJNOIC2EAsEhBlEUPRwj6NYtSFalWraJ2kGhSD2czbPlPCHROmXL6WPgRleBOOvQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAALzS-q0qDVcIPCz7IQKnURUxm0Vnh6s4AbBRqnDutxbHScdxDTF2B6dTZywcJ5ErbaUsgLpZ_4V2dKnDjeCgtsfp_mACTj_WLEAg7YICl7DDQ9sPRHUU0kURzyoZLqlNGEhBxsdOK9IcSwLJL3a37OZQSGhQpAU9t5nkmrz3jIXOUgGD9YSPWKw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA2IHiHROhC8Kd8Ane3uNXVnesMXojTzG-P4J0GC8QrtG-ngkCLn16rpHJ2tVknvK4MfJdhGZHqnormtXQcQlvSMEOt68zNmtI4wKdOd6sSQ06X0y8hokJ4vcRwwNcTElKEhCamEg63xVgUKP2uibIRSLFGhS7SQ1xTYVWTB6tg6fR7P6SO3Bhyg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAvq0Wg5UdG6sH8d1XRgKheIDgrlVsk6udzESrpFMKSVqxdJnPcBLSS4CCOZULx0hOaQ_IeTtp5fVoNX9l4v0uC53UkHTYvtelOHg7lXy423B9NmGBDVxWVk8HfY-V022hEhBWHQwcKu26WuOvVQtBJI2UGhQm4FyGr7J5eshXyU0Ebyq88S6L1g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAbDXsUkvzQDea6jvd9h9DhX9LCyouAVu4iOAc9w8V-Nngn5v9KRixPqO5_8CmYj820BL58p4YgrL2OGFyoyJmhsvsysn8CI5wD-YLJC9CwQzAcKDhG3Msib173OWcrCr0EhAH6CBksr3byOdBKG_gERgOGhRmN_naDikkaQpNeQ45h_Tg5xTFtw",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.kloovenburg.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "R46, Riebeeck Kasteel, 7307, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "022 448 1635",
+    "type": "string"
+  }
+}

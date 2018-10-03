@@ -1,0 +1,31 @@
+{
+  "location": {
+    "value": {
+      "lat": {
+        "value": -34.04674,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.82792,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "name": {
+    "value": "Wine Estate - Avontuur Wine Estate",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 855 3450",
+    "type": "string"
+  },
+  "address": {
+    "value": "R44, Bel` Aire, Cape Town, 7135, South Africa",
+    "type": "string"
+  },
+  "website": {
+    "value": "http://www.avontuurestate.co.za/",
+    "type": "string"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "website": {
+    "value": "http://www.topiaryvineyards.simplesite.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "La Tramontagne Farm, Wemmershoek Rd, Franschhoek, South Africa, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 867 0258",
+    "type": "string"
+  },
+  "name": {
+    "value": "Topiary Winery",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 8:30 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 8:30 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 8:30 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 8:30 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 8:30 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.86543,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.0458,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAJZwicNRWoKcHFwJt--r7-umFdywoxQ6tTyFwtXx0MEVAOOjj3bqxsbGo2dTAWWSoWtXFRtxk6IM86JamIVhlEWxZpBe6nn1F8nfplOmJa4l-B9D7Gzd87R4qMff7NnKpEhDeciT8_ctTbpg_-1q93GtFGhQ2ZbjQnINpQl-AtU-fmEi4tg_Aiw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAlUe4CdDmBChzNCz1p6fLK1kXHnNapPY9jyYcQHv1KhKxzcQ199SswQa7geuWoEKuWZNBry8H80iHpJZkCsT2x9K9KhHFODO5Yy2Fxffpdsj2XOcRCI9Ww5eS7PZTw1KDEhD3_VVlmcv21Kh_v_KP6GaJGhQwkg7igL7bmS3RcMXG00OifbeZEA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAUFDNgTSShK30VUTKlgA66RGImXiuULKlVsAqWPJLsAo3dLKn7x4OcUvDCQS4bvTdCR4_K2ZC42PXvfLLC1MMgIDRpT8c_Mqs3sdSS4gRFDugoqR4gPKcQIXabSGmHcQNEhCMglh95k7v4zeWDlqKy8mpGhQpiddrlUWVgZG5o3z6M4xrfQKCeA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAJZovCqxST9fq1f7UVvev89o2Wm_J-5gHO9rqHwHLwRG6Y-mmjyKyREZmrplY7vNnm6p4V85-BmKEU7SRSBexni9vtveQwnj8fe3BDk14dY-uwvhVDACcarNsIcGQaUHVEhD2OU4gMa6bR0pHLznXNLjGGhTs2gKODiMcCUJ5IhbFENZp1SdEZA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAHAegPsaXE4FlKdOQm0ynQPrAedjxYuOJlMvRLQ1TQUQbGVDqP63ZX7CRHuXHGK18uqAVh5-dggVxlwCDB2XurDgqfcmlGJXO05TQ6gpHaqLtIo0k-efqQHYwgzSF6VryEhDvMD6Nf57tjOmeWZ0b-iGVGhR_cj90oxQxy7oERawilbgKfCzeOg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAmeRbYEnI5c7eAjiqWVyHNY5AG9PTCLV-HZ6gdrEtY7MnHR1j2HEOBxvAcKuxF2ZlkQD3exN8nxZ66_WEIZq1biUgMyi8q_T8JpjZMCGOdSwil6jBcamnPg_h9tRpYWq7EhA_hx8zn3iFTyPKYgw7qNffGhQGK2XokZiNzQRt_Sh42yXgh7-BjA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA44ZWh02pqycvTvYxmedzdVFoCR-bxLYF3HLYau3JKVVdE5MhLpsBvOjB4mb4f4PwfZBwzqBeo79-9ZyFGMfncYP-pKHXBF8kH10xnOji8PIf_cofXMrpE50qgJoojySIEhBrvqHIQmbc6MUVQp4aS6ExGhSdzduwRGkhuTVuIiqattBt8RPEeQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAF_-PKDEz5HCMBL8Dy3Fuh8weGgkEmG_5_kKcZd416GUapcXzoyadL1i1-1naLm9UJqfKaLHQ1Z842ULU985dP7YzhrlqJ2CvMHWSvCtjZCr8DVlzH6svwB1VMxxouN7nEhB325rvQ253PMNU4nfD-oM8GhQYkPdz168kBsX-zNpkddF-o8gH8A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAElqCsEAZuD7MUIGx00zVYvAiiw5V6_Tx2_NGkj8jUTmEfYYY5X7q2M6qTyW32W_y78eoeLnpGISunXtQM04q1K-xsyhXdXsRHQjshY-mRTnj28QdWJ8ePMLUQZVFC-xWEhDq9wVcBy1yMBdZZMAOmDmbGhSo_U0VIstcxGBTKDor-Eq5YeDT5w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAmINSXkJc3ihxgEO6oGLD79CywK3uDpxHRr5KzM59G2Tp85vDOuX0NvvT0ZyzebcNiNAN_kkyHxPcHGIBTF17tMi9ieBmTFDnqb_UkeyMfTEcK9XItK6k75VfnO4uRkvJEhCoxm99P9LokM4PN4YQ-wVnGhRi-l6mboqUnMjmipZewRNtTJRqQQ",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "name": {
+    "value": "Rickety Bridge Winery",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 9:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.8992322,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.0911641,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAA-5_gE5ul3wMD8OMJbzF3qihoP-3SqixVXdQygtMnJwHcOTub3GqSKF8ei3YK9v0EJMm8MF3z5AZEHyx934-GlpDTOuAIgxFokdsSqAxnQe17cyTtSo3L9SX44gz6Rk-SEhDHLbe0h02Ar91HSKlN5aWfGhRA9_yT4H_-kSomHCNyasIGhUIa7A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA7eYFKxTI3mL7ZUQP_FtqLEQ3keooIqPb7NtKV1z0wNgNCCwEncebeA1kWUpuF6fvNh2U9a0Pv3QLm6o_Xh0z0p3bmOvg_NR4U-cg4Xry04e44gloyrcSaalKeeUaZNUnEhCWKmv2oZWd1bwv3jxyXkjAGhRHFPlicKYH3c1i01VoRJt8lKLWyg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAbSqkmJRBap_CX5JYI0BwpF_Q13XaSrTl8NQOzhT_DAKBm5zyXpr6DK9RbM_ac1LBvMwfucE7HiLW7qa9VFSZ4GmfqBjty8p0om3h6Q4cEKMVc6EPwHyadnCYGZE57_PzEhCdWDSFIHHSvs4QnUp8ysYeGhQ54A0omkytODg0PyRdTr5qAvc9-g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAswHNdcHhFhoTrTocYrsYARzrAyqBO_0YK_QX7480Cxaq23BhwyYgWfKH3nsE2DGbzFJSfcstu0Ywl-b2F2qc-sNa2m_M8oYUxLohJmjbhCS-T_3BUI_MfYSh_qxWmAGkEhCJcFQjwE8_bbfOnjmbL2MCGhR4ahIDwk2ah6FGfzzFvu1i6iuI8Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAJJ5JahvJNHilkgRCIOsGHBrb0yx1ihgHszIXtfuu2su7kX31ESmhPV4fLqVjaDZxar6ZNEBRaTQWcmkM_qxgXE1_UWH-3iye5FrAXSjyrt4C8SuBTZo1LQzMKqDiGDBwEhBoXr-j4IR0ktxlTOuq1pX7GhTlUAhTR-VoORm20chxW9gtGEelxw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAE4xLEIZzKbDi8dpFYm6fzLQyJ7u38ra6A3vfVo70JOAho_q-BxHOK08zPgD3WCKtxlmymGrzAkacvdrg33n7AcTg8sy7FT3LCM-3O_nYw_WuNdzcmOXTvFgy-QEmifV_EhAcmy7UihaUQzObUiNxEMuIGhT49nt_MMvpxXp8k7AMVpsL3xaKFg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAeOq9EsTmSW4Q7Zc7ZbajNZfinNIdJJUfnMIyq43ydQ7oO6f6REOXJSkIBSSMYZFhf1SUBsoQkd_o-Zw8o_D9EvI3ji_TA79BEYOhyKWRBs2zBPENq0SOftFPw1yljrtQEhAYIUvR0LOL690EXQGZ6-kPGhSnfBsPNh1Vg_QEm-jXkgMM8xQn_w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAvguesCRDbmPEZSSZ2UHp-oAD_dVfic_93XgLEodQ5xmwuEI-Tu-6Qsuxb5dj5nKjsn-FxQQ7frsQWKRwSycZz3fznehM3F5m9G31WD2JQH-NUefcTQyF3s5bgXATzmg-EhDRpxaKZqFtGkQELJ-KvXCsGhT9f-Rmxfc4Vy36WnT2Qq_080K32Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA7360xGZhO5qUy0TdcVYmIsc_oc7VEYu9Mobd3RkZJVAVzH4gQY_k7fDgI0HZJYGt35mzIaEcsua_LZyrXHjXm41wlCdjVD6eaSAnl8U1A9TtCOKBWKxUXC3BLj3hB_VJEhAyFMIDl7HrVyWR3D6dThUVGhRPUelB2TdKWxHGvZH9dSa3ZiZrAA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA2AzbqLV0IiDPT2Vz7eulRR7s8gGlXwDdABLTImEk62yYsj4ht4AI_NZ8sFFgq8SnaJD0YGnNJTI01iqHiozNq-Mx7M7VwtUXgfF74POVfP45EnB3RlM6bQkbGasSbfdEEhAoyV7c0qzie6jF7YEjRPlrGhSqdRsILzBJdlr9tyFQbV4wpFtcUQ",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.ricketybridgewinery.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Main Rd, Franschhoek, 7690, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 876 2129",
+    "type": "string"
+  }
+}

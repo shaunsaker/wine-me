@@ -1,0 +1,76 @@
+{
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.9715529,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.7482468,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAsD3GoqUeZphUk2jtCII9HB1jiMpUyPfrq4jYoQGI8KaBq82O5BqD-WqMv45iHISFyAVL1qnfLTn5HB2lwOwOH3FNjMIuuUh2RHIQxov2bnMZ_g3jGt2wv3znEbUcZjoKEhDoD4o0Oqe6qnRUpVmBuaCtGhQ2S7Wo6UdqKYYlHH85PuHawCo-Zw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAAMt2YgiKfmLcl7Rm4xrhc0HuB-Jx1NUG2rDqf1hSm-hatnZCmeoGR-tAm7c0X0ApFa7CAXmPQNQM6eHgFd9jB7GswG1-bCo0R6QgTtaYCqHS3cULAzWacBGkRTAvCuUNEhBsOXU2NQXNdxBNQsq97ZgeGhRDIHTEJJQYGaUC9VHS8bWKPMi9Tg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA9jMFPw8BBTAeqQjAhBZKik6voVbxER6Or1RIl4b8hEYBoHC-r7s36dhW8e59-20TCGTK9qwEeNKDqNKVKT_pXGDAzPObeqI3as_f5GL7fBbSNUTHi2DPspyhkR4bTxYbEhApz81Xd2XYvh8YFLQ0jQ0IGhRtPPQXmCvHYCarKFHLLbpHX7KVZw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAl8UedhGD2BSDPiqmPFq1pcCKHwavjrvAUDHkFBclx1kM5pf433ry0QAhEa7pn1fR1dT-5NJGhcr24c95Qkqt8V9_nycpGot-z7SPh46PC1PngdimkUNZrHUC4DtzbjhDEhDPGA_lYqj_ffXVP_6XtCuuGhSCZnS-y5NNtseEn1ZnWiIjWNx0rQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAATiWVbmw5EjfU4HiHWKeiu6GTzCavEP2TXjuPfI90gG-eUYBPVFcrHi_wRAWT5nw57FCQvvqGvZ4aR6Buv-4ux5kb3TVJ-mPj5tsZjqFVUOYEj-VBNj6hIPoHupGf_ujgEhA5Sv2daUJ9DUDLJp8ccJm6GhQT8pY4S8YGROGZ_iLQIiNahVT0Lg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAeX9KMLNDzX2ok_JSnHKZJxpcwVV9nN69Gax7blYwfl6qTSO2jBhYk04WWPJ5-Ohb-wTrfMMzPnWJdtJCvAyTF-qH_DwN09CZRP2B8VhPl65jor1_BzjaGYTXt9rNpc_2EhANr1hEqmr3gKBsNaL8kG3SGhQSDvtlN9Nf_Xm3HPCKhwuSA45TkQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA4Srh225paBo5bGFOeUyPCgc6zUaNjqqaN-YMKPQ0jFKDgrv4VC1W-SK19Gk0P5fCKBi1i1BbJxWkyEwacwba4jIO4dkCYPjhTH95R3b_poSze4trGsnnVq13oY_rYbjzEhA-EV5qNOyJV_QDWl0h4eE_GhSHYJoc1aOstSz3Q6Q8fzHeyRBaEg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAz4Q50Thz8R3jE3qpXO-hMwAsoDnl85YL4ZEq2ZdDO21g7-qAtw9ubWWSqOCEdqTvJel0-epFLBF879Cx78XwdBNBp_f87rVBD_p0mKRSZAb7DETS8aL-iunHu8KdP5lKEhApFERINHZOcvDuiH6uyhW7GhSnyJH83McgrL52KBL61BH6DDqtSg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAArrwQbjEreB1Oddd6GLFkvJ7P9EorcAKPBAzFMwmKfyp347e-BPCAFwKfjoTgv0gUF2YA6LLSs1WXimEwhMgaomXFZjDGzWRs_tp6umuhfb88FTsgrGZiCEwJSF1E5jJAEhBFpN5r-QmwlywiFwDkiM5TGhTko8C-YsitnYEq-jrDH9IXua-gOg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAyIea_g98mZNS61QerCKfK-zjHKS2GBlKVNC-gVhdWLwrgW2wFBTAaRtFCGyv4qUQ5drLVPs_QQelsWYYDwvwBmFSQ253IweRmO8VSMuWq2da6S6b4Z_y2ZNiWvLK6dweEhB8IvUUrSPiZ8IHxU0xSy_mGhTfovksaL2TnVn01n-WXpgIUTs7EQ",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://raats.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Raats Family Wines, Vlaeberg Rd, Stellenbosch, Cape Town, 7601, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 881 3078",
+    "type": "string"
+  },
+  "name": {
+    "value": "Raats Family Wines",
+    "type": "string"
+  }
+}

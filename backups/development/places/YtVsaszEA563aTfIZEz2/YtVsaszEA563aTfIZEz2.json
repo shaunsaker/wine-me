@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 8:30 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 8:30 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 8:30 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 8:30 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 8:30 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 9:00 AM – 2:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -34.0395082,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.8277607,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAwsRYWsRXnONZEaaRn20koyfXucu4smfkeZJhK-qzktonwDoOcak8cwuOD0zYtA8uf-C9G85ffNs1Pg-LeodUB-cJdZ25cVRfHh_8Sg6BvKouRJiAYg12ae7JwOZ5SeXcEhAcZKMEUu_dLrVB_ImPuV1gGhTUOJgzIbB5nGBDyNCAaiUIDWHXZQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAeYq_L8u7aBFQOJNk9P5hdluVIoyuqKuT3Fc1o9U1jTGJtlZsR00rGg_T9LDDrnSfpW7ZfOt01jtkuZxRfz0mffDV5sE7ziNqF7IfrS5tzxn988xcZeGersR40qiETmL9EhA3GtO0utlpZoGoKlP_XokPGhToKUIuUNZQQtsUIZSSX99srlK3yA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA-CG4yY4dMjBKe_reNrjGcgazpOX4s__EMSD6p44xmPED55fPCraZz3w7xWMm0t3qphJqfHvpRRGQwAXX4xc5a25Pn9-oUGTWg9wVZUPPT3VOc6d5rBFsZ3FTSLMlreATEhDN2CAYoeDtA6th3LpbLrKfGhQNcRvyZateYk8cb4NH-zaXHhFIow",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAALHjgYUt6y8CmYOEATv5VmX7Jl50sogoO9knSP5UrLdpEy2GruxFkLkNjs_e_fqG5dm4jBAy09YOf8bdldItgT2S1HXSHGMzE9GVbaH8wei2bv-hohTIPwl8jxGP1FhIqEhCD6UMZlrTLKj5fmLXir5HmGhSgFEeJOFSYsRu1LyagRtnVtw-MxA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAmyeSUKymQxbGIYsgBQ37W2TpPstes53Kp85yEyqd4XltPAL13H5VbMcBMub7mFPyNwPvI0cHMeiDslfjGXRR-4_HlvztHPzDn875ZbnikZsBWtjPeuHWRd1AATzRng2UEhDj139BxZ6OOqtl423JxkLzGhSzxTjhv_qbOp-bSUaQo7aROoHXOA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAdSjB5yIPx4PdrJQs3VuSG_aAW0RmN8xJ5gSUPt38tcKc4EzWJbNWc_V0XecLl5fypvsI6eKsUYqkILuhV5NP8repg0RHvYkNH8XwIAhXDEqrqgj55zSs2v_9fNectFGiEhCgzga0beT510LEj7gdckTfGhS7JprWk5CO8ixUHkAiAnsR3oEMKA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAWTmJtPyZJ9_rSPuN3mNQHahyrTFQMB49ZLq4WAn-1tCfwuTE8MfDggwai06ETnhTMEvrRLvyT3fhbK60zyHnSJh18YHZ-xYQl3e5XRDzaIwd8FHP828NI8-2Pq8OZOoKEhAZzacW94y63tC0TLDgdMNtGhT30Av-fHOVJdRo0JnLxK7MXkimdg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA7BXsCmTUAhTCHOmNXO4c0bDKsE4m7jHTA1HQQfxKCFyHfhxUwXZOFMTm7s9zUQ77aaKkY8KDnCAbreZJy1oN_e5NxQiEaro2vp985jc5-xvwox80Cb6D6l2cMgpWx2CvEhDzN8-2kInBP9pCKluaxpY6GhSHtJMRPgr57M_J-QOVmG8VGqKwxA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAOPj_7tqW72K_DqWekcQp7xrNTDFByzqTZOHNr0NkBFyQUBpIYfnBHLN18yVyoLgEUdAQu0G6NPtVdO-m87m_YCVeVp5x0tsFJyi5tLnZL-BhTPoqlGzK1i0LPWeVki8eEhAK_fiu6zxAE4LmvAZ0Ig1xGhSdZX_jZjDYdVca0DbomJ7yQquoKQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAESwzCEHc7qGBOcrVfkvC0PzPaQeQ1PuNqgPyn3yxRx4OHhQ6N8SR2NV94YODRQx4rUS_PwgXuLqdqwjFKzL5IVfOkO3yxhOWfhVcEfQnZa3f1vhd30Ud8xayUK-A7StHEhAHQH7_LITamlaaRUt76qiPGhTuqaCCpNKK_M8DwYs-NX1HYijhWQ",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.yonderhill.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Yonder Hill Wine Farm, R44 Strand Road, Stellenbosch, Western Cape, South Africa, Somerset West, Raithby, 7130, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 855 1008",
+    "type": "string"
+  },
+  "name": {
+    "value": "Yonder Hill Wines",
+    "type": "string"
+  }
+}

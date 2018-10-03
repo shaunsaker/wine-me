@@ -1,0 +1,27 @@
+{
+  "phoneNumber": {
+    "value": "021 900 5900",
+    "type": "string"
+  },
+  "address": {
+    "value": "Langverwacht Rd, Sarepta, Kuils River, 7580, South Africa",
+    "type": "string"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.9297467,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.7289004,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "name": {
+    "value": "ZEVENWACHT WINE ESTATES",
+    "type": "string"
+  }
+}

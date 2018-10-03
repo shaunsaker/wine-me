@@ -1,0 +1,77 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 6:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 6:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 6:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 6:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 6:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.5425438,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.818652,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAA6kX3ggbMjBBld2EoU5vK8p2losyFfm3hN1cnSu8b7HsgaFmrf1s9AM2yGKn-Z86lahkBPHxaFCuK29vKIFpgsmUUrSTlkhHsaYO2N2h8PkfdZqj7BVEk1uPV5q6YkZyVEhA7XUOGY6--kg5YM8jhTbOTGhTj0xcC5LZQn8YcJQU8Y9oi5jMqlA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAASc7UMQrdKYEd58O70Hs6uRhes-BMHUBYpcUf-BepQI1sWdt4xzqC9uj94jirr7okzn--u1Wn0NwK0wX1hyfoKFcirQ9X-B6u7O_u_mGx7RJ71JkfYmWmQ5W4-S92-cuIEhBjcj-EzgXuk7Boo_NUX3s8GhS72sTTYJdbCfb3Cuf-yVijA6CmFw",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://aabadenhorst.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Swartland, Malmesbury, 7300, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "082 373 5038",
+    "type": "string"
+  },
+  "name": {
+    "value": "AA Badenhorst Wines",
+    "type": "string"
+  }
+}

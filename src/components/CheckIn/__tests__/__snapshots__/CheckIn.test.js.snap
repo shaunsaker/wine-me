@@ -1,0 +1,126 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CheckIn methods should handle addCheckIn 1`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      Object {
+        "meta": Object {
+          "pathParts": Array [
+            "check_ins",
+          ],
+        },
+        "payload": Object {
+          "document": Object {
+            "place_id": "1",
+            "uid": "12345678",
+          },
+        },
+        "type": "addDocument",
+      },
+    ],
+  ],
+  "results": Array [
+    Object {
+      "isThrow": false,
+      "value": undefined,
+    },
+  ],
+}
+`;
+
+exports[`CheckIn renders renders 1`] = `
+<View
+  accessible={true}
+  isTVSelectable={true}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "backgroundColor": "#FFFFFF",
+      "borderColor": null,
+      "borderWidth": 0,
+      "elevation": 2,
+      "height": 48,
+      "justifyContent": "center",
+      "opacity": 1,
+      "paddingHorizontal": 15,
+      "shadowColor": "#212121",
+      "shadowOffset": Object {
+        "height": 1,
+        "width": 0,
+      },
+      "shadowOpacity": 0.17,
+      "shadowRadius": 2,
+    }
+  }
+  testID="footerButton"
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={false}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": undefined,
+            "fontSize": 12,
+          },
+          Array [
+            Object {
+              "color": "#FFFFFF",
+              "fontSize": 24,
+              "marginRight": 7.5,
+            },
+            Object {
+              "color": "#E23E57",
+            },
+          ],
+          Object {
+            "fontFamily": "Material Icons",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          Object {},
+        ]
+      }
+    >
+      
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "#FFFFFF",
+            "flex": 1,
+            "fontFamily": "Nunito-SemiBold",
+            "fontSize": 17,
+            "marginRight": 31.5,
+            "textAlign": "center",
+          },
+          Object {
+            "color": "#E23E57",
+          },
+        ]
+      }
+    >
+      Checked in
+    </Text>
+  </View>
+</View>
+`;

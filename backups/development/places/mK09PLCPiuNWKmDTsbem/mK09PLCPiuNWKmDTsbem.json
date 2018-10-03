@@ -1,0 +1,109 @@
+{
+  "name": {
+    "value": "Fynbos Estate",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 8:00 AM – 5:00 AM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 8:00 AM – 5:00 AM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 8:00 AM – 5:00 AM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 8:00 AM – 5:00 AM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 8:00 AM – 11:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 8:00 AM – 11:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 8:00 AM – 3:30 AM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.5581761,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.7847741,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAYyZ4xgFt7IAQhD3yrpQefkrJ9khArlQnwAx0-6kBoQbnonqIffNV9eQI0X9MH85O6wuiQnmBBA2ZsnQ7EMIe0P2wDFbD-hgIEj4hE9Ka_RvJpRosJ6DiRKs_-Ou5CNwJEhBmbwVP3FyHjOLpJdcD2K6oGhQVZKQn3YgJvc3i0hIhXV-kqYL_Qw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAt4Lh9bQued1lr4BdtGrpAvSZSUfLU1a5XknjQ9NGNoY8FZXa4QuHb9ho8dDahiqOqBRvZuemgaapgKNhkybHnFU2oV0T7YG_sdbNr9Mtg_GPTKfsAbsnJLP-7Yb7Vz01EhDlG_C8oxyU4aHxgF1D-ng2GhSQ1Jd2H5Q9RiCJaaF82jktGgy7xA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAUKD27k8esca1907vcngyBqHzqMUbCW0jMeKjbIUUHshOinOEg7braHZ97NAA1C8v76HW-kF-XGBBF8J4ueiTfYlkY7jq7RQgCIlRfW0gYKTXkHjts59HeQx_1GScipvXEhDTKE84IxbMdaWUXbp_WbgQGhTU50EFwt1rLjIwjBRCyrXiNQqpzA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA0Mvx-6gTxiIs0tHmbEdkTFDIgNog3E3jIebZmpajI0-Ofj4roC-qR_RvfB2Bci8XQZEjURGnkk5gLPeWw8E3vdhiEHml8a9eNisxY7hph2Aznhp_4yIcq3m6owUx8ag1EhDFwEbo7sCAaucAAmczJqWEGhSimKCR9o3MrABVN2baVFZMbPxr8w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAl5opI9P6lTpybhLrkYis6QCaw-1d-rbtMmT-xFw0zNKNrOatLTW_xRmA0RycpCPfzdx5s30tPiKujM1C056Bk4KFT9Yb_VX8ITSa0UMK2jJTgiZKh2DoLAhmHLdyMOjnEhABcLBSFQi91eVMvsvh2_y2GhTEuye2IX7CD0en3aawwDGcH4VDlQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAnEw5nVSvpG_nhRQzpAPIURVBdWrURTR0jTHGOTb7iLIGG6AdXUjR-1OjeLctJmfsdUerkpB5VMufnVJAHJYjNYjuJmZrasHPdBKIrN6Ds1pxlqelghGw6nRbqe-fdnkBEhCnS4LXv0g3jpjkqf50Bv7DGhSe22AJHxEL-ModGW4R3LEj_tfMdQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAzfLfhfb3tw85PFUc9XE4tXvISK0eKS0ZNgSjvpuYJqq_9Q8zZQWEmMeHfb8SndMvyKgHEy94l9B40zaaOP68jQHqFYGJrOhZzmva6S1DWwxAngR0nRTEws64LE1xZEgoEhDYVtt5tTMwQ8-2Cmlj68ObGhSuAuxZAes9ui7iVzNfxtDX3Qly9Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAUOPNg45Fjte7gN9VIw453iugkYpF3ADXEdOcvqmBSamnWqikl0Fc3SH-Omf4zZrD0FJ3moy8XsmnnUdnATKPVYBczzNe2ykIhiliUkNLx9WKSIdP40bLIiwqukVCKR47EhDdaApopnTt6LTfYnW5j7RYGhTGtowouzDH7Uy0iYcxXMnLUwRGEw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAOhOhz3kQMQ7mQuqPC-QpAa9GKNLzGL4kxAY7KdxmqVzNR1kZ9pdh_ONi06URI1TBwMruwGOiBkNq6s92ZDEI4Zqi9680LK-5_mcLmWfnoRAwqRVxyBMlbmgxS2ch_09nEhB7oorJudunsRjXWV9d2eorGhTxjEb-Jbw_UNd2Hj4mH0A4yIVTkA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAqFYim0nK-LdEFw5At25F4dRN60hkPNuoPZfmmKGb5_bd_rQt6Ezm_QyvC0v_sqJM-Ys-LbCji9a54QrBn0a0vARHIKtVmC6jU2QfRxjZUe8ZNIIbaYEZ9RmFkBrtSvSxEhB5U5Sr15yeoZnIF4PLtt-kGhRUn3sLaCInDkNkHsqIjteS5Hs9nQ",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.fynbosestate.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Paardeberg, Malmesbury, 7300, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "022 487 1153",
+    "type": "string"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.52532099999999,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.8059689,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAQdZ9A8caHRWFKKz85m5su42eYPhnBk-S2bXL0eN_ip0KhIE0_89zUVWuHqSOKOGOu82UwxwWHFXxyKv4LPRWmCm0QNgY7ZMa_vofUUCz6Gtz3zJz0AMj8Fg9zDHtmDruEhCePAduG6kif-EZ9Sw5rIW3GhQ63vQPi1RGm7KeMErO1IELnhRoTQ",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.lammershoek.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "R45, Aprilskloof, Malmesburry, 7300, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "022 482 2835",
+    "type": "string"
+  },
+  "name": {
+    "value": "Lammershoek Winery",
+    "type": "string"
+  }
+}

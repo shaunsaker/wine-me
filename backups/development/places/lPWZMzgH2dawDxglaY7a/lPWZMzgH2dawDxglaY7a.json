@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -34.0079895,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.8185797,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAAMEV1wBOmTLFZlw7PzuHOCIC2GX0sBotXAZFjZkzI6mIvUH5uuRchpY-5cqFEm-vtdcM5PascNXWpOhIetFw2cVIvEPEPscDj09ia1xU42eU77W0jX_4E4v2vnxxm2fWEhA4n0DFXDI_zZvOVmXShe6hGhSfQ0uBUZTSAwjGa5T3repIimo9sg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAXB6K3pbob-s6PVIWuTfnROOGaWhv-fFl3xyk6rqQ7pVh2lrP4gC2x3KFiXXqfSuwEPP-h87Gqq8TJArpUWH8UuoW7vvno4ZUptH5VEBLw9PKCEJ9NuP9IQfl4qaxJIn5EhDIDpsrI7ZeMPOymwCVutcPGhQDNN1GKwmYgKcxBx0vclcj3pskfw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAgVdcxyFA6eqXg-v4w0cSWa23AwqjafbG2d0jE81bfRByOpPhgAnSt0I3UdmdzaDZCcCbQuHfappn9_HSdaHFFFeWfEHqpq7vGJr745B8UrZBJqjP24ir7rjOF1GWahbHEhDcKaN-CV5hUD6JQezZ_F04GhR6Cec2uAVMumHaSlXrCR6y8-lOdg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAO3XerpiX3S-KWiAcI2PyNTzr08Q1FV-G0WCHRgH68lf7BV64ZNlfbawtgxOytOL642LiQqiuOWvghWzy0AWcIeYfSKdtOBmorJiCL-PAHx1jUUv94Q-s5LdXrqiwv9n7EhCfrafvkrMLVycmIvfny70cGhSQDE0s2b7e1a4q5Ff4t0amNYzHLg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAGwv_6J_hTWPGpfU2UDd5z7nVMM6hQBJ7cgxbCSu2bo8lzGtfdubMLo5n_K2k1C23t2m27Q40GWsIwDZGF7BHUls9bmh2HVxDEmwt6l_YQs1Jg41AsYzu7sjHP6I4B2U2EhBrnBrnkn5ZRKI0V8k2XWjHGhRXGZPqJxbC9uZaJAdgWbPW9Yow4Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAQrl-pGg4EaqMg7jCb7nTzs5gY-RMppLF--Sl-8H8aHpkz430ULzWwLo4CbjGBanJZK6eKUvIopsG-wsBxePqGyvJ8uce8Do-TO5d0pIsq_Mo3p7u7AnR2vQ03H-X8GL3EhBVUAFmCeONtkC5QKSccPHpGhQBkjXH-0utCiqOHaHffTmZ5bpRqQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA_FVbcjcoqd3DDnMqdywTYOmUA6vEIg-9wx8ftN6REOSyaXnxHHZYz6zQOBee-x7RXwX2T_vU5bZx1Xtt3f8aq1qtA3XWQd5Q8NdNSVheSvciw11ljKznzjZ-VvUgmLB7EhAhuvkU6b8kDBkhvwK-Z1mFGhT7FrmKO2zNqgnLNvbxU63_4y_HJg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAARjXcybYBQXm2EL58PGQuzE10fv-f8sBOIor-3v8OrH8eDedrGKSAPlW0JdQtF1A-CYB63e8nQRKb742KDyDtNpjImZfbkxDZ4tyNpRo5lSMGo1VYlx9FTVy_oKeAoTVQEhA5_xviMR76s8ceCVZjlrbJGhTDOUYCuEmbFs8-jNPVf0bNIJwY2w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAqWYBz1t1WvfjdG8Sl-FlvAok2iXaL353SqfML28uJ3wi5I5EOLIOt1VsvaiSh2On0J6uUJyds-chfMDDQdDYsm2GHzrO_QLnyOwf6XC1XwhwD6-E49yVhF24GjpLtQXQEhD31J6bQoEEklyU53lkuFHQGhRav7yUCZoLAin3lNhPTJluyZf5nA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAEr7oWDAkwb4cb8dJcR5GSZj5b49l8t5o_9O60WG7Nnncep6Ob22CHOdUQEw4wNkisojwmtslNGlymnTicaZRQfmP3VyvgiPmFvamriEnoF4_baUDbveQzVwonUR33ANVEhBsqIm2Pa6ucR_8m_31P8klGhR0UzL99iC2u8E8ZshTlFkkpdxkSw",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.somerbosch.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Die Fonteine Farm, R44, Stellenbosch, 7600, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 855 3615",
+    "type": "string"
+  },
+  "name": {
+    "value": "Somerbosch Wine",
+    "type": "string"
+  }
+}

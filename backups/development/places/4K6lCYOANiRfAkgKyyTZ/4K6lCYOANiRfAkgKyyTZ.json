@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 8:30 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 8:30 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 8:30 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 8:30 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 8:30 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.8121313,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.9033343,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAC_oF0N0DCGVbhI5XJjd9F3A8eW2oeRnWfHCYGilkV1LcRKqq_7r4M44zD4bw4_OavdyqIzHKiGHlE53-BusN76yBdFyQhhy1rv3xiaRySGJ4dc-mbFsbkpv_SoQuVd2XEhBMp0w2k0OawQ1zTFjS3aWQGhTQWxXj5YWPa068YX450Vt5aZNyxQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAccDdbbfAarYzXxyYUxbncaFnPa_ZioTNLaX-WhjTgVmEgRLdm7TOnSDxI_xC2Y-uwH7wrVjeewZA60wGcy4Hd_CkKMW4rhmPgr1McrBr7FJQAVT8lhC4npowzABIq7qFEhAwAT4qYlq9WZEC3TTNrpU2GhSLsF_5a0XVOqFFzNg6GDMplxNalw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAge7Z8zhYHXbbR0A42-h-Lrn96dFhrdjelflmYl4KUxvaS_Xfs9MnFiXALdvoAmHRURO5BaB2Oh5o38Cioyn1_4DRar8ywccHtgVT3AGkd1W0DvjvzM8uMoyepQEbJDAuEhAiLNYtcImkL2ONjj10geleGhThwbvYKsa35ZLvbtRky64jSVxbog",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA5tMy4JGhWzVOpjNOe5OAwTf7tEoKyDbR_eE0ettxDhNj5rt7gpd5jS_UZCOesmxVDOdRs_CZUKZZei-iflz6VnWrXB4GdX5A46RgoYJIKDibKgNwdpSgZo1Ji0bNOgAyEhA00_eB_TggV4x3aqqU0yS6GhQ70dlpc3N0U2TWzpLJfLfnk0XHWw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAf7rS9rAJ2kUB50bshUNhkiFEIagVADirB4DLB1_sKvjYpy3epH5kQ4ak9xWxP4JJtny9Qk55H3qXpwlboRTUzRkKpBJby8pHv9xFSH5oQBIC_BStCeo2RK7j79f2fIFpEhC-ND16_8zh6GSSeNfaJ-p5GhQZ-OiXQoJ28lXpMoPJ05YQ4tyPTw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAASRYTgM2xYkAMxit-PJB8iYs7FMxw8En15sA7Nex1VTuEoMVJi0hpsW8esnR7rSsF-oPt8srmBTej3QNw45Wr2CxDOoFv6gxVAXkC_aLt2gQCanjPTm7AOL-r47mTv6zoEhBj3zZwOCCcKNVVAxBFa-2rGhT1bubCx12njxMqIZHeBLjwsg5tJA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAC5dTRNgZ7nmQjfeDDlMv6R6cWeJnXoavRHjsqd59Q_74SgnFHExc_CZnzX2FCAEUszckwoowlzo-f3LII-e3LS5H3E-3O7V3gkRjsJfIWnLRy8ZG75uuynYrpDqRoGiWEhDeP6XEajhX7w2XW44_tktVGhSzfJKy52EOb1ES89UoAlwAS2G-aA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAGTiKwmBPTctHQKufrG4U5yGtYUfRh0oGDXwOwjH_OhMC_r0_OfvD5HuVNtCHb-XaUaGInOxiSUCYRHjjPkfF_s8P-EflOt4ngtNRYWjwbixJO5-zueD-e6Di3mlXzrR6EhD2vWvpT3i0-U4y0brGz4dIGhRNOYmf2OBQIaFEaT-vAeDt5Y9uWw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA4ujdrzWS6J8yHGwTiupd8hPRhwWzEqr-s5qQTtlcEsxoKMz8VxDaTpMjR46ujpLeTer2yXr1xQt6slMoihQyl3SpRHbaDZ70rnijasu3DVtNOFfq8-wtZzavrfSx-adfEhDOxu5_MX2NZOJBmk8cV6YzGhSmzQf5K0ZVyUkOmbApuT2JtG3cHQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAF0Y8jNpfO62xaOgTkEPn8KY8CuylaiqOoS56EfF4erKxqwqo6dFHlaxA629Ze2Ap9yjeuRJY4nehrBz9ocArI1E5Yzw0MKbSZGqwDyC2-fuvZG26UEoB6D8FIQ2fqpKFEhAAilSQldtDmjNdy_qlGM6VGhTNzSa6Qumwwe4CuZUj7wfL1MRn5A",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.glencarlou.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "R45, Paarl, 7625, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 875 5528",
+    "type": "string"
+  },
+  "name": {
+    "value": "Glen Carlou Vineyards",
+    "type": "string"
+  }
+}

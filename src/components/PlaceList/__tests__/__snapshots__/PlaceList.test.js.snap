@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PlaceList renders renders with minimum required props 1`] = `
+<RCTScrollView
+  contentContainerStyle={Object {}}
+  data={
+    Array [
+      Object {
+        "address": "Stellenbosch, South Africa",
+        "id": "1",
+        "location": Object {
+          "lat": -33.9263749,
+          "lng": 18.9319848,
+        },
+        "name": "Bartinney Tasting Shed",
+        "openingHours": Array [
+          "Monday: 12:00 – 5:00 PM",
+          "Tuesday: 12:00 – 5:00 PM",
+          "Wednesday: 12:00 – 5:00 PM",
+          "Thursday: 12:00 – 5:00 PM",
+          "Friday: 12:00 – 8:00 PM",
+          "Saturday: 10:00 AM – 12:30 PM",
+          "Sunday: Closed",
+        ],
+        "phoneNumber": "021 885 1013",
+        "photoReferences": Array [
+          "CmRaAAAAF5bkjtj7bFEGaZqTN1_uZrJMvM6EEOFle3UIDd5JEbZwb281f2F4EH-XR1o6frihMiOzrJEx1KlczmV8o4qLrYygDZE-TKthSRT1SdzvrEQ6AjQbCG6sVeZBR48V0lMLEhDkpyqJh9O9z4Ai-7All7swGhQwTkHxJ77yIZ9d0c8oqWifUrL6eA",
+        ],
+        "website": "http://www.bartinney.co.za",
+      },
+    ]
+  }
+  disableVirtualization={false}
+  getItem={[Function]}
+  getItemCount={[Function]}
+  horizontal={false}
+  initialNumToRender={3}
+  keyExtractor={[Function]}
+  maxToRenderPerBatch={10}
+  numColumns={1}
+  onContentSizeChange={[Function]}
+  onEndReachedThreshold={2}
+  onLayout={[Function]}
+  onMomentumScrollEnd={[Function]}
+  onScroll={[Function]}
+  onScrollBeginDrag={[Function]}
+  onScrollEndDrag={[Function]}
+  renderItem={[Function]}
+  scrollEventThrottle={50}
+  stickyHeaderIndices={Array []}
+  style={Object {}}
+  updateCellsBatchingPeriod={50}
+  viewabilityConfigCallbackPairs={Array []}
+  windowSize={21}
+>
+  <View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          Object {
+            "paddingBottom": 10,
+            "paddingHorizontal": 15,
+          }
+        }
+      >
+        <PlaceCard
+          place={
+            Object {
+              "address": "Stellenbosch, South Africa",
+              "id": "1",
+              "location": Object {
+                "lat": -33.9263749,
+                "lng": 18.9319848,
+              },
+              "name": "Bartinney Tasting Shed",
+              "openingHours": Array [
+                "Monday: 12:00 – 5:00 PM",
+                "Tuesday: 12:00 – 5:00 PM",
+                "Wednesday: 12:00 – 5:00 PM",
+                "Thursday: 12:00 – 5:00 PM",
+                "Friday: 12:00 – 8:00 PM",
+                "Saturday: 10:00 AM – 12:30 PM",
+                "Sunday: Closed",
+              ],
+              "phoneNumber": "021 885 1013",
+              "photoReferences": Array [
+                "CmRaAAAAF5bkjtj7bFEGaZqTN1_uZrJMvM6EEOFle3UIDd5JEbZwb281f2F4EH-XR1o6frihMiOzrJEx1KlczmV8o4qLrYygDZE-TKthSRT1SdzvrEQ6AjQbCG6sVeZBR48V0lMLEhDkpyqJh9O9z4Ai-7All7swGhQwTkHxJ77yIZ9d0c8oqWifUrL6eA",
+              ],
+              "website": "http://www.bartinney.co.za",
+            }
+          }
+        />
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;

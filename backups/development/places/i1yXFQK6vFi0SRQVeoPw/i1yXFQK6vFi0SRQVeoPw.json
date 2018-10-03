@@ -1,0 +1,105 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 9:00 AM – 1:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAJoty8i2qAvPlyFMKmvCyC82zNwBbzzjP4NL-DYzmBp3gA5O3bx08qGtSrYM2pASBpf9HlcY4w6Xw4ZPSFche-vT2P92nXl-AtR36mowBNiEvD65a0xYcqXH8hjo-sk6oEhAsu4VS-mTBQTlhzj6xwp7lGhR_YwAT-vkXatLpX5SFWV0vFvQlMg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAikMXevNZEsjFGkDt3T2HMitcYx0okPpUWgONnhVQw3K4tcdkF6Up9NjuSWoJhXCApI8OZASQzwdlmfbT4S_qv0J8IQqxYcTdqTjTXTFG2lIGrqAxvtBzwMgS2lYFY-UhEhDLSG8TLcu1RM0J9uA_qdUEGhQqchpKlMaaV6PS0SVztNxAgxTi4w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAl9uDeuP_Fxqu8wpI6Lr8NmqAPWPeVlkg3ikWqPZFVzpwkoeuqW8diqrbV7VcgMoM7C2iF1TgejaVy-2fS_qC3tUmqBzbgWxsg5HrPV8OSz1ONc2xJu6RZkUC9R1O7qr4EhCmwJ7F5lFeUvmx_D7AY4YTGhRJl__M2oVCa3itqc66l85O1c2M_Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAPsnE2PMDbJvaZ4m-6NFJ8JXW2n3e4gbQtv_9Hm3Jfe0JdiVoGFZ1pDJJqxbSb1hFfFMhUd7rTRwFYYGWbFwgs4wnEh-JOPs_Jkxx0gzJGlpRCNwbR3g3MSEOJ35filkNEhBf-ioUtL1lL0kub0YUmyBrGhTvwpcRIUC5WBdUuBFEYQZFy31few",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAqeCKcEOEz4bvXTuvcsEyC-_08T0m_qg3_VuafilGylr5qOdn94oASFeNKToqFUW0BoHTLx5Ki8IxVp1pljxsAGNPDWh9dr0yB-t-oqk42VvK__PHs2zVSotILjERRfKkEhBLWeYUmQh_z80krMwKnB7eGhRH7Gzh2WHKvlaRHIbCSgajkRtpuQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAummpJLu-r_hnGQwkKR3FMUxtNxcCcaVJqNsHlKCTRABGGF6efXusHYQzuENtfntsPsF5vYg5i1nHCD7Xryj6PEziKS-igp2HLOGqBJn4EGJJuaFoKxVRV6Fc68_wKAbrEhBYlBatcLTByj4k8quvoCQhGhTUw-Rg5dD0VW5GMVFlBauKTJyDZg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAAj9zh_7Z8RD9Rg57SghlPDREJj4P76mlFaZNZT_LyRxlawELhDCEM8t1Yg7HMDc5X0EbXuqb4LOg3esOPAaU2SuwKlrOKMNGdACcZR_CImDwJUd3ZmDu75dAT1oynBrUEhDkFguTjNCAAhW9YefZnvU1GhT4qYQAmUOQ0ILfuGVZMkkjdI3a5Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAhnhc77R7o94GiLlWfFAo0bfxE3J9uzkiB_6WWMMH1sExQzsJ0SkA1cEbyF6BLD_9bToWFcZ7_Zjm4qno35UPxSuw8kZB39F-ANPGrDVE7syD4-7s1dX8FWExZz654J9HEhBPfr65hxq7K2g2uSG128pBGhQTwtEp9X8QgvOFlonw07ULeXrUBg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAVfxI3xdntvd_s_Oa9cy9ebyP0MG0ypLJvqP4aA9X92rukOiAG_AaR1JzB66D4CA5Rg5zv4c63PcnyiZRNmbHLaeWV39mKNYezsma5HxtI7RlD3l4e0xUANRunXJuIlVCEhD_yNOlxD9pT3pCThmN-GbjGhTXHZ--eYsjpAijTxToxfXXG60r5A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAvUQgVWO1HdoLfgzgkFc7jFr6EjOjlPkzY2jHVApyGrFkCuJie3IAFGbJQjw9Z8ndAQ4o1bHjamOTRz1suP2Iw9CugPitympd8ni_Kukd1al_12PrQtVNdzxjN5n1AtSkEhD63uH0OJmnoQCFXvMmDvjlGhT8HEdSffwfUMGyUXdu70DHJCF6BA",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 18.7152524,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.9409513,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "address": {
+    "value": "Kuils River, Cape Town, 7579, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 801 4677",
+    "type": "string"
+  },
+  "name": {
+    "value": "Dormershire Wine Estate",
+    "type": "string"
+  }
+}

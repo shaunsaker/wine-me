@@ -1,0 +1,109 @@
+{
+  "website": {
+    "value": "http://www.beauconstantia.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "1043 Constantia Main Rd, Glen Alpine, Constantia, 7806, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 794 8632",
+    "type": "string"
+  },
+  "name": {
+    "value": "Beau Constantia",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 11:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 11:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 11:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 11:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 11:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 11:00 AM – 6:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -34.0136723,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.4063939,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAppSWpse3NjxOrGX9T3IKsV3gsMYm-xm06meiGYeEIBWaODXBZJ9RS6kel_PNZyzANgjXo8plZ0FLONyxt41VfW68pkTJcs1BmpWvCdJuRahGs1zrZarc8zeZKpnj-rX-EhAqYvRgw5lppWYvDxh_RJH7GhTwTB-1FtgO6HlL5uTPjk_V0OICrg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAHrlm9r2Mdubf88yDZdA2dz9aUZJKvzvDw6rFHHOtKBMmdj13D5rZtMODTUqNHcndj40cOIpTf_rmCiV7bxP4sT8a-fOqhLE8p9RamH8pb2Dm9aia3zk-s6nrgwAGb-83EhAFPEHnXT2jVt63RgaUqIDWGhTYLEIbtOetqSykqJOp5wgy0Cb45A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAChe2KPAKYDBvdvmvtNrP0Ml_mV2jqBcGNkhU6H7BGd88VVCbbFlFGLHIR3PiKQSg8Fw1W4O9v9x2lPPRFDQJsR27W540pm-44wQYaZK_f9ZUBQRDuVG5eYBe8_L_JJMPEhAe3twkmRw2K5lI6P_RjLx1GhRp-yJbCWmEGM4JNDyGuJCxg095SA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAyeuIchrBjo-hs9WMOUPXdG_W1z72b-H4-WHwGRi7jOYLRmOx0tTSISwJymFWBugOipSW9fvkC18rzV-UKrXjhagp7LTPhYUU_iCcr9sWxAs6GR1G0rh3we71pjLxK3zAEhD8bh_j_IMFe6kv5EyFZOcAGhSOyiXlak-pip6wNpIGQBbuGuNItg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAFYrHvdkBGxJ3pzz3_1ITZY4LXNwJYX-r9qIw2-cNZMPfk7JITmzRjYccf-1s6Bh8fJBY-psnUiNIh8Y6tqnv0XtO84qXY4m7yjN3sire-yAq37FMTrvR9o7S_qZjR_tbEhCydLu74mKlHcEMzFr2ptiBGhSIgkI9kA3GiVY4ZaJAaznJzZU1WQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAjep0RWIx6nFbtSCoz8O4BsnDVS8kBiY4QqboGt0g54BLCBKav3r7os06t-eZfLTOgfKuQAiuUo_BgbKbNtFtmZuyv4yC5X-w9_UGv3kOh5vXs9oPhG5WCtBZq7wSQ9wFEhAVxMhrCRa8TQuADQ82VxWJGhS4Pt9Qpg-sL2GeUGKjnSu6Yc3pnQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAr6lMbVrsRQYv4bs5-uGhGSAn8-z2wH_72iG1F1RNzQToZmhypA0_5gCu10-QF4l08LBqLV-Q0O_WA6BLieTbCYy4P-STbZlaTAxLwVZKUTeUt4B7Z-AdWEFED_-Zhx8bEhBG4vuOg3cMvrrKvspBPUcmGhTNTCYyHmIp3zQAscsWFSpcyUFgEA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA3YUnAUNjjFerORRFPz7Mb5rI11qiGUUl0pqkDBfBjMX5ovbuaS6qC5nc7fhUh3MB5g_FUXQ2S_1B7zYfPzqg9pG90WpVTDFnORLlA2HEG7n-lbnGKITMQQPu4OGm1buEEhA-tDWh67_Z7s635lb6exXfGhRrIeRVJnGI-z1YeinChZy2dOKQIQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAslGb_RfqdXKwGusIp5LfCUIGpcXrKEL5QyZVShO2gLiM5FM9OujxUESv-W9k23hb2fc4E1BV5N978vFlvne1iQLrMKxri1AzLbe-Z89G6FdRMG73xvu6mQcW-Ve2eRK3EhDPl9P2s7tiIN0EbwzamMtLGhR3sjX3XJarOZjOL2cYRkUdqi-XlQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAjBtLT9AjJTjdM3a77cG-2ox_z_x1aXS4yaXO9SVRElJuRF0NkgEmrXHT9kXdd7mF4Fq838GJU69f5gaTJNn1SMEj2V-aoMfO2TiIB1CG6lCWG7SuXIRj6YMFnyo9qJBnEhBrOHFpz-NFem-JHcV6HDfxGhQz7aALmdLm6qGyWUcZzpt3wNASMg",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 10:00 AM – 3:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.8956904,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.8925072,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAA-Q25LrQ-ERIMIFCx6BB-i5jnJeTDPXV5azBwYhdY6hH69_ZCLUwaTsoqSj4zaO9zxAR540n_uUqHeQBQHQ1bRwGWq3woTASoaxTr6PZlhA8g5mejWL4tqdGkNvCstSVCEhCwxdA0nR2sukG-78JPgOHlGhQH2yiZwpLNBDYeKvoaNwHRBw0gGQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAusAJsM7mLsMEtttV51_y3M7Llux9D1WosXTtdCEsP9bWIUdzP2KHcibGvudGOjo-3SW_s9Wc7n80kAWrOMnNkpRRxhANvtYI71TaM3yS_K548LFUxeG6lLmXErHrB0qnEhBBi2FcFs1pD_x-cZDU8-2jGhTJX_1UDnzu8Qd0lbLSceaSW8TmAQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAvIvmZke9Qqjxd4NYG4O37bncBXyQ4gp4d3Dy09SxFVew_-eg27mS69y5mxzzAPg3qcMmiBUjvZIT6iilS-z-_NY8j4_hgN065Vk2qzEWbraCuwEHiFkRmm-zPF25ObRXEhBL-HnkcclYMPzZVBUQgk_mGhR-kmZX39jHTzBKCrLH8jNBr491Sw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAVsit9IT8omPRzsczuVDSGAvmzwvtomZFoBdF788vpZgese33vk4k6AGrx8-Nih47741NNxe0hA3W7fHB9nCKY527rVq6O7Yf_1DlulLs_Gjp1N5dDoKfclUvW_hQoIkvEhBFRYhhd4JTOh_rA0UX3_caGhRxlkA2ZdW8nssNQ14rrh9r8DRVJw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA6pe511s-uw-ghHJyL6LgYd22bycQ48I8oX_RDviAxoNAU3yPgaFAR7mRAYRXL_6wIyOnOAabzqQt23g0sKFeW2hXF1gF8xfw8lE0SCsa6LV42mPVIENLUwoMFLpPWoGMEhBvpH42i3bEZ0nUIMFZYZA7GhT46n_8Tj7tizDlIOVxN_g0XfQljg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAvAXdDxR9YMbqdC4JY43s8eb38FYKaoN-OjoTo59BmO1MsbE6B501FvmDwD3rtCBq_s6wbT2rXahK1bj7e_SPLTwnLAwILf61nM1r_Gk5SCCJ3LGHRyivu9VkOdeCTS0zEhBS5bpmMs92X712n1Qh7F0_GhQmFXl6GZRUFJPg0a11oLociUBHfQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAebPc0rd_9pEowfNkmEWprxtJdE_AYXonTmDp2PJkucwFmjqSalJfrjdlXsbTUY8mtg0ToUiphb3or8J0IWohPvQ9hrYZi8d9KdKztx2DxkT_YSXs5zrX0zcDlHty1Uc9EhD-PacEJr9nANLJcVocvkFnGhTIRIf46g4H8IuCl11lFUmwIyNxmA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAG2tGPhtKy7oeh_94YzWW9IpxMrybR2xHRVM4U2snqbqKAgq5W9xu0TYcdnod_JTKMr72qaXIT2oIGUXk9J5YMiUvFaP8M9TkWW8eNAWXUnMG3ZOHpQmDcN8GlQzFVi8NEhDBdrtbkfWQbsknXAg3UpGmGhRrWLWc0b4rTD5JHhjcD2JeXThBJQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAaElN477qmAGzUHSk65oUFfGjXVnXMrbtAnJhdICMvv4CrPgSuu0fowy84lN8RkrpqcUPpGsb4coUDrqvNEH0qH3gg99NkI4PkeVNX3ioQBFCR1Dts3tM9SfAZcYxJHlPEhDY28zkj65x94xX-hPBBmyVGhRI3uCwUSZ8VVkZoeiKbPPKGqTzjw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAEvpCNIt5xwtz8Li_I5s8E3Z52eOnRayoBqaDFCxsjgKPdf6BU9Sb03tAAQ7o27-wPJXtoyRLUFpdUlUO0U9laypZp8no9Et4xsA8NahlxHAwdVTjUVpdV-4YxhSK51HpEhD_KBh92Z5T1RHjKwa9K36lGhSzei8nk9C7DhZ4fdOB16aTTEhGVA",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.rustenberg.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Rustenberg Farm Rustenberg Road, Off Lelie Street Ida’s Valley, 7600, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 809 1200",
+    "type": "string"
+  },
+  "name": {
+    "value": "Rustenberg Wines",
+    "type": "string"
+  }
+}

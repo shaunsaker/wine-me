@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 10:45 AM – 3:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 10:45 AM – 3:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 10:45 AM – 3:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 10:45 AM – 3:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 10:45 AM – 3:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:45 AM – 3:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 10:45 AM – 3:30 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.88112939999999,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.0643241,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAA0vgYKomaYIau5IzENxWVZ_jZLU0dPM5FRvay6KxrDfL6jVQ8vEsR4JDC6rIEIJZuxdUZR_QAy8xEe96OMPWLZvhy9Akh12-ED56C0nrwXFlNjSmeRiLFJwRjSob9eZ-kEhB0jHj51MODPj0LX757F_2vGhQ-2K3LPVzeHnXzOXvgSU9hhV_oBg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAOXR66TcNTL3f0FreKKUZYGEmQIeaTSZdjeMaRzFvDgYSOoxifqTMhu8g60x03Dd1FZR853bQrdzC0YsHMNkRjCT6TWEzLE45f-buUYbwpd7ReIiHmjN_YGSqtbDO30JeEhB4Y2lFfsUUUJvou_p1-j7nGhRrtYFZn0LDbgwpsorddiSpFdoCFw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAJ7rKY699mDkXxebSrQhuG9VOhzhmBlQZb6vlX28HV2N7arYiD2aWshgGQ5b4GI_GVotYZSWXnzNrxoCyJ-vmUTX4GoVONKPQy2PExLZm0B_l38fxxc9uCQqpDjnDneDlEhDB4hFiBOSqIzq60Db0by-0GhQcMWLAnlx8oueaINgpMil8DQ5Byg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAeodHI1hlOF4EJGE9Gp8xP6NDB6vQP2YFPSdU8oKRYXLvJcFJD-Wcnaxw_PXErGo4AEIWfWXtY0R1WPHBY6x257L8zJYl4a8v5VEoahwc81pHMxWU1OVxiUX68A05gJD1EhBNPiyW2nWWcmrPsX9CcjmPGhRtxeKu7FBEpWj_6Ya2RkS8_PhuHg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAY_7DtldhgdnQXVpYsLRzIL1kxk3wKiiroJfYXiotEzYFDR9btGLU9-VAbSss8EhCFSL9-eaJGoIPFqdh4s2E8XDKYhfNE_PUcaHYpTNi3h3m2KZWXKEZ8EkBOAJgoYenEhASoonywSTRYLKfsCRmCbSKGhRdKeK3EcgzGyzrQP5DCfI82_9J_w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAgscP1TlrT7mhkNrfcIERCxq_96iuCxjmC_jp0Kg5-_oCco8MVf2bT2itLv5zKB1LC2-KWa96Ryu9bXA2Vtwd8AQ0Sa6Un4FyiE6gagUDeQDYoIBF939LxkSsztvh0mJ8EhBlu6LBaToXoQTTwzx5I3wZGhSCw5zPtos9OBYgq_G9h3Q57ezL1w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAApxvHuQJzoH2I6FKFoOUen0xglVQvXdvalXu1HFvcwzY5gYAKkUF3_9vM-WMlEgTbJLKQ1ZJL5oJvCyf4vHec7NV1dxTdEnuiEZvDHrJNL0yJ3cptUg-4tRpElWGPoPLxEhDWbiu8dborJOONbyuWtB_vGhQyk3kuZqhdzqHFlgjibeG_23DeCw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAiiIg7Otl5x1vR4UU4S0N6S9luoUtV1_d4kh00grR5ckyei4gCisUK5lmUcUPgGW79YOsQOmHVNAz4sTKIEwdoy0BJ__bXbl-5oSoaH3zX2McOlmDHBZPqm6eFx4z31qoEhAOBIzEG1GMGnWGB5jpu9aLGhR6t0HUluproj_micG6ojDkV_GMjQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA7-2tlxF26TCGE4J_JIuNdZhBXZKMNuNAoiHWLqe9eFoPDRbs59aJY-22Ki8M5FRQ_aM84z9AMwbRkHaPvltWSq150cR2mqMm7y96M-VKeXa0XaoLQJVSYYg1rG2bHGQ-EhCyA0r5oDFoyy1kxAy_6i05GhQCO70pYkdRyU5oYkPD_Eb0YNBSEw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAggxJyyYKQy88CWanYmRKcz2I_9JZVw63KRbGDqGdPJZapaI5ZvWbPlcbV8XKZNbGDpJdYBswMAbsPdmvSa9AgmpHWnzTQ5nQY9qhJ9-8NKa61lsX5zE8gkU8XClS4xmREhBmZAZyYMaTEV2DK5f5dQz6GhQ5OwO9uRCudPyUDQGLelCI1G7Y8w",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.eikehof.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "R45, Franschhoek, 7691, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 876 2469",
+    "type": "string"
+  },
+  "name": {
+    "value": "Eikehof Wines",
+    "type": "string"
+  }
+}

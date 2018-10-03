@@ -1,0 +1,109 @@
+{
+  "name": {
+    "value": "Laborie Estate",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 11:00 AM – 5:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.76603980000001,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.9579455,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAA6EbQaYRPkFJ2CHldpx7qK2OKD2LwT9tSB15l0dSPV4wldioQiDVD0kDKqULXvd1PgGMfcC_WbeS3h4l_FVhJwU4LFxwBM2L4T7jsRzfxedZc2XSRsM1PBFinVNqTWmZzEhBcISTTIX2Eb6k8TMXLLpDvGhTu67PYdrlxBSh3l877R-pr0AuvGw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAuv_X2TT9tAaxLGcy6CdoENTpQmj9Pd6fr3uQyw-F9VM37-SwKohURr9Wymz7Yp0wHfCBVT0laNuHhX8axj7PKQhsiV9hHsr118SbIdKLq1ZMPRnkCSlH4cMnpBq5dAzQEhAFaCHeVmqQKDixWLDccjMPGhQaWg7_ZhtJaZ7i_7ijshoXdPTrwQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAdATEKZnE6j0KqZN33wVgV07fNbrX0Ki99XTjhJWC1-KHWBFcXY8K4SvnQHeF4gqFzHSmgDvQGLnFfd5Ppa6RTpnGIIfH5tV5tTMl9DPClUneKqp4TVb-dTB47mOzF_hpEhBTUBjthdUrqXieBcw0UdQnGhS6RvAX5ExDsTz891H2ZGSpk4isBg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAaN91rkTLn-VfahnH4OxdYa8ZyQVf-p1GfIdpMuPo3TEhcM6OYfOzHOKAiszGm_i8K1FCDB7cjdkXMZBoYY2l1PWOVZhjirP0sQ0Du48Os8d9U_qVuT1kLQUY3b9_aaXcEhC8MZdycqN7Htdd5H1gBUYIGhQbR_HHAbA2PQeWj674kQ2ZBWOAPg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA26wZ9oLIC7LGwPVSoqC3b01eku7c5pWHj4hREqp-PmtgBPwmgl6HWDID8PU6RqpcG1J_XwONaqlurFX_4CgfBuVqSzyzN_VEszVvo1wj2AL7cHme5aSKjL4DSirWVGinEhCPBgmm1FSt2dmGAef6UhA2GhSO7dYUzdk_yDr9WHdbIu2QRvZmog",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAANwW4WkSC2qkbTtAdab01Cptt-c0IDvhE1Rb9aI6w1emVI_F6XZuiHkqhY9GhO4kcd5St3klzDiqcn5KxUMr5j4dbSc4PpdP8DR_jhlasUash4kEZEjuExmJN3jxIIirUEhAaQ6m0pXBGMYuuyUuV8b-VGhRy0L6RXMIpM8kx-6Pun52m2qyrQg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAdN2c6I5ZYN72pZuWX8ajcQ2N27sd_MdOPrFl7DclDjFxBdT48NU1uZ1s27_7gMBrdTVAD0P1f-QxuebPBMhY57zVniJC3hEuMpaw2lOUWf7c9qJxlnzMQf2WALbQFRjkEhD1tE476qyaWPXAy006UbtoGhRTX93A2ipjDH-wa0aqjzDhq6U66Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAApkfHUvTc8npCNRFgCszAGz8WiTaKcHgMLi1HhVNdvbH4ELVtL-Wnura1bj7NfjPGIpo6eoLknZPNpXPiHQOPuW_kOKs3_M5b6ZP1I6ebA4vixYjmxrqxxCRp7IofdEf_EhBIAQlMA6iO9QT_YanYbY17GhSMCqcsRsU0tDcoHSctXGFzy2yW_A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAbtT44yUrhQqcpGWM4r4RgoXwgSCfACCm-hByBqyvWHudi3OaPOc9LCoRWLc-8FuaUdni1drHhtVMytWXcNAybCcRRM7NGekHGS_-QgwIuyERen1dENKM6SG_kbQYXji5EhAaHGquEPlPyxhUVGy__FgLGhQFipkagi6k2J-6x_y5-J8q64L9-A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAACaCpZOO6lYHkBi6YT2QKkL0Bq4-R2A2bYRrX71lT0uagdzdAkgg0DvU91YbqsVs57W4yzl5eMxPazQQehxO4BBpd5-ZmeNROwg5YqXBk1Ng9v_MYn8RxL7E5Syf6fMyCEhAVN_CvivVDxA_RpzvAiJa4GhQ7kkNT2nCcs92uRdo4rPJg97Wr_A",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.laborieestate.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Taillefer & Main Road, Southern Paarl, Paarl, 7646, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 807 3095",
+    "type": "string"
+  }
+}

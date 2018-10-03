@@ -1,0 +1,109 @@
+{
+  "website": {
+    "value": "https://www.hillcrestfarm.co.za/restaurant/",
+    "type": "string"
+  },
+  "address": {
+    "value": "M13, Durbanville, Cape Town, 7550, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 975 2346",
+    "type": "string"
+  },
+  "name": {
+    "value": "Hillcrest Wine and Olive Estate",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 9:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 9:00 AM – 4:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.8274407,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.5903961,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAgi1G1DcEU7SmwDJoQcmir2E2Z4MWP-M-NuBzT4uYsD7H5PivL54R9Ocigxzl93Is5MNMSRBwQe5ZGkswXLcEvwnYWPu4whEhqPMQ81IlOK6YYXo1dm5wB838Bq5WSAaqEhCkz6VOG1cGzbHQkoqVqDWhGhStX4bhjIZ9XlDvmx3WvWQGeMjBcg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA7P6grm_3g0zldibiz7iSIL2w46SLQYBGqnUUBxtp7NDmmlUHjHNuiCLjWZwKZ5Jy5gqx6SVJSI8_UmjCdKL16gPRihzp9CS6WLJQFiHfXx-f8F9Bd-h-q22JPG3MRMj8EhAfynbv5KIQxpbMHLqIVvE0GhT0wmNNylcPCXl-El-Z0dNFLdpEtw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA1N8hvC0Q97SEgEFczMyxFemhfgawPZjE9JwaWgJpWxgnScYiXPqlW30eW0b2JOuwViEjmdu4e7SHoUstVw9h5O6C6vk-kUNTTNeydQqzgSpgUgTvHy09aYFOMzdcVIiREhCf_tUzQQ87qIs62GHtpISsGhTSQEM5P_ljUk90b1lB2dxub85J8w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAnHvwkr0C9t0FfBO9NY4xpRcdBX9vDVNyNtkUSeb-5e-ALHT2-a3dNWaD0UMxvfo-nGyGzw-aGs5IAmNna9p4w9ltC2_uz2DI-AlSZsigVszGkkmWHMC-hr563vWHn30vEhAFgIIU9l5WEbGFnycBxsy9GhT8ewJW4r726JVa2lHUQzPBq3NMxA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAXUull4AEOmULvFQVyVIfvK8AZeHlmJgTmLYw_-wEoQrl6waGSHM8bFLc_dGfppG4XoFisoGiuFSSdfmssL_kGsChnVvmG4nPQeNQH4ZXX87OXB-YPWfKNi3kJN1qMTJ0EhB873cxdOGBwNE5isCLWhnZGhTjjyXKTRk-YRHC2eHOD1EIn5Cvzg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAvgt_iQ9fs9iqSktXbZv17GyLWpSnh2ldYoRe7-nMU5O5lVaVh0hc5tFcn_WkSTc-vzhU1C_1C-orcKG-GLWim9i11rfyQjHVUzdYYI6p3lgN6YRV4qGydLqGRp5CHhPeEhCi4k1FePxx3z59zmJ2Ni3TGhTtiOYBVXuE5N6lZvc7gwCG771KvQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAMEIBu2HRqW1SNnPpFc0Sd-2m2ISGYVbwx0rPqtEHaYSHCaj2SMPaqb-_h0jw6qskNYFP5MGu0ZGz0ZddSOwDt6olBLFSLy2ogYLKhrsYuO37ZcB9Liqh77Q-G_BCBJTiEhCHxW99FGGcmNxoXVh6ZFLsGhT7TUKsg7s-yqAP5RR8NVcDfkIQPA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAcWtiZAFPic5ktawH5ecWF3pJSTu6i7HxKTkef7CZuSgQLHGX2YAE_Oenzqt5Idgv-65A-P3_kNJ9kIq4tEg4LswOJf_zlFPmLt6FzF_NNPPSW2jsdeNLuOfslggMYHZIEhBcaaAE8dU2W3NeKTysmbnxGhRO64lQArFLG53EUVUsKZU5nHzB2g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAUob-JblaQz9bL3YMWoWCPSIxQ2PeMg1cHwgOJvLqlSaNI0DvszgWXiJrEMneKLhI-2ZHum1QIYA-lm-4akhSl35kTDsJpGS3JMN7fzVftd0jZ5lcRgBkErFnc-6rpNzFEhCEGJXexXQnzBuuoAe5ysSzGhRdquVsp4K3Jp0zoO_VoasUvnw9zw",
+        "type": "string"
+      },
+      {
+        "value": "CmRZAAAAQlRmEd3oBk68updvcIov26fDd1sqkvq0g4gHSTrsty8FehawGVOYm7aHsaP1qDRkmTiEuttKtgiX6Uw1_Ox1HIrzpNvpjIk_2GTio98YkoH7NzhEmpc2CVGp-vrvTJf7EhDsAIg85VwcFVxhk93hTQ9TGhQ4Rp5EuiFMesAKukA4r1hzj1vqDg",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

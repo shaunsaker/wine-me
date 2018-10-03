@@ -1,0 +1,76 @@
+{
+  "website": {
+    "value": "http://www.ashantiestate.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Sonstraal Rd, Paarl, South Africa, 7647, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 001 3198",
+    "type": "string"
+  },
+  "name": {
+    "value": "Ashanti Estate",
+    "type": "string"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.722751,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.037064,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAHXptEZSSAgkvrU_mYTOWdmfkLoW4L2TszNPhNOjziCgE-J0HCN7BnSrMgPnTaYXXSAPgvuFplQKQ9h89VBUIZdfoLEYZN2wtgJ_OYCPNP1PijjeXjpO0hKRgIKZSJMoGEhATc-6p6nix1Kqhh55Ol70tGhR8HXOnLNJ7BTVsWR88r75JpBu3uA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAdT8WlznB9Lh_ZVmKMdrhhECtKT3FxiVgSzgKya8xFzGporF7SvgN4fxxfoIN9dZanDoNCof69wxLQ-FMbdXRzHflgioK0I0wESjb8m9Cg_LckUUACDXWwQrP_9rL7fujEhAQ_gHPn0gakXc7-cHqvmx_GhRNCCtSzipNfssgJWogvKJklYSdtw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAerSXd-yRht49bJG0icyesXjNzPpWv-GoBGfG4X_yUjnuu6-5IHaGgW9GpW0ZYggLR0FzUGChGr5yKKKYQ66aiN0E6FQBlQnlvNjy6FtFIjYsSiqy1LtjUsilBFAer5szEhA0CUKI4Xi31ozdXxOp8T38GhQlQFuu6cZ7XP1JZz0foFnzFUpElw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAdemrEUQf-Orn-lwlzx2FolPuSHbR3eynVfmwVlOt-vcfsQ50au-l0TCYX9hJgbU68AgCx_l7turB_m1veAcWWyohl42oH_zchT-iS0kLTWRgqRzCSwQC9n9gTDrY7yslEhCGw1Z9wGyMb_IOvNJMyRL6GhTe49q_kWnGagOcwPtVo4nOg3qSbA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA3kT0sKH2ZlgMQRAD7rFREN7nR5HmA3xiMTXeK21vz_6IOgE16XJcBVPzFGKLdjxu0_xpYSr0IIwDcq6M9gRDQEW5hnok2CyWumV8HOYrzTzAp5QnD0dYZ2R2X0X6mhAhEhAAec4Z1iHqJfVOYAnRijmjGhSTEnoQK0qfZuNwkHJMx0kptqCRjQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAmGB8ADRgVY5EW4egASkPuR-Y33ot86OLRDPmv-FX75bKrkZvQg3g-MX--ZhLm6mKPlF2Yj3lh49AbkOTo0tyBTL8aIdREe428kC0hoyhKQD5NuSB9TmUcWCeNj-IO2HsEhDzeRERhDbeO_kHFALVXO7XGhRh9DNxmK3qFgO2odbb2VU92rHArg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAbO8oR_43B9sMBykh-MgQKH36a7F5sjAxFhz4ww0yhmXETtnSwsnuVRyC0tRm16VECRzfL7p5S2ZkhS3-WNnSgKn6mYlQG9E8XKv9nj1WzTJ6HxKVTLZkO51rmUKnygshEhC4MQuKNcZ3hUDnlosMDz6xGhTs1mrTcTJtfRXehae0pr269w3-AA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAzyITTK7NGyreNlfBHwgOHZQMxRUwao7mXWq3iM-TFSbYZOoWTjxj2LyYA7KKmzLEOE7731dmNfiW43MToLP6q9pQ6Ktrx-iTWj40seINXQOvA7N1cjrzf7tYaA3Vn7moEhAT4mQBf7SVR_8c-HYZkF0RGhSP3lzcy9t5_KiIpfYrDKKvRhZosg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAArsAihpTfv4pMs2a3IdpW3Y4vV-BZTEFOzLIyb6Y-BXu6003M-BUkgDzuSzK5pW2Ubf_DbSuLAC0NudztxqXItZRTOr9SzOkZGsdA2pPZUl7UvYF2KpcxnYc_6uW7h3LkEhCEX0Qk90xpRIwmlOs2Jq2DGhSpofYg3a-iKZiAOk8sLeaJqNpTjw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA9mhqLkx2HZ6u7_A3MMUjUGgpqEPfGQXFPwdtZx3rwevsNu89AW293OIz-Wir6WOYsJvdPC_I9rS8DKdz-v9Xkf5Dc91uzIXHkqO66eJiuwgJO91sJFGNh5OUP_d9ubEnEhDcmYHKVlN0Kb06TZ8Ti3YCGhS4xr6XiRN-yRHxZRk7hICxDIeg-g",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

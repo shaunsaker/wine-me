@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 9:00 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 10:00 AM – 4:30 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.82235849999999,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.867768,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRZAAAA_k-XSL-Z9JdS55tXiUtyFphEh0ISx91FtL0GxxtoJ3Fg_mMBuRQ5D-a6Y4Ncb7K756_iyx2pCoa06fLksZu64mq4bK9hnKrbIExRu5jNLCyH1CW6qymBBD-XRsGd38QVEhACh-gAIXdIENRptO1lUltbGhRWI73IqCoZvjat8fz8A9oVYo6JFg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAk1NzDNAYDfMZOBa-cHMhVj8KLzoB9q7R4_uVo9dAANQ9DXCQKOa2KbOHaoXAydSFsY82bMs-42hcKJen2Vr_bDrvfh2O5BLamnnzZAYLh7f_ojRMET8ab-WhQ3Jw5pUbEhAImd9g2EVnsn2xxaoNTTDCGhTRWeniSgbnymhVA-NuwYURWVnaDA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAApnP2oQqEyIJG5hncy6-h6T1uEiGXhR2DPmatNzQM01l9VogXh0PqGrwbzwldEBPacHftmglf6lGx50zIqdQOkrgq7DjiNGQVS2BmNC0LeGHyuFaB9dNop_SonS-iUCkXEhDexX5GUdale9rE7VLWymK4GhTQSOL0HIQw2gUmL3P_RALHEoAzQg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAhWwZrFxlXBrNa9PVW5dJCAvfWQqu0r5MMCxJrrrZ1MO5VNFRHHY8bL-LNm14Or2dx9Ea07OSjuS5fvCUALdGd-L0RNTpHzwNmCulfjcGBCPApQ2N0RhZK5T7VMB0ERdeEhAjrNAqqNMfUtBsff2TgSP5GhTWoOXoC-qiVVcg2dtC7RwCeIezIQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAMA_2U_yxH79bUWT57Ea-OESolFvwcHcCY_kRbUHAbxAexoY1macudliXzrqhtZS_LTojrF89sH_fGl7ggElIDFhUQDesqVWqBspUNEWUSyktpSZPh53mvg8xETyY8nHCEhB6Yp9NjErBb_bcwy6f0HfZGhRRvtMTxwaUQEOcCU0M7gVlm9XlZA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAIWZQonNHBZ_3QghF2qWDt4m2zfpwb6JtqohsqkkYfzPQlECnaJBvTvnU8oLHMpM2RchGSBdRwM_naCfnBS8X4gz_0QNpr-rwk_Cv5hgpZ9yH7FIo2BNZQzoO9CJuDPs6EhC4b6EISQs1FHWfJlWf-3xlGhQXYKiuWORvlKbJjOPY8Q_1I858Xg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA5qRdDZ9btK1cM8RoaumMUP9nNZKY7hJ0P_v_Y6A-qpEXgK87YOIqO6lNPitKsR5nhpOwYYsaNRzaRIxaYv_Z006FS-JitZ7K29tOmf5YFlyHls1sX7tf-aSIy7d08UYyEhA21ffbyiwFn0NE_SDegSvyGhRzk6FFe419DnVrR0F-dwIRCViQrA",
+        "type": "string"
+      },
+      {
+        "value": "CmRZAAAAjfWgKeKNNZh7DwJwFTWA2xbG5AbESnmX6qtzPdmobjjzTF8rsBbZAivasjgMFdz3XtA2ySJuIbJVYw5zfl_m_8q38xtEyn9qax2SbfsDnuuDIwuuP8m2h2iB4finxv5oEhDQwNI7j2OnUaP2tTLHxbihGhRAGF14Ea10_4DFYU4vGRMWZD3zIg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAeS-Shr7_1IJXBTgSTrGTJAWxYWTV3yBWWFnb-qAlFQTSy-6zC-gZ4EBuikUMRVdTaz7WTgvdQ4BeFhiksshoLXopm2O-LlinQtPuCHgJBKkxq-eMiul2ZjIzvas4LqpyEhBgxb0Ivki8ZgsNypbw1-9QGhTsC66BM696rkhdQcwDJ0JyviDtgw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAdhlUQAe_3cc1wLfq0v8fA2Hw8C7zl8OM6WdP9mU30nWw4lH1JKiOD-Vk99FyyJxL2W_gpCu834YL--7RfUac2Gl77wdA17SSFuF31apbpDaj9Yv2zsf0YskjohXc_MxoEhDean0ZC6SrIYgHYYn_8tsaGhS423AaKdZmjKOfLKVd_p7kPzP4Dg",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://arravineyards.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "R44, Klapmuts, Stellenbosch, 7654, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 875 5363",
+    "type": "string"
+  },
+  "name": {
+    "value": "Arra Vineyards",
+    "type": "string"
+  }
+}

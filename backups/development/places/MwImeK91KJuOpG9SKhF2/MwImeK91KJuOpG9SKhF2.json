@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 10:00 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 10:00 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 10:00 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 10:00 AM – 4:30 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.820319,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.574662,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAK8fQ6L__h0AneJZ5Xa7L19fYexklPuixKaoJ7gX-gQe5-TfkPFjfdsoftCTtzBCpurxxksRW6V0VxiejiuJlWRz-KECxoKjkjlKBpldYFWbvUT_1aEEJTyrXaTF-NH2uEhCwJP-y_bDSmQs5Zy4dhI__GhTALjKjSKJrc7THD8eKthhflsGYVA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAmohPoOMhSZz-o_9Xreuj6FaeSOxzrnSmT3tiHhricD2kIoEl2IBRGC0oWxxZJ32_hxwBiSX1YgldGxg1pKa6d4L8cMbYkndxR0rcVauXIuubv83MoXJQRVYr-7jby98lEhBYDy2liPEnYcaCJPy_idV-GhTNFwkpySN__aQMTpW1aqbPChek9Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAQGHEzNF27vzXheWK7vsn2Ywa1beeB2IV3mBcI541yokcOV0W22adu_Q5LmYN-UnWWOoBDayP9Qrn3X_SIvY0r5iZ5fWquwC5l6x0V7nquUWNFWMQMnCPA0GIgffkvHnuEhClGSIo4opJ2qFW5gYyZMRGGhRiGDU5ft30AF4YfKN4t-gcqNM3XA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAALvlst_PlAqH8GV7YXduQDxwHJIlBBpa9oGquKpmLV3Un0gh_-T_DS13au-9GULW87BFHROmcOdMMy2m1bcFqdep2F4kmScntF_OLTt7FO3Erzam7moZeHLnSCsVPd3qEhDSuvNLJugBj-raZA5q-CYZGhRjR8L8v5i0ruezsncl1KWC8tfBaA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAju_81e-p6VpxKWx5tHBZptrHWVSZxGjk_buaOIXK83GT-S4JbFWOCexI2_Dm7zrp0op5JuGKN16oDRnAfc99efxTdTBUsBPDyEJAmwwP8RsZRKjA711q5velngtS4fDvEhD5tMurrRXv-N5KId1xe6ETGhR4K4yMz7qri5R3lpUsvXsEKsOlbA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAADHN0uxXd9tn_Bykokzh-uk2kelcU3DUf4mLYjxBWUbb3uYElEiV_x0jt0fK4I2mOfjCaPL7donofGHB4xPPT9f9Ppb4Fk6OXK6gvJKDvCtT2s32e80iUlwsa0zqOrU7qEhA3v3Ylo-KXGu-tGU71KsKBGhSza0206PqJtUZcQ9ToJgy3tNyMQA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA5gINrh-CIpDlGQBwb_WP6WCobeuDcYpJmtquAOgkuhBwiKs6t27rVYTxvh9fsvv6VetmYJZmL9U_CprTne57rVmcnjyyWDc5aJC2pJOTPbfl7Z4D4e9UIMWKpydz1_bGEhDHyfLOWWQj8akeoHbgrz-lGhQPs4T4NbZQyLuvND4FB-67yAjnyA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAASQSYguoLhtQhBJ_4m8knP5TeMThxTF9kqz1P5PlpE0tSZuNmFHsWoe8sRNzg-j99e1HIu8rYQ103zuHXWiqPp1xCVRP1AWzmJu2bY9w4yVAojOWBTld79XbsXe3oxEbrEhAvJq0eKF9pgzhjJ8nntpLlGhRFX77dm0pe3-N7N4ufdkPw9PI9sg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA7FwesDHbwWU76PWAt3PO9vxB5guh2VnfcQzq4iywEDXJBdMhqr5EoRGtODTwXiSeQ3gGcSt4lCY4I2DpUdjSJtCfK_1LcYNbU4y9Gw8EkZemyS6J7VVlQ1dNErj-hqHAEhDprC_K2Qv4wqDfjppb-DY4GhQe9hrhOL7L8b3VGq0RN3TUYv6pLA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAs4YvARm5Xl8V0R-GcRose_hGreUIy3j7hmlBOvnYClA4KSh6eTRUe3h6J2zL88SFJ6M568MMWXRwH9bDqAJKCeo_716JH_SEiooGvjC0SQnZ9nvS0RQzb5v4LdnzyIdxEhDVj_IohP1uMlP6xx5JMBEUGhQWJy-poJV0m1Beh1-rNGdTYin4ng",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.kleinroosboom.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Tygerberg Valley Rd, Durbanville, Cape Town, 7551, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "060 877 2678",
+    "type": "string"
+  },
+  "name": {
+    "value": "Klein Roosboom Boutique Winery",
+    "type": "string"
+  }
+}

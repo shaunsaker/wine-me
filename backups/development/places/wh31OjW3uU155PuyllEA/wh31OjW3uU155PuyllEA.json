@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 10:30 AM – 3:30 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.920939,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.740125,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAwkiHq6eWNZWthT5K0I3ZF1ig-8WPDetN4IBMJ-BVagua7H2Bcg_ZAVuSVG114vakEOIOaLA7B4pHIiO0dS6IEhBXGDIuLh6VeTWw4-IyvThbqZQxSd2RYAqVgYI7x7rKEhC4oNzjcLEK3RzFgJT0oP9wGhQSvavMhhqDzBUx1Yi1CGS1ffVubQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA65D5WMXF51DPLq7hHTLWK2aGzxng9iGLnyPiSMVcAut5NngYcqK9AqjDony_Xe4sESGVYdumLNb4577fYTDy3jE7-2FSqH7gplopZ04sCTnQJKl44Xu8irDxXzA3H2kzEhDkAqDjM_6vikVeN7FlU0SYGhTAd_oB4VtM7KwwGLbnpN1J1TOcgg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAWJ8Y0_bwx2LtGpr8PC80-8TgAzi75g8gs2AZpfnwHHk1eAH3vwuzcwsqdECxLn_-4-ENi8ry-XVb7Spff5T9_MYFpcdB6YO-lNBElHZTLmbGB6TGnnIiHoWwEbjyJ-FJEhBs8JS_he8uat23nJRNdO7sGhT3GtElLMWjbh1fZKdl1o-dgpBsxg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA9pgB_48Tq_GmyjZiZ25y8Vs0BTr0G3Ak4VWhPth0qhvkV5WdxdMEO3XLDXhFBCmyf5DmWMoJJWLEEimkoZocLUjn9zhwKt30v_qhKygNx9f9XucoYNIg06Mc4NneeDoUEhC-f1DMzaPCYT-O1CpyZfjUGhTaLLwp0gxLVfyX2X6AWVqCzKiVlw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAuSy1r7Z2RDjoFSeSuKsGTa2hPjR8_I3GalNaP3OpXrFZzU-a-YjIqPEimvD6FtRY8qma1tz3Xn22wtLaLrc_hsabniNUsTmpvPugHr0tk8SqklVDbRF6IdlsbIbbioxeEhA6u_eBoB-2NLaZuAsDFv_CGhSJudjvF-YEAt76TKTntKi6c3Hu1w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA0FMVegSZWCOSsgPomy3hIL4AibNX5QCUUW0sQPRjA5X7d4nTZDc8UNnA7DxEp1mQqfLiK7cieXPMhQJfnQl-21Nbaafn1X9KQJEpg7IKfMVchqpHbtR5G2I5zJbAG9UMEhAx4eAnYFNomA6XW7Dv19JPGhRzg0SQYIVco-gJ84pxgPy6TaZBWg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAcIDIgPM_U-k_jp5Z1g23n_h0V0zQVAOOA4EaFKPnYH0J4b4DQGyiTt05bD4vYst21-R3p6UxW0LE5wFY2obM6GRApyqLFoZB6clKANyXCq_RKDk9zJhGEeDsAOfLKtnCEhBykw6Zr6VnOvmLO6BtildvGhShhgi6RHQx9bOZ7it9Lc9ymfSBiw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAX34woUHcAwGuDO0yUsA5wvuVFwSmIOnrE3PkdM2-Fk0e5HoaPYgMbEQU0sfqtrFv2D-A_4oztqA8WpsBvB8u1yfauumFgWZgK2SRHgLRxcVYRwoyFAkW8Ux_MTfPdUFEEhC2-h1_pKbf80rf4C5kTo0AGhQpzMgEt02zjEWgwmNmKIpXUx5g8w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAMnj-lPRIa4EyL5Jmma9p0OuKPI_J_qPTw3melMHvChDucv0SEjMhYPWd9GoevNvlasz3DMiDfBwo2EP3ZGDyKRlwau6vbE3gvDxqs3jvOYJOg5yxTBwbWre9SdZwV48AEhB8T2MI76vreFjVvbbU9mBhGhQrS1oiWO0BQgW5mp8Dq1s68Y2AUQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAjffFgysHryaMq1aduAKUPuyMr6FMLYvlv9dz7qrRaGizjBCPwfxPj3uNQerrxBS0RhYiQLo8SdPJM68mK-8UyTmD2AoPWhSkg_XmLQQavLO-6gNfqp-kW_OH-lyMjR7-EhByEK6GH0ZAmNIkc03u5kgjGhQDXhHjLag4PZOWOr4k4eNG5b2fjQ",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.mooiplaas.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Bottelary road, M23, Koelenhof, Stellenbosch, 7605, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 200 7493",
+    "type": "string"
+  },
+  "name": {
+    "value": "Mooiplaas Wine Estate and Private Nature Reserve",
+    "type": "string"
+  }
+}

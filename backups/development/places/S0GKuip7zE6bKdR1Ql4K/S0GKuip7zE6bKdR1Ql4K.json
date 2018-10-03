@@ -1,0 +1,109 @@
+{
+  "name": {
+    "value": "Linton Park Wines",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 9:00 AM – 1:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 19.033679,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.612622,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAmS1_K8gSE9A_5hT1yKOE5DkJ1f8eotwzj1aFV-UUDhxCrvxMUcycdAn9o7ujXaJAwF26wPEy7K-WB1xg47TzCvVO6smhm0N1XAxUSUAxCLFvmsILTU5bzoYpXRLsD4pHEhDZ6uxkEXS08oXe1nJ1Oj7EGhRkL_EVtaIINS6zHWKCdZjQJ0bu6g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAPOjAnQWRdcUqauRyGej0pu9zEk141OXnEEUJMSecHo1XgB9ChgXgBQKSM9TCEBqSfWSocCwpTevn9-Cs5YrbBq0jd8CiJqJjRoj6yL2iBrJYSMmADNm2c_UzIGKHyi9hEhCYoPFSt2M4irXnp96Wr9x1GhQILoCaRXz_wDST8MEWQJ1C5Jv7iA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA_HMiVT_TTHWf66LdlF8eHh1JPVnK11VrRexzsMO9Q9NZrXNI2v9FUfzaJ2luP2boiVfglagtQMzcJuVMIbI8OAevwTQpJ258r9FoG58E6kcTV2EaokedGkFnL03ocWmnEhAT51elj45cZtA94EymYEQjGhSfGcQvVMvpzWrKySXjEXPoksBcgw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAwT2ZdCm1d8z7AnFhaaI-vl7Fl3gWh5WZuIVau4HP4xATlbHlsS_jRR727IYc6Dq5K8ttOW5yuSUbtM5Pt7cGP7Dv0tRhi6ecLuLV6a7cdc85_ao5UtR8p67dIP_9JkJnEhBrB9WDZBmlw4NjSOE9WTDUGhRgV4kcMA2-QkHQFGtpLI3C0iZobg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAHIv2mNk5g8Aam6qeP0K7n28DAAijbYhF5vJWB3VtX9THJ31VCc6yOeJ8tFNHZ_RBkG-S5HBzjsjz-EL6kYfOL3dByTOxEew46EcUS3qTtKAusQ3rPDhNUYTs35lOaiUXEhAcE9_vZ2I1NyF-D2Z-ri28GhT7cATpzAsY3aFjkmiZhI4r-zI32Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAFeIY9qLtkbZVzaeYEoOXZHjedTpaNKiviYFM4LJ69UsJzZ9yrdLpnAoEf6xpX9nkMlDSnJTXfUNMWlA6uotbYvQPRnWDJfYD-6tbLamO34-3DC1N_BMkETiOn96jdebhEhBXHEyWcb4XAktC8GnbecW0GhTOluwb20DTl3WcL_g_p2A4u24bGQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAXxrWOH66Xp0nMG1046RdjPDUiJBbBCisuNGLMxOkUbZF7oGtmCNWh5nIDSNNHYkNCL2-BYLaO9vW-md37IeNoEpmHq_WTD1X4YYFMCWnPPEhi0Yl8NP-bNS_LDNIEeRWEhDsSlAWMxZ1Hvhe8uZAsk9bGhSLtnZKb5X54RBQW063DV4SXtghGQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAdcY3ylQQd2qjBMqa49udXhUdmTJgxXb6E7LOKIG0IKbSA2EFt21Y39Y49irsjPXkKhoyi25HxEYr0zVhnoxjqqULx2TrF2ClxBqEdwsaBcaVOq0I94j5129DpV5ILMOhEhDtk1MolApkSyIGGqa0vYPuGhSBrjISsppQzexBQv-nCxwdokj3gA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAxxZXz7P1L0Q6ezDLk3BUpolmGdBIh0n5r_EUiD3VCiUQSCx9cmzxhWJ0TMbVAKQSdwTLKrUseMNMESFgw56YL_wuvUofYfuiWAXyrxyS5F0OA6eEe7R4pVKCB1EOsVFcEhAo3eFxuKIF65EjCG5vw-C9GhTlm3aCyggH3XcSoW7YhqALi6Xgwg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAZXNBVd4NOxKwt-00FPUfXt5FcduupWul7SAwgdqObx33qhvuBKcGq5UYh7DLRRHdyXnJrlVB5JvT9OhbwfaI_JFu4G7t5NkkRJuGHjjuvZmuTUq6xiMVIV4p5SJW1WndEhAfKOcRhfYGn9Ytr75NFuGgGhTFL120l4nfGRXYpvlaCk7cldvqoA",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.lintonparkwines.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "P0 Box 1234, Slangrivier Farm, Groenburg, Wellington, 7654, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 873 1625",
+    "type": "string"
+  }
+}

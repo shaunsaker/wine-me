@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 12:00 – 3:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 12:00 – 3:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 12:00 – 3:30 PM, 6:30 – 10:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 12:00 – 3:30 PM, 6:30 – 10:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 12:00 – 3:30 PM, 6:30 – 10:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 12:00 – 3:30 PM, 6:30 – 10:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 10:30 AM – 5:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -34.01076450000001,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.8422776,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAvF9eMw7axN1Q7jI4RLcXpp_FR9I29Tgw1L-1t7mlZAQJn9uAfsst2McLIi7-3O_WtXC7wVQ55uvqZdPffkYkgzzrQR07u8nQbBhm5OkYHJzdY_0UrAnnXhlSj24O1v6zEhD7UZmiblz0qi8KGyFPDZ6EGhTEF6-JXfYgAcFZ8s-aFIes5uO1GA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAApNUAT5al_B2hLwaPABhh6tTO8o3BL85TXiBc9Wx0U5GlcNnd13436WsAfy_ZKQVKmHfan9vVyQWcINSMqwWuaUEha9wMt2SbFEbltuyEUbmhuJ6_PIyaF3dgIsZ7PoSYEhBMH0k8KUTpNn0UCsILFXZyGhT6g7scFWvsH_T31YJX-tIthKroUQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAd1BBIzb6CmBJKgyXhbfy6qDnZizD7rCnfAgs5vTEITeG3oFQ_nzFA9wjQwm2l-m2lwgU9T6LzsfxXtWeypTIh1J8zcAyHf61SAS9ST4wOGCOne5SgQHiJ7Srim39kCZtEhBbXMjh9d8Jk6G9qKFwr0RdGhTFh3Rfzwg2b76L4MaYJB16H1_P3Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA7hwZlKM151eICKTsn4rNFbIrB26YzlyNOmXBovzZjQ_NybTMSuM0jFM4NIWlb5NEGLi3EjKKIXk-Ln4I2AWKB62GHknYo7q56dbUQA2rSC-EBEEPw0z8w7kzDWqEx_0cEhDwQfMqR4s0L8RcTCZPVn5EGhTJYDVq0hfbuCu67ZmyzDBlFLpjbQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRZAAAAWCzC4HNuwZQv0gYvJt04HRyJOdA9BGANScMLkXGSaj7Haa714S6tdUQPF7mziJb48nySLIBv4ZbsSey1zvgzHirs1ZddI1A-Js9ZsLEsNoHBOTS0TCYvHTYlBfbnjyvJEhDEueEUStA6CrdL3uKwq91dGhTWn7DyOE3F52MJ4hcKWDCLMLfLkw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAGHYBym3ZWORKn-ymN_a7F3-cR44TYL11JQQQDwifiGMIuFd9ejpuKuj_wsAqs2FLBCKPscB-rnjlz2GlzfN4RSZ7_3QjHc1p_VSMsX_v5UV_HYUOhXvB_R7KB4kBRRvtEhAal_RhSpSCerUl0mt9ixKQGhTK01NW6rPt2RnAS5ZHnguMokcN-g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAAEAyl8-fY5fpF0x82c3vI-P47csNfBXM7v-_avj6Fb-ISQh04QCu4GOEpkm-bfdovpEfKTxfBPcWdhRE5egR4KISrLliIlZsADyR6bxJNj-f_8NWOYkfmlLHISFT-ghWEhABNOWBbpAsG-GAfMq1QMMVGhRoOTuNW8ygczOlz6g2nW69JYpK-Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAddK-hkQhr_0Bs4eDEJZ6KTzXq4ZrxU_RSWCI9wkdzBA4mnxjiswYHzlYJD51XG5zGOka4V_gFW21eGVpUBJRlAw93qupmf6wtV3VF1_xM_So9Zp9TueaecIk17l0JbQoEhAxkJbNzMdPfikPK9j3sjXrGhTLHFusleVe5xAFD3ry0mkXqJhlkA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAdU84zjzuamV4gJ_44bjCiOclL2rHmWczhiKdZQ6suVpeEghjwkkJ9x8pq2VKBG_0Stw7bKEli9vyfVx_Im5RwC4ITKTSvdnbBgJiC2yOZwf6n9w-dakKE1v2WoxCEhJYEhCVmdZP7pW2AycT08i0ECTLGhRmSBHJzCYfewzpRyxOXIMi-RTBnQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAB3PjBNsctMVypvNTT6wsrzQX27fI3CpyaIW45WkCAvIOC0VClq4auJAWm3xqWiIhKVOwN5Y-4rHyw_r3GnzpBd0k4SHhAONEoJoZ6grQF_hhTx2F5XKotoGpCEdD9aXOEhCLN6ap7eG6ZxmnjB1QWcKZGhR4hS-rGDwVOu5LAlhtoIGGDf2-ZQ",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.guardianpeak.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Annandale Rd, Stellenbosch NU, Stellenbosch, 7600, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 881 3899",
+    "type": "string"
+  },
+  "name": {
+    "value": "Guardian Peak Winery & Grill",
+    "type": "string"
+  }
+}

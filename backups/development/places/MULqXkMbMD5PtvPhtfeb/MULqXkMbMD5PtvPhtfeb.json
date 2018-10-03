@@ -1,0 +1,118 @@
+{
+  "name": {
+    "value": "Durbanville Hills Winery",
+    "type": "string"
+  },
+  "checkIns": {
+    "value": {
+      "-L9AdwPrkI-KZS2O4HTk": {
+        "value": "f5bf76c7-f1f4-4476-a2a5-43b998b1268e",
+        "type": "string"
+      }
+    },
+    "type": "object"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 10:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 10:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 10:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 10:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 10:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 3:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 11:00 AM – 3:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.8249445,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.5660177,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAApRxxVeXzilkZKIgi8ZvcvDhasqMemja9xhByZ3eGYiWfiNEYsfIoW8WMns7OXdw71HW4_3QWMHQCz6EGCwNBbLgWF8LPqzH1oN5Nbgc_1UHWZa2JPFLbOHJfYj03ebw_EhAkAPUxrOn58MCoA_WLb2j_GhSxQPn51sk0Y0isjXSfYl4vPf-eQA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAnRMx3cNxfydc9hXcaitqMnYkQqe0d0w4-8K-OoKFSM178fs9iWuvQ8e4WAi5-KEMwVLpxHwBMtDG1-Z3T94dax8bSbqqhikBsze70H_t4zU8J6b9TUqwWl__hTKbfSpbEhCuLNcFDc6KKIcqk3h1v1XTGhSnhg7lXntfLJF5jprUMTsEgQMXVQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAumdr1OSG32ogtG4YS6Oh0O0J0RMskDOpnc-stjsbOf-_W0b7QPYkKm0604SVq3wCfOYizRHeuW4qL_xR5R9DJ11WEbkG2Emjwb7O5bzLxDoUs3rDKdvR-3YkvBTGCCZREhCwf324FUwJiClIljDzkIhwGhTpGX9zauX3tFLuuuPj4nVP9oYdgQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAJ9Lnne_IiWM-0gJfzV5RA53qi0zS6okAGvmVgNYann3pA7BWkREyS0bsDbQyjAh_SRAJhdqvcTsiYavPQ2_1iL5J654UrKvlBd5OqsqNawECNBxhctVw0f18aMqXdPaGEhAjQUgnqH_XYPUC9P0HDF30GhRqxg4sBdi-uH9hF6Q6YBjImFtAuw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAGhKBpmH6h6eAFN3htfKCTY0ktqBZvlNiF0bFmQVHFWO7l3hs_jgknsz1SMSXI7o_LmmmlSoG_E9RcujL_hh6r8lGMrZi84jIryPTrH_fnNUxAHEZqQZhvDaXMi8FQ-X9EhCt8xNwAU1AeGGiNLyug2eaGhTyC2F_YvpFkhF_R-1n-U2plRpROQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAPQSROkI7Ifcz4am1tEIHuAWIhubSyP1rHeJ1VjOSaljKqDjETAYQkzM-x6Mpgum2tqCiRDNPim6gBNq5ZRZywmc1d00_wSGmhf2qnaKad3UgKMniSs4MsArgQWXN5adGEhAXFCR9YTgDyIIFHMLv8FhOGhQePzS_dCkmFcIO8I8GEWb73EMEjQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAALX-UPguJY25reG1r-FRTlOrXeYrH_dQReaW9FKn507_NzS8XmzQLoMvKO_E2-mJNJteGbr1qygWB8SJBoYb7mvkt5HYFOR2PTpyBuY6SUUtgc8RxsZ6prLVvqQJwtk21EhB8hNpNIEDGR5jACPnzU1WMGhTSZqq5s12X3w9IsiLDYiILL-BlOQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAMSKxvVOssPx4Q80IImeRzR5zunulNdpIIo1o5v7eOxbXKq4CGqbg5IQRH7_eO9dkKY4tr1MTHz0597TrPFSfvmaMTB8_2w0WEILTbkF05TGZGlz9lh5Oby845ZpaVtkkEhCURcqAyQ4-570ux9J7jKbgGhQ5wn0pVs0NEB9FfhQG-CO7aPg17Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAls0pRKEBO5rQeJrhy9745Cm0gjH56XV7NjHf9HSPl9KZXjdmp3wNh5B0nIXP826tBiqGE-XSa63wmJhKa-5cSiNn3hxyHn7LqEeZ3ZLfPdKqcDEReQdp8VRwOsk8gRTPEhA9h9cv2OyLcVqnir7c7ZZTGhRHD4tHzuOe-vVJUzCLkmiGV3CmLg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA1WBJtGPh9Fuk0tHGilKmGdqMc9A1g95qKOgjxakFiCCSq0Y-cW5rRRglS936eZ86Ajktje8ly3sJLYJVsfTFaEzeAv9vAPzbRwvyapO-fKI2lQyex5bVDoIOojY0_PckEhAp3hD18OmkSEfXQdxpl2ifGhSGBYeLDreN_GkR817CbPxukJxZEQ",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.durbanvillehills.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Tygerberg Valley Rd, Cape Farms, Cape Town, 7550, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 558 1300",
+    "type": "string"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "website": {
+    "value": "http://www.dewaal.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Stellenboschkloof Road, Vlottenburg, Stellenbosch, 7604, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 881 3711",
+    "type": "string"
+  },
+  "name": {
+    "value": "De Waal Wines",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 10:00 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 10:00 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 10:00 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 10:00 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 10:00 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.941419,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.766161,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAOJAfGvuwNdEFwlnBKiQXfmSIy95vQ2EkVzCcwWnTKTIGXkvTjRv3bRgzweokFJBhY7bSVQRnOkmFheBHsYlkoevjyrca97QQP-tp5BiWo_9dHfVL67sRNs1FfJOdoO5lEhCYxun0Jo71iHj3Hi349pCWGhQUiSZxlXKGKC7wMEV5K8vOgnM3xQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAANxpH3yNM2haRUcCNuACe6gl3ladIVAloGnImsAIveJAKyq-9weDi0_1miQM3cF33xew1HNyTAempKVCEfXOtho4oWNIgVo1WJH6fvg3CXVVBR-La8XEknF7Q0DR7FikPEhBCQvGA4hGdYOgXkCQbRA4vGhSV-mQkoFcHCuP2fzB_9vRLjLs_0Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAArmzT9aQkY4i8y8Sk1Vmy4n4rYzfFht6Amw-TCIyf52QOQ2vG5UGHQVsuE2TV0Xhhx1SKThPyCmL982bmESNE8HyHSm4QUJ91ou1Cf-DrExHsvktOnuLd40YecMTHvk5rEhCIXFgIKypbKydOkEsvg0laGhQdZ2EIgYjkcVVrhJqBrGSKatr1yg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAeW4Mda1MmDlmYzyvQS8-L5fmnccr_yWHBlGPvntB8He9wlTf3OX_E6A8-_t6SGEXDDbHHVYFv3CQSGyn26XOhvY5DNUxZf3eQLicu8eDXxb6cSftTw77v7MASeB-gltuEhDR904Yy8CluID6PuthXZnFGhRLgsIakxe_6howxgyZNNjtoCG4mg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA1O27d_-12jmg5Hfgwh2mhVCs6dINo9MACGAPkPqUy_W5yg9PRSQNiAJhyljSNrWQ0lYCOBWoLS5D3hH50PQD9LbDGTmEh7wlp2iop68qGMz2dfZc72dQbw0s90zKkgvaEhDXWcKwh5KLjWtY_I3Fpl-_GhTNVVvxFPfpUzEDNcj-MogqZyW1ow",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAASrCoTWDzuMwfF2DQEHjbAYlcMzlWDBH7BHs27WdTycHIoyGpaFqt5570Kg0poWBPmp6XqtNnhPZ8sHu86MXERMxbqu-jC_pUS01Bz-PtVPR-HOOPAafCEGl_55Vt7HF3EhAR5OztacmSJwBjWdeHyNG_GhRvbzjkvcglUmNO7-TKdc1PvOK9Cw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAxun65Ijv9DfOHJ-IQp7l_H0fEVUHQ3y6299GN6o3PZTOx472Bcz_jO-a_qoJjxV90VyD1O4J1VavJdJfPiB0_fKCT4UQBZJDzzWz8i6vAAF-PwF1IUKRwa9mPsgEKNdZEhAeoJxyLstoUlqJ7BfpIEzQGhQu6yO-bG1Lmc5uV9gr-TA3j4anYA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAjcE_BBKVm1KfGHgTm_xYdKsfZS0oq7ExCNBz5W5293mrInB_UWITFrEzjahBI86m0JDUAzpeHYhivoega8J6urnaGJFRSe0YtFheMkcTBgUyeGIhmaIdNKNdykmE5ty_EhDy43VzvMORExjFc1H-ciF4GhQeB9RqPGnlhEZlRJSVIceyjfJX_w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAABIWa_lST3Y3Oj3ht6oxw3--TMHg3ct4LHKOo6Xta07vynGjcfPGz8z4hRYgPPP1BIED-OTWeUm--Nd4gyHNyahKb7o5dEX--2qrO8AZR2rrzffn2aXq7mq5-TVFdXZISEhA4jo5GvZ6RKdlWLd569g8rGhRn0nxP473GX8beb2V6LyychWCkSg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAGiEyZbXOfrVJ1dsFQVkRcjGi6BvfaoUvc4qIZPO1JEDcJNR8Vx9eFQDCKx9QY0tqLoZTLo-RXUtBodJDBThSChCECcKlDR6PDMriNK50ltpvpYnTNBBTrotxyt3sbggWEhAxC1QAk3QCAIxglODqticJGhSBmet3tQtNjEcjcrgv8MQCeQ_z4g",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

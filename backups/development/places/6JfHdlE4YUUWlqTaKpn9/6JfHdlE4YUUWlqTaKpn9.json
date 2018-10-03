@@ -1,0 +1,109 @@
+{
+  "name": {
+    "value": "The Restaurant at Newton Johnson",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 11:00 AM – 3:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 11:00 AM – 3:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 11:00 AM – 3:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 3:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 11:00 AM – 3:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -34.3691832,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.2592153,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAwAznptZXrK2AHPgw_yE7qfxd8ZuSVz5JTfBP5oNUAO3cO6YeYyoGSOVu9myfWVFHn6dAS20uBjqvnYIRpxeq99TrMQTbiucXaTwcBk9McbkIgIcdWPXubQVkaTl3XA4REhBzlcNFMgkGg3OehYpB_T4RGhRWx25lw4go7WKqEUJ_WSuRl0yVnA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAEA5rT6VdTh4-75kWa1bOI4dVrTPPnWridVNsKInq0eJDksyhDpBT0oLeEWmM_nBew99MmcW276lq4LDeQlkqLjkL5mt9OEPfoqRZA3sAdgy3Rsbs1Uu6eQDL4Kb1L9V1EhAkEL4Jv5vd5nhj3L6LpU18GhS4B2i-EphJGNb1UXiyNruMKfsANw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAeXDwttVMMyW7PUVqUTrBL_8VgB753GNQM7PQJ5yVH8A4QsHTKotF6vRPgDJQqJblLi2ga2K_R5GGdm8crt1lmK37SwLcy6C5-n9vlbFP1JUdwpv4Lqql3mgbbbeHp09ZEhBuImXpVMo17mcSYpRalw2tGhQD5ekD6DTBd81IoDpItAtOD4Uyrg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA-lttJlV_QshtRdie1vxULsVZilnolhtMeqZH7pUkGSXQLxLalPeu7EYG7KFVYzlyyRAXrdfvnlkQOuA1ZOjr6umVapSX2Blhkp9OqCWH2sFycoFVkXygQ_gospy7KapUEhDXmHQtLyRyDWNfKcmVj2sGGhRJ82JsAMuuhpLlJl3fq-NeXm70yA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA4JXaseH5HVh7VsHPbGTJuj28eiCfI36SeasjHFigP44vN-mS4C-cK6-22tJ_eGdT9EJdd-yYDZWo38uTN7kDWPLWHntcpcdpUc_KP9UMibWG_fGVfxPS6Lit7YVQaC-XEhDqKvu4B_Z0-Rv4ztJNRmB9GhTtH5xI13ROWnn3WLyS132uSHJM-A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAARii39h0WdSCo37Qee6c2wjkVJa14xugE7A9Hd6LhKORSRqZ7_INwCgC_naxmC2VrFoDTMIzaatpmvA3tuYzU0SEGRSh-k3Q-JC2i6QCx0jqpA4UzK2_mR_fJKBKGizA3EhDWnXv4neJhi4UIkvaGz6BPGhTRzDTvOFunYGZVXP9hQmgS8qR-Xg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAf8Ng9t49hmLzbCbyv_zB2erUD4HBOxuZaif3BzqGM_ZiFIXHkBt5xzBrppA-FxGQLNk9-_UVbVoudnlSzJmP7kyX8zUhTN2O7VMA-sJ3TJKmvOulm_BuRdKHgL4Q1kuTEhCJB2nG84i7JXuEDXvloZUUGhSC7hKUn5B9lh811zNz8Dra3wKkaw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAIfaBRshGfsj6OVRF9BMNNAT42lwHZYO3VAalNNnoo16aonObyENMARJDNqil6KK7u5T3rH0CrVTD8mfkQxt_2c_208B-PXvtp449kjCCs2S0tzO_0l3QcVwwMD6Cwm_xEhCOiw5mg24NkOlzA1DKuqjbGhSfPggYKTKTKXq4tFJSCE_qDkXguQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA4MLqir5AS5-eiIyMJSwJ_sxcACl81w1LdEYWEn_vCzgMDcz-T74hFugUm5xnR0OghepHd7uD82lXMYyiC0W5VEXa_uDZN0NaHQ51Ju7dpwshS9RJkyvIQqlnsaJZ6r2vEhB-BdXULTPVAv96DUarTniAGhSeP9FuKhS_w2XboTmoaKAg_I6Z3Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAb6Fd43RimGESXENOD0TvANOYL9EDPAc0VEDLhHs7khZduBLWxuqm1mRxYuBy2AZrp1NCJw0aJCtNKhMv2MHpxmOouFIEwGr_Cs54OFV3x5jyGzTHUMqfwqTxKEizaxV9EhAbdZuN-SeD2MKq6YZrntc9GhS8QLsu2OxSLg_ZalKbJINiDnVwBQ",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.newtonjohnson.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "R320, Hemel-en-Aarde valley, Hermanus, 7200, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 200 2148",
+    "type": "string"
+  }
+}

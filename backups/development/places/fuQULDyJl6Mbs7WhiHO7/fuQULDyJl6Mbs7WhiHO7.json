@@ -1,0 +1,109 @@
+{
+  "website": {
+    "value": "http://www.spier.co.za/visit/wine-tasting",
+    "type": "string"
+  },
+  "address": {
+    "value": "Spier Wine Farm,, R310, Stellenbosch, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 809 1143",
+    "type": "string"
+  },
+  "name": {
+    "value": "Spier Wine Tasting Centre",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 9:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 11:00 AM – 6:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 18.7847029,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.9728893,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAnWw5i2rlmyvMx7F477ZG7Wq9DqmXYvFSY0KPtsoT7zwzUriHIp3qxjCgY8JPEdMaAqJ9MTmZ32eXLxQAkT5VzPwLzH8Cfdpt5TuCp0c4uRioguqgsNk8uKtm9eCCJSWYEhDCFkgBM5SyCjLvm69R4hpfGhRfJdM65vgXBcROVilm2z5ktTv9KA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAtfEtdJuNUKGuodKgrz7PLRpsYBzKV8PjMlrha0QizojEPayx8jLxiPURSwIvnNraR5qNEFWCISTmBluJSTctJKO8OKG0N5NuOhJHqFLy2iFuCcsCeYHonxrLqHUYTBSrEhCya591mAKYQ40aqEf0VZa4GhSrd3YkfdA7lCvC5Bj9zv5Nn5cg7g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA5B0-IjWnFDXt4RhEDZQp0LptFdThdk87qml2tnWifB5tBkytiaiiJnlUs1kdT6k2lTzIVpnZvRGSnqjmGSZPUCOWu5YzuIE-k_NiMNAf5RjJGW0T4Qq0ULrNqMslloh5EhDGBzLFTq6MlNtdG7UQ6ZTnGhQByPgyIPN_wCTK5DzW5LBq32Q0lw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAZkph3F7gdHO60UOXeDXPsDJm_1HyIPPDuDQuAtNKN3LT89PSVmFH7AitPh_8vGTE1h8Jgjk92-fAIZ1uGNtRKBzJoXUDuOGL2zeTQsgL2tmTq5D7nowV3weSRakoLu9UEhBifhIcQpi8qAmDMqDJGkI6GhR2sljS2mXYCf5Vewo-JUndr_MFYw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA8ofJ1sjmKQQmYgxpbSdWsRKbSK_HKCvrrO6RNuvY10SI4X5Yy1ZjELMGz6j8Sdgq5Xrh94td9BcYrBNEgNLKVPg0ioBfgjzN1cm33DFyzD1MbTt3voBQ3YFUO97xcZS0EhBvoQlGYbVj6XIAPSBRLrTSGhT3NxNnP0MdLtZEd4t5KvnAXmHlkA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAYpyaA2OKUHBhtGjXEoqISWO8jEUl6QyiiiumN3s33txAch07jHvz_X06t6uC3GmoqOyj-1vA0bXiKwqq24hu2EC8gDwBIWZ4LAzbZieJCLLrz0cXSMxWUmCFQuTIFf66EhBwGePVQLtXC6xfIomDXR2rGhRl9R1mKaZsho2e26TYzRsQatKJIA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAsqEZ1ltp2AAWP1GCp8e1-BFXjZjjvtzGzI_skAwy5Hzq0v_zNKGJwqROeQDHQkaqiCjwc12GHalEyU1fgOVM9PTsgm7X-ix8MnQ3H3ySlYsTTLlDRlxpI5_6Fde0d4_DEhCcz3o0arUTAFRyY-BPNv-IGhRMkay5hkuuU6aaZKLCM6KScieHmg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAKxCj53XI2cGDSnQSI6RqANoinoQUoxWHUK-hH03lyYo6R3MFelBWbFbVZgxOgk2Ws4uO7IfWhx9v-KNK1hjAQBB7sqmavCeBT2LJhluRWMxu4kfyKzZYu89ZGghBAEKzEhBKCLzUzO1f7QX1q5PXITkgGhStI-Nd2OoZdzed-ilVfqZASFhVlw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAeu5wZMy0tdX6ms9_uNw5yrYNKL14S04kc-MJfTKBwtV5DDrcAkSc4JLb9E38_qBQDNpygQGZ68JRgRWU3CkTFBGRkKcPt8K8s-Cm6Wm469iSdNbgvsPrUPbTv_hoz1q9EhDvIoyWHO3up8q_cPjDkK3qGhSpm5G4ZQobUv2pFa2jfT5pJFg9Gw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA3GiBYzk2f3C2XFnfjLYUujJ0kzC9wD9ZPMVvBkhHkbM4X6yVGjlM7Y2SCN136zwZZI0t5mKKrdUqshKdaePbsNQVUUL901DKUsSojzcCmGVSUd3fAQOIW9onMvAbB9RmEhBfN1MEC3mfyAOL3QFfGM0zGhT12YliZ9ApIR_P0Dl5LJ7z0XdaqA",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

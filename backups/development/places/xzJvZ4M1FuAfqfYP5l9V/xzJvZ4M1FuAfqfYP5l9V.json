@@ -1,0 +1,109 @@
+{
+  "website": {
+    "value": "http://www.webersburg.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Webersburg Farm, Annandale Rd, Stellenbosch, 7600, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 881 3636",
+    "type": "string"
+  },
+  "name": {
+    "value": "Webersburg",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 10:00 AM – 5:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -34.0057747,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.8430415,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAA17AtvTolPZxXgAnIUoP1_wHPRDMpfpZNJ2T-qO-3QOWlXhHywaOntdgvJKmZY-SsGA2QDhk7RtC3JgN0_Gw9waHIpM9z1jv13oRDxNOnuEzV5gzC_7L6IINEQbJbU1tDEhAThDCtsoSMjUd0v6F6VXlwGhQyxLfwjvkMbuCqocsIiNHzxLz63Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAOtAdXynK2W7zHoNndYm_JXokLDIOIcdorDsp32-7nXeDoL5OIRgvADhBQ0bTdAtl2pXobH7pQFMC-clnVLD7dOwAn67XeKW4810KSL22wpVFvM5XJaTjkuAsakDo0Ff8EhCGoFSBiQLFDzyirNbA8AO7GhRlegZPkWEKANdkkvYsH-2nc-P22w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAYX_PsjTJrRLZ-NWbkoSolr6lfkjIsZRcDeCOjbB4hBzyxucUC2YK2njXdua72NIJpdcwMgYJoXdaJSPranEjvfnxFHYkROPura6yGPEbKy0R9nIvuOD046mHm-3-_txcEhB9pp1sSeYI_IMe157QiHRaGhRU0c1H1rbFpt7niwzocFfNoFdH2w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA_tlS44QZTytPKIK-omRqnO6B2yk0TYjhy4mFcwZV-WDVroB9cwTlP0xrzPDTdY9HWkb1NbrQLCe_bJMdXNq_8j1yC0qiEKAo3LfFUo3NK8HxUKSfUl8hB_h-XxkW3Z8pEhC9fx1xrcYxhlVPaWIKdU_5GhQWhKk4Juq2andefUMzKX2W6uktcA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA_xNui4GJ8am7Wssaf-dOomU-iDcYEutCkd8JqSnMOt7pH85NcDyONyhmJgDO_vPqBUjCMUcUEnEc76Nr38d2RKycXLRuP9Ny28cVoF8yND19SDKxEgZzUR1q7U65UUMwEhDleJlRwO_j3WzWO29eXqJFGhT_ugCvVgG0zm6plge1ZEXvGx1t6A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAJdO_hcQj7liVX4jywwmZy530nOGjuRKxsQWWku4Ndrh8kAYuhMllGfsEwoT6NoBod4wpsuVEepEtOCzPWL0Nvi_vQlXggsICtfnLV-oVkAsFpm_n_AUXR6a5yZq6eY9TEhAk5pqAooLR_IZdX7L7t5tyGhQXfJ-87lFZXUStthdwOE5y6ZwVpg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAnvMEwNKPasz4sRGRu7afBj_PO-WGg-NnDCdPl5dgA_4K10uONWZyx_cUORNlAwTVXJ9ZScMeVUhqY9F2hjbdU6eZT89JNqf0KpjwBgIdXsNDLRCcLEBjFNZwg8Ir2dMHEhAYPXw0RimQw78TB2CYr3jBGhSwGC8d4beDo_403UbZkCY-XR2GTg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAABMLXusnGXj46OWK81qflsurZAGx9nXw8gFvxTPWghbOjW7MHnYtsjqXOWI5GhjUwtmUKboRFQ9v6Waa-Gn5Wkg4lt-pFEOOEhY8732iH0deOg5KRTUrMkJSaMi2x1xlhEhAvXjYZL9nOruWVuq1D7swAGhRy1ycFTuEcZTWwDLUmFnKeocnrHw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAL3ho71l-Jao-FS-A_N3PFm6JUi4HmOVAeG8w7eSSAFgPSf_eQI3uztGpiQ9mA59EJMIh9qu-S7Tj_1O7RGJIdh1gSBiIpnG2wU3buWcditOF_Q41xczZ64VNGqzWhvTvEhAvpqEoBRRHucGmgRsMcrRCGhS2lFMDnC42Dyvjm5CtqWCMFygXLQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAFhWsPyNa16ljDG5cl2rEH9XVUPTSjiR1xTMXuOc4WsxYw_0PIlCvH9iZhFEMrKOEaiZwjP9kIay28HdXArNZYbNmqitjmtGVVCKXQ8U3hh3urkgKtIasja2LvtY260LREhA0js9_b2-m_BnLxkLHptWQGhTOfl3Y3zT9ynoKzH3qy42tsB30OQ",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

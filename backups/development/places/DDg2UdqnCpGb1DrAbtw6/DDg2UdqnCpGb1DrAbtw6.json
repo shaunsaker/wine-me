@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 11:00 AM – 4:45 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 11:00 AM – 4:45 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 11:00 AM – 4:45 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 11:00 AM – 4:45 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 11:00 AM – 4:45 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.939835,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.105986,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAJl0G1s9O2jEmCzmlZrlV4Uy8cUE8vwuNTW6XTSrYUcFGAklNgBMxV6lUrgQM006aOScAYnhgVWgKMCqt-wtusmzGa8TxTZR1vlpdpstipO2N3c-N7QMx3o4PHPyaFEVIEhASXFI4jKnkCHc_GaVqJindGhSyeszMoJ0dnpKaGqn5JgqJeEuLEw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAD1DUu9H3ntxctVgsp4mZ9-mvm1PuzuBJGhYUZUJSsHC0OgXP48do4azjTFg6lCIL9YM1-o-aXZrqAIiaeSMEZn5HAzfuxQDko9a1scFsq7u6UzdxzG06aDGWZOzdF7RvEhAg4a9ogHz00groK7BIXYZmGhQZU7ohfiHCuBavzBwlM2881-HyGA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA5ttmPq0Xnp2It54bH5M0OQyOdgTi-9atFAWVmB9Ps6edYqeKNXoZ95qb60kRsWdnPbVgGtHr4pegbTIdSPlBbwgwNSOA88mndOWIqX4tDxmnvDswp3VEZ84zQOlMwNRsEhDv-jiICz0HIczGY469zHZzGhS8U4_RS-2bGHY5GrJtaLZZPyqlEA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA-JS13x6WSWJgxlCF7jKnNm1tnaLiqjRNYoGAcvHwI7CBrQPqJl0E-yPHnDMH1EyzoSPRMGWMoALRg5um5XdO3cAPWAgwuKDEqw9Qcn9PbIv4UsuVQiG0ma8bk-QBhg4eEhA461nFN8FeUg54ukXncn80GhTra9_exnmMF4COIn13z0VCuJXbpA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA6xovrifthlrS2jtOK9HC-_pWVWs8uX0wQ-cw6SBxs26blgq9dYo36vYn9OThfnFbsa6RvQ99c6hSnPDAQw2lyRUeAinBT979zq_OAgMMVGVI01Nr3i9rgr0QVUI6-mQVEhBTokQ-ri6-uGqTBTybMHkXGhT66EZnRa6GLm8AQvhEajFMLj3bSw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAxHUZC8UVBFm2Sv6twX966YvLe7rFkfd86mtWW8F7V9eABB9MqEl_-87Hc-JpE5qWvIlV_luAN9XKQjsdYaMbjtpjVSk4eLfsCqtXa0YjKnYATM1R07xGGj7HHDjs_3w6EhA8Y0-Y9hMzUDWccZKPhNrNGhTJw5PoHp_lvMfI42I7wZjFuE2x6A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAArRf04NO3tDRyynXe4ZqxkWBTb6YT5Fz7ircXqJ3HK8AKeNVxvpIMps8dBJVYA7YvQURIxAtiIDoQpyCmaOTPEZpua2uMZqPU327eYZFVwEiBmVfBNZ5g5O46BK4aNDkPEhD4rz9KtqQIR_QiQcZLsrmlGhQI_uS-IXPEnH1UWJfo7Cdq3IOUyg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAtLUI62538DKNDzBa_9wiD6cYlPMyZFKT5H3V3OtYMH9_633CGXt7ap9FSPszCth1-94qGJ_XqKcLI7xuUNvrn9mchuBcsko-2Pke6dxNb4B-FfEbXeUWkSqj-r-Ip41FEhDVQsU6lrD00dvARXay1OR3GhQBYhckFtDOKE6oqL3iWZCJTUNWyg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAnEF_O03zMyArJJGuNrGvJrPwIfCx7iZ8uMvX9_fas4i3j_wvui-Jrf-pKW7d9ud-cuHqgBZYxBDPJoCoPfQ-waQg7zVwmf4nNjU2k1kjMl-NGeHZCIpei8ltxcDLuqwhEhATHP-4EUBuRQk9DhwK0q5tGhSx6fD0T2TvACyTbbB6LhLasZaJLA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAASAYurLstcARZxD4EpbegpAR0QZ7nS7hfCoavY3rHVzQ1tVcl2VgLFjt9WoiXdzKU_UpJJMaU8x_qpLW47ysczQMVrhvRwE6LqCyY07GtD2PRYjkPHMyHqDJodAAmu9JqEhBt7ItLLckkIVTCwmKcr2zDGhTGeWK9ZQgsGS5grhy7zhov1pEEtA",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.hautespoir.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "3 Excelsior Road, Franschhoek, 7690, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 876 4000",
+    "type": "string"
+  },
+  "name": {
+    "value": "Haut Espoir",
+    "type": "string"
+  }
+}

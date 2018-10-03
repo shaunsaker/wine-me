@@ -1,0 +1,23 @@
+{
+  "name": {
+    "value": "Wine Estate - Bo-La Motte Farm",
+    "type": "string"
+  },
+  "address": {
+    "value": "R45, Franschhoek, 7690, South Africa",
+    "type": "string"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.91165,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.13559,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "address": {
+    "value": "R45, South Africa",
+    "type": "string"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.8806939,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.0241037,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAJ5M13XwEw-VTd_0odOA1YuHwxZyzjTe2P625z9g2sLCuzuwKa4MVgQO5aUJ60ZdqIVtsNpZcwdFIr2ddi3NC0U_pocTdpJTBaubSPzXuMvbBgO1ALWNHlU0cld_mSRSREhBxPBtR6pC0bZ3PgYX6IY0QGhS08Z4vAmT2XqHvW43JpT-4BkZBew",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "name": {
+    "value": "Anthonij Rupert Wine Farm",
+    "type": "string"
+  }
+}

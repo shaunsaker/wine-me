@@ -1,0 +1,109 @@
+{
+  "website": {
+    "value": "http://www.warwickwine.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "R44, Stellenbosch, 7607, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 884 4410",
+    "type": "string"
+  },
+  "name": {
+    "value": "Warwick Wine Estate",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 18.8640115,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.84046,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAANS_Tn0KtHjp1ciLOlL50Tg2qWeDE-lVcerOgIna3z_Ut_-Z4AEEkdW38BT3NPYRSEpQwA02_WM29wcD2SOsZjO34YFgmBsPsHa8IbEp15bfm-_oGnLkancPmw8UPp0vaEhDpI1fPp5GrVYCdjiDqORbuGhTVHJxEQGEarSof7RyKY68Zc07mlA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA4FqU4YUYxNsFbtrx814DQ5ECQwUs_EpNwhE7uMe7pEAENhnD0iFij_pN3E6v4EGjBRgDyueEmwm1ICUf4hiY-Mca3SMUvC2N8c5BQMWfCK1gL_k4Us3nCRbzFCNnlG0lEhBNtu6yzAeovgwFOhnyYH6jGhSQ8sLw_0Sn7BprmGEnp46EcKyYLA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAADjAuNZ3DeyHBXdBJItB6Ycj35ZfKCPMeGdhF3hQXqPY4Qn6pjb2LKHVlMAKPvU2L5MfF1NV5wktKsScvAbRj_NHHYLwbmNt6PVZ6uokGSm9k9gp6kUpW7S03zp4YR-r5EhCMMVrJ7hLdnYDBEwcCMPlGGhTUE7Ib5RjOL7WGkz31jMScWsrEIQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAF6uB3jETSKNO8hu3HThwEokMrMH4NVCtFvnb_in0Z5aZDYWpyC9bPgnEMB5z3mTr2ZzgL-cQizetyR1oC9DLjoZW3UWLZskvIP8yJA6TWn74G5Y3ZOo9GYFrzCAyoHKuEhBsiyjj84xDZIVSwYESwnIOGhTp6mrP-sa14KTnQTZuL0EiP7VlGQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAV7ntIvWqhJ9KqfEocFxdzD_f7NFxrLWgO2zUdDfV_Kbdqmq06qlM-lHrs4aVmxWK7ClcRO06YXNdauW5oelb2fl_HtBoBjoEBO-6ck-4uz1L43WGZhQtUm0feVxDH1yWEhDDwQo6aRbNIZ3YiAfQ1R64GhTGMmUnkdYI3KXGCE9PgQ5NWrma3w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA9QHi1XZoacE15iDR4jt89QXIH8IOJmCZe6MVxokJ9wVwnzbK3vQeTZAZvn58ooMiWmtSS9nqyrRlHpHIEQFYBF_A-m1-1Nu5yrt9ZsY_MDO7Jm7gdcyygF3lrN664A1hEhAgZDQOZutZ_dNYJfmWNeVGGhQAbZo8otRMgFaWOqMwINLQ84_jPg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAWhO6WRJXa5rco3tIGNw2SgxL8s0L3ObGptzP_Tz51aJrIHILOP1V513fmKwf8jcz6ZfcYluNqeYjftmNEv241jfTlm-TvUzFkV_uAivTN-HYTuL9HpeAnWr-U4-_-2GmEhAX2wwuZs3uAJukdvOKDDyGGhS2O0abSog6oKIuk1PoGRUx_zXqVA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA56DtV2UZYnneTmk7M4y6vLC-bt6maFiMx3UhH8H8N052F9fdOMpk28nc-UbkHWm6dRWVjNX_s9txC3yxJC_e7hzwh6yuWy1TMiZwn30Ns9A5FY0P6fBYNukILwbmStPwEhAKTHrZ1o4ftWLhfPJKR05GGhSkWGCL_epLdFF2mQ9P4tzx8YxGTQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAQmGTkJsPFQujmpbc1VHajtYnlrv3aW9Cw2alnP3P2gf5Xo0FMGiMuRBSbK4Rv6mth8Tazeh3hKpAIpTDAMfukDcE4KLGkLo_OeFamw8tbo1bIabi7DkEfcnDqP42W-I3EhDS7cIQZJXmL7ERScZ7kZapGhQ37mnDAJt-ZOsifnf6UxHre3fBPQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAhKisbGCxO4B0ZsAu-iDrWgkJnPZ9nR_4wgy4_K2AE18PKJXDAgZP2bJ2KGBDJvLrEJip1ygTfXjJWQAQmRlfrsBBhZPWRwgxQqw3A5UWQJzk2vSWdlGSYq2kKPXdRDn0EhDl0YC90eJBp_b9u1OwHndiGhTW5BaA6Etq6eSj1UBBOAa8kdtHKQ",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

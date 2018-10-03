@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 10:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 10:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 10:00 AM – 7:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 10:00 AM – 7:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 7:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 10:00 AM – 3:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.92085,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.87868,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAZJaOlVs1gQuFDfMGa8AcYeWbYdv5han77nd72KfE5YM6V6-vol2n5Zhb2eFLxOe0erP3AHxlWvezTr8iawpxFx1pJn86eaKeQnlmGKoAz9xZWdmUWFWob6wkOOj2dSrhEhDCfj4KSa0FyCo8y6IVIm8CGhRhgJB16ogPvzp5o70o2mWkyP5U6A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAbapg8cALnhMWNtjV0m62Dqj6AghCuV7pKJKB7fP8iLb5sYrUhckxHMyf7sAPpQzRr0iwxx1aVmqGYEx_rGXx_pHLOQLBReux4kh40ARf2r86VOq4VCBQVdm4Z1v__K57EhBvvHWazDXDpp9V9pjMQG3rGhR5SfXg4WRUVJQ9uzIPZ3qQ7GfKRQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAKSh0FRvstrmnK5e4Z4bT6eaFiZ7JsrwVJZFKMXUxcuH2krHqesENGzn4ZiLcV79PrGR2xmG0K4hAKRu97ZFv1KGaniIK9l2KoxqMtfkcGgWKlkogHoCoilVS4QdTkmRjEhDB9uY27xc6Bk5IUiftgoFjGhSJf0QPzXRziJX5Pm3a1AxjQOOqVA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAnGZHivW9-dvKqo5QwrzVKbwx5p1b4IYN_mqcPQmqX_Bu3i0-o0TWkvdSuNem2zZCh3O_HPScekfmiLWXhNHYM-vU5a5tKqi-qkJxRVjMVJW9ZXdfQ_gQSt0-QVJ0aaELEhD9ov3BWbp8UmKRXPseJY07GhQSn9PnS5ipV0P5AdRBqGqyWNOExQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAgVnOmPssVQq18QwPhybOjrAoDtQkhKCdX78EmwUKfwKBCrFlz3kXNnMVROC813B6HVbmi0EQWiqXIm2UsGQw7nMdpFTGX6gppc6W2KwUrIA2LZ_PcvrIdnDdtadSQtTgEhBo6kioxZ0Th1LAVR8EdM-lGhQGo4a0x_v4RE81wwOvd0nWwQrhJA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA7u7LULIib9MEGhcvr4xs5tcQmFQ0gX_659hBjKpg6gGU9NFMBOUuDtW157M754b9CHM_O3XOnqE1MkI9AC1URAaKRSX7xKwICH7QFLuxWgpJItV_nFwn8DB90dMeusMqEhA38EjYQk8OTiPP3hSSEOvnGhSOdIG--sNxP8bx5FixRWx28PIvmQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA24vS2C9kmzC59ZYhZXP-rh8tbHSP1Zp-i-4eZ0nElGdfbo21OEzz0GrnmOlq8As_xBlfzcP3vgrXNTfxVF7gLjDnuby4SH9vA96g4OYFvTIqsS4c_y1MMJQMwBYfSBJxEhDojgcseiI-BpjyV9hFSFjjGhT39zDdS6T1pB7R7HKflkkTbAJWMg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAT4QcTEkH9s1KSMgDotD93xi8ppsEsvVUCu6-vMEWbf8MtBD7ArOzsHtd41KgdtjQSkyztSUtEc8Lsr5fIdopgigeOkpQSbR5BTncD6zxS-RsjHHIvUTeIXNHzNQNHQaUEhD2aTUcjiwl_fnFaY5IbspmGhQ59Y-ThI6ULQC_dcmRkqaihLvY8g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAqevkDjdJXaZXKvv3hMBpiAH9-_FftHYWJGr-nzablWegc30jfzU0LyJubNHYiUWTfZNBv-CoBB__RAv6pHbmKlgazXp56JXbGNScrcqAK1CDEtLtVOouO22WdAnol_FPEhAIrDZUdgNWlFyM9hF6Zp2JGhS79YboG4tF9xGOWbdgksNXS4UHfQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAgUAUkAefD8zWWjM5p1fD9aA9KVwKgsbTg6LrIkpBhiP-K4Ii60zB-8DvBVUBUEfPCokQnR9xQv9b7ky9-alJjbdlyq9Ngtgu7YAFMoHsf5asEa5NA5DBeox9TJWgVeq-EhDgN7Nntvk-6_v8mBQ7dRxPGhRpc74MILP80fxVsZYCxw6opSvnSw",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://glenellyestate.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Ida's Valley, Lelie St, Stellenbosch, 7600, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 809 6440",
+    "type": "string"
+  },
+  "name": {
+    "value": "Glenelly Estate",
+    "type": "string"
+  }
+}

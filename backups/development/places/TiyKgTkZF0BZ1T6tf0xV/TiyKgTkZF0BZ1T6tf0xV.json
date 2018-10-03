@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 7:30 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 7:30 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 7:30 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 7:30 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 7:30 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 7:30 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 7:30 AM – 6:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.79901600000001,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.623987,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAATNg-gHOkozlaX6fUdTkzHpBnnWSZTNknmROOQQbdj5aTPGf14gWH7RfOElvXCyJ4mECCiQ_Fnve7JITPOMRCjXIMbTXc28oztyBHHKFxPTzCuTXAj7XTuvnJkRSBWBBSEhDufLF2i3kxtUHHxgYSEoEFGhSADjC_XcL0yo7PVzTsQ4_U06Yi7A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAtXsx2rU_x05WPL9L1-KuxjzfWTkScsWJQ_N5JLh2-D2KCoK25K1wB9r1pHUb70_NLwyw66Vo73qYy3_nw0nBtc9qPVJFoB8rD91WQBB7H5WShD2GGkifXWPefxNuN_-tEhByKqnYH8yxWWrTsIf1_P_5GhS3oB43y6_xZLg7re4opf4AJtk85g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA2G2ucsF1fQjX6DCudHml_FRB01duVurOTXIY4ouMGksoqJ6UART-TY65QGrSomcIKbIt5x-eH-haSawvjGNKzC3JGIxYRIwurRad4TSW4adJVSEf2thb4z6F_pTbdu_WEhBB-p7mDh60lwn9HUudbcCKGhSRmlqCkGZ5CVgrOiYtivJbnGJoKw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAKHEyNpmdr0yB3qxLkID0WKMWb3vNp8_xvJAlqPivBq022p8gPucYh7oQLcCQwuzxt_fRhw33asf6BMmsybpL90_82Sv4mlmyhIEtX04O44Mq8JfW4ApspMtOdMIuXfVKEhAlKg8n4zNGkm_68UAtfleLGhRHXZ3ZINtZcyBlH_MhpWlshpOZfQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA5mLMR8BRP8YLMV9edDJBN7I6osiX4V0OQq_8ZcnPw_UTA37sbW4HX3MDXwm-wNnxQ7592PTfEUlWOckPjMGpMAwKLSP5NnrsDMgOjyqWVIbg8yp7eWHQe27iuvTWaFGVEhAI88v1HUT5-Afqa_T-3hjSGhTRCF5SxJg4yB-Bh7JY40BckgMk2g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA-O61AoTVKt7QFuxapVfvjcOKq9MEW-eqjew3CXcOT0IK_MWEuAxNl8PKScoj0NwaYrPLbu0jFgCmzKsYhkda7FB-p3A2_1vD2RSZ-TslomwjadNldHWlqhSOBuZtE501EhDRwVjynpUVG2cN4d_2o3Q2GhSUgRCPbgAnaVbfcUXhipUEuxPDGQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAJbg8Cd-G_Nebm23o8xcnmMYV1AcRipFaT2v7o0v2UNW1pg6Qq4XVzTlBUh0MtoUdup1ts6E_jfVCdS4-WE0xuP9o1IEVeR1B_N5kENURii34qfESABzIHP5L0K3PxGHGEhDdYUbNPJPa-ALvX0UB_5-EGhTm-yBvRVw71nP9CY4PGB3sipd-lw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAnaYVpmEgi7YNoKlcbVtlbUE3mOTrZN6sqRv0gxiEX8O9l7q-GXYAtmf5__JGz7jdNtxI0Y6zACLHfQ9n-FUsGFOh1S8brb3F6zv74tlPSzIamSUAcX1z9n2gTjiCbBibEhDH4XV2nqvSFPts6KuejgSwGhTAHSUIqqKKzZpTVk0TDSb0Ycgc-w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA2r-0kQx2qsnQzIASxB1rgb_4BUJtmA6iAcfkdLqHctGy61INvrRERU_YC6U50jGbGwwPa3U8bGI4PSmr65aaX-1nHpK6OClq4qe4kNJJRJ-v_5ymIAPQPPnxaFJtdZ1aEhDa8ALZxAdrbzMJZp4l1hhaGhS3Oaf5kfieBhYUegA1FFs89sMlpg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA_kFtm7DGoOzoP1pTMiFn2pwDa5Qpee-Jkl6JtqVeo84bPnzEFUFjoqc5IEtWyHQmoPZNXZKDuGwVDC_w-5CjVFu7jvfYc4AM7DSRqGbeAzj7rFEa0-7ixypPdWKeDBRHEhBXbFSCYcYaPfDJcf3UAU4UGhR86Njp9zmHjTd2mSTsuu3abAMIkA",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://meerendal.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Vissershok Rd, Durbanville, Cape Town, 7550, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 975 1655",
+    "type": "string"
+  },
+  "name": {
+    "value": "Meerendal Wine Estate",
+    "type": "string"
+  }
+}

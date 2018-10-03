@@ -1,0 +1,64 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 3:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.94175,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.8458699,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "website": {
+    "value": "http://www.stellenbosch-hills.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "29 Baden Powell Drive, Stellenbosch Central, Stellenbosch, 7599, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 881 3828",
+    "type": "string"
+  },
+  "name": {
+    "value": "Wine Estate - Stellenbosch Hills",
+    "type": "string"
+  }
+}

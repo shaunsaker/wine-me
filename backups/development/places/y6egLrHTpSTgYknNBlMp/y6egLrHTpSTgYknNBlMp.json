@@ -1,0 +1,93 @@
+{
+  "name": {
+    "value": "Jacaranda Wine & Guest Farm",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 19.004388,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.61373800000001,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAKoWkQ85WrYRyzHqAfcF1buqMoBQSL6pzP2UegbZIzV9_v87eepMZcmN-CcJxlEQgsz2GzXLLdxJ9_gkzU0vVS6ty6EUWCSh1FM5bV4-JVRiMUbznBfPYpKQW27rU3m27EhC2srAklHkMpBJlbhSw3xBKGhSqLANGk5Gd259eWAv0DCzUH0pQ8Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAY7RiXqnZWUH1L3ZyVjYWin19-6uXSC5xsAK76ZW1ZtSNuPCfIthOEpJTCKO7s20XnC4WgmN8vgOF6vwPJiAjuZMwffWudC1PbJ_h9Qy-i6Hu4rZs6AZihBbBFyPDdaHREhDvxncU7QNLJTkqHqJOhgBUGhRFXgopf58dorJuTt7b169Pqyv34w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA-s50l-IH9eaPxnpQuTnWSIP9t4OajpdqSzGAHtSCL75gDGx-KL0i7ibsTS5P8eot3ZFCqL6NJX8QtW6vB7ecwLWW0hSo2VOTLWCf0moWhBLxv9cdk9oDMulk1D153VhqEhC4E1Qt17CjwduSK4JkWWmgGhRu_TJW8Qq7iO-0pewc7ZtF7Zqelw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAeTw84JeJxZwlmmibeqsKFjirTjnZhjAA7uWR7kI7ZFXNczr5ws8OObJzv5_GDT7P5jENdAL7qi01CLn57sL_HlQryL1ma9q-25gJnSKxpF7lmISE1tmUabhaS1HQqfuHEhDvH1RtyVns7n--4KSGIsfIGhTUet5MUuqYRNOEF4ME1BJGOFrhEg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAVzmCCYzyj1gZB7BxhIMl0iIAEJCDa1J4WRN1Q0gPEVrYQYN2VewczbAjbmoZ7a9UPVAfEYqlnHaSVOt9SrQZBBYsZE53G4TFN592wkVGcwMcEPxNCTV_KNHk7olRrLWeEhCWr0sWYLTBRbEHLbDsIxbjGhSHPJvz7o82Q5OPX37H6iU9kt7ASA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAApglhfQ7Et4iVWRwOfKIHhxHFD8--R_guMeE3Q0k6r3_EO3mcPbslvbhcwTVVqPkwkA10001dEVTS63xtL5CkxpFYBSxY-0RS10sgQaXBjow5_qlnQ1Y6Kbh6vc6Eke1OEhDle7KFLW7b2eCZRGzgQSaFGhRRR_Zvn8dy0TosFfRTd6vP2tt4CQ",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.jacarandawines.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Old Hermon Rd, Wellington, 7655, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "082 555 1150",
+    "type": "string"
+  }
+}

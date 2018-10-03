@@ -1,0 +1,109 @@
+{
+  "website": {
+    "value": "http://laprovencevineyards.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Franschhoek, 7690, Western Cape, South Africa, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 876 3194",
+    "type": "string"
+  },
+  "name": {
+    "value": "La Provence Winery",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.89330999999999,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.09153,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAjQmFwqd5pelqR2g2JAWOttyfoRZePu1sJrNuFdQWUoTBO5vXPqsMjslR0QjmXqWIw397hjLbQkm2lI1WcSDJBqNbmiCOISR-71wQnMOWINIVRJ-UWuifv57FVYwznl0EEhAhaF10Yo29y6D4ClCzmGY6GhTvp-_Ya25LgfMWcjG4-kqrOm2skg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA6QD6PILg0qfqVFi64_KL0GxDdX-e36zo3LQkldj_w0eSZmHIGKPdJQZiNPiAk1BEn81BqNljdtYgkWcNih6GDdxFeBMoJQl2cgxlNmlbBNhp13Nmm_Us2aoVqpqu3ydCEhBuJD9i4pNHy1f12V-DPKDpGhQz_51UxEVEohbdZTjn7S1w6dPhcg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAuf_I7Nrzn7eT7-T4wb86IJZgQe6m-E3T10htWsUbKaWX-IbBK89TDuMGjx3ySw60IrarvHr5RsSMoeIxmnqkyifocQX_HxwUhNu3wAZqMfwyDs-rSBzMiTo8Yizg9p5vEhAusHRbWTj4hYvywnGDCyziGhTJATicINalg5z8z_GTEVX8-m7fkg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA73sD2HXrylx_qSG66ZGxd_nnyMU7eHt4b00pNkr2Du-gi34NSGJylHwzMLWau_XLL8G5trPToB-ypixO369-b1aMf_PMXTHCE_MiXQhe-cZi7WIRMcqS6HB8Z0ID25JUEhCdXbfKfi3v3wxeIIEfwK0CGhRCi6oYcBlBaXGOLZmdQ7sKRTReJw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAALuf8TnI210YRWz4Pr-JDdpcNJ5xpCJJavOzS4upazmWhwSXhzDXncl_3z0jMaFyjj6BbI-RvMA1cO-1WbwCMBFE8v8vUht7jXetSxtnY8Wofrs8WGXSBOuIU27MTksyKEhCPvGnpIdn8ZOXTACco-M9QGhQ7ZDUtB501ZnQQH2I_DRChiGRiLA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAapa4GhptXklpUdZE7svmFznu9QhhLegebWN1HSnbD_OLJLBdmZ7BzivNa9kH5bdeVU0TEcc78xoCE80cUaaTVJIHB5Wzeox-AIBeqFLilVSuT8Kz1K1tz56NXGr5eu3xEhCEcu03Ah0HjCQdP_WEnQbMGhR9cI19gXE0Pu2eDbJmOXumrS73tw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAqLEV8fOEVQb_vQ1KPdHK0vobontHR9wJZeUzlq7AhKSsIwbXT9sX6RLG20NA0Ks9uoFnerWjqYfG-nrlL24UPNaQFR0GxVXdkfcUymEkDWqAGrYHYlb5txkL6EWv4E0oEhAA512D4NAzkn2vcqlBnLMeGhQf6Ctvy487mBwdEQFLREsS98UeaA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA7-t4LtoQC5ZxjmAGqncaNWB9XCTTT5s5gT8VedUz7v4PzexAffJcVjUoLUnvsuw7PkDyeeWGlU1HXqIREiXgJ_Cgu3VU8Cxkvp0qrjhVJQ-s-hGo6rFjqX4a5bmy61iSEhC9daDzVLpmL3p0cIyX0XU3GhQKAsbxI2aRdqy_gR8U1W-n3L8WUA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAYAQda_-6B39jK3V8wNeoUEArecomQv1CsANJ7iqSWDOOu2J_LIrUqXhVZ6Zu8U-4BiJYqpqLu6r5NNrNxz4g5u5_qtia10gQhvAPW49UzElLp9BodDNWwoQ8FC6QvpShEhBOm9O39zToBvir5cSFKA_PGhR0I0oSdNilmXAgz7yy0pmE1WG18g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAmJL80Nj4A5hRpvEL1FwCy8Dtcmdz-EABQMCxL9oqU_5UhWvbpN8HbJHt3NtbqA0CcBquTBNmWUULNIqP_iFime-K9GmfUQwFWRE3XmQ0cjnhEBNCSsfbppl7I76-DGukEhCX4MAoGi7gZSS42HqyUOczGhRdgPkqEzOzIKUMht8tyiDmb4zQ5g",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

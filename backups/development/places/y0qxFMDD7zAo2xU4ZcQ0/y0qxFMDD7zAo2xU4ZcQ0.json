@@ -1,0 +1,81 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Friday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 1:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -34.012511,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.899178,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAA8k8mHkJmfHYJ6HWtxciJ27mkPpmTuNDGfVBq7iQ34MDQHpZPZ0yNBG6P9tcePhWpaS9E9GOBIWSrrn1QdL0sYSFDQ2oUQdWu6Xs2QIHILG4zvIyRVOS3e7-R_hm0rqO5EhDDOO7Od1T_ShGFu2kFPFC2GhT5oTEA0h_L1UV5Zr5oYmAiAr2R0w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAiCsd5GJXPAekKhIfbvTSFkb4XAdKE1McI0KhCj5a70vErOQmtmpGeCyA2Ux78haZQL2j8cwEu4rNXHnlzwkuvBwEgTNT_syZLOwBb9fvoGpd55cBw6SId51ZhiNWUY0qEhAdRSbWU5KSISnh8Dq1RV_pGhRkH_vgSxvM1tXrwSdJPuPK60hscQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAIG3pu4lr7DVt1n8obggKldHpgey0TvkgqybOynqaw1sgor1G0DeUJ3XE3yWSFpdkNUIgnbpaqvjeRxZdDYs8rPo9zUj4pyDtew6xmSDv4xl0P41zcNt0fR6yl3Z0FNVYEhD3GBaSPLcPg-XPjsBGH53wGhQA-9HKAWkU8bM8yJ_QiJTn1svbCQ",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://detrafford.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "De Trafford, Mont Fleur Farm, Blaauwklippen Road, Stellenbosch, Western, Cape, South Africa, Stellenbosch, 7599, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 880 1611",
+    "type": "string"
+  },
+  "name": {
+    "value": "De Trafford Winery Winetasting",
+    "type": "string"
+  }
+}

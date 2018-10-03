@@ -1,0 +1,97 @@
+{
+  "website": {
+    "value": "http://www.lithoswines.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Helderberg Rural, Cape Town, 7135, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "083 400 8875",
+    "type": "string"
+  },
+  "name": {
+    "value": "Lithos Wine Farm",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -34.103703,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.9198303,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAA308beNGWq5nXgPHgABBbDlL-bHuS3JY80wDCexvvWzXMvN3AFMwIApokssI8BtCyRKQ-bt8WxACdqS7aPV9PrPCakUGWoQZfSeTKiymFWzVp0wkShyz5yMAPEZMuRJcxEhA8qr31Tij5ilXGMYK7ESNRGhQW9gEMP8p-EeydLtp2LGNYrH630g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAmQPYMJsExzmZ_uUmSpduw-60_u9SlDAkDAP8R_uNsen1tAgLsPt7ctn0Lfc3pEEwqlDfYVHYd9Wll40KVzMjB-Lt9LTCuplPTD_Vt5bVJx5q4X3db87n8roUBSwTfaczEhBddNUKLFQNZ64fXpcoFDLcGhRSqnamjmZn8fR-QRpxkrBrdUV4zw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAlkTRY23-ZxrPUGpgkJO0P8-jQN-_Di99lM0UgATTVyHCIfh6jnSzGm-2naU8-BuEU1a0tXJdymk7kMoB-k1S95Qi2pQrWB3BSJf17X41sQc5lBV5MQ1-XskdsFPPT8_UEhCBsMMf4fxt6mIZIE_kZa91GhRHxkrP9blf6CRDBDvaJdmTv8tDsA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAEew_WUHfEYGdO1tA9yl1ovnzWEyAwnEs4-dffVefaX531T7Rp1VX286bSssmC1Rro-7XuM-ZVfs9Pp6fBt38bcSQ1wfxfj5zvFZXkHU1YjYuEQq1jYwvtibES_8Hhhk_EhAFD7sPZN-vuMQmx-GDSBZkGhTqnGZ7GECbINC3uA51P1_Z5iYUfw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAZQZpBoMpyKd9z-jnyY5zfyX5NCeoQuWXY1zPs4u1agbERzifaeRr_VugdWxXU7TadIFKIRwOiJeolDkvGBU_sDTZBFiY2B0FJsCuyNv66k0hZo_s2SOkhjhIqnfM6GfgEhCPTuUBeCVZcqbltwDxcymrGhQqVZej8rPpohiYRbl3joVKaXswNg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAB5eDCfubxeAoCyhCL_33G8ouUD4C-PXbrHIg3IigZqOh9uH0djJl1VWT-kWgH3vyS5tDJtGNo9w0s_-EQFkNmtAk8M2wmw6D3ChwCoyUhvIE-lq6lLHzLpIRI-sVCaDPEhA-16ivTrka6Im9JGcyqz2EGhSELZqEWi1zdlcOdhfqFeQ0-QVu5Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA534_Z5aNUGQE07lD08nb5GzvZ3YUrR1XMOs6SibhR60tnsmk_PK9cn1Ijzwn_E1e09DFc6LySFyebkr-xYD2PX6Cqjk9AnnryLwNmSSxzuluThojqXPsXfuISUh0AnCWEhDaEXj134oe7BCPu2NfS_WGGhR8PUMJVSAPaz02PZT-S-HshvYW8w",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

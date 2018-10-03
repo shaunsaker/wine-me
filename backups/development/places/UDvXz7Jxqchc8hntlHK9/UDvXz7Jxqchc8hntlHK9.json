@@ -1,0 +1,31 @@
+{
+  "phoneNumber": {
+    "value": "072 054 5454",
+    "type": "string"
+  },
+  "address": {
+    "value": "Kleinbosch Rd, South Africa",
+    "type": "string"
+  },
+  "website": {
+    "value": "http://www.mooibly.com/",
+    "type": "string"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.6873548,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.0214229,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "name": {
+    "value": "mooi bly wine estate",
+    "type": "string"
+  }
+}

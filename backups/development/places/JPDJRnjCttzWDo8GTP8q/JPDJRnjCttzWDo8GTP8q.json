@@ -1,0 +1,109 @@
+{
+  "website": {
+    "value": "http://www.stellenboschvineyards.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Baden Powell Dr, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 881 8062",
+    "type": "string"
+  },
+  "name": {
+    "value": "Stellenbosch Vineyards",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 5:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 5:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 5:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 5:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 5:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.9905019,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.7674594,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRZAAAAMRzJ4T9ij1JRvyY9jjfBm5nEg3wkw1XuZ2iVxuM9lA2ENhdOK__j4smRevc2MJo4Ws5j7iVdtH9M4iAta_yDZHy-PoF2uRLp7QkBEVKiEfw0x1Emj_kTiMNx9md45S6eEhCDBqzFPOF3Ja-PodJjFixBGhQWLlLkIMne31kKGvTcglkMldRybQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRZAAAA86Lcqf91bP6Gwwiq1UBGerD5DrLpAEgdZge93j7GtNNAr6T5mAK232OGpCOMGZKiBymQU4g2wjBcIdNbLWXihbz5zI-HLLWigKUQ0UP5gjCEskWSS7hDQJgMxjpvBHPiEhBt8EZRcs3sFfeEebxIC9gcGhS0d_6zZplPOQTybhgFzXKjVZkNhA",
+        "type": "string"
+      },
+      {
+        "value": "CmRZAAAAyPAR7dlD_LqcCc3Rk0EcgWHFCVi6siKCJ128x3NO5HapYhepH_RpClYZvvfjzNxXrNR8mj86sZZEsrb6BpbVGgxuhjRP2X1LQwdW3am-abmZneZm-TSOyis2muodYLnHEhBqdJ5j8lrsERV0r4WSjsxjGhRrbFpu9fgQATetE_Be5SlXS6xxig",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAaKGb-xNlkYKcU_O-qiG-BDsdKDzfAEwBpPu3xMW_vSsUoetB8RYMBPzprFDuLyLIENQ8ZQnrjPgLwC95ZzxMmUArXlJV9_FTCXMPd9ZrHtX2ONNDIIJICO7RYjEIGVOLEhDw6YKdIQa5Nhk7uYJB6Sr8GhSMJsoFUv6PlLa-yN0JY_ToMXB0pA",
+        "type": "string"
+      },
+      {
+        "value": "CmRZAAAAQJ90LO2_SrkaWdvkEathvaxmOPFPKoy4sWwqlISMILrw2vGJnzBmIcTMeKqcocipu_iGBeyfsbpR6b2He2sRzU3Cc8vkNjC1n1PClwZ0zq7w2xfZwwuFhLSGGllhiXyrEhCcOalG6w6N2YwPHXahzNRpGhRbU5mj_rg6CivuuXbryNndbXhePw",
+        "type": "string"
+      },
+      {
+        "value": "CmRZAAAAeJO-_qGPzX91jF-jKWPgYYzUnc7AJBu9e8HCREylBl8BeAwuk942wcK9aT15a34QCJ71k2-XfmbDFS_YX609TwBuOGvbCqc4m3ZUpGHEuWUO3TcRai0TL0nQbK4MqlgzEhDO2J9gX5SPERwRd1ujF8WDGhRWc2xOsxlP-Shj1KniLkVVBnnATg",
+        "type": "string"
+      },
+      {
+        "value": "CmRZAAAAteqaBMzBFQnKSqUPuQoudu30lNXN59BYR_L1KcUK--2ryNfpLDIkPSFGGUL1lPEKVgWBQbdA1jx8uUGlG28GBURkRofVa0UeaDZoKxAwNDegX2MOxHZcxQzus2K7g04JEhBzXPz079rZ7moqANh4Eb8PGhSevr5sxEX01MsHn3-i2OomcydQ5Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRZAAAACSLgcomy5rvtGHn6gKFDLsrj4R1IlNv1Ph3RYIQSXwRwu5J9e-uY7-ph0qW0_7nfwufYD5oR6hSaExQ6OBFVFf7OT52MADdD9zmMh0r92F9jG1cr8mUH0d3dQhslBPRSEhD9sWFGLrMAeY0f20Cy1-qeGhTpQO8fXFVJSweGp1s4_OzKpdKxUg",
+        "type": "string"
+      },
+      {
+        "value": "CmRZAAAAb-HOWfZYhs93Zw2WHeee-I1Vr9BBpwgDANMLaoQfrAVThnCcmAdqjcqk3jKvQl8GLylF9jIULuc3VWWUQMgTab6wdu3bmJ3k68xZqwtpDBGFXRjpVcTnl0JOb6blUqGcEhBOvfu407Spt5PmotfMhzFzGhQ8YzDWf9ZAFx2lB3ebFS-a2RAO8g",
+        "type": "string"
+      },
+      {
+        "value": "CmRZAAAAUjA9PXSkQb3PdXpUhuqLjlQ4GXxyS7FeJd0qsibruBCVnBcxFhWdrxuKGxUYqjwbieR2uC235BtR2ujG8j8RbrWuUx3HZlwKFphCH7UQ8zDeuZaC2vMe__aPSanCqChKEhBynbcozegoBi8YqmUNGq5gGhTJUifSowhZVqzo2g8vudV11tmkQQ",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

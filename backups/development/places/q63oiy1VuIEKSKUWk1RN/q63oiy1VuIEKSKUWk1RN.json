@@ -1,0 +1,76 @@
+{
+  "location": {
+    "value": {
+      "lng": {
+        "value": 18.92998499999999,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.82250500000001,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAWw6jAplzS9V62EKsTSVBbJsMNdKAw3LRjncdaZg5QFOjKAgq-eHjt_bb9RfxbWVrbIj8qhfNe5tmq4BCmp5rnferUIe42OvAlamB9HQPivoa3yr7EcocLlSR7BqT-XLkEhALYiwZbHZt8MObJ8aYbe95GhQCEnb2uacMqkLfxGG-kWZMklWVyQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA1wiWHpIWrDxDZFBhK5cfyiuubsjgELS4v2_mjqZ2YaGFTemtNWZvEMRz6N0Cat_BN0wSVtvsaagTU8EKW3za3BRrVnorIEM_gz-fcpSguNrXh_m7pWwBvkvyRmTkMA7EEhAWNuaoI_uuhBNWZTj5GA3PGhQtNrKkAZc4aH9YSXl6xy7sA7GWxA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA7REyEcNgyzBT1QzqEQDOzfcXcgtY9Ik24DScGOTfnslhuAynpvzJAU817W8s2fV35KNM0pXYeIiCGXhlo-LEVoluCKDTskUxiA0h8e9AKAmEg9qmelM_HjsioPtlvU2cEhA1RUTksYLZ-0Ae-NjoznPPGhTJko8_2xEVnmMI05RxQX4zGfHbrA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAApS7u6TsB8CtqgA64NK248Ey872mTyL9d3KWTyjxxc-p87UdTmTFfCrv_ySRSIIgslb0MY4vuU_pEZtiBdPJzhmDMajruP98biiifezcZZo8u1rbTcXpqs93XEsiAv670EhCTETJonSnqiw8QnPCamVaUGhTtp1lMVT3aWsHQ20uX4LLPCuAf0A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAATa4ZzCGhN6msCIdhvjLrzbqW7o4856PsMbogMHpZCz-4AXvIOr5p3j2J3nXSZiBkv5qd2vq7gHne1tRz-vO7BfsgYW7KpAetBmBiLNDkWKGCC8Vwd_QMWP2smXu9e3LEhBFsczc_DkDcfkgP_64vKU5GhSR7q466Q_ijYIFBofF0CU7fk11uA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAI1tlK_0kRpZ66_IzTSw2-Balom8ZwGvRtDa6JG-dA49f7B9WWJft3SKxMaPJgum5RMhuM30PgvKoFt0g273Oip7Lsq1A9CzkyiwDA9zBms3muZpQdjb1BZ5-Y5lyYehOEhCGYFKxLdA_xi8_vGL4HhRrGhQW_gKSqF6v6gfqEhHFWAE8U3w4Mw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAnTTxuK6OOpFc3K3bBxP_fGcao9V-yU0aWF4gDnX2YSKawAisrQureUDIf5bbyA5q8pgyD8TCLD_ATNxMJOg_ukLseUNbLkf1p7OziJ3Z7rLjBHoAngxqiPBdyXVVHZSgEhDvcxHTdczsVjgnrynIhjtSGhRNOg_iTBMMEKcKHyBJuCYpYiINdQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAVwTf9kUTsgVm2LmIAV26Dr_pCxJy0gHTcz0tACEoDcNTNwqXMmRLyWzN__aSYhbVwN2EyCeREsfUDQmCNaO-3enwIN7vXvsDbsXk_F8Rl9eUZ70bPKyn9_j4Evgl6FsTEhDPWCwT8xOBVYB8mYl0_dRnGhTzAsG4mrdpAaSslD0NsuStOL7BAw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAHQBDRtF1sKj1_qqX8NsXoBoN-uqN7u_0Aja4uuMTKna4Gh7up3n2WvK2b17iOe0TW4xKJgUfEngOEh6l8u23csqg7ALHo4d3soJh7k9I1k3_vhz_hlFuyTIssZB5GXywEhDG9EnYS2QHQ1jRr2uYGv0sGhTE8D4uQHDiJPeVExqTar1YEiUk5g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA8gcZvL4Sy0r3enYgkGnq6th0axgZbBkAY3GSdaB2o5CypILwcaRjgG6tz6ik3sBd0yFDoICYH2OnyQrjx_CBvGfeW_O0Kd0IrCiV8xsm_SbGwqfiqkE6-1rbKZsdVsdBEhA5kQOwRWeY1q3uINOyVsL-GhSW6otSsZrMXkz06HpckoDlPL-x6Q",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "https://www.babylonstoren.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Klapmuts Simondium Road, Simondium, 7670, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 863 3852",
+    "type": "string"
+  },
+  "name": {
+    "value": "Babylonstoren",
+    "type": "string"
+  }
+}

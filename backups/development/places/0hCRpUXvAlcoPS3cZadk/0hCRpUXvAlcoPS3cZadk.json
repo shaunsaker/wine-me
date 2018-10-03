@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 10:00 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 10:00 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 10:00 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 10:00 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 10:00 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 4:30 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 10:00 AM – 4:30 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.9276147,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.8322536,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAkgG5iXsLD93YPl-5qexqj8Wa577TrxSJQ3mjGYwNY2ltOutpHeQIyi3hgdfhZDKnfhGN43dKodwYRSJYv4lRkLQgnmIOZWkep6AM15mh2yfazvOXf5Tl6B77Si6AEQvoEhAQ_JhMBo1TsyqGElLXf3dAGhRaHlyEIAx7LbKxzaZPGsE6FEyFWA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAPKnEz5SJ0REbXjMy9I8Yz8f6GbF0sc8y9MsHHz0h7FZXPIOQ6Zdgs2gxHI8sIPp-Q2EgSI8bG4SBIpiDvwN9PPMhFQZqSdjGu2ie0tFDSUy4iv_m8Aof3Ef84LwxHo3OEhCDvWBH06JM79pAnyCj5WloGhT4CfXp8lQUvMXP_6tcO50UQopbXQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAARaEVn6Jf5V6dwmXDHWGuQWSbP8WQPM3yr9uKdm9N-j6Y5YRjoc_OWcCEaAStV2hLkxvwoefbRQM7be5-WHa5gU3aoekcwr5qEt4Uhj9pdKC6JxM9z7TCUVL0hi7YhfCTEhBQF9ddo0XNEEDFjU5pudl7GhRBrzqxAe697tSPdgSFntYYDYTrJg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAxEvtPOVS3e3D75M8bbrwnEc-5Dmz4dUrLfgd9BQ_jqphJQQGQTe8rl7izjtKf1o40CPqPCrKmI_0Nx_IuJy8g9IQr0T50_T_6xjnlmqvm-BirB-p3C_4VEGXjLgwAFx9EhCjmgT5ZEkzuh3vTw2CxSPLGhRxR7o2R68cRq5eg_aA8S5-BNFpPA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAx3yGixpmJvMmYuohpJmxc6veTB8bhZzqedmSh5d6NEtMU8ZPDMOAQDRUkNqkzEk4vTJ54czc_4anldzuwkOxvkqyS6_U8jnEGdj6Qtz7i9mkH32cVxtlrJC32hmjEe61EhD4E49fTN0fvtbbN4Od0uluGhT52aIdHiMX_x-Vjcx1o57Bn4I2mg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAQVnykpUYUWM_oEVQftnmwPpYcnBx2pb9gCPlLd4HOL2hBrzWWpyIYcoSqh5K3f6T3cuxw5UWotjZLMhdMMPRHoJAq9xQBBG_zCC5MkCODwnQQEWN7AaTwi8dvcXb-yOxEhDILvo0BOlQ-GANy3cugRYHGhQghW0DPvLd0GvBpHPduwcrFpNCLA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAAw6R5NeiiLsB1oDuX-MZzh4WxBVVpZg3OWTqjOU6dwSs7iNzILVnCKQRql0PkNDLRUadCA9D96cUMzjpZMnZC845QNU8qD-Bt6DU92GNLPCPI2K-thYgLcVxzEOC_iMxEhBdOrONdZqAiPtCFpo5VihfGhQvwX_KtSRO9C9t59yVUEkwH400rw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA9Jb1n7Tl8Y1JL8BdBA3F4yjgAFoYdE0HDFnH5VhnRWQqWxFKT6r3rRWAQOpPb-f_B3NoYgxXwQ2IuijwPE_UxqlsFzu9B7JiTTsgbX2kX1Yi2hVA9RUWI6v5KVicjHZ1EhCjSL0e0HVuHQO-UEuIiVnSGhQr2x2pXbua79xe4__Bdd0NdyA7wQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAQTw5d4dhYrI0OrkWNI0rue5iM3FaiQo9dshflA7yN5JnSIj7k1w-kXiI2K91nUTqFLeqRE-Yzdy83tAMyQcNCAa4sNWd6WOfXSi71PC4_H2PmXGYVFNRnNbYzB8SF6iOEhBrwaE1LyB_ybJiBqPhNvZtGhTF9nCAzyJgijtLiBG7ikl0C5bwUg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA4KhLvRgvui7aZlfT-I8UGveVauXN1kLdlG1sJrmNj8g9Z9xJcnU2x9OpN44ooIGHIVjV0pEzk9CoAkvP4uQGVzA_7LeieRqzMB7hlotMmqLri0Jzye-0oQYAbLx8LIDdEhDkCmo6AaZ2ubrkoIhESNNxGhQstBwq1oK2-XweAJofgg2iNnDUQg",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.middelvlei.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Middelvlei Wine Estate, Flamingo St, Stellenbosch, 7600, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 883 2565",
+    "type": "string"
+  },
+  "name": {
+    "value": "Middelvlei Wine Estate",
+    "type": "string"
+  }
+}

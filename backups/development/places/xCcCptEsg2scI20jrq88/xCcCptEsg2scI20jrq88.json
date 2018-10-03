@@ -1,0 +1,36 @@
+{
+  "name": {
+    "value": "Wine Estate - Botha Wine Cellar",
+    "type": "string"
+  },
+  "address": {
+    "value": "R43, South Africa",
+    "type": "string"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 19.2063099,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.53432,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAOw4dHe_1TtbfItTvzomLCoWiaGVEBptvgziAfsGjm9Nk3y7ux_A2adlSk1q40JpYTpAXrvt8L6dufojv1JvJyUfeArRj4JvOmlR9ERR_TSqCCrIDw531Gi08RQ578ZvUEhAunEcGdriqcKD1INO9Ke-XGhTw4AylixPy5iu7jsd2iQN2MxOS3w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA7UBi8tD7Iweubcelfymv4NOWgA1gtS0ApD0F03v6atv3z6vYqKRpllE7v2MVDcfHFFD3Q4zMnALj9Erbnbusb7AbIe8HLU12us6jeLL3i0sqDEQQcqaZ8Fy95jTptsObEhAs2gzRuD40s6NqxPY0kPGkGhSpixuWURV8F9cizUvIl0lJfBHY_A",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

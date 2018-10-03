@@ -1,0 +1,76 @@
+{
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.8300761,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.0100277,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAPmx4o12QVc9uvnI8lrEKfdH6eZJdIf-3xVimprz-Hpc5tV-ExkiGKEUEEyRzlOlDhS6Q-dx1BWU3mnnJFjp5tdD4YMZPgZEeBFjp2S3K5WlP9CYjxAGFvs3fth0onMsrEhDuO7GL7fHNHGNAGHlSzPZwGhT3aIqpfGt4l4Alf4YsQMrmBwuvag",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA_LWiWjffYIOE4KTDx2HAqFxdAB9ybq84TgRQjAbvKe_Ts-ERZpv3g-8D3XJsS9LAKw3tfmqalnMYR1mwPOx1qR12-s4pKAKlgdyf7Q2R0KerzgltcMk3o5C2cqOlo0O7EhCi8mRbBoID_3csMI7q0SXWGhSfACOaAuXsNiykcfTB6yPM-a-J2Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAII6TpH4nm40bnnFQxE3yA2sCs1r05miaueP8m3sNvFXc9DDXQRAhcQVnVUBOXMdLsPuyx5ZOq_uLNvu7r9PRuftczQXJQ-TrzmKdwXXMKDpOulH8_52xikUWdx-7l2l9EhAOUczI_t5fQIHltAtybnX1GhQEfbAe2_id-eRr8q3b-LwBrfA6jg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAzqQhRkCHSCkKNDH7Kr5M_ePGRmlbP4MnaPq7sCuUJqXmqYbWzYwtM_RaXJgUzIUmlf8Vbj2kxI0PY_VsIwGeztqzKCwGO8N145NVMfdiyOjTlkAb2-qz8jpTKcYF2D-GEhDmxvNio6EnpdQGTkJYKjISGhT1xOFNh1YLcRVQXdUabSnrNW86Xw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAGqrG7iNxKmaiWZ6dI_U1g8JwtYrFQTlfPs0UE1JWzSVmKWAUE4yGA-AJANd8HESyu925QHCNfs6_ZnFxC_eBdcJbnd0adD9oBVU2lji-ZdxW1wXiOrVIw_PziZu-3Ml8EhAKEUbQYz8htj05s1r-4umxGhRFTgXTxOcwp7zWjpEWJPBdnDvS1Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA8BrtOpX0zM20NE4Ki712eqHjuEyFUUcatZ2ZFWHQ8yTcDcIEZlfCtQAgBOF2zD5K5ewURWIPOwuU_NEYcRlZSrQHfV1BUNxWN98fX5w2kCoz5LcEy78FLUTII8wdl8OhEhBv9_zv9WwKxHZu8zqKtWOIGhQmLykZLhFtabFLYVXdgsrRqtA3eA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAmnkkYvXL4yasbSZVLo_YvPSGbHuZdG1AsyezoYdr_bmwuyMJiR18mqVmTk1rOqwBXQhgyTz4PGCzdDYVTR15IQFb0QG-DbCDLD1GeAeHrrP6s6okNIasQNtmT8bUWnG6EhDiXqAhA8MJMwvXclaP8XwaGhTpgPWu8dc6z8AHvqQqnddbEhwgmA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAGFzxPWMr6MBiLgzG_8rk0Qb_l1bLTDOJNqC9BQFFSboWBMXuoRhSV2M1EhFuI-R5xp5gIAiZwBJbDdyCLK_CTbasvgwS6dl-FM4CEA9b0eCAXfYm0CLG58vPuHqMv-WIEhANkqtbXz9hbwBdmWQThd8IGhQ1PTKYoUJdpKbLMB0Zgsk3jnTXVQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAWokebNyYxTeizcrX5alaNSpcVfakmkq6UB2bP8g8CDQ03Yn1sao8RuLZbPpKYqdS_tV1-p0QoQb3p5NEoT6i4vjBNNjnX21l_NXgEfQ_oYt-5AhqiKeWDLsvrIK5tHqPEhDR7-ing1YdC8oMxeRlI_efGhSqWeN6qBp0gUbi0qAidyOW2PDu_Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA4WzfD6hD6ps-xKtPhPttDL36bR7DIt3AK50i3dhVLX3g1-EOWPWoB-gobcdVYPVW68LL-ATx8rs8xqr50Fuz9XzpWlFF2NoyLFEDpK-mnCpsActm2KYVIEcv6XUMwi-PEhCb5FikWiyyPFalyJIHk2_ZGhTD4d9qG31jTPfsF7HnI_1sWxX2ow",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://freedomhill.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Wemmershoek Rd, Paarl, 7620, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 867 0085",
+    "type": "string"
+  },
+  "name": {
+    "value": "Freedom Hill Vineyards",
+    "type": "string"
+  }
+}

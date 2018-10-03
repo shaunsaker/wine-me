@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 11:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 11:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 11:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 11:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 11:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 11:00 AM – 4:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 18.957508,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.708591,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAl7HUrd-ijCh03BiQxss21WqxPcTXO_G_vjLTbzB-GV1vrdLKK7ojTKfFTlN6vsgELO3zCtMV6vLQUJATPLcsYpEbmRPjkxgWLIqInNMie-XS4xtvWCvdwFQoguGdYZteEhBF-NWqF8UV-ZHRRb3YfCctGhRPA4vgWO6iEBqK_icDprIkZLiq2w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAsicjNmFTkxoov81wDz3PTvKeZffVGkodQUxFvSv-l57FQfILOwoCMVbn_KRPq5Gbyh667OgQBAkUCNFyvB1iHCwqPkQIRra8ZUF6BZoZWpfzAar5dgZsP_bzD_BhC_I8EhAWCrhfJhx25r-Tw4n1A8s2GhTRaRtHWIFzJFtqwUuzSPTvKMlgsg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAG8b5Nnp2VenWLgc0q6of1TTaPOfen53zl1uFim7DoHbIECpYG8oY7IMkCeyFNE495xKrsrqbOMJ8Tg4GrASfzaYzjZG52cS8jg7nPS8eALSUq1qaTvZKwO2A044A7gqTEhBrNaHhj0yu8oNQJ40exkhtGhQc2XEqCrdcAvnHLwfi15WIoTfMxQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAYbtBOSa5ZxsZq45tpJ5W9gCGXc2pr7Sqz1DA27tSDr5rYnFH8QUIxnBW4IzB3uw3HwIW2F1mjdf7RTPhJcUgR1g44BlsRnlW4P1SrCexSKqmbkeMLBz_X6Ve4Ce5PpSNEhDO2gjzfpisw_YYO1KT-t_6GhQmentkRTGFdj2mheopW0KdmBByOg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAjMIOxwgBxuylD9IEa7Ca4tEzlEJ0pi1oWsT-yKwi7Fe41i0iR8DOUq-z1djUyK_qLxQH5XgmUKdBuVCW0aTPPW0VAM08TqBtLswLRJSYD-XXTJ9VcrbTt1EheyB8x-fmEhBkNmQkQxGtMXSIq4S7--QrGhRkIWNBpUdhunsnU8pP7VSIBSyvRw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAu12QxPyU9Cw_lIVLcPQssvTCzzv0a_EYAJ5M8Sm0PiN_gizH1O6lSfaA_65a18kjO3DmmktLFfJ2uz_N1UjvlLr0fs61smarWyMG1sMzCxZ5cstuv65Vag35Z9wqYyDcEhDL_QuvyQvxBI3x5-rBDtUrGhTdUcK1yxX3zJ8zdVMc_XTmMcgVjw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAWfyM2_1SRVui3Rc5rSuKCb0yXJU6cNiPBFaySpnIAVsxdv36sqd1zcCLN52GK1VvrQQV48orcFEXeCYOWnmi_7vS8ZodHHMCU2SrXYuyATBDGq71iA2npE4deeoN9ugZEhBzRdCTKMZsNzu2LL03kgLvGhRFLkprKFx_HhhTHK6Bol6-4XGbxg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAUwQzVJE201zu7cb4XF3ea_jOt-2KEozY3IqDbhXVFJWFd1Ll3HKblHyyndF5bAU_bupCQ3SScrA2DeU3tNvXeD3-tOWsfRbwt1mC_-XSMqEOERRFOxFOALsntWM-IyMQEhBvJaPlZ_IZfyTr6PqfiYokGhS_7LoBpvWeW5qPMM461biOZINK9A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAKaqYGjaIYYS0u_OOOALAFd1Gjw7LhFnxHMPweEyA2pNKa2P3GJfU2vI96n-EOKHERqkvdNhKau0wQKUJV_53wmqPHoMADR_lO373rdKgtRGQR62nGLa9wWJ7Ux1MoAooEhCy9K74pVXOocdcOGiy41LrGhRG2rk3F5x3hz1xZxEBJc3PE_lpvQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAJQTL4q5fD9A8-qyKBmbsE4qPzqhoq7xke3UApGR4hsyQts3-Cn9fwCf4HcqIQFzjRgGbdXYu2ws0-rujaPXqAuGJiMTrQktoJggQjsSwGP1ogG6y6cj7lKhYrlMoSAIeEhCinqWbcOp_eRjeFMJ8SCrMGhTwaUTynBjGMSYF_SI-7I05laEgPg",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.pearlmountain.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Bo Lang St, Paarl, 7620, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 870 1867",
+    "type": "string"
+  },
+  "name": {
+    "value": "Pearl Mountain",
+    "type": "string"
+  }
+}

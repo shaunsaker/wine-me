@@ -1,0 +1,101 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 18.877451,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.833385,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAI5BMuZUSxJbXAz_t4GKqQYQAXgvhn4pvK-951jRlVGM4UweSimAINxOPehZGDMHc6cMAi8C-0LWfJ8s6Zyr5go4QeW9UyWwLFYwdX4PcDy8xHRrlS77JpmyHJDvEWzzZEhDzmfkmEOp0SbnmroSHxJKDGhSOKxWK0Q_QiPYXiY1E8t_SjN1zDg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAlB1JQ6Mk2zCtMC1LsgnT9_kXxB_uVl4u0WrRcTXac0cDnToylEdVZWAT4H5OsjEhpIf_MVa3iHI-APg1nIw_CJP08B_klyVxrdSLyeUgwBGgjQ3xmYqUCOuNi_t0cxIXEhAYZihWLu2A24WyomIWLWtqGhTcOu5h3SwkJAK67tMBzptA2cap9g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAKF37fS3cnkZXD5KjW_3g_1XOieENsxB9JuNQAe7BGHlLuRF36OUKnbIc5SJF8UbGh9rl9wT2oZVkoPeqjUlHA9ip2-Aj_lBOGVrOGP9Vs2fcuMrrzU_woP6AFnK8lXTgEhCBKCdevGOueu_QTUiQvd5tGhRhEcf6YzXYufy_Y0epS9Nl41czBA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAABSVLzjm_nfEsawYAe2P7eWvnqDoNTy4DH12BRAYKt6-FigZbMZBebYYeXgjPtpnv4NfBbCVrpHRIYHTPY6f6whF63QJiwKl46XGDi6DJErKxs1Tjm7tTC9LKb8hXEwXrEhB89z7b9Sav3_V0Q71aQPQdGhTA9xWN896Jtd_MltVnjxy9dS7Zbw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAAO6kJwm5d_yBCkRrmLcMvY7YwDlhbKcO-y8pD6xCmoSkFIW42LZF6u_lCN9XGgdc__beam1AXIrqT5RVphSYs-plX0KoMsPRoarpoRyHId0KCPIFQVuSzBHuXuaxFRbtEhAZpWKqnRKhl4DJoQr-7gieGhRAmAkf27R_LUfM4zY4m-XGaCkH4A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAFbnObn5uNDuB94xA4d2n_BdbvCv9zz24gcQpmaxvS-9vYFY8xxkXHN7g_V6GhZazw2pp5kgILbORaHAbpflaiFkpqRa_BLeaD-G2OebOskWLl2JRKsq39UFmlaoqzvz5EhARBIxTmi-TrgXKN_GuVtELGhRyiKSUVN_AzmT8ekQkM3DL_iQzQA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAY_51eg9e7zRs-wZ7VvBmbL_PLhQ_Y1KVJo1rMnX0mfgHg8502IFkMx50-kLmneFhj297XWXzf7168i2-_DtEIgirJXN82ZK8RZgn7bbSx_7_JU8n4lNDj0IH0p7udLoIEhAJwq4vZtUqI3NY_rJOQ_trGhQo-UHNjzBcYc6aAdhekXc8ZoTQxw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA5GjV9Jp8CYHTDBhjYBCoVC9JsKfdaFiQZiSwASRvZiozKSBTjXsXT2NGoOUi3jR4OB-bRUG0UPQb6i8S50qNL_oWBOo8_iZzQjRbdO4gXmyZxaOFEISGTw6wBOsWr5OZEhCWlaY4R7jfJHx4szV_runnGhQkcezMk56zjrBRizclk7d3yRpuQg",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.lebonheur.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Klapmuts R44, Paarl, Stellenbosch, 7600, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 875 5478",
+    "type": "string"
+  },
+  "name": {
+    "value": "Le Bonheur Winery",
+    "type": "string"
+  }
+}

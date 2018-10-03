@@ -1,0 +1,76 @@
+{
+  "website": {
+    "value": "http://www.langkloofroses.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 864 1014",
+    "type": "string"
+  },
+  "name": {
+    "value": "Langkloof Roses Wine Farm",
+    "type": "string"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.6041114,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.0301657,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAA3B5YtSf0LeY0PRoICCkj6CYUvTBb4qAKFjqmPVykEcsZd4NQ53ThrmiJ3QaZS8qZtFERuPk1dSPRGDJMPMxSuRaVIcKq94sXNaxJrtCRsi1scHklARhLZzaXd84qrHurEhBaCOiJuB8mpQLL0jEs5xNdGhRJWl0XxMX9ftfwUCnPT3I6adfubg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAANnGGA9ZnMuyU4-UnBRLz9gcGo-n3YzKrdfEbk4ZYfojWkbUGHlSG5gwy7APgndY8AolBxzfiuhvzVelWLDn6dV4T9JmIyeoaSJYkHwEDct9BclHPAMZgINXotxqam9jnEhCagts3VuvIz_uqiXD_6eV0GhQrTU2R6XceLf4Fk7uUcFW0uHINnQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAYycgnaeZk_csu2pbGx-U6SRYjRnbvlloeMlVwlZ1Y70O3bko4p5VeVCHbDou0UWqHXotXwfenc8sElrtSDhWSPfC1Zl_IgOACEZ7Wu6c3o-wVgrmMInbb6kIxa_H452_EhBVhjPHHdnYyOpCD8Zu3pE6GhRrroHmmcmvDmMbidsy12hyI_f59A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAM_JPG-08K8zJd5Lg7wK3lLFvZniWRD-xZD8H3oEER1ytbe6BP1lhEQMh92XQC9vMXHUUm5vV_otGhNYI_hyxzxBDvNDxjYxU-4WN258CutyrevDvyIX63xJSu1Ao4XrTEhCngBvYtVd2sUMAHdY3KwtsGhTK-qqI24EvwCY_N-VyVZg5RQnHHw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAE1OxHTZixOlRh0T3H3j35tGJ3mb8fz1x6Pw02Iq39IhvntVG6U41KrkYMoM169nyAGAez_EFWc6qU7ObX5Ccx76cdOtFHMqoa5P3YCej_kJG4GxuG0wg_JqxxI-aKX67EhDC2VBb0iSG12tl5qcSSoBiGhSHIYnPjCzQtELmFnTOajw9r0aPCg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAgPeDUC5Sa8_-m1EcFvFOTrUZ5Qxkmf2VBQF52TT8LU-SeX9kT3YnH6G9pkCDYHo8j8POal0uXYvA9OM3aNPX1x2bSZ67PRmVMON3V_SFMU8GIkYMFo6bREjA313yUKS_EhCRmqpG-J0XTECT2kpEpf8AGhRpnyn61z2P5Ecv7KjNWVC7V2EHow",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA3UffYzJn-oJo58UklqA5aadO95v5nCiNEBJMzzGb9-rCuwHerOUHCYUxW5_sk9gBaKPxF4M98YwKO7RwW8LxXkBS_REKayySra5tQ4btXGuLj_-w8AMxHmQzOu_cxw0-EhAfKLVnrEUCovlFBUiiC9PGGhREBMUYTGCZnfG5sTT-J0XL43rYhA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAOIqsN7135smaGlvgkoEEUb8Ep9G8dFGEReli2Gpbs64ctprRLdoVIRh4sI7MQ93yhHviFleLxEMMEWa4YrrZuMCykYP9cxD1ram0qtWleTZKnBk859Z3MaEj2M1qv1StEhD8gDloqvcJbOV1KoNLN1vEGhTDfU82Cm14WJ9JUzh-JbxyO2rHHg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAaRbI1SAiPex0iNBdhwz6MniP9EesKlA57DiQAuXKw-l9-t-fi7JR8247e2xJWtARquNqgoaVnhlXLitXx0euppNBI7ZSUz4xeY6eO6ZCPOvOsbbey0rH0XyD3NGKtYNJEhBQ4gorkTeBgsyBZhMXmJ43GhS7q640vmN8Z4tOfuUDqhbxfe0jpg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAT6OhNtb_FDJsFMHvjVAp2GlKfHKOUNrowjzkcPlX1khVONc8KfcyFr3Dvv0IKCANE9obWG3ib8ZO93Qb4See6DPd3BYiWkbGX20K-PazuKVkwl2GhOHOWxnouLLEZGfuEhDIDrf0lI9bMQUFdRb4rfAHGhTd2fqyi1PIU-Ct2-5DjPqUxbvzWw",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

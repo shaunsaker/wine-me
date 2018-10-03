@@ -1,0 +1,109 @@
+{
+  "website": {
+    "value": "http://www.eikendal.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "R44, Raithby, 7130, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 855 1422",
+    "type": "string"
+  },
+  "name": {
+    "value": "Eikendal",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 9:30 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 9:30 AM – 5:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -34.0130818,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.82334029999999,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAJfAZAMxsisCk_SNnHn1SS3mIkAXpvhjNFVWOpbFr9EC9kjKGHvCU0NqWRhsW54eN_ZtcKCsbrsWLzfI-QNRTDckMawx3jCdXp3RQVJ2Z8n1kfJoqxsnZMXKh1zrwRzHxEhDKRZ6B0a8mfuhoC_pR3CaIGhTeeVRswLnLt7DaDYKo20IqMgZm_Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAJSs4Yn-TZMu2UjDqDVPeLYiVDeM1Lza-ICqK93TC5niMoam19jkOojK7nHcmzlL5u5fq7vZKhL50mVaNF37KstUexH5LSZoPIV6NsuF8-xFT8oJMUgJm0cmMZviFF-xqEhAwtMnji7eeuVb-oQIUeqDrGhRFk1eDLKx0qynOhv0X7YaQIV1Cdg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAAAPEWajamOwrpOK_FO6zjEk2NmoKEf-EFjlMOmRE7xidjAs2h37UXw-etFbCyIQtPnhetam0_AA5XgVWHo4z5MT3RlV-DN1EmWDHCYegBIM-r2ehp9iQpK01acTO1MpaEhDBBGabU85BTIgOO6nmb-78GhTV_xWLlQ9X_2sGUKp3ZPiBuWFO5A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAatzuFOdnnAlRGwHtjty-taWSgTslIAe5C8im6Hqpc1zunKptARRXcfB2wK3NNLFlOvmhy5GlqvJdTCYmHW6eF8P15pTO1pMnYyQIZC49LE-8sY8P6HKvnzjj4XJGP7tzEhB3DcWdltst0C7XiJAO70LFGhQ-o_3CpnlqzBQo9nEYhrmzfdVBJg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAlu84SVFB-MPIQCEQW8fr3wDe1Y3_CdVIZwOpV5lMujhay7LcYrqHpUMisakHIvX1MbZg1ck4DVRyagFzwQgyoZZts0MrElSgOIUt_CKfuRlnNAEURzXeWXj4AlTU_gzxEhBPGnjAdzIoH6epFuXh5z7xGhQMWRbXjwVTdfCGl0OGwYZWrNaD-Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAYwIR7iPSElSg_2X_3r1uNsyvJBqJaG4hJUqbmizbdQFssPPtN_gECf3QAVSY8_tFVmxSz2IMLOkknDJXAC6rjWcCT6AUsNIIiZ141socEk8EOrMp5Dl0DA_EYQRnLjPcEhDiweHqnk4t1_L-8nf-Vix9GhQmS3L0C9b_skcX4a5bsFkmUQSISQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAPfwde12GRqi9R0X6HzQ-jiHbTBIb2ur1pz-lE-4Eu8bZQJUjn8KC-0YwqAOaZPyWgfJid4FUgSTrysmpWI0iAMSZDirSDJ9uy2B7BJgpA-RTAIgvWcuGmed4pMWNmTK_EhC-nu13TM-8-yrxjeQiMWB_GhQuHacOmrhlVaTQLbL672yIXOoJzA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAyMGkaVVoUe4yWArgrDJO69r5nT4hAtmD51Y5YN2M7AgQbSyUh574vB-69t446bwKoJMAbpO1H-sHAwmJLW1HXWjSoFMjxw5APpndLSpohM_SqFXnUM6reHhj6GH9kDKbEhCGbNIb5OgAa-tdK3how5MJGhRfk80AVeYTkWFAPq-whTjeOO4ryA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAANTBjSWgjnwHrp-tIfAkkRi7QYsR9e_A-EmdbcLHpBHX3Gss9VovZX7aM7mTG7iNyNsiFC_gSgRjXSOjXj0YckidDKtvg7U2ibTrFfFMrGiuhJgHmb46SGqmVfkMJ0gDNEhAeeMipOc9YHhTWkm9MaXwcGhR3mCbgXxdIpBmp-fuhfvJP5MlugA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA0spj3xQJAYOOLEhQRswr_5-EjWAB6H5Iyai3PblH__N9pICqEO4ZCL1JWqpr0Qi2lobuf9y_hH38ir7FgwxoPxrtdjXbO_9tTTy3E8ydbUOVk0CQXNn2S1S-wzJSJRGsEhCDCX7Ow_xit3iWtvON11B0GhRSP89CWyhr1KCT9GWVcVwZMJgFrQ",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

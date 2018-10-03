@@ -1,0 +1,109 @@
+{
+  "website": {
+    "value": "http://www.doranvineyards.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Off the R45, Voor-Paardeberg Road, Paarl, 7630, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "061 024 4970",
+    "type": "string"
+  },
+  "name": {
+    "value": "Doran Vineyards",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 8:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.582519,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.866357,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAbVtN0tx3jd-vXXWcDNecL6uRiXFNPfOYKfab3Jv1HIqHJMP44oGyzLwtetflWrR9K-xNVW3R8dv8rFz7Hdx_CaCleOQTvi7mqcmyGA7bcZyDFgeNd7HqLMiiJl5AVjzlEhCKoraq9_f5Dng_mwN0aTvTGhR68QJe1CIrXwa7GRogmgooFhKP9Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAjGzyy4k_gzgbCatmBK1GS0w7lLn2RPhm6wl8KHg0AyUOyxfsPCcZqbW2Z1azq8hRpITcGP83QDWvEIqCSJ-jX7N-jeGPA5RPkMv1-4GEK_ennoNN3vpGl01d_z6wvkW6EhDZAQJaHpA_mZtjr1MRY35FGhTlXGafPPyq0yst17Qmlt-Zs2120w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAFxZGbD01TZBxfqwMEqwYq9Ttmf5WgcYOG2jEyVI6e9D_Cf9u005ypYG_-ngL1RaCu2zIGthFS5vcYNQOs-8W3_cefImt9dtrixZ2z5SFAigSHy4xzFUXkpQTu6ta6FEzEhAqrRvHpHeMQrWbcCihkV5BGhRnSj1YoLubszQPASO2DQs3cobsag",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAOMROfh0aZlRMXIy0pHeKeQefE4vaB4KKTCJ0v03Ip2q4xh_iK-A0Qr6M1WVkHXtYT1BfCzl9EFhtFBoYfUU9-i3uHvkxMS3wAo7HxGxwftPI4Yt-xBvMMb-7SDrefXJrEhAI5fxOohYh1qn_uGHYuNfwGhSOYx_Wg5F3NnDH4UuogY-JmyYvzw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAArskyo1rbvLaQsmojHZ_Q4HE1l_iQxwnS4FlEggF0DTg3QTOxiIIqxs5QkQC9kFq06OhEoIut7PUt021om3-uU6H0XlPTV_qmxbxDZ9SExQWtMZZwbk8naQ4vaIPLO8XUEhD_-SO685yuI1ga-lu1Lvz7GhSHiw8YyP9Mj5MMjHJLB76SEWrS-Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAKNSDJxllxw2A-jC2GqIWdan_DsYDlAUhDC-cpU9_eAM9Ne4H3wpo_sKZNP84g6vVnQ41cBNI29UYGzy3KYLlWQ928dhFHwKLgG1ZnMYiwkyvOlu948OTa9rRj_9Zc4pHEhCbP3BN5orf1Ed8k3Ink7YCGhR-AZlIBOn0cGKz4XAMdO_Rmg35lA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAALJ-VGUZAnorsAnrH2Ioq5tRO6OABeE4PjGQnzU0eLsSEIVqgo4OmEU-62dg_9LrgwW963B0-sbix26CYfHZ3Dxx24C8A3N6W18NzVdajAaCYWjj6nNwT7zCEJtnbSRsIEhAjojHh84gnqUktDJ4D-7exGhRV4bc0S8yKJv80hw4MSUbFe8SJxA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA69Pg15tapkeaVmDkeWFTmOuaSiFOCB_FUmOA2iyiYeoRcnP9bacb-H5s22zq9TNfb-IrEFrb1x1-ruP8ak1Pj9s-JNLuxMHCwUgOsDed6C0rlyT9-nHEuXBhvqaEwt2tEhAhOUMMH1MlxLBQ1TgOhBkkGhQvppd2_n-VMM6b-ETlDFihW2nDSg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA-FthU90ogU1Vkr9EYJ3tR-WI2Fsnf-xMF-SH4hLhJirGbdnCwkXVAgCHgLc_1Nw5uYPVbJMFd7v2FxNF-JY3eak8yBSweyDWf0I8pUFY94m5hRoUK12k07zAmar1ECx1EhAqqTkjLFguXIiAtpF6B3NpGhSkL5kZ5bwfh3V7kk7DUx9GH8IJ9A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAN8TAMLSz9J5yJaufnbOgm5S7YuwK0RwmJgHOtyOHcr6H6CdR612uCwhTvnjpnSa_tRmOlCkfXBb4c36zvb6PUqIfm3S-KLckXgkUHaHdg2U-xzslYoyl7jx1FIAFpgJYEhCnQOkGFoOlxF_-rKZYS6MdGhSkl9ebrX_t7NTNIZXMSe_KEqX3_g",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

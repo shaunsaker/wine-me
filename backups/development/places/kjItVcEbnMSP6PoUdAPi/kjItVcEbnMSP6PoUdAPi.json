@@ -1,0 +1,109 @@
+{
+  "website": {
+    "value": "http://www.nuyvallei.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Werda Nuy Rd, Worcester, Winelands, Western Cape, South Africa, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "023 342 1258",
+    "type": "string"
+  },
+  "name": {
+    "value": "Nuy Valley Guest Farm",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 9:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 9:00 AM – 4:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.65735000000001,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.6325,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAA2ML46meHdYnuT1o6HrN3wRU89__2vzsXy5YXMO9QxT4J6qouY50IWOFNUWgLrjZe9ZQfPFxl850hFkGLHYMewa3BAjXv-fMfdLxaQaJrsnctLtWZeVVIX590Qkkii_ZAEhBDX9r1lnOaZ4QJSfu1YDyXGhTzbwhVDOosefPyOt1UE9Y_4GG6ig",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAYPLwFhtFxAwUp96YLX2EF4fScQkN-w6wlzZDxyph9ksXMcU1E6SLmfY6N4yZBlnpmTPVWscEPCm44cH8YtHjCsUjeqgNFUkTpBO13v0Hvv0exLRPsrCNXYhTGnbZnOmIEhBjSCp210qryk8VYSeWeJ1pGhSf9qOzkYvB3sB0lJX-9SQdZ7JH9Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAACd9SxP6ecJ86A0f2PHdskXcCA40ikZNU-eFjJrh21eMAjRuQdX2wrjds8vW7jOTxft_ENTsIH22jOttw0pu2lc2cLzfqLA_R6qs-kT3imzepd0OL1lRYRVMw3StSqqbWEhDtoE_t91osMdvUqOOYeXToGhTaR1jJT-R3DFo7aPsJIDQw-tadDQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAcf9gww8-tQkZZqc_iDTtsUCz-czJWE13ObEvSDvOxQdvhUJOG-HQwZoCg0XPZ7m9TvcPuBav5PExGc6dJHtraW31Z3cTGZUYt7Fw6XKwCTnXuQoD8ULi0absuxNQf8W2EhDPuVd1u827oB1nJN5UnQI1GhSy14a4fNdkl1rVw_JsGEzFspzkVQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAJZ8SI4lU7VtGXV4knvjYghHsbU_od4nffpo2J1FqEOM-mcL0I3VpzLfW5sHhziIGlFkePmyfYBvwHFEjHnY7mdTIJGMs-1sQ7UdQIzxG3C1o1avlB6SpfDTOZqqfMlI5EhA0e9V1XjWav8CTtMu99NvWGhQ0O9JtzM1Bw2f8BOB5fpe40fdI8A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAyGhLeDIgc7kyfYBb49BbSFib8yTne-K8TEhsIR6zR_aKtGcYBEvFTBAdnkfo1Hvpu_t6O0JkMOS9GVOfY2nB8N9aCCPw-69QJCA2Nbz8sdAB3KAYckQzMJ_Qvzb5Kbw_EhChCb6PwFnkbSTtf11MmjMYGhQVu1UNJkGVvRReU3T_anxbxslRwQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAD7WCv3I27DhjCFmF6nsX6cIy1lWqCMMbntV8jVDMdWvRw_t0YsyCNvBNlCnisKSCTeteUsfwyb0vR54-kfK74NYzzDO547Tn0h0zTduXp2qOm-cKUmKsRhODMYynUNRkEhBI6Faq1dRu4HGNAGcTfrtSGhSJQqc_HD1K4MIUShskj0MlRT9PkA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAYV2JF_7TUyNaCZftehctdDxp47xqXtsqA1puNBf4IhFfELy_-iG5OgmqFP90Wb2dtSrLXnHBvbVndeFnEUSUqVczfeybTk4-iGg71B0gjjwqWs-PJSiNcqWRFdlLKPyoEhDcFnGd05y-yUL926emQ4WtGhR1dEwanP4E-6pjnpNvtZgmmob73A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAALgUcgc3Y9BrP8joKTsnJ_P3nlJe7KMcbb73TTAYiaMzMbPrmbTkX-beKUD0vK-tw28Uq2SGUd6100TgeZHJja4Tn4bnSikQ_BRgeg-347cP2oHHiuQGd6mEPSdGw7HSjEhBqUTxxQNnW6q8NC449TnbRGhSkihHeKKKShV-9xo-sKuqbEgcfQA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAvPKmyIrl9ka0L4jtfPk2AjQTKNqkFfCKX_OS9lHsQdPcp6_OmHXworudD-JENCJ1OGQTULoQaV6L9nlFJd3yjQcQeBexIC1gJDj65okVICE6AtKWznu9FTQXhSMgKoS6EhCKp89h_Zszv8LT3v2jx4WdGhR2QfpXUaiqSUJ7z837O2HDg1jacw",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "website": {
+    "value": "http://www.stofbergwines.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Stofberg Wine Estate, R101 Rd, Rawsonville, 6845, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "082 928 4943",
+    "type": "string"
+  },
+  "name": {
+    "value": "Stofberg Wine Estate",
+    "type": "string"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.67627699999999,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.301686,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAsFtWijho5AObwOtfg7IQZ7v4q2o1XX1U0OL4Qw70zIlcy5yXq5Qa3AzBRrUh36dbGzItMLQlcH06qfVFA0mLbO_irixB4JwA-ReZqqaWkaGPA5ziZMyc6dUBdg3FMGkmEhAbFlj3WZ3wTWz8GZTzYpkSGhSrPykB6_YeXYEe4_2a7wbmWR2L9w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAdqQ8aomMVJ2xx0300_hdb9oqL7ZwanjYEL85fwdaLf-VDFC74IozYVJ8ITjDlIc7_tdfTFgnJ_9SQF9yz3xWOwdJh0DliwMMlMFWMd7EJxZg6ZyyYePOb1-m68TocbcuEhC7cGJpoh_0sPmHhiJFfM1IGhR-Ko3hvvdzekVw1SWjmA9C_FkY6g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAwDFOQjSn44VK7Em12dBjmo3muTJV0lDumAiG0UiROGIs2WK7mLiA6xezEamF3N05yd6_S5lnANkNl-KiMGkeu41NzTP8M5EGRZ1KN_-6mqMo7g6RGRT0zN9jWjEeuU6kEhAEpQMcAVYcGDHRV2xeYMQzGhQsf637AAizdI9LPKAwY54ffuEhTQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAfQm86-alVxkWDrF1VCun9LxJQTEIj8AFZ8o31yR4n6DGmpIdlTrUBVBKgF6MKsgVBVrJK7nLquKIdigFNOi4nW08021FecOB38TxyhKoj0sFF7jYSJtCU9lxcpL8msojEhCDaoAaKkxsDYmM6RI8YRn8GhRPPIsWJn-nhzMoP981TmHcXRKwxg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAkp-yz-w_6Reg9y6ngVWod-AzB5yNWFhKaxSvBE8K77Bbj6lazWUgwMhWZDwgDWqlJvXE_UiMD2Xcew2IWwv-Zn7BNneONsZQJJzArTbICpKgaj1pbc8Elq21nazLbI11EhBZlzAGECah2XMjdp0qdpQvGhRBWaFtWTW5nBp2XowgkD54T10wow",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAFblozKq8b4zr5pt3Y3L7-YWlUzuAiUv6BxjqUr1MTBFwREfpFVuur4pbfZJv-zbv4VryIlcxBtx4MmfJ3bU3eVPISy582auFg2F01P-XImsgA4IG-NzthQK36Exf6gjbEhC6hrdPYwv_gnBa1GjFUiQrGhSLMYb_yY0CTiqkoGIfU8BpJBvEpQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAotuHE6GyJd30yN4Ng3iTAP0OxjZlrLTlmOdA0gPq3arBPXkof4nqN-OQhWadPG6onk42uX1lpojGUBAQc9JUj3j9Zskori5jwEuW_6ntVXGTsdFppNwW5gyZ4UCBv2NFEhBCFxd2wF6DbAofpO-T3A3uGhSZFWYajwI5JVVvBXt2_udKbkeXfg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAphDxq8jPpXTY-xcmvTtnnLonomJfaHocvLDQabal7GQraIX3H3EOjUi7Ep6z5M5EhdWGfiRyBfnAGHOlqLiYo3FWA0AVhuJoemt_BZ-gx62MXJu8vgX66fEolsd23KruEhBQSzyt8AsKfl6gACutINfgGhTDuX8zTmyskLWTUAmNEDhFiXnBbg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAsieTS1hkRwU2SyCeVBfwUb_SEgi40-Z9UAcK9Fh_p0tzf4COh0b34bMdMncUpxeEb3yoVeI4f2aOrNBIs-sLTJLpk0QbZfR8JfU8hKaZLGtAiRr4CpbhdQGD1HBbz-r0EhCEq5REbT8yqXkb-4vezBv_GhRXwDKLcmggMOmkVWKrVqnPcs4uog",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAGLm1rTL-M9ESl99sUAwLOOcSl25dlTR-S8mAuRRdPt1xOwJQ9N7IdDokquveMUitQAbUYp7SL85v4TfcdJ-vQb8cGIbXBurOvgCA4INY7VVwV0FTKvpKnFSA22pCEHgAEhDpI9h1Wd9gORpk1OeRaaukGhQVYgLqoVjfr7rm33rBnmx1I1h9pQ",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

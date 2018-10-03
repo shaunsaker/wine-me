@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 3:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.9878332,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.7426462,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAA6JYFh13KxozJV7CEBzs7TPb9bWQFJB1DUNmMUXNNQsE3GCuhqAilCyNjPeNL-jrecPi8ooHR5oI22crgnTsISHehhIJcqeXelHiolXfUb4nMu2dRfWQIpXrcC7Ho0G5hEhA7CvD_F23kN3iRoFme_AUCGhRYYzSR-vRFQsdOuvJFIGQH9OqD2A",
+        "type": "string"
+      },
+      {
+        "value": "CmRZAAAAYd-_FnryZeBqfcZQQozBdQj-i8UDnKNU0g3hgP7QGbFEMtg4QnU9p86g1XGJ98YOlbl8bnYe2NlW-Tmz2GTYSGK36LXxGnQJKh1HJfJFNEFE6bAFgvCXLbSvu9rk3JLcEhACh8PzAIyg1m7nvDe_BfFKGhRRFll7aAXIb2eK4Ojeat3euABxnA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA8B_Dchj4eJXDnwXcmh1QJsgBRS2ZKhRJy8fvKDHi6OCJ3-vCejd1ibxKFqyaD0u4_hxZusBhDijCkclGYBvVyobt_1Qe7DUBatX2q5ZyzMaC2yFoqigbZ6TqpMEYyShLEhAjp-2JtBJGc31kGh9CQXhDGhSHLp0UzCTqssae38uOqNQshKppzg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAArVg-qeMhJW-sxgKTOdScVk0wHdsCkm8H1-Zul0g04B0BDXIBEUEhTVjTtzVmD70xiS768BL1FWb4-sBcaLYE_HOGsBmvSLEzQZMJpvCSeCMlVl3OR1qrqQX6JjWNgYsNEhCrqeaJ7_fRBSM-NQFUZ0kXGhRLhKuwy9P-dNVo73GxuHhA_TznnA",
+        "type": "string"
+      },
+      {
+        "value": "CmRZAAAAsl8zyYRPYSj76pWlH93rQuk0Hiv4OQUakWxDjc0wRFH84AwWXKLLWiIkpMNixZ7rnUI8rLTVwUINxnhzlhZ28ruXvL3Y0P1w7a0pDlhUGVDLUs0dmY2U9pPgyrTwaNQzEhC4RYlm5wZ4u-ubDO0yh4RWGhTnmi9HsaG7BtEZuleR8lBmy_d8Rg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAApDxViJSjJvpUQQhWc949umq7VdUFPBL733uGwOB47HssxXn25yVcOmmyRH3T7QG7no0qOhZlTcF_0jKmbsu_aij8sOcx3NB7If319XarBehQ9mcM8AlT-wz2bm39Ru2gEhCyuQLpZdo_eCTm-tGNsEyjGhTS6VVxkGGz3b3nyyflPUaG-eqliw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA4SuVHVHGmj38a472ImwiVv-IlyGEyWFcQg094_7bKR4RG-RWqNTi0eVOWKgAHN0Xvc2CzkOyO82kHy2fKRk-slzEzK4VgMZJQZhLVPQvu5g3UT2wHlbRkxo-iC4s2a3kEhChZHQvUzw4o5IYidvIkdsVGhTdN9TZp9gEjv5rBl99HjF94CvoSA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAYH5dFRmQ5STjSTXk9pZuIxxXAVuif2dli1WoUBBqmqgpKfERGsJ7lquck55sDq_YpU2U99tjPwduKDjEvZ1ynvMeUlrKqLDxWkFZg8OrW1IZpDN76czpK0JC2JWyBZ5bEhC8z-yhbD_-oSRqCAk0d7X_GhQ8NDukDr0KWQcXWikjw2BqczzjYw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAGhTeCtWotSbEJx1Y3hkjLmgd9RA2QMyvhY9nSo7gdz51blI5zvqv1t2vQYVlnfKRUukP33aW5Hfjtmsf_RovFxlW7llahUW7UkPjdNHiBRwE5lZhyTkjD3caBAsP0qQYEhA8j3lt5sUt_zJbb_dsz-WnGhSKk776-W2gieWzUOPipeCClT08sQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRZAAAAUlVqcGLk0_NKzZ1iTCEcdBmY4F84PVRNPf2inqaI8vQduxUHwSRrk1bkvhEelJY6EYDcW3LtOS4FTdT0tnYoUKYuXBikEjvZStzsfUX9bk4pSm1VQqbZp2oLwiMC9Br_EhBkszEVINPSSaTKMDMsD7OrGhQsWHr4RX6wSiIzuW2Zf1I33NKv2Q",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.lordswinery.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "023 625 1265",
+    "type": "string"
+  },
+  "name": {
+    "value": "Lord's Winery",
+    "type": "string"
+  }
+}

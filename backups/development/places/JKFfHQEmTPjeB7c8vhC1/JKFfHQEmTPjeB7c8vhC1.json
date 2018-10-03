@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 11:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 11:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 11:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 11:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 11:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 11:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 11:00 AM – 5:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 18.71879,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.94674000000001,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAbd0a3HygGDmhzEee5pauk1B46lCGJPgBl_JAEOfKd0R3pNSGoH1VW8scFEfZSyRgebUV_Ogo6JVKGS9wDzQhGUYD2ggWGtJU2IPaZU3F5sclBWMBYk_BgXx45Y0zdPdoEhCkDK8lcoM3yDinmECroypuGhSLdXj9q8K6bakw7w7-j-25HATPLA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAewlKrmuMEcwCXBg6jlZzpOBB0uzBLB6MTdQJmeDlNRbtR-cJh26_FUPktj3fVwjbDSMA_fU23vMujoIS4vVCZl5LWaCA4CpSiTV3JX0pPeBIFrACFSCgB_J0la0zcieQEhCwY7i5sCW93rHkKBsR6ZvQGhTl_s-66RJO0Fm09ijYteSEAaEewA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAk5PxRY0udQxvnxIKi2GbGBwq5vHEuPR0AjjHociIooihdlfC1Tm8zuld0hFEph5bJ3arboz3gjdhZRCU7NeBQt6HQRxzT0Zk3Hl8YYxv5TDMgYYmgfp4NYu4j1oHfk51EhACrrqQfO1a2rRBLdPMsW9kGhTeUA1LUUg-gkLN-lKn8lTTy5qd-A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAe7-JbF73kshJCjSBMTsrlwsRGqtTcSliLxodjpXNTUaZ5m_2HUh7HXFVW2mEdomkQg-KggSzjUgQ7bKuFLe3RNISLQhJQ541bgYXXh8wcZtIMzDOvBAqQhGLTgItw0LIEhAdhR_aFo6tIVtMRq5S7YhtGhSz90HoGq7fQN8UgHp5duqZE2AVIQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAyJlNF8DunUB43yAYS3U8Z4G3GcrEn650O2ne5FXioOVbuld0slImlzZoIfdq0mAG511cdGvFzo2Fhr_ZMbcoAcQh6la003HK7IwcgWsBOghWTgg6iG1lOg7N4Fnn7hnTEhAdI3-HyK3R48XEVhFYD6EVGhT4hP4yqAjr84v-1K-AEZEGxwMhWA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAKSvOv5gRHrlB8GqAb0xWzPeDcww6HLFVKN5aUx9RRaF_en9LMGNyFWfGgsAfLl9af_tg0EAytU9PEohxurlCxxp1Tu3K2gUcoQ4TdNVd1YRz7yDk8NEWlZPON_iv9g9oEhAFx1CTi6t6ay4oufl8XJojGhQynDd318PXL1JoXtpkWJWh93EKOA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAEBcLBjFsRRcot24W0no3i0lgEPi0egz-qUnZt71SWjnrLdUEkYCVu6yGakw6x59yTT3xa8Nul6YZEfwZERMPWLcoGXmQWJ70H9UBUnOOzruJv_rlA9kRkLvCy43kLhKuEhB13npTPuTwv9Cm-ZkQdWK_GhRH9tPVtxqu0b6YJj4_lr_tgKjTwg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA0tdQAAEo__zBFv-iaUP9smgROibtwS5Yhqc9lI89p-wNLMVj6DZbSvI-PqIv45tsdJx2QArTRsEC01DpW7yIpnESFy7d20jix3xw7_D3B52IvX8FNqHHKy5jME2DkwjZEhDpJvwWbk0W4cbcNedxHYiXGhQZGkjF2kA2NVRVXLpE4LDEy8pxQw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAC4tJxvEal_V-RT6tQRCRdHrzgx_7yL-sP16NPvGE4OKW8N5ZvE1PvcWn7qo4p-8x2zuZmH7SSv9yOkMawtVp0IcgvYvPIPBIyQ56hQ-fBdrdJGnns9q9dk3E7HdLwzHcEhAnqkFa5oweA8xi6Nig0oifGhTFPsu_3yVewPYdOz8RcM0rrOwBIQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAzxN05h15RwGDAca_Njl6FSv6VdVLQqMUetlpVqx57n4KH63565tdkbBi2J-yeV2jq-0PjTJkWZp2-zpootp6c703XgyWKrabj6jU0WRiLLdkmQnTuTpRG2YjYppG0NigEhBoL1UZWY7DPgcxGx9km6GbGhTEdSpga_fkvvRnq-La5dVChjmPnw",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://saxenburg.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Saxenburg Wine Farm, Polkadraai Road, Kuilsriver, 7580, Kuils River, Cape Town, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 903 6113",
+    "type": "string"
+  },
+  "name": {
+    "value": "Saxenburg wine estate",
+    "type": "string"
+  }
+}

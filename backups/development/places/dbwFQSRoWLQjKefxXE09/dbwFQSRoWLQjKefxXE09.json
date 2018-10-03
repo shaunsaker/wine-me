@@ -1,0 +1,109 @@
+{
+  "website": {
+    "value": "http://www.bellevue.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Bottelary Road, Koelenhof, Stellenbosch, 7605, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 865 2054",
+    "type": "string"
+  },
+  "name": {
+    "value": "Bellevue Wine Estate",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 7:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.879866,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.763768,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAeOBo9uBDxnpR2I-3squKFMfj-XN8aL1lb8l81pzqcRTIm7vQPf1xFiv6pT3ko7NXxZX2N2I_9l1WQpLLxftw1z24R_zcYc-FLetP-IB5aeHgBt94ky36w9b8RMy7k1jiEhBjns8IZJ3aCQ9LziOHCFXrGhRR9GJYCunssOJXdDeIAFmnezwgzQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAEMj19kOHf16d0oLXVnVc5JrlDdZmElgDbrj2iG-8JKUQJfL02ZeHFMgmB3ozEWabm0aDHVkbmgNVXViiEUvr3ccYlB1hLTgwXbGaFlALZPkTd5ETWhnqwdBxK1PDXP-yEhD5aHg9fv-ehSNiMwR4-OPgGhRMCZZMsyN-HP91-fQigdQB-pLqwg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAMNK-jPDj_sN75YpsAFYUDlyFoMjRzfatNQz-L5dChVp8amu7AB9Nl8NJkMp2JdimdYywIdSOJ6IPzVo_SJdVhGfYtFEvoYUpooErgTX9pa7WTS03PFXsWiRbeZa3FlkOEhDBZzkU56GEZVTGu1hssCrYGhSF2gW4qy7H5DIJfN76sssuGjuTKw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAKrq_ZSyhpQ_u0VT72UfHFO-QKa2RtXzw0Em__Y4I5FxhWe0j8qA2UKE0rmeLn7mkE284WoaYMBTJyh8qBYL6c47sRc6z1ctpar9_4DRapVt_DcXiTB_HBpDpn5wvcvIfEhAG80muVbbYbi0sSD4m0Jw5GhSlFswpEdXUXzmnCYhA2nLuIRynuw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAQsFS7s-cOxGs-Z9h1lFJmOU8A_ahsE8s-OLBvQecZDhreqS9Zu4sBHz2fB6-gNquFDfsPYmxm9GATOi9cl9cxAEuRbgP9kpY_qjhDfEqRNwSz1DKH2_do6DS2rinjk5lEhBOBYJmGZSdeRg6kScNwcV1GhRnXLgHBJWhmnrCIDkHRhUEpokmDg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA_rLalLkYAevccGWyqGGtmTPBkLUAEPMq4wT9BFZW6mZnF__DMX2w86fwG5bY28piBk3M80OXfvQ0a9OResRivHUFTjDwD8QnqMg7rW86WPnO4LB1KpbSiKPHXzRib-6QEhD74GpervweY7SgD2aCYZ9bGhQ-J4PKzj6I7TdC6JPWn23GyaPo6g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAACw_FC_Qh0BFoMUkhkrXLeARccDEKOGuppkHmdhlsh2BOgkPI8HH5dJp8FXLioVwZk2eP4FK3q5mcXIa2w3WQuLvr0-U6DzOb1QttgkVE8FbXECERQukw12wo1vvba2LdEhBmEoOoRKzayPep3JWl_JUFGhSznS8VCSEIuQcMB-iBM8AFcxgYfg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAkhszAlzcIVAsGBQ_oztyUW7COq03FlCII6oNyqb5vGxRbMtLaupX8zfC6BZ8VDQh7cxgO_uKYdZhJbfGNYQ82QE_MSnyWEeyaNMw2JFyKFL3HIHv9h9M2dQkN-BgngxjEhBS2N75tkvniReWqPO1HuYaGhR4fxRqVKR-GQL7A45kZEowGPxaIg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA2O_u6DZ1l5QWKcONz6RsGdE-doDs_NY6I1KDC4iEt0f_CcKrpgxwbBfVSiXegtaofEBgt6hCbz0mwDBgo3ssANFAt-XC4A1ZoJ1gihAf4Zlu81GZHPT91pa7BaU0U2c_EhAv_utP5QMnU2ldwtEuMGc-GhTbfAEYmlNRiaktuyGOMTXDYRtH3g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAchQqTHIk80gniFkVBhSAdB6LyVeXLbsIdp0I7nO5P8-ivPDXp89-0J5djEpTwlt9Lm1G_L-XGgIpNFU34RGvAfemp8P8UVFucXLsvaptNzEhYMfGUBTHAWOp_LvqWGi-EhBlslOTM3UdgsgqoJ6B_BstGhTeY_NbFYHNumlafcoR4259rKGhtw",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

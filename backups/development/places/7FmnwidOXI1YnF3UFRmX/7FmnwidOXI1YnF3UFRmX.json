@@ -1,0 +1,109 @@
+{
+  "website": {
+    "value": "http://www.vnl.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Intersection R45 and Simondium-Klapmuts Roads, Franschhoek Wine Route, Simondium, 7670, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 874 1611",
+    "type": "string"
+  },
+  "name": {
+    "value": "Vrede en Lust Wine Estate",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 18.95328199999999,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.837422,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAo9C0NL0pTZFQXH3iwK6vhOQbxGETxKgSFMtQpusb09NJvPjnUVk5ROuHvSud4JiQAgQYQTOy-KyGERXaXnCODxNjnAdEzZenJUzpU6xWuSC8ZRLvNbSrPXJgbicwAcAIEhDqiq48RXYOiuswzor3Czs7GhQaZFcfY4FdPbaarhErcXZ6Vs2FKQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAfeYEN_4k74BNAyrAg8mopeAXQJhM9sTBxbWzXZijhAJ77UYIVBhvlss5LwA_IZsgiAxLbF5jYHTzwZQ_aFkUBljEhLkRF9RaqnLq2GZwWxsGXA3UjYrFDBx72nn18lk_EhDk9XmZiQgWg5klchCn1U3eGhQ4pOTsvDTwI6ggI2Sztqv7qaE7ig",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAnZEaz3_X4cJHbupYWOSupNG8WShRxSjcgWQjkPa84BmhddgeaxJd_h3KpQqhp5MxqXGuaWdt3Bzl8_lkv446kaCedD_8Ykvb4df6jSfPiscyFKPG760YBIWquIx0bzGqEhArbReff9sixsOyBCbLmu8YGhRPRqFyAC15zwMEkOkk83lZ28Di3g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAgMwTtmAG3jFwkSecKA0hHqX-V7be2cQdDIG5MWPFf_a61Gm-ry7ISuv3YvLfzNkroZqEHnm33Nr4yq-7nC9cHYAJzMczPXP8YSYRLlmzJYF8cB2acGTovt3MKYBHk-4nEhDPXs_IN7JvlCXQq6e-0kFwGhQraWk5ImqKsC__gfilS8XCTOT16w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAWJAZWuQKu1wr41LSwTfrjWXih90NuW6THS0zJiseft8S6KdTG90xsjWstrigwe_w24j9mgrumzL_ANds0dLYYGowvr5e50BChpeDknfea5gFelLNXrYLqQ0u-qIJ8Fe6EhD4fDgg0vm0eRtyUy00KgHIGhRCLCJ6cgEon3E93rNAMEh1G18fvg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAgIrcPn0svgNUGGcVPLaT4MepW12Wd9JSEujbacK79txdO55LU9Zb5QeL9oeYsp3bJ0fftTZQWNruTE7-WZqHNA_g7dlGExGZkJUYAEsPwHKOfw1Qyj-lBKKVskv2u0t7EhDNYisq14flYqV_QPpY8wgpGhQk-W-yHAsAF7IMlCkSi79Q8bFSrg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA4noMNJNvfRhh1XmQATBMy6vL4mYuyo7CtGy_0YNCkVuKMuSfEImbFHGQZO61d4xOoz2AXPw2Pfl1K01SiiJ3e7RzKfAiz4zbqGuiSHIHLgRLqVAfOEPcgGD7La9nx9BmEhCZipT1PfuPs228L2A_oIWUGhS2pRljguZ-jpCgyPp0llk9lPQ3Og",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAxk5QvhoLkKmfRtZaS23BN8G3ATqAUkVo_FGyFnSiRVSY0qyFGdNwYU_bu9D7NEYOY4yChDBVtOdNF66ejJcZpM5UyL_X_TStx3A3usSmjz_nq1FXe1NH5-tL7TCOLh6CEhCp6U2qkOOsZyD3Zk4uYLhqGhS6szAOYlhFr67EI9Xyx-HmZp2JqQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAygZFYAMvY7q3u69ma7vUpb2UpFdOf3yaIYuJdsKcEJvm15TJW2KiTaQBmZmcdusKn7Fto2qGkJKzNk-nsovM501RDYEMYRTmnvVCAjjEjLk_y6e5AZf3QDK51feIW5HSEhA1xhPWg1bfmKFF_agGE0WnGhTLUF7cuyfFV2CWVWQZDueAHRYJ3w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA-w6mfi46EWVXYb_Nk8lCWo_pICUiNPFAwWRHXQzXRnunddT1Zgd6JUrdSGqZ3eweLoMD-cacQlfIhxKJYyMvhW-JlKUlfIADsRN4CXeMeSibFnhAHe5d__jbhJaXiJTCEhD7zk_Qz8YCUJ-rdBR6zmp3GhRaXG_CPUP6i0TbDXgMwDWStTU2hg",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

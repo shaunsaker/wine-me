@@ -1,0 +1,109 @@
+{
+  "name": {
+    "value": "Simonsig Wine Estate",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 8:30 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 8:30 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 8:30 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 8:30 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 8:30 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 8:30 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 11:00 AM – 3:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.8700592,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.8254192,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAZol8DfABrAD3KfSqfzj8r_xpZmmm1QkPkQSP8fMfynZg4J89o2mMsdJWlI6jpr_fNJRyFHSK0nO7vSpHa8sS1OTSCDMHgtWb9X1fmB0bfa2mvW5pPWYItwkiC_ltfCgpEhB2-VwZSJQu14kIgVb4uDHKGhQdv19tZi3maSBisTPzwut14fa5WA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAxnVlzvWmmAdxvZkl-v6hrhajdQe6OsqHN8e-E1je-QO72hCCDmHPgcQBeJFSZAcH6VtWtf4ARZm7xjvi_UuoUIhgPiaQT-hRlAHCgk2kx18tVK30z1J8XLdgr8QlE95ZEhAATJ1Zsv1ImlzFR5EHC-0FGhRFcxndfdqpgXgPUmBrwjprPRgSCA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA-RSbnbr37AcKptkm4LOl0ES122JKppNHKageTZig5a5QlIg-aIw3gqo_L8ayKcopS_rPm0cO4vCvTPntFA2qooS-d-M9A1GVBbxWcsUD1j7_UeCrPDxnHO1vX0Wh-NdlEhBkQKwFjVXforQ6gmBbTHNSGhRaAeH-SORq7ZTeJAKJVQ8BYj7EyQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA7ZhbHu5RD4dlK_Wyuqwv0en4Wnr-WtpyLWDgaGqTIRcGfLT2WZLgEV8g3e7lv_mDPDZ5w6EITdY7pfng8tLFLcsNot4U1-0NCLLr2o4VfUa2nDs8stXoyf4pshddD39EEhAosI3anhILcl1g2PqN09qEGhRKojaT2ZNcg7HdmMHfxPCmXJ_dAA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAApQ6jraLMhjqhz0BtFN-3C085EXWK75VgPWymw3Jku1oQUoDAb-AYK_vplM29_omde3TBjpWO4JHZEWv7kSoAJHLXvzFOIZiPRZQ4FL15VqYSQ3_jwpJzQY4_rYlypClxEhAswuifu2XE6zxqsR4ovmkwGhSneq5Ewm0mJsEr0lK9uYxylQW7Sw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAKrjRV-vVhS0yR8NgaUz51NslSG-hw_pCmkmO20Yh30RFFsdQugKytF4SaKzBSvBbwN6shdYlUXAPL1YlMVcoVyWBz3igD9rTMmwQnaJpkPq6V4nmcFI_7FLzcIWq72lLEhCRFIyYP3CL0zdlgthaCq2uGhQx-Sh8gGlyCmTaMn2saFgbtum7DA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAIx_QyKokU4vjD0tqiLHAlOdsxe7p3hZWRGmIvdtr_xqjcSEO-um3LIOIp8TlMtM7QMPWI8qAIGSAkYZS2Tc8aEt1xuldkyWYUxfeG21aZbzSXDvX9Z-CyTjc7rU9BU5XEhAn8xKmU2bQ59TenP-oJYYZGhRyJxXRCOYaG_DBmuax3R_ecsTN-g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAkpKBEx-rY4EihyktZYTj3y4V9aoSatpXGb7Vmf2ffkTMpfOl39nynNFm9e9_KVYtFNwxUeHyyrZKSi9MqqYgIbgJiekeDfxu29bBlOtNKHoxGJNRGePIBRlReQmGXzmUEhB7Bkic5HV_6wbG-Xuc0usjGhRn51np1PRgcBRz_ofHo0kX8TgZVQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAp86emajmFUn9lG5eL2B5bfKaa5toAAaVsgT5S7ni6Cl53zLu1Piok3c0PJpQwRsjb8ZmjHlCbB6NVlXdM9KskgYNIwUPwLjAc9K9OhbHQHh9RHNazVmD1-84ETPLERxEEhDRn7Bdao_u_VivJCQMR4YgGhTFDEM8Wx8vTPYgXFAZWmZ0OfOIeA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAKYbAs2fVIidGKQH56lhsNsTSyxxiemKmIPTeHwIclXY_09Nm5szwZLn2ysaWjDiNjGLB7FD_laCSX0mhXVQkQcC35xx_NtXm9dvxgpPsRtkKR1-Mho8aKTWlq4T_Z50sEhA9wBmUlx3WHNF__zRKXLqGGhQ95AnTvXqYy_vEMOiL45eXf8R5hA",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.simonsig.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Kromme Rhee Rd, Stellenbosch, Cape Town, 7605, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 888 4900",
+    "type": "string"
+  }
+}

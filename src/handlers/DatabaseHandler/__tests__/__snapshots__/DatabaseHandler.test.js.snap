@@ -1,0 +1,115 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DatabaseHandler methods should handle syncCheckIns 1`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      Object {
+        "meta": Object {
+          "nextAction": Object {
+            "type": "SET_USER_CHECK_INS",
+          },
+          "pathParts": Array [
+            "check_ins",
+          ],
+          "query": Array [
+            "uid",
+            "==",
+            undefined,
+          ],
+        },
+        "type": "sync",
+      },
+    ],
+  ],
+  "results": Array [
+    Object {
+      "isThrow": false,
+      "value": undefined,
+    },
+  ],
+}
+`;
+
+exports[`DatabaseHandler methods should handle syncFeaturedPlaces 1`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      Object {
+        "meta": Object {
+          "nextAction": Object {
+            "payload": Object {
+              "ref": "featuredPlaces",
+            },
+            "type": "SET_FEATURED_PLACES",
+          },
+          "pathParts": Array [
+            "featured_places",
+          ],
+        },
+        "type": "sync",
+      },
+    ],
+  ],
+  "results": Array [
+    Object {
+      "isThrow": false,
+      "value": undefined,
+    },
+  ],
+}
+`;
+
+exports[`DatabaseHandler methods should handle syncPlaces 1`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      Object {
+        "meta": Object {
+          "nextAction": Object {
+            "type": "SET_PLACES",
+          },
+          "pathParts": Array [
+            "places",
+          ],
+        },
+        "type": "sync",
+      },
+    ],
+  ],
+  "results": Array [
+    Object {
+      "isThrow": false,
+      "value": undefined,
+    },
+  ],
+}
+`;
+
+exports[`DatabaseHandler methods should handle syncSearchAreas 1`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      Object {
+        "meta": Object {
+          "nextAction": Object {
+            "type": "SET_SEARCH_AREAS",
+          },
+          "pathParts": Array [
+            "search_areas",
+          ],
+        },
+        "type": "sync",
+      },
+    ],
+  ],
+  "results": Array [
+    Object {
+      "isThrow": false,
+      "value": undefined,
+    },
+  ],
+}
+`;
+
+exports[`DatabaseHandler renders renders with minimum required props 1`] = `null`;

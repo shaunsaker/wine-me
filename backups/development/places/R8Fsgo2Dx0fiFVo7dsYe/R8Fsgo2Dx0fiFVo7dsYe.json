@@ -1,0 +1,109 @@
+{
+  "name": {
+    "value": "Overgaauw Wine Estate (by appointment only)",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 18.79302599999999,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.94790559999999,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAARc_LRTqg-sp6S7CHhmmb706254QF1lbfXq-DCStqrUbyFjKVIQXmchU4eWD3HxIaEyy-u2kXccYJx3c3QUxHuJW9Ff55JIVdC05piltfqmDEuSDVKWrd0mWx-4VGK-j5EhAAM0v3c92QYQyawRhU11XyGhS-EH8GmJON7tkdAdc3JnullmtK5w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAc64KsZ7Xwx1GMbowSG7fff_ZbQ9je54Fi6ssR7Di-oFZNlmtDAvVnz5aZE6iCrxeEeTb9HJNwFcuz-zwwfO3AFFQpaALcb8YSZA9LVo2aM49Mkt4_ffS62vTlG8J3HdMEhBVPwkTwfyKWXSBP8KVKDB4GhSd7mVJGTyEjDabbMpoINWyvWG-mg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA_YiCypRJUxFltpYiVYwNIddzzeXsG6rFeVvHyWNYFhjo4QlbLRRtdlPfn70Lx7Y3b98p_-SZc6oMWfHVb8TqbB3K54yLhuZlSEYKYhm1hdNp2E6Qzp-wnH6t1CpId0ekEhDmNWa44Q0WpxzlV7SsFGGzGhSDPBLH4aBlduWzuSzc2VPhXB3N1w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAxUqGq_73am1y5r443RwPKf57RAwZdU9Oel0CMOjqEqR2LrK6u5wF-piqsBvufUnPbDhHhT0AqHP1vCPfKHJ3MOlfcs_o5D0MzCC1v55PZbvkCusKauuSoDHi2M6sTYrdEhAsYRprk_n2EWH-_dm4m578GhREddZ8F2eqsTBMKllZDQBu6isImw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA1XhJncr9ILrKwvcMpOFgM0HVPwuXb1OKae1Cdl9j7xZ8Fe2kTrGnnE2lNl8XzpNwUJWPRTSMIRMwJlHm1Vg_IyOIVcpbQ96c4ObRWJyoFYh-Pj3iBPvkF4AdaYE1Uky6EhDZG9cQ7oWYSy1Hc6uKGzuUGhQTy3wv6b5tLU-oH6iHYmYsAvD3Gw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAWYFWHw67wsTn0FYJu9sKBj8_QakYhQsecoqpqUVgxDLZcZKIbu01x5RmwTiqpPUS9Lw0Un5W2yEVtSUbKiP9xkWfzCYSTmPSwW5rTwFxSOMPK72qLUMJ0kgngf-Z-5hREhCetXuU2IzJMxfLCOXGcZ9OGhRhcvi_OLqNF8H-O3k4-Nq2eXKjsQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAWS3TNa7vnHRDw9ih9jduAL0LkO40nJ42E6EumKoBwgJ0Qc1UpVIt4_SOnnKwaDua9SoYJzz4PBYJKBvIXYPls-tIN3n5J2CDlEY7WxqMlwFPXesmTyg1AULIjNT3Pk5eEhALvKe9OSvWvwaZco7L7eY5GhSgIvByyv4aNHBsUxfjpx84e_8onw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA2CW7SVxsn_q8gFbf1Zsn02CCgqv9ETRGnCPpP7JZ7jaHQm25eCZcQW96OS7muFXFgaEFso2ANaYjk2Ykqz8ocPYVZYNOAwsf0Y6TTjQ1gcVJZr_v9UNlZ4l5RYTZL3doEhBv7iJCEZZyZFRNy1ZnObpFGhShPO8SO3fZOYRWOmyuBnp_I4JBNA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAESw5xpen2VpWCTcbOLBOl610BIHhSfOTtdg0o-xwGIxXjS19M33ciL-steUQ3DeUZ0WTuYK6IDgrvq5Xloa-DN6mSFs3oNDtd_QNhh5v2-5r07iekR6UKHWXvv_3jng1EhCcYFwYIpsDQjS34kcXsPmyGhQPmq0YPhpwrBN5ze4eQcOCbgcFBg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAZsKUwUixchq7vU8JQFMlDlK8FJuN59EGZyAA9-OlNiTl-pqcRipBIIfqwOMO1362jfUOtLTg4uUvcFBVc2yWzvevNyaHHPbof_6-3pRr3cORiL2Jw1aImMmHYSLPeSbPEhDznnGxLnyoCoB8CH6tQlvoGhTS848DeDnVtoI283nyj4a_pXsmlw",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "https://www.overgaauw.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Overgaauw Wine Estate, Stellenboschkloof Road, Vlottenburg, Western Cape, South Africa, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 881 3815",
+    "type": "string"
+  }
+}

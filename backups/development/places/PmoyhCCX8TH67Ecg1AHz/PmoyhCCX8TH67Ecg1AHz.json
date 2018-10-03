@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 9:00 AM – 3:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 18.7924817,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.8372713,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAs9Hgak4KOmvVp3n70gX4Ex_AvMhvjn9N_-6Ic80YvE-lQK10xADHs9EvVCn6aHBlxQSZ2V384VJd2vDaQMbAJp2np535ntcYNMRo013sKW5kfX9ncnBpVqP-kuS6qPJsEhAu5Ho0OaBeL5u-X3G-FEVXGhTfAgAMiLPNNH0R3spny8IjI4ISYg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA_2AhQHNFfElVrSFBASVtQ0g26KXj_m3cbWGreyF8cOq3f4IaFm6J3ej0O_cdZ32qwXvmIAmNlKWlt5dYJzDMT8E1WDTacJORkHA0tiVayXfKDdNvmQt2T-7qjcUIu8AFEhA3zpXhIzCUCxfvmiW1oWR4GhQ7uvjEpQXFPvUba1Jd_pFRkYzNZw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAArqhn50ksWJJrlO9ArLDn0aQCVOkN82u2W7sYJvvki_FXbdMYopeY6vx67U8zZUS1nCfPlKTVSLDXcX4Ha2pnbB-UAeHa8zRmuAznPVFw1Kk05yQsc_rMRkPgoXijrqnKEhAPId8qOSut9H6_FZ7Vi-piGhTlQmpcgUN0bliK3mSxeT4FpGhU3g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAbwIfZ-7poeBGa0EHE55EIQUj9AIP4D3dsj4CLC-cAFQyRW20oF50mjaxi4Ay93jTHaVhVB79w56tmhiVCqETs5Z9s1d_dwBf5w1zaPw0iKPDs1pxShM36kFmIEV6dX5dEhDtBSBRgsJ50fGfbGxF0WA-GhR2hA_5ztcQubewB1WuuwTi_ZmIuA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAACgNkt-zuUqGI5M2quJu_mJTypG55w4zwMjP2adNlGl_5RMeGbLy5E514UVnKrdMZPGjJAbszX8E6BlCKpNaKa_r2Q_gBDa-LdfjomMFDxkD3Sfn4PEQG9Ppq1sFLcQ32EhDdAN26jbauNssB_GYMWG7sGhTqGIR-wf9J0egnH0WYRUlW3H6gKg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA1uv4VcSjB6EGxL1vt4H-3RkgGgOuxu-fvEjCx0JdShykGIvk3A3YDCvuPT6Ui5Ohr0mG_309b4uT7foh2o7L1OOgT-KKpfZXiBanuW5XufkuC2joZaVsTkGtMRDyBnsWEhDv5GtUMi03Z3oHAZxIZD-lGhTxYJ4X_609UDFYjJjaQrTOV_MLMQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAyBOQWb4Vz9m_M5szapC-udOfL5U4lyzmb_sbABSl3Q98LjFNdbhaWPW66nWTHiXFnKVsQnK9JppGGEQ-YotOnfwwpEByiHGwb7KDKqhMao2pFiNSs2IeFAHmxmUxnjdxEhA8TXdL5y0TS0ueScXmCQQFGhTZ48E0OmvRjWl6xwaq7Mh1UxcsVQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAe9ggx49jOAiXo2bDT_fm7l0RLgYad2iW_oSfcLd2sb14nSrQMsAQhiNWj_yIxxZ0z4H5UFIdHD9PErBeoEiKOZ31MyD9cUxgrD04w5tr5hQdXcK4MJRqzhy6uI4HDwMLEhCyfecK3SU5UoqRhe9WrWVgGhR5ta4Dz1H0_TfJNCIV8NhyTishTQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAoB5O2dzrIIBnQt1y1gRClFEr-hzCbuBxJbp_NPpZiVUj63Eix3hmXLPciN1OzIhQCIdH3cYMG0fFrs94-wjSNA1yMAAW-ht_nYQ2W3CHgJ9_BzFJaEMQBMj9a_NwmDvKEhDgnr_ZBNvlb5cNF1CFNeQyGhQqvzg-n4MfjQ6B_-TginKrB-Hypw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA4g-6WWAhWHbmPlUvN-0m7EG1jU7w-O5ufcdF3ucLFLUOh9jIrzL0PDAQDZzCLnrAAuBQk4lhgKbZSesiaoFT4cN4vBcSEtKFerq8chRkMifNFjnX5bo4CXm1MbzAt9jLEhALnYymAbqTmqeWwNeOP9lzGhRdtbvaTTQP_W09zFzYf2_p0cgsKg",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.villiera.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Cnr R304 & R101 Koelenhof, Stellenbosch, 7530, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 865 2002",
+    "type": "string"
+  },
+  "name": {
+    "value": "Villiera Wines",
+    "type": "string"
+  }
+}

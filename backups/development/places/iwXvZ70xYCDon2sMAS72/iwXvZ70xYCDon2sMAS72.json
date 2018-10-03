@@ -1,0 +1,76 @@
+{
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.6747203,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.9539856,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAuLKakrpQ23x592YmB98zs0-XFY2nKW1NVe0vQPcESNNjLg5s4qswt9-hv-7XTW_QWuYmzuchzZs3RuwxwQfG7RkeAXSOVrGpLmoLANF2XOrlOlwzzhV_vk0zYNGJEImLEhD4MCaoB9QDbUCPGlgHSHrmGhSxZfYZeGuA37FkQ9_UpWK-eJAxMA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAADz2oApzqBY_j5bCTqtQ0t0tg1OnErxoIdEyt7puKsq6uqwjHMHz8E8HgH4BXeaA4r-aRgm9TYlnPs3ygcPJbZt3UHEbZGCy55Nd-3l6LHHdXptndtILOzmg88WKX0AfqEhA81DNsyu8wg7tljI0eyaROGhRSQhvNx_CfKsPIJO-cZPNIgQhZQQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAmEJAiGjRmJpceiK1J36WsWcKVzYlOkr5KsFMYj89KA7kbvHLEfmUSQh2xlJ2gwdFxJ5dlPC-5JcRGbW3TOBOirvrabkOzbKDBkiogQxBq7ObxLRLv4nDQVgjrq1-Tt2qEhCmvHP8w8tJshc5Wi-o_lR2GhSopwBD6wKzxiXQwQ5NxmJJmajoLQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAjyyoWVg8I_6DWWWsR_lgKCexaRnUi5Q8cKh13HbybTtlxY47bJ_6p6MsYfxHGW6_yYGoFXr9Z0pFP7F4NAdzE9aTD8TEcNr9f7GDusp3pnWIlSeIk5gzLv6LHVj35WV2EhDalgaXVOTLyrKl0cIF913zGhRpHLKDwqPRTeY8Qx-pn-gmVhAeIg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAKv3sUuMkDF-KYhd437BLGBPEaaAFyuN6ubAyS5m964_RucdYGiNbq1XO8dEfdOciXy4Rv2TvYUnd63N-boBE1x2pXpvOkj0_JO8OBwIHi3bRLnk3LqVbEH4vA6PBoalFEhAPik0EBtp9nxTvdoGeVP4jGhSW2bwIBnoG0D0fj9MUEHw1S60K0A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAgIIRdUwidygIhSP8RLW9-a4ARMl5G080EkTCDGkucy6TOOdex7cd7JzoP5Xv2uNIVzi9yXpKNVrdtCfAEWiCrdIjHZE9wf8joAJWVydIpe5ytD2c4U_dIKI_ymmZHlNkEhBwZCbFUamwCMkDqen6GKL9GhTsc1SHog3x3kRmq5fAzRkWz42BUA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAIrfJ9JpCO8fB9L-89tRFP870fSQ2OKl81YH9vNhxUoHOaPBVK2BQ26oz0x3Tcq7b9bO9dJ9Ycpy9bON3FsLTeoHWi6Prb8OvaN-LWSo4gTL9SzlexzFNAAMI8yVUTsaNEhCuF2iiLUcEOB0hqD1LLXk-GhT7gmGumCAlaY80lnJ01JmxJ8_QGg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAUjDjZEhoXlZkwKSFPd5gCr-k0y2Qgiaq0FzK6E9Hlj9TcYOleIWVMnSGqJI_fa-HRIKaLYDms9nt8jJV2RDjz5OGVYUVe0NGHfSrz9c47KythC2Wyt9aIhK3Ta8gungCEhAttQTO55NdmBQJBSP0jB9aGhSa3s7CR1vGYhgbBsoDXsoDpkNP_A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAKBsT8a_-jnIKyC5mhIbJ0dzGkQG0WZvcAw42iRbkbuQNNGoBjfGjNSvCkPQgffddSwSFHBuXe5lrzaAnbDQ1JYze4zJOoazCCxwEfx21r7EglbydiQzwBVCAH2ZqW0j9EhDkCKWtV12XfkFItZWQM0LMGhSnhvsSD45vAojmFmLzrz4vf8wVHA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAyyIHNnA14DsTILq5ns_-mQZ_lz-XPqI-0Ezex4YEFqgTYHLWS6898AtDJk_YNfS7NOm42IkBKx546ML2ODLLm9lYxAf2QwW5nQ0FTdVMJnhERAEZNo00PsyJ1s_DhYMyEhANhiQiHSVc6_kSQZcj4ELjGhQoNl48Josdgpnibtu4n9DIscTFdg",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.kronenburg.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Malmesbury Rd, Paarl, 7624, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 869 8172",
+    "type": "string"
+  },
+  "name": {
+    "value": "Kronenburg Estate",
+    "type": "string"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.6744881,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.8911629,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAmwRfOGs15IsxPhLfOazIPbQWfktXUbuiSBmyc3eeYBCg9IppwiG_RnBsx31akb3Wtk-cgfG34_ccwSK9b781bXxgwrVisfKno8pdQE4yNlmHyyt45gSMCASK6DioX3HlEhCPA8SawLZF9hTdrObWwk6-GhQjmnKcdS4EoMLzHtnidm8q3wYFjg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAOZWNSn6ZHeo-vftnWDEOnE123uFnlp8hPThFDzXSHAGKftcLodGxSmm5hv0hbNxlmUXxtNzeyRUEJrWOsIIEmaqf-0NU7Ue0IxFA67Ct5zSiALD1S6ET7lgmZ8mA1--2EhCV6M55S0540aZ8PtigPgv8GhSN6k2jzcHiXEci1Rq_Wg47F7gU1w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAMqsdvTtZhiLIQdMtL3fT1D8q0y01YNHVGwBSzhC_mze_THRBSWEdYwuTHawZfsIwCOSIpVhg4O89Mqhr8ltg4DPF0YGNy6EbSmOd7PwOfvgbST3FSfEy8jc90pJ2cprfEhCd_CvTEbxdTc45ZmvuA8EtGhSuHSMegc7BFZyvK-J2rNeC1HkkTQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAPfHy8VeNxvZXOh8MCyBPkYEvVlJNzaf_NHj7D8XHveo9wkRn5x3VyC6ucmybe1R1P5S5Cel1oOBO06q5pmwzNWkya6_vw9v1xJLLXpfNy4TltB8kMSwPMWKZkdmeWmOHEhBsEqsQnQEY-YWva_xgKJt-GhRO1abBPfrJZtqkmGOsPRpYz9UEyg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAADGAx8JIwK1I-UBGryS4GfrL3w4zFAzeaos3nSeCbtPqMxMgCo6bwGEoIsuplUsIMqOHPgUveqTaTgfnK03bSUWLQRdUxkxbxvpaTLSaciFi-fhjDwY3QB9ydWAaeScG4EhBSpxywQ7Ym6rfdzXyduXWXGhSov299qLwXiygei83kd0hr76M_Fw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAATMMxb9iQZY8LB6ZhB2_8lcRNEgra0nO8P_mwd_v6MWVqh7vGAm4Lgs6JYc5Isv8J4eyRVJTTMZfIgmziLTw9xynaam1X5KI7pdC28jloaHaBgYHZJFjY_1uW1YaboADfEhB9zNPBpn2TJj86367IXjH0GhQAi2mvK5Hs8AOD5ioossf8ZxvQ3Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAuYS8htjCwjVnoHWWF90yCn0eWXItZxkXoTu0VmLG04DifuCL25BIa_VtefxsFQ0sOfX32d0ER8PBkc8LePVFPUGBIW76YYQtX05BlYhBYrcuDO2u91lBybCjOPYX2jExEhB2LGarj1__A6z06xraSAXNGhS7n4doOakDisl-yZMBaBh3CW_FlA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAmY_h9S-fi3i-x0IyoBVLuruTAsGspH2pDyLpg1OkHtA9WqQ48AVVxXDWYX2OdQu5UpDhWAeUSs95xjy92lg0XhO7KbauzgpFTeZtFE0-QnPKNQ6M3xuFdBIrdIpA8RTUEhBRSb34Rkp9h9IpiWUZNZFiGhSO0C_NPgPn_bP0E-TATvxnNELOgg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAHImGp9rj1WxFMvPj47gIjfC7ZcE1-bCiBwjQg8BH_H0kNGljrMf6qN9CCq97Mfhx_MUj_XfG4tXIyFJf0eYfURhYE6eV5homavwOP8yWaWO4viNnb11_P9A6n9VgRldyEhCjfUGg3yUbXgXrTMW_gGz_GhRaVJkmlyyhemB6BA-_Uechm-1W9w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAhveY7tere4aNcpuwK-COxBIvjKrw13ru16T1KbuHzJ94VgoDVnEXruGuwmOKUg5_KEvrqpPGnf1cTt_IXEsRlwqJdVHPuPVcZWTsI_Kc7icmKxSsqpf7wdE9bLg-kkzBEhAujD4HsJLBkf-NVqt1qrL9GhS4v7cB8knQ0OkDaq4maZEnnehXMw",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.domainebrahms.co.za",
+    "type": "string"
+  },
+  "address": {
+    "value": "Voor-Paardeberg Road, Windmeul, Cape Town, 7630, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 869 8570",
+    "type": "string"
+  },
+  "name": {
+    "value": "Domaine Brahms",
+    "type": "string"
+  }
+}

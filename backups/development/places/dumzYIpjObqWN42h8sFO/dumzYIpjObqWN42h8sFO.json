@@ -1,0 +1,68 @@
+{
+  "address": {
+    "value": "South Africa",
+    "type": "string"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.66044000000001,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.26777,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAATQJtmW4vV28Hak6i9bw7zsSozEnsvjhxRlLB1hWJ1Ix1y9rjheVtuVgRXbsQOVZYa317Mr8alnAGweUBh6PKVH6YdHJDmJCtdCnt0d0BrbvLCQFD_2H9v7S5Td4p2v_DEhDWjPkGCgkbMTC3Gmbh7osRGhQWCMSiGs5Rch2lIljC96fm4baHpQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA9asBuFvM-Fs4F8Cw98WUUuUqGmmJC1IlxpaYokiFpLO4eMsQiE-nm_7zVHeUdaHtDeMX8Pp8AWUUOAl7NTsVjjs3dsrtQW85AKRtqbGpE4lmZj-sJ02cmy77_zCBdKKjEhBwj5XD_OwZk8xSPceskZ40GhTs7CDz5jt7BJEVjcUQQVa4_p4_Lw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA5f_jcgEi8d88JbBqnLHUJe2yOAIzC4p-HjLPeGwS4XSLqTEohEtyolMXMChR6oQRqAXJXoq9mFPe03PwYxgU-xQVHxXAO9h9Rms7n_-J3YkKGyj7amuqQSaFBENs2m6IEhD5rvHSlHPVt3uze_pfvxseGhQ5uW74ZcOpq620HNLAgdGTSAID1Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAXAGzbVXOcP2kIPYYF0dIezHSXbzpoei0KmLVFWFCs0Y3yFP-K0Eco9kYRWisAr0DECJT35-8pzf4TnwUy-7vYspSqAQ6vC35qmE7rzyftbsFYy-8o2DW4IYgZ9_yAgXsEhBIPY68CeGfuGp5cnfK5zMYGhSrMt6HM98b4SbLMa0LosESJy_0mw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAA0cRBmNJuOSKGzRsMWRB19CDVfo9HIJGGHobpHfVP2ni8x_TXStjdZgdUwCo16Yq9bjBQwSgQQZP8xDHpg_6F0Q6fuglUKDWKvdO-kGptEBfXhAU7x10tqm1ZAF7xbBnEhDMeqKwPnJiJQqprzmoq751GhSgS2XWu6S7mJI5eqb72OoUalp04A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAZVDQMYkwHEVWnb-mj9q1iGC22W4QsdJ9cT1kpqlQ96bLbpFDNjVOUp7YenaYWK3EB18CzwCehRwErROv9pDoWP9smQm1f3fIfUdhEndgAvZl7-krxcUTW1SpDv3qGwKPEhBlMQqiIw-1JuYTYflIn5nbGhRH8ghtmHXy3yzdc_z5wut0wq5hrw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAtu87z-SO3wpI3qDRfZVlUuMNYYH8dLvC_2TEryguaZnqbre3UrJ3ZB4LC5COuZyqcIXhclJsdWO1bzpIEEoKMnzLtGoN6Mszv7GCP2XfnNwA9K8-1NwJh5ofJQjsxiBDEhC_NtnzkPiYSbzycDXVzyooGhQdUHVYr8N6H5x5lGkv7rxdom-WNA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAoiu6W9CaWMUDfvdIqtvGKTgNGGPkS3OL2Vvl0EIAHZlmy-oUR5HhLlGwNSleu3azY157BxepEYmuQB2ofGdH409qfrue0h7c1f7I8RCTMVvjWaEgJ58gNhYzTuoDipKKEhDCA5TL4-VuNGGpbmBfVcZfGhTLuWs0CQRA67idJ-iSg2ktyAFvKg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAT2agMroFC0Fb7HOJgkISMh5wgeYSAU9J4-AfjGlLATNV8KENwvY1bXP7JsK_ONKUTnBid6Lpdj8Km86NDwLkGrXX5xXLUKUqKyNNS1BzjQy1_A4wUkQdfvOsoSZ9W6H5EhAP6nHtSPrgxC1tTLyFpKLpGhQm0jbPMOFlKT4s94_8ZDywvuPS9Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAPnExAUC9xANPuuiRgvJTFApbmHHWe8dPwh9QNyaO4PEyZdFov-RVCKAc0LNYBWMxO-JpUaFaKGdgKy653oFT3LkOwmarXeL0tH1Thl3DZp4A25oLvu2pAfNnoD1fsvVDEhCW2Ne-KFZNecx8mIlbdVzYGhTeKF4U6Vttrmz3IlV5VT0hu5iDKw",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "name": {
+    "value": "Wine Estate - Badsberg",
+    "type": "string"
+  }
+}

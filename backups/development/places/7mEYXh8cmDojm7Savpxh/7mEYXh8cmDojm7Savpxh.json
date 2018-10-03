@@ -1,0 +1,109 @@
+{
+  "name": {
+    "value": "Vergelegen Wine Estate",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 9:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 9:00 AM – 4:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -34.0763946,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.8898868,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAA9dQxcSOFm_kfBA7hMKLMECz-z0r02KZmkU0sWIsaqECXPioNgLA30GhaAswL0hJ3GodW7ypFQZyWxBPRwduKAsPR6YUrpsjau61sAB0iHVOCzHEsIOedrbsTYInpT6vxEhBmO5gfP7t_eudqbiP4l6XvGhQf-638Lc8egR1WZ6SeLQF0iDls8A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAJUH6hLFoBSS48d2sO1o3j_PQE6XJznrG5SLkGzJYFseHfonV2XNOPOLjIRnHPiXKTnPls6nxqjXynvbfWjNzuPxw_n2Yyi3yjwXhJZQ5vMbHR9-Sn2s93aQSSjaL_K7fEhDvu3lUqemTYoDWmzVAMVovGhQrV2FE4epVhXVjnsGpmywxP9k2Lw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAatAzdkEZHBebjxBpOUu_ZpT8JzDqMQ32N1zjegpOhGGv87r1woq5FY8nC-W0SG7pjeZ4RnIKUcsF3skaAfidEC3JQrMvoylWLY1gVwkdLSbUz1yYIrHGOAgkUu32dMnmEhA8PQ7T-OxSAspmuGd2DxomGhRVV9A9rbGWsCrx7Vyy9cJ4GE4-Rg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAbOSSvSTL5L2yknuFbjQIoOLGSex7K4rvcaGnPXuldc-WVmxXEn6ZtA8WLDDFuieeSslAAI8cBVznwBnJAjfQ9virWG77eWVea2gu8533UzUmvyTRdeINKBXUbuC7QJbQEhA1_fly23j5tzHvPeVM5_44GhRsaSpvcarR4NFsWhIdHPHktSSGHw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAASNDqeChu3xtbiJ6FJGEp1Lz76Qi6QImhBp-V8FbkowwHu1EDDjZWYk6bImwkXvnPppKd7OwziSqjf77Xm2kzYcQnMqX3GvB9Rs7tTPub5Y9lpsJNncqqe3GuiQABjokWEhDEPt_nOiV09VrrmhMQv0BZGhR-o6xcESk_4VNX3sGzRkSmASZP8w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAqU4H4Vg0EIsQNYfhdePN3Or_W7Gtobfc2rBSiX0kduTkMwTg1PuZtHUcZXP1baWE6fEiPZiaIX_SARZFdLWc3b6t6syVdoF4Qvlrj5bCEO4RkMv4RNLZFbOwpwWJNNAeEhAf-jKXpPnQLYScM5oFemiCGhSTm8TxZ0Su27CHLJY89guPLID15Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAuqn8rd_U1xWu9bLVJCl6UHe6TKWmG6g8DUdYA3i3n-jwJZduMZEmqRuSOuqAaueMg0io80g9YPAvaRyET7CJqKibqf_vTjry79yX_Or7UfObWYOOMSZ0AZJnNmTznEBtEhDjcHSyluskSB06841_hv8mGhQUeF1h-Wg1h_HvQc_KiYv0Ko3f-A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAznvkLz43bSgWjLJFgpCfOi4uz6YDRW5_o4RTpuULmJfcbXwUnxVqRWy2OftBQ1aNmQm_9AAqSme_Ma_g-W2ArGftCO1WX2WferrPiZ95RpI8AtjFepbQ6k1N4b3m-FMUEhAbx13gST0-ik0K79-B_de4GhTrVeRBLYMArSvNX691iCrIpQswSg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAjyIXjyQTZ3ahwd3eah9epX5G0trwO8weIlVnL2xv1HAHRGalqHmSULx9miKaIGWTmTpmv6Twn4i7SwT1RZBYZY8eBSvlZHneOaUg6LEiq5BSWgE0NXj5LBeVj_UYDlZoEhB1KkcC8yCQJ0kYC62QfwRxGhSEaYHwsZ-b1kVa_Wm44mGtelcuSA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAB8m0gVQKFpDuphK2eJ-r53xjcGVusIZKBET-Vhs8yYQklSDxE2X9TFeo1CtbKSHcCsneMeUef2-XRA2sx9_e0o3kYwx9NLhRdq3Xyk6O2C81LQYt9-ZYUXeqVmHEMtyMEhDu9QnmygfRJ2XKWbjPLCO8GhReYy74undER8mg8UmailQX-WNung",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.vergelegen.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Lourensford Rd, Somerset West, Cape Town, 7130, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 847 2100",
+    "type": "string"
+  }
+}

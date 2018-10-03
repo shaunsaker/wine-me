@@ -1,0 +1,76 @@
+{
+  "website": {
+    "value": "http://www.ridgebackwines.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Off R44, Windmeul,, North Agter Paarl, Paarl, 7630, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 869 8068",
+    "type": "string"
+  },
+  "name": {
+    "value": "Ridgeback Wines, Guest House & The Deck Restaurant",
+    "type": "string"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.673354,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.914916,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAkBQPe6DVtsfs9TtcxrawWZibHT2f49WnWNnE3y3TXzVAUjE1mawJL6Wlh5RrTIRWT9OF9AI2HeCx9VoVVmrpNP6dyOgrylbmE4IkO_njDjOMp9ggdaU8cSY1I6NLJyh6EhCkKPoa9wtwXxtdHiRnWCBPGhRDrqYQqzOTbTzMEi9eC4Z6Ey4jUw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAqj-XJpMR6cfPjbFX3WlhV9lgGbbwKzZnpnRnEpUSE_SWBXfQ3NKm46wuM8opwr5G91n-oJ-2jsDT1bR3fYcJBg3jFg0TSdApnIaAiokDbQyWL65YnFyXSN44LfGtJPtmEhDDewORopDGMRadhqB9prjlGhRrRns7mk-uKngPL-Eojr8spSb_0A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAArsBEiB9vM1Wofa80x6kqd6XW8vqzjt8M5S7BefuptPRugY7sHU5iukpG9h15u9q6gn0SOiqJwwwBoaQM2sLekHozYNXF-bHy_Qwe7BjHFS1QCGbfI39eWwKlHkyU_Rz2EhCUyYXnSA7ZfhPa5cXdJTltGhRndI_K8g-M_XLpcy3rjQf3yqfz0A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAjLSlXfDjy0aQjD7uOPWwGV9T0yt8MCHdhYKRtZ8OACGld51CaJVHbga-XZAJZSw1FeNgUdep2OYMlKo8CyyBW18rKLwXP5L24ENa6NFAfwsqRObBlQhdfbgegoFeeDBREhDCJdKDbl2bJ6NESTjj1EsjGhSyLRzbSxy38-RHdWmfNfXak7UlTw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAeupcCTzO0lVdYbdEGJABGrh90fO6yubV1MGXy1dV4rjcHmBPetc03e7U-i6XdD3ELuR_N_Vg6AGCjYgesss4XcslLMQE4-aDh3WQZfibO14156r1UrHNDbwrITPEraz9EhB-bOTTGg9EFXJHv41fqaHsGhTY59kjXKDhTyjQYaw1c-U7wiZNbw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAsKCkRBN0RhWQWNhw_kzdZjlgW0Awl6G7yqrHFZ8GUBl8xrRqg3v_3I4Q2S3rQhmVMYwkXvsX8JZNLmEMSwnIyW1Bsfw099pSjh7FAXbmSkY8nz1wts0VlA8prNio-ndJEhD1FaV9kKlogKQGYpnw76kcGhRZdzUaHgGAhTGEgW6YLO-WpaUrKA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA-tLRYeurdqjzc2cZXN8vzX_OgCMShK8B4NZXzMsUFy2vQM5nmZB-mdy4t53JWzTZ6OA40-3cL2AwMjMyge2EAEzaQ_ahe4W-EzcVNH3N_5N69FoH6sTtf_QPyAFRSIaVEhA6We9M7HjtuBXOyU3VtY4CGhQ8t7QFjzcXgRGWADC8wbJS879Rvw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAm0DFdO-BRO53K_eq9l924JCfZ8_S23Mfi_T4zSz0yUNIi8IXhCRB0zsc9QO9Pi6hSLphQXN3OXVyu2ql2z_R6ubiI4-lwZ6wy39-g2uSek8HKKQVlADJz_dC0sy3B3fiEhCYdGGgp_3Gdj8i5IS2oyygGhQM-YjGXjUlYGyIEBXuXW3fbuPgqQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAUtzQ_4DIlASNou7ENTxE60fHsINylHUVxOt_J1PaJ0HLWYG52ammoh8IWt28D_5MM8K4xsGERG__B1cRaNwroWUr75w44j9WO6vtAiuB9WXHCheYueBhaT8pgRN9J2tdEhAyB4BKNxkIhQuB1ezpYrboGhRJVxpVfIxVJUywzz9cerfGoeZV5A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAlRxTimI5a5Y-_gbwdhbc2yrweR2xHW8emmNRaxhql6dvvJb9MBQP1TpbBXfkzdmQAewgvPUNRbSrsncIZB-8yEqAC6C1BwnbzNIDjIpRaLVAPX4Ezv09KsCGHNyLivcsEhAucKXXGZDqpdcw2hZ78ZHAGhT1b9EqU3y_daoiVqQvFPLyP3_55w",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

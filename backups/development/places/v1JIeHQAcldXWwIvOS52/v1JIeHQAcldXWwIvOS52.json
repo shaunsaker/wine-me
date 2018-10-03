@@ -1,0 +1,52 @@
+{
+  "location": {
+    "value": {
+      "lng": {
+        "value": 18.90103299999999,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.831238,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAiut-lsyIchiZQio9f2tWY8d_BXFIadUnmzL_C45sP47GKjhbjxxZU0mQndGNBAm_c56oQofBUOccuS2XXCB_uKqQF-4irS-KLG1QupqnEJjDe4XdHZy4o-5suTtKIlMfEhCLxyuiHEqgdEqcw7uRX7ffGhRKg2HjQA5aU6LFYEJD18l5sLqNMg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAeeoviYk-Pbrb7-hSCX8bugYPxp1xvPvdDof6f3IDmEqOyhYanYs3mPVMdawDLtuWl1vsrg5u6jWPAU2kXkMGzCQjm17zH1GFYagmpYfbV5gXkHiEEGn9e9lTpF1k2Yf4EhCtPDKtYmwwJsU3XviElJcRGhRVs2Ilte5jMijOp9SUD6_qz1kHsw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAMjf1MIiKyR8xV0vhsGGwT1Y_awLUEjJriTRWsCZVtXltUPqe8pVY0Tqmq2k4OQiDdyzFjcbL2IY8C-6xMfGulEJiLI6CZGvVVjg_fIXHiP3QdlTQgEMlcsqIlujofwI8EhAoi7fu38atcepYBRoUh9A-GhSkXANWVel4JOKrLgoGkd9rm0w5eA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAoewZ5qUDPa864LvZrZPPdA2EDrCQg4zuWRFZdOQTYZ6dUiW28BUvkE0M-3cUNNevID6dcxd39YW_TZmOxAeaCs6DR9L78y5pbZvM0RSHT4qSZrvbiB8hjdYLoj4LtVGCEhBAI9WIjkrArvvDEJk8aypdGhTFxSfK75GTD33MVBe0AHy_j_hP6A",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.nieljoubert.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Klapmuts/Simondium Road, Klapmuts, 7625, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 875 5936",
+    "type": "string"
+  },
+  "name": {
+    "value": "Niel Joubert Wines",
+    "type": "string"
+  }
+}

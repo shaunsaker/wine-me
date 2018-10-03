@@ -1,0 +1,109 @@
+{
+  "name": {
+    "value": "Oak Valley Wine Estate",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 19.046181,
+        "type": "number"
+      },
+      "lat": {
+        "value": -34.1550536,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAJct3PZKK92f8fnA5fetPbst5kMy9xVAX3NKqgR0AyxUyIzLBSAPNRUM2fyDv8EeSs0wmoNVlnH0hoFBKyQYTsG1STEyTrPbMygEfVXT2PmYO3dN10woYYByeKXzXAjo9EhB3EfDkVBvWUKrssL8FBCK8GhQh7MDRjGpKoIbpEsI55a54_RbBkA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAO6f9sKN5DTq5-yBIYMCcFgnqd35OQ4sjN2B0q9YcwZJZOoLm522vUDU3ehaU7s6HeP0WGvLudeUS2Sd6E6ZeIbNJteAUWniesyNZ-9oCipF458y0p0nIN8-K0585lJFgEhCAdUbnrdNJUQZjTEJk9qScGhQ45SDvRGFUcXxTy7TAIJk0oOzcGw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA9wtIPHfUTwaB8QgnNgHdDSYVFJXtjl0yL-_M6XgFAB8gp4IbL-MgzcZRuuHvDIPxLWW70SmjiNBPMHtmufmhpjLkwRc-jFsNsd7WDvOv_Ex9tFl9KPERur-mxfKCZ0GcEhAriAhoX2pfoX7An8kcEJOAGhQtbFRVrhZGMoAcU6CMQl6Cf5a5SA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA3BFrJltc9rWepoAAGvUi_u0peRVEp-BJaAurgwosPAofdoNsOFkBXlPUxL7KnoeiDzZ_Dhdq8OsLa99uNAU4Zwf9VNj4V4hQZM6hJ4CgkRyM0DGuaRL4WuSLqukCPC5iEhACtMXqSU8g1DfauEzXy2DBGhQTZBM68Q37JHcoSmrELdm1pN5MyQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAfv-ExzYmYOPK2UJB705UD97w259KWB3PChh8L1MyCYbFLNjwUR7IDrd_kbT8rLniBmLTL9TYKKzzsy2Vho9x1XNy5W_sK8w9Bupvwultzggrlv7OgFJXbGC84ESXxf5tEhAR6eSdPB1rdS6iriJu6TMkGhReba-0ghxe6KVyZc-xYyE7Atn4aw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAVBKAbgBIPe9hr_Q2SzlW1_AFM3bu9XPggFa8HuxAEJfwvrXAkQyhKJSAO8RkL2Og4kb5SEKHM9z7YDKXSncBUYQIWPK6dXgX5TKlaHBBOMA2ulJfDAbvMFPTdGvrwoz8EhC-WvJzgcZ1oBgB1TbKhOdjGhSWUX_HDmiLkFgk9jcgxuplNehDrw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAa5l_Ep7it-8P-2Arh2zw9la6GWOlQEHk7fCkGBWeU5aQZIA0owkJbxr8aaQvB0l2C7GSn42ld5XttHeEM_S1VV1As3siunUoSj0cvM37gKvSgNq9euHPrSEEqQa8nUT_EhDR82vOFHeAh1mO9IPi7O-NGhSrA6Bb5Nn-X2tE7szg3dIEPazPXA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAqD0k6DZkJqvDeXP1CPoxS5FViKT31QrQkhcyAYpglSvnLbh8exbGilSawqQVl2xZewp7Ry_-v58IBAySjCfqLDhehMMKHDZDKV-ME9kKRcjm6RD8s3Zx-8O_XJNZSfZUEhCwI_ry_d--o16WcJfxuSbRGhRPRHYmXhtF_3AX_p_rFss6l8gvhw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAZ5vI3zFjpldIiKRHDlFl1TOAA3bGVNavtn1mxlfZYNJQwni9BDj_aZcRgNwr0T-H6r18pSpq9xFdtf7r4fSp310v7HqGsuspnkDLJUT7O2yc6-eJbhxY7otq1kLUMBOuEhDVi-JboZusL4j-nfUyCIYNGhTXx6vt0ARcfH_270uH44nKSIm6dg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAMehtNMLvGGMyaRrzHKptZqfbiYleEEdpYQKLZavSb1IrX-nUL6OVBw-0h6ngjUoa2firDK8vaUMrsrOZWzknCXCOBQet2avwOyvt4ge0TnfFANWn-LVhH6ry9X0O0K5TEhA70D_t3m4yY3fhb9bj3oM1GhQYQAMnbG-StJdbSAmGFDEONbkYgQ",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.oakvalley.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "127 Oak Avenue, Grabouw, 7160, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 859 2510",
+    "type": "string"
+  }
+}

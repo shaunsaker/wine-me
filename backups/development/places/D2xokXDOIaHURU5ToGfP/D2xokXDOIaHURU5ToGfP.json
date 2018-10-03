@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 18.800611,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.952529,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAFbFLyqDmExPPYqjKPnfcFpHox7ec1x0wVIxWP0M68CjoXN7fzuG3VxxcnxG-YIBgZis91UrxHr8avWMZAkAhiXNq2e_MeNUSbCBDbbqNpOF2krIlGSptOsW5DSLchxeBEhAktcVrjfwyrWOjVjIwqsxfGhThdQh45CpJsSPFKOrFK2Gq9l1AWA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA0QCP6uEYAA0NnSys7tDSsQDx0-Sp7S07PnhWKE5cb7mAe3EQJJq5ht9AGb05CXhowp_WAAcG-Fj0DqwWW8j0oxifpUsZLYKqrfvAw1P0_e6NY3iLs8RpaszF9Qk2aYBaEhDVdgTklnSCujKl4crgrVo_GhQCKLc9rbrZnvxXaGleXuZrgKsgSA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAKjhjlHkkScmrjslFXlWRCW4OEI8-05cCVmYA4_kqFJFlNFro3h3_Vo2DUIv_lfC6BCPeEaA7v2VnclHC0lqy5GlVDN_n306wF8qVQ5EsC4BFsFJA7kJZUmkxseCHyP8aEhCtV94hSK_S4EN3vlwpEYtaGhSJhw-8j-780ZKmYhAKGcHaucM2fQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA-g6oTVe2JiXJrpmBDP11WZMGCoojR4BM-OsYl54DmqXE2zX5ai7_UT8JH1tWX6JefhCNaiKbSvnDCZb7KqyO2D8J7FdNmx78VBWpi-7Dcs0HE0PoYDkM2aD4Ok4Ip2CdEhDbF7UIrIH2v8TO4Zifhv43GhQqKOaRaixy8fJBpAEur4cf8OfpnQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAy8wHhz9nUj-nQ5344MWGAQTaIqgG8_V7SDaNjmceV56OhKjzwSdGLamH3zx6KcUJZRK4uqx0vyUZvTYJc9ZE7UhzeiaA-8gpsDbdBJYymW01B8RrN0aYBCIY5bPjNvMKEhBgLXjSORsWYe_nypeLqspuGhQ3vIQUJOYTz2BTqdt6eal0LC05vA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA30UM0JLVUoC6XgiRA-7EzcYNDsgjMq1od5Sow-PidxTeuDfu-Cxr-MrSv40tK73obw28xfsrDsIDbSEQHEIxXOVeQQ6UcVRGq5-QAWJZBeNn9PeCI1yRPALDLS8hQ-95EhAbGbhtDgwhuvDjfpXXusZzGhS3MRya2xb-gcZWBRNGCf4PcwVXCA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAALeClfIzMwZM95DgKC8rw2_B0yQeakRjZBqEzZ0cGN_vLCD7ZnGzmLBCciuf2Wfw-7f8QrVA78C5J08HwAkdjwB7NvrM-1PyB8wB1I2jxZN26kqzKGMxjpR4eOc0wRTFVEhB2e3iZaRUIcW8orIKnHd8jGhSGsLcmbyWwhUjvO92wk2J2AEFPqg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAe6V75OuV8-onbJpUzoglZMWSW7a0ynEpfwJPEPF3NBUcsAmg-Carbi3UlhPk57Ao_Cu7T7ltP0HVRVonbaAlP_tnvyHZUMfMjGMJROeAvn9pJoLLOt_ze-XEE-INPppmEhBSi2moo57Soizam7uF4pykGhQ1fiv9fpHo69qGx1vJhuaav8RSVw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAACG0DfRUkCOcbZIX8b5xONUNgjKsV3InQCQySfo_fJl4cYb76Md4v73mwjTCdYjdyGz1XdWuCWGSnNhAGw91Z3ICadBZX8drcjXCUvrIp-v1nx0o5t3t7J06LtEhUKCxZEhBZzX6a-2-H7VoPc4nKZEnrGhRFZNeVLZcSICTceecv0qbVEA2dgw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAFO8Ho3EThjBgmgm_S47mA91xn6M--D69gu-EDyWB-6OwyxKGyhUicDA3d7elE2RwrRcMKQGTwQFs9JsFU9aXUUmAPDkcnEpYcXr_rSqdhPXpn3Fidc18z3aOtfupG6wAEhAsEbiAxqWg71lUGCB2ZKg6GhRRsYWeg0uP-SfnP4v3i6n6Uehayg",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.lovane.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Polkadraai Rd, Stellenbosch, 7604, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 881 3827",
+    "type": "string"
+  },
+  "name": {
+    "value": "LovanE Boutique Wine Estate and Guest House",
+    "type": "string"
+  }
+}

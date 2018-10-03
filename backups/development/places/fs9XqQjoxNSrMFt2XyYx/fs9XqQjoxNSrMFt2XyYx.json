@@ -1,0 +1,109 @@
+{
+  "website": {
+    "value": "http://www.plaisirdemerle.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "R45, Simondium, 7670, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 874 1072",
+    "type": "string"
+  },
+  "name": {
+    "value": "Plaisir De Merle Cellar",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.842252,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.958497,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAA1_MjvCdxNVMARlJ9NJRI0LFkRuIcaZf6G4vAH01cFe8vwk97_1VWiXhzwGelVG7c-XDAbw8eEGoJTmbYdBeNpJ1xopypwjIWSLNYSLB0ZVW-Pp_2RHamjaPILxEn_qs5EhA-dSTG2-xPyiUs98N55HeaGhQbopU5CQ9sND6rgZAbMsihVAcoqQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA4iNryK0IQVkO2duxmEWwZTETI2zHl4lE36XU_t-Ti5ES-Jr18M2s8m0umIThyBH4l61KCMhOfBAQVCTxRy8KsfDuZ_YqMsZ40MrEAY_q24tx4rK3jKor_oSwrsqgtKpbEhD4UMULInjWLClGuVwPEhz-GhRc1WZgGW5VcDpYPKueHXz8AdPFrA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAABiNG-wk1li-GJOdGWhcRgFaQaxKhoaWN1ebfl8eUElm8kJyxmjfJYS-H-uGi8LFtxJJxR26dXnPBPaofD4-T2oe75HCQ8zcg_rHtYKYcA_xYC5h2M0QvMsIzrIUew_JiEhAxCIemqW9_oP0BelTIyPSyGhQnWUtzbRfBSRepE7uGzGgE42suLQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAdWKm6jbl7h7cp4ipwN7N8El0vyrxtnApboFKOse2zJoROI627qc_O9Ca7HqeKBdb7gwHJwkBS-po67AUveftsP4jGHQQksha6VsquM1gPqsLgfWUrq5Mje1PtO1T_HhPEhBfrV-CPadyVFz4aodKbOMAGhTmGvM2JxAuWJ0h6qnyXzwL2V9cog",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAXJ0wE7IKnDRtHe-qQ0klZeId18cd3FD9IQZdVtDc2owrMJWUsbG5U0mlKIS89hTmon0m5rPA9_519-ac28HIf-a3PicUFGg-CZp3dPjLKhlGcnM6Hnn3m2_sASHJVJo3EhBmSnpMwDUGI5C8jk96VAshGhQgk7kY2hmO6dI1G80VlCFMEp9VPg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAcvfrK_gIrCmCsQiT51fCevHDdP7LPJl5oisELSodP9MwB4Uj5or5wQzksljVsDmGwWf5Ov6FmRsO6veqFP1WRIX1C17llSNNoOle4U8Wp813iFkA811Kiln3S4TKwFilEhCWamAx_aZgffW3AOpyy5ORGhTmgGRmlaOce5nbrvNpTdBNYL5AHw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAfMPdv6oG7GQNXS1RZssUu88g-zN1deiADZKQms94KO3J9i7tpnfvS5voCd4LSbwHf3B40TabWJOm02JDFflfCglRlAWN0TubFc49xtWPheg5gQXxeNl7cakXCv2OhUkaEhBfYnA0fAj1hkWRVw6DIdOEGhS9wjjpahLs146YhvoCsLKUXG26Mw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAs_9TMvfROveRx8RBh-R5eHxyTsxzSX-3CKCMREtlRGldt09xzPtO0woOJGwCEzGnDc13kHNsBD2XS9Dzys-zrx6b0ex1IPAH3GpvHSPxk3S0gR57TqB6BQUilcuGUx0lEhDeeAkXyCU-KoMYbs00DE18GhSMdlS7YZac_s3Nf50PLS90uLyoug",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAUyIzbNG3Gp_1m8UZemveRiaXHB8xIywuxmBx5MXsfQ8LHMjkd8xxien6_Fqr3LTc3qfMli_p3sDgoqf4HqGxYIlY8jEcH90kekwisEurNduX_N9-ecHFtOlZVb6c2uz9EhC79teV-yFi-yR8_jDVj3-nGhTEVQbpwCyhM9a55m6_haaURoMpKw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAWlk_Y9r-W8NRvUqDLtcZqKZvuDQOFxrFMfhN6WBnqrGS1zNfdb9lZgtfsiLyXnktINC2nwJndTwupXwS9Y5hKQ4C0OimIALnh-ZBsFqEQMUVtVekOLK4i1emkyd7cj20EhAj3jtQE3FNs_-m7jEBJ623GhTOcpSl-H198Vc8_vWmkEH7zUUQsQ",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

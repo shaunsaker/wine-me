@@ -1,0 +1,109 @@
+{
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 10:00 AM – 4:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.6245254,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.0490481,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAA2zZf477_Jq3KUC5fxz1iJCJDHcVteGCyeDw7me2YFGwPqGTn8Q0lF7qmRGqNuTc0GTYGvoVpGyM2td-_a0_oAVaZymggUIY7klrVIwcRdP6Q_3i7gRJc67LGDvUA2HwtEhAwe-_awFNBa6JKT10P1GktGhSG-80kJERBUndBIl9qQdGx9ebVqQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA7oPUPxi4znDIaqqyAvW3h3ROBYxjkpUgSUtz0gbzGmWl09vln9dPWVXc3rsZb0tX7nOTxwWyOq-s_d_h0qs_NCEpVdDC5HkhxfCAjD_diXWdKz5ftY9nk1I3oUXEChc2EhBVgIay2IY_sLc9I3XbUTOjGhRvE6oMyomO17dTkzHQ-nhi3S4s9w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAl2svlyPeBsjreaYQ56WNpCnX2iTxUTI9gX50uXdXYbq1AvHxairzJi-bkZx0JNdkTr96EopmclIOasRHKgEfjBBQ2ZVY0aUMBGBeAL-JZCYO4wtqdnGdbbC2-pONKAxsEhDWAlbSC781WRFf2CpJPtx8GhQdH_0MM89KZXSRY7r5rgMVwRaPHA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA97LBrXh7ltY_GEUBQMEJEPLUKAUe04Q-iHllSPk9wan87NXaOtT8g8-4eJfAAD7gD46OaTgKfOuA2ZP8EHCSFq4gFf5jws4qqSyb-_1i-aQDKHcKiFQ_9Xs8RD50Pc7gEhC03KzlypPKodznFqNU2A0uGhQCJQ-Q6q4aUpkeW08TeFNJaeTZzg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAnSoPLGyW33bg43mIaBUNbTXEIsw__oSOczjDPHcd1MVwMgcFLx-axGTMUCMCpJgIPkN-yU29l6ZGCVb7aei0jsxk2DdtyQh6TkyXI0YSP-1ONl7UXGwI830VK90xu26eEhA87pddW0BGAV-cbICZPwNhGhTYxBF_zipVkNW55m0ThFpTAa7T8A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAEBjg9wmEJ4pVJ7HOKmdqqqOcsJvOyytqKXIdHEXpk_tjjYFSTGtGuCeZNVEUPnSfSeIpNY2TLVGfgSZgNdNNQTxCw25jQU9Kqs1O63dwErJtoWXNGCTQuw_WPCp5fTlNEhAM0U5f2N1eUNRrBbMfXI5CGhSbTzcjUSxnWuzsi0nHqnvid9Fjkg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAxyp-wnxc000syH1cP4ZsRnlZtty-IR3nkgila0r8FAJ100BSXICOEox9XQ_tJ2KMmWYRwI5EqIg3xl8EBpi9BmDTLrRX6VG72Sq5Pyit_dJ_rkzPs6ocmmTXk8nYc7ANEhB3k0wg1wBIlD8lsQtRAQ0yGhR_DCkfytLOtFB7mYl0kcrdQfRP9Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAt4tdGW2t0KKW0O6a0KyxSBq8znfJi_w1FJhXv0AyWqXy3MpacUPhWMFdTrooXQha_yQ1GAoPw3D2R9_rhp1lufKzIsCJl_O6f0GNP3y7l6hD_L5EXTrv46BhaLR10yU8EhBWInHkXz5Aubw28_yevGxLGhTOaaG-w8fxkDQXnjJc4A0tFXWzyA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAUPmp4aQNwe20EkJ0AgacDMyXXf8zHEI_R0eeO1g6QO5iHMEH1vwP_Dc9sPJuVGhZhg8_z7abmUpUmrHmy7ekC1XrWSL4jgdDeZhlBHE7npF9VATd0f1j931mFcW5xDivEhDSrtg7Dcg00AmudggZzDGEGhT_QlHpEGDiXp3hGJ8Cx-b_TTnYmQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAqpscy3xUJHdNF4aziKjAL3CeVWowzo_aITvJCTZRlhQkiCCN2IdLe0XbwmuITOYJkSeM2Os28NFuh37KiT6DartJ4oj-QoQR1CVTK1mu0ewuA7g95ZdKjjs5tygu5GoLEhBreiaG5fNaQOU_xKsVjp_9GhTNmoXIxYxV6DmCBiizOZbGk9NMxQ",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.vdcwines.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Bovlei Rd, Wellington, 7654, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 873 1256",
+    "type": "string"
+  },
+  "name": {
+    "value": "Val Du Charron",
+    "type": "string"
+  }
+}

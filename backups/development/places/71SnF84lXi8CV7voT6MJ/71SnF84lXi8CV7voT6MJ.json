@@ -1,0 +1,56 @@
+{
+  "website": {
+    "value": "http://www.boekenhoutskloof.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "R45, Franschhoek, 7690, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 876 3320",
+    "type": "string"
+  },
+  "name": {
+    "value": "Wine Estate - Boekenhoutskloof",
+    "type": "string"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.944829,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.1169147,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAA8pI5mtt4FHpfeJ0V3Q_IIVQ9JGk-qPPISGXsu4m3YB4maDok4JhhYIC8HP-URC8I6ej9G8mpX1Hlpj4gDzhvWER0Ho1cLhShN486wnLde1O3lsPGVlHr7lCJlUEOqkS6EhBoReAyraohVaxRE2hIL9kxGhSs9nVCWsbKljp8XmeVdY8C0AeTbg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAAsw8llucvi8aH2HI5CnLcaGr-csBoZr-JUCUJqVqtd9-Jv7p6TqXJWyh-J0_dVxee3haaxASh6by45cxQOTbWZSxPq2oCFjbuNBnZCF6ryY2uqKpNCThykoQmqtdnb64EhDVuA_RnKuyFlbLbwNyudT9GhTQ_8rggNvNU7dGxmps_0NK_QFA8g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAW6noHXiH6-Ke2OK1AuWtyWVVQXKDv2uLpeKF53oAzivZagHgSdBWV9G6aV3RGT9f5LlYBnYjx9JCEZgytJCT4drY7f_i6w7kcEcrvq3dGPJbIbN_w_n_eVYcU_-JScnkEhCYcF-PRDtGYBH_qVBrCbCoGhQmnLhuEmf12TjMawW0rYScjLIEAw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA5vf0EB_jXKRjf-1eGgIVw7jpeQykGwcKGJrpyzB9cFg9zlhX7vp7_0AbIkkIwjNfjFfOldpxwpEpiiBo_jvZtNp9CrXfAzOMpu-9yZVlSvkY-dXYSY0B7cwQxK32WHFoEhApA0WfQVyCcuNsdte4tVAnGhQ5ELLkrouMo1a0AXaxiD_h1qUmeg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAXCk8sEQ1MehAqLwRlGbRpu276S2_9jjnQUzkJZyrsto1Epxm6YEOMXdrv_PGWigs0ANARUs5KiV1IbQACjLXLiEMjod6wt7S29-gwR0U3r92Z8Lj7_jx3gn-wj4gxRWxEhAP1ATTyHbMOYee9Zq28AeaGhRH7btRtxUxe18NcoenMYxjQdY5BQ",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

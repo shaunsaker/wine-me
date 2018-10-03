@@ -1,0 +1,109 @@
+{
+  "website": {
+    "value": "http://www.constantiaglen.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Constantia Main Rd, Constantia, Cape Town, 7806, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 795 6100",
+    "type": "string"
+  },
+  "name": {
+    "value": "Constantia Glen",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 10:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 10:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 10:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 10:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 10:00 AM – 9:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 9:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 10:00 AM – 6:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -34.015135,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.414924,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAun1O9UzzN4X6Afwf4wqjB2yAMc8tgVYkdOuY4ai9q82fbGFZaFd17JfKNf2xlowBTEMT2H9CsqKXAbFK2wMQ6oHf8hibjWxIqX_onnmhCan1xxGHmhjMtOxPKTAqiBS3EhCDpM7wLwJkSTc6B4Xhsnf2GhRsHUaGAXyW5TgjY3dqqAqH9anJdA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAq6G4CfR2D0rx3hYXpVtGaiOHMIUrf3Bxtxem-eJkjQgn6dtVEOiUf5Dn_1SBp-kyHWeSU_ENr26qawS1PDuU-ZX6yJ4YaVx-9fh_ydyIQHF81B17HkGwmgyrXNUxZqtbEhBvEk62t5kdgj1rvLc58y3HGhQ7MLZJUK7BvFlM_jZrTrLoiW0R_w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAoSti9YsuyaiQ_PKy4fumb57x2vJQ2AtfPl1wSuVMoH7Sg3S84n-iOGQPTJjkKUtFLaPvsiYB2pzpMUTmbxs4SxvAX7UtPYeOKZHPVikITZU4JIiaEhyFkKJsJvpDGFTuEhD5yu8qQM8XByNBK6B_IOJlGhRK-hOOJejYuhVl-GezC9Hgic3vZA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAsO5OFjWBlr8hyqpwHOh5z3JzoAUDb238ZezgW2iPeTWf03SZA4sHnR-nIo9gv1CXxcKaMsJKmDx0ikd4FC3VOMGFnm5t8KSxKpDY28UvLpShxYCRazgEBPc6DwZ9EISkEhBWKkXUUlxq8U0DlQeHL7jgGhTpo0kg1IZgJ57a2IPIKdx9Ru2wUg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAYQg1_UVjeO54OyXcAAsZkLV3RMLCCwQQSTKYHCKHYtJn23IZE_yDDlD9c1hRfc5nn-HmxPuf4i3wXj97O570nHqXNosd-8mTB9vg7bKa2Yji_KfkEvgCHId_BWhRDexKEhCM5GazWaJQnx1q2t90vkJKGhSQ41PnTX2i3-ob8VdPM9bb3P8kzA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAXQ3-tcMAzMigdMY5pN9ravu8re8ouM8VEo5O6ai5Ou-PM3AKekqD9FGcgTTys6MgWAMDFdPHGRIG9Xteg4EgamvkPlK9WuH4lV6O24tLMbo4k6rCwjnk6z8xfHr-Xhw1EhB0hyTAC4tZCJwE64X6GsvKGhThqlUcRHXnH5w10wop25nh0fqqSw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAoaSmdGUQthEhR97ZMySnXAaGC1mxis2nkBYl57Q8av1C5g7V_oGO-O9hFPqV25daBKLEybtE4m6GtMz0CJlfF7JOqOhQMtJxgNqEC2yv23HXZUn3yeH0KaLN3KBEkcO7EhDG3EG8xpbMG5d6PuDq7ObfGhQ1lCjE6gk-hLtBMoH8luy2eSd7mg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAcm0T3ZoKkOR6s9ytPY00yljkdmka25tXXUNeNLAhDy3gC4rnf1ex68zolHxudlcdwgUCWElKuzVGr1M0EPen-__BTw4634k9j_D55Uzv0ZQbmcCasTKJVRjhS-mKgFnnEhA7XTlJ-E5QtLHdi_Cpr5nmGhTeo5w-U7d8KqRcdVegq1NN0Y-oiA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAgVOm69R0WLtIVIW4JLJ0lI1nVc8Y_4T41EFl-JJOVujE7FIdjf3umJiFiU2ICNbCWEesFa_IDzKMQo_OBVJZhM57TdIivVaPvjlFMAWFQr-WHd6eM9wS21HTufCOMjAoEhA1OTqimIPkEiQ2ZUY3oLOSGhTh9MmPXhRFmZw2hlicZ3RMOcj0_w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAeziGq-UkxtuQMvpDhMSsqwCQ84c8OJYOFGn9wrmCP3hoJetUQfXoRdSW5bxEx-ORY8ZnryMbmuUhTEJwWcIYy7e_Tih4oCsSIPASj002UKN04AKxzZzfFVc6kbfN6lUWEhDgu97P2N5PPq0Wox103x6LGhQb0oGF1Nxo2DXS41E7m5Bq8r350g",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

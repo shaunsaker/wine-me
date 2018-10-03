@@ -1,0 +1,109 @@
+{
+  "name": {
+    "value": "Tanagra Private Cellar",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 9:00 AM – 5:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.925699,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.870491,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAA0ZNjuz8O6Dx7bzialv1oH3uT4ZzDNrjCeul1yclfj2CssfzpkOhqjlaOG92j18hSNbb36q3PR1URbNMktoB2Ooy0t6p9MwKQ8BhDmYNBbwEQ-ZvLjVGkvXyzTBxMdQUAEhCFHqNWUarBnEPuj4JqXLn_GhSpqmtB7LKwu2lZSntMA-3HHAS1Rg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAvOMIvzu3DA5yKIKZ4Vo7J-3s6NfnVTd7lUfIh0LHqQ69HBIdvFt00yDD9ieIkLtg0Gdu_pqz_0EEEckT8nPXwmbhj9CzsaSXY6Kf6n9M_udkpZ2Lb_bKovAw4mk6RET3EhBoEYbt-IACGQEG1m91-ElvGhT31MYxYpAV4HRYT3pNVAT0wj9_mA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAhSSljw38Ki0HxcV5rGCoueZsebB1aKncLs6uekJczT3UZYOTZvtCs8uknkT50yKtQPBLXFrMgtw56PKGCYgCB65Z-_8qCVAtp0glK-vVDdiNyXxccTfuesLa9HLx_YptEhDlWL9PVxxFgtauE5eLlRqrGhTUVv4-t63Q3d4T9CPdcZBw0PTR1w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAPpb0_7dPTu7mIrH3dbiCXLYplkucjBRjBuVsc0ajvOujNnGSdAHnPRAwRnwy2t258Sfv6FEUhmZZhVG8hS3hguUSjsJcbwJhQrmuWT7JWNZCYn5fHwZd3Rb1osSPaC9CEhCdWm-5QJ4Tz6Rkw7fwsCmKGhSy3VVwUx32dpceuJJgyF_nbk4J4Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAARSNVTfAWpfd_U4ge2NPcAwO9TJcx-H9hIQsEX8XEsrQa2Et7Wq0igmwahmJeY7RCD5zgrTD_k_dFm6sR6UUvg-q6PmiXem0f5h897CkbxzebYJrN39FFL_7KF3oMghvoEhDaKq-ZSIklbNXb7JuymrftGhRVmMjPkJHkRh33PFVHHKNHCgGWQg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA5V4QTCP4z__Yq_SSilp3qDFIalbLww76uc8Suk2eje4fqyY4nt5bg139IbKvi7hAq7NaP4UwQnKfyE8FxLS1XsxoVxfNKK2XZFo4BKVTUufuh8jdp6XGrPJ0YpDZ-AdOEhBPAAV8t_IOhAPiOWV_XiA1GhQoYo0rXdiETLa-2VxtKchZXirYow",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAFwVl9EZVjkX9dUhFE_ZaIgQS0efUTtWmqAdVGXI_wYfYK_dQbsNS9_dbOgsJgoKDeYGPgtD8NqCzCJ4mRvU66zsuLRM3OKEZI9fWd8nabiLSc7z6lWkfTIqHP0RFnipGEhAhgXTLH0r5Ok5G8qdQeCSRGhQ0Xst2KqkDmJvyvrBXBlm_7XnARA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAGVwfU6xZ794e7IvefMCtu5yYaPHZCq1wizR39m1DPejCLudLzuATrDRYellwoqzs4JhFZtYBl7d2_SqJ3yTpr5qA4RTp6vR65Kn4qQZQD09WtnXCLbQ3ySY487SBPPmbEhBN13sHB8ut_jWMWGe-kCCUGhS3HlHU_Mhy3gfVok_Yc-nNcvQRKg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA_ebXCE7efSnl4ckxJhDVGSetuYHv9FV-eGWwoY-EhjgocHPbM5bNll3G9Y5BcAlZuceo6keGrzs7Hh2hcMPtWcv3mLoceuHnCj_czlmxPRPUqiTSWv8gPbgg64r5GoVZEhAbouYqARsiwzxVN2b4_vnWGhQOBBx8B4lAKunWLDo4U9uGwasuVw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAM364dCJqCg9aYpHgtg8bJ48y5D7RhtR9T4_PptLMr1-MRmUv0Atpvf8Zu3cUewCAoEmUKSlhluuYj0gkmcGPS-sqf-ke8KCJERvsw-N4UY5fSC6oV_4fjcoeWw08jLxREhBL2wsPempgoebo3fsdFAEsGhS7BQNzZaUP_J9aXf7lhVrgJpTGaw",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.tanagra-wines.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Vroljkheid, Robertson Road, McGregor, 6708, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "023 625 1780",
+    "type": "string"
+  }
+}

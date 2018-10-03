@@ -1,0 +1,109 @@
+{
+  "name": {
+    "value": "Stark-Conde Wines",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:30 AM – 3:45 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:30 AM – 3:45 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:30 AM – 3:45 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:30 AM – 3:45 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:30 AM – 3:45 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 9:30 AM – 3:45 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 9:30 AM – 3:45 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.95387790000001,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.9106183,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAGSVHztRcSHkgk3f5RfzF7RB7pCn5_86g2yKM2g5UbZIepyE1gkuSRBClj_LghfLn0uAAKXWX1EhCVWq8Iloq1CsuT8qca_A0m6bnqmBOwA8zTmFl9qjO0qlmQUFM8yeiEhCWv_6M0dFXq6UNkyEBFUknGhQF_iCBSaQYg2UEGgJyB7SHWaucvg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAftneRTq1s6h1e-7Gua9gpUEMfeepdrI6gg8_vIz_fyZz9O0-SqyMA557CZL6ryx5AgAr4-heeawsCSWWQ7OeMx-EuMWW9n1qJ3DoKl9gDDWiyrENJhtugkw0raU2ExEWEhA3ZeAJlUb4FhmecAIGMWc9GhQ2nbKbzB1r8W_hGNt4sfYe4Xkhmw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAlhcRaj3eOT-jcrkHMefOkSq_GDs1rpdkHZQCwuy4O28M35cHwGBG4LNKv6NjKJ3y_RrNFHitIq5ZhT4KPehOCPtPMrLH4P6LI-EVEEmo0igaLhlghdZ2Sr8VxG71Mc5OEhAw1YEmx1CCKwlPrxypDThFGhSh-3650hXXflD6DIGQGi5KYyFjrg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAJeHykVwOXv-uE4AsyrAY1h5uS1d6cjtQcXZBCSk0UliQBb1MojuUo0rVM6huic4ePyRavtcTcJl6fKRlgit6m6_qPkc5rltpwcCBxSYHtb75BU_Sp9n86wlPzM-f3b8UEhDXg__ds0vh5o1P5nEyTGeAGhTF6e5nZLL2zzvJLLBFp8Vv4CG_DA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAdFX2GbcarQyBcJtuCzEuLY044_0Q-3plO2aWLcyloOBO6BPRzlff0fz04-u13dkkaq4_LjWT2TGDOex_3o_yFhjbP7zvkfPrgUWKgm6M6Py6DutN5w9ilXLQ1igKx1CuEhBunEfjymejjWe5YTsO47jOGhTk4F_5xYIS8Tx6EM5-SowSUaRK9Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAqZFZP8gpy-AFAru_fatCYkVmht66QIjdEQYINyeEpVrukv8NuPU5q0JZhODq1Fwfkcei3wdHv8Wwt9mDhPcyEOTPYedg00nQISGSmhfd8LDqYp32Gku3WmLlfzxvOkmNEhDWuwQBbBSXftTaQUQWYZWjGhQUAVNtzBhfsYuRUd8N9DVIWhLFTA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAYP1KolbK_u8zPCT5XM8z5xqY_aaoKby6hLkEXrTtUfPq6znb5L_uFcQVX77dfMyzF1IQIZrMY7Yob7BSfp2HNFx4BJ5Nifed-8D09jDKx1mY6Y3Ok6_wMxSe_i4rKNd9EhD6EOVcnkZN9or_faLvyYw6GhQcjGKhVj4474p8gDLDzAVP_5I2EQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAATrNVhzOtj_c6Jkqwkj9NIPqb4RQhFaSUcEDx7-ai5BObvnKu73K4HOFn5xktLsJkLFu5YuVoYGhHrpi-GjZUBE3D4_u7fFF0p6ithO8spCu7Smb3S3AmxT0e9W1R6tm7EhDNnFchcuTZqLliSWrB70iaGhTv4OThxwM5iQ4fZi1QA7y_DJ9vMg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA2zKBJOztHEpgP1RTbrLke_0jQIPpGcgYA7a4h4_NO12QusKV0XRfwtvgIABCBS6uwki3mZyBrH1l8nN6u5TWiyNf_AqHWIN51QZT8nHSGa6satB1RuvyLGsBr5lo1tUjEhAi0vniiR2ucfSPOn_hZMPeGhQSRX2wec8Sw9iID1ONaypHHdOzjg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAANlIDMtsZwfSRRccCAZdxNafpQD-VnCroTpvvZRcSGn6d-wmlAcnFai7H3JJ0ZkHZatta7dRUoXSDyeoYYCZmDX67WeT6yNttJscffMOmc-c10s4SFTiIUaVHb-dbEZz-EhAGnOJUKGyig3Rb-sUU_hcdGhRpvg1zQcb0d9Vm-AvDuRfxQZMT4w",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.stark-conde.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Oude Nektar Farm, Stellenbosch, 7600, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 861 7700",
+    "type": "string"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "website": {
+    "value": "http://www.louiesenhof.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Louiesenhof Wines, R304, Koelenhof, Stellenbosch, 7600, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 865 2632",
+    "type": "string"
+  },
+  "name": {
+    "value": "Louiesenhof Wines",
+    "type": "string"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.8929844,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.8263677,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAA-2gjFs2mbDkgPN42daNo9D-D4ZhaGO98mB9x-a1m1ZqD_tIicQKoJOJGvj9hxOarAvvrwRJZclRrjByIr8ZOh1VF0XDxR360vOXLxfg-Qq53AQqfVLCf20M_6OzqMQl9EhBSrQqfnJB5qRDnNqdFE5HeGhRsAtGKvZH-z7nEubT2-99bS_gDyA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA6z_jIBIRDnkAMqhx9gcT1qf0AssQ6OMNSakm4DTOGH3JxU2ggBP7tn-JapAnEjTY5CJl9D-Qa4QPpRVP3lenGkLH9NxUItP0etBfRfEVExUfBbtrjzaVIrDdgRgzLmZqEhAKhs9n-ZFlibULBdzRB0w7GhTln1t2ZyjWR7eYxSAy8DK-MdKYKw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAZgdALzT7vJc76Xv_aFxIMmAR0oKLtRay1mtz4bW2hMnYtSFsiMAQ-KX9tyfyWqza_bs5UlfAA0tlkFjQ4AXASXYPt9BuuDwWcALL4esEfj01BHX8604CoZ3zbPCb5KkuEhB1pZLoMdAzUUp6cWiFk8xsGhR_NrSVxl-eySGI4o1s2bTWGrGbrA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA_6u6UuIZb5SieLc90v56r3QScrXpsiHwxDskoZKp-zHmIWTETx24w5rU7JmPpVerodJWUP8WdISL8W8g_-J2bUnf6CkTg_cH_ZoefkTjezILiTD1o7Da48tIEphR90CjEhC8i__DXc07QDqpOkNncvu9GhRuxK_ehC1-GZ69Az3hb2Cee2KKoQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA_Ad6kkARTENQroEdfxLG6KAS1o17Godt7WQgLFTy4Xv6onWLUOsABsqufvdC15sgbwfURMOFwN-oSgeDIUo1zjwe1VNcijEMEaE5AvBO8MZdbwGzbFHUQ1px8nao14lkEhAqYrHLcr6e_r_p-Uv1hzB4GhRd3ORq-JozQdTmHxM8IEkBs0vgqQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAba6eDblYmNZupDarQN0_7DBnglXS6k-DC8g5hZI1Dg9BsSRPOhS9IRJa_MtTwk5w5lwV-w5JP3hwLhTh21OSkouJMrMWIgtSF2TbH1UuUIe3kQrLG-p9oHCiF5UPwfyAEhAjH8YHZB-FyTV0yWtfxsauGhRPQMWiyn9lApqdRDwxiooQbksXew",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAcHXs5j7Fg6w2QQYfPClB875w_Ixm4ME3xeYC0vDtQ-PPXcn4DeJsaPpCkDA-83rxJ0RNW-2MHHg8g8JltTktBgZl1MHKDOB1mOB15iST2e2EDW45Ukm1rnvk9tH8zHeuEhDpb7xtET3AGV5c8GTKPCsjGhRUFjZ9GL4Pz5K4mLauqQ0K3g8CAA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAg0OChV37FB5Ivz1s5cDYjYN1UkYpY7Cda2gsUe0iCZJAEDpANIcGZd8lYmPNk3eNzcEMS_cIx-Nbj_2Hd7KwujFYuRt7TX6bQ4fyqmTBwpe36n8uM1th6193WHsmzfC3EhB4xKpZIZA900ky3SDRRDsrGhTCWkEWuVOlBGFJc9-jtZHvWMEFGg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAzwpht_QBv_PrkMvyEMb9ebr0bPCIJMAvlDKYgKySayzWKdYsHIP0CyXbE0xb0vlRiADsws9QHMi0CMS3llwh_jiRMUYA3h1G90F4tqFw3gJvs2BPUUaxlLKQfU5ZyUf8EhD2DYN0T4A7SVleEsG_EyaXGhSBtThmS5wHpfzeEqHdN941yIsLAQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAUhZ-ZaukVDbApdqQqw37SLwPpf4WyuZPwsgRROUo3QFv-kkfSKR0P2h1DSfeuV7uthiJTll8z-QNZwV2GGauaNA307FrD7B3h0Sv92tk6-WWCoUXNX0wjNU_x68q7RENEhCQCU1waBuRstIEl_c4SP4fGhSrsbTCHShYFPYJAJ_dGjOhKeJeCA",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

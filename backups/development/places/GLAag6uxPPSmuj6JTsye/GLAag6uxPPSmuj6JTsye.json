@@ -1,0 +1,109 @@
+{
+  "name": {
+    "value": "Kaapzicht Wine Estate",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 9:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 9:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 9:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 9:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 9:00 AM – 4:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 10:00 AM – 1:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 18.7360136,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.9131611,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAQf49YV_Wwmnl65zg8uSgbkmW1YaF2Fj1ubvRRJx-yKZKnIksqqlJCrRUN04wQkSIvp2cKNzhuM4yBfWfvYXbVU_f1y5utSoIkm-Cj1GVVCKgFGBH66FwV9H265O8Gf3yEhBs0mJ0CDv4lfAvTGwl-HuhGhRxP-PhHXT620yyTZ2w4OdwP30Y0Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAATRAjbOwOKSNB38TVplsKeIWWV4-rr3ewVqRmpmDEcPtaAg3Nqde0LQ6rGaZ4a-r0RVteSFNAlIoIBu09l1j2ypTaeU7d8-2flJzr-FzBCLTirHdJ8yJ7VvPvzJJh2FC8EhCqAxnkASR164_BKgaTNZZKGhQ_-9LFo6nPlk6i0VzSSJ3TKyp0iQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAg2J7ZGACu094XngvG2cDcNF6-1vMuwTjMc_PcaoP6vHaPDk2jKufbxlnk7k4FmsD7CmakjMgvASPyYo2buDy9ocsKFFQuYei3cbV8tcbQoI43RznFkjAWq-Qxf-UhzT9EhDSZmNwGJvBHS2nWwADGRYQGhT6sNvoaXxHxggvw-2iP6_fsaN0pg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAwtS16zFPJHI3Q8rxl78MZ4KA65i3KZKkGE7BWPoUj74C462vzQw3rKnxvE4emVITr65DahpS0POeb6PH22Xv6BxIfljaZ8ghEPtq4F03dIcnDTzaa3k1BN2uzeScRWlzEhDBc5zEsqSacSMITmKsKFazGhQWAVPBK1dlupc605iHK7UGBJcgHw",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAyCbbmkPQ-wfU9CfIiXuYAgwDT8dJT1_wnomhz4YwLjS7mS4Unx8ZlLuW1ZrAx8AD8CdS9JLxzQjsZ_-_TJVstEViutKM1D0HjyydNArWgmgb4uQP0WCmmbLW98RLh7w4EhDlmPftnovZZR24j6hO1phdGhR7TDbj6pRKR23MS7vbhhU_QLpl4A",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAH5SEb-AMHkdp1WXOPRjcvvLcym_qQph3i99IiVuXq7xUG1Gcww2NakkFC0BDtLXcGBbscp2tPvymJqA9j-bXbD1KH0OIOiffib1rm0lfZyHMATfxiVwUbSpGYxIEXOzeEhB6x2ai5g4waUxepupzRoHdGhTQ9MyzUETqDfCJ363gs-hCFv3STg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAB5uqrG02_FHjesEFlGMsaVEc9iIdc3w2vmbRlwZEd8dvZq1Rcxa5WbIR1X2rv2ydq3gqExkS4JAI6Rb164ubHsnoWynl--5TZWrEBD7luYTIuCaCuajJvpoIMEcfQDi7EhDL0S79ZvCfIxXPaGA0_bfLGhRb8opsCynw_iYiGkKJiICPsTTJEg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAABBJGrB-yEM5zCwdfK8muqBS7kMPwx_5RV539zCvwM2vemDI0ZUPdokMC4Xq9dVAOC4InpAB2swDStLHAeNJSiaYuKmiGf67VLCoOeKlKIYDFMLYO7OV9owO-DRc8J5RvEhBFlTNR6GigKY6kleV1kXS4GhSxM9Pp9uS7g6As1ezgJ7z_sYhxbQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAWRcvJ3VZTPbFrobJ9-E8ukUe0kXusc-t7RWgrDy557HjtROLAA3rfxqoppf4yaVp3eE6BplmUbk-SlYIJPzOhCZLcoqGCdXm7bGHXIlr0XtS9FmYItWQ32WjzI_EEEYyEhDwGALBGehiXF-IHnXKgylUGhSA1E7Y_Q2zU0KqpDXFgbvV4skKUQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAYZBeRLarYypbTZMtuvpXMifvmwtxP9uiyU1nf_ggQs7ZmliHGEZUzka6gyWUjwFfP93ce8YyLv5vaW3x3RoUIG10JB0vRFvup-fONlFN8ydGyXt-izw0-TsN38bzB6VvEhA3g7zHWgG1qJoNnzl6xaonGhTeezW0zA_D2InCzwIGl7W79kfFmA",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "website": {
+    "value": "http://www.kaapzicht.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "M23 Bottelary Rd, Stellenbosch Farms, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 906 1620",
+    "type": "string"
+  }
+}

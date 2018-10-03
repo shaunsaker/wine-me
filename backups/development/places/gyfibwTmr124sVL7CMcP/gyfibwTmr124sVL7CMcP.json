@@ -1,0 +1,109 @@
+{
+  "website": {
+    "value": "http://www.molenvliet.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Old Banhoek Road, Helshoogte Pass, Stellenbosch, Cape town, 7612, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 885 1597",
+    "type": "string"
+  },
+  "name": {
+    "value": "MolenVliet Oosthuizen Family Vineyards",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 8:00 AM – 5:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: Closed",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: Closed",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.913439,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.940113,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAGd-ggRK557WFoYbyfbQ7sC46flG5bYUwzvd938Iy5QypFmQ5F77SGZh_JINlYCe-C4kPzAEa5Nn-fJuo4yHQHolWNAggaVn5Nir55jwvRvHMmasRwa1gwqILSRPOAOqyEhDqqodroItHTBwxh2r59it1GhRBisxwfCBC80Lcv68AOXPGyvtK7g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAxkzc3YJt5JethA4LBjU6akFYenuMBzp-lW_-4DuTAbkOX7mZH4iTIQoczMHoVB37G0CLnAlyPA4JN1FQKjEpXjw9yI8JnC77jauDIxLo-2ZFjy2yTIa6k8m8R8Dxf3K_EhB5xo36sBuDMZolbDxxz4y4GhRfUUUurs8XzgEzQZ4OJusoCI9aYA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAMH_VUWGWWZ2ruwwBXi8SfD5Pjx2W15egYEGeHrmoBc44RP7GEotJMkbScb-_LDED0AkXNPtwsqzsutjHsv3Z8sc74fYzrI8UCh0QHWtADw__m6I0gQhwJ861VK73T4yQEhCw-3y4gdAyniCeYixoJqM9GhRE3sCkSbCGkVuZ2DKj3CBf-NSAuA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAdSrukHuim_tOWRNId7GejroSfr80G5bqJA3AwlWZa5d-zwnbtRAR6H0vWus6WWoJbRYQY54R1yc0VAPHReWY5KZOYkUXzzMXKi4ueQ1rdqf94IgfwLy2YtNMb5aPYK28EhAkyHC4cy9uDpZ1UFfXGYJFGhRkRidKyv9_KNWyzocDeYm6f471Fg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAQMbKnxG4aW6eYpYqKIceZ32mX4VxEYqRrF-cRSZfZD8DVl8VfRik-ELWK_aiDZtQ72vvtliJG4xpk9JnE_2EDQXzAvxCqhUgoPzQ1hyB9Wq9QO6sjvi-a1S09uOtDUw6EhA0TNWKz5EvdX4H1N8d3fS_GhQUPvJpPo1GukZKBEX8nfI0LvomMQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRZAAAATY05oE-M_za6e09dJTzVPiEa1WCLWp08OBui7FjSZDJ9N1maxaKz7oZ44Ih2E4bL5aEEIonkVK-94ChJuh4VcSVDV0eUejJIVRy9HE2ArfJxMuTGDDRoRM3udsbjpp71EhB7wmixMltHO9Hbt0CclDNNGhT0NmGI1DnFgZ3CMxaGZSzpqDDP_Q",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAs9HtTjvhZbfnUI_1bG7-q90SqWuRAKvicAIECX7FJqlZC5pZYPQabEHX0bvSCBzQM0ZZhsthUgyY2daLgyas7hUl2vYPNTCoUQwL-7qQJrFfc9A7nFBpPgRmeU60sLWsEhD8eSKhFuHbeodrYzYW12fbGhSB7vyP2kn7EXuPZUvX0TA8h_2C3w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAShIm2QyYc_JQywqWR_msZ5tNSLDlMYSB6ROw0WmFOYogS_4jJ-StkudCGdJDtiK13mTcg1qh-uMHFOFiu4zqulFDxHV-3HuXpczZq537kOqQMBN20hTOjMpdyBWcWoLrEhATYr1ewQ6QSsXj79PEylZOGhT0Cxzv299xKZHDi_36VcdHNJS7ew",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAURTqLTx3XqQ9s4herHaz6OZ4eJVZ0KKUm37jaNAs9qdYyrVZNXt0LZB7ZEEe1Cl-P3G0IPCIgpI1PLmEF_MO-q7H6HArVL0-Miagfk4ycC9lV4UlOzKQM-ihbfCPcJMXEhCNa0uUcF4c6Ezsa0qbhEQGGhTM81-7RvnZwlae9EYdzkoMNFjpYg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAQC7Tjr1StalrlBzJ7EKnqegFG7Gdc6IgMe4qdQ4vED1SvoU_1x2fBAi6j82KzDZHYHDC42HpFsV5w3m-4LJc_-BGRntOeRJ9GH4etfI7NbclVk8oTzkQV4DurnjPPg6WEhB9VAuALr4ZYJYv65k6-YjfGhSnj-ZzqiWSrxT0_4JvgllitPwt2g",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

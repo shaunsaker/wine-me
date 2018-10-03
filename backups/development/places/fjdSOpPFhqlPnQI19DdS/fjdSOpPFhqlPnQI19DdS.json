@@ -1,0 +1,109 @@
+{
+  "website": {
+    "value": "http://www.boschendal.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "R310, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 870 4200",
+    "type": "string"
+  },
+  "name": {
+    "value": "Wine Estate - Boschendal",
+    "type": "string"
+  },
+  "openingHours": {
+    "value": [
+      {
+        "value": "Monday: 8:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Tuesday: 8:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Wednesday: 8:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Thursday: 8:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Friday: 8:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Saturday: 8:00 AM – 6:00 PM",
+        "type": "string"
+      },
+      {
+        "value": "Sunday: 8:00 AM – 6:00 PM",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.8814799,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.96733,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAAMwTlis2cBrJVwc4WVX7MTl4uD_fQOFlzYzaWWT6DcAEkiH0zn1TZ8owU92RH3nQ_sn8mAkCjDua70yUeY58qyaTjUP30SiJ-rAOP1UqlKlaFN5JJSwqxSCBVRK59GctlEhD6jSQbEdGFenaWjH3Z_4XqGhQN3sW7Fx49sOtKbaFbroHQW_FwXg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAu41K3kKBz1TlbPLwVWTZZxNhCOaZHFCqwaBS_GwRIN2XuDROljneRDEn90vRK2TAZ9YPmCSj19ddi-0OO-EhcsTEN2TaJml0rSCdGiQhEuQFy65gykwyW9L3DQemueEdEhCVtPUzLUwc0N7pm025GAZ6GhRCsxTMsS3os4sW9b3JFYBLYlbTeg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAR2B784DuBphyI4-GzHlHG3dVM6UTIKE5xbnEEnjUPPuwdp_Gh1cVhQwQOkCMKCXu1kB9_ZwCW7tO4SNQSEw8Fk_gLIorALBgRWdeF3Wn3bcqDQ0A1ShJoXj3-QpMzTMSEhDZVzpRPZya5W6BbAMTzltOGhRpogECZt_FObpFijdi0PLybPr-hQ",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAMGm-UDzDSgziK_0ocBXBTbvj2gNc9g5BV5NdfEjOUWYPhxf9OSXlT1cnih6-tM_Vg_bK27Sx-QFgDokmUVSgHYjEpUR58y239BYYUUxiKHdEq4t4mX52QucIAnD9zLzAEhD3lFkSSBaXfiMxilb1Rv01GhTbfuMViAnj_2dBac3rv3XHemtu4g",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA55ObYPO9ruh-YrJ30UftHiTXQMuv_smdeUguHMQGM3GE82yd5aFrmcCb-cpvVrTxGbGxC-FquEGGBjVvs_xVgMNoTMQV0xZKJkLgikhLLjXh5ogBeSY6tGAzha5kuK9KEhBQPhL-qEqcNq4W0R7tXvMpGhTNFTmQKdUmz_I4PDTFx9DM5bHsjg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAhpE_u3iXegUPChy8ujteHEyHflEzWAbAevJ1c5EV7v_OPnQTf_-6eCgghFeBKOTpCgXO9pFw-yzGNXnxEdybzCK-UJBrvr9Z-sdti-wS1TBitbRWRFvskat5leH11oxyEhBH6k5Zs-H5bOe_zVo_YygFGhT_7l4IUswPXpO6DAna-m4_-hx66w",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAVyDUgRhf8TqdviHXKeC-zErgRgdnO2KW_nKAnJ6Q0rN7wfTWAYP105B02B4lfq7ZtzuAJX7qq7yGJBd50URanHpqVfEaNr-Eh2z0k3PAKYj_NyG9gz77ENk8eO235KZ9EhAx_kdbwuuILlg6sT2T4_qkGhSl0prFQuoLHJyo7yI5oxyvDTzIag",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA7olo6ztSOO1HtR-vFLkRC4ZvVkoBu3oLYePn7kSOi4iJwkyO_7itKpAXeoUtkjIMKdgH_M6FeIwuBtxPgDqpkJlwhXw6dOqW5aKFR071C9y_0N0DrlGff7f5ICl9KzxEEhAHS4MeqU-y-mmmanJqvf2EGhRTMt39Ys9Ocm4k9QDA_aXOcCxJCA",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAAVlMIXcE_AkTGYDpcKP8iUjfb_T-0p79iF2ap-3jNS14GyMwH30yebP2rfRIorp25nTN-xs57hlBACQN6_VZl-zV2EtOwy-6Vx0oxUiIS4p1DLS6j0OBtTN740NE98FdmEhBNhwXipTwpBZmu7wOweUUnGhR3PnlhiYVIQD-m9ePlNt3zgqCLtg",
+        "type": "string"
+      },
+      {
+        "value": "CmRaAAAA1XlHtDyMlfio54AErH3q13Yc2ANv_Bl4BH8K0ehzEa9OiZJRfzTP1MJhP7DuPL8yXU5jmNyVQvt3nG_Zo_0K-19Iqqu2N2aRwcRWzDgJht7QMLteWLhhRXB5gmkhPQ75EhAzdnXXd5t5PAjM2WVbNjCeGhTRAZ_8yt6EkP--12D1aJObQN8NgQ",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}
