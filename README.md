@@ -1,5 +1,3 @@
-# README
+# WineMe
 
-## Notes:
-
-To get the build working, I had to remove the third-party folder from node_modules/react-native/. See this (issue)[https://github.com/facebook/react-native/issues/14382].
+[![Build Status](https://travis-ci.com/shaunsaker/wine-me.svg?token=4baMxUDwVNgcpnVWDsUk&branch=master)](https://travis-ci.com/shaunsaker/wine-me)
