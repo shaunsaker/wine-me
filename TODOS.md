@@ -1,18 +1,15 @@
 # TODOS
 
-- Release iOS
 - iOS Tablet screenshots
+- Release CodePush
 
 ## BUGS
 
-- RemoteImage not showing network error
-
-## PENDING EXTERNAL
-
-- Create iPhone5/6 launch screens
+- Got check ins with uid of null
 
 ## ENHANCEMENTS
 
+- RemoteImage not showing network error
 - Facebook sign in
 - Scripts
 - Move SearchInput button press action to the component
@@ -23,4 +20,8 @@
 
 ## FOR IOS SCREENSHOTS
 
+### iPhone 8 Plus
+
 screencapture -R957,95,297,530 screenshot.png
+
+### iPad Pro

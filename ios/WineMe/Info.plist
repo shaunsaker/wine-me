@@ -58,7 +58,17 @@
 		</dict>
 	</dict>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string></string>
+	<string>We require access to your location in order to show you the closest places</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>We do not require access to your calendar</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>We do not require access to your bluetooth</string>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>We do not require access to your music</string>
+	<key>NSMotionUsageUsageDescription</key>
+	<string>We do not require access to your motion</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>We do not require access to your speech recognition</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>MaterialIcons.ttf</string>
