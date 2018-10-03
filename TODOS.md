@@ -14,12 +14,9 @@
 
 - Create iPhone5/6 launch screens
 
-## FEATURES
-
-- Facebook sign in
-
 ## ENHANCEMENTS
 
+- Facebook sign in
 - Scripts
 - Move SearchInput button press action to the component
 - Move Place BackButton press action to the component

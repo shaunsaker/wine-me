@@ -44,15 +44,6 @@ export class Home extends React.Component {
   render() {
     const { featuredPlaces, places, deviceLocation } = this.props;
 
-    // Iterate over featuredPlaces object to get place_id
-    // and return the place from places using the place_id
-    const featuredPlacesArray = Object.keys(featuredPlaces).map((documentID) => {
-      const placeID = featuredPlaces[documentID].place_id;
-      const place = places[placeID];
-
-      return place;
-    });
-
     // Create places array from places object
     // Create a relative distance key based on coords
     // Sort it by distance (low to high)
@@ -75,6 +66,18 @@ export class Home extends React.Component {
         'relativeDistance',
       )
       .slice(0, 10);
+
+    // If we have places
+    // Iterate over featuredPlaces object to get place_id
+    // and return the place from places using the place_id
+    const featuredPlacesArray = placesArray.length
+      ? Object.keys(featuredPlaces).map((documentID) => {
+          const placeID = featuredPlaces[documentID].place_id;
+          const place = places[placeID];
+
+          return place;
+        })
+      : [];
 
     const featuredPlacesComponent = featuredPlacesArray.length ? (
       <PlaceList data={featuredPlacesArray} />

@@ -12,7 +12,8 @@
     "ios-prod": "ENV=production ./envscript.sh && ENVFILE=.env.prod react-native run-ios",
     "beta": "ENV=production ./envscript.sh && ENVFILE=.env.prod && cd android && fastlane alpha && cd ../ios && fastlane beta",
     "beta-android": "ENV=production ./envscript.sh && ENVFILE=.env.prod && cd android && fastlane alpha",
-    "beta-ios": "ENV=production ./envscript.sh && ENVFILE=.env.prod && cd ios && fastlane beta"
+    "beta-ios": "ENV=production ./envscript.sh && ENVFILE=.env.prod && cd ios && fastlane beta",
+    "android-install": "adb install ./android/app/build/outputs/apk/release/app-armeabi-v7a-release.apk"
   },
   "dependencies": {
     "prop-types": "^15.6.2",
