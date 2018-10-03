@@ -1,7 +1,7 @@
 # TODOS
 
-- Screenshots
 - CI
+- Merge into master
 - Release
   - Android, iOS, CodePush
 
@@ -19,3 +19,7 @@
 - Move SearchInput button press action to the component
 - Move Place BackButton press action to the component
 - Test app utils
+
+## FOR IOS SCREENSHOTS
+
+screencapture -R957,95,297,530 screenshot.png
