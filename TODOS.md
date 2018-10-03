@@ -1,10 +1,7 @@
 # TODOS
 
-- Release Android
-  - New screenshots
 - Release iOS
-  - Fix release build
-- Release CodePush
+- iOS Tablet screenshots
 
 ## BUGS
 
