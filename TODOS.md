@@ -6,6 +6,10 @@
   - Fix release build
 - Release CodePush
 
+## BUGS
+
+- RemoteImage not showing network error
+
 ## PENDING EXTERNAL
 
 - Create iPhone5/6 launch screens
@@ -21,6 +25,7 @@
 - Move Place BackButton press action to the component
 - Test app utils
 - CI
+- Line items in Profile for quicker reference
 
 ## FOR IOS SCREENSHOTS
 
