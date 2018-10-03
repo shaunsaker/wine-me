@@ -15,7 +15,8 @@ This was in fact a complete app rewrite masquerading as a minor version bump due
 
 ### Changed
 
-- Reverted to system fonts
+- Changed fonts to Nunito
+- Changed app colors to Purple, Blue and Red
 
 ### Added
 

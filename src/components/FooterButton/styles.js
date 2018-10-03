@@ -7,7 +7,7 @@ const styles = StyleSheet.create({
     height: 48,
     justifyContent: 'center',
     paddingHorizontal: styleConstants.dimensions.spacing.horizontal,
-    backgroundColor: styleConstants.colors.secondary,
+    backgroundColor: styleConstants.colors.accent,
     ...styleConstants.shadows.small,
   },
   alternateContainer: {
@@ -30,7 +30,7 @@ const styles = StyleSheet.create({
     marginRight: styleConstants.fonts.sizes.icon + styleConstants.dimensions.spacing.horizontal / 2, // align to center
   },
   alternateText: {
-    color: styleConstants.colors.secondary,
+    color: styleConstants.colors.accent,
   },
 });
 

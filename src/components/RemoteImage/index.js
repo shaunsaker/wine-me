@@ -57,7 +57,7 @@ export default class RemoteImage extends React.Component {
     } else if (isLoading) {
       backgroundComponent = (
         <View style={styles.backgroundContainer}>
-          <ActivityIndicator size="large" color={styleConstants.colors.primary} />
+          <ActivityIndicator size="large" color={styleConstants.colors.secondary} />
         </View>
       );
     }

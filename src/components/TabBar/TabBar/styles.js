@@ -7,7 +7,7 @@ const BORDER_BOTTOM_WIDTH = 2;
 const styles = StyleSheet.create({
   container: {
     flexDirection: 'row',
-    backgroundColor: styleConstants.colors.darkPrimary,
+    backgroundColor: styleConstants.colors.primary,
     ...styleConstants.shadows.regular,
   },
   tabContainer: {

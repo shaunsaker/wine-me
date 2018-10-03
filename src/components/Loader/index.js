@@ -12,7 +12,7 @@ const defaultProps = {};
 const Loader = () => {
   return (
     <View style={styles.container}>
-      <ActivityIndicator size="large" color={styleConstants.colors.primary} />
+      <ActivityIndicator size="large" color={styleConstants.colors.secondary} />
     </View>
   );
 };

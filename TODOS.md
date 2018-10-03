@@ -1,5 +1,6 @@
 # TODOS
 
+- Undefined is not an object bug, evaluating ref2.id in PlaceList
 - Screenshots
 - CI
 - Release

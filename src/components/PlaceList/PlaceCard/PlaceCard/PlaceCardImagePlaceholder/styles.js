@@ -7,7 +7,7 @@ const styles = StyleSheet.create({
     // from RemoteImage
     flex: 1,
     height: 200,
-    backgroundColor: styleConstants.colors.primary,
+    backgroundColor: styleConstants.colors.secondary,
     borderRadius: styleConstants.dimensions.borderRadius,
     justifyContent: 'center',
     alignItems: 'center',

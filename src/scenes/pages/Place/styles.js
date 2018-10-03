@@ -22,7 +22,7 @@ const styles = StyleSheet.create({
   },
   linkText: {
     ...styleConstants.fonts.mediumFontHelper,
-    color: styleConstants.colors.primary,
+    color: styleConstants.colors.secondary,
     textDecorationLine: 'underline',
   },
   photosBlankStateText: {

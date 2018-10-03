@@ -7,7 +7,7 @@ const styles = StyleSheet.create({
     alignSelf: 'stretch',
     paddingVertical: styleConstants.dimensions.spacing.vertical,
     paddingHorizontal: styleConstants.dimensions.spacing.horizontal,
-    backgroundColor: styleConstants.colors.darkPrimary,
+    backgroundColor: styleConstants.colors.primary,
   },
 });
 
