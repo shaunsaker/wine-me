@@ -56,6 +56,7 @@ exports[`SearchInput renders renders the handlePress state 1`] = `
     style={
       Object {
         "color": "#FFFFFF",
+        "fontFamily": "Nunito-Regular",
         "fontSize": 17,
       }
     }
@@ -125,6 +126,7 @@ exports[`SearchInput renders renders with the minimum required props 1`] = `
         },
         Object {
           "color": "#FFFFFF",
+          "fontFamily": "Nunito-Regular",
           "fontSize": 17,
         },
       ]

@@ -37,9 +37,8 @@ exports[`Label renders renders 1`] = `
     style={
       Object {
         "color": "#FFFFFF",
-        "fontFamily": undefined,
+        "fontFamily": "Nunito-SemiBold",
         "fontSize": 11,
-        "fontWeight": "600",
       }
     }
   >

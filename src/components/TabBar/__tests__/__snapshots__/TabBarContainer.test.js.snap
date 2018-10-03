@@ -74,9 +74,8 @@ exports[`TabBarContainer renders renders with minimum required props 1`] = `
         Array [
           Object {
             "color": "rgba(255, 255, 255, 0.70)",
-            "fontFamily": undefined,
+            "fontFamily": "Nunito-Regular",
             "fontSize": 15,
-            "fontWeight": "600",
           },
           undefined,
         ]
@@ -140,9 +139,8 @@ exports[`TabBarContainer renders renders with minimum required props 1`] = `
         Array [
           Object {
             "color": "rgba(255, 255, 255, 0.70)",
-            "fontFamily": undefined,
+            "fontFamily": "Nunito-Regular",
             "fontSize": 15,
-            "fontWeight": "600",
           },
           undefined,
         ]

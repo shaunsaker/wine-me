@@ -95,9 +95,8 @@ exports[`SearchAreaLabelList renders renders with minimum required props 1`] = `
             style={
               Object {
                 "color": "#FFFFFF",
-                "fontFamily": undefined,
+                "fontFamily": "Nunito-SemiBold",
                 "fontSize": 11,
-                "fontWeight": "600",
               }
             }
           >

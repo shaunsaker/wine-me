@@ -46,9 +46,8 @@ exports[`BlankState renders renders 1`] = `
     style={
       Object {
         "color": "#212121",
-        "fontFamily": undefined,
+        "fontFamily": "Nunito-SemiBold",
         "fontSize": 24,
-        "fontWeight": "600",
         "marginBottom": 10,
         "textAlign": "center",
       }
@@ -63,6 +62,7 @@ exports[`BlankState renders renders 1`] = `
     style={
       Object {
         "color": "#212121",
+        "fontFamily": "Nunito-Regular",
         "fontSize": 17,
         "textAlign": "center",
       }

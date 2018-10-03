@@ -115,9 +115,8 @@ exports[`PlaceCard renders renders with minimum required props 1`] = `
       style={
         Object {
           "color": "#FFFFFF",
-          "fontFamily": undefined,
+          "fontFamily": "Nunito-SemiBold",
           "fontSize": 17,
-          "fontWeight": "600",
           "marginBottom": 10,
         }
       }
@@ -160,9 +159,8 @@ exports[`PlaceCard renders renders with minimum required props 1`] = `
         style={
           Object {
             "color": "#FFFFFF",
-            "fontFamily": undefined,
+            "fontFamily": "Nunito-SemiBold",
             "fontSize": 11,
-            "fontWeight": "600",
           }
         }
       >

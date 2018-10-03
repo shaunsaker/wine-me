@@ -131,9 +131,8 @@ exports[`Place renders renders with minimum required props 1`] = `
       style={
         Object {
           "color": "#FFFFFF",
-          "fontFamily": undefined,
+          "fontFamily": "Nunito-SemiBold",
           "fontSize": 17,
-          "fontWeight": "600",
         }
       }
     >
@@ -188,9 +187,8 @@ exports[`Place renders renders with minimum required props 1`] = `
             style={
               Object {
                 "color": "#212121",
-                "fontFamily": undefined,
+                "fontFamily": "Nunito-SemiBold",
                 "fontSize": 17,
-                "fontWeight": "600",
               }
             }
           >
@@ -364,9 +362,8 @@ exports[`Place renders renders with minimum required props 1`] = `
             style={
               Object {
                 "color": "#212121",
-                "fontFamily": undefined,
+                "fontFamily": "Nunito-SemiBold",
                 "fontSize": 17,
-                "fontWeight": "600",
               }
             }
           >
@@ -381,6 +378,7 @@ exports[`Place renders renders with minimum required props 1`] = `
             Array [
               Object {
                 "color": "#212121",
+                "fontFamily": "Nunito-Regular",
                 "fontSize": 15,
                 "marginBottom": 10,
                 "marginLeft": 25.5,
@@ -388,8 +386,6 @@ exports[`Place renders renders with minimum required props 1`] = `
               },
               Object {
                 "color": "#3D84A8",
-                "fontFamily": undefined,
-                "fontWeight": "600",
                 "textDecorationLine": "underline",
               },
             ]
@@ -457,9 +453,8 @@ exports[`Place renders renders with minimum required props 1`] = `
             style={
               Object {
                 "color": "#212121",
-                "fontFamily": undefined,
+                "fontFamily": "Nunito-SemiBold",
                 "fontSize": 17,
-                "fontWeight": "600",
               }
             }
           >
@@ -474,6 +469,7 @@ exports[`Place renders renders with minimum required props 1`] = `
             Array [
               Object {
                 "color": "#212121",
+                "fontFamily": "Nunito-Regular",
                 "fontSize": 15,
                 "marginBottom": 10,
                 "marginLeft": 25.5,
@@ -481,8 +477,6 @@ exports[`Place renders renders with minimum required props 1`] = `
               },
               Object {
                 "color": "#3D84A8",
-                "fontFamily": undefined,
-                "fontWeight": "600",
                 "textDecorationLine": "underline",
               },
             ]
@@ -550,9 +544,8 @@ exports[`Place renders renders with minimum required props 1`] = `
             style={
               Object {
                 "color": "#212121",
-                "fontFamily": undefined,
+                "fontFamily": "Nunito-SemiBold",
                 "fontSize": 17,
-                "fontWeight": "600",
               }
             }
           >
@@ -567,6 +560,7 @@ exports[`Place renders renders with minimum required props 1`] = `
             Array [
               Object {
                 "color": "#212121",
+                "fontFamily": "Nunito-Regular",
                 "fontSize": 15,
                 "marginBottom": 10,
                 "marginLeft": 25.5,
@@ -574,8 +568,6 @@ exports[`Place renders renders with minimum required props 1`] = `
               },
               Object {
                 "color": "#3D84A8",
-                "fontFamily": undefined,
-                "fontWeight": "600",
                 "textDecorationLine": "underline",
               },
             ]
@@ -630,9 +622,8 @@ exports[`Place renders renders with minimum required props 1`] = `
             style={
               Object {
                 "color": "#212121",
-                "fontFamily": undefined,
+                "fontFamily": "Nunito-SemiBold",
                 "fontSize": 17,
-                "fontWeight": "600",
               }
             }
           >
@@ -646,6 +637,7 @@ exports[`Place renders renders with minimum required props 1`] = `
           style={
             Object {
               "color": "#212121",
+              "fontFamily": "Nunito-Regular",
               "fontSize": 15,
               "marginBottom": 10,
               "marginLeft": 25.5,
@@ -662,6 +654,7 @@ exports[`Place renders renders with minimum required props 1`] = `
           style={
             Object {
               "color": "#212121",
+              "fontFamily": "Nunito-Regular",
               "fontSize": 15,
               "marginBottom": 10,
               "marginLeft": 25.5,
@@ -678,6 +671,7 @@ exports[`Place renders renders with minimum required props 1`] = `
           style={
             Object {
               "color": "#212121",
+              "fontFamily": "Nunito-Regular",
               "fontSize": 15,
               "marginBottom": 10,
               "marginLeft": 25.5,
@@ -694,6 +688,7 @@ exports[`Place renders renders with minimum required props 1`] = `
           style={
             Object {
               "color": "#212121",
+              "fontFamily": "Nunito-Regular",
               "fontSize": 15,
               "marginBottom": 10,
               "marginLeft": 25.5,
@@ -710,6 +705,7 @@ exports[`Place renders renders with minimum required props 1`] = `
           style={
             Object {
               "color": "#212121",
+              "fontFamily": "Nunito-Regular",
               "fontSize": 15,
               "marginBottom": 10,
               "marginLeft": 25.5,
@@ -726,6 +722,7 @@ exports[`Place renders renders with minimum required props 1`] = `
           style={
             Object {
               "color": "#212121",
+              "fontFamily": "Nunito-Regular",
               "fontSize": 15,
               "marginBottom": 10,
               "marginLeft": 25.5,
@@ -742,6 +739,7 @@ exports[`Place renders renders with minimum required props 1`] = `
           style={
             Object {
               "color": "#212121",
+              "fontFamily": "Nunito-Regular",
               "fontSize": 15,
               "marginBottom": 10,
               "marginLeft": 25.5,
@@ -894,9 +892,8 @@ exports[`Place renders should render the no opening hours state 1`] = `
       style={
         Object {
           "color": "#FFFFFF",
-          "fontFamily": undefined,
+          "fontFamily": "Nunito-SemiBold",
           "fontSize": 17,
-          "fontWeight": "600",
         }
       }
     >
@@ -951,9 +948,8 @@ exports[`Place renders should render the no opening hours state 1`] = `
             style={
               Object {
                 "color": "#212121",
-                "fontFamily": undefined,
+                "fontFamily": "Nunito-SemiBold",
                 "fontSize": 17,
-                "fontWeight": "600",
               }
             }
           >
@@ -1127,9 +1123,8 @@ exports[`Place renders should render the no opening hours state 1`] = `
             style={
               Object {
                 "color": "#212121",
-                "fontFamily": undefined,
+                "fontFamily": "Nunito-SemiBold",
                 "fontSize": 17,
-                "fontWeight": "600",
               }
             }
           >
@@ -1144,6 +1139,7 @@ exports[`Place renders should render the no opening hours state 1`] = `
             Array [
               Object {
                 "color": "#212121",
+                "fontFamily": "Nunito-Regular",
                 "fontSize": 15,
                 "marginBottom": 10,
                 "marginLeft": 25.5,
@@ -1151,8 +1147,6 @@ exports[`Place renders should render the no opening hours state 1`] = `
               },
               Object {
                 "color": "#3D84A8",
-                "fontFamily": undefined,
-                "fontWeight": "600",
                 "textDecorationLine": "underline",
               },
             ]
@@ -1220,9 +1214,8 @@ exports[`Place renders should render the no opening hours state 1`] = `
             style={
               Object {
                 "color": "#212121",
-                "fontFamily": undefined,
+                "fontFamily": "Nunito-SemiBold",
                 "fontSize": 17,
-                "fontWeight": "600",
               }
             }
           >
@@ -1237,6 +1230,7 @@ exports[`Place renders should render the no opening hours state 1`] = `
             Array [
               Object {
                 "color": "#212121",
+                "fontFamily": "Nunito-Regular",
                 "fontSize": 15,
                 "marginBottom": 10,
                 "marginLeft": 25.5,
@@ -1244,8 +1238,6 @@ exports[`Place renders should render the no opening hours state 1`] = `
               },
               Object {
                 "color": "#3D84A8",
-                "fontFamily": undefined,
-                "fontWeight": "600",
                 "textDecorationLine": "underline",
               },
             ]
@@ -1313,9 +1305,8 @@ exports[`Place renders should render the no opening hours state 1`] = `
             style={
               Object {
                 "color": "#212121",
-                "fontFamily": undefined,
+                "fontFamily": "Nunito-SemiBold",
                 "fontSize": 17,
-                "fontWeight": "600",
               }
             }
           >
@@ -1330,6 +1321,7 @@ exports[`Place renders should render the no opening hours state 1`] = `
             Array [
               Object {
                 "color": "#212121",
+                "fontFamily": "Nunito-Regular",
                 "fontSize": 15,
                 "marginBottom": 10,
                 "marginLeft": 25.5,
@@ -1337,8 +1329,6 @@ exports[`Place renders should render the no opening hours state 1`] = `
               },
               Object {
                 "color": "#3D84A8",
-                "fontFamily": undefined,
-                "fontWeight": "600",
                 "textDecorationLine": "underline",
               },
             ]
@@ -1481,9 +1471,8 @@ exports[`Place renders should render the no photos state 1`] = `
       style={
         Object {
           "color": "#FFFFFF",
-          "fontFamily": undefined,
+          "fontFamily": "Nunito-SemiBold",
           "fontSize": 17,
-          "fontWeight": "600",
         }
       }
     >
@@ -1538,9 +1527,8 @@ exports[`Place renders should render the no photos state 1`] = `
             style={
               Object {
                 "color": "#212121",
-                "fontFamily": undefined,
+                "fontFamily": "Nunito-SemiBold",
                 "fontSize": 17,
-                "fontWeight": "600",
               }
             }
           >
@@ -1554,6 +1542,7 @@ exports[`Place renders should render the no photos state 1`] = `
           style={
             Object {
               "color": "#212121",
+              "fontFamily": "Nunito-Regular",
               "fontSize": 15,
               "marginBottom": 10,
               "marginLeft": 25.5,
@@ -1623,9 +1612,8 @@ exports[`Place renders should render the no photos state 1`] = `
             style={
               Object {
                 "color": "#212121",
-                "fontFamily": undefined,
+                "fontFamily": "Nunito-SemiBold",
                 "fontSize": 17,
-                "fontWeight": "600",
               }
             }
           >
@@ -1640,6 +1628,7 @@ exports[`Place renders should render the no photos state 1`] = `
             Array [
               Object {
                 "color": "#212121",
+                "fontFamily": "Nunito-Regular",
                 "fontSize": 15,
                 "marginBottom": 10,
                 "marginLeft": 25.5,
@@ -1647,8 +1636,6 @@ exports[`Place renders should render the no photos state 1`] = `
               },
               Object {
                 "color": "#3D84A8",
-                "fontFamily": undefined,
-                "fontWeight": "600",
                 "textDecorationLine": "underline",
               },
             ]
@@ -1716,9 +1703,8 @@ exports[`Place renders should render the no photos state 1`] = `
             style={
               Object {
                 "color": "#212121",
-                "fontFamily": undefined,
+                "fontFamily": "Nunito-SemiBold",
                 "fontSize": 17,
-                "fontWeight": "600",
               }
             }
           >
@@ -1733,6 +1719,7 @@ exports[`Place renders should render the no photos state 1`] = `
             Array [
               Object {
                 "color": "#212121",
+                "fontFamily": "Nunito-Regular",
                 "fontSize": 15,
                 "marginBottom": 10,
                 "marginLeft": 25.5,
@@ -1740,8 +1727,6 @@ exports[`Place renders should render the no photos state 1`] = `
               },
               Object {
                 "color": "#3D84A8",
-                "fontFamily": undefined,
-                "fontWeight": "600",
                 "textDecorationLine": "underline",
               },
             ]
@@ -1809,9 +1794,8 @@ exports[`Place renders should render the no photos state 1`] = `
             style={
               Object {
                 "color": "#212121",
-                "fontFamily": undefined,
+                "fontFamily": "Nunito-SemiBold",
                 "fontSize": 17,
-                "fontWeight": "600",
               }
             }
           >
@@ -1826,6 +1810,7 @@ exports[`Place renders should render the no photos state 1`] = `
             Array [
               Object {
                 "color": "#212121",
+                "fontFamily": "Nunito-Regular",
                 "fontSize": 15,
                 "marginBottom": 10,
                 "marginLeft": 25.5,
@@ -1833,8 +1818,6 @@ exports[`Place renders should render the no photos state 1`] = `
               },
               Object {
                 "color": "#3D84A8",
-                "fontFamily": undefined,
-                "fontWeight": "600",
                 "textDecorationLine": "underline",
               },
             ]
@@ -1889,9 +1872,8 @@ exports[`Place renders should render the no photos state 1`] = `
             style={
               Object {
                 "color": "#212121",
-                "fontFamily": undefined,
+                "fontFamily": "Nunito-SemiBold",
                 "fontSize": 17,
-                "fontWeight": "600",
               }
             }
           >
@@ -1905,6 +1887,7 @@ exports[`Place renders should render the no photos state 1`] = `
           style={
             Object {
               "color": "#212121",
+              "fontFamily": "Nunito-Regular",
               "fontSize": 15,
               "marginBottom": 10,
               "marginLeft": 25.5,
@@ -1921,6 +1904,7 @@ exports[`Place renders should render the no photos state 1`] = `
           style={
             Object {
               "color": "#212121",
+              "fontFamily": "Nunito-Regular",
               "fontSize": 15,
               "marginBottom": 10,
               "marginLeft": 25.5,
@@ -1937,6 +1921,7 @@ exports[`Place renders should render the no photos state 1`] = `
           style={
             Object {
               "color": "#212121",
+              "fontFamily": "Nunito-Regular",
               "fontSize": 15,
               "marginBottom": 10,
               "marginLeft": 25.5,
@@ -1953,6 +1938,7 @@ exports[`Place renders should render the no photos state 1`] = `
           style={
             Object {
               "color": "#212121",
+              "fontFamily": "Nunito-Regular",
               "fontSize": 15,
               "marginBottom": 10,
               "marginLeft": 25.5,
@@ -1969,6 +1955,7 @@ exports[`Place renders should render the no photos state 1`] = `
           style={
             Object {
               "color": "#212121",
+              "fontFamily": "Nunito-Regular",
               "fontSize": 15,
               "marginBottom": 10,
               "marginLeft": 25.5,
@@ -1985,6 +1972,7 @@ exports[`Place renders should render the no photos state 1`] = `
           style={
             Object {
               "color": "#212121",
+              "fontFamily": "Nunito-Regular",
               "fontSize": 15,
               "marginBottom": 10,
               "marginLeft": 25.5,
@@ -2001,6 +1989,7 @@ exports[`Place renders should render the no photos state 1`] = `
           style={
             Object {
               "color": "#212121",
+              "fontFamily": "Nunito-Regular",
               "fontSize": 15,
               "marginBottom": 10,
               "marginLeft": 25.5,

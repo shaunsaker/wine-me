@@ -108,9 +108,8 @@ exports[`CheckIn renders renders 1`] = `
           Object {
             "color": "#FFFFFF",
             "flex": 1,
-            "fontFamily": undefined,
+            "fontFamily": "Nunito-SemiBold",
             "fontSize": 17,
-            "fontWeight": "600",
             "marginRight": 31.5,
             "textAlign": "center",
           },
