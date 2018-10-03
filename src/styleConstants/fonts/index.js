@@ -1,11 +1,16 @@
-import { Platform } from 'react-native';
-
 import colors from '../colors';
 
 const fonts = {};
 
 // Font families
-fonts.families = {};
+fonts.families = {
+  primary: {
+    fontFamily: 'Nunito-Regular',
+  },
+  medium: {
+    fontFamily: 'Nunito-SemiBold',
+  },
+};
 
 // Font sizes
 fonts.sizes = {
@@ -16,34 +21,30 @@ fonts.sizes = {
   icon: 24,
 };
 
-// Medium font helper
-fonts.mediumFontHelper = {
-  fontFamily: Platform.OS === 'android' ? 'sans-serif-medium' : fonts.families.primary,
-  fontWeight: Platform.OS === 'ios' ? '600' : null,
-};
-
 // Font types
 fonts.types = {
   title: {
-    ...fonts.mediumFontHelper,
+    ...fonts.families.medium,
     fontSize: fonts.sizes.large,
     color: colors.primaryText,
   },
   heading: {
-    ...fonts.mediumFontHelper,
+    ...fonts.families.medium,
     fontSize: fonts.sizes.regular,
     color: colors.primaryText,
   },
   paragraph: {
+    ...fonts.families.primary,
     fontSize: fonts.sizes.regular,
     color: colors.primaryText,
   },
   small: {
+    ...fonts.families.primary,
     fontSize: fonts.sizes.small,
     color: colors.primaryText,
   },
   extraSmall: {
-    ...fonts.mediumFontHelper,
+    ...fonts.families.medium,
     fontSize: fonts.sizes.verySmall,
     color: colors.primaryText,
   },

@@ -42,6 +42,8 @@
 		7A553B7021569B66005FF657 /* libCodePush.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A553B4221569B5B005FF657 /* libCodePush.a */; };
 		7A5671C021555F170070A7C5 /* libReactNativePermissions.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A5671BE21555F010070A7C5 /* libReactNativePermissions.a */; };
 		7A56725A2155630E0070A7C5 /* libRNGeocoder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A567258215562FB0070A7C5 /* libRNGeocoder.a */; };
+		7A705ED4216493200098BBE6 /* Nunito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A705EA32164931F0098BBE6 /* Nunito-Regular.ttf */; };
+		7A705ED5216493200098BBE6 /* Nunito-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A705ED32164931F0098BBE6 /* Nunito-SemiBold.ttf */; };
 		7AA02190215565BE00B983EB /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AA02164215565BE00B983EB /* FBSDKShareKit.framework */; };
 		7AB1D8A4215796EC0094885E /* libBVLinearGradient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AFB5008215796D20034CE17 /* libBVLinearGradient.a */; };
 		7AB5E9B5215556DE00EE42AE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7AB5E98F215556DE00EE42AE /* GoogleService-Info.plist */; };
@@ -441,6 +443,8 @@
 		7A553B3C21569B5B005FF657 /* CodePush.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CodePush.xcodeproj; path = "../node_modules/react-native-code-push/ios/CodePush.xcodeproj"; sourceTree = "<group>"; };
 		7A56719221555F010070A7C5 /* ReactNativePermissions.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ReactNativePermissions.xcodeproj; path = "../node_modules/react-native-permissions/ios/ReactNativePermissions.xcodeproj"; sourceTree = "<group>"; };
 		7A56722A215562FB0070A7C5 /* RNGeocoder.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNGeocoder.xcodeproj; path = "../node_modules/react-native-geocoder/ios/RNGeocoder.xcodeproj"; sourceTree = "<group>"; };
+		7A705EA32164931F0098BBE6 /* Nunito-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Nunito-Regular.ttf"; path = "../android/app/src/main/assets/fonts/Nunito-Regular.ttf"; sourceTree = "<group>"; };
+		7A705ED32164931F0098BBE6 /* Nunito-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Nunito-SemiBold.ttf"; path = "../android/app/src/main/assets/fonts/Nunito-SemiBold.ttf"; sourceTree = "<group>"; };
 		7AA02164215565BE00B983EB /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = ../../../Documents/FacebookSDK/FBSDKShareKit.framework; sourceTree = "<group>"; };
 		7AB5E98F215556DE00EE42AE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		7ACE03DA21555892002EB7F7 /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
@@ -798,6 +802,8 @@
 			children = (
 				7AB5E98F215556DE00EE42AE /* GoogleService-Info.plist */,
 				7ACE03DA21555892002EB7F7 /* MaterialIcons.ttf */,
+				7A705EA32164931F0098BBE6 /* Nunito-Regular.ttf */,
+				7A705ED32164931F0098BBE6 /* Nunito-SemiBold.ttf */,
 				13B07FAE1A68108700A75B9A /* WineMe */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* WineMeTests */,
@@ -1402,7 +1408,9 @@
 			files = (
 				7ACE040021555892002EB7F7 /* MaterialIcons.ttf in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				7A705ED4216493200098BBE6 /* Nunito-Regular.ttf in Resources */,
 				7AB5E9B5215556DE00EE42AE /* GoogleService-Info.plist in Resources */,
+				7A705ED5216493200098BBE6 /* Nunito-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
