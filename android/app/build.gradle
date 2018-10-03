@@ -102,7 +102,7 @@ android {
         applicationId "co.za.shaunsaker.wineme"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 4
+        versionCode 6
         versionName "1.1.0"
         signingConfigs {
             release {
@@ -141,7 +141,6 @@ android {
             if (abi != null) {  // null for the universal-debug, universal-release variants
                 output.versionCodeOverride =
                         versionCodes.get(abi) * 1048576 + defaultConfig.versionCode
-                        2097157
             }
         }
     }
