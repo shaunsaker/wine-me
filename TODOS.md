@@ -18,6 +18,7 @@
 - Move SearchInput button press action to the component
 - Move Place BackButton press action to the component
 - Test app utils
+- CI
 
 ## FOR IOS SCREENSHOTS
 
