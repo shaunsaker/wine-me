@@ -1,7 +1,10 @@
 # TODOS
 
-- Release
-  - Android, iOS, CodePush
+- Release Android
+  - New screenshots
+- Release iOS
+  - Fix release build
+- Release CodePush
 
 ## PENDING EXTERNAL
 
