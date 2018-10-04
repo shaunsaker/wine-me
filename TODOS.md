@@ -9,6 +9,7 @@
 - Fix location permission error on iOS
 - Fix Slack webhook error
 - Fix Android back button
+- Configure CodePush so that it updates on app background
 
 ## ENHANCEMENTS
 
