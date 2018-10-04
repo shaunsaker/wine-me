@@ -6,6 +6,7 @@
 
 ## BUGS
 
+- Fix location permission error on iOS
 - Fix Slack webhook error
 - Fix Android back button
 
@@ -19,6 +20,8 @@
 - Test app utils
 - CI
 - Line items in Profile for quicker reference
+- Image sizes should be based on device size
+- Tablet should display Place cards centered
 
 ## FOR IOS SCREENSHOTS
 
