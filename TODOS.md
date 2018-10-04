@@ -3,10 +3,6 @@
 - iOS Tablet screenshots
 - Release CodePush
 
-## BUGS
-
-- Got check ins with uid of null
-
 ## ENHANCEMENTS
 
 - RemoteImage not showing network error
