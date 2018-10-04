@@ -30,7 +30,7 @@
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>7</string>
+	<string>8</string>
 	<key>CodePushDeploymentKey</key>
 	<string>vUTJSG8sVyj5Jf3jE-BYYNgdOZ3Ze941d2cf-909b-4139-a2dd-196406e4cc30</string>
 	<key>FacebookAppID</key>
@@ -57,14 +57,14 @@
 			</dict>
 		</dict>
 	</dict>
-	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>We require access to your location in order to show you the closest places</string>
-	<key>NSCalendarsUsageDescription</key>
-	<string>We do not require access to your calendar</string>
-	<key>NSBluetoothPeripheralUsageDescription</key>
-	<string>We do not require access to your bluetooth</string>
 	<key>NSAppleMusicUsageDescription</key>
 	<string>We do not require access to your music</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>We do not require access to your bluetooth</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>We do not require access to your calendar</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>We require access to your location in order to show you the closest places</string>
 	<key>NSMotionUsageDescription</key>
 	<string>We do not require access to your motion</string>
 	<key>NSSpeechRecognitionUsageDescription</key>
