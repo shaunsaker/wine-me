@@ -1,7 +1,13 @@
 # TODOS
 
-- iOS Tablet screenshots
+- Test iOS beta
+- Submit for review iOS
 - Release CodePush
+
+## BUGS
+
+- Fix Slack webhook error
+- Fix Android back button
 
 ## ENHANCEMENTS
 
@@ -19,5 +25,3 @@
 ### iPhone 8 Plus
 
 screencapture -R957,95,297,530 screenshot.png
-
-### iPad Pro
