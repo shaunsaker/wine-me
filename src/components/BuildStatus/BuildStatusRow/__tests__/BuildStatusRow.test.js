@@ -8,7 +8,7 @@ describe('BuildStatusRow', () => {
   const valueText = 'Bar';
 
   describe('renders', () => {
-    it('renders with minimum required props', () => {
+    it('renders', () => {
       const component = renderer.create(
         <BuildStatusRow labelText={labelText} valueText={valueText} />,
       );
