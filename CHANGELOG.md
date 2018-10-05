@@ -14,6 +14,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Changed
 
 - Changed back android behaviour in Lightbox component
+- Only log store actions if iOS
 
 ### Removed
 
