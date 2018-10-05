@@ -102,8 +102,8 @@ android {
         applicationId "co.za.shaunsaker.wineme"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 8
-        versionName "1.1.0"
+        versionCode 9
+        versionName "1.1.1"
         signingConfigs {
             release {
                 if (project.hasProperty('MYAPP_RELEASE_STORE_FILE')) {
