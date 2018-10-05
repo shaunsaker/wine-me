@@ -68,7 +68,7 @@ export class CodePushHandler extends React.Component {
     const { appState } = this.state;
 
     // If the app is foregrounded after being backgrounded, sync codePush
-    if (nextAppState === 'active' && appState.match(/inactive|background/)) {
+    if (nextAppState === 'active' && appState && appState.match(/inactive|background/)) {
       this.syncCodePush();
     }
 
