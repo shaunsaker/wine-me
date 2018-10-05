@@ -2,8 +2,6 @@
 
 ## BUGS
 
-- Fix Android back button
-
 ## ENHANCEMENTS
 
 - Request location permission again if not granted

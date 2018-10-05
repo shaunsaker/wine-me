@@ -13,6 +13,7 @@ import DatabaseHandler from './handlers/DatabaseHandler';
 import NetworkHandler from './handlers/NetworkHandler';
 import LocationHandler from './handlers/LocationHandler';
 import CodePushHandler from './handlers/CodePushHandler';
+import AndroidBackHandler from './handlers/AndroidBackHandler';
 
 import PageLoader from './components/PageLoader';
 
@@ -36,6 +37,7 @@ export function App() {
             <NetworkHandler />
             <LocationHandler />
             <Router />
+            <AndroidBackHandler />
           </SystemMessageHandler>
         </ErrorHandler>
       </PersistGate>
