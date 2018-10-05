@@ -2,12 +2,8 @@
 
 - Reconfigure CodePush
   - Test CodePushHandler
-  - Test CodePushStatus
-  - Test BuildStatus
-  - Test InfoButton
   - Update Home tests
   - Test InfoModal
-  - Update Lightbox tests
 
 ## BUGS
 
@@ -18,6 +14,8 @@
 
 ## ENHANCEMENTS
 
+- Progress in CodePushStatus should be a util
+- CodePushStatus container tests
 - Save unique device ID
 - Location updates on app state
 - RemoteImage not showing network error

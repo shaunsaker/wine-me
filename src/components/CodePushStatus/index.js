@@ -47,7 +47,7 @@ export class CodePushStatusContainer extends React.Component {
             ? Number(
                 (codePushDownloadProgress.receivedBytes / codePushDownloadProgress.totalBytes) *
                   100,
-              ).toFixed(0)
+              ).toFixed(0) // FIXME: Should be a util
             : 0
         }%`;
         isLoading = true;
