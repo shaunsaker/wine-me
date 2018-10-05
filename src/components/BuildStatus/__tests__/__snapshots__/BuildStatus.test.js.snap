@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BuildStatus renders renders with minimum required props 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "row",
+      "justifyContent": "center",
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "#212121",
+        "fontFamily": "Nunito-Regular",
+        "fontSize": 15,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "fontFamily": "Nunito-SemiBold",
+        }
+      }
+    >
+      Version:
+       
+    </Text>
+    1.2.0 | 
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "#212121",
+        "fontFamily": "Nunito-Regular",
+        "fontSize": 15,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "fontFamily": "Nunito-SemiBold",
+        }
+      }
+    >
+      Build:
+       
+    </Text>
+    9 | 
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "#212121",
+        "fontFamily": "Nunito-Regular",
+        "fontSize": 15,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "fontFamily": "Nunito-SemiBold",
+        }
+      }
+    >
+      Code:
+       
+    </Text>
+    2
+  </Text>
+</View>
+`;
