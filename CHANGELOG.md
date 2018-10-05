@@ -11,6 +11,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 - Added date_created to check in data log
 
+### Changed
+
+- Changed back android behaviour in Lightbox component
+
 ### Removed
 
 - Removed Slack post from logError saga

@@ -31,13 +31,6 @@ export default class Lightbox extends React.Component {
 
   static defaultProps = {};
 
-  componentDidMount() {
-    // Disable back android
-    BackHandler.addEventListener('hardwareBackPress', () => {
-      return true;
-    });
-  }
-
   animateOut() {
     this.setState({
       shouldAnimateOut: true,
