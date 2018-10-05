@@ -1,8 +1,5 @@
 # TODOS
 
-- Reconfigure CodePush
-  - Test InfoModal
-
 ## BUGS
 
 - Fix location permission error on iOS
