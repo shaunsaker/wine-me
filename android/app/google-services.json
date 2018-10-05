@@ -1,27 +1,27 @@
 {
   "project_info": {
-    "project_number": "556248465048",
-    "firebase_url": "https://wineme-production.firebaseio.com",
-    "project_id": "wineme-production",
-    "storage_bucket": "wineme-production.appspot.com"
+    "project_number": "834897603234",
+    "firebase_url": "https://wineme-development.firebaseio.com",
+    "project_id": "wineme-development",
+    "storage_bucket": "wineme-development.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:556248465048:android:1a12405b02a55671",
+        "mobilesdk_app_id": "1:834897603234:android:1a12405b02a55671",
         "android_client_info": {
           "package_name": "co.za.shaunsaker.wineme"
         }
       },
       "oauth_client": [
         {
-          "client_id": "556248465048-aesqshigpmtb7nhkbvlpc8atrqorl6ol.apps.googleusercontent.com",
+          "client_id": "834897603234-tqhbobc8fu3c74pk5l379jdbj4vd3h70.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCQRtkHXS_sPIZom0TGoMgIpd9TArsZ3DA"
+          "current_key": "AIzaSyCD2mVhWwl8CM9-LxUpfDmV97bctZnLeqo"
         }
       ],
       "services": {

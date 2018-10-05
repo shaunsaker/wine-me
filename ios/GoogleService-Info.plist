@@ -7,21 +7,21 @@
 	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
 	<string>ca-app-pub-3940256099942544/4411468910</string>
 	<key>CLIENT_ID</key>
-	<string>556248465048-cf36ejjtt6hd051h92bjo8v1qkchbbjj.apps.googleusercontent.com</string>
+	<string>834897603234-dl2sccu26lisivdv5jaaei71k6hds7jb.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.556248465048-cf36ejjtt6hd051h92bjo8v1qkchbbjj</string>
+	<string>com.googleusercontent.apps.834897603234-dl2sccu26lisivdv5jaaei71k6hds7jb</string>
 	<key>API_KEY</key>
-	<string>AIzaSyBOLHtarTQXail5r7r46o8eyqcZQpPVljY</string>
+	<string>AIzaSyAh3D5CmJlp5ONghSaqMp9vPrcEChkmKV4</string>
 	<key>GCM_SENDER_ID</key>
-	<string>556248465048</string>
+	<string>834897603234</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>co.za.shaunsaker.wineme</string>
 	<key>PROJECT_ID</key>
-	<string>wineme-production</string>
+	<string>wineme-development</string>
 	<key>STORAGE_BUCKET</key>
-	<string>wineme-production.appspot.com</string>
+	<string>wineme-development.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<true></true>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -33,8 +33,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:556248465048:ios:1a12405b02a55671</string>
+	<string>1:834897603234:ios:1a12405b02a55671</string>
 	<key>DATABASE_URL</key>
-	<string>https://wineme-production.firebaseio.com</string>
+	<string>https://wineme-development.firebaseio.com</string>
 </dict>
 </plist>
