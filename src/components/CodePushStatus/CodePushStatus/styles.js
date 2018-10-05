@@ -17,6 +17,7 @@ const styles = StyleSheet.create({
   },
   text: {
     flex: 1,
+    textAlign: 'center',
     ...styleConstants.fonts.types.small,
   },
   loader: {
