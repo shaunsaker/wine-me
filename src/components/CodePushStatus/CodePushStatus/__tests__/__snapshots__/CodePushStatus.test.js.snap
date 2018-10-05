@@ -5,6 +5,7 @@ exports[`CodePushStatus renders renders 1`] = `
   style={
     Object {
       "alignItems": "center",
+      "alignSelf": "stretch",
       "backgroundColor": "#FFFFFF",
       "borderRadius": 5,
       "flexDirection": "row",
@@ -47,6 +48,7 @@ exports[`CodePushStatus renders renders 1`] = `
     style={
       Object {
         "color": "#212121",
+        "flex": 1,
         "fontFamily": "Nunito-Regular",
         "fontSize": 15,
       }
@@ -62,6 +64,7 @@ exports[`CodePushStatus renders renders the loading state 1`] = `
   style={
     Object {
       "alignItems": "center",
+      "alignSelf": "stretch",
       "backgroundColor": "#FFFFFF",
       "borderRadius": 5,
       "flexDirection": "row",
@@ -89,6 +92,7 @@ exports[`CodePushStatus renders renders the loading state 1`] = `
     style={
       Object {
         "color": "#212121",
+        "flex": 1,
         "fontFamily": "Nunito-Regular",
         "fontSize": 15,
       }
