@@ -2,7 +2,7 @@
 
 ## BUGS
 
-- Configure CodePush so that it updates on app background
+- Configure CodePush so that it updates on app state
   - Add CodePush widget
   - Add version, build and code version somewhere
 - Fix location permission error on iOS
