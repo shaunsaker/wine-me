@@ -14,8 +14,8 @@
     "beta-android": "ENV=production ./envscript.sh && ENVFILE=.env.prod && cd android && fastlane alpha",
     "beta-ios": "ENV=production ./envscript.sh && ENVFILE=.env.prod && cd ios && fastlane beta",
     "android-install": "adb install ./android/app/build/outputs/apk/release/app-armeabi-v7a-release.apk",
-    "code-push-android": "code-push release-react ER24EventsAndroid android  --deploymentName 'Production'",
-    "code-push-ios": "code-push release-react ER24EventsIOS ios  --deploymentName 'Production'",
+    "code-push-android": "code-push release-react WineMe-android android  --deploymentName 'Production'",
+    "code-push-ios": "code-push release-react WineMe-ios ios  --deploymentName 'Production'",
     "code-push": "yarn run code-push-android && yarn run code-push-ios"
   },
   "dependencies": {
