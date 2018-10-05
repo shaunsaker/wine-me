@@ -1,0 +1,241 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InfoModal renders renders with minimum required props 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "rgba(0, 0, 0, 0.70)",
+      "bottom": 0,
+      "left": 0,
+      "position": "absolute",
+      "right": 0,
+      "top": 0,
+      "transform": Array [
+        Object {
+          "translateY": 1334,
+        },
+      ],
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+        "margin": 30,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignSelf": "stretch",
+          "backgroundColor": "#E0E0E0",
+          "borderColor": null,
+          "borderRadius": 5,
+          "borderWidth": 0,
+          "elevation": 6,
+          "maxWidth": 680,
+          "shadowColor": "#212121",
+          "shadowOffset": Object {
+            "height": 1,
+            "width": 0,
+          },
+          "shadowOpacity": 0.33,
+          "shadowRadius": 2,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#FFFFFF",
+            "borderColor": null,
+            "borderWidth": 0,
+            "elevation": 2,
+            "justifyContent": "center",
+            "paddingVertical": 10,
+            "shadowColor": "#212121",
+            "shadowOffset": Object {
+              "height": 1,
+              "width": 0,
+            },
+            "shadowOpacity": 0.17,
+            "shadowRadius": 2,
+          }
+        }
+      >
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+              "padding": 7.5,
+              "position": "absolute",
+              "right": 0,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={false}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {
+                  "color": undefined,
+                  "fontSize": 12,
+                },
+                Object {
+                  "color": "#212121",
+                  "fontSize": 24,
+                },
+                Object {
+                  "fontFamily": "Material Icons",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+        </View>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#212121",
+              "fontFamily": "Nunito-SemiBold",
+              "fontSize": 17,
+            }
+          }
+        >
+          Info
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "paddingHorizontal": 15,
+            "paddingVertical": 20,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#212121",
+                "fontFamily": "Nunito-Regular",
+                "fontSize": 15,
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "fontFamily": "Nunito-SemiBold",
+                }
+              }
+            >
+              Version:
+               
+            </Text>
+            1.2.0 | 
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#212121",
+                "fontFamily": "Nunito-Regular",
+                "fontSize": 15,
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "fontFamily": "Nunito-SemiBold",
+                }
+              }
+            >
+              Build:
+               
+            </Text>
+            9 | 
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#212121",
+                "fontFamily": "Nunito-Regular",
+                "fontSize": 15,
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "fontFamily": "Nunito-SemiBold",
+                }
+              }
+            >
+              Code:
+               
+            </Text>
+            2
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "marginTop": 10,
+            }
+          }
+        >
+          <CodePushStatus />
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
