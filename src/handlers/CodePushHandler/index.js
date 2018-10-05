@@ -22,7 +22,7 @@ export class CodePushHandler extends React.Component {
 
   static propTypes = {
     codePushStatus: PropTypes.number,
-    dispatch: PropTypes.func,
+    dispatch: PropTypes.func.isRequired,
   };
 
   static defaultProps = {};
@@ -104,15 +104,7 @@ export class CodePushHandler extends React.Component {
   }
 
   handleAppVersionMismatch() {
-    const { dispatch } = this.props;
-    const message = 'CodePush version mismatch. Please update your apk to the latest version.';
-
-    dispatch({
-      type: 'SET_SYSTEM_MESSAGE',
-      payload: {
-        message,
-      },
-    });
+    // Do nothing
   }
 
   render() {
