@@ -51,7 +51,10 @@ exports[`Home renders renders the loading state 1`] = `
           "paddingHorizontal": 15,
           "paddingVertical": 10,
         },
-        undefined,
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+        },
       ]
     }
   >
@@ -70,6 +73,7 @@ exports[`Home renders renders the loading state 1`] = `
           "alignSelf": "stretch",
           "backgroundColor": "rgba(0, 0, 0, 0.70)",
           "borderRadius": 5,
+          "flex": 1,
           "flexDirection": "row",
           "height": 48,
           "opacity": 1,
@@ -117,6 +121,50 @@ exports[`Home renders renders the loading state 1`] = `
         }
       >
         Search
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      isTVSelectable={true}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+          "paddingLeft": 15,
+          "paddingVertical": 10,
+        }
+      }
+      testID="home.button.info"
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={false}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": undefined,
+              "fontSize": 12,
+            },
+            Object {
+              "color": "#FFFFFF",
+              "fontSize": 24,
+            },
+            Object {
+              "fontFamily": "Material Icons",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+      >
+        
       </Text>
     </View>
   </View>
@@ -266,7 +314,10 @@ exports[`Home renders renders with minimum required props 1`] = `
           "paddingHorizontal": 15,
           "paddingVertical": 10,
         },
-        undefined,
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+        },
       ]
     }
   >
@@ -285,6 +336,7 @@ exports[`Home renders renders with minimum required props 1`] = `
           "alignSelf": "stretch",
           "backgroundColor": "rgba(0, 0, 0, 0.70)",
           "borderRadius": 5,
+          "flex": 1,
           "flexDirection": "row",
           "height": 48,
           "opacity": 1,
@@ -332,6 +384,50 @@ exports[`Home renders renders with minimum required props 1`] = `
         }
       >
         Search
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      isTVSelectable={true}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+          "paddingLeft": 15,
+          "paddingVertical": 10,
+        }
+      }
+      testID="home.button.info"
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={false}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": undefined,
+              "fontSize": 12,
+            },
+            Object {
+              "color": "#FFFFFF",
+              "fontSize": 24,
+            },
+            Object {
+              "fontFamily": "Material Icons",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+      >
+        
       </Text>
     </View>
   </View>

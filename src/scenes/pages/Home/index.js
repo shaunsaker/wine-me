@@ -98,7 +98,7 @@ export class Home extends React.Component {
         <HeaderBar style={styles.headerBar}>
           <SearchInput handlePress={this.onSearchButtonPress} testID="home.button.searchInput" />
 
-          <InfoButton handlePress={this.onInfoButtonPress} />
+          <InfoButton handlePress={this.onInfoButtonPress} testID="home.button.info" />
         </HeaderBar>
 
         <ScrollView style={styles.container} contentContainerStyle={styles.contentContainer}>

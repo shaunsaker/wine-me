@@ -44,6 +44,18 @@ describe('Home', () => {
       expect(spies[0]).toHaveBeenCalledWith('search');
     });
 
+    it('should handle onInfoButtonPress', () => {
+      spies[0] = jest.spyOn(Home.prototype, 'navigate');
+      const component = renderer.create(
+        <Home featuredPlaces={FEATURED_PLACES} places={PLACES} deviceLocation={DEVICE_LOCATION} />,
+      );
+      const instance = component.getInstance();
+
+      instance.onInfoButtonPress();
+
+      expect(spies[0]).toHaveBeenCalledWith('infoModal');
+    });
+
     it('should handle navigate', () => {
       const component = renderer.create(
         <Home featuredPlaces={FEATURED_PLACES} places={PLACES} deviceLocation={DEVICE_LOCATION} />,
@@ -62,6 +74,19 @@ describe('Home', () => {
       );
       const { root } = component;
       const targetComponent = root.findByProps({ testID: 'home.button.searchInput' });
+
+      targetComponent.props.handlePress();
+
+      expect(spies[0]).toHaveBeenCalled();
+    });
+
+    it('should call onInfoButtonPress on info button press', () => {
+      spies[0] = jest.spyOn(Home.prototype, 'onInfoButtonPress');
+      const component = renderer.create(
+        <Home featuredPlaces={FEATURED_PLACES} places={PLACES} deviceLocation={DEVICE_LOCATION} />,
+      );
+      const { root } = component;
+      const targetComponent = root.findByProps({ testID: 'home.button.info' });
 
       targetComponent.props.handlePress();
 

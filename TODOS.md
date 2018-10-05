@@ -1,8 +1,6 @@
 # TODOS
 
 - Reconfigure CodePush
-  - Test CodePushHandler
-  - Update Home tests
   - Test InfoModal
 
 ## BUGS
