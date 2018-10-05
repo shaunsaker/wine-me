@@ -12,6 +12,7 @@ exports[`CheckIn methods should handle addCheckIn 1`] = `
         },
         "payload": Object {
           "document": Object {
+            "date": 1533309837130,
             "place_id": "1",
             "uid": "12345678",
           },

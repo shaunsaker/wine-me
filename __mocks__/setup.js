@@ -30,3 +30,5 @@ jest.mock('react-native-code-push', () => {
     sync: jest.fn(),
   };
 });
+
+Date.now = jest.fn(() => 1533309837130);

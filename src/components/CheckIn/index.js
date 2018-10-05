@@ -66,6 +66,7 @@ export class CheckIn extends React.Component {
     const document = {
       place_id: place.id,
       uid,
+      date: Date.now(),
     };
 
     dispatch({

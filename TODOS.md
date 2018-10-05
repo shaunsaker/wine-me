@@ -2,8 +2,6 @@
 
 ## BUGS
 
-- Still not getting check in time
-
 ### DIFFUCULT TO REPRODUCE
 
 - After receiving update, redux-persist loader just loaded indefinitely
