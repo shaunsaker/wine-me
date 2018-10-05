@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Fixed
 
 - Fixed CodePushStatus text alignment
+- Fixed Lightbox border radius on Android
 
 ## 1.2.0-9-3
 

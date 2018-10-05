@@ -51,6 +51,7 @@ exports[`CodePushStatus renders renders 1`] = `
         "flex": 1,
         "fontFamily": "Nunito-Regular",
         "fontSize": 15,
+        "textAlign": "center",
       }
     }
   >
@@ -95,6 +96,7 @@ exports[`CodePushStatus renders renders the loading state 1`] = `
         "flex": 1,
         "fontFamily": "Nunito-Regular",
         "fontSize": 15,
+        "textAlign": "center",
       }
     }
   >

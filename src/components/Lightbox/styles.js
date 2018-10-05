@@ -18,7 +18,7 @@ const styles = StyleSheet.create({
     maxWidth: 680,
     backgroundColor: styleConstants.colors.dividerColor,
     borderRadius: styleConstants.dimensions.borderRadius,
-    ...styleConstants.shadows.regular,
+    overflow: 'hidden',
   },
   headerContainer: {
     paddingVertical: styleConstants.dimensions.spacing.vertical,
