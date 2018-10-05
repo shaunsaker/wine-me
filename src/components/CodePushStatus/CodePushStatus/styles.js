@@ -6,6 +6,7 @@ const ICON_SIZE = 20;
 
 const styles = StyleSheet.create({
   container: {
+    alignSelf: 'stretch',
     flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center',
@@ -14,7 +15,10 @@ const styles = StyleSheet.create({
     paddingHorizontal: styleConstants.dimensions.spacing.horizontal / 2,
     borderRadius: styleConstants.dimensions.borderRadius,
   },
-  text: { ...styleConstants.fonts.types.small },
+  text: {
+    flex: 1,
+    ...styleConstants.fonts.types.small,
+  },
   loader: {
     marginRight: styleConstants.dimensions.spacing.horizontal / 2,
   },

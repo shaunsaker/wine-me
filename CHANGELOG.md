@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## 1.2.0-9-3
 
+### Fixed
+
+- Fixed CodePush long text alignment
+
 ### Added
 
 - Added date_created to check in data log
@@ -14,7 +18,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Changed
 
 - Changed back android behaviour in Lightbox component
-- Only log store actions if iOS
+- Changed store action log to only log if iOS
 
 ### Removed
 
