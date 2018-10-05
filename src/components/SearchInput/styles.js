@@ -11,6 +11,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     height: 48,
+    flex: 1,
   },
   icon: {
     fontSize: styleConstants.fonts.sizes.icon,

@@ -192,7 +192,6 @@ export class Search extends React.Component {
               handleChangeText={this.onChangeText}
               handleSubmit={this.onSubmit}
               autoFocus
-              style={styles.searchInput}
               inputTestID="search.input"
             />
 

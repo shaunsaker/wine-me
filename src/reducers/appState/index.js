@@ -37,6 +37,16 @@ export default function appStateReducer(state = initialState, action = {}) {
       });
       return newState;
 
+    case 'SET_CODE_PUSH_STATUS':
+      newState = utils.objects.cloneObject(state);
+      newState.codePushStatus = action.payload.codePushStatus;
+      return newState;
+
+    case 'SET_CODE_PUSH_DOWNLOAD_PROGRESS':
+      newState = utils.objects.cloneObject(state);
+      newState.codePushDownloadProgress = action.payload.codePushDownloadProgress;
+      return newState;
+
     default:
       return state;
   }

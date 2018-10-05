@@ -2,15 +2,13 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Actions } from 'react-native-router-flux';
 import Animator from 'react-native-simple-animators';
-import { BackHandler } from 'react-native';
+import { View, Text, BackHandler } from 'react-native';
 import { Touchable } from 'react-native-simple-components';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 
 import styleConstants from '../../styleConstants';
 
 import styles from './styles';
-
-import InputContainer from '../InputContainer';
 
 export default class Lightbox extends React.Component {
   constructor(props) {
@@ -25,6 +23,7 @@ export default class Lightbox extends React.Component {
   }
 
   static propTypes = {
+    title: PropTypes.string,
     children: PropTypes.node,
     handleClose: PropTypes.func,
     disableClose: PropTypes.bool,
@@ -57,7 +56,7 @@ export default class Lightbox extends React.Component {
 
   render() {
     const { shouldAnimateOut } = this.state;
-    const { children, disableClose } = this.props;
+    const { title, children, disableClose } = this.props;
 
     const closeComponent = !disableClose ? (
       <Touchable onPress={this.animateOut} style={styles.iconContainer}>
@@ -75,14 +74,16 @@ export default class Lightbox extends React.Component {
         animateOutCallback={this.onBack}
         style={styles.wrapper}
       >
-        <InputContainer
-          containerStyle={styles.container}
-          contentContainerStyle={styles.contentContainer}
-        >
-          {closeComponent}
+        <View style={styles.container}>
+          <View style={styles.card}>
+            <View style={styles.headerContainer}>
+              {closeComponent}
 
-          {children}
-        </InputContainer>
+              <Text style={styles.titleText}>{title}</Text>
+            </View>
+            {children}
+          </View>
+        </View>
       </Animator>
     );
   }

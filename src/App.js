@@ -1,7 +1,6 @@
 import React from 'react';
 import { Provider } from 'react-redux';
 import { PersistGate } from 'redux-persist/integration/react';
-import codepush from 'react-native-code-push';
 import { YellowBox } from 'react-native';
 
 import { store, persistor } from './store';
@@ -13,6 +12,7 @@ import AuthHandler from './handlers/AuthHandler';
 import DatabaseHandler from './handlers/DatabaseHandler';
 import NetworkHandler from './handlers/NetworkHandler';
 import LocationHandler from './handlers/LocationHandler';
+import CodePushHandler from './handlers/CodePushHandler';
 
 import PageLoader from './components/PageLoader';
 
@@ -30,6 +30,7 @@ export function App() {
       <PersistGate loading={<PageLoader />} persistor={persistor}>
         <ErrorHandler>
           <SystemMessageHandler>
+            <CodePushHandler />
             <AuthHandler />
             <DatabaseHandler />
             <NetworkHandler />
@@ -42,4 +43,4 @@ export function App() {
   );
 }
 
-export default codepush(App);
+export default App;

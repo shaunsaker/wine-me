@@ -1,10 +1,16 @@
 # TODOS
 
+- Reconfigure CodePush
+  - Test CodePushHandler
+  - Test CodePushStatus
+  - Test BuildStatus
+  - Test InfoButton
+  - Update Home tests
+  - Test InfoModal
+  - Update Lightbox tests
+
 ## BUGS
 
-- Configure CodePush so that it updates on app state
-  - Add CodePush widget
-  - Add version, build and code version somewhere
 - Fix location permission error on iOS
 - Fix Slack webhook error
 - Fix Android back button

@@ -8,6 +8,7 @@ import styles from './styles';
 
 import Page from '../../../components/Page';
 import HeaderBar from '../../../components/HeaderBar';
+import InfoButton from '../../../components/InfoButton';
 import SearchInput from '../../../components/SearchInput';
 import SectionHeader from '../../../components/SectionHeader';
 import Loader from '../../../components/Loader';
@@ -19,6 +20,7 @@ export class Home extends React.Component {
     super(props);
 
     this.onSearchButtonPress = this.onSearchButtonPress.bind(this);
+    this.onInfoButtonPress = this.onInfoButtonPress.bind(this);
     this.navigate = this.navigate.bind(this);
 
     this.state = {};
@@ -35,6 +37,10 @@ export class Home extends React.Component {
 
   onSearchButtonPress() {
     this.navigate('search');
+  }
+
+  onInfoButtonPress() {
+    this.navigate('infoModal');
   }
 
   navigate(page, props) {
@@ -89,8 +95,10 @@ export class Home extends React.Component {
 
     return (
       <Page>
-        <HeaderBar>
+        <HeaderBar style={styles.headerBar}>
           <SearchInput handlePress={this.onSearchButtonPress} testID="home.button.searchInput" />
+
+          <InfoButton handlePress={this.onInfoButtonPress} />
         </HeaderBar>
 
         <ScrollView style={styles.container} contentContainerStyle={styles.contentContainer}>

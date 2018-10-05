@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## 1.2.0
 
+### Added
+
+- Added InfoModal with app version info and CodePush status
+
+### Fixed
+
+- Fixed incorrect CodePush handling
+
 ## 1.1.0
 
 This was in fact a complete app rewrite masquerading as a minor version bump due to most functionality still being in place.

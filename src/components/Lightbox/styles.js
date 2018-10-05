@@ -11,22 +11,33 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
+    margin: styleConstants.dimensions.spacing.horizontal * 2,
   },
-  contentContainer: {
-    alignSelf: 'center',
-    backgroundColor: styleConstants.colors.white,
-    paddingVertical: styleConstants.dimensions.spacing.vertical,
-    paddingHorizontal: styleConstants.dimensions.spacing.horizontal,
+  card: {
+    alignSelf: 'stretch',
+    maxWidth: 680,
+    backgroundColor: styleConstants.colors.dividerColor,
     borderRadius: styleConstants.dimensions.borderRadius,
+    ...styleConstants.shadows.regular,
+  },
+  headerContainer: {
+    paddingVertical: styleConstants.dimensions.spacing.vertical,
+    backgroundColor: styleConstants.colors.white,
+    ...styleConstants.shadows.small,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  titleText: {
+    ...styleConstants.fonts.types.heading,
   },
   iconContainer: {
     position: 'absolute',
-    top: styleConstants.dimensions.spacing.vertical * 2,
-    right: styleConstants.dimensions.spacing.horizontal,
+    padding: styleConstants.dimensions.spacing.horizontal / 2,
+    right: 0,
   },
   icon: {
     fontSize: styleConstants.fonts.sizes.icon,
-    color: styleConstants.colors.white,
+    color: styleConstants.colors.primaryText,
   },
 });
 

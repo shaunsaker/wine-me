@@ -12,9 +12,6 @@ const styles = StyleSheet.create({
   row: {
     flexDirection: 'row',
   },
-  searchInput: {
-    flex: 1, // NB
-  },
   selectedSearchAreaLabelContainer: {
     position: 'absolute',
     top: 0,

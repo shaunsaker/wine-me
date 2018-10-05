@@ -9,6 +9,8 @@ const initialState = {
     effectiveType: null,
   },
   pendingTransactions: [],
+  codePushStatus: null,
+  codePushDownloadProgress: null,
 };
 
 export default initialState;
