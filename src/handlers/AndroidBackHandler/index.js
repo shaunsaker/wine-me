@@ -12,6 +12,7 @@ export class AndroidBackHandler extends React.Component {
 
     this.handleBackPress = this.handleBackPress.bind(this);
     this.exitApp = this.exitApp.bind(this);
+    this.navigate = this.navigate.bind(this);
 
     this.state = {};
   }
