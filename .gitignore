@@ -58,3 +58,5 @@ buck-out/
 # Custom
 android/fastlane/README.md
 ios/fastlane/README.md
+android/app/google-services.json
+ios/GoogleService-Info.plist
