@@ -2,13 +2,11 @@
 
 ## BUGS
 
-- Fix location permission error on iOS
-- Fix Slack webhook error
 - Fix Android back button
-- Save check in time
 
 ## ENHANCEMENTS
 
+- Request location permission again if not granted
 - Progress in CodePushStatus should be a util
 - CodePushStatus container tests
 - Save unique device ID

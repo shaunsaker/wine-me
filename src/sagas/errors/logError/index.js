@@ -1,7 +1,6 @@
 import { all, put } from 'redux-saga/effects';
 
 import utils from '../../../utils';
-import config from '../../../config';
 
 export default function* logError(action) {
   /*
@@ -9,8 +8,6 @@ export default function* logError(action) {
         - If in production:
           - Log the error to the db
           - SET_SYSTEM_MESSAGE
-          - If Slack config has been set up
-            - Post to Slack
         - If in development
           - SET_SYSTEM_MESSAGE
   */
@@ -40,26 +37,8 @@ export default function* logError(action) {
       },
     });
 
-    const slackAction = put({
-      type: 'post',
-      payload: {
-        url: config.slack.webhook,
-        headers: { Accept: 'application/json', 'Content-Type': 'application/json' },
-        parameters: {
-          channel: config.slack.channel,
-          username: config.slack.username,
-          icon_emoji: config.slack.icon_emoji,
-          text: JSON.stringify(data),
-        },
-      },
-    });
-
     if (!__DEV__) {
       actions.push(databaseAction);
-
-      if (config.slack.webhook) {
-        actions.push(slackAction);
-      }
     }
 
     yield all(actions);
