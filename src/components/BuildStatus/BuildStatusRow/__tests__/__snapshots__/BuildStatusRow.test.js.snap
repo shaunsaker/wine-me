@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`BuildStatusRow renders renders with minimum required props 1`] = `
+exports[`BuildStatusRow renders renders 1`] = `
 <Text
   accessible={true}
   allowFontScaling={true}
