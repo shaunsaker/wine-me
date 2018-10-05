@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BuildStatusRow renders renders with minimum required props 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+  style={
+    Object {
+      "color": "#212121",
+      "fontFamily": "Nunito-Regular",
+      "fontSize": 15,
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "fontFamily": "Nunito-SemiBold",
+      }
+    }
+  >
+    Foo
+     
+  </Text>
+  Bar
+</Text>
+`;
