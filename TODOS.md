@@ -17,7 +17,6 @@
 
 ### CODE OPTIMISATIONS
 
-- CodePushStatus container tests
 - Scripts
 - Test app utils
 - Move SearchInput button press action to the component
