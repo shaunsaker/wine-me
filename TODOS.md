@@ -20,9 +20,9 @@
 - Progress in CodePushStatus should be a util
 - CodePushStatus container tests
 - Scripts
+- Test app utils
 - Move SearchInput button press action to the component
 - Move Place BackButton press action to the component
-- Test app utils
 - CI
 
 ## FEATURE REQUESTS
