@@ -1,8 +1,5 @@
 # TODOS
 
-- Tablet should display Place cards centered
-- Change featured place
-
 ## BUGS
 
 ### DIFFUCULT TO REPRODUCE
