@@ -1,6 +1,10 @@
 # TODOS
 
+- Show me that I've checked in on the Place card
+
 ## BUGS
+
+- Info text again
 
 ### DIFFUCULT TO REPRODUCE
 
@@ -17,14 +21,10 @@
 
 ### CODE OPTIMISATIONS
 
-- Test app utils
-- Move SearchInput button press action to the component
-- Move Place BackButton press action to the component
 - CI
 
 ## FEATURE REQUESTS
 
-- Show me that I've checked in on the Place card
 - Buy wines
 - Line items in Profile for quicker reference
 

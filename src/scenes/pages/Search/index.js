@@ -156,7 +156,7 @@ export class Search extends React.Component {
     //  Else display no results blank state
     // Else display initial blank state
     if (searchTerm || searchArea) {
-      if (searchResults) {
+      if (searchResults.length) {
         searchResultsComponent = (
           <View style={styles.placeListContainer}>
             <PlaceList data={searchResults} />
