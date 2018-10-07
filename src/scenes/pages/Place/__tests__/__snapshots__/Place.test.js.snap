@@ -204,7 +204,7 @@ exports[`Place renders renders with minimum required props 1`] = `
           data={
             Array [
               Object {
-                "uri": "https://maps.googleapis.com/maps/api/place/photo?maxheight=200&photoreference=CmRaAAAAF5bkjtj7bFEGaZqTN1_uZrJMvM6EEOFle3UIDd5JEbZwb281f2F4EH-XR1o6frihMiOzrJEx1KlczmV8o4qLrYygDZE-TKthSRT1SdzvrEQ6AjQbCG6sVeZBR48V0lMLEhDkpyqJh9O9z4Ai-7All7swGhQwTkHxJ77yIZ9d0c8oqWifUrL6eA&key=AIzaSyAu5M0b3zBi4gT50BjpspZnEtCNeyCJwvY",
+                "uri": "https://maps.googleapis.com/maps/api/place/photo?maxheight=240&photoreference=CmRaAAAAF5bkjtj7bFEGaZqTN1_uZrJMvM6EEOFle3UIDd5JEbZwb281f2F4EH-XR1o6frihMiOzrJEx1KlczmV8o4qLrYygDZE-TKthSRT1SdzvrEQ6AjQbCG6sVeZBR48V0lMLEhDkpyqJh9O9z4Ai-7All7swGhQwTkHxJ77yIZ9d0c8oqWifUrL6eA&key=AIzaSyAu5M0b3zBi4gT50BjpspZnEtCNeyCJwvY",
               },
             ]
           }
@@ -283,7 +283,7 @@ exports[`Place renders renders with minimum required props 1`] = `
                       resizeMode="cover"
                       source={
                         Object {
-                          "uri": "https://maps.googleapis.com/maps/api/place/photo?maxheight=200&photoreference=CmRaAAAAF5bkjtj7bFEGaZqTN1_uZrJMvM6EEOFle3UIDd5JEbZwb281f2F4EH-XR1o6frihMiOzrJEx1KlczmV8o4qLrYygDZE-TKthSRT1SdzvrEQ6AjQbCG6sVeZBR48V0lMLEhDkpyqJh9O9z4Ai-7All7swGhQwTkHxJ77yIZ9d0c8oqWifUrL6eA&key=AIzaSyAu5M0b3zBi4gT50BjpspZnEtCNeyCJwvY",
+                          "uri": "https://maps.googleapis.com/maps/api/place/photo?maxheight=240&photoreference=CmRaAAAAF5bkjtj7bFEGaZqTN1_uZrJMvM6EEOFle3UIDd5JEbZwb281f2F4EH-XR1o6frihMiOzrJEx1KlczmV8o4qLrYygDZE-TKthSRT1SdzvrEQ6AjQbCG6sVeZBR48V0lMLEhDkpyqJh9O9z4Ai-7All7swGhQwTkHxJ77yIZ9d0c8oqWifUrL6eA&key=AIzaSyAu5M0b3zBi4gT50BjpspZnEtCNeyCJwvY",
                         }
                       }
                       style={
@@ -965,7 +965,7 @@ exports[`Place renders should render the no opening hours state 1`] = `
           data={
             Array [
               Object {
-                "uri": "https://maps.googleapis.com/maps/api/place/photo?maxheight=200&photoreference=CmRaAAAAF5bkjtj7bFEGaZqTN1_uZrJMvM6EEOFle3UIDd5JEbZwb281f2F4EH-XR1o6frihMiOzrJEx1KlczmV8o4qLrYygDZE-TKthSRT1SdzvrEQ6AjQbCG6sVeZBR48V0lMLEhDkpyqJh9O9z4Ai-7All7swGhQwTkHxJ77yIZ9d0c8oqWifUrL6eA&key=AIzaSyAu5M0b3zBi4gT50BjpspZnEtCNeyCJwvY",
+                "uri": "https://maps.googleapis.com/maps/api/place/photo?maxheight=240&photoreference=CmRaAAAAF5bkjtj7bFEGaZqTN1_uZrJMvM6EEOFle3UIDd5JEbZwb281f2F4EH-XR1o6frihMiOzrJEx1KlczmV8o4qLrYygDZE-TKthSRT1SdzvrEQ6AjQbCG6sVeZBR48V0lMLEhDkpyqJh9O9z4Ai-7All7swGhQwTkHxJ77yIZ9d0c8oqWifUrL6eA&key=AIzaSyAu5M0b3zBi4gT50BjpspZnEtCNeyCJwvY",
               },
             ]
           }
@@ -1044,7 +1044,7 @@ exports[`Place renders should render the no opening hours state 1`] = `
                       resizeMode="cover"
                       source={
                         Object {
-                          "uri": "https://maps.googleapis.com/maps/api/place/photo?maxheight=200&photoreference=CmRaAAAAF5bkjtj7bFEGaZqTN1_uZrJMvM6EEOFle3UIDd5JEbZwb281f2F4EH-XR1o6frihMiOzrJEx1KlczmV8o4qLrYygDZE-TKthSRT1SdzvrEQ6AjQbCG6sVeZBR48V0lMLEhDkpyqJh9O9z4Ai-7All7swGhQwTkHxJ77yIZ9d0c8oqWifUrL6eA&key=AIzaSyAu5M0b3zBi4gT50BjpspZnEtCNeyCJwvY",
+                          "uri": "https://maps.googleapis.com/maps/api/place/photo?maxheight=240&photoreference=CmRaAAAAF5bkjtj7bFEGaZqTN1_uZrJMvM6EEOFle3UIDd5JEbZwb281f2F4EH-XR1o6frihMiOzrJEx1KlczmV8o4qLrYygDZE-TKthSRT1SdzvrEQ6AjQbCG6sVeZBR48V0lMLEhDkpyqJh9O9z4Ai-7All7swGhQwTkHxJ77yIZ9d0c8oqWifUrL6eA&key=AIzaSyAu5M0b3zBi4gT50BjpspZnEtCNeyCJwvY",
                         }
                       }
                       style={

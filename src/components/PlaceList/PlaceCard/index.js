@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
+import { PixelRatio } from 'react-native';
 
 import utils from '../../../utils';
 import config from '../../../config';
@@ -56,7 +57,7 @@ export class PlaceCardContainer extends React.Component {
       photoReference &&
       utils.app.getGooglePlacesPhotoURI(
         photoReference,
-        config.googlePlaces.maxImageHeight,
+        PixelRatio.getPixelSizeForLayoutSize(200), // PlaceCard height
         config.googlePlaces.apiKey,
       );
     const imageSource = uri && {

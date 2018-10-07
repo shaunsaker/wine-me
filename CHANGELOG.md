@@ -24,6 +24,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - CodePushStatus uses getPercentage util
 - Disabled feedback on PlaceCards
 - LocationHandler gets location additionally on appState change
+- Images (PlaceCard and Place photos) are based on device pixel ratio
 
 ## 1.2.0-9-4
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-import { View, Text, Linking, ScrollView } from 'react-native';
+import { View, Text, Linking, ScrollView, PixelRatio } from 'react-native';
 
 import utils from '../../../utils';
 import config from '../../../config';
@@ -102,7 +102,7 @@ export class Place extends React.Component {
       ? place.photoReferences.map((photoReference) => {
           const photoURI = utils.app.getGooglePlacesPhotoURI(
             photoReference,
-            config.googlePlaces.maxImageHeight,
+            PixelRatio.getPixelSizeForLayoutSize(120), // height of thumbnail
             config.googlePlaces.apiKey,
           );
           const photo = { uri: photoURI };
