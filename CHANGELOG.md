@@ -23,6 +23,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 - CodePushStatus uses getPercentage util
 - Disabled feedback on PlaceCards
+- LocationHandler gets location additionally on appState change
 
 ## 1.2.0-9-4
 

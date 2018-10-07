@@ -4,25 +4,68 @@ import renderer from 'react-test-renderer';
 import { LocationHandler } from '..';
 
 describe('LocationHandler', () => {
-  let spy;
+  const spies = [];
   const dispatch = jest.fn();
+  const backgroundState = 'inactive';
+  const foregroundState = 'active';
 
-  it('renders with all/minimum required props', () => {
-    expect(renderer.create(<LocationHandler dispatch={jest.fn()} />)).toMatchSnapshot();
+  describe('renders', () => {
+    it('renders', () => {
+      const component = renderer.create(<LocationHandler dispatch={dispatch} />);
+
+      expect(component).toMatchSnapshot();
+    });
   });
 
-  it('call getLocationPermission on componentDidMount', () => {
-    spy = jest.spyOn(LocationHandler.prototype, 'getLocationPermission');
+  describe('methods', () => {
+    it('should handle handleAppStateChange', () => {
+      spies[0] = jest.spyOn(LocationHandler.prototype, 'getLocation');
+      const component = renderer.create(<LocationHandler dispatch={dispatch} />);
+      const instance = component.getInstance();
 
-    renderer.create(<LocationHandler dispatch={dispatch} />);
+      instance.handleAppStateChange(backgroundState);
+      instance.handleAppStateChange(foregroundState);
 
-    expect(spy).toHaveBeenCalled();
-    expect(dispatch).toMatchSnapshot();
+      expect(spies[0]).toHaveBeenCalled();
+    });
+
+    it('should handle setAppState', () => {
+      const component = renderer.create(<LocationHandler dispatch={dispatch} />);
+      const instance = component.getInstance();
+
+      instance.setAppState(backgroundState);
+
+      expect(instance.state.appState).toEqual(backgroundState);
+    });
+
+    it('should handle getLocation', () => {
+      const component = renderer.create(<LocationHandler dispatch={dispatch} />);
+      const instance = component.getInstance();
+
+      instance.getLocation();
+
+      expect(dispatch).toHaveBeenCalled();
+      expect(dispatch).toMatchSnapshot();
+    });
+  });
+
+  describe('lifecycle methods', () => {
+    it('should call getLocation on componentDidMount', () => {
+      spies[0] = jest.spyOn(LocationHandler.prototype, 'getLocation');
+
+      renderer.create(<LocationHandler dispatch={dispatch} />);
+
+      expect(spies[0]).toHaveBeenCalled();
+    });
   });
 
   afterEach(() => {
-    if (spy) {
-      spy.mockClear();
-    }
+    spies.forEach((spy) => {
+      if (spy) {
+        spy.mockClear();
+      }
+    });
+
+    jest.clearAllMocks();
   });
 });

@@ -1,7 +1,5 @@
 # TODOS
 
-- Show me how many places I've checked into
-- Location updates on app state
 - Image sizes should be based on device size
 - Tablet should display Place cards centered
 - Change featured place
@@ -26,6 +24,10 @@
 
 - Buy wines
 - Line items in Profile for quicker reference
+
+### MY OWN
+
+- Show me how many places I've checked into
 
 ## FOR IOS SCREENSHOTS
 
