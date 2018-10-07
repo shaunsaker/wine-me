@@ -13,8 +13,8 @@
     "android-staging": "react-native run-android --variant=release",
     "android-apk:": "cd android && ./gradlew clean && ./gradlew assembleRelease",
     "android-install": "adb install ./android/app/build/outputs/apk/release/app-armeabi-v7a-release.apk",
-    "code-push-android": "code-push release-react PROJECT_NAME-android android  --deploymentName 'Production'",
-    "code-push-ios": "code-push release-react PROJECT_NAME-ios ios  --deploymentName 'Production'",
+    "code-push-android": "code-push release-react WineMe-android android  --deploymentName 'Production'",
+    "code-push-ios": "code-push release-react WineMe-ios ios  --deploymentName 'Production'",
     "code-push": "yarn run code-push-android && yarn run code-push-ios",
     "beta-android": "yarn run env-production && cd android && fastlane alpha",
     "beta-ios": "yarn run env-production && cd ios && fastlane beta"
