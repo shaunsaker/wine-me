@@ -3,7 +3,6 @@ import { StyleSheet } from 'react-native';
 import styleConstants from '../../styleConstants';
 
 const ICON_SIZE = 18; // from SectionHeader
-const IMAGE_SIZE = 120;
 
 const styles = StyleSheet.create({
   container: {},
@@ -16,12 +15,6 @@ const styles = StyleSheet.create({
   itemContainer: {
     paddingRight: styleConstants.dimensions.spacing.horizontal,
     paddingBottom: styleConstants.dimensions.spacing.vertical,
-  },
-  image: {
-    width: IMAGE_SIZE,
-    height: IMAGE_SIZE,
-    borderRadius: styleConstants.dimensions.borderRadius,
-    overflow: 'hidden',
   },
 });
 

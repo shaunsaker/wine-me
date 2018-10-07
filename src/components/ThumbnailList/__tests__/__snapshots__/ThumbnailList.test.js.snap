@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`PhotoList renders renders with minimum required props 1`] = `
+exports[`ThumbnailList renders renders with minimum required props 1`] = `
 <RCTScrollView
   contentContainerStyle={
     Object {

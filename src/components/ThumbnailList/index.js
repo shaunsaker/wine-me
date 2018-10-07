@@ -4,7 +4,7 @@ import { View, FlatList } from 'react-native';
 
 import styles from './styles';
 
-import RemoteImage from '../RemoteImage';
+import Thumbnail from './Thumbnail';
 
 export default class ThumbnailList extends React.Component {
   constructor(props) {
@@ -24,7 +24,7 @@ export default class ThumbnailList extends React.Component {
 
     return (
       <View style={styles.itemContainer}>
-        <RemoteImage source={{ uri }} style={styles.image} />
+        <Thumbnail uri={uri} />
       </View>
     );
   }

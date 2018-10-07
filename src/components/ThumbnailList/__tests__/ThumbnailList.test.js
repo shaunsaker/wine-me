@@ -19,6 +19,4 @@ describe('ThumbnailList', () => {
       expect(component).toMatchSnapshot();
     });
   });
-
-  // NOTE: We don't test render methods (those are handle in the test(s) above)
 });
