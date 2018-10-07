@@ -1,14 +1,14 @@
 # TODOS
 
-- If I delete things, store still persists them, e.g. deleted Cederberg search area but it was still there
 - Profile blank state should say check in
 - Style opening hours correctly
 
 ## BUGS
 
-### DIFFUCULT TO REPRODUCE
+### DIFFUCULT TO REPRODUCE/SOLVE
 
 - After receiving update on iOS, redux-persist loader just loaded indefinitely
+- If I delete things, store still persists them, e.g. deleted Cederberg search area but it was still there
 
 ## ENHANCEMENTS
 

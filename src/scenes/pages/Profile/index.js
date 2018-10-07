@@ -48,7 +48,7 @@ export class Profile extends React.Component {
       <BlankState
         iconName="place"
         title="Turn water into wine."
-        description="Start visiting wine farms, mark them as visited and they'll show up here."
+        description="Start visiting wine farms, 'Check in' and they'll show up here."
       />
     );
 
