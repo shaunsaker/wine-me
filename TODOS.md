@@ -1,10 +1,10 @@
 # TODOS
 
+- If I delete things, store still persists them, e.g. deleted Cederberg search area but it was still there
 - Profile blank state should say check in
+- Style opening hours correctly
 
 ## BUGS
-
-- If I delete things, store still persists them, e.g. deleted Cederberg search area but it was still there
 
 ### DIFFUCULT TO REPRODUCE
 
@@ -12,7 +12,6 @@
 
 ## ENHANCEMENTS
 
-- Style opening hours correctly
 - Request location permission again if not granted
 - Save unique device ID (for easy data retrieval if necessary)
 - Facebook sign in
