@@ -11,6 +11,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 - Added getPercentage util to numbers subset
 
+### Changed
+
+- CodePushStatus uses getPercentage util
+
 ## 1.2.0-9-4
 
 ### Fixed

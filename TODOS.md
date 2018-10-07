@@ -17,7 +17,6 @@
 
 ### CODE OPTIMISATIONS
 
-- Progress in CodePushStatus should be a util
 - CodePushStatus container tests
 - Scripts
 - Test app utils
