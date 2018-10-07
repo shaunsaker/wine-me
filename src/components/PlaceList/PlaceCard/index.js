@@ -32,6 +32,7 @@ export class PlaceCardContainer extends React.Component {
       latitude: PropTypes.number,
       longitude: PropTypes.number,
     }).isRequired,
+    userCheckIns: PropTypes.shape({}).isRequired,
   };
 
   static defaultProps = {};
@@ -47,7 +48,7 @@ export class PlaceCardContainer extends React.Component {
   }
 
   render() {
-    const { place, deviceLocation } = this.props;
+    const { place, deviceLocation, userCheckIns } = this.props;
 
     // Get the google places photo uri from the photo reference
     const photoReference = place.photoReferences && place.photoReferences[0];
@@ -80,12 +81,20 @@ export class PlaceCardContainer extends React.Component {
       label = `${relativeDistance} km from you`;
     }
 
+    // Check if the user has checked into the place
+    const hasCheckedIn = utils.objects
+      .convertObjectToArray(userCheckIns)
+      .filter((checkIn) => checkIn.place_id === place.id).length
+      ? true
+      : null;
+
     return (
       <PlaceCard
         imageSource={imageSource}
         title={title}
         label={label}
         handlePress={this.onPress}
+        hasCheckedIn={hasCheckedIn}
         testID="placeCardContainer"
       />
     );
@@ -95,6 +104,7 @@ export class PlaceCardContainer extends React.Component {
 function mapStateToProps(state) {
   return {
     deviceLocation: state.appState.deviceLocation,
+    userCheckIns: state.appData.userCheckIns,
   };
 }
 

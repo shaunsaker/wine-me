@@ -168,5 +168,63 @@ exports[`PlaceCard renders renders with minimum required props 1`] = `
       </Text>
     </View>
   </BVLinearGradient>
+  <View
+    style={
+      Object {
+        "position": "absolute",
+        "right": 15,
+        "top": 10,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#FFFFFF",
+          "borderColor": null,
+          "borderRadius": 15,
+          "borderWidth": 0,
+          "elevation": 2,
+          "height": 30,
+          "justifyContent": "center",
+          "shadowColor": "#212121",
+          "shadowOffset": Object {
+            "height": 1,
+            "width": 0,
+          },
+          "shadowOpacity": 0.17,
+          "shadowRadius": 2,
+          "width": 30,
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={false}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": undefined,
+              "fontSize": 12,
+            },
+            Object {
+              "color": "#4caf50",
+              "fontSize": 24,
+            },
+            Object {
+              "fontFamily": "Material Icons",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+  </View>
 </View>
 `;

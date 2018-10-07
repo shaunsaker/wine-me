@@ -27,6 +27,11 @@ const styles = StyleSheet.create({
     color: styleConstants.colors.white,
     marginBottom: 10,
   },
+  checkedInIconContainer: {
+    position: 'absolute',
+    top: styleConstants.dimensions.spacing.vertical,
+    right: styleConstants.dimensions.spacing.vertical,
+  },
 });
 
 export default styles;

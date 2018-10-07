@@ -27,5 +27,11 @@ describe('PlaceCard', () => {
 
       expect(component).toMatchSnapshot();
     });
+
+    it('renders the checked in state', () => {
+      const component = renderer.create(<PlaceCard hasCheckedIn />);
+
+      expect(component).toMatchSnapshot();
+    });
   });
 });

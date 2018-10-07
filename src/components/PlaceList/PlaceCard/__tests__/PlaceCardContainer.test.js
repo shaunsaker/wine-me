@@ -4,6 +4,7 @@ import renderer from 'react-test-renderer';
 import { PlaceCardContainer } from '..';
 import PLACE from '../../../../mockData/PLACE';
 import DEVICE_LOCATION from '../../../../mockData/DEVICE_LOCATION';
+import CHECK_INS from '../../../../mockData/CHECK_INS';
 
 describe('PlaceCard', () => {
   const spies = [];
@@ -11,7 +12,11 @@ describe('PlaceCard', () => {
   describe('renders', () => {
     it('renders with minimum required props', () => {
       const component = renderer.create(
-        <PlaceCardContainer place={PLACE} deviceLocation={DEVICE_LOCATION} />,
+        <PlaceCardContainer
+          place={PLACE}
+          deviceLocation={DEVICE_LOCATION}
+          userCheckIns={CHECK_INS}
+        />,
       );
 
       expect(component).toMatchSnapshot();
@@ -22,7 +27,11 @@ describe('PlaceCard', () => {
     it('should handle onPress', () => {
       spies[0] = jest.spyOn(PlaceCardContainer.prototype, 'navigate');
       const component = renderer.create(
-        <PlaceCardContainer place={PLACE} deviceLocation={DEVICE_LOCATION} />,
+        <PlaceCardContainer
+          place={PLACE}
+          deviceLocation={DEVICE_LOCATION}
+          userCheckIns={CHECK_INS}
+        />,
       );
       const instance = component.getInstance();
 
@@ -33,7 +42,11 @@ describe('PlaceCard', () => {
 
     it('should handle navigate', () => {
       const component = renderer.create(
-        <PlaceCardContainer place={PLACE} deviceLocation={DEVICE_LOCATION} />,
+        <PlaceCardContainer
+          place={PLACE}
+          deviceLocation={DEVICE_LOCATION}
+          userCheckIns={CHECK_INS}
+        />,
       );
       const instance = component.getInstance();
 
@@ -45,7 +58,11 @@ describe('PlaceCard', () => {
     it('should call onPress on press', () => {
       spies[0] = jest.spyOn(PlaceCardContainer.prototype, 'onPress');
       const component = renderer.create(
-        <PlaceCardContainer place={PLACE} deviceLocation={DEVICE_LOCATION} />,
+        <PlaceCardContainer
+          place={PLACE}
+          deviceLocation={DEVICE_LOCATION}
+          userCheckIns={CHECK_INS}
+        />,
       );
       const { root } = component;
       const targetComponent = root.findByProps({ testID: 'placeCardContainer' });

@@ -88,7 +88,7 @@ exports[`BuildStatus renders renders with minimum required props 1`] = `
       Code:
        
     </Text>
-    3
+    6
   </Text>
 </View>
 `;

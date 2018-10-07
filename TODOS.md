@@ -1,9 +1,11 @@
 # TODOS
 
-- Show me that I've checked in on the Place card
+- Disable feedback on PlaceCards
+- Show me how many places I've checked into
 - Location updates on app state
 - Image sizes should be based on device size
 - Tablet should display Place cards centered
+- Change featured place
 
 ## BUGS
 
