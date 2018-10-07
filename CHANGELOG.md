@@ -25,6 +25,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Disabled feedback on PlaceCards
 - LocationHandler gets location additionally on appState change
 - Images (PlaceCard and Place photos) are based on device pixel ratio
+- Renamed PhotoList => ThumbnailList
 
 ## 1.2.0-9-4
 

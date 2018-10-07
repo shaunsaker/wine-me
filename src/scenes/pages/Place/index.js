@@ -12,7 +12,7 @@ import HeaderBar from '../../../components/HeaderBar';
 import BackButton from '../../../components/BackButton';
 import Touchable from '../../../components/Touchable';
 import SectionHeader from '../../../components/SectionHeader';
-import PhotoList from '../../../components/PhotoList';
+import ThumbnailList from '../../../components/ThumbnailList';
 import CheckIn from '../../../components/CheckIn';
 
 export class Place extends React.Component {
@@ -112,7 +112,7 @@ export class Place extends React.Component {
       : [];
 
     const photoListComponent = photos.length ? (
-      <PhotoList data={photos} />
+      <ThumbnailList data={photos} />
     ) : (
       <Text style={styles.photosBlankStateText}>No photos to display.</Text>
     );

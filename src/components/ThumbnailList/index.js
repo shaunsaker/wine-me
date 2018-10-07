@@ -6,7 +6,7 @@ import styles from './styles';
 
 import RemoteImage from '../RemoteImage';
 
-export default class PhotoList extends React.Component {
+export default class ThumbnailList extends React.Component {
   constructor(props) {
     super(props);
 

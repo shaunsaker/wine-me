@@ -1,6 +1,5 @@
 # TODOS
 
-- Rename PhotoList => ThumbnailList
 - Separate Thumbnail from ThumbnailList
 - Photo sizes should come from styleConstants (PlaceCard and Thumbnail)
 - Tablet should display Place cards centered
