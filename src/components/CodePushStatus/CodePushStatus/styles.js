@@ -19,6 +19,7 @@ const styles = StyleSheet.create({
     flex: 1,
     textAlign: 'center',
     ...styleConstants.fonts.types.small,
+    marginRight: ICON_SIZE + styleConstants.dimensions.spacing.horizontal / 2, // equal icon margin
   },
   loader: {
     marginRight: styleConstants.dimensions.spacing.horizontal / 2,

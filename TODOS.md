@@ -1,10 +1,11 @@
 # TODOS
 
 - Show me that I've checked in on the Place card
+- Location updates on app state
+- Image sizes should be based on device size
+- Tablet should display Place cards centered
 
 ## BUGS
-
-- Info text again
 
 ### DIFFUCULT TO REPRODUCE
 
@@ -12,9 +13,6 @@
 
 ## ENHANCEMENTS
 
-- Location updates on app state
-- Image sizes should be based on device size
-- Tablet should display Place cards centered
 - Request location permission again if not granted
 - Save unique device ID (for easy data retrieval if necessary)
 - Facebook sign in

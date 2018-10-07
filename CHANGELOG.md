@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Fixed
 
 - Fixed Search no results blank state not displaying
+- Fixed text alignment of CodePushStatus in InfoModal
 
 ### Added
 
