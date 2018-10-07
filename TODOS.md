@@ -1,9 +1,10 @@
 # TODOS
 
-- Fine tune search areas
 - Fine tune places
 
 ## BUGS
+
+- If I delete things, store still persists them, e.g. deleted Cederberg search area but it was still there
 
 ### DIFFUCULT TO REPRODUCE
 
