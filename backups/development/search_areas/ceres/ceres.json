@@ -1,0 +1,23 @@
+{
+  "radius": {
+    "value": 20,
+    "type": "number"
+  },
+  "location": {
+    "value": {
+      "lat": {
+        "value": "-33.3978933",
+        "type": "string"
+      },
+      "lng": {
+        "value": "19.2352256",
+        "type": "string"
+      }
+    },
+    "type": "object"
+  },
+  "name": {
+    "value": "Ceres",
+    "type": "string"
+  }
+}

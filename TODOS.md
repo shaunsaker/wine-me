@@ -1,6 +1,6 @@
 # TODOS
 
-- Fine tune places
+- Profile blank state should say check in
 
 ## BUGS
 
@@ -31,9 +31,13 @@ These should be applicable to PLACES in general. Ie. Buy wines is not a good gen
 - Photographer friendly places (there is a list flying around) - SHAUN
 - See the number of a check ins at a place - SHAUN
 - After check in, rate and answer questions - SHAUN, JJ
+  - Price - SHAUN
 - Share wine farm - SHAUN
 - Search "Is Open" tag - SHAUN
 - Search by tags (child friendly, has food etc. based on questions after check in) - SHAUN
+- Non WC wine farms - PAUL THIEL
+  - Gauteng
+  - Upington
 
 ## FOR IOS SCREENSHOTS
 
