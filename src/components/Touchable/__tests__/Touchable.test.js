@@ -10,5 +10,17 @@ describe('Touchable', () => {
 
       expect(component).toMatchSnapshot();
     });
+
+    it('renders with the minimum required props', () => {
+      const component = renderer.create(<Touchable disabled />);
+
+      expect(component).toMatchSnapshot();
+    });
+
+    it('renders with the noFeedback state', () => {
+      const component = renderer.create(<Touchable noFeedback />);
+
+      expect(component).toMatchSnapshot();
+    });
   });
 });

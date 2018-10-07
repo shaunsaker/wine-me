@@ -121,7 +121,7 @@ exports[`PlaceCard renders renders the checked in state 1`] = `
     style={
       Object {
         "position": "absolute",
-        "right": 15,
+        "right": 10,
         "top": 10,
       }
     }

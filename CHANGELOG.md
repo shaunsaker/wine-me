@@ -17,10 +17,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Added getPercentage util to numbers subset
 - Added CodePushStatus container tests
 - Added checked in icon to Place cards
+- Added noFeedback prop to Touchable component
 
 ### Changed
 
 - CodePushStatus uses getPercentage util
+- Disabled feedback on PlaceCards
 
 ## 1.2.0-9-4
 

@@ -48,7 +48,7 @@ const PlaceCard = ({ imageSource, title, label, handlePress, hasCheckedIn, testI
   ) : null;
 
   return (
-    <Touchable onPress={handlePress} style={styles.container} testID={testID}>
+    <Touchable onPress={handlePress} style={styles.container} testID={testID} noFeedback>
       {imageComponent}
 
       <LinearGradient

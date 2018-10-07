@@ -6,6 +6,7 @@ const propTypes = {
   onPress: PropTypes.func,
   onLongPress: PropTypes.func,
   disabled: PropTypes.bool,
+  noFeedback: PropTypes.bool,
   children: PropTypes.node,
   style: ViewPropTypes.style,
   testID: PropTypes.string,
@@ -13,7 +14,7 @@ const propTypes = {
 
 const defaultProps = {};
 
-const Touchable = ({ onPress, onLongPress, disabled, children, style, testID }) => {
+const Touchable = ({ onPress, onLongPress, disabled, noFeedback, children, style, testID }) => {
   return (
     <TouchableOpacity
       onPress={onPress}
@@ -21,7 +22,7 @@ const Touchable = ({ onPress, onLongPress, disabled, children, style, testID }) 
       style={style}
       disabled={disabled}
       testID={testID}
-      activeOpacity={0.67}
+      activeOpacity={noFeedback ? 1 : 0.67}
     >
       {children}
     </TouchableOpacity>
