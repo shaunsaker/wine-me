@@ -1,8 +1,5 @@
 # TODOS
 
-- Profile blank state should say check in
-- Style opening hours correctly
-
 ## BUGS
 
 ### DIFFUCULT TO REPRODUCE/SOLVE

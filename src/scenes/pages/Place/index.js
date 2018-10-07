@@ -123,10 +123,14 @@ export class Place extends React.Component {
         <SectionHeader iconName="access-time" text="Opening hours" />
 
         {place.openingHours.map((item) => {
+          const day = item.split(':')[0];
+          const times = item.split(': ')[1];
+
           return (
-            <Text key={item} style={styles.text}>
-              {item}
-            </Text>
+            <View key={item} style={styles.row}>
+              <Text style={styles.boldText}>{day}</Text>
+              <Text style={styles.text}>{times}</Text>
+            </View>
           );
         })}
       </View>
@@ -150,13 +154,17 @@ export class Place extends React.Component {
           <Touchable onPress={this.onOpenInMaps} style={styles.section} testID="place.button.maps">
             <SectionHeader iconName="location-on" text="Address" />
 
-            <Text style={[styles.text, styles.linkText]}>{place.address}</Text>
+            <View style={styles.row}>
+              <Text style={[styles.text, styles.linkText]}>{place.address}</Text>
+            </View>
           </Touchable>
 
           <Touchable onPress={this.onCall} style={styles.section} testID="place.button.call">
             <SectionHeader iconName="phone" text="Contact number" />
 
-            <Text style={[styles.text, styles.linkText]}>{place.phoneNumber}</Text>
+            <View style={styles.row}>
+              <Text style={[styles.text, styles.linkText]}>{place.phoneNumber}</Text>
+            </View>
           </Touchable>
 
           <Touchable
@@ -166,7 +174,9 @@ export class Place extends React.Component {
           >
             <SectionHeader iconName="web" text="Website" />
 
-            <Text style={[styles.text, styles.linkText]}>{place.website}</Text>
+            <View style={styles.row}>
+              <Text style={[styles.text, styles.linkText]}>{place.website}</Text>
+            </View>
           </Touchable>
 
           {openingHoursComponent}

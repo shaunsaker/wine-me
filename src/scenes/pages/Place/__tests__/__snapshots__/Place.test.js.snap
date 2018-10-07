@@ -370,29 +370,38 @@ exports[`Place renders renders with minimum required props 1`] = `
             Address
           </Text>
         </View>
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
+        <View
           style={
-            Array [
-              Object {
-                "color": "#212121",
-                "fontFamily": "Nunito-Regular",
-                "fontSize": 15,
-                "marginBottom": 10,
-                "marginLeft": 25.5,
-                "paddingHorizontal": 15,
-              },
-              Object {
-                "color": "#3D84A8",
-                "textDecorationLine": "underline",
-              },
-            ]
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "marginBottom": 10,
+              "marginLeft": 25.5,
+              "paddingHorizontal": 15,
+            }
           }
         >
-          Stellenbosch, South Africa
-        </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {
+                  "color": "#212121",
+                  "fontFamily": "Nunito-Regular",
+                  "fontSize": 15,
+                },
+                Object {
+                  "color": "#3D84A8",
+                  "textDecorationLine": "underline",
+                },
+              ]
+            }
+          >
+            Stellenbosch, South Africa
+          </Text>
+        </View>
       </View>
       <View
         accessible={true}
@@ -461,29 +470,38 @@ exports[`Place renders renders with minimum required props 1`] = `
             Contact number
           </Text>
         </View>
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
+        <View
           style={
-            Array [
-              Object {
-                "color": "#212121",
-                "fontFamily": "Nunito-Regular",
-                "fontSize": 15,
-                "marginBottom": 10,
-                "marginLeft": 25.5,
-                "paddingHorizontal": 15,
-              },
-              Object {
-                "color": "#3D84A8",
-                "textDecorationLine": "underline",
-              },
-            ]
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "marginBottom": 10,
+              "marginLeft": 25.5,
+              "paddingHorizontal": 15,
+            }
           }
         >
-          021 885 1013
-        </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {
+                  "color": "#212121",
+                  "fontFamily": "Nunito-Regular",
+                  "fontSize": 15,
+                },
+                Object {
+                  "color": "#3D84A8",
+                  "textDecorationLine": "underline",
+                },
+              ]
+            }
+          >
+            021 885 1013
+          </Text>
+        </View>
       </View>
       <View
         accessible={true}
@@ -552,29 +570,38 @@ exports[`Place renders renders with minimum required props 1`] = `
             Website
           </Text>
         </View>
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
+        <View
           style={
-            Array [
-              Object {
-                "color": "#212121",
-                "fontFamily": "Nunito-Regular",
-                "fontSize": 15,
-                "marginBottom": 10,
-                "marginLeft": 25.5,
-                "paddingHorizontal": 15,
-              },
-              Object {
-                "color": "#3D84A8",
-                "textDecorationLine": "underline",
-              },
-            ]
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "marginBottom": 10,
+              "marginLeft": 25.5,
+              "paddingHorizontal": 15,
+            }
           }
         >
-          http://www.bartinney.co.za
-        </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {
+                  "color": "#212121",
+                  "fontFamily": "Nunito-Regular",
+                  "fontSize": 15,
+                },
+                Object {
+                  "color": "#3D84A8",
+                  "textDecorationLine": "underline",
+                },
+              ]
+            }
+          >
+            http://www.bartinney.co.za
+          </Text>
+        </View>
       </View>
       <View
         style={Object {}}
@@ -630,125 +657,286 @@ exports[`Place renders renders with minimum required props 1`] = `
             Opening hours
           </Text>
         </View>
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
+        <View
           style={
             Object {
-              "color": "#212121",
-              "fontFamily": "Nunito-Regular",
-              "fontSize": 15,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
               "marginBottom": 10,
               "marginLeft": 25.5,
               "paddingHorizontal": 15,
             }
           }
         >
-          Monday: 12:00 – 5:00 PM
-        </Text>
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#212121",
+                "fontFamily": "Nunito-SemiBold",
+                "fontSize": 15,
+              }
+            }
+          >
+            Monday
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#212121",
+                "fontFamily": "Nunito-Regular",
+                "fontSize": 15,
+              }
+            }
+          >
+            12:00 – 5:00 PM
+          </Text>
+        </View>
+        <View
           style={
             Object {
-              "color": "#212121",
-              "fontFamily": "Nunito-Regular",
-              "fontSize": 15,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
               "marginBottom": 10,
               "marginLeft": 25.5,
               "paddingHorizontal": 15,
             }
           }
         >
-          Tuesday: 12:00 – 5:00 PM
-        </Text>
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#212121",
+                "fontFamily": "Nunito-SemiBold",
+                "fontSize": 15,
+              }
+            }
+          >
+            Tuesday
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#212121",
+                "fontFamily": "Nunito-Regular",
+                "fontSize": 15,
+              }
+            }
+          >
+            12:00 – 5:00 PM
+          </Text>
+        </View>
+        <View
           style={
             Object {
-              "color": "#212121",
-              "fontFamily": "Nunito-Regular",
-              "fontSize": 15,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
               "marginBottom": 10,
               "marginLeft": 25.5,
               "paddingHorizontal": 15,
             }
           }
         >
-          Wednesday: 12:00 – 5:00 PM
-        </Text>
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#212121",
+                "fontFamily": "Nunito-SemiBold",
+                "fontSize": 15,
+              }
+            }
+          >
+            Wednesday
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#212121",
+                "fontFamily": "Nunito-Regular",
+                "fontSize": 15,
+              }
+            }
+          >
+            12:00 – 5:00 PM
+          </Text>
+        </View>
+        <View
           style={
             Object {
-              "color": "#212121",
-              "fontFamily": "Nunito-Regular",
-              "fontSize": 15,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
               "marginBottom": 10,
               "marginLeft": 25.5,
               "paddingHorizontal": 15,
             }
           }
         >
-          Thursday: 12:00 – 5:00 PM
-        </Text>
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#212121",
+                "fontFamily": "Nunito-SemiBold",
+                "fontSize": 15,
+              }
+            }
+          >
+            Thursday
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#212121",
+                "fontFamily": "Nunito-Regular",
+                "fontSize": 15,
+              }
+            }
+          >
+            12:00 – 5:00 PM
+          </Text>
+        </View>
+        <View
           style={
             Object {
-              "color": "#212121",
-              "fontFamily": "Nunito-Regular",
-              "fontSize": 15,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
               "marginBottom": 10,
               "marginLeft": 25.5,
               "paddingHorizontal": 15,
             }
           }
         >
-          Friday: 12:00 – 8:00 PM
-        </Text>
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#212121",
+                "fontFamily": "Nunito-SemiBold",
+                "fontSize": 15,
+              }
+            }
+          >
+            Friday
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#212121",
+                "fontFamily": "Nunito-Regular",
+                "fontSize": 15,
+              }
+            }
+          >
+            12:00 – 8:00 PM
+          </Text>
+        </View>
+        <View
           style={
             Object {
-              "color": "#212121",
-              "fontFamily": "Nunito-Regular",
-              "fontSize": 15,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
               "marginBottom": 10,
               "marginLeft": 25.5,
               "paddingHorizontal": 15,
             }
           }
         >
-          Saturday: 10:00 AM – 12:30 PM
-        </Text>
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#212121",
+                "fontFamily": "Nunito-SemiBold",
+                "fontSize": 15,
+              }
+            }
+          >
+            Saturday
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#212121",
+                "fontFamily": "Nunito-Regular",
+                "fontSize": 15,
+              }
+            }
+          >
+            10:00 AM – 12:30 PM
+          </Text>
+        </View>
+        <View
           style={
             Object {
-              "color": "#212121",
-              "fontFamily": "Nunito-Regular",
-              "fontSize": 15,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
               "marginBottom": 10,
               "marginLeft": 25.5,
               "paddingHorizontal": 15,
             }
           }
         >
-          Sunday: Closed
-        </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#212121",
+                "fontFamily": "Nunito-SemiBold",
+                "fontSize": 15,
+              }
+            }
+          >
+            Sunday
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#212121",
+                "fontFamily": "Nunito-Regular",
+                "fontSize": 15,
+              }
+            }
+          >
+            Closed
+          </Text>
+        </View>
       </View>
     </View>
   </RCTScrollView>
@@ -1131,29 +1319,38 @@ exports[`Place renders should render the no opening hours state 1`] = `
             Address
           </Text>
         </View>
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
+        <View
           style={
-            Array [
-              Object {
-                "color": "#212121",
-                "fontFamily": "Nunito-Regular",
-                "fontSize": 15,
-                "marginBottom": 10,
-                "marginLeft": 25.5,
-                "paddingHorizontal": 15,
-              },
-              Object {
-                "color": "#3D84A8",
-                "textDecorationLine": "underline",
-              },
-            ]
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "marginBottom": 10,
+              "marginLeft": 25.5,
+              "paddingHorizontal": 15,
+            }
           }
         >
-          Stellenbosch, South Africa
-        </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {
+                  "color": "#212121",
+                  "fontFamily": "Nunito-Regular",
+                  "fontSize": 15,
+                },
+                Object {
+                  "color": "#3D84A8",
+                  "textDecorationLine": "underline",
+                },
+              ]
+            }
+          >
+            Stellenbosch, South Africa
+          </Text>
+        </View>
       </View>
       <View
         accessible={true}
@@ -1222,29 +1419,38 @@ exports[`Place renders should render the no opening hours state 1`] = `
             Contact number
           </Text>
         </View>
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
+        <View
           style={
-            Array [
-              Object {
-                "color": "#212121",
-                "fontFamily": "Nunito-Regular",
-                "fontSize": 15,
-                "marginBottom": 10,
-                "marginLeft": 25.5,
-                "paddingHorizontal": 15,
-              },
-              Object {
-                "color": "#3D84A8",
-                "textDecorationLine": "underline",
-              },
-            ]
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "marginBottom": 10,
+              "marginLeft": 25.5,
+              "paddingHorizontal": 15,
+            }
           }
         >
-          021 885 1013
-        </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {
+                  "color": "#212121",
+                  "fontFamily": "Nunito-Regular",
+                  "fontSize": 15,
+                },
+                Object {
+                  "color": "#3D84A8",
+                  "textDecorationLine": "underline",
+                },
+              ]
+            }
+          >
+            021 885 1013
+          </Text>
+        </View>
       </View>
       <View
         accessible={true}
@@ -1313,29 +1519,38 @@ exports[`Place renders should render the no opening hours state 1`] = `
             Website
           </Text>
         </View>
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
+        <View
           style={
-            Array [
-              Object {
-                "color": "#212121",
-                "fontFamily": "Nunito-Regular",
-                "fontSize": 15,
-                "marginBottom": 10,
-                "marginLeft": 25.5,
-                "paddingHorizontal": 15,
-              },
-              Object {
-                "color": "#3D84A8",
-                "textDecorationLine": "underline",
-              },
-            ]
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "marginBottom": 10,
+              "marginLeft": 25.5,
+              "paddingHorizontal": 15,
+            }
           }
         >
-          http://www.bartinney.co.za
-        </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {
+                  "color": "#212121",
+                  "fontFamily": "Nunito-Regular",
+                  "fontSize": 15,
+                },
+                Object {
+                  "color": "#3D84A8",
+                  "textDecorationLine": "underline",
+                },
+              ]
+            }
+          >
+            http://www.bartinney.co.za
+          </Text>
+        </View>
       </View>
     </View>
   </RCTScrollView>
@@ -1620,29 +1835,38 @@ exports[`Place renders should render the no photos state 1`] = `
             Address
           </Text>
         </View>
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
+        <View
           style={
-            Array [
-              Object {
-                "color": "#212121",
-                "fontFamily": "Nunito-Regular",
-                "fontSize": 15,
-                "marginBottom": 10,
-                "marginLeft": 25.5,
-                "paddingHorizontal": 15,
-              },
-              Object {
-                "color": "#3D84A8",
-                "textDecorationLine": "underline",
-              },
-            ]
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "marginBottom": 10,
+              "marginLeft": 25.5,
+              "paddingHorizontal": 15,
+            }
           }
         >
-          Stellenbosch, South Africa
-        </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {
+                  "color": "#212121",
+                  "fontFamily": "Nunito-Regular",
+                  "fontSize": 15,
+                },
+                Object {
+                  "color": "#3D84A8",
+                  "textDecorationLine": "underline",
+                },
+              ]
+            }
+          >
+            Stellenbosch, South Africa
+          </Text>
+        </View>
       </View>
       <View
         accessible={true}
@@ -1711,29 +1935,38 @@ exports[`Place renders should render the no photos state 1`] = `
             Contact number
           </Text>
         </View>
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
+        <View
           style={
-            Array [
-              Object {
-                "color": "#212121",
-                "fontFamily": "Nunito-Regular",
-                "fontSize": 15,
-                "marginBottom": 10,
-                "marginLeft": 25.5,
-                "paddingHorizontal": 15,
-              },
-              Object {
-                "color": "#3D84A8",
-                "textDecorationLine": "underline",
-              },
-            ]
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "marginBottom": 10,
+              "marginLeft": 25.5,
+              "paddingHorizontal": 15,
+            }
           }
         >
-          021 885 1013
-        </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {
+                  "color": "#212121",
+                  "fontFamily": "Nunito-Regular",
+                  "fontSize": 15,
+                },
+                Object {
+                  "color": "#3D84A8",
+                  "textDecorationLine": "underline",
+                },
+              ]
+            }
+          >
+            021 885 1013
+          </Text>
+        </View>
       </View>
       <View
         accessible={true}
@@ -1802,29 +2035,38 @@ exports[`Place renders should render the no photos state 1`] = `
             Website
           </Text>
         </View>
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
+        <View
           style={
-            Array [
-              Object {
-                "color": "#212121",
-                "fontFamily": "Nunito-Regular",
-                "fontSize": 15,
-                "marginBottom": 10,
-                "marginLeft": 25.5,
-                "paddingHorizontal": 15,
-              },
-              Object {
-                "color": "#3D84A8",
-                "textDecorationLine": "underline",
-              },
-            ]
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "marginBottom": 10,
+              "marginLeft": 25.5,
+              "paddingHorizontal": 15,
+            }
           }
         >
-          http://www.bartinney.co.za
-        </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {
+                  "color": "#212121",
+                  "fontFamily": "Nunito-Regular",
+                  "fontSize": 15,
+                },
+                Object {
+                  "color": "#3D84A8",
+                  "textDecorationLine": "underline",
+                },
+              ]
+            }
+          >
+            http://www.bartinney.co.za
+          </Text>
+        </View>
       </View>
       <View
         style={Object {}}
@@ -1880,125 +2122,286 @@ exports[`Place renders should render the no photos state 1`] = `
             Opening hours
           </Text>
         </View>
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
+        <View
           style={
             Object {
-              "color": "#212121",
-              "fontFamily": "Nunito-Regular",
-              "fontSize": 15,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
               "marginBottom": 10,
               "marginLeft": 25.5,
               "paddingHorizontal": 15,
             }
           }
         >
-          Monday: 12:00 – 5:00 PM
-        </Text>
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#212121",
+                "fontFamily": "Nunito-SemiBold",
+                "fontSize": 15,
+              }
+            }
+          >
+            Monday
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#212121",
+                "fontFamily": "Nunito-Regular",
+                "fontSize": 15,
+              }
+            }
+          >
+            12:00 – 5:00 PM
+          </Text>
+        </View>
+        <View
           style={
             Object {
-              "color": "#212121",
-              "fontFamily": "Nunito-Regular",
-              "fontSize": 15,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
               "marginBottom": 10,
               "marginLeft": 25.5,
               "paddingHorizontal": 15,
             }
           }
         >
-          Tuesday: 12:00 – 5:00 PM
-        </Text>
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#212121",
+                "fontFamily": "Nunito-SemiBold",
+                "fontSize": 15,
+              }
+            }
+          >
+            Tuesday
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#212121",
+                "fontFamily": "Nunito-Regular",
+                "fontSize": 15,
+              }
+            }
+          >
+            12:00 – 5:00 PM
+          </Text>
+        </View>
+        <View
           style={
             Object {
-              "color": "#212121",
-              "fontFamily": "Nunito-Regular",
-              "fontSize": 15,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
               "marginBottom": 10,
               "marginLeft": 25.5,
               "paddingHorizontal": 15,
             }
           }
         >
-          Wednesday: 12:00 – 5:00 PM
-        </Text>
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#212121",
+                "fontFamily": "Nunito-SemiBold",
+                "fontSize": 15,
+              }
+            }
+          >
+            Wednesday
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#212121",
+                "fontFamily": "Nunito-Regular",
+                "fontSize": 15,
+              }
+            }
+          >
+            12:00 – 5:00 PM
+          </Text>
+        </View>
+        <View
           style={
             Object {
-              "color": "#212121",
-              "fontFamily": "Nunito-Regular",
-              "fontSize": 15,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
               "marginBottom": 10,
               "marginLeft": 25.5,
               "paddingHorizontal": 15,
             }
           }
         >
-          Thursday: 12:00 – 5:00 PM
-        </Text>
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#212121",
+                "fontFamily": "Nunito-SemiBold",
+                "fontSize": 15,
+              }
+            }
+          >
+            Thursday
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#212121",
+                "fontFamily": "Nunito-Regular",
+                "fontSize": 15,
+              }
+            }
+          >
+            12:00 – 5:00 PM
+          </Text>
+        </View>
+        <View
           style={
             Object {
-              "color": "#212121",
-              "fontFamily": "Nunito-Regular",
-              "fontSize": 15,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
               "marginBottom": 10,
               "marginLeft": 25.5,
               "paddingHorizontal": 15,
             }
           }
         >
-          Friday: 12:00 – 8:00 PM
-        </Text>
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#212121",
+                "fontFamily": "Nunito-SemiBold",
+                "fontSize": 15,
+              }
+            }
+          >
+            Friday
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#212121",
+                "fontFamily": "Nunito-Regular",
+                "fontSize": 15,
+              }
+            }
+          >
+            12:00 – 8:00 PM
+          </Text>
+        </View>
+        <View
           style={
             Object {
-              "color": "#212121",
-              "fontFamily": "Nunito-Regular",
-              "fontSize": 15,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
               "marginBottom": 10,
               "marginLeft": 25.5,
               "paddingHorizontal": 15,
             }
           }
         >
-          Saturday: 10:00 AM – 12:30 PM
-        </Text>
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#212121",
+                "fontFamily": "Nunito-SemiBold",
+                "fontSize": 15,
+              }
+            }
+          >
+            Saturday
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#212121",
+                "fontFamily": "Nunito-Regular",
+                "fontSize": 15,
+              }
+            }
+          >
+            10:00 AM – 12:30 PM
+          </Text>
+        </View>
+        <View
           style={
             Object {
-              "color": "#212121",
-              "fontFamily": "Nunito-Regular",
-              "fontSize": 15,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
               "marginBottom": 10,
               "marginLeft": 25.5,
               "paddingHorizontal": 15,
             }
           }
         >
-          Sunday: Closed
-        </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#212121",
+                "fontFamily": "Nunito-SemiBold",
+                "fontSize": 15,
+              }
+            }
+          >
+            Sunday
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#212121",
+                "fontFamily": "Nunito-Regular",
+                "fontSize": 15,
+              }
+            }
+          >
+            Closed
+          </Text>
+        </View>
       </View>
     </View>
   </RCTScrollView>

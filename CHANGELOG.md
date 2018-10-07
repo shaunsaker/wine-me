@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Changed
 
 - Updated profile page blank state copy
+- Changed the styling of the "Opening Hours" section on the place page
 
 ## 1.2.0-9-6
 
