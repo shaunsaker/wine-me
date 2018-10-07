@@ -2,7 +2,7 @@ import { StyleSheet } from 'react-native';
 
 import styleConstants from '../../../styleConstants';
 
-const IMAGE_SIZE = 120;
+const IMAGE_SIZE = styleConstants.dimensions.thumbnail.height;
 
 const styles = StyleSheet.create({
   image: {

@@ -6,7 +6,7 @@ const styles = StyleSheet.create({
   container: {
     // from RemoteImage
     flex: 1,
-    height: 200,
+    height: styleConstants.dimensions.placeCard.height,
     backgroundColor: styleConstants.colors.secondary,
     borderRadius: styleConstants.dimensions.borderRadius,
     justifyContent: 'center',

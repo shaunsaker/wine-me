@@ -1,6 +1,6 @@
 # TODOS
 
-- Photo sizes should come from styleConstants (PlaceCard and Thumbnail)
+- Thumbnail image loader does not have borderRadius
 - Tablet should display Place cards centered
 - Change featured place
 

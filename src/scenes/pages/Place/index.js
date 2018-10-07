@@ -5,6 +5,7 @@ import { View, Text, Linking, ScrollView, PixelRatio } from 'react-native';
 
 import utils from '../../../utils';
 import config from '../../../config';
+import styleConstants from '../../../styleConstants';
 import styles from './styles';
 
 import Page from '../../../components/Page';
@@ -102,7 +103,7 @@ export class Place extends React.Component {
       ? place.photoReferences.map((photoReference) => {
           const photoURI = utils.app.getGooglePlacesPhotoURI(
             photoReference,
-            PixelRatio.getPixelSizeForLayoutSize(120), // height of thumbnail
+            PixelRatio.getPixelSizeForLayoutSize(styleConstants.dimensions.thumbnail.height), // height of thumbnail
             config.googlePlaces.apiKey,
           );
           const photo = { uri: photoURI };

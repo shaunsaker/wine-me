@@ -1,15 +1,15 @@
 import colors from './colors';
 import dimensions from './dimensions';
 import fonts from './fonts';
-import shadows from './shadows';
 import helpers from './helpers';
+import shadows from './shadows';
 
 const styleConstants = {
   colors,
   dimensions,
   fonts,
-  shadows,
   helpers,
+  shadows,
 };
 
 export default styleConstants;

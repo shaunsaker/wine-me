@@ -27,6 +27,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Images (PlaceCard and Place photos) are based on device pixel ratio
 - Renamed PhotoList => ThumbnailList
 - Separated Thumbnail component out of ThumbnailList
+- Image (PlaceCard and Thumbnail) heights come from styleConstants
 
 ## 1.2.0-9-4
 

@@ -6,7 +6,7 @@ const styles = StyleSheet.create({
   container: {},
   image: {
     flex: 1,
-    height: 200,
+    height: styleConstants.dimensions.placeCard.height,
   },
   backgroundContainer: {
     position: 'absolute',

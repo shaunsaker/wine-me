@@ -15,4 +15,12 @@ dimensions.spacing = {
 
 dimensions.borderRadius = 5;
 
+dimensions.placeCard = {
+  height: 200,
+};
+
+dimensions.thumbnail = {
+  height: 120,
+};
+
 export default dimensions;

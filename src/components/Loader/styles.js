@@ -1,9 +1,11 @@
 import { StyleSheet } from 'react-native';
 
+import styleConstants from '../../styleConstants';
+
 const styles = StyleSheet.create({
   container: {
     alignSelf: 'stretch',
-    height: 200, // place card height
+    height: styleConstants.dimensions.placeCard.height,
     justifyContent: 'center',
     alignItems: 'center',
   },

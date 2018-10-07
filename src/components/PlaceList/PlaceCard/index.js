@@ -5,6 +5,7 @@ import { PixelRatio } from 'react-native';
 
 import utils from '../../../utils';
 import config from '../../../config';
+import styleConstants from '../../../styleConstants';
 
 import PlaceCard from './PlaceCard';
 
@@ -57,7 +58,7 @@ export class PlaceCardContainer extends React.Component {
       photoReference &&
       utils.app.getGooglePlacesPhotoURI(
         photoReference,
-        PixelRatio.getPixelSizeForLayoutSize(200), // PlaceCard height
+        PixelRatio.getPixelSizeForLayoutSize(styleConstants.dimensions.placeCard.height),
         config.googlePlaces.apiKey,
       );
     const imageSource = uri && {
