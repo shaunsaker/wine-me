@@ -8,25 +8,28 @@
 
 ## ENHANCEMENTS
 
+- Location updates on app state
+- Image sizes should be based on device size
+- Tablet should display Place cards centered
 - Request location permission again if not granted
+- Save unique device ID (for easy data retrieval if necessary)
+- Facebook sign in
+
+### CODE OPTIMISATIONS
+
 - Progress in CodePushStatus should be a util
 - CodePushStatus container tests
-- Save unique device ID
-- Location updates on app state
-- RemoteImage not showing network error
-- Facebook sign in
 - Scripts
 - Move SearchInput button press action to the component
 - Move Place BackButton press action to the component
 - Test app utils
 - CI
-- Line items in Profile for quicker reference
-- Image sizes should be based on device size
-- Tablet should display Place cards centered
 
 ## FEATURE REQUESTS
 
+- Show me that I've checked in on the Place card
 - Buy wines
+- Line items in Profile for quicker reference
 
 ## FOR IOS SCREENSHOTS
 
