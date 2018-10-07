@@ -139,6 +139,7 @@ exports[`RemoteImage renders with error 1`] = `
       Object {
         "alignItems": "center",
         "backgroundColor": "#E0E0E0",
+        "borderRadius": 5,
         "bottom": 0,
         "justifyContent": "center",
         "left": 0,

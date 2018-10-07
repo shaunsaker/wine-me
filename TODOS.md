@@ -1,6 +1,5 @@
 # TODOS
 
-- Thumbnail image loader does not have borderRadius
 - Tablet should display Place cards centered
 - Change featured place
 

@@ -17,6 +17,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: styleConstants.colors.dividerColor,
+    borderRadius: styleConstants.dimensions.borderRadius,
   },
   icon: {
     fontSize: styleConstants.fonts.sizes.icon,

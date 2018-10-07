@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 - Fixed Search no results blank state not displaying
 - Fixed text alignment of CodePushStatus in InfoModal
+- Fixed RemoteImage no border radius
 
 ### Added
 
