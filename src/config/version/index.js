@@ -4,6 +4,7 @@ const version = {
   patch: 0,
   build: 9,
   code: 6,
+  forceCodePushUpdate: true, // use this if you need to release an identical codePush update
 };
 
 export default version;
