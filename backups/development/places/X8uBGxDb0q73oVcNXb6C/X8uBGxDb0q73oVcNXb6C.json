@@ -1,4 +1,20 @@
 {
+  "website": {
+    "value": "http://www.lievland.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Lievland Wine Estate at Route 44, Klapmuts, Stellenbosch, Western Cape,, South Africa, Klapmuts, Stellenbosch, 7625, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 875 5226",
+    "type": "string"
+  },
+  "name": {
+    "value": "Lievland Wine Estate",
+    "type": "string"
+  },
   "openingHours": {
     "value": [
       {
@@ -89,21 +105,5 @@
       }
     ],
     "type": "array"
-  },
-  "website": {
-    "value": "http://www.lievland.co.za/",
-    "type": "string"
-  },
-  "address": {
-    "value": "Lievland Wine Estate at Route 44, Klapmuts, Stellenbosch, Western Cape,, South Africa, Klapmuts, Stellenbosch, 7625, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 875 5226",
-    "type": "string"
-  },
-  "name": {
-    "value": "Lievland Wine Estate",
-    "type": "string"
   }
 }

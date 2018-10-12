@@ -1,8 +1,4 @@
 {
-  "name": {
-    "value": "Asara Wine Estate & Hotel",
-    "type": "string"
-  },
   "location": {
     "value": {
       "lng": {
@@ -71,6 +67,10 @@
   },
   "phoneNumber": {
     "value": "021 888 8000",
+    "type": "string"
+  },
+  "name": {
+    "value": "Asara Wine Estate & Hotel",
     "type": "string"
   }
 }

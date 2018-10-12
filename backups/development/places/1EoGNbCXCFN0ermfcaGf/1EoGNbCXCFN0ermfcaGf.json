@@ -1,4 +1,16 @@
 {
+  "website": {
+    "value": "https://www.fleurducap.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "George Blake St, Stellenbosch Central, Stellenbosch, 7600, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 809 8025",
+    "type": "string"
+  },
   "name": {
     "value": "Wine Estate - Bergkelder",
     "type": "string"
@@ -93,17 +105,5 @@
       }
     ],
     "type": "array"
-  },
-  "website": {
-    "value": "https://www.fleurducap.co.za/",
-    "type": "string"
-  },
-  "address": {
-    "value": "George Blake St, Stellenbosch Central, Stellenbosch, 7600, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 809 8025",
-    "type": "string"
   }
 }

@@ -1,4 +1,20 @@
 {
+  "website": {
+    "value": "http://www.diemersfontein.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "R301, The Diemersfontein Village, Wellington, 7655, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 864 5050",
+    "type": "string"
+  },
+  "name": {
+    "value": "Diemersfontein Wine and Country Estate",
+    "type": "string"
+  },
   "openingHours": {
     "value": [
       {
@@ -34,12 +50,12 @@
   },
   "location": {
     "value": {
-      "lat": {
-        "value": -33.6602258,
-        "type": "number"
-      },
       "lng": {
         "value": 19.0066267,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.6602258,
         "type": "number"
       }
     },
@@ -89,21 +105,5 @@
       }
     ],
     "type": "array"
-  },
-  "website": {
-    "value": "http://www.diemersfontein.co.za/",
-    "type": "string"
-  },
-  "address": {
-    "value": "R301, The Diemersfontein Village, Wellington, 7655, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 864 5050",
-    "type": "string"
-  },
-  "name": {
-    "value": "Diemersfontein Wine and Country Estate",
-    "type": "string"
   }
 }

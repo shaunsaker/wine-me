@@ -1,16 +1,4 @@
 {
-  "website": {
-    "value": "http://www.nattevalleij.co.za/",
-    "type": "string"
-  },
-  "address": {
-    "value": "R44, Klapmuts, Stellenbosch, 7425, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 875 5171",
-    "type": "string"
-  },
   "name": {
     "value": "Natte Valleij",
     "type": "string"
@@ -72,5 +60,17 @@
       }
     ],
     "type": "array"
+  },
+  "website": {
+    "value": "http://www.nattevalleij.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "R44, Klapmuts, Stellenbosch, 7425, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 875 5171",
+    "type": "string"
   }
 }

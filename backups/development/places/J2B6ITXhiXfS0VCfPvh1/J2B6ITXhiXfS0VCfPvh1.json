@@ -1,4 +1,20 @@
 {
+  "website": {
+    "value": "http://www.boschendal.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "R310 Pniel Road, Groot Drakenstein, Franchhoek, 7680, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 870 4200",
+    "type": "string"
+  },
+  "name": {
+    "value": "Boschendal Wine Estate",
+    "type": "string"
+  },
   "openingHours": {
     "value": [
       {
@@ -89,21 +105,5 @@
       }
     ],
     "type": "array"
-  },
-  "website": {
-    "value": "http://www.boschendal.co.za/",
-    "type": "string"
-  },
-  "address": {
-    "value": "R310 Pniel Road, Groot Drakenstein, Franchhoek, 7680, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 870 4200",
-    "type": "string"
-  },
-  "name": {
-    "value": "Boschendal Wine Estate",
-    "type": "string"
   }
 }

@@ -1,16 +1,12 @@
 {
-  "name": {
-    "value": "Gilga Wines (Pty) Ltd",
-    "type": "string"
-  },
   "location": {
     "value": {
-      "lng": {
-        "value": 18.7892063,
-        "type": "number"
-      },
       "lat": {
         "value": -33.9452294,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.7892063,
         "type": "number"
       }
     },
@@ -67,6 +63,10 @@
   },
   "phoneNumber": {
     "value": "084 515 6677",
+    "type": "string"
+  },
+  "name": {
+    "value": "Gilga Wines (Pty) Ltd",
     "type": "string"
   }
 }

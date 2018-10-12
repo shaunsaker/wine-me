@@ -1,28 +1,12 @@
 {
-  "website": {
-    "value": "http://www.sylvanvale.com/",
-    "type": "string"
-  },
-  "address": {
-    "value": "Flamingo Rd, Stellenbosch, 7599, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 883 2565",
-    "type": "string"
-  },
-  "name": {
-    "value": "Wine Estate - Sylvanvale Vineyards",
-    "type": "string"
-  },
   "location": {
     "value": {
-      "lng": {
-        "value": 18.8395027,
-        "type": "number"
-      },
       "lat": {
         "value": -33.9405154,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.8395027,
         "type": "number"
       }
     },
@@ -72,5 +56,21 @@
       }
     ],
     "type": "array"
+  },
+  "website": {
+    "value": "http://www.sylvanvale.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Flamingo Rd, Stellenbosch, 7599, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 883 2565",
+    "type": "string"
+  },
+  "name": {
+    "value": "Wine Estate - Sylvanvale Vineyards",
+    "type": "string"
   }
 }

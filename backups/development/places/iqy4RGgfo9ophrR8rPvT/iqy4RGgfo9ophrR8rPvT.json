@@ -1,4 +1,17 @@
 {
+  "location": {
+    "value": {
+      "lng": {
+        "value": 18.8273965,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.81811459999999,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
   "name": {
     "value": "Wine Estate - De Meye Wines",
     "type": "string"
@@ -14,18 +27,5 @@
   "website": {
     "value": "http://www.demeye.co.za/",
     "type": "string"
-  },
-  "location": {
-    "value": {
-      "lat": {
-        "value": -33.81811459999999,
-        "type": "number"
-      },
-      "lng": {
-        "value": 18.8273965,
-        "type": "number"
-      }
-    },
-    "type": "object"
   }
 }

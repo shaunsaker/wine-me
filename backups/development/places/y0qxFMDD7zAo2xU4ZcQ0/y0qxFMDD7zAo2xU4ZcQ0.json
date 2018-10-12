@@ -1,4 +1,8 @@
 {
+  "name": {
+    "value": "De Trafford Winery Winetasting",
+    "type": "string"
+  },
   "openingHours": {
     "value": [
       {
@@ -34,12 +38,12 @@
   },
   "location": {
     "value": {
-      "lat": {
-        "value": -34.012511,
-        "type": "number"
-      },
       "lng": {
         "value": 18.899178,
+        "type": "number"
+      },
+      "lat": {
+        "value": -34.012511,
         "type": "number"
       }
     },
@@ -72,10 +76,6 @@
   },
   "phoneNumber": {
     "value": "021 880 1611",
-    "type": "string"
-  },
-  "name": {
-    "value": "De Trafford Winery Winetasting",
     "type": "string"
   }
 }

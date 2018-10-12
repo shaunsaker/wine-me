@@ -1,4 +1,16 @@
 {
+  "website": {
+    "value": "http://www.uitkyk.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "R44, Klapmuts, Stellenbosch, 7600, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 884 4416",
+    "type": "string"
+  },
   "name": {
     "value": "Uitkyk Wine Estate",
     "type": "string"
@@ -38,12 +50,12 @@
   },
   "location": {
     "value": {
-      "lat": {
-        "value": -33.8565812,
-        "type": "number"
-      },
       "lng": {
         "value": 18.8641768,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.8565812,
         "type": "number"
       }
     },
@@ -93,17 +105,5 @@
       }
     ],
     "type": "array"
-  },
-  "website": {
-    "value": "http://www.uitkyk.co.za/",
-    "type": "string"
-  },
-  "address": {
-    "value": "R44, Klapmuts, Stellenbosch, 7600, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 884 4416",
-    "type": "string"
   }
 }

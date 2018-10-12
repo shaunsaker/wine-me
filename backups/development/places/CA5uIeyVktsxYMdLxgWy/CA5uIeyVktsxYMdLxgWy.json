@@ -1,12 +1,20 @@
 {
+  "name": {
+    "value": "Wine Estate - Sterhuis",
+    "type": "string"
+  },
+  "address": {
+    "value": "South Africa",
+    "type": "string"
+  },
   "location": {
     "value": {
-      "lng": {
-        "value": 18.80762,
-        "type": "number"
-      },
       "lat": {
         "value": -33.8774299,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.80762,
         "type": "number"
       }
     },
@@ -28,13 +36,5 @@
       }
     ],
     "type": "array"
-  },
-  "name": {
-    "value": "Wine Estate - Sterhuis",
-    "type": "string"
-  },
-  "address": {
-    "value": "South Africa",
-    "type": "string"
   }
 }

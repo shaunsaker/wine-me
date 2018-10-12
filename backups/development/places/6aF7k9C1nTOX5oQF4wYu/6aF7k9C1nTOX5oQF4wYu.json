@@ -1,12 +1,16 @@
 {
+  "address": {
+    "value": "R45, South Africa",
+    "type": "string"
+  },
   "location": {
     "value": {
-      "lng": {
-        "value": 18.96032,
-        "type": "number"
-      },
       "lat": {
         "value": -33.66527,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.96032,
         "type": "number"
       }
     },
@@ -59,10 +63,6 @@
   },
   "name": {
     "value": "Wine Estate - Bernheim",
-    "type": "string"
-  },
-  "address": {
-    "value": "R45, South Africa",
     "type": "string"
   }
 }

@@ -1,4 +1,8 @@
 {
+  "name": {
+    "value": "Middelvlei Wine Estate",
+    "type": "string"
+  },
   "openingHours": {
     "value": [
       {
@@ -100,10 +104,6 @@
   },
   "phoneNumber": {
     "value": "021 883 2565",
-    "type": "string"
-  },
-  "name": {
-    "value": "Middelvlei Wine Estate",
     "type": "string"
   }
 }

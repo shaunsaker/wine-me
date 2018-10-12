@@ -1,4 +1,20 @@
 {
+  "website": {
+    "value": "http://www.waverleyhills.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "R46, Wolseley, 6830, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "023 231 0002",
+    "type": "string"
+  },
+  "name": {
+    "value": "Waverley Hills",
+    "type": "string"
+  },
   "openingHours": {
     "value": [
       {
@@ -89,21 +105,5 @@
       }
     ],
     "type": "array"
-  },
-  "website": {
-    "value": "http://www.waverleyhills.co.za/",
-    "type": "string"
-  },
-  "address": {
-    "value": "R46, Wolseley, 6830, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "023 231 0002",
-    "type": "string"
-  },
-  "name": {
-    "value": "Waverley Hills",
-    "type": "string"
   }
 }

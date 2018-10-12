@@ -1,16 +1,12 @@
 {
-  "radius": {
-    "value": 10,
-    "type": "number"
-  },
   "location": {
     "value": {
-      "lng": {
-        "value": "18.3963313",
-        "type": "string"
-      },
       "lat": {
         "value": "-34.0275607",
+        "type": "string"
+      },
+      "lng": {
+        "value": "18.3963313",
         "type": "string"
       }
     },
@@ -19,5 +15,9 @@
   "name": {
     "value": "Constantia",
     "type": "string"
+  },
+  "radius": {
+    "value": 10,
+    "type": "number"
   }
 }

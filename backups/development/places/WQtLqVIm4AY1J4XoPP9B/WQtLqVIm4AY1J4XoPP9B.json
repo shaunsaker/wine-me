@@ -1,20 +1,4 @@
 {
-  "website": {
-    "value": "http://www.bolandwines.co.za/",
-    "type": "string"
-  },
-  "address": {
-    "value": "Noord Agter Paarl, Northern Paarl, Paarl, 7646, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 872 1766",
-    "type": "string"
-  },
-  "name": {
-    "value": "Boland Cellar",
-    "type": "string"
-  },
   "openingHours": {
     "value": [
       {
@@ -50,12 +34,12 @@
   },
   "location": {
     "value": {
-      "lat": {
-        "value": -33.6893411,
-        "type": "number"
-      },
       "lng": {
         "value": 18.9549443,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.6893411,
         "type": "number"
       }
     },
@@ -105,5 +89,21 @@
       }
     ],
     "type": "array"
+  },
+  "website": {
+    "value": "http://www.bolandwines.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Noord Agter Paarl, Northern Paarl, Paarl, 7646, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 872 1766",
+    "type": "string"
+  },
+  "name": {
+    "value": "Boland Cellar",
+    "type": "string"
   }
 }

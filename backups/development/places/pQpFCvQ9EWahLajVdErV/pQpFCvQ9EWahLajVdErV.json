@@ -1,20 +1,4 @@
 {
-  "website": {
-    "value": "http://www.beaumont.co.za",
-    "type": "string"
-  },
-  "address": {
-    "value": "16 Hoof Way, Bot River, 7185, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "028 284 9194",
-    "type": "string"
-  },
-  "name": {
-    "value": "Beaumont Wines",
-    "type": "string"
-  },
   "openingHours": {
     "value": [
       {
@@ -105,5 +89,21 @@
       }
     ],
     "type": "array"
+  },
+  "website": {
+    "value": "http://www.beaumont.co.za",
+    "type": "string"
+  },
+  "address": {
+    "value": "16 Hoof Way, Bot River, 7185, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "028 284 9194",
+    "type": "string"
+  },
+  "name": {
+    "value": "Beaumont Wines",
+    "type": "string"
   }
 }

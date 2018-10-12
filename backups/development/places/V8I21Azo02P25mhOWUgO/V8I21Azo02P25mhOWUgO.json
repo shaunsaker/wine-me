@@ -1,4 +1,20 @@
 {
+  "website": {
+    "value": "http://cavallistud.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Strand Rd, Somerset West, Cape Town, 7129, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 855 3218",
+    "type": "string"
+  },
+  "name": {
+    "value": "Cavalli Wine And Stud Farm",
+    "type": "string"
+  },
   "openingHours": {
     "value": [
       {
@@ -34,12 +50,12 @@
   },
   "location": {
     "value": {
-      "lng": {
-        "value": 18.8130497,
-        "type": "number"
-      },
       "lat": {
         "value": -34.0099372,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.8130497,
         "type": "number"
       }
     },
@@ -89,21 +105,5 @@
       }
     ],
     "type": "array"
-  },
-  "website": {
-    "value": "http://cavallistud.com/",
-    "type": "string"
-  },
-  "address": {
-    "value": "Strand Rd, Somerset West, Cape Town, 7129, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 855 3218",
-    "type": "string"
-  },
-  "name": {
-    "value": "Cavalli Wine And Stud Farm",
-    "type": "string"
   }
 }

@@ -1,8 +1,4 @@
 {
-  "name": {
-    "value": "Oak Valley Wine Estate",
-    "type": "string"
-  },
   "openingHours": {
     "value": [
       {
@@ -38,12 +34,12 @@
   },
   "location": {
     "value": {
-      "lng": {
-        "value": 19.046181,
-        "type": "number"
-      },
       "lat": {
         "value": -34.1550536,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.046181,
         "type": "number"
       }
     },
@@ -104,6 +100,10 @@
   },
   "phoneNumber": {
     "value": "021 859 2510",
+    "type": "string"
+  },
+  "name": {
+    "value": "Oak Valley Wine Estate",
     "type": "string"
   }
 }

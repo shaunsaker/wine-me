@@ -1,20 +1,4 @@
 {
-  "website": {
-    "value": "http://www.deetlefs.com/",
-    "type": "string"
-  },
-  "address": {
-    "value": "Brand St, Rawsonville, 6845, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "023 349 1260",
-    "type": "string"
-  },
-  "name": {
-    "value": "Deetlefs Wine Estate",
-    "type": "string"
-  },
   "openingHours": {
     "value": [
       {
@@ -77,5 +61,21 @@
       }
     ],
     "type": "array"
+  },
+  "website": {
+    "value": "http://www.deetlefs.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Brand St, Rawsonville, 6845, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "023 349 1260",
+    "type": "string"
+  },
+  "name": {
+    "value": "Deetlefs Wine Estate",
+    "type": "string"
   }
 }

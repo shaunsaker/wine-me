@@ -1,4 +1,16 @@
 {
+  "website": {
+    "value": "http://zevenwacht.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Langerwacht Road, Kuils River, Cape Town, 7580, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 900 5700",
+    "type": "string"
+  },
   "name": {
     "value": "Zevenwacht",
     "type": "string"
@@ -60,17 +72,5 @@
       }
     ],
     "type": "array"
-  },
-  "website": {
-    "value": "http://zevenwacht.co.za/",
-    "type": "string"
-  },
-  "address": {
-    "value": "Langerwacht Road, Kuils River, Cape Town, 7580, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 900 5700",
-    "type": "string"
   }
 }

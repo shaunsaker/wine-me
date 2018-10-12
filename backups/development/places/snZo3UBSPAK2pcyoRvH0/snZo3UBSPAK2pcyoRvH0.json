@@ -1,4 +1,20 @@
 {
+  "website": {
+    "value": "http://vredenheim.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "R310, Stellenbosch, 7600, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 881 3878",
+    "type": "string"
+  },
+  "name": {
+    "value": "Vredenheim",
+    "type": "string"
+  },
   "openingHours": {
     "value": [
       {
@@ -34,12 +50,12 @@
   },
   "location": {
     "value": {
-      "lat": {
-        "value": -33.9607453,
-        "type": "number"
-      },
       "lng": {
         "value": 18.8080252,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.9607453,
         "type": "number"
       }
     },
@@ -89,21 +105,5 @@
       }
     ],
     "type": "array"
-  },
-  "website": {
-    "value": "http://vredenheim.co.za/",
-    "type": "string"
-  },
-  "address": {
-    "value": "R310, Stellenbosch, 7600, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 881 3878",
-    "type": "string"
-  },
-  "name": {
-    "value": "Vredenheim",
-    "type": "string"
   }
 }

@@ -1,4 +1,8 @@
 {
+  "name": {
+    "value": "Benguela Cove Lagoon Wine Estate",
+    "type": "string"
+  },
   "openingHours": {
     "value": [
       {
@@ -34,12 +38,12 @@
   },
   "location": {
     "value": {
-      "lat": {
-        "value": -34.345893,
-        "type": "number"
-      },
       "lng": {
         "value": 19.137862,
+        "type": "number"
+      },
+      "lat": {
+        "value": -34.345893,
         "type": "number"
       }
     },
@@ -100,10 +104,6 @@
   },
   "phoneNumber": {
     "value": "083 645 6198",
-    "type": "string"
-  },
-  "name": {
-    "value": "Benguela Cove Lagoon Wine Estate",
     "type": "string"
   }
 }

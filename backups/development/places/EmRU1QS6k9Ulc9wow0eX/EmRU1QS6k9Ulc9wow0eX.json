@@ -1,8 +1,4 @@
 {
-  "address": {
-    "value": "R46, South Africa",
-    "type": "string"
-  },
   "location": {
     "value": {
       "lat": {
@@ -18,6 +14,10 @@
   },
   "name": {
     "value": "Wine Estate - Meerhof",
+    "type": "string"
+  },
+  "address": {
+    "value": "R46, South Africa",
     "type": "string"
   }
 }

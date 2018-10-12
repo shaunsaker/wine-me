@@ -1,4 +1,8 @@
 {
+  "name": {
+    "value": "NABYGELEGEN PRIVATE CELLAR",
+    "type": "string"
+  },
   "openingHours": {
     "value": [
       {
@@ -72,10 +76,6 @@
   },
   "phoneNumber": {
     "value": "021 873 7534",
-    "type": "string"
-  },
-  "name": {
-    "value": "NABYGELEGEN PRIVATE CELLAR",
     "type": "string"
   }
 }

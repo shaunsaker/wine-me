@@ -1,4 +1,8 @@
 {
+  "name": {
+    "value": "Wine Estate - Ashanti",
+    "type": "string"
+  },
   "address": {
     "value": "South Africa",
     "type": "string"
@@ -15,9 +19,5 @@
       }
     },
     "type": "object"
-  },
-  "name": {
-    "value": "Wine Estate - Ashanti",
-    "type": "string"
   }
 }

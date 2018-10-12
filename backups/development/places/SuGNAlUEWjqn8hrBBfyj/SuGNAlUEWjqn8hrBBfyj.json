@@ -1,8 +1,4 @@
 {
-  "name": {
-    "value": "Mullineux & Leeu Family Wines at Roundstone Farm",
-    "type": "string"
-  },
   "location": {
     "value": {
       "lat": {
@@ -39,6 +35,10 @@
   },
   "phoneNumber": {
     "value": "021 492 2455",
+    "type": "string"
+  },
+  "name": {
+    "value": "Mullineux & Leeu Family Wines at Roundstone Farm",
     "type": "string"
   }
 }

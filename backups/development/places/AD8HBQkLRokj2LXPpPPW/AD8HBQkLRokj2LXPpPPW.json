@@ -1,4 +1,20 @@
 {
+  "website": {
+    "value": "http://www.eikehof.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "R45, Franschhoek, 7691, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 876 2469",
+    "type": "string"
+  },
+  "name": {
+    "value": "Eikehof Wines",
+    "type": "string"
+  },
   "openingHours": {
     "value": [
       {
@@ -89,21 +105,5 @@
       }
     ],
     "type": "array"
-  },
-  "website": {
-    "value": "http://www.eikehof.com/",
-    "type": "string"
-  },
-  "address": {
-    "value": "R45, Franschhoek, 7691, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 876 2469",
-    "type": "string"
-  },
-  "name": {
-    "value": "Eikehof Wines",
-    "type": "string"
   }
 }

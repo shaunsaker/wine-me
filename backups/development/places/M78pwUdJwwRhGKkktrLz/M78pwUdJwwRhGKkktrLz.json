@@ -1,4 +1,20 @@
 {
+  "website": {
+    "value": "http://www.alto.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Annandale Road, Off the R44 toward Somerset West, Stellenbosch, 7600, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 881 3884",
+    "type": "string"
+  },
+  "name": {
+    "value": "Alto Estate Winery",
+    "type": "string"
+  },
   "openingHours": {
     "value": [
       {
@@ -89,21 +105,5 @@
       }
     ],
     "type": "array"
-  },
-  "website": {
-    "value": "http://www.alto.co.za/",
-    "type": "string"
-  },
-  "address": {
-    "value": "Annandale Road, Off the R44 toward Somerset West, Stellenbosch, 7600, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 881 3884",
-    "type": "string"
-  },
-  "name": {
-    "value": "Alto Estate Winery",
-    "type": "string"
   }
 }

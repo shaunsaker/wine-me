@@ -1,8 +1,4 @@
 {
-  "name": {
-    "value": "Rhebokskloof",
-    "type": "string"
-  },
   "openingHours": {
     "value": [
       {
@@ -104,6 +100,10 @@
   },
   "phoneNumber": {
     "value": "021 869 8386",
+    "type": "string"
+  },
+  "name": {
+    "value": "Rhebokskloof",
     "type": "string"
   }
 }

@@ -1,8 +1,4 @@
 {
-  "name": {
-    "value": "Reyneke Wines",
-    "type": "string"
-  },
   "openingHours": {
     "value": [
       {
@@ -80,6 +76,10 @@
   },
   "phoneNumber": {
     "value": "021 881 3451",
+    "type": "string"
+  },
+  "name": {
+    "value": "Reyneke Wines",
     "type": "string"
   }
 }

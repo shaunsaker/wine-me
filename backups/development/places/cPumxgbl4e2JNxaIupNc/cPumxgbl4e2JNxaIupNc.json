@@ -1,8 +1,4 @@
 {
-  "name": {
-    "value": "Allee Bleue Wine Estate",
-    "type": "string"
-  },
   "openingHours": {
     "value": [
       {
@@ -104,6 +100,10 @@
   },
   "phoneNumber": {
     "value": "021 874 1021",
+    "type": "string"
+  },
+  "name": {
+    "value": "Allee Bleue Wine Estate",
     "type": "string"
   }
 }

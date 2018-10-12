@@ -1,4 +1,20 @@
 {
+  "website": {
+    "value": "http://saxenburg.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Saxenburg Wine Farm, Polkadraai Road, Kuilsriver, 7580, Kuils River, Cape Town, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 903 6113",
+    "type": "string"
+  },
+  "name": {
+    "value": "Saxenburg wine estate",
+    "type": "string"
+  },
   "openingHours": {
     "value": [
       {
@@ -34,12 +50,12 @@
   },
   "location": {
     "value": {
-      "lng": {
-        "value": 18.71879,
-        "type": "number"
-      },
       "lat": {
         "value": -33.94674000000001,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.71879,
         "type": "number"
       }
     },
@@ -89,21 +105,5 @@
       }
     ],
     "type": "array"
-  },
-  "website": {
-    "value": "http://saxenburg.co.za/",
-    "type": "string"
-  },
-  "address": {
-    "value": "Saxenburg Wine Farm, Polkadraai Road, Kuilsriver, 7580, Kuils River, Cape Town, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 903 6113",
-    "type": "string"
-  },
-  "name": {
-    "value": "Saxenburg wine estate",
-    "type": "string"
   }
 }

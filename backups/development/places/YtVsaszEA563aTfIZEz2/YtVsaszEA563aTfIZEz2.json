@@ -1,4 +1,20 @@
 {
+  "website": {
+    "value": "http://www.yonderhill.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Yonder Hill Wine Farm, R44 Strand Road, Stellenbosch, Western Cape, South Africa, Somerset West, Raithby, 7130, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 855 1008",
+    "type": "string"
+  },
+  "name": {
+    "value": "Yonder Hill Wines",
+    "type": "string"
+  },
   "openingHours": {
     "value": [
       {
@@ -89,21 +105,5 @@
       }
     ],
     "type": "array"
-  },
-  "website": {
-    "value": "http://www.yonderhill.co.za/",
-    "type": "string"
-  },
-  "address": {
-    "value": "Yonder Hill Wine Farm, R44 Strand Road, Stellenbosch, Western Cape, South Africa, Somerset West, Raithby, 7130, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 855 1008",
-    "type": "string"
-  },
-  "name": {
-    "value": "Yonder Hill Wines",
-    "type": "string"
   }
 }

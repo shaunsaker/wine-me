@@ -1,8 +1,4 @@
 {
-  "name": {
-    "value": "Wine Estate - Botha Wine Cellar",
-    "type": "string"
-  },
   "address": {
     "value": "R43, South Africa",
     "type": "string"
@@ -32,5 +28,9 @@
       }
     ],
     "type": "array"
+  },
+  "name": {
+    "value": "Wine Estate - Botha Wine Cellar",
+    "type": "string"
   }
 }

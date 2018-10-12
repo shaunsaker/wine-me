@@ -1,4 +1,16 @@
 {
+  "website": {
+    "value": "http://www.bartinney.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Helshoogte Way, Stellenbosch, 7600, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 885 1013",
+    "type": "string"
+  },
   "name": {
     "value": "Bartinney Private Cellar",
     "type": "string"
@@ -93,17 +105,5 @@
       }
     ],
     "type": "array"
-  },
-  "website": {
-    "value": "http://www.bartinney.co.za/",
-    "type": "string"
-  },
-  "address": {
-    "value": "Helshoogte Way, Stellenbosch, 7600, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 885 1013",
-    "type": "string"
   }
 }

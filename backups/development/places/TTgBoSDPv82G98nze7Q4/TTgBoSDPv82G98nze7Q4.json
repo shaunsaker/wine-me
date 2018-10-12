@@ -1,4 +1,12 @@
 {
+  "phoneNumber": {
+    "value": "021 855 4275",
+    "type": "string"
+  },
+  "address": {
+    "value": "Delvera, Off R44, Stellenbosch, 7600, South Africa",
+    "type": "string"
+  },
   "location": {
     "value": {
       "lat": {
@@ -35,14 +43,6 @@
   },
   "name": {
     "value": "Topaz Wine Company",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 855 4275",
-    "type": "string"
-  },
-  "address": {
-    "value": "Delvera, Off R44, Stellenbosch, 7600, South Africa",
     "type": "string"
   }
 }

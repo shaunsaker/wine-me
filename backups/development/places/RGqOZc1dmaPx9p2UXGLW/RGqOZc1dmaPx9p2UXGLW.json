@@ -1,4 +1,20 @@
 {
+  "website": {
+    "value": "http://www.badsberg.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Badsberg Wine Cellar, Groottevlakte, Rawsonville, Western Cape, South Africa, 6845, 6845, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "023 344 3021",
+    "type": "string"
+  },
+  "name": {
+    "value": "Badsberg Winery",
+    "type": "string"
+  },
   "openingHours": {
     "value": [
       {
@@ -89,21 +105,5 @@
       }
     ],
     "type": "array"
-  },
-  "website": {
-    "value": "http://www.badsberg.co.za/",
-    "type": "string"
-  },
-  "address": {
-    "value": "Badsberg Wine Cellar, Groottevlakte, Rawsonville, Western Cape, South Africa, 6845, 6845, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "023 344 3021",
-    "type": "string"
-  },
-  "name": {
-    "value": "Badsberg Winery",
-    "type": "string"
   }
 }

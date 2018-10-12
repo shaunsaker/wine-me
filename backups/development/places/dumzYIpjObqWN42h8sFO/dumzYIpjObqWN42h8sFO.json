@@ -1,8 +1,4 @@
 {
-  "address": {
-    "value": "South Africa",
-    "type": "string"
-  },
   "location": {
     "value": {
       "lat": {
@@ -63,6 +59,10 @@
   },
   "name": {
     "value": "Wine Estate - Badsberg",
+    "type": "string"
+  },
+  "address": {
+    "value": "South Africa",
     "type": "string"
   }
 }

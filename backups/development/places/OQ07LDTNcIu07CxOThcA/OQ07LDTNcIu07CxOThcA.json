@@ -1,20 +1,4 @@
 {
-  "website": {
-    "value": "http://detrafford.co.za/",
-    "type": "string"
-  },
-  "address": {
-    "value": "Blaauwklippen Rd, Paradyskloof, Stellenbosch, 7600, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 880 1611",
-    "type": "string"
-  },
-  "name": {
-    "value": "De Trafford Wines",
-    "type": "string"
-  },
   "openingHours": {
     "value": [
       {
@@ -50,12 +34,12 @@
   },
   "location": {
     "value": {
-      "lng": {
-        "value": 18.8973,
-        "type": "number"
-      },
       "lat": {
         "value": -34.010753,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.8973,
         "type": "number"
       }
     },
@@ -77,5 +61,21 @@
       }
     ],
     "type": "array"
+  },
+  "website": {
+    "value": "http://detrafford.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Blaauwklippen Rd, Paradyskloof, Stellenbosch, 7600, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 880 1611",
+    "type": "string"
+  },
+  "name": {
+    "value": "De Trafford Wines",
+    "type": "string"
   }
 }

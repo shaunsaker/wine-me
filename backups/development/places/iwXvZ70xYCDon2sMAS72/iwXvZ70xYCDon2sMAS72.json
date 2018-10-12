@@ -1,4 +1,8 @@
 {
+  "name": {
+    "value": "Kronenburg Estate",
+    "type": "string"
+  },
   "location": {
     "value": {
       "lat": {
@@ -67,10 +71,6 @@
   },
   "phoneNumber": {
     "value": "021 869 8172",
-    "type": "string"
-  },
-  "name": {
-    "value": "Kronenburg Estate",
     "type": "string"
   }
 }

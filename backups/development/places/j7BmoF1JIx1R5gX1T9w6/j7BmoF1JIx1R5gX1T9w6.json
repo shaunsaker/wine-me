@@ -1,16 +1,4 @@
 {
-  "website": {
-    "value": "http://www.bartinney.co.za/",
-    "type": "string"
-  },
-  "address": {
-    "value": "5 Bird St, Stellenbosch, Cape Town, 7600, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "076 348 5374",
-    "type": "string"
-  },
   "name": {
     "value": "Bartinney Wine & Champagne Bar",
     "type": "string"
@@ -105,5 +93,17 @@
       }
     ],
     "type": "array"
+  },
+  "website": {
+    "value": "http://www.bartinney.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "5 Bird St, Stellenbosch, Cape Town, 7600, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "076 348 5374",
+    "type": "string"
   }
 }

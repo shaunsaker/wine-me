@@ -1,20 +1,4 @@
 {
-  "website": {
-    "value": "http://www.eikendal.com/",
-    "type": "string"
-  },
-  "address": {
-    "value": "R44, Raithby, 7130, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 855 1422",
-    "type": "string"
-  },
-  "name": {
-    "value": "Eikendal",
-    "type": "string"
-  },
   "openingHours": {
     "value": [
       {
@@ -105,5 +89,21 @@
       }
     ],
     "type": "array"
+  },
+  "website": {
+    "value": "http://www.eikendal.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "R44, Raithby, 7130, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 855 1422",
+    "type": "string"
+  },
+  "name": {
+    "value": "Eikendal",
+    "type": "string"
   }
 }

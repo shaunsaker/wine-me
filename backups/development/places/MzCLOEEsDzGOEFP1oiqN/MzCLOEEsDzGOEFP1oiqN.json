@@ -1,8 +1,4 @@
 {
-  "name": {
-    "value": "Antebellum Wine Estate",
-    "type": "string"
-  },
   "address": {
     "value": "Malmesbury, Afrique du Sud, South Africa",
     "type": "string"
@@ -64,5 +60,9 @@
       }
     ],
     "type": "array"
+  },
+  "name": {
+    "value": "Antebellum Wine Estate",
+    "type": "string"
   }
 }

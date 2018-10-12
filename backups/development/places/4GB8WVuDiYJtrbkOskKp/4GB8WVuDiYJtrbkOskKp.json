@@ -50,12 +50,12 @@
   },
   "location": {
     "value": {
-      "lat": {
-        "value": -33.9145313,
-        "type": "number"
-      },
       "lng": {
         "value": 18.9355186,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.9145313,
         "type": "number"
       }
     },

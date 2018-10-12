@@ -1,26 +1,4 @@
 {
-  "location": {
-    "value": {
-      "lat": {
-        "value": -33.67366,
-        "type": "number"
-      },
-      "lng": {
-        "value": 19.00501299999999,
-        "type": "number"
-      }
-    },
-    "type": "object"
-  },
-  "photoReferences": {
-    "value": [
-      {
-        "value": "CmRaAAAA8bZUt4kpjSpZYf6WtT_sLNdcwem-ltQdJteLmbyLcvORiFxZNRYbHFHQrRm2ZnKYf4GVoxT2Kqj_KEfeQxyKCG_9bA2Ec2Y7nxI8fXE01w41OvMgIhhSKSBup0kgJtL8EhAm4uZamG4TqWQStwf5NVnOGhRG27nhh50OW2RTgpUphKfT_IQV6w",
-        "type": "string"
-      }
-    ],
-    "type": "array"
-  },
   "website": {
     "value": "http://www.dunstone.co.za/",
     "type": "string"
@@ -36,5 +14,27 @@
   "name": {
     "value": "Dumstone Wines",
     "type": "string"
+  },
+  "location": {
+    "value": {
+      "lng": {
+        "value": 19.00501299999999,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.67366,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "photoReferences": {
+    "value": [
+      {
+        "value": "CmRaAAAA8bZUt4kpjSpZYf6WtT_sLNdcwem-ltQdJteLmbyLcvORiFxZNRYbHFHQrRm2ZnKYf4GVoxT2Kqj_KEfeQxyKCG_9bA2Ec2Y7nxI8fXE01w41OvMgIhhSKSBup0kgJtL8EhAm4uZamG4TqWQStwf5NVnOGhRG27nhh50OW2RTgpUphKfT_IQV6w",
+        "type": "string"
+      }
+    ],
+    "type": "array"
   }
 }

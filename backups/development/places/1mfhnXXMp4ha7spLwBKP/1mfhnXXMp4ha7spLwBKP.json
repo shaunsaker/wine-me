@@ -1,4 +1,20 @@
 {
+  "website": {
+    "value": "http://www.ayama.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Paardenberg Road, Windmuel, 7630, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 869 8313",
+    "type": "string"
+  },
+  "name": {
+    "value": "Ayama Wines",
+    "type": "string"
+  },
   "openingHours": {
     "value": [
       {
@@ -44,21 +60,5 @@
       }
     },
     "type": "object"
-  },
-  "website": {
-    "value": "http://www.ayama.co.za/",
-    "type": "string"
-  },
-  "address": {
-    "value": "Paardenberg Road, Windmuel, 7630, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 869 8313",
-    "type": "string"
-  },
-  "name": {
-    "value": "Ayama Wines",
-    "type": "string"
   }
 }

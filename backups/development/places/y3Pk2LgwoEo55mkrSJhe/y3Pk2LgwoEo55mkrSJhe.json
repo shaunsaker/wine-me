@@ -1,4 +1,8 @@
 {
+  "name": {
+    "value": "Nuy Winery",
+    "type": "string"
+  },
   "address": {
     "value": "Worcester, South Africa",
     "type": "string"
@@ -52,9 +56,5 @@
       }
     ],
     "type": "array"
-  },
-  "name": {
-    "value": "Nuy Winery",
-    "type": "string"
   }
 }

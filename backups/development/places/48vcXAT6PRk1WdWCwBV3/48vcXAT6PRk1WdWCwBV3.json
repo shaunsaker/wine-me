@@ -1,16 +1,4 @@
 {
-  "website": {
-    "value": "http://www.vergenoegd.co.za/",
-    "type": "string"
-  },
-  "address": {
-    "value": "Baden Powell Dr, Faure, Stellenbosch, 7131, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 843 3248",
-    "type": "string"
-  },
   "name": {
     "value": "Vergenoegd Wine Estate",
     "type": "string"
@@ -50,12 +38,12 @@
   },
   "location": {
     "value": {
-      "lng": {
-        "value": 18.739318,
-        "type": "number"
-      },
       "lat": {
         "value": -34.034568,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.739318,
         "type": "number"
       }
     },
@@ -105,5 +93,17 @@
       }
     ],
     "type": "array"
+  },
+  "website": {
+    "value": "http://www.vergenoegd.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Baden Powell Dr, Faure, Stellenbosch, 7131, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 843 3248",
+    "type": "string"
   }
 }

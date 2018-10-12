@@ -1,4 +1,8 @@
 {
+  "name": {
+    "value": "Vriesenhof Vineyards",
+    "type": "string"
+  },
   "openingHours": {
     "value": [
       {
@@ -100,10 +104,6 @@
   },
   "phoneNumber": {
     "value": "021 880 0284",
-    "type": "string"
-  },
-  "name": {
-    "value": "Vriesenhof Vineyards",
     "type": "string"
   }
 }

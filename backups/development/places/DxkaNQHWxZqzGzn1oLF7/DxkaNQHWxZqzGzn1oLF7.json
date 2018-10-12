@@ -1,20 +1,4 @@
 {
-  "website": {
-    "value": "http://www.rupertwines.com/",
-    "type": "string"
-  },
-  "address": {
-    "value": "R45 Wine Route, Franschhoek Valley, Franschhoek, 7690, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 874 9041",
-    "type": "string"
-  },
-  "name": {
-    "value": "Terra Del Capo - Tasting Room",
-    "type": "string"
-  },
   "openingHours": {
     "value": [
       {
@@ -105,5 +89,21 @@
       }
     ],
     "type": "array"
+  },
+  "website": {
+    "value": "http://www.rupertwines.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "R45 Wine Route, Franschhoek Valley, Franschhoek, 7690, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 874 9041",
+    "type": "string"
+  },
+  "name": {
+    "value": "Terra Del Capo - Tasting Room",
+    "type": "string"
   }
 }

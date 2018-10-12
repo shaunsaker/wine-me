@@ -1,4 +1,20 @@
 {
+  "website": {
+    "value": "http://www.uniwines.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Louwshoek Voorsorg Road, Rawsonville, 6845, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "023 349 1110",
+    "type": "string"
+  },
+  "name": {
+    "value": "uniWines Vineyards",
+    "type": "string"
+  },
   "openingHours": {
     "value": [
       {
@@ -34,12 +50,12 @@
   },
   "location": {
     "value": {
-      "lng": {
-        "value": 19.349457,
-        "type": "number"
-      },
       "lat": {
         "value": -33.7209882,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.349457,
         "type": "number"
       }
     },
@@ -89,21 +105,5 @@
       }
     ],
     "type": "array"
-  },
-  "website": {
-    "value": "http://www.uniwines.co.za/",
-    "type": "string"
-  },
-  "address": {
-    "value": "Louwshoek Voorsorg Road, Rawsonville, 6845, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "023 349 1110",
-    "type": "string"
-  },
-  "name": {
-    "value": "uniWines Vineyards",
-    "type": "string"
   }
 }

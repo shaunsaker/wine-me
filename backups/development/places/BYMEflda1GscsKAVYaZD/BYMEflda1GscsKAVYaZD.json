@@ -1,4 +1,20 @@
 {
+  "website": {
+    "value": "http://raats.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Raats Family Wines, Vlaeberg Rd, Stellenbosch, Cape Town, 7601, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 881 3078",
+    "type": "string"
+  },
+  "name": {
+    "value": "Raats Family Wines",
+    "type": "string"
+  },
   "location": {
     "value": {
       "lat": {
@@ -56,21 +72,5 @@
       }
     ],
     "type": "array"
-  },
-  "website": {
-    "value": "http://raats.co.za/",
-    "type": "string"
-  },
-  "address": {
-    "value": "Raats Family Wines, Vlaeberg Rd, Stellenbosch, Cape Town, 7601, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 881 3078",
-    "type": "string"
-  },
-  "name": {
-    "value": "Raats Family Wines",
-    "type": "string"
   }
 }

@@ -1,4 +1,8 @@
 {
+  "name": {
+    "value": "Kronendal Boutique Winery",
+    "type": "string"
+  },
   "phoneNumber": {
     "value": "082 499 0198",
     "type": "string"
@@ -64,9 +68,5 @@
       }
     ],
     "type": "array"
-  },
-  "name": {
-    "value": "Kronendal Boutique Winery",
-    "type": "string"
   }
 }

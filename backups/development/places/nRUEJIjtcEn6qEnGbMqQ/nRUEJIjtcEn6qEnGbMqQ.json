@@ -1,12 +1,16 @@
 {
+  "name": {
+    "value": "Spier Wine Farm",
+    "type": "string"
+  },
   "location": {
     "value": {
-      "lng": {
-        "value": 18.7821798,
-        "type": "number"
-      },
       "lat": {
         "value": -33.9735508,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.7821798,
         "type": "number"
       }
     },
@@ -67,10 +71,6 @@
   },
   "phoneNumber": {
     "value": "021 809 1100",
-    "type": "string"
-  },
-  "name": {
-    "value": "Spier Wine Farm",
     "type": "string"
   }
 }

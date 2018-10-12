@@ -1,20 +1,4 @@
 {
-  "website": {
-    "value": "http://www.molenvliet.co.za/",
-    "type": "string"
-  },
-  "address": {
-    "value": "Old Banhoek Road, Helshoogte Pass, Stellenbosch, Cape town, 7612, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 885 1597",
-    "type": "string"
-  },
-  "name": {
-    "value": "MolenVliet Oosthuizen Family Vineyards",
-    "type": "string"
-  },
   "openingHours": {
     "value": [
       {
@@ -105,5 +89,21 @@
       }
     ],
     "type": "array"
+  },
+  "website": {
+    "value": "http://www.molenvliet.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Old Banhoek Road, Helshoogte Pass, Stellenbosch, Cape town, 7612, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 885 1597",
+    "type": "string"
+  },
+  "name": {
+    "value": "MolenVliet Oosthuizen Family Vineyards",
+    "type": "string"
   }
 }

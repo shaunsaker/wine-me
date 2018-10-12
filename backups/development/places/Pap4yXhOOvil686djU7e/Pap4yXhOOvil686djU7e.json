@@ -1,20 +1,4 @@
 {
-  "website": {
-    "value": "http://mariannewines.com/",
-    "type": "string"
-  },
-  "address": {
-    "value": "Valley Road - Off R44, Stellenbosch, 7600, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 875 5040",
-    "type": "string"
-  },
-  "name": {
-    "value": "Marianne Wine Estate",
-    "type": "string"
-  },
   "openingHours": {
     "value": [
       {
@@ -50,12 +34,12 @@
   },
   "location": {
     "value": {
-      "lat": {
-        "value": -33.82985459999999,
-        "type": "number"
-      },
       "lng": {
         "value": 18.8798188,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.82985459999999,
         "type": "number"
       }
     },
@@ -105,5 +89,21 @@
       }
     ],
     "type": "array"
+  },
+  "website": {
+    "value": "http://mariannewines.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Valley Road - Off R44, Stellenbosch, 7600, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 875 5040",
+    "type": "string"
+  },
+  "name": {
+    "value": "Marianne Wine Estate",
+    "type": "string"
   }
 }

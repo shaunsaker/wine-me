@@ -1,20 +1,4 @@
 {
-  "website": {
-    "value": "http://www.laibachwines.com/",
-    "type": "string"
-  },
-  "address": {
-    "value": "R 44 Klapmuts Road, Stellenbosch, 7599, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 884 4511",
-    "type": "string"
-  },
-  "name": {
-    "value": "Wine Estate - Laibach",
-    "type": "string"
-  },
   "openingHours": {
     "value": [
       {
@@ -101,5 +85,21 @@
       }
     ],
     "type": "array"
+  },
+  "website": {
+    "value": "http://www.laibachwines.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "R 44 Klapmuts Road, Stellenbosch, 7599, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 884 4511",
+    "type": "string"
+  },
+  "name": {
+    "value": "Wine Estate - Laibach",
+    "type": "string"
   }
 }

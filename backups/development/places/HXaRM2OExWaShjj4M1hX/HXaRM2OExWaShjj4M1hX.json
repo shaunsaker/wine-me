@@ -1,8 +1,4 @@
 {
-  "name": {
-    "value": "Bosman Family Vineyards, Cape Winelands, South Africa",
-    "type": "string"
-  },
   "openingHours": {
     "value": [
       {
@@ -38,12 +34,12 @@
   },
   "location": {
     "value": {
-      "lng": {
-        "value": 19.024447,
-        "type": "number"
-      },
       "lat": {
         "value": -33.626211,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.024447,
         "type": "number"
       }
     },
@@ -104,6 +100,10 @@
   },
   "phoneNumber": {
     "value": "021 873 3170",
+    "type": "string"
+  },
+  "name": {
+    "value": "Bosman Family Vineyards, Cape Winelands, South Africa",
     "type": "string"
   }
 }

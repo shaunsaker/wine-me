@@ -1,4 +1,20 @@
 {
+  "website": {
+    "value": "http://arravineyards.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "R44, Klapmuts, Stellenbosch, 7654, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 875 5363",
+    "type": "string"
+  },
+  "name": {
+    "value": "Arra Vineyards",
+    "type": "string"
+  },
   "openingHours": {
     "value": [
       {
@@ -89,21 +105,5 @@
       }
     ],
     "type": "array"
-  },
-  "website": {
-    "value": "http://arravineyards.com/",
-    "type": "string"
-  },
-  "address": {
-    "value": "R44, Klapmuts, Stellenbosch, 7654, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 875 5363",
-    "type": "string"
-  },
-  "name": {
-    "value": "Arra Vineyards",
-    "type": "string"
   }
 }

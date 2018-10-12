@@ -1,4 +1,20 @@
 {
+  "website": {
+    "value": "http://www.vdcwines.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Bovlei Rd, Wellington, 7654, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 873 1256",
+    "type": "string"
+  },
+  "name": {
+    "value": "Val Du Charron",
+    "type": "string"
+  },
   "openingHours": {
     "value": [
       {
@@ -89,21 +105,5 @@
       }
     ],
     "type": "array"
-  },
-  "website": {
-    "value": "http://www.vdcwines.com/",
-    "type": "string"
-  },
-  "address": {
-    "value": "Bovlei Rd, Wellington, 7654, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 873 1256",
-    "type": "string"
-  },
-  "name": {
-    "value": "Val Du Charron",
-    "type": "string"
   }
 }

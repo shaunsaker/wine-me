@@ -1,4 +1,8 @@
 {
+  "name": {
+    "value": "Neethlingshof (1692)",
+    "type": "string"
+  },
   "openingHours": {
     "value": [
       {
@@ -34,12 +38,12 @@
   },
   "location": {
     "value": {
-      "lng": {
-        "value": 18.8031562,
-        "type": "number"
-      },
       "lat": {
         "value": -33.9500706,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.8031562,
         "type": "number"
       }
     },
@@ -100,10 +104,6 @@
   },
   "phoneNumber": {
     "value": "021 883 8988",
-    "type": "string"
-  },
-  "name": {
-    "value": "Neethlingshof (1692)",
     "type": "string"
   }
 }

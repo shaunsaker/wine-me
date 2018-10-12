@@ -1,20 +1,4 @@
 {
-  "website": {
-    "value": "http://www.spier.co.za/visit/wine-tasting",
-    "type": "string"
-  },
-  "address": {
-    "value": "Spier Wine Farm,, R310, Stellenbosch, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 809 1143",
-    "type": "string"
-  },
-  "name": {
-    "value": "Spier Wine Tasting Centre",
-    "type": "string"
-  },
   "openingHours": {
     "value": [
       {
@@ -50,12 +34,12 @@
   },
   "location": {
     "value": {
-      "lng": {
-        "value": 18.7847029,
-        "type": "number"
-      },
       "lat": {
         "value": -33.9728893,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.7847029,
         "type": "number"
       }
     },
@@ -105,5 +89,21 @@
       }
     ],
     "type": "array"
+  },
+  "website": {
+    "value": "http://www.spier.co.za/visit/wine-tasting",
+    "type": "string"
+  },
+  "address": {
+    "value": "Spier Wine Farm,, R310, Stellenbosch, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 809 1143",
+    "type": "string"
+  },
+  "name": {
+    "value": "Spier Wine Tasting Centre",
+    "type": "string"
   }
 }

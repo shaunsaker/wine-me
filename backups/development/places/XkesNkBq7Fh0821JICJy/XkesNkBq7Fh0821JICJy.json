@@ -1,12 +1,16 @@
 {
+  "name": {
+    "value": "L'Olivier Wine & Olive Estate",
+    "type": "string"
+  },
   "location": {
     "value": {
-      "lng": {
-        "value": 18.7814498,
-        "type": "number"
-      },
       "lat": {
         "value": -33.9268746,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.7814498,
         "type": "number"
       }
     },
@@ -43,10 +47,6 @@
   },
   "phoneNumber": {
     "value": "021 881 3218",
-    "type": "string"
-  },
-  "name": {
-    "value": "L'Olivier Wine & Olive Estate",
     "type": "string"
   }
 }

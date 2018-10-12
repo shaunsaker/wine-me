@@ -1,4 +1,20 @@
 {
+  "website": {
+    "value": "http://www.jasonshill.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Slanghoek Road, Slanghoek Valley, Rawsonville, 6845, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "023 344 3146",
+    "type": "string"
+  },
+  "name": {
+    "value": "Jason’s Hill Private Cellar",
+    "type": "string"
+  },
   "openingHours": {
     "value": [
       {
@@ -34,12 +50,12 @@
   },
   "location": {
     "value": {
-      "lat": {
-        "value": -33.66504059999999,
-        "type": "number"
-      },
       "lng": {
         "value": 19.2274785,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.66504059999999,
         "type": "number"
       }
     },
@@ -89,21 +105,5 @@
       }
     ],
     "type": "array"
-  },
-  "website": {
-    "value": "http://www.jasonshill.co.za/",
-    "type": "string"
-  },
-  "address": {
-    "value": "Slanghoek Road, Slanghoek Valley, Rawsonville, 6845, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "023 344 3146",
-    "type": "string"
-  },
-  "name": {
-    "value": "Jason’s Hill Private Cellar",
-    "type": "string"
   }
 }

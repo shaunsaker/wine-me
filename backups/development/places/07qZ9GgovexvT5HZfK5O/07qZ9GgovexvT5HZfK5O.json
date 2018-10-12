@@ -1,28 +1,12 @@
 {
-  "website": {
-    "value": "http://www.stofbergwines.co.za/",
-    "type": "string"
-  },
-  "address": {
-    "value": "Stofberg Wine Estate, R101 Rd, Rawsonville, 6845, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "082 928 4943",
-    "type": "string"
-  },
-  "name": {
-    "value": "Stofberg Wine Estate",
-    "type": "string"
-  },
   "location": {
     "value": {
-      "lat": {
-        "value": -33.67627699999999,
-        "type": "number"
-      },
       "lng": {
         "value": 19.301686,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.67627699999999,
         "type": "number"
       }
     },
@@ -72,5 +56,21 @@
       }
     ],
     "type": "array"
+  },
+  "website": {
+    "value": "http://www.stofbergwines.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Stofberg Wine Estate, R101 Rd, Rawsonville, 6845, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "082 928 4943",
+    "type": "string"
+  },
+  "name": {
+    "value": "Stofberg Wine Estate",
+    "type": "string"
   }
 }

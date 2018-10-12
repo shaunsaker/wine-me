@@ -1,12 +1,28 @@
 {
+  "website": {
+    "value": "http://www.domainebrahms.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Brahms Wineries, Windmeul, Paarl, Western Cape, South Africa, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 869 8555",
+    "type": "string"
+  },
+  "name": {
+    "value": "Domaine Brahms Winery (By Appointment only)",
+    "type": "string"
+  },
   "location": {
     "value": {
-      "lng": {
-        "value": 18.89145,
-        "type": "number"
-      },
       "lat": {
         "value": -33.674,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.89145,
         "type": "number"
       }
     },
@@ -48,21 +64,5 @@
       }
     ],
     "type": "array"
-  },
-  "website": {
-    "value": "http://www.domainebrahms.co.za/",
-    "type": "string"
-  },
-  "address": {
-    "value": "Brahms Wineries, Windmeul, Paarl, Western Cape, South Africa, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 869 8555",
-    "type": "string"
-  },
-  "name": {
-    "value": "Domaine Brahms Winery (By Appointment only)",
-    "type": "string"
   }
 }

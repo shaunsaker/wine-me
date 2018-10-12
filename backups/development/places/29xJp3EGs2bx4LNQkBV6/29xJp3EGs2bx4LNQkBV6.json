@@ -1,4 +1,20 @@
 {
+  "website": {
+    "value": "http://www.glenwoodvineyards.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Robertsvlei Road, Franschhoek, 7690, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 876 2044",
+    "type": "string"
+  },
+  "name": {
+    "value": "GlenWood Vineyards",
+    "type": "string"
+  },
   "openingHours": {
     "value": [
       {
@@ -89,21 +105,5 @@
       }
     ],
     "type": "array"
-  },
-  "website": {
-    "value": "http://www.glenwoodvineyards.co.za/",
-    "type": "string"
-  },
-  "address": {
-    "value": "Robertsvlei Road, Franschhoek, 7690, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 876 2044",
-    "type": "string"
-  },
-  "name": {
-    "value": "GlenWood Vineyards",
-    "type": "string"
   }
 }

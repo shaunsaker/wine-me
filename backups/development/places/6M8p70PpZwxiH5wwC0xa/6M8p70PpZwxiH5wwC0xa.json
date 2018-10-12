@@ -1,16 +1,4 @@
 {
-  "website": {
-    "value": "http://www.rupertwines.com/farms.php?farms_id=1",
-    "type": "string"
-  },
-  "address": {
-    "value": "R45, South Africa",
-    "type": "string"
-  },
-  "name": {
-    "value": "Antonij Rupert Wines at L'Ormarins",
-    "type": "string"
-  },
   "openingHours": {
     "value": [
       {
@@ -91,15 +79,27 @@
   },
   "location": {
     "value": {
-      "lng": {
-        "value": 18.9988188,
-        "type": "number"
-      },
       "lat": {
         "value": -33.8723073,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.9988188,
         "type": "number"
       }
     },
     "type": "object"
+  },
+  "website": {
+    "value": "http://www.rupertwines.com/farms.php?farms_id=1",
+    "type": "string"
+  },
+  "address": {
+    "value": "R45, South Africa",
+    "type": "string"
+  },
+  "name": {
+    "value": "Antonij Rupert Wines at L'Ormarins",
+    "type": "string"
   }
 }

@@ -1,20 +1,4 @@
 {
-  "website": {
-    "value": "http://www.davidnadia.com/",
-    "type": "string"
-  },
-  "address": {
-    "value": "Paardebosch Farm, R45, Siebritskloof, 7299, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "072 375 4336",
-    "type": "string"
-  },
-  "name": {
-    "value": "David Nadia Wines",
-    "type": "string"
-  },
   "openingHours": {
     "value": [
       {
@@ -69,5 +53,21 @@
       }
     ],
     "type": "array"
+  },
+  "website": {
+    "value": "http://www.davidnadia.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Paardebosch Farm, R45, Siebritskloof, 7299, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "072 375 4336",
+    "type": "string"
+  },
+  "name": {
+    "value": "David Nadia Wines",
+    "type": "string"
   }
 }

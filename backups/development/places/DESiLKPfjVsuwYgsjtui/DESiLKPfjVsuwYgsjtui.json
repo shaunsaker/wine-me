@@ -1,4 +1,20 @@
 {
+  "website": {
+    "value": "http://www.cluver.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "N2, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 844 0605",
+    "type": "string"
+  },
+  "name": {
+    "value": "Paul Cluver Wines",
+    "type": "string"
+  },
   "openingHours": {
     "value": [
       {
@@ -69,21 +85,5 @@
       }
     ],
     "type": "array"
-  },
-  "website": {
-    "value": "http://www.cluver.com/",
-    "type": "string"
-  },
-  "address": {
-    "value": "N2, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 844 0605",
-    "type": "string"
-  },
-  "name": {
-    "value": "Paul Cluver Wines",
-    "type": "string"
   }
 }

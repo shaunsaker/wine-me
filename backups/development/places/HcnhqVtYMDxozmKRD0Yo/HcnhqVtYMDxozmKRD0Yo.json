@@ -1,16 +1,4 @@
 {
-  "website": {
-    "value": "http://www.maisonestate.co.za/?utm_source=google&utm_medium=organic%20&utm_content=maison&utm_campaign=GMB",
-    "type": "string"
-  },
-  "address": {
-    "value": "R45, Franschhoek, Cape Town, 7690, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 876 2116",
-    "type": "string"
-  },
   "name": {
     "value": "Maison Estate",
     "type": "string"
@@ -105,5 +93,17 @@
       }
     ],
     "type": "array"
+  },
+  "website": {
+    "value": "http://www.maisonestate.co.za/?utm_source=google&utm_medium=organic%20&utm_content=maison&utm_campaign=GMB",
+    "type": "string"
+  },
+  "address": {
+    "value": "R45, Franschhoek, Cape Town, 7690, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 876 2116",
+    "type": "string"
   }
 }

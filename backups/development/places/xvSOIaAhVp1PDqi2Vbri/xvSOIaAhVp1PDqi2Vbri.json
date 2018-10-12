@@ -1,4 +1,16 @@
 {
+  "website": {
+    "value": "http://www.backsberg.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Klapmuts - Simondium Rd, Paarl, 7625, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 875 5141",
+    "type": "string"
+  },
   "name": {
     "value": "Backsberg Estate Cellars",
     "type": "string"
@@ -38,12 +50,12 @@
   },
   "location": {
     "value": {
-      "lat": {
-        "value": -33.8285478,
-        "type": "number"
-      },
       "lng": {
         "value": 18.9146995,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.8285478,
         "type": "number"
       }
     },
@@ -93,17 +105,5 @@
       }
     ],
     "type": "array"
-  },
-  "website": {
-    "value": "http://www.backsberg.co.za/",
-    "type": "string"
-  },
-  "address": {
-    "value": "Klapmuts - Simondium Rd, Paarl, 7625, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 875 5141",
-    "type": "string"
   }
 }

@@ -1,8 +1,4 @@
 {
-  "name": {
-    "value": "L'Ormarins Wine Estate",
-    "type": "string"
-  },
   "phoneNumber": {
     "value": "021 874 9000",
     "type": "string"
@@ -23,5 +19,9 @@
       }
     },
     "type": "object"
+  },
+  "name": {
+    "value": "L'Ormarins Wine Estate",
+    "type": "string"
   }
 }

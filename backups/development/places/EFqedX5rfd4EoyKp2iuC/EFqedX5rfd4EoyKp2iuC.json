@@ -1,20 +1,4 @@
 {
-  "website": {
-    "value": "http://www.eaglevlei.com/",
-    "type": "string"
-  },
-  "address": {
-    "value": "Old Paarl Rd, Stellenbosch, 7599, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 884 4713",
-    "type": "string"
-  },
-  "name": {
-    "value": "Eaglevlei",
-    "type": "string"
-  },
   "openingHours": {
     "value": [
       {
@@ -50,12 +34,12 @@
   },
   "location": {
     "value": {
-      "lng": {
-        "value": 18.8125928,
-        "type": "number"
-      },
       "lat": {
         "value": -33.8247982,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.8125928,
         "type": "number"
       }
     },
@@ -105,5 +89,21 @@
       }
     ],
     "type": "array"
+  },
+  "website": {
+    "value": "http://www.eaglevlei.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Old Paarl Rd, Stellenbosch, 7599, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 884 4713",
+    "type": "string"
+  },
+  "name": {
+    "value": "Eaglevlei",
+    "type": "string"
   }
 }

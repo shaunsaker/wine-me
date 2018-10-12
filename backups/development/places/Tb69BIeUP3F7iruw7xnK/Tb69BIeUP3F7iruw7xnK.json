@@ -1,4 +1,20 @@
 {
+  "website": {
+    "value": "http://www.allesverloren.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "R46 R311, Riebeek West, Malmesbury, 7306, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "022 461 2320",
+    "type": "string"
+  },
+  "name": {
+    "value": "Allesverloren",
+    "type": "string"
+  },
   "openingHours": {
     "value": [
       {
@@ -34,12 +50,12 @@
   },
   "location": {
     "value": {
-      "lat": {
-        "value": -33.359222,
-        "type": "number"
-      },
       "lng": {
         "value": 18.8732995,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.359222,
         "type": "number"
       }
     },
@@ -89,21 +105,5 @@
       }
     ],
     "type": "array"
-  },
-  "website": {
-    "value": "http://www.allesverloren.co.za/",
-    "type": "string"
-  },
-  "address": {
-    "value": "R46 R311, Riebeek West, Malmesbury, 7306, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "022 461 2320",
-    "type": "string"
-  },
-  "name": {
-    "value": "Allesverloren",
-    "type": "string"
   }
 }

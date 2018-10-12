@@ -1,4 +1,20 @@
 {
+  "website": {
+    "value": "http://www.brenaissance.co.za",
+    "type": "string"
+  },
+  "address": {
+    "value": "Devon Valley Rd, Stellenbosch, 7600, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 200 2537",
+    "type": "string"
+  },
+  "name": {
+    "value": "Brenaissance Wine Estate",
+    "type": "string"
+  },
   "openingHours": {
     "value": [
       {
@@ -89,21 +105,5 @@
       }
     ],
     "type": "array"
-  },
-  "website": {
-    "value": "http://www.brenaissance.co.za",
-    "type": "string"
-  },
-  "address": {
-    "value": "Devon Valley Rd, Stellenbosch, 7600, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 200 2537",
-    "type": "string"
-  },
-  "name": {
-    "value": "Brenaissance Wine Estate",
-    "type": "string"
   }
 }

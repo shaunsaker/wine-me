@@ -1,4 +1,20 @@
 {
+  "website": {
+    "value": "https://www.durbanvillehills.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "m13 Tygerberg Valley Rd, Durbanville, Cape Town, 7550, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 558 1300",
+    "type": "string"
+  },
+  "name": {
+    "value": "Durbanville Hills Cellar",
+    "type": "string"
+  },
   "openingHours": {
     "value": [
       {
@@ -89,21 +105,5 @@
       }
     ],
     "type": "array"
-  },
-  "website": {
-    "value": "https://www.durbanvillehills.co.za/",
-    "type": "string"
-  },
-  "address": {
-    "value": "m13 Tygerberg Valley Rd, Durbanville, Cape Town, 7550, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 558 1300",
-    "type": "string"
-  },
-  "name": {
-    "value": "Durbanville Hills Cellar",
-    "type": "string"
   }
 }

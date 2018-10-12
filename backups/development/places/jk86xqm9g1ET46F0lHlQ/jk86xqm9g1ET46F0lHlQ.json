@@ -1,4 +1,8 @@
 {
+  "name": {
+    "value": "Spookfontein Wines & Spookfontein Restaurant",
+    "type": "string"
+  },
   "openingHours": {
     "value": [
       {
@@ -100,10 +104,6 @@
   },
   "phoneNumber": {
     "value": "073 067 7936",
-    "type": "string"
-  },
-  "name": {
-    "value": "Spookfontein Wines & Spookfontein Restaurant",
     "type": "string"
   }
 }

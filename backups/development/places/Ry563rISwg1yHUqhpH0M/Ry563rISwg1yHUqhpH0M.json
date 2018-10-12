@@ -1,4 +1,16 @@
 {
+  "name": {
+    "value": "La Chaumiere Wine Estate",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 876 4830",
+    "type": "string"
+  },
+  "address": {
+    "value": "32 Cabriere St, Franschhoek, 7690, South Africa",
+    "type": "string"
+  },
   "location": {
     "value": {
       "lat": {
@@ -11,17 +23,5 @@
       }
     },
     "type": "object"
-  },
-  "name": {
-    "value": "La Chaumiere Wine Estate",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 876 4830",
-    "type": "string"
-  },
-  "address": {
-    "value": "32 Cabriere St, Franschhoek, 7690, South Africa",
-    "type": "string"
   }
 }

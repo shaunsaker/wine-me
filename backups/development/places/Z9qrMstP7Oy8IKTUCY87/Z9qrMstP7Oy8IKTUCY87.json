@@ -1,20 +1,4 @@
 {
-  "website": {
-    "value": "http://www.rupertwines.com/tasting_room_rupert.php",
-    "type": "string"
-  },
-  "address": {
-    "value": "R45, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 874 9041",
-    "type": "string"
-  },
-  "name": {
-    "value": "Antonij Rupert - Tasting Room",
-    "type": "string"
-  },
   "openingHours": {
     "value": [
       {
@@ -105,5 +89,21 @@
       }
     ],
     "type": "array"
+  },
+  "website": {
+    "value": "http://www.rupertwines.com/tasting_room_rupert.php",
+    "type": "string"
+  },
+  "address": {
+    "value": "R45, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 874 9041",
+    "type": "string"
+  },
+  "name": {
+    "value": "Antonij Rupert - Tasting Room",
+    "type": "string"
   }
 }

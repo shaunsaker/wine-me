@@ -1,4 +1,16 @@
 {
+  "website": {
+    "value": "http://www.highconstantia.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Groot Constantia Rd, Constantia, Cape Town, 7848, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 794 7171",
+    "type": "string"
+  },
   "name": {
     "value": "High Constantia Wine Cellar",
     "type": "string"
@@ -38,12 +50,12 @@
   },
   "location": {
     "value": {
-      "lat": {
-        "value": -34.02521199999999,
-        "type": "number"
-      },
       "lng": {
         "value": 18.426758,
+        "type": "number"
+      },
+      "lat": {
+        "value": -34.02521199999999,
         "type": "number"
       }
     },
@@ -93,17 +105,5 @@
       }
     ],
     "type": "array"
-  },
-  "website": {
-    "value": "http://www.highconstantia.co.za/",
-    "type": "string"
-  },
-  "address": {
-    "value": "Groot Constantia Rd, Constantia, Cape Town, 7848, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 794 7171",
-    "type": "string"
   }
 }

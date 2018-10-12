@@ -1,16 +1,12 @@
 {
-  "address": {
-    "value": "Malmesbury, South Africa",
-    "type": "string"
-  },
   "location": {
     "value": {
-      "lng": {
-        "value": 18.8585315,
-        "type": "number"
-      },
       "lat": {
         "value": -33.4034461,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.8585315,
         "type": "number"
       }
     },
@@ -18,6 +14,10 @@
   },
   "name": {
     "value": "Meerhof Winery Estate",
+    "type": "string"
+  },
+  "address": {
+    "value": "Malmesbury, South Africa",
     "type": "string"
   }
 }

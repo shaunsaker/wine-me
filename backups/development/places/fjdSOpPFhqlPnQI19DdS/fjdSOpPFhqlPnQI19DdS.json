@@ -1,20 +1,4 @@
 {
-  "website": {
-    "value": "http://www.boschendal.co.za/",
-    "type": "string"
-  },
-  "address": {
-    "value": "R310, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 870 4200",
-    "type": "string"
-  },
-  "name": {
-    "value": "Wine Estate - Boschendal",
-    "type": "string"
-  },
   "openingHours": {
     "value": [
       {
@@ -105,5 +89,21 @@
       }
     ],
     "type": "array"
+  },
+  "website": {
+    "value": "http://www.boschendal.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "R310, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 870 4200",
+    "type": "string"
+  },
+  "name": {
+    "value": "Wine Estate - Boschendal",
+    "type": "string"
   }
 }

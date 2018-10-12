@@ -1,20 +1,4 @@
 {
-  "website": {
-    "value": "http://www.dunstone.co.za/",
-    "type": "string"
-  },
-  "address": {
-    "value": "Bovlei Rd, Wellington, 7655, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 864 1504",
-    "type": "string"
-  },
-  "name": {
-    "value": "Dunstone Country Estate",
-    "type": "string"
-  },
   "openingHours": {
     "value": [
       {
@@ -105,5 +89,21 @@
       }
     ],
     "type": "array"
+  },
+  "website": {
+    "value": "http://www.dunstone.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Bovlei Rd, Wellington, 7655, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 864 1504",
+    "type": "string"
+  },
+  "name": {
+    "value": "Dunstone Country Estate",
+    "type": "string"
   }
 }

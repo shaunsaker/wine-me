@@ -1,4 +1,16 @@
 {
+  "website": {
+    "value": "http://www.duvon.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Little Italy, Robertson, 6705, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "072 514 4204",
+    "type": "string"
+  },
   "name": {
     "value": "DuVon Wine and Wedding Estate",
     "type": "string"
@@ -93,17 +105,5 @@
       }
     ],
     "type": "array"
-  },
-  "website": {
-    "value": "http://www.duvon.co.za/",
-    "type": "string"
-  },
-  "address": {
-    "value": "Little Italy, Robertson, 6705, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "072 514 4204",
-    "type": "string"
   }
 }

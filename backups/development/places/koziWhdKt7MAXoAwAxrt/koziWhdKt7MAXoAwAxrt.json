@@ -1,8 +1,4 @@
 {
-  "name": {
-    "value": "Summerhill Wines",
-    "type": "string"
-  },
   "openingHours": {
     "value": [
       {
@@ -64,6 +60,10 @@
   },
   "phoneNumber": {
     "value": "021 889 5015",
+    "type": "string"
+  },
+  "name": {
+    "value": "Summerhill Wines",
     "type": "string"
   }
 }

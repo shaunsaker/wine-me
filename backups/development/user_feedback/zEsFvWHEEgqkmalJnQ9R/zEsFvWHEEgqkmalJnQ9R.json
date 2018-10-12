@@ -1,0 +1,44 @@
+{
+  "order": {
+    "value": 5,
+    "type": "number"
+  },
+  "validation": {
+    "value": {
+      "min": {
+        "value": null,
+        "type": "null"
+      },
+      "type": {
+        "value": "string",
+        "type": "string"
+      },
+      "max": {
+        "value": null,
+        "type": "null"
+      }
+    },
+    "type": "object"
+  },
+  "name": {
+    "value": "Accessible",
+    "type": "string"
+  },
+  "question_text": {
+    "value": "Was it wheelchair accessible?",
+    "type": "string"
+  },
+  "options": {
+    "value": [
+      {
+        "value": "Yes",
+        "type": "string"
+      },
+      {
+        "value": "No",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

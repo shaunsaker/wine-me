@@ -1,20 +1,4 @@
 {
-  "website": {
-    "value": "http://www.breedekloof.com/",
-    "type": "string"
-  },
-  "address": {
-    "value": "Rawsonville, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "023 349 1791",
-    "type": "string"
-  },
-  "name": {
-    "value": "Breedekloof Wine & Tourism",
-    "type": "string"
-  },
   "openingHours": {
     "value": [
       {
@@ -89,5 +73,21 @@
       }
     ],
     "type": "array"
+  },
+  "website": {
+    "value": "http://www.breedekloof.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Rawsonville, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "023 349 1791",
+    "type": "string"
+  },
+  "name": {
+    "value": "Breedekloof Wine & Tourism",
+    "type": "string"
   }
 }

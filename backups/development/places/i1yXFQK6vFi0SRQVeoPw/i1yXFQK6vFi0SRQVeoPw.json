@@ -1,4 +1,8 @@
 {
+  "name": {
+    "value": "Dormershire Wine Estate",
+    "type": "string"
+  },
   "openingHours": {
     "value": [
       {
@@ -79,12 +83,12 @@
   },
   "location": {
     "value": {
-      "lng": {
-        "value": 18.7152524,
-        "type": "number"
-      },
       "lat": {
         "value": -33.9409513,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.7152524,
         "type": "number"
       }
     },
@@ -96,10 +100,6 @@
   },
   "phoneNumber": {
     "value": "021 801 4677",
-    "type": "string"
-  },
-  "name": {
-    "value": "Dormershire Wine Estate",
     "type": "string"
   }
 }

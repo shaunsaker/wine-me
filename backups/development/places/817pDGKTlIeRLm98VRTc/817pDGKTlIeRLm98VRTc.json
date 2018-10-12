@@ -1,4 +1,20 @@
 {
+  "website": {
+    "value": "https://www.facebook.com/www.nuywinery.co.za",
+    "type": "string"
+  },
+  "address": {
+    "value": "R60, Nuy turnoff, Nuy, worcester, 6850, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "023 347 0272",
+    "type": "string"
+  },
+  "name": {
+    "value": "Nuy on the hill",
+    "type": "string"
+  },
   "openingHours": {
     "value": [
       {
@@ -34,12 +50,12 @@
   },
   "location": {
     "value": {
-      "lat": {
-        "value": -33.68655689999999,
-        "type": "number"
-      },
       "lng": {
         "value": 19.588441,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.68655689999999,
         "type": "number"
       }
     },
@@ -89,21 +105,5 @@
       }
     ],
     "type": "array"
-  },
-  "website": {
-    "value": "https://www.facebook.com/www.nuywinery.co.za",
-    "type": "string"
-  },
-  "address": {
-    "value": "R60, Nuy turnoff, Nuy, worcester, 6850, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "023 347 0272",
-    "type": "string"
-  },
-  "name": {
-    "value": "Nuy on the hill",
-    "type": "string"
   }
 }

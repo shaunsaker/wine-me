@@ -1,28 +1,12 @@
 {
-  "website": {
-    "value": "http://www.kleinood.com/",
-    "type": "string"
-  },
-  "address": {
-    "value": "Blaauwklippen Rd, Stellenbosch, 7600, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 880 2527",
-    "type": "string"
-  },
-  "name": {
-    "value": "Kleinood Winery",
-    "type": "string"
-  },
   "location": {
     "value": {
-      "lng": {
-        "value": 18.873653,
-        "type": "number"
-      },
       "lat": {
         "value": -33.995305,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.873653,
         "type": "number"
       }
     },
@@ -52,5 +36,21 @@
       }
     ],
     "type": "array"
+  },
+  "website": {
+    "value": "http://www.kleinood.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Blaauwklippen Rd, Stellenbosch, 7600, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 880 2527",
+    "type": "string"
+  },
+  "name": {
+    "value": "Kleinood Winery",
+    "type": "string"
   }
 }

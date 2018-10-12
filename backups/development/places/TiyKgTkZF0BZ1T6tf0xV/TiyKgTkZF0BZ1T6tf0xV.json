@@ -1,4 +1,20 @@
 {
+  "website": {
+    "value": "http://meerendal.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Vissershok Rd, Durbanville, Cape Town, 7550, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 975 1655",
+    "type": "string"
+  },
+  "name": {
+    "value": "Meerendal Wine Estate",
+    "type": "string"
+  },
   "openingHours": {
     "value": [
       {
@@ -89,21 +105,5 @@
       }
     ],
     "type": "array"
-  },
-  "website": {
-    "value": "http://meerendal.co.za/",
-    "type": "string"
-  },
-  "address": {
-    "value": "Vissershok Rd, Durbanville, Cape Town, 7550, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 975 1655",
-    "type": "string"
-  },
-  "name": {
-    "value": "Meerendal Wine Estate",
-    "type": "string"
   }
 }

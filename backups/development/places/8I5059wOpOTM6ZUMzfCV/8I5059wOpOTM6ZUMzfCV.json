@@ -1,4 +1,8 @@
 {
+  "name": {
+    "value": "THEUNISKRAAL WINE TASTING CENTER",
+    "type": "string"
+  },
   "openingHours": {
     "value": [
       {
@@ -96,10 +100,6 @@
   },
   "address": {
     "value": "Tulbagh, South Africa",
-    "type": "string"
-  },
-  "name": {
-    "value": "THEUNISKRAAL WINE TASTING CENTER",
     "type": "string"
   }
 }

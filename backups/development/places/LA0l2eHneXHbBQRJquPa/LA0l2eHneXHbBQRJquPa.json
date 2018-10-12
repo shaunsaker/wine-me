@@ -1,4 +1,8 @@
 {
+  "name": {
+    "value": "Cottages Mansions & Wine Farms",
+    "type": "string"
+  },
   "phoneNumber": {
     "value": "021 883 3830",
     "type": "string"
@@ -9,12 +13,12 @@
   },
   "location": {
     "value": {
-      "lng": {
-        "value": 18.875114,
-        "type": "number"
-      },
       "lat": {
         "value": -33.93566300000001,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.875114,
         "type": "number"
       }
     },
@@ -32,9 +36,5 @@
       }
     ],
     "type": "array"
-  },
-  "name": {
-    "value": "Cottages Mansions & Wine Farms",
-    "type": "string"
   }
 }

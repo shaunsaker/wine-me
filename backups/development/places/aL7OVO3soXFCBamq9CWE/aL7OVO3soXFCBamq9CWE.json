@@ -1,4 +1,20 @@
 {
+  "website": {
+    "value": "http://www.elginridge.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Appletiser Road, Elgin, Elgin Valley, 7180, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 846 8060",
+    "type": "string"
+  },
+  "name": {
+    "value": "Elgin Ridge Biodynamic Wine Estate",
+    "type": "string"
+  },
   "openingHours": {
     "value": [
       {
@@ -34,12 +50,12 @@
   },
   "location": {
     "value": {
-      "lng": {
-        "value": 19.00453,
-        "type": "number"
-      },
       "lat": {
         "value": -34.20311,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.00453,
         "type": "number"
       }
     },
@@ -89,21 +105,5 @@
       }
     ],
     "type": "array"
-  },
-  "website": {
-    "value": "http://www.elginridge.com/",
-    "type": "string"
-  },
-  "address": {
-    "value": "Appletiser Road, Elgin, Elgin Valley, 7180, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 846 8060",
-    "type": "string"
-  },
-  "name": {
-    "value": "Elgin Ridge Biodynamic Wine Estate",
-    "type": "string"
   }
 }

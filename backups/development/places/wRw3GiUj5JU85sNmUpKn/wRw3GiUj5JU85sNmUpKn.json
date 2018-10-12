@@ -1,4 +1,20 @@
 {
+  "website": {
+    "value": "http://www.oldenburgvineyards.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Oldenburg Farm, Zevenrivieren Road, Banghoek Valley, Stellenbosch, 7600, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 885 1618",
+    "type": "string"
+  },
+  "name": {
+    "value": "Oldenburg Vineyards",
+    "type": "string"
+  },
   "openingHours": {
     "value": [
       {
@@ -34,12 +50,12 @@
   },
   "location": {
     "value": {
-      "lng": {
-        "value": 18.9460694,
-        "type": "number"
-      },
       "lat": {
         "value": -33.9286291,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.9460694,
         "type": "number"
       }
     },
@@ -89,21 +105,5 @@
       }
     ],
     "type": "array"
-  },
-  "website": {
-    "value": "http://www.oldenburgvineyards.com/",
-    "type": "string"
-  },
-  "address": {
-    "value": "Oldenburg Farm, Zevenrivieren Road, Banghoek Valley, Stellenbosch, 7600, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 885 1618",
-    "type": "string"
-  },
-  "name": {
-    "value": "Oldenburg Vineyards",
-    "type": "string"
   }
 }

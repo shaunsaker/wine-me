@@ -1,8 +1,4 @@
 {
-  "address": {
-    "value": "R301, Wellington, 7654, South Africa",
-    "type": "string"
-  },
   "location": {
     "value": {
       "lng": {
@@ -18,6 +14,10 @@
   },
   "name": {
     "value": "Wine Estate - Bovlei",
+    "type": "string"
+  },
+  "address": {
+    "value": "R301, Wellington, 7654, South Africa",
     "type": "string"
   }
 }

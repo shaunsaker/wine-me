@@ -1,4 +1,8 @@
 {
+  "name": {
+    "value": "Calais Wine Estate",
+    "type": "string"
+  },
   "openingHours": {
     "value": [
       {
@@ -34,12 +38,12 @@
   },
   "location": {
     "value": {
-      "lng": {
-        "value": 19.02141229999999,
-        "type": "number"
-      },
       "lat": {
         "value": -33.7086961,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.02141229999999,
         "type": "number"
       }
     },
@@ -92,10 +96,6 @@
   },
   "phoneNumber": {
     "value": "021 868 3888",
-    "type": "string"
-  },
-  "name": {
-    "value": "Calais Wine Estate",
     "type": "string"
   }
 }

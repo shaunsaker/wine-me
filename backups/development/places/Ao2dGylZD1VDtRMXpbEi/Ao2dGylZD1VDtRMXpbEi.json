@@ -1,8 +1,4 @@
 {
-  "name": {
-    "value": "Jordan Wine Estate",
-    "type": "string"
-  },
   "openingHours": {
     "value": [
       {
@@ -38,12 +34,12 @@
   },
   "location": {
     "value": {
-      "lng": {
-        "value": 18.744216,
-        "type": "number"
-      },
       "lat": {
         "value": -33.942956,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.744216,
         "type": "number"
       }
     },
@@ -104,6 +100,10 @@
   },
   "phoneNumber": {
     "value": "021 881 3441",
+    "type": "string"
+  },
+  "name": {
+    "value": "Jordan Wine Estate",
     "type": "string"
   }
 }

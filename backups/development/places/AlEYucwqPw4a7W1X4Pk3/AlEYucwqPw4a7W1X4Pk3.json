@@ -1,16 +1,4 @@
 {
-  "website": {
-    "value": "https://kyburgwine.com/",
-    "type": "string"
-  },
-  "address": {
-    "value": "South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 865 2876",
-    "type": "string"
-  },
   "name": {
     "value": "Kyburg Boutique Wines",
     "type": "string"
@@ -52,5 +40,17 @@
       }
     ],
     "type": "array"
+  },
+  "website": {
+    "value": "https://kyburgwine.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 865 2876",
+    "type": "string"
   }
 }

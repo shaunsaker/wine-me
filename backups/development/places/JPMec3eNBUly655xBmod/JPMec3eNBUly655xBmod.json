@@ -1,4 +1,8 @@
 {
+  "name": {
+    "value": "Ken Forrester Wines",
+    "type": "string"
+  },
   "openingHours": {
     "value": [
       {
@@ -100,10 +104,6 @@
   },
   "phoneNumber": {
     "value": "021 855 2374",
-    "type": "string"
-  },
-  "name": {
-    "value": "Ken Forrester Wines",
     "type": "string"
   }
 }

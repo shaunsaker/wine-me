@@ -1,4 +1,20 @@
 {
+  "website": {
+    "value": "http://www.annandale.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Annandale Road, Stellenbosch, 7600, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 881 3560",
+    "type": "string"
+  },
+  "name": {
+    "value": "Annandale Wines",
+    "type": "string"
+  },
   "openingHours": {
     "value": [
       {
@@ -34,12 +50,12 @@
   },
   "location": {
     "value": {
-      "lat": {
-        "value": -33.9970308,
-        "type": "number"
-      },
       "lng": {
         "value": 18.8308226,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.9970308,
         "type": "number"
       }
     },
@@ -89,21 +105,5 @@
       }
     ],
     "type": "array"
-  },
-  "website": {
-    "value": "http://www.annandale.co.za/",
-    "type": "string"
-  },
-  "address": {
-    "value": "Annandale Road, Stellenbosch, 7600, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 881 3560",
-    "type": "string"
-  },
-  "name": {
-    "value": "Annandale Wines",
-    "type": "string"
   }
 }

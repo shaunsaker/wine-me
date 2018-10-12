@@ -1,4 +1,16 @@
 {
+  "website": {
+    "value": "http://www.fynbosestate.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Paardeberg, Malmesbury, 7300, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "022 487 1153",
+    "type": "string"
+  },
   "name": {
     "value": "Fynbos Estate",
     "type": "string"
@@ -38,12 +50,12 @@
   },
   "location": {
     "value": {
-      "lat": {
-        "value": -33.5581761,
-        "type": "number"
-      },
       "lng": {
         "value": 18.7847741,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.5581761,
         "type": "number"
       }
     },
@@ -93,17 +105,5 @@
       }
     ],
     "type": "array"
-  },
-  "website": {
-    "value": "http://www.fynbosestate.co.za/",
-    "type": "string"
-  },
-  "address": {
-    "value": "Paardeberg, Malmesbury, 7300, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "022 487 1153",
-    "type": "string"
   }
 }
