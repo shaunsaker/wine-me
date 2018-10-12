@@ -5,6 +5,20 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## 1.2.0-9-7
+
+### Added
+
+- Added StatusBar component
+- Added styles for iPhoneX
+
+### Changed
+
+- Updated profile page blank state copy
+- Changed the styling of the "Opening Hours" section on the place page
+- Updated RNSC borrowed components testing patterns
+- Updated RemoteImage component method names
+
 ## 1.2.0-9-6
 
 ### Fixed

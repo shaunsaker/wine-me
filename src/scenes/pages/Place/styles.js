@@ -14,11 +14,19 @@ const styles = StyleSheet.create({
     ...styleConstants.fonts.types.heading,
     color: styleConstants.colors.white,
   },
-  text: {
-    ...styleConstants.fonts.types.small,
+  row: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
     paddingHorizontal: styleConstants.dimensions.spacing.horizontal,
     marginBottom: styleConstants.dimensions.spacing.vertical,
     marginLeft: ICON_SIZE + styleConstants.dimensions.spacing.horizontal / 2,
+  },
+  boldText: {
+    ...styleConstants.fonts.types.small,
+    ...styleConstants.fonts.families.medium,
+  },
+  text: {
+    ...styleConstants.fonts.types.small,
   },
   linkText: {
     ...styleConstants.fonts.mediumFontHelper,

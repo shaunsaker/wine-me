@@ -8,6 +8,7 @@ exports[`Profile renders renders the blank state 1`] = `
         "alignSelf": "stretch",
         "backgroundColor": "#FFFFFF",
         "flex": 1,
+        "paddingBottom": 0,
         "paddingTop": 22,
       },
       undefined,
@@ -109,7 +110,7 @@ exports[`Profile renders renders the blank state 1`] = `
         }
       }
     >
-      Start visiting wine farms, mark them as visited and they'll show up here.
+      Start visiting wine farms, 'Check in' and they'll show up here.
     </Text>
   </View>
   <TabBar />
@@ -124,6 +125,7 @@ exports[`Profile renders renders with minimum required props 1`] = `
         "alignSelf": "stretch",
         "backgroundColor": "#FFFFFF",
         "flex": 1,
+        "paddingBottom": 0,
         "paddingTop": 22,
       },
       undefined,

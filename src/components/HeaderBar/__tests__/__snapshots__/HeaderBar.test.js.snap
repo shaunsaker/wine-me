@@ -7,8 +7,9 @@ exports[`HeaderBar renders renders 1`] = `
       Object {
         "alignSelf": "stretch",
         "backgroundColor": "#48466D",
+        "paddingBottom": 10,
         "paddingHorizontal": 15,
-        "paddingVertical": 10,
+        "paddingTop": 10,
       },
       Object {
         "backgroundColor": "red",

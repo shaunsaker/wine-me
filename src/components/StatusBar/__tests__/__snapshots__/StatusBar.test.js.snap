@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StatusBar renders renders with minimum required props 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "left": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+        "zIndex": 100,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "height": 22,
+        },
+        Object {
+          "backgroundColor": "#FFFFFF",
+        },
+      ]
+    }
+  />
+</View>
+`;

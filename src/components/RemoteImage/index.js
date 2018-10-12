@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { View, ActivityIndicator, ViewPropTypes } from 'react-native';
+import { View, ViewPropTypes, Text, ActivityIndicator } from 'react-native';
 import FastImage from 'react-native-fast-image';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 
@@ -11,8 +11,8 @@ export default class RemoteImage extends React.Component {
   constructor(props) {
     super(props);
 
-    this.setError = this.setError.bind(this);
-    this.setLoading = this.setLoading.bind(this);
+    this.setHasError = this.setHasError.bind(this);
+    this.setIsLoading = this.setIsLoading.bind(this);
 
     this.state = {
       isLoading: false,
@@ -24,20 +24,25 @@ export default class RemoteImage extends React.Component {
     source: PropTypes.shape({
       uri: PropTypes.string,
     }),
+    borderRadius: PropTypes.number,
+    iconStyle: Text.propTypes.style,
     style: ViewPropTypes.style,
+    loaderColor: PropTypes.string,
   };
 
-  static defaultProps = {};
+  static defaultProps = {
+    loaderColor: styleConstants.colors.primaryText,
+  };
 
-  setError() {
+  setHasError() {
     this.setState({
       hasError: true,
     });
 
-    this.setLoading(false);
+    this.setIsLoading(false);
   }
 
-  setLoading(isLoading) {
+  setIsLoading(isLoading) {
     this.setState({
       isLoading,
     });
@@ -45,19 +50,20 @@ export default class RemoteImage extends React.Component {
 
   render() {
     const { hasError, isLoading } = this.state;
-    const { source, style } = this.props;
+    const { borderRadius, iconStyle, loaderColor, source, style } = this.props;
+    const borderRadiusStyles = borderRadius && { borderRadius };
     let backgroundComponent;
 
     if (hasError) {
       backgroundComponent = (
-        <View style={styles.backgroundContainer}>
-          <Icon name="error-outline" style={styles.icon} />
+        <View style={[styles.backgroundContainer, borderRadiusStyles]}>
+          <Icon name="error-outline" style={[styles.icon, iconStyle]} />
         </View>
       );
     } else if (isLoading) {
       backgroundComponent = (
-        <View style={styles.backgroundContainer}>
-          <ActivityIndicator size="large" color={styleConstants.colors.secondary} />
+        <View style={[styles.backgroundContainer, borderRadiusStyles]}>
+          <ActivityIndicator size="large" color={loaderColor} />
         </View>
       );
     }
@@ -66,11 +72,10 @@ export default class RemoteImage extends React.Component {
       <View style={styles.container}>
         <FastImage
           source={source}
-          style={[styles.image, style]}
-          onLoadStart={() => this.setLoading(true)}
-          onLoadEnd={() => this.setLoading(false)}
-          onError={this.setError}
-          borderRadius={styleConstants.dimensions.borderRadius}
+          style={[styles.image, borderRadiusStyles, style]}
+          onLoadStart={() => this.setIsLoading(true)}
+          onLoadEnd={() => this.setIsLoading(false)}
+          onError={this.setHasError}
         />
         {backgroundComponent}
       </View>

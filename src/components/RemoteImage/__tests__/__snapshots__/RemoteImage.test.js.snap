@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`RemoteImage renders and toggles loading 1`] = `
+exports[`RemoteImage renders renders the normal state 1`] = `
 <View
   style={Object {}}
 >
@@ -13,6 +13,7 @@ exports[`RemoteImage renders and toggles loading 1`] = `
             "height": 200,
           },
           undefined,
+          undefined,
         ],
         Object {
           "overflow": "hidden",
@@ -21,14 +22,13 @@ exports[`RemoteImage renders and toggles loading 1`] = `
     }
   >
     <FastImageView
-      borderRadius={5}
       onFastImageError={[Function]}
       onFastImageLoadEnd={[Function]}
       onFastImageLoadStart={[Function]}
       resizeMode="cover"
       source={
         Object {
-          "uri": "https://d3iw72m71ie81c.cloudfront.net/male-47.jpg",
+          "uri": "https://homepages.cae.wisc.edu/~ece533/images/airplane.png",
         }
       }
       style={
@@ -45,54 +45,7 @@ exports[`RemoteImage renders and toggles loading 1`] = `
 </View>
 `;
 
-exports[`RemoteImage renders with all props 1`] = `
-<View
-  style={Object {}}
->
-  <View
-    style={
-      Array [
-        Array [
-          Object {
-            "flex": 1,
-            "height": 200,
-          },
-          Object {
-            "backgroundColor": "blue",
-          },
-        ],
-        Object {
-          "overflow": "hidden",
-        },
-      ]
-    }
-  >
-    <FastImageView
-      borderRadius={5}
-      onFastImageError={[Function]}
-      onFastImageLoadEnd={[Function]}
-      onFastImageLoadStart={[Function]}
-      resizeMode="cover"
-      source={
-        Object {
-          "uri": "https://d3iw72m71ie81c.cloudfront.net/male-47.jpg",
-        }
-      }
-      style={
-        Object {
-          "bottom": 0,
-          "left": 0,
-          "position": "absolute",
-          "right": 0,
-          "top": 0,
-        }
-      }
-    />
-  </View>
-</View>
-`;
-
-exports[`RemoteImage renders with error 1`] = `
+exports[`RemoteImage renders renders with minimum required props 1`] = `
 <View
   style={Object {}}
 >
@@ -105,91 +58,6 @@ exports[`RemoteImage renders with error 1`] = `
             "height": 200,
           },
           undefined,
-        ],
-        Object {
-          "overflow": "hidden",
-        },
-      ]
-    }
-  >
-    <FastImageView
-      borderRadius={5}
-      onFastImageError={[Function]}
-      onFastImageLoadEnd={[Function]}
-      onFastImageLoadStart={[Function]}
-      resizeMode="cover"
-      source={
-        Object {
-          "uri": "https://d3iw72m71ie81c.cloudfront.net/male-47.jpg",
-        }
-      }
-      style={
-        Object {
-          "bottom": 0,
-          "left": 0,
-          "position": "absolute",
-          "right": 0,
-          "top": 0,
-        }
-      }
-    />
-  </View>
-  <View
-    style={
-      Object {
-        "alignItems": "center",
-        "backgroundColor": "#E0E0E0",
-        "borderRadius": 5,
-        "bottom": 0,
-        "justifyContent": "center",
-        "left": 0,
-        "position": "absolute",
-        "right": 0,
-        "top": 0,
-      }
-    }
-  >
-    <Text
-      accessible={true}
-      allowFontScaling={false}
-      ellipsizeMode="tail"
-      style={
-        Array [
-          Object {
-            "color": undefined,
-            "fontSize": 12,
-          },
-          Object {
-            "color": "#212121",
-            "fontSize": 24,
-          },
-          Object {
-            "fontFamily": "Material Icons",
-            "fontStyle": "normal",
-            "fontWeight": "normal",
-          },
-          Object {},
-        ]
-      }
-    >
-      
-    </Text>
-  </View>
-</View>
-`;
-
-exports[`RemoteImage renders with minimum required props 1`] = `
-<View
-  style={Object {}}
->
-  <View
-    style={
-      Array [
-        Array [
-          Object {
-            "flex": 1,
-            "height": 200,
-          },
           undefined,
         ],
         Object {
@@ -199,7 +67,6 @@ exports[`RemoteImage renders with minimum required props 1`] = `
     }
   >
     <FastImageView
-      borderRadius={5}
       onFastImageError={[Function]}
       onFastImageLoadEnd={[Function]}
       onFastImageLoadStart={[Function]}

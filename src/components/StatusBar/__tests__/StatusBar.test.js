@@ -1,12 +1,12 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 
-import InputContainer from '..';
+import StatusBar from '..';
 
-describe('InputContainer', () => {
+describe('StatusBar', () => {
   describe('renders', () => {
     it('renders with minimum required props', () => {
-      expect(renderer.create(<InputContainer />)).toMatchSnapshot();
+      expect(renderer.create(<StatusBar />)).toMatchSnapshot();
     });
   });
 });

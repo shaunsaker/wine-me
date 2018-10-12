@@ -8,6 +8,7 @@ const styles = StyleSheet.create({
     alignSelf: 'stretch',
     backgroundColor: styleConstants.colors.white,
     paddingTop: Platform.OS === 'ios' ? 22 : 0,
+    paddingBottom: styleConstants.helpers.isIphoneX ? 24 : 0,
   },
 });
 
