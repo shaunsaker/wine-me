@@ -7,6 +7,7 @@
 ### DIFFUCULT TO REPRODUCE/SOLVE
 
 - After receiving update on iOS, redux-persist loader just loaded indefinitely
+- If I delete a place or search area in the db, it does not reflect in the persisted store
 
 ## ENHANCEMENTS
 
