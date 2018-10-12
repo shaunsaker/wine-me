@@ -214,7 +214,7 @@ exports[`InfoModal renders renders with minimum required props 1`] = `
               Code:
                
             </Text>
-            7
+            8
           </Text>
         </View>
         <View
