@@ -12,6 +12,7 @@ exports[`Thumbnail renders renders with minimum required props 1`] = `
             "flex": 1,
             "height": 200,
           },
+          undefined,
           Object {
             "borderRadius": 5,
             "height": 120,
@@ -26,7 +27,6 @@ exports[`Thumbnail renders renders with minimum required props 1`] = `
     }
   >
     <FastImageView
-      borderRadius={5}
       onFastImageError={[Function]}
       onFastImageLoadEnd={[Function]}
       onFastImageLoadStart={[Function]}

@@ -264,6 +264,7 @@ exports[`Place renders renders with minimum required props 1`] = `
                             "flex": 1,
                             "height": 200,
                           },
+                          undefined,
                           Object {
                             "borderRadius": 5,
                             "height": 120,
@@ -278,7 +279,6 @@ exports[`Place renders renders with minimum required props 1`] = `
                     }
                   >
                     <FastImageView
-                      borderRadius={5}
                       onFastImageError={[Function]}
                       onFastImageLoadEnd={[Function]}
                       onFastImageLoadStart={[Function]}
@@ -1215,6 +1215,7 @@ exports[`Place renders should render the no opening hours state 1`] = `
                             "flex": 1,
                             "height": 200,
                           },
+                          undefined,
                           Object {
                             "borderRadius": 5,
                             "height": 120,
@@ -1229,7 +1230,6 @@ exports[`Place renders should render the no opening hours state 1`] = `
                     }
                   >
                     <FastImageView
-                      borderRadius={5}
                       onFastImageError={[Function]}
                       onFastImageLoadEnd={[Function]}
                       onFastImageLoadStart={[Function]}

@@ -16,6 +16,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 - Updated profile page blank state copy
 - Changed the styling of the "Opening Hours" section on the place page
+- Updated RNSC borrowed components testing patterns
+- Updated RemoteImage component method names
 
 ## 1.2.0-9-6
 

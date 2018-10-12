@@ -52,7 +52,11 @@ export default class Lightbox extends React.Component {
     const { title, children, disableClose } = this.props;
 
     const closeComponent = !disableClose ? (
-      <Touchable onPress={this.animateOut} style={styles.iconContainer}>
+      <Touchable
+        onPress={this.animateOut}
+        style={styles.iconContainer}
+        testID="lightbox.button.close"
+      >
         <Icon name="close" style={styles.icon} />
       </Touchable>
     ) : null;

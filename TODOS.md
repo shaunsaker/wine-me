@@ -1,7 +1,5 @@
 # TODOS
 
-- Update component tests to match latest testing patterns
-
 ## BUGS
 
 - Refactor store so that we can delete places, check ins etc (update RNBP)

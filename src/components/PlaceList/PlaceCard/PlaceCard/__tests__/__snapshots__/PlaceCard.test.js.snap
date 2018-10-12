@@ -384,6 +384,7 @@ exports[`PlaceCard renders renders the remote image state 1`] = `
               "height": 200,
             },
             undefined,
+            undefined,
           ],
           Object {
             "overflow": "hidden",
@@ -392,7 +393,6 @@ exports[`PlaceCard renders renders the remote image state 1`] = `
       }
     >
       <FastImageView
-        borderRadius={5}
         onFastImageError={[Function]}
         onFastImageLoadEnd={[Function]}
         onFastImageLoadStart={[Function]}
