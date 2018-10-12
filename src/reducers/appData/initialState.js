@@ -1,10 +1,9 @@
 const initialState = {
-  categories: {},
-  featuredPlaces: {},
   places: {},
+  featuredPlaces: {},
   searchAreas: {},
   userCheckIns: {},
-  userSettings: {},
+  categories: {},
 };
 
 export default initialState;

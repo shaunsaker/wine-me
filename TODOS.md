@@ -95,18 +95,6 @@
   }
   ```
 
-  ```js
-  userSettings: {
-    X: {
-      setting_name: 'hasSeenCategoryQuestions',
-      value: true,
-      uid: '12345678',
-      place_id: '12345678',
-      date: 12345678,
-    }
-  }
-  ```
-
 - Show ratings on PlaceCards
 - Search by categories (Child Friendly, Serves Food) - if is_filterable
 - Show the datestamp of when you last visited a place

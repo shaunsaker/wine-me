@@ -17,13 +17,11 @@ describe('DatabaseHandler', () => {
 
   describe('methods', () => {
     it('should handle handleSyncData', () => {
-      spies[0] = jest.spyOn(DatabaseHandler.prototype, 'syncCategories');
+      spies[0] = jest.spyOn(DatabaseHandler.prototype, 'syncPlaces');
       spies[1] = jest.spyOn(DatabaseHandler.prototype, 'syncFeaturedPlaces');
-      spies[2] = jest.spyOn(DatabaseHandler.prototype, 'syncPlaces');
-      spies[3] = jest.spyOn(DatabaseHandler.prototype, 'syncSearchAreas');
-      spies[4] = jest.spyOn(DatabaseHandler.prototype, 'syncUserCheckIns');
-      spies[5] = jest.spyOn(DatabaseHandler.prototype, 'syncUserSettings');
-
+      spies[2] = jest.spyOn(DatabaseHandler.prototype, 'syncSearchAreas');
+      spies[3] = jest.spyOn(DatabaseHandler.prototype, 'syncUserCheckIns');
+      spies[4] = jest.spyOn(DatabaseHandler.prototype, 'syncCategories');
       const component = renderer.create(<DatabaseHandler dispatch={dispatch} />);
       const instance = component.getInstance();
 
@@ -34,14 +32,13 @@ describe('DatabaseHandler', () => {
       expect(spies[2]).toHaveBeenCalled();
       expect(spies[3]).toHaveBeenCalled();
       expect(spies[4]).toHaveBeenCalled();
-      expect(spies[5]).toHaveBeenCalled();
     });
 
-    it('should handle syncCategories', () => {
+    it('should handle syncPlaces', () => {
       const component = renderer.create(<DatabaseHandler dispatch={dispatch} />);
       const instance = component.getInstance();
 
-      instance.syncCategories();
+      instance.syncPlaces();
 
       expect(dispatch).toHaveBeenCalled();
       expect(dispatch).toMatchSnapshot();
@@ -52,16 +49,6 @@ describe('DatabaseHandler', () => {
       const instance = component.getInstance();
 
       instance.syncFeaturedPlaces();
-
-      expect(dispatch).toHaveBeenCalled();
-      expect(dispatch).toMatchSnapshot();
-    });
-
-    it('should handle syncPlaces', () => {
-      const component = renderer.create(<DatabaseHandler dispatch={dispatch} />);
-      const instance = component.getInstance();
-
-      instance.syncPlaces();
 
       expect(dispatch).toHaveBeenCalled();
       expect(dispatch).toMatchSnapshot();
@@ -87,11 +74,11 @@ describe('DatabaseHandler', () => {
       expect(dispatch).toMatchSnapshot();
     });
 
-    it('should handle syncUserSettings', () => {
+    it('should handle syncCategories', () => {
       const component = renderer.create(<DatabaseHandler dispatch={dispatch} />);
       const instance = component.getInstance();
 
-      instance.syncUserSettings();
+      instance.syncCategories();
 
       expect(dispatch).toHaveBeenCalled();
       expect(dispatch).toMatchSnapshot();
