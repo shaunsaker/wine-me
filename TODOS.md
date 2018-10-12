@@ -51,7 +51,7 @@
         order: 2,
         validation: {
           max: null,
-          min: 10,
+          min: 0,
           type: 'string',
         }
       },

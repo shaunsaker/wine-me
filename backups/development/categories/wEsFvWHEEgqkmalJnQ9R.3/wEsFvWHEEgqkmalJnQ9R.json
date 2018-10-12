@@ -1,31 +1,23 @@
 {
   "order": {
-    "value": 5,
+    "value": 3,
     "type": "number"
   },
   "validation": {
     "value": {
-      "min": {
-        "value": null,
-        "type": "null"
-      },
       "type": {
         "value": "string",
         "type": "string"
-      },
-      "max": {
-        "value": null,
-        "type": "null"
       }
     },
     "type": "object"
   },
   "name": {
-    "value": "Accessible",
+    "value": "Child Friendly",
     "type": "string"
   },
   "question_text": {
-    "value": "Was it wheelchair accessible?",
+    "value": "Was it child friendly?",
     "type": "string"
   },
   "options": {

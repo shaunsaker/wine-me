@@ -1,0 +1,36 @@
+{
+  "order": {
+    "value": 4,
+    "type": "number"
+  },
+  "validation": {
+    "value": {
+      "type": {
+        "value": "string",
+        "type": "string"
+      }
+    },
+    "type": "object"
+  },
+  "name": {
+    "value": "Serves food",
+    "type": "string"
+  },
+  "question_text": {
+    "value": "Did they serve food?",
+    "type": "string"
+  },
+  "options": {
+    "value": [
+      {
+        "value": "Yes",
+        "type": "string"
+      },
+      {
+        "value": "No",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}
