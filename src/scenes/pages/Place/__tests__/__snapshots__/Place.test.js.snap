@@ -29,6 +29,7 @@ exports[`Place renders renders with minimum required props 1`] = `
         "alignSelf": "stretch",
         "backgroundColor": "#FFFFFF",
         "flex": 1,
+        "paddingBottom": 0,
         "paddingTop": 22,
       },
       undefined,
@@ -69,8 +70,9 @@ exports[`Place renders renders with minimum required props 1`] = `
         Object {
           "alignSelf": "stretch",
           "backgroundColor": "#48466D",
+          "paddingBottom": 10,
           "paddingHorizontal": 15,
-          "paddingVertical": 10,
+          "paddingTop": 10,
         },
         Object {
           "alignItems": "center",
@@ -978,6 +980,7 @@ exports[`Place renders should render the no opening hours state 1`] = `
         "alignSelf": "stretch",
         "backgroundColor": "#FFFFFF",
         "flex": 1,
+        "paddingBottom": 0,
         "paddingTop": 22,
       },
       undefined,
@@ -1018,8 +1021,9 @@ exports[`Place renders should render the no opening hours state 1`] = `
         Object {
           "alignSelf": "stretch",
           "backgroundColor": "#48466D",
+          "paddingBottom": 10,
           "paddingHorizontal": 15,
-          "paddingVertical": 10,
+          "paddingTop": 10,
         },
         Object {
           "alignItems": "center",
@@ -1584,6 +1588,7 @@ exports[`Place renders should render the no photos state 1`] = `
         "alignSelf": "stretch",
         "backgroundColor": "#FFFFFF",
         "flex": 1,
+        "paddingBottom": 0,
         "paddingTop": 22,
       },
       undefined,
@@ -1624,8 +1629,9 @@ exports[`Place renders should render the no photos state 1`] = `
         Object {
           "alignSelf": "stretch",
           "backgroundColor": "#48466D",
+          "paddingBottom": 10,
           "paddingHorizontal": 15,
-          "paddingVertical": 10,
+          "paddingTop": 10,
         },
         Object {
           "alignItems": "center",

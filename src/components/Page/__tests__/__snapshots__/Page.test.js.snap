@@ -8,6 +8,7 @@ exports[`Page renders renders 1`] = `
         "alignSelf": "stretch",
         "backgroundColor": "#FFFFFF",
         "flex": 1,
+        "paddingBottom": 0,
         "paddingTop": 22,
       },
       undefined,
@@ -53,6 +54,7 @@ exports[`Page renders renders the horizontalCenter styles 1`] = `
         "alignSelf": "stretch",
         "backgroundColor": "#FFFFFF",
         "flex": 1,
+        "paddingBottom": 0,
         "paddingTop": 22,
       },
       undefined,
@@ -100,6 +102,7 @@ exports[`Page renders renders the verticalCenter styles 1`] = `
         "alignSelf": "stretch",
         "backgroundColor": "#FFFFFF",
         "flex": 1,
+        "paddingBottom": 0,
         "paddingTop": 22,
       },
       Object {

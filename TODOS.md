@@ -1,16 +1,10 @@
 # TODOS
 
-- After check in, rate and answer questions - SHAUN, JJ
-  - Price - SHAUN
-- Photographer friendly places (there is a list flying around) - SHAUN
-- Search "Is Open" tag - SHAUN
-- Search by tags (child friendly, has food etc. based on questions after check in) - SHAUN
-- Show the datestamp of when you last visited a place - WADE
+- Update component tests to match latest testing patterns
 
 ## BUGS
 
 - Refactor store so that we can delete places, check ins etc (update RNBP)
-- Not iPhoneX friendly
 
 ### DIFFUCULT TO REPRODUCE/SOLVE
 
@@ -25,6 +19,13 @@
 ## FEATURE REQUESTS
 
 These should be applicable to PLACES in general. Ie. Buy wines is not a good generic feature.
+
+- After check in, rate and answer questions - SHAUN, JJ
+  - Price - SHAUN
+- Photographer friendly places (there is a list flying around) - SHAUN
+- Search "Is Open" tag - SHAUN
+- Search by tags (child friendly, has food etc. based on questions after check in) - SHAUN
+- Show the datestamp of when you last visited a place - WADE
 
 - Request location permission again if not granted - SHAUN
 - Save unique device ID (for easy data retrieval if necessary) - SHAUN

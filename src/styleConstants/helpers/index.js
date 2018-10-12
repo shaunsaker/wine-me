@@ -4,6 +4,6 @@ import dimensions from '../dimensions';
 
 const helpers = {};
 
-helpers.iPhoneX = Platform.OS === 'ios' && dimensions.windowHeight === 812;
+helpers.isIphoneX = Platform.OS === 'ios' && dimensions.window.height === 812;
 
 export default helpers;

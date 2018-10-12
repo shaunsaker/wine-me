@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## 1.3.0-10-7
 
+### Added
+
+- Added StatusBar component
+- Added styles for iPhoneX
+
 ### Changed
 
 - Updated profile page blank state copy

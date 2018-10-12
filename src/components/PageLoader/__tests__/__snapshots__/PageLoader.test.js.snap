@@ -8,6 +8,7 @@ exports[`PageLoader renders renders 1`] = `
         "alignSelf": "stretch",
         "backgroundColor": "#FFFFFF",
         "flex": 1,
+        "paddingBottom": 0,
         "paddingTop": 22,
       },
       Object {
