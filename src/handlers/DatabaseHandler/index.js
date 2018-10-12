@@ -10,7 +10,7 @@ export class DatabaseHandler extends React.Component {
     this.syncPlaces = this.syncPlaces.bind(this);
     this.syncFeaturedPlaces = this.syncFeaturedPlaces.bind(this);
     this.syncSearchAreas = this.syncSearchAreas.bind(this);
-    this.syncCheckIns = this.syncCheckIns.bind(this);
+    this.syncUserCheckIns = this.syncUserCheckIns.bind(this);
   }
 
   static get propTypes() {
@@ -41,7 +41,7 @@ export class DatabaseHandler extends React.Component {
     this.syncPlaces();
     this.syncFeaturedPlaces();
     this.syncSearchAreas();
-    this.syncCheckIns();
+    this.syncUserCheckIns();
   }
 
   syncPlaces() {
@@ -89,7 +89,7 @@ export class DatabaseHandler extends React.Component {
     });
   }
 
-  syncCheckIns() {
+  syncUserCheckIns() {
     const { dispatch, uid } = this.props;
 
     dispatch({

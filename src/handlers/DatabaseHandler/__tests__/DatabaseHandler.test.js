@@ -20,7 +20,7 @@ describe('DatabaseHandler', () => {
       spies[0] = jest.spyOn(DatabaseHandler.prototype, 'syncPlaces');
       spies[1] = jest.spyOn(DatabaseHandler.prototype, 'syncFeaturedPlaces');
       spies[2] = jest.spyOn(DatabaseHandler.prototype, 'syncSearchAreas');
-      spies[3] = jest.spyOn(DatabaseHandler.prototype, 'syncCheckIns');
+      spies[3] = jest.spyOn(DatabaseHandler.prototype, 'syncUserCheckIns');
       const component = renderer.create(<DatabaseHandler dispatch={dispatch} />);
       const instance = component.getInstance();
 
@@ -62,11 +62,11 @@ describe('DatabaseHandler', () => {
       expect(dispatch).toMatchSnapshot();
     });
 
-    it('should handle syncCheckIns', () => {
+    it('should handle syncUserCheckIns', () => {
       const component = renderer.create(<DatabaseHandler dispatch={dispatch} />);
       const instance = component.getInstance();
 
-      instance.syncCheckIns();
+      instance.syncUserCheckIns();
 
       expect(dispatch).toHaveBeenCalled();
       expect(dispatch).toMatchSnapshot();
