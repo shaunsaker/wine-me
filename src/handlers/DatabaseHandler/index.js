@@ -8,10 +8,11 @@ export class DatabaseHandler extends React.Component {
 
     this.handleSyncData = this.handleSyncData.bind(this);
     this.syncPlaces = this.syncPlaces.bind(this);
+    this.syncCategories = this.syncCategories.bind(this);
     this.syncFeaturedPlaces = this.syncFeaturedPlaces.bind(this);
     this.syncSearchAreas = this.syncSearchAreas.bind(this);
     this.syncUserCheckIns = this.syncUserCheckIns.bind(this);
-    this.syncCategories = this.syncCategories.bind(this);
+    this.syncUserSettings = this.syncUserSettings.bind(this);
   }
 
   static get propTypes() {
@@ -39,22 +40,23 @@ export class DatabaseHandler extends React.Component {
   }
 
   handleSyncData() {
-    this.syncPlaces();
+    this.syncCategories();
     this.syncFeaturedPlaces();
+    this.syncPlaces();
     this.syncSearchAreas();
     this.syncUserCheckIns();
-    this.syncCategories();
+    this.syncUserSettings();
   }
 
-  syncPlaces() {
+  syncCategories() {
     const { dispatch } = this.props;
 
     dispatch({
       type: 'sync',
       meta: {
-        pathParts: ['places'],
+        pathParts: ['categories'],
         nextAction: {
-          type: 'SET_PLACES',
+          type: 'SET_CATEGORIES',
         },
       },
     });
@@ -72,6 +74,20 @@ export class DatabaseHandler extends React.Component {
           payload: {
             ref: 'featuredPlaces',
           },
+        },
+      },
+    });
+  }
+
+  syncPlaces() {
+    const { dispatch } = this.props;
+
+    dispatch({
+      type: 'sync',
+      meta: {
+        pathParts: ['places'],
+        nextAction: {
+          type: 'SET_PLACES',
         },
       },
     });
@@ -106,15 +122,16 @@ export class DatabaseHandler extends React.Component {
     });
   }
 
-  syncCategories() {
-    const { dispatch } = this.props;
+  syncUserSettings() {
+    const { dispatch, uid } = this.props;
 
     dispatch({
       type: 'sync',
       meta: {
-        pathParts: ['categories'],
+        pathParts: ['user_settings'],
+        query: ['uid', '==', uid],
         nextAction: {
-          type: 'SET_CATEGORIES',
+          type: 'SET_USER_SETTINGS',
         },
       },
     });

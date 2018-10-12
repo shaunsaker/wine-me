@@ -138,4 +138,35 @@ exports[`DatabaseHandler methods should handle syncUserCheckIns 1`] = `
 }
 `;
 
+exports[`DatabaseHandler methods should handle syncUserSettings 1`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      Object {
+        "meta": Object {
+          "nextAction": Object {
+            "type": "SET_USER_SETTINGS",
+          },
+          "pathParts": Array [
+            "user_settings",
+          ],
+          "query": Array [
+            "uid",
+            "==",
+            undefined,
+          ],
+        },
+        "type": "sync",
+      },
+    ],
+  ],
+  "results": Array [
+    Object {
+      "isThrow": false,
+      "value": undefined,
+    },
+  ],
+}
+`;
+
 exports[`DatabaseHandler renders renders with minimum required props 1`] = `null`;
