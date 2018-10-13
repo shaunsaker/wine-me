@@ -21,6 +21,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Updated RNSC borrowed components testing patterns
 - Updated RemoteImage component method names
 
+### Removed
+
+- Removed react-native-simple-components dependency
+
 ## 1.2.0-9-6
 
 ### Fixed

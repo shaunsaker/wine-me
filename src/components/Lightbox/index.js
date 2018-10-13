@@ -2,13 +2,13 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Actions } from 'react-native-router-flux';
 import Animator from 'react-native-simple-animators';
-import { View, Text, BackHandler } from 'react-native';
-import { Touchable } from 'react-native-simple-components';
+import { View, Text } from 'react-native';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 
 import styleConstants from '../../styleConstants';
-
 import styles from './styles';
+
+import Touchable from '../Touchable';
 
 export default class Lightbox extends React.Component {
   constructor(props) {
