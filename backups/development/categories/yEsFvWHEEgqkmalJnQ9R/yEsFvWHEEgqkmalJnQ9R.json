@@ -5,11 +5,11 @@
   },
   "validation": {
     "value": {
-      "min": {
+      ">": {
         "value": 0,
         "type": "number"
       },
-      "type": {
+      "typeof": {
         "value": "number",
         "type": "string"
       }

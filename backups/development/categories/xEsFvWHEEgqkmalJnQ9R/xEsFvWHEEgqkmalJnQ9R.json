@@ -1,11 +1,7 @@
 {
-  "order": {
-    "value": 4,
-    "type": "number"
-  },
   "validation": {
     "value": {
-      "type": {
+      "typeof": {
         "value": "string",
         "type": "string"
       }
@@ -32,5 +28,9 @@
       }
     ],
     "type": "array"
+  },
+  "order": {
+    "value": 4,
+    "type": "number"
   }
 }

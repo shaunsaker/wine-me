@@ -1,17 +1,4 @@
 {
-  "order": {
-    "value": 3,
-    "type": "number"
-  },
-  "validation": {
-    "value": {
-      "type": {
-        "value": "string",
-        "type": "string"
-      }
-    },
-    "type": "object"
-  },
   "name": {
     "value": "Child Friendly",
     "type": "string"
@@ -32,5 +19,18 @@
       }
     ],
     "type": "array"
+  },
+  "order": {
+    "value": 3,
+    "type": "number"
+  },
+  "validation": {
+    "value": {
+      "typeof": {
+        "value": "string",
+        "type": "string"
+      }
+    },
+    "type": "object"
   }
 }
