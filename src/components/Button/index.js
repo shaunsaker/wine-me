@@ -38,7 +38,7 @@ const LargeButton = ({ text, primary, disabled, handlePress, testID, showLoader 
 
   return (
     <Touchable
-      handlePress={handlePress}
+      onPress={handlePress}
       disabled={disabled}
       style={[
         styles.container,
