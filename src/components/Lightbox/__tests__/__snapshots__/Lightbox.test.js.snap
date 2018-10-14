@@ -63,11 +63,14 @@ exports[`Lightbox renders renders disableClose state 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
+          numberOfLines={1}
           style={
             Object {
               "color": "#FFFFFF",
               "fontFamily": "Nunito-SemiBold",
               "fontSize": 17,
+              "marginLeft": 15,
+              "marginRight": 39.5,
             }
           }
         >
@@ -139,6 +142,23 @@ exports[`Lightbox renders renders with all props 1`] = `
           }
         }
       >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          numberOfLines={1}
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "fontFamily": "Nunito-SemiBold",
+              "fontSize": 17,
+              "marginLeft": 15,
+              "marginRight": 39.5,
+            }
+          }
+        >
+          Test
+        </Text>
         <View
           accessible={true}
           isTVSelectable={true}
@@ -184,20 +204,6 @@ exports[`Lightbox renders renders with all props 1`] = `
             
           </Text>
         </View>
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
-          style={
-            Object {
-              "color": "#FFFFFF",
-              "fontFamily": "Nunito-SemiBold",
-              "fontSize": 17,
-            }
-          }
-        >
-          Test
-        </Text>
       </View>
       <View />
     </View>
@@ -264,6 +270,21 @@ exports[`Lightbox renders renders with minimum required props 1`] = `
           }
         }
       >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          numberOfLines={1}
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "fontFamily": "Nunito-SemiBold",
+              "fontSize": 17,
+              "marginLeft": 15,
+              "marginRight": 39.5,
+            }
+          }
+        />
         <View
           accessible={true}
           isTVSelectable={true}
@@ -309,18 +330,6 @@ exports[`Lightbox renders renders with minimum required props 1`] = `
             
           </Text>
         </View>
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
-          style={
-            Object {
-              "color": "#FFFFFF",
-              "fontFamily": "Nunito-SemiBold",
-              "fontSize": 17,
-            }
-          }
-        />
       </View>
     </View>
   </View>

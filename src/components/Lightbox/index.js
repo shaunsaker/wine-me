@@ -74,9 +74,11 @@ export default class Lightbox extends React.Component {
         <View style={styles.container}>
           <View style={styles.card}>
             <View style={styles.headerContainer}>
-              {closeComponent}
+              <Text numberOfLines={1} style={styles.titleText}>
+                {title}
+              </Text>
 
-              <Text style={styles.titleText}>{title}</Text>
+              {closeComponent}
             </View>
             {children}
           </View>

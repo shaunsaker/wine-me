@@ -7,12 +7,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## 1.2.0-9-8
 
-## 1.2.0-9-7
+### Fixed
+
+- Fixed Lightbox component long title text
 
 ### Added
 
-- Added StatusBar component
-- Added styles for iPhoneX
 - Added StarRating component
 - Added TextInput component
 - Added Button component
@@ -20,15 +20,25 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Changed
 
-- Updated profile page blank state copy
-- Changed the styling of the "Opening Hours" section on the place page
-- Updated RNSC borrowed components testing patterns
-- Updated RemoteImage component method names
 - Changed Lightbox header backgroundColor
 
 ### Removed
 
 - Removed react-native-simple-components dependency
+
+## 1.2.0-9-7
+
+### Added
+
+- Added StatusBar component
+- Added styles for iPhoneX
+
+### Changed
+
+- Updated profile page blank state copy
+- Changed the styling of the "Opening Hours" section on the place page
+- Updated RNSC borrowed components testing patterns
+- Updated RemoteImage component method names
 
 ## 1.2.0-9-6
 

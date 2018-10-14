@@ -30,6 +30,8 @@ const styles = StyleSheet.create({
   titleText: {
     ...styleConstants.fonts.types.heading,
     color: styleConstants.colors.white,
+    marginLeft: styleConstants.dimensions.spacing.horizontal,
+    marginRight: 24.5 + styleConstants.dimensions.spacing.horizontal, // clear the closeX icon
   },
   iconContainer: {
     position: 'absolute',
