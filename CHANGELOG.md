@@ -15,6 +15,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Added styles for iPhoneX
 - Added StarRating component
 - Added TextInput component
+- Added Button component
+- Added Link component
 
 ### Changed
 

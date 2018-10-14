@@ -1,0 +1,415 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LargeButton renders renders a custom icon 1`] = `
+<View
+  accessible={true}
+  isTVSelectable={true}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#FFFFFF",
+      "borderColor": null,
+      "borderRadius": 5,
+      "borderWidth": 0,
+      "elevation": 2,
+      "opacity": 1,
+      "paddingHorizontal": 15,
+      "paddingVertical": 10,
+      "shadowColor": "#212121",
+      "shadowOffset": Object {
+        "height": 1,
+        "width": 0,
+      },
+      "shadowOpacity": 0.17,
+      "shadowRadius": 2,
+    }
+  }
+  testID="largeButton"
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "color": "#212121",
+          "fontFamily": "Nunito-SemiBold",
+          "fontSize": 17,
+        },
+        undefined,
+        undefined,
+      ]
+    }
+  >
+    Test
+  </Text>
+</View>
+`;
+
+exports[`LargeButton renders renders the blueText state 1`] = `
+<View
+  accessible={true}
+  isTVSelectable={true}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#FFFFFF",
+      "borderColor": null,
+      "borderRadius": 5,
+      "borderWidth": 0,
+      "elevation": 2,
+      "opacity": 1,
+      "paddingHorizontal": 15,
+      "paddingVertical": 10,
+      "shadowColor": "#212121",
+      "shadowOffset": Object {
+        "height": 1,
+        "width": 0,
+      },
+      "shadowOpacity": 0.17,
+      "shadowRadius": 2,
+    }
+  }
+  testID="largeButton"
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "color": "#212121",
+          "fontFamily": "Nunito-SemiBold",
+          "fontSize": 17,
+        },
+        undefined,
+        undefined,
+      ]
+    }
+  >
+    Test
+  </Text>
+</View>
+`;
+
+exports[`LargeButton renders renders the disabled state 1`] = `
+<View
+  accessible={true}
+  isTVSelectable={true}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#FFFFFF",
+      "borderColor": null,
+      "borderRadius": 5,
+      "borderWidth": 0,
+      "elevation": 2,
+      "opacity": 1,
+      "paddingHorizontal": 15,
+      "paddingVertical": 10,
+      "shadowColor": "#212121",
+      "shadowOffset": Object {
+        "height": 1,
+        "width": 0,
+      },
+      "shadowOpacity": 0.17,
+      "shadowRadius": 2,
+    }
+  }
+  testID="largeButton"
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "color": "#212121",
+          "fontFamily": "Nunito-SemiBold",
+          "fontSize": 17,
+        },
+        undefined,
+        Object {
+          "color": undefined,
+        },
+      ]
+    }
+  >
+    Test
+  </Text>
+</View>
+`;
+
+exports[`LargeButton renders renders the loading state 1`] = `
+<View
+  accessible={true}
+  isTVSelectable={true}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#FFFFFF",
+      "borderColor": null,
+      "borderRadius": 5,
+      "borderWidth": 0,
+      "elevation": 2,
+      "opacity": 1,
+      "paddingHorizontal": 15,
+      "paddingVertical": 10,
+      "shadowColor": "#212121",
+      "shadowOffset": Object {
+        "height": 1,
+        "width": 0,
+      },
+      "shadowOpacity": 0.17,
+      "shadowRadius": 2,
+    }
+  }
+  testID="largeButton"
+>
+  <ActivityIndicator
+    animating={true}
+    color="#212121"
+    hidesWhenStopped={true}
+    size="small"
+  />
+</View>
+`;
+
+exports[`LargeButton renders renders the primary state 1`] = `
+<View
+  accessible={true}
+  isTVSelectable={true}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#E23E57",
+      "borderColor": null,
+      "borderRadius": 5,
+      "borderWidth": 0,
+      "elevation": 2,
+      "opacity": 1,
+      "paddingHorizontal": 15,
+      "paddingVertical": 10,
+      "shadowColor": "#212121",
+      "shadowOffset": Object {
+        "height": 1,
+        "width": 0,
+      },
+      "shadowOpacity": 0.17,
+      "shadowRadius": 2,
+    }
+  }
+  testID="largeButton"
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "color": "#212121",
+          "fontFamily": "Nunito-SemiBold",
+          "fontSize": 17,
+        },
+        Object {
+          "color": "#FFFFFF",
+        },
+        undefined,
+      ]
+    }
+  >
+    Test
+  </Text>
+</View>
+`;
+
+exports[`LargeButton renders renders the secondary state 1`] = `
+<View
+  accessible={true}
+  isTVSelectable={true}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#FFFFFF",
+      "borderColor": null,
+      "borderRadius": 5,
+      "borderWidth": 0,
+      "elevation": 2,
+      "opacity": 1,
+      "paddingHorizontal": 15,
+      "paddingVertical": 10,
+      "shadowColor": "#212121",
+      "shadowOffset": Object {
+        "height": 1,
+        "width": 0,
+      },
+      "shadowOpacity": 0.17,
+      "shadowRadius": 2,
+    }
+  }
+  testID="largeButton"
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "color": "#212121",
+          "fontFamily": "Nunito-SemiBold",
+          "fontSize": 17,
+        },
+        undefined,
+        undefined,
+      ]
+    }
+  >
+    Test
+  </Text>
+</View>
+`;
+
+exports[`LargeButton renders renders the warning state 1`] = `
+<View
+  accessible={true}
+  isTVSelectable={true}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#FFFFFF",
+      "borderColor": null,
+      "borderRadius": 5,
+      "borderWidth": 0,
+      "elevation": 2,
+      "opacity": 1,
+      "paddingHorizontal": 15,
+      "paddingVertical": 10,
+      "shadowColor": "#212121",
+      "shadowOffset": Object {
+        "height": 1,
+        "width": 0,
+      },
+      "shadowOpacity": 0.17,
+      "shadowRadius": 2,
+    }
+  }
+  testID="largeButton"
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "color": "#212121",
+          "fontFamily": "Nunito-SemiBold",
+          "fontSize": 17,
+        },
+        undefined,
+        undefined,
+      ]
+    }
+  >
+    Test
+  </Text>
+</View>
+`;
+
+exports[`LargeButton renders renders with minimum required props 1`] = `
+<View
+  accessible={true}
+  isTVSelectable={true}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#FFFFFF",
+      "borderColor": null,
+      "borderRadius": 5,
+      "borderWidth": 0,
+      "elevation": 2,
+      "opacity": 1,
+      "paddingHorizontal": 15,
+      "paddingVertical": 10,
+      "shadowColor": "#212121",
+      "shadowOffset": Object {
+        "height": 1,
+        "width": 0,
+      },
+      "shadowOpacity": 0.17,
+      "shadowRadius": 2,
+    }
+  }
+  testID="largeButton"
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "color": "#212121",
+          "fontFamily": "Nunito-SemiBold",
+          "fontSize": 17,
+        },
+        undefined,
+        undefined,
+      ]
+    }
+  />
+</View>
+`;
