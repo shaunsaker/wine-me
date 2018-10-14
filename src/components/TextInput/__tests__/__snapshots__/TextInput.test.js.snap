@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextInput renders renders with all props 1`] = `
+<TextInput
+  allowFontScaling={true}
+  keyboardType="email-address"
+  multiline={true}
+  onChangeText={[MockFunction]}
+  onSubmitEditing={[MockFunction]}
+  placeholder="Test"
+  returnKeyType="done"
+  secureTextEntry={true}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#FFFFFF",
+        "borderColor": "#E0E0E0",
+        "borderRadius": 5,
+        "borderWidth": 1,
+        "color": "#211E1C",
+        "fontSize": 18,
+        "marginBottom": 5,
+        "padding": 15,
+        "textAlign": "center",
+        "textAlignVertical": "center",
+      },
+      Object {
+        "backgroundColor": "rgba(255, 0, 0, 0.2)",
+        "borderColor": "rgba(255, 0, 0, 0.5)",
+        "color": "#d32f2f",
+      },
+      Object {},
+      undefined,
+    ]
+  }
+  testID="test"
+  underlineColorAndroid="transparent"
+  value="Foo"
+/>
+`;
+
+exports[`TextInput renders renders with minimum required props 1`] = `
+<TextInput
+  allowFontScaling={true}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#FFFFFF",
+        "borderColor": "#E0E0E0",
+        "borderRadius": 5,
+        "borderWidth": 1,
+        "color": "#211E1C",
+        "fontSize": 18,
+        "marginBottom": 5,
+        "padding": 15,
+        "textAlign": "center",
+        "textAlignVertical": "center",
+      },
+      undefined,
+      undefined,
+      undefined,
+    ]
+  }
+  underlineColorAndroid="transparent"
+/>
+`;

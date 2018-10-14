@@ -14,6 +14,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Added StatusBar component
 - Added styles for iPhoneX
 - Added StarRating component
+- Added TextInput component
 
 ### Changed
 
