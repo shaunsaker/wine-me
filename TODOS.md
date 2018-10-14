@@ -95,10 +95,11 @@
   }
   ```
 
-- Show ratings on PlaceCards
-- Search by categories (Child Friendly, Serves Food) - if is_filterable
-- Show the datestamp of when you last visited a place
+- Use firebase functions to append these categories, price info, rating info to places
+- Show ratings on PlaceCards (if any)
 - Display average price on Place page
+- Search by categories (Child Friendly, Serves Food)
+- Show the datestamp of when you last visited a place
 
 ## BUGS
 
@@ -113,6 +114,7 @@
 
 ### CODE OPTIMISATIONS
 
+- SearchAreaLabelList should have SearchAreaLabel in folder
 - CI
 
 ## FEATURE REQUESTS

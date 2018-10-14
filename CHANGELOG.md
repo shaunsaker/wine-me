@@ -13,6 +13,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 - Added StatusBar component
 - Added styles for iPhoneX
+- Added StarRating component
 
 ### Changed
 
@@ -20,6 +21,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Changed the styling of the "Opening Hours" section on the place page
 - Updated RNSC borrowed components testing patterns
 - Updated RemoteImage component method names
+- Changed Lightbox header backgroundColor
 
 ### Removed
 

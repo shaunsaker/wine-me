@@ -50,49 +50,12 @@ exports[`Error renders renders with minimum required props 1`] = `
       }
     />
   </View>
-  <View
-    style={
-      Array [
-        Object {
-          "alignSelf": "stretch",
-        },
-        undefined,
-      ]
-    }
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
   >
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
-      style={
-        Array [
-          Object {
-            "color": "#212121",
-            "fontSize": 24,
-            "marginBottom": 8,
-          },
-          undefined,
-        ]
-      }
-    >
-      Error
-    </Text>
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
-      style={
-        Array [
-          Object {
-            "color": "#757575",
-            "fontSize": 17,
-          },
-          undefined,
-        ]
-      }
-    >
-      Something went wrong.
-    </Text>
-  </View>
+    Something went wrong.
+  </Text>
 </View>
 `;
