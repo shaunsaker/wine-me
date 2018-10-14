@@ -2,11 +2,10 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { TextInput } from 'react-native';
 
+import styleConstants from '../../styleConstants';
 import styles from './styles';
 
 /*
-  This component's responsibility is to render a custom TextInput.
-
   NOTE: This needs to be a functional component so that we can pass a ref prop
 */
 export default class TextInputComponent extends React.Component {
@@ -54,6 +53,7 @@ export default class TextInputComponent extends React.Component {
     return (
       <TextInput
         placeholder={placeholder}
+        placeholderTextColor={styleConstants.colors.secondaryText}
         value={value}
         onChangeText={handleChange}
         style={[styles.input, hasError && styles.error, hasSuccess && styles.success, style]}

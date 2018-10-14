@@ -6,15 +6,14 @@ import styleConstants from '../../styleConstants';
 
 const styles = StyleSheet.create({
   input: {
+    ...styleConstants.fonts.types.paragraph,
     backgroundColor: styleConstants.colors.white,
-    fontSize: styleConstants.fonts.sizes.regular,
-    color: styleConstants.colors.primary,
-    marginBottom: 5, // @WADE: rather let the parents control this components layout and give the parent the marginBottom
     textAlign: 'center',
     borderWidth: 1,
     borderColor: styleConstants.colors.dividerColor,
-    borderRadius: 5,
-    padding: 15,
+    borderRadius: styleConstants.dimensions.borderRadius,
+    paddingVertical: styleConstants.dimensions.spacing.vertical,
+    paddingHorizontal: styleConstants.dimensions.spacing.horizontal,
     textAlignVertical: 'center',
   },
   error: {

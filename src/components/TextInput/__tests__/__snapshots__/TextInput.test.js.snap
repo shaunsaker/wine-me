@@ -8,6 +8,7 @@ exports[`TextInput renders renders with all props 1`] = `
   onChangeText={[MockFunction]}
   onSubmitEditing={[MockFunction]}
   placeholder="Test"
+  placeholderTextColor="#757575"
   returnKeyType="done"
   secureTextEntry={true}
   style={
@@ -17,10 +18,11 @@ exports[`TextInput renders renders with all props 1`] = `
         "borderColor": "#E0E0E0",
         "borderRadius": 5,
         "borderWidth": 1,
-        "color": "#211E1C",
-        "fontSize": 18,
-        "marginBottom": 5,
-        "padding": 15,
+        "color": "#212121",
+        "fontFamily": "Nunito-Regular",
+        "fontSize": 17,
+        "paddingHorizontal": 15,
+        "paddingVertical": 10,
         "textAlign": "center",
         "textAlignVertical": "center",
       },
@@ -42,6 +44,7 @@ exports[`TextInput renders renders with all props 1`] = `
 exports[`TextInput renders renders with minimum required props 1`] = `
 <TextInput
   allowFontScaling={true}
+  placeholderTextColor="#757575"
   style={
     Array [
       Object {
@@ -49,10 +52,11 @@ exports[`TextInput renders renders with minimum required props 1`] = `
         "borderColor": "#E0E0E0",
         "borderRadius": 5,
         "borderWidth": 1,
-        "color": "#211E1C",
-        "fontSize": 18,
-        "marginBottom": 5,
-        "padding": 15,
+        "color": "#212121",
+        "fontFamily": "Nunito-Regular",
+        "fontSize": 17,
+        "paddingHorizontal": 15,
+        "paddingVertical": 10,
         "textAlign": "center",
         "textAlignVertical": "center",
       },
