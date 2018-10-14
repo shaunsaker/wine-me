@@ -48,7 +48,8 @@
       {
         "requireStringLiterals": false
       }
-    ]
+    ],
+    "use-isnan": "off"
   },
   "plugins": ["react", "react-native", "detox"],
   "globals": {
