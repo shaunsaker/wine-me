@@ -1,4 +1,25 @@
 {
+  "order": {
+    "value": 1,
+    "type": "number"
+  },
+  "validation": {
+    "value": {
+      "min": {
+        "value": 1,
+        "type": "number"
+      },
+      "type": {
+        "value": "number",
+        "type": "string"
+      },
+      "max": {
+        "value": 5,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
   "name": {
     "value": "Rating",
     "type": "string"
@@ -6,26 +27,5 @@
   "question_text": {
     "value": "How was your experience?",
     "type": "string"
-  },
-  "order": {
-    "value": 1,
-    "type": "number"
-  },
-  "validation": {
-    "value": {
-      "typeof": {
-        "value": "number",
-        "type": "string"
-      },
-      "<=": {
-        "value": 5,
-        "type": "number"
-      },
-      ">": {
-        "value": 0,
-        "type": "number"
-      }
-    },
-    "type": "object"
   }
 }

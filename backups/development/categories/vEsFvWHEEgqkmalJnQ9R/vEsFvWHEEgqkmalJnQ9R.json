@@ -5,7 +5,7 @@
   },
   "validation": {
     "value": {
-      "typeof": {
+      "type": {
         "value": "string",
         "type": "string"
       }
