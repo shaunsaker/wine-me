@@ -41,7 +41,8 @@
     "import/named": "off",
     "implicit-arrow-linebreak": "off",
     "operator-linebreak": "off",
-    "max-len": "off"
+    "max-len": "off",
+    "jsx-a11y/anchor-is-valid": "off"
   },
   "plugins": ["react", "react-native", "detox"],
   "globals": {
