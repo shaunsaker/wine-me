@@ -14,15 +14,16 @@ const styles = StyleSheet.create({
   primaryContainer: {
     backgroundColor: styleConstants.colors.accent,
   },
+  disabledContainer: {
+    opacity: 0.33,
+  },
   text: {
     ...styleConstants.fonts.types.heading,
   },
   primaryText: {
     color: styleConstants.colors.white,
   },
-  disabledText: {
-    color: styleConstants.colors.disabledText,
-  },
+  disabledText: {},
 });
 
 export default styles;
