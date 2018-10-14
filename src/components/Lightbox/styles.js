@@ -16,19 +16,20 @@ const styles = StyleSheet.create({
   card: {
     alignSelf: 'stretch',
     maxWidth: 680,
-    backgroundColor: styleConstants.colors.dividerColor,
+    backgroundColor: styleConstants.colors.white,
     borderRadius: styleConstants.dimensions.borderRadius,
     overflow: 'hidden',
   },
   headerContainer: {
     paddingVertical: styleConstants.dimensions.spacing.vertical,
-    backgroundColor: styleConstants.colors.white,
+    backgroundColor: styleConstants.colors.primary,
     ...styleConstants.shadows.small,
     justifyContent: 'center',
     alignItems: 'center',
   },
   titleText: {
     ...styleConstants.fonts.types.heading,
+    color: styleConstants.colors.white,
   },
   iconContainer: {
     position: 'absolute',
@@ -37,7 +38,7 @@ const styles = StyleSheet.create({
   },
   icon: {
     fontSize: styleConstants.fonts.sizes.icon,
-    color: styleConstants.colors.primaryText,
+    color: styleConstants.colors.white,
   },
 });
 

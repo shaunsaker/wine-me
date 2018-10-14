@@ -6,17 +6,12 @@ const ICON_SIZE = 20;
 
 const styles = StyleSheet.create({
   container: {
-    alignSelf: 'stretch',
+    alignSelf: 'center',
     flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: styleConstants.colors.white,
-    paddingVertical: styleConstants.dimensions.spacing.vertical / 2,
-    paddingHorizontal: styleConstants.dimensions.spacing.horizontal / 2,
-    borderRadius: styleConstants.dimensions.borderRadius,
   },
   text: {
-    flex: 1,
     textAlign: 'center',
     ...styleConstants.fonts.types.small,
     marginRight: ICON_SIZE + styleConstants.dimensions.spacing.horizontal / 2, // equal icon margin
