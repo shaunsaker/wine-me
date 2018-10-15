@@ -2,7 +2,6 @@
 
 - PlaceQuestions:
 
-  - Rate wine, setting and service
   - Unit tests
 
 - Use firebase functions to append these categories, price info, rating info to places

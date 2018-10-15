@@ -28,7 +28,7 @@
     "value": "How would you rate the service?",
     "type": "string"
   },
-  "isRating": {
+  "is_rating": {
     "value": true,
     "type": "boolean"
   }

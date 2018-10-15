@@ -28,7 +28,7 @@
     "value": "How was your experience?",
     "type": "string"
   },
-  "isRating": {
+  "is_rating": {
     "value": true,
     "type": "boolean"
   }

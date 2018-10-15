@@ -24,7 +24,7 @@ const defaultProps = {};
 
 const PlaceQuestion = ({ category, value, handleSetValue }) => {
   /*
-    If category.name === 'Rating'
+    If category.is_rating
       Display StarRating
     Else if options
       Display two buttons
@@ -34,7 +34,7 @@ const PlaceQuestion = ({ category, value, handleSetValue }) => {
 
   let inputComponent;
 
-  if (category.name === 'Rating') {
+  if (category.is_rating) {
     inputComponent = (
       <View style={styles.starRatingContainer}>
         <StarRating rating={value} handlePress={handleSetValue} />
