@@ -2,8 +2,6 @@
 
 - PlaceQuestions:
 
-  - Dismiss keyboard if next slide
-  - Thanks for feedback message (via system message)
   - Rate wine, setting and service
   - Unit tests
 

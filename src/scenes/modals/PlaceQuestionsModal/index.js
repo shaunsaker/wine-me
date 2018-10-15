@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-import { View, Text } from 'react-native';
+import { View, Text, Keyboard } from 'react-native';
 
 import utils from '../../../utils';
 import styles from './styles';
@@ -21,7 +21,9 @@ export class PlaceQuestionsModal extends React.Component {
     this.onSubmit = this.onSubmit.bind(this);
     this.onSkip = this.onSkip.bind(this);
     this.saveUserFeedback = this.saveUserFeedback.bind(this);
+    this.dismissKeyboard = this.dismissKeyboard.bind(this);
     this.setSlideIndex = this.setSlideIndex.bind(this);
+    this.setSystemMessage = this.setSystemMessage.bind(this);
     this.navigate = this.navigate.bind(this);
 
     this.state = {
@@ -88,9 +90,11 @@ export class PlaceQuestionsModal extends React.Component {
     const { categories } = this.props;
     const isLastSlide = slideIndex === Object.keys(categories).length - 1;
 
+    this.dismissKeyboard();
     this.saveUserFeedback();
 
     if (isLastSlide) {
+      this.setSystemMessage('Thanks for the feedback.');
       this.navigate(); // pop the scene
     } else {
       const nextSlideIndex = slideIndex + 1;
@@ -142,9 +146,24 @@ export class PlaceQuestionsModal extends React.Component {
     });
   }
 
+  dismissKeyboard() {
+    Keyboard.dismiss();
+  }
+
   setSlideIndex(slideIndex) {
     this.setState({
       slideIndex,
+    });
+  }
+
+  setSystemMessage(message) {
+    const { dispatch } = this.props;
+
+    dispatch({
+      type: 'SET_SYSTEM_MESSAGE',
+      payload: {
+        message,
+      },
     });
   }
 
