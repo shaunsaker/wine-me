@@ -59,6 +59,23 @@ exports[`InfoModal renders renders with minimum required props 1`] = `
           }
         }
       >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          numberOfLines={1}
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "fontFamily": "Nunito-SemiBold",
+              "fontSize": 17,
+              "marginLeft": 15,
+              "marginRight": 39.5,
+            }
+          }
+        >
+          Info
+        </Text>
         <View
           accessible={true}
           isTVSelectable={true}
@@ -104,20 +121,6 @@ exports[`InfoModal renders renders with minimum required props 1`] = `
             
           </Text>
         </View>
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
-          style={
-            Object {
-              "color": "#FFFFFF",
-              "fontFamily": "Nunito-SemiBold",
-              "fontSize": 17,
-            }
-          }
-        >
-          Info
-        </Text>
       </View>
       <View
         style={
