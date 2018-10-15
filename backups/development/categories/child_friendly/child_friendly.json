@@ -1,6 +1,6 @@
 {
   "order": {
-    "value": 5,
+    "value": 6,
     "type": "number"
   },
   "validation": {
@@ -13,11 +13,11 @@
     "type": "object"
   },
   "name": {
-    "value": "Accessible",
+    "value": "Child Friendly",
     "type": "string"
   },
   "question_text": {
-    "value": "Was it wheelchair accessible?",
+    "value": "Was it child friendly?",
     "type": "string"
   },
   "options": {

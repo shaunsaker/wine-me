@@ -1,6 +1,6 @@
 {
   "order": {
-    "value": 1,
+    "value": 3,
     "type": "number"
   },
   "validation": {
@@ -21,11 +21,15 @@
     "type": "object"
   },
   "name": {
-    "value": "Rating",
+    "value": "Service",
     "type": "string"
   },
   "question_text": {
-    "value": "How was your experience?",
+    "value": "How would you rate the service?",
     "type": "string"
+  },
+  "isRating": {
+    "value": true,
+    "type": "boolean"
   }
 }

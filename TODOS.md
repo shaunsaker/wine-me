@@ -13,7 +13,7 @@
 
 ## BUGS
 
-- Refactor store so that we can delete places, check ins etc (update RNBP)
+- AppData reducers don't allow for deleting object properties
 
 ### DIFFUCULT TO REPRODUCE/SOLVE
 
