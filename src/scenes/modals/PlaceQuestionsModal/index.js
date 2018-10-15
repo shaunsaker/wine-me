@@ -1,36 +1,217 @@
 import React from 'react';
-
+import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-import { View } from 'react-native';
+import { View, Text } from 'react-native';
 
+import utils from '../../../utils';
 import styles from './styles';
 
 import Lightbox from '../../../components/Lightbox';
+import PlaceQuestionsList from '../../../components/PlaceQuestionsList';
+import Button from '../../../components/Button';
+import Link from '../../../components/Link';
 
-export class InfoModal extends React.Component {
+export class PlaceQuestionsModal extends React.Component {
   constructor(props) {
     super(props);
 
-    this.state = {};
+    this.onSetValue = this.onSetValue.bind(this);
+    this.validateValue = this.validateValue.bind(this);
+    this.setValue = this.setValue.bind(this);
+    this.onSubmit = this.onSubmit.bind(this);
+    this.onSkip = this.onSkip.bind(this);
+    this.saveUserFeedback = this.saveUserFeedback.bind(this);
+    this.setSlideIndex = this.setSlideIndex.bind(this);
+    this.navigate = this.navigate.bind(this);
+
+    this.state = {
+      slideIndex: 0, // start at 0 duh
+    };
   }
 
-  static propTypes = {};
+  static propTypes = {
+    place: PropTypes.shape({ name: PropTypes.string }).isRequired, // passed by Place page
+    categories: PropTypes.shape({}),
+    uid: PropTypes.string,
+    dispatch: PropTypes.func,
+  };
 
   static defaultProps = {};
 
+  onSetValue(categoryID, value) {
+    const { categories } = this.props;
+    const rules = categories[categoryID].validation;
+    const isValidValue = this.validateValue(value, rules);
+
+    if (isValidValue) {
+      this.setValue(categoryID, value);
+    }
+  }
+
+  validateValue(value, rules) {
+    // Attempt to invalidate the value based on each of the rules given (type, min and max)
+    if (value === NaN) {
+      // Immediately return false if the value is not a number when it should have been
+
+      return false;
+    }
+
+    if (rules.type && typeof value !== rules.type) {
+      return false;
+    }
+
+    if ((rules.min || rules.min === 0) && !(value >= rules.min)) {
+      return false;
+    }
+
+    if ((rules.max || rules.max === 0) && !(value <= rules.max)) {
+      return false;
+    }
+
+    return true;
+  }
+
+  setValue(categoryID, value) {
+    // Will set the value of the categoryName on state
+    // ie. this.state = { rating : 3 };
+    const { state } = this;
+    const { categories } = this.props;
+    const categoryName = categories[categoryID].name;
+
+    state[categoryName] = value;
+
+    this.setState(state);
+  }
+
+  onSubmit() {
+    const { slideIndex } = this.state;
+    const { categories } = this.props;
+    const isLastSlide = slideIndex === Object.keys(categories).length - 1;
+
+    this.saveUserFeedback();
+
+    if (isLastSlide) {
+      this.navigate(); // pop the scene
+    } else {
+      const nextSlideIndex = slideIndex + 1;
+
+      this.setSlideIndex(nextSlideIndex);
+    }
+  }
+
+  onSkip() {
+    // Go to the next slide
+    const { slideIndex } = this.state;
+    const nextSlideIndex = slideIndex + 1;
+
+    this.setSlideIndex(nextSlideIndex);
+  }
+
+  saveUserFeedback() {
+    // Save the user feedback for the current slide index
+    const { state } = this;
+    const { slideIndex } = state;
+    const { dispatch, uid, place, categories } = this.props;
+
+    // Get the relevant category name from the slideIndex
+    // Convert categories object to array
+    // Sort by order field
+    const categoriesArray = utils.arrays.sortArrayOfObjectsByKey(
+      utils.objects.convertObjectToArray(categories),
+      'order',
+    );
+    const categoryName = categoriesArray[slideIndex].name;
+
+    const value = state[categoryName];
+    const document = {
+      category_name: categoryName,
+      value,
+      uid,
+      place_id: place.id,
+      date: Date.now(),
+    };
+
+    dispatch({
+      type: 'addDocument',
+      meta: {
+        pathParts: ['user_feedback'],
+      },
+      payload: {
+        document,
+      },
+    });
+  }
+
+  setSlideIndex(slideIndex) {
+    this.setState({
+      slideIndex,
+    });
+  }
+
+  navigate(page, props) {
+    utils.app.navigate(page, props);
+  }
+
   render() {
+    const { state } = this;
+    const { slideIndex } = state;
+    const { place, categories } = this.props;
+
+    // Convert categories object into array
+    // Sort the array by order
+    // Add value from state (if any)
+    const categoriesArray = utils.arrays
+      .sortArrayOfObjectsByKey(utils.objects.convertObjectToArray(categories), 'order')
+      .map((item) => {
+        return {
+          ...item,
+          value: state[item.name],
+        };
+      });
+
+    // Only the last slide should say Submit
+    const isLastSlide = slideIndex === categoriesArray.length - 1;
+    const submitButtonText = isLastSlide ? 'Submit' : 'Next';
+
+    // Is there a value in state for the current slide's category name
+    const isSubmitButtonDisabled = !state[categoriesArray[slideIndex].name];
+
+    const skipButtonComponent = !isLastSlide && <Link handlePress={this.onSkip} text="Skip" />;
+
     return (
-      <Lightbox>
+      <Lightbox title={place.name}>
         <View style={styles.container}>
-          <View />
+          <PlaceQuestionsList
+            data={categoriesArray}
+            handleSetValue={this.onSetValue}
+            slideIndex={slideIndex}
+          />
+
+          <View style={styles.submitButtonContainer}>
+            <Button
+              primary
+              text={submitButtonText}
+              handlePress={this.onSubmit}
+              disabled={isSubmitButtonDisabled}
+            />
+          </View>
+
+          <View style={styles.footerContainer}>
+            <Text style={styles.countText}>{`${slideIndex + 1} / ${categoriesArray.length}`}</Text>
+
+            {skipButtonComponent}
+          </View>
         </View>
       </Lightbox>
     );
   }
 }
 
-function mapStateToProps() {
-  return {};
+function mapStateToProps(state) {
+  return {
+    categories: state.appData.categories,
+    uid: state.user.uid,
+  };
 }
 
-export default connect(mapStateToProps)(InfoModal);
+export default connect(mapStateToProps)(PlaceQuestionsModal);
