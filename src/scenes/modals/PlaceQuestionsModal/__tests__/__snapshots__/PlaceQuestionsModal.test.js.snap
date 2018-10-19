@@ -208,6 +208,17 @@ exports[`PlaceQuestionsModal renders renders with minimum required props 1`] = `
                 },
                 "value": undefined,
               },
+              Object {
+                "id": "price",
+                "name": "Price",
+                "order": 3,
+                "question_text": "What did the wine tasting cost?",
+                "validation": Object {
+                  "min": 0,
+                  "type": "number",
+                },
+                "value": undefined,
+              },
             ]
           }
           handleSetValue={[Function]}
@@ -297,7 +308,7 @@ exports[`PlaceQuestionsModal renders renders with minimum required props 1`] = `
               }
             }
           >
-            1 / 2
+            1 / 3
           </Text>
           <View
             accessible={true}

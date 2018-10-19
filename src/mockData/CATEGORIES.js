@@ -19,6 +19,15 @@ const CATEGORIES = {
     question_text: 'Was it child friendly?',
     options: ['Yes', 'No'],
   },
+  price: {
+    order: 3,
+    validation: {
+      type: 'number',
+      min: 0,
+    },
+    name: 'Price',
+    question_text: 'What did the wine tasting cost?',
+  },
 };
 
 export default CATEGORIES;
