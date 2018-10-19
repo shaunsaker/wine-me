@@ -16,6 +16,8 @@ export default class PlaceQuestionsList extends React.Component {
 
     this.slideWidth =
       styleConstants.dimensions.window.width - styleConstants.dimensions.spacing.horizontal * 4;
+
+    this.state = {};
   }
 
   static propTypes = {
@@ -68,6 +70,13 @@ export default class PlaceQuestionsList extends React.Component {
         horizontal
         pagingEnabled
         scrollEnabled={false} // we manually control the scrolling
+        getItemLayout={(items, index) => {
+          return {
+            length: this.slideWidth,
+            offset: this.slideWidth * index,
+            index,
+          };
+        }}
       />
     );
   }

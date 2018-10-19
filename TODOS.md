@@ -1,17 +1,14 @@
 # TODOS
 
-- PlaceQuestions:
-
-  - Unit tests
-
-- Show the datestamp of when you last visited a place
-
-## BUGS
-
-- AppData reducers don't allow for deleting object properties
+- Change environment
+- Merge into master
+- Release tag
+- Release code push update
 
 ## NEXT RELEASE
 
+- AppData reducers don't allow for deleting object properties
+- Show the datestamp of when you last visited a place
 - Use firebase functions to add user_feedback to places
 - Show ratings on PlaceCards (if any)
 - Display average price on Place page
