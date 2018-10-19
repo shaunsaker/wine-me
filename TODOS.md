@@ -1,10 +1,5 @@
 # TODOS
 
-- Change environment
-- Merge into master
-- Release tag
-- Release code push update
-
 ## NEXT RELEASE
 
 - AppData reducers don't allow for deleting object properties
