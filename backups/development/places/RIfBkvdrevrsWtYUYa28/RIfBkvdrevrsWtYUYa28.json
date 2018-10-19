@@ -1,4 +1,16 @@
 {
+  "website": {
+    "value": "http://www.laborieestate.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Taillefer & Main Road, Southern Paarl, Paarl, 7646, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 807 3095",
+    "type": "string"
+  },
   "name": {
     "value": "Laborie Estate",
     "type": "string"
@@ -93,17 +105,5 @@
       }
     ],
     "type": "array"
-  },
-  "website": {
-    "value": "http://www.laborieestate.co.za/",
-    "type": "string"
-  },
-  "address": {
-    "value": "Taillefer & Main Road, Southern Paarl, Paarl, 7646, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 807 3095",
-    "type": "string"
   }
 }

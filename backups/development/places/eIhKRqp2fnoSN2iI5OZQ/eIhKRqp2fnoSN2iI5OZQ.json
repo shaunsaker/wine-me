@@ -1,8 +1,4 @@
 {
-  "name": {
-    "value": "Mitre's Edge Boutique Winery",
-    "type": "string"
-  },
   "openingHours": {
     "value": [
       {
@@ -38,12 +34,12 @@
   },
   "location": {
     "value": {
-      "lng": {
-        "value": 18.876009,
-        "type": "number"
-      },
       "lat": {
         "value": -33.829866,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.876009,
         "type": "number"
       }
     },
@@ -104,6 +100,10 @@
   },
   "phoneNumber": {
     "value": "021 875 5960",
+    "type": "string"
+  },
+  "name": {
+    "value": "Mitre's Edge Boutique Winery",
     "type": "string"
   }
 }

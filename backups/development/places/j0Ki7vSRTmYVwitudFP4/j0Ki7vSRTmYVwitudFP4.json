@@ -1,4 +1,8 @@
 {
+  "name": {
+    "value": "Lismore Estate Vineyards",
+    "type": "string"
+  },
   "location": {
     "value": {
       "lat": {
@@ -31,10 +35,6 @@
   },
   "phoneNumber": {
     "value": "072 101 5495",
-    "type": "string"
-  },
-  "name": {
-    "value": "Lismore Estate Vineyards",
     "type": "string"
   }
 }

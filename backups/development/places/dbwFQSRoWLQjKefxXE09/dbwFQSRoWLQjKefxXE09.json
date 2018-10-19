@@ -1,20 +1,4 @@
 {
-  "website": {
-    "value": "http://www.bellevue.co.za/",
-    "type": "string"
-  },
-  "address": {
-    "value": "Bottelary Road, Koelenhof, Stellenbosch, 7605, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 865 2054",
-    "type": "string"
-  },
-  "name": {
-    "value": "Bellevue Wine Estate",
-    "type": "string"
-  },
   "openingHours": {
     "value": [
       {
@@ -105,5 +89,21 @@
       }
     ],
     "type": "array"
+  },
+  "website": {
+    "value": "http://www.bellevue.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Bottelary Road, Koelenhof, Stellenbosch, 7605, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 865 2054",
+    "type": "string"
+  },
+  "name": {
+    "value": "Bellevue Wine Estate",
+    "type": "string"
   }
 }

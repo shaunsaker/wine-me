@@ -1,20 +1,4 @@
 {
-  "website": {
-    "value": "http://www.laibachwines.com/",
-    "type": "string"
-  },
-  "address": {
-    "value": "R44, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 884 4511",
-    "type": "string"
-  },
-  "name": {
-    "value": "Laibach Vineyards (Pty) Ltd",
-    "type": "string"
-  },
   "openingHours": {
     "value": [
       {
@@ -105,5 +89,21 @@
       }
     ],
     "type": "array"
+  },
+  "website": {
+    "value": "http://www.laibachwines.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "R44, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 884 4511",
+    "type": "string"
+  },
+  "name": {
+    "value": "Laibach Vineyards (Pty) Ltd",
+    "type": "string"
   }
 }

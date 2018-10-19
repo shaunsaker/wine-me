@@ -1,4 +1,8 @@
 {
+  "name": {
+    "value": "Cape Point Vineyards",
+    "type": "string"
+  },
   "openingHours": {
     "value": [
       {
@@ -100,10 +104,6 @@
   },
   "phoneNumber": {
     "value": "021 789 0900",
-    "type": "string"
-  },
-  "name": {
-    "value": "Cape Point Vineyards",
     "type": "string"
   }
 }

@@ -1,4 +1,16 @@
 {
+  "website": {
+    "value": "http://www.stark-conde.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Oude Nektar Farm, Stellenbosch, 7600, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 861 7700",
+    "type": "string"
+  },
   "name": {
     "value": "Stark-Conde Wines",
     "type": "string"
@@ -93,17 +105,5 @@
       }
     ],
     "type": "array"
-  },
-  "website": {
-    "value": "http://www.stark-conde.co.za/",
-    "type": "string"
-  },
-  "address": {
-    "value": "Oude Nektar Farm, Stellenbosch, 7600, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 861 7700",
-    "type": "string"
   }
 }

@@ -1,8 +1,4 @@
 {
-  "name": {
-    "value": "Pearl Mountain Wine Farm",
-    "type": "string"
-  },
   "openingHours": {
     "value": [
       {
@@ -104,6 +100,10 @@
   },
   "phoneNumber": {
     "value": "021 870 1550",
+    "type": "string"
+  },
+  "name": {
+    "value": "Pearl Mountain Wine Farm",
     "type": "string"
   }
 }

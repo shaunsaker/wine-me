@@ -1,20 +1,4 @@
 {
-  "website": {
-    "value": "http://www.signalgun.com/",
-    "type": "string"
-  },
-  "address": {
-    "value": "Hooggelegen Rd, Durbanville, Cape Town, 7551, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 976 7343",
-    "type": "string"
-  },
-  "name": {
-    "value": "Signal Gun Wines",
-    "type": "string"
-  },
   "openingHours": {
     "value": [
       {
@@ -105,5 +89,21 @@
       }
     ],
     "type": "array"
+  },
+  "website": {
+    "value": "http://www.signalgun.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Hooggelegen Rd, Durbanville, Cape Town, 7551, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 976 7343",
+    "type": "string"
+  },
+  "name": {
+    "value": "Signal Gun Wines",
+    "type": "string"
   }
 }

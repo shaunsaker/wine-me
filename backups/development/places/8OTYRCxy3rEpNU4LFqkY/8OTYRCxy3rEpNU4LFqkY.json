@@ -1,8 +1,4 @@
 {
-  "name": {
-    "value": "Marianne Wine Farm",
-    "type": "string"
-  },
   "phoneNumber": {
     "value": "021 875 5040",
     "type": "string"
@@ -36,5 +32,9 @@
       }
     ],
     "type": "array"
+  },
+  "name": {
+    "value": "Marianne Wine Farm",
+    "type": "string"
   }
 }

@@ -1,8 +1,4 @@
 {
-  "name": {
-    "value": "Seven Sisters Vineyards",
-    "type": "string"
-  },
   "openingHours": {
     "value": [
       {
@@ -104,6 +100,10 @@
   },
   "phoneNumber": {
     "value": "071 049 4109",
+    "type": "string"
+  },
+  "name": {
+    "value": "Seven Sisters Vineyards",
     "type": "string"
   }
 }

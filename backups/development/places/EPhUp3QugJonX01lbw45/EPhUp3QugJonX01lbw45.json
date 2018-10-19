@@ -1,28 +1,12 @@
 {
-  "website": {
-    "value": "http://www.vondelingwines.co.za/",
-    "type": "string"
-  },
-  "address": {
-    "value": "Voor-Paardeberg Road, Voor-Paardeberg, Paarl, 7646, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 869 8595",
-    "type": "string"
-  },
-  "name": {
-    "value": "Vondeling Wines",
-    "type": "string"
-  },
   "location": {
     "value": {
-      "lng": {
-        "value": 18.8586112,
-        "type": "number"
-      },
       "lat": {
         "value": -33.5984053,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.8586112,
         "type": "number"
       }
     },
@@ -72,5 +56,21 @@
       }
     ],
     "type": "array"
+  },
+  "website": {
+    "value": "http://www.vondelingwines.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Voor-Paardeberg Road, Voor-Paardeberg, Paarl, 7646, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 869 8595",
+    "type": "string"
+  },
+  "name": {
+    "value": "Vondeling Wines",
+    "type": "string"
   }
 }

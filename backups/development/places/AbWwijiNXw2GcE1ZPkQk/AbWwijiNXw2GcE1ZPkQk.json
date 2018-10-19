@@ -1,4 +1,16 @@
 {
+  "website": {
+    "value": "http://www.mountainridge.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "De Liefde Road, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "074 185 3780",
+    "type": "string"
+  },
   "name": {
     "value": "Mountain Ridge Winery",
     "type": "string"
@@ -69,17 +81,5 @@
       }
     ],
     "type": "array"
-  },
-  "website": {
-    "value": "http://www.mountainridge.co.za/",
-    "type": "string"
-  },
-  "address": {
-    "value": "De Liefde Road, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "074 185 3780",
-    "type": "string"
   }
 }

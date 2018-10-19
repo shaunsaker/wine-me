@@ -1,8 +1,4 @@
 {
-  "name": {
-    "value": "D'Aria Winery",
-    "type": "string"
-  },
   "openingHours": {
     "value": [
       {
@@ -38,12 +34,12 @@
   },
   "location": {
     "value": {
-      "lng": {
-        "value": 18.6108763,
-        "type": "number"
-      },
       "lat": {
         "value": -33.8411284,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.6108763,
         "type": "number"
       }
     },
@@ -104,6 +100,10 @@
   },
   "phoneNumber": {
     "value": "021 801 6772",
+    "type": "string"
+  },
+  "name": {
+    "value": "D'Aria Winery",
     "type": "string"
   }
 }

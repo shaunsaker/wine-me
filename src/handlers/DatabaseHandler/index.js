@@ -10,7 +10,8 @@ export class DatabaseHandler extends React.Component {
     this.syncPlaces = this.syncPlaces.bind(this);
     this.syncFeaturedPlaces = this.syncFeaturedPlaces.bind(this);
     this.syncSearchAreas = this.syncSearchAreas.bind(this);
-    this.syncCheckIns = this.syncCheckIns.bind(this);
+    this.syncUserCheckIns = this.syncUserCheckIns.bind(this);
+    this.syncCategories = this.syncCategories.bind(this);
   }
 
   static get propTypes() {
@@ -41,7 +42,8 @@ export class DatabaseHandler extends React.Component {
     this.syncPlaces();
     this.syncFeaturedPlaces();
     this.syncSearchAreas();
-    this.syncCheckIns();
+    this.syncUserCheckIns();
+    this.syncCategories();
   }
 
   syncPlaces() {
@@ -89,7 +91,7 @@ export class DatabaseHandler extends React.Component {
     });
   }
 
-  syncCheckIns() {
+  syncUserCheckIns() {
     const { dispatch, uid } = this.props;
 
     dispatch({
@@ -99,6 +101,20 @@ export class DatabaseHandler extends React.Component {
         query: ['uid', '==', uid],
         nextAction: {
           type: 'SET_USER_CHECK_INS',
+        },
+      },
+    });
+  }
+
+  syncCategories() {
+    const { dispatch } = this.props;
+
+    dispatch({
+      type: 'sync',
+      meta: {
+        pathParts: ['categories'],
+        nextAction: {
+          type: 'SET_CATEGORIES',
         },
       },
     });

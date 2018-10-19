@@ -1,4 +1,16 @@
 {
+  "website": {
+    "value": "http://www.newtonjohnson.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "R320, Hemel-en-Aarde valley, Hermanus, 7200, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 200 2148",
+    "type": "string"
+  },
   "name": {
     "value": "The Restaurant at Newton Johnson",
     "type": "string"
@@ -93,17 +105,5 @@
       }
     ],
     "type": "array"
-  },
-  "website": {
-    "value": "http://www.newtonjohnson.com/",
-    "type": "string"
-  },
-  "address": {
-    "value": "R320, Hemel-en-Aarde valley, Hermanus, 7200, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 200 2148",
-    "type": "string"
   }
 }

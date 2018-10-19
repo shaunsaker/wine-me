@@ -1,4 +1,20 @@
 {
+  "website": {
+    "value": "http://www.lammershoek.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "R45, Aprilskloof, Malmesburry, 7300, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "022 482 2835",
+    "type": "string"
+  },
+  "name": {
+    "value": "Lammershoek Winery",
+    "type": "string"
+  },
   "openingHours": {
     "value": [
       {
@@ -34,12 +50,12 @@
   },
   "location": {
     "value": {
-      "lat": {
-        "value": -33.52532099999999,
-        "type": "number"
-      },
       "lng": {
         "value": 18.8059689,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.52532099999999,
         "type": "number"
       }
     },
@@ -53,21 +69,5 @@
       }
     ],
     "type": "array"
-  },
-  "website": {
-    "value": "http://www.lammershoek.co.za/",
-    "type": "string"
-  },
-  "address": {
-    "value": "R45, Aprilskloof, Malmesburry, 7300, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "022 482 2835",
-    "type": "string"
-  },
-  "name": {
-    "value": "Lammershoek Winery",
-    "type": "string"
   }
 }

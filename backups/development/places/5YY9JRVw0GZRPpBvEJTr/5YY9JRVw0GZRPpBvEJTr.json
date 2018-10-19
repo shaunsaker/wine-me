@@ -1,4 +1,16 @@
 {
+  "website": {
+    "value": "http://www.alleebleue.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Intersection R 45 and R310, Groot Drakenstein, Franschhoek, 7680, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 874 1021",
+    "type": "string"
+  },
   "name": {
     "value": "Allee Bleue Estate",
     "type": "string"
@@ -93,17 +105,5 @@
       }
     ],
     "type": "array"
-  },
-  "website": {
-    "value": "http://www.alleebleue.com/",
-    "type": "string"
-  },
-  "address": {
-    "value": "Intersection R 45 and R310, Groot Drakenstein, Franschhoek, 7680, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 874 1021",
-    "type": "string"
   }
 }

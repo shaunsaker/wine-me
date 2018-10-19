@@ -1,16 +1,4 @@
 {
-  "website": {
-    "value": "http://www.bernheimwines.co.za/",
-    "type": "string"
-  },
-  "address": {
-    "value": "R45, Northern Paarl,, Malmesbury Road, Western Cape, Paarl, 7646, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "084 655 3340",
-    "type": "string"
-  },
   "name": {
     "value": "Bernheim Wines Accommodation & Functions Venue",
     "type": "string"
@@ -72,5 +60,17 @@
       }
     ],
     "type": "array"
+  },
+  "website": {
+    "value": "http://www.bernheimwines.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "R45, Northern Paarl,, Malmesbury Road, Western Cape, Paarl, 7646, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "084 655 3340",
+    "type": "string"
   }
 }

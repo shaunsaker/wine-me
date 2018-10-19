@@ -1,12 +1,16 @@
 {
+  "name": {
+    "value": "Vuurberg Wines",
+    "type": "string"
+  },
   "location": {
     "value": {
-      "lat": {
-        "value": -33.9079025,
-        "type": "number"
-      },
       "lng": {
         "value": 18.9483587,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.9079025,
         "type": "number"
       }
     },
@@ -67,10 +71,6 @@
   },
   "phoneNumber": {
     "value": "072 182 7571",
-    "type": "string"
-  },
-  "name": {
-    "value": "Vuurberg Wines",
     "type": "string"
   }
 }

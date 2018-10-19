@@ -1,4 +1,8 @@
 {
+  "name": {
+    "value": "Fraaigelegen Farm, Tulbagh",
+    "type": "string"
+  },
   "openingHours": {
     "value": [
       {
@@ -34,12 +38,12 @@
   },
   "location": {
     "value": {
-      "lat": {
-        "value": -33.362821,
-        "type": "number"
-      },
       "lng": {
         "value": 19.20536299999999,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.362821,
         "type": "number"
       }
     },
@@ -100,10 +104,6 @@
   },
   "phoneNumber": {
     "value": "071 404 2766",
-    "type": "string"
-  },
-  "name": {
-    "value": "Fraaigelegen Farm, Tulbagh",
     "type": "string"
   }
 }

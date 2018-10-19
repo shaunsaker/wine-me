@@ -1,8 +1,4 @@
 {
-  "name": {
-    "value": "Paul Cluver Estate Wine",
-    "type": "string"
-  },
   "openingHours": {
     "value": [
       {
@@ -104,6 +100,10 @@
   },
   "phoneNumber": {
     "value": "021 844 0605",
+    "type": "string"
+  },
+  "name": {
+    "value": "Paul Cluver Estate Wine",
     "type": "string"
   }
 }

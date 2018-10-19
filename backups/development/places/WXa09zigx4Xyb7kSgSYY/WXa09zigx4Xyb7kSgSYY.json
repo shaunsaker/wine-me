@@ -1,4 +1,20 @@
 {
+  "website": {
+    "value": "http://www.ormonde.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Mount Pleasant St, Darling, 7345, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "022 492 3540",
+    "type": "string"
+  },
+  "name": {
+    "value": "Ormonde Private Cellar",
+    "type": "string"
+  },
   "openingHours": {
     "value": [
       {
@@ -89,21 +105,5 @@
       }
     ],
     "type": "array"
-  },
-  "website": {
-    "value": "http://www.ormonde.co.za/",
-    "type": "string"
-  },
-  "address": {
-    "value": "Mount Pleasant St, Darling, 7345, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "022 492 3540",
-    "type": "string"
-  },
-  "name": {
-    "value": "Ormonde Private Cellar",
-    "type": "string"
   }
 }

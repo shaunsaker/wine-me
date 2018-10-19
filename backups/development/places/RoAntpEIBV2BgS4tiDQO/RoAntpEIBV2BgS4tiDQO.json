@@ -1,4 +1,21 @@
 {
+  "location": {
+    "value": {
+      "lat": {
+        "value": -33.8729362,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.6330398,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "name": {
+    "value": "Bloemedal Wine Estate",
+    "type": "string"
+  },
   "phoneNumber": {
     "value": "021 976 2682",
     "type": "string"
@@ -9,23 +26,6 @@
   },
   "website": {
     "value": "http://www.bonamis.co.za/",
-    "type": "string"
-  },
-  "location": {
-    "value": {
-      "lng": {
-        "value": 18.6330398,
-        "type": "number"
-      },
-      "lat": {
-        "value": -33.8729362,
-        "type": "number"
-      }
-    },
-    "type": "object"
-  },
-  "name": {
-    "value": "Bloemedal Wine Estate",
     "type": "string"
   }
 }

@@ -1,8 +1,4 @@
 {
-  "name": {
-    "value": "Burgherspost Wine Estate",
-    "type": "string"
-  },
   "location": {
     "value": {
       "lat": {
@@ -71,6 +67,10 @@
   },
   "phoneNumber": {
     "value": "022 492 2830",
+    "type": "string"
+  },
+  "name": {
+    "value": "Burgherspost Wine Estate",
     "type": "string"
   }
 }

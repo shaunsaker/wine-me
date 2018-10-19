@@ -1,4 +1,20 @@
 {
+  "website": {
+    "value": "http://www.pulpitrock.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "022 461 2025",
+    "type": "string"
+  },
+  "name": {
+    "value": "Pulpit Rock Wine",
+    "type": "string"
+  },
   "openingHours": {
     "value": [
       {
@@ -89,21 +105,5 @@
       }
     ],
     "type": "array"
-  },
-  "website": {
-    "value": "http://www.pulpitrock.co.za/",
-    "type": "string"
-  },
-  "address": {
-    "value": "South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "022 461 2025",
-    "type": "string"
-  },
-  "name": {
-    "value": "Pulpit Rock Wine",
-    "type": "string"
   }
 }

@@ -1,20 +1,4 @@
 {
-  "website": {
-    "value": "http://www.labri.co.za/",
-    "type": "string"
-  },
-  "address": {
-    "value": "La Bri Estate, Franschhoek, 7690, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 876 2593",
-    "type": "string"
-  },
-  "name": {
-    "value": "La Bri Estate",
-    "type": "string"
-  },
   "openingHours": {
     "value": [
       {
@@ -50,12 +34,12 @@
   },
   "location": {
     "value": {
-      "lng": {
-        "value": 19.117625,
-        "type": "number"
-      },
       "lat": {
         "value": -33.922771,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.117625,
         "type": "number"
       }
     },
@@ -105,5 +89,21 @@
       }
     ],
     "type": "array"
+  },
+  "website": {
+    "value": "http://www.labri.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "La Bri Estate, Franschhoek, 7690, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 876 2593",
+    "type": "string"
+  },
+  "name": {
+    "value": "La Bri Estate",
+    "type": "string"
   }
 }

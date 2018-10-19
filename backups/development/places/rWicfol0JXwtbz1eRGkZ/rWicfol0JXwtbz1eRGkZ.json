@@ -1,20 +1,4 @@
 {
-  "website": {
-    "value": "http://www.cilmorwines.com/",
-    "type": "string"
-  },
-  "address": {
-    "value": "Villiersdorp Road, R43, Worcester, 6860, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "023 340 4141",
-    "type": "string"
-  },
-  "name": {
-    "value": "Cilmor Wines",
-    "type": "string"
-  },
   "openingHours": {
     "value": [
       {
@@ -73,5 +57,21 @@
       }
     ],
     "type": "array"
+  },
+  "website": {
+    "value": "http://www.cilmorwines.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Villiersdorp Road, R43, Worcester, 6860, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "023 340 4141",
+    "type": "string"
+  },
+  "name": {
+    "value": "Cilmor Wines",
+    "type": "string"
   }
 }

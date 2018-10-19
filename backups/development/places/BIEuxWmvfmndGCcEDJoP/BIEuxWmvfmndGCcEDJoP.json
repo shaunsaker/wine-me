@@ -1,4 +1,20 @@
 {
+  "website": {
+    "value": "http://saronsberg.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Waveren Road, Tulbagh, 6820, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "023 230 0707",
+    "type": "string"
+  },
+  "name": {
+    "value": "Saronsberg Wine Cellar",
+    "type": "string"
+  },
   "openingHours": {
     "value": [
       {
@@ -34,12 +50,12 @@
   },
   "location": {
     "value": {
-      "lat": {
-        "value": -33.2462597,
-        "type": "number"
-      },
       "lng": {
         "value": 19.1169341,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.2462597,
         "type": "number"
       }
     },
@@ -89,21 +105,5 @@
       }
     ],
     "type": "array"
-  },
-  "website": {
-    "value": "http://saronsberg.com/",
-    "type": "string"
-  },
-  "address": {
-    "value": "Waveren Road, Tulbagh, 6820, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "023 230 0707",
-    "type": "string"
-  },
-  "name": {
-    "value": "Saronsberg Wine Cellar",
-    "type": "string"
   }
 }

@@ -1,4 +1,8 @@
 {
+  "name": {
+    "value": "Haskell Vineyards",
+    "type": "string"
+  },
   "openingHours": {
     "value": [
       {
@@ -34,12 +38,12 @@
   },
   "location": {
     "value": {
-      "lat": {
-        "value": -34.0038529,
-        "type": "number"
-      },
       "lng": {
         "value": 18.86047869999999,
+        "type": "number"
+      },
+      "lat": {
+        "value": -34.0038529,
         "type": "number"
       }
     },
@@ -100,10 +104,6 @@
   },
   "phoneNumber": {
     "value": "021 881 3895",
-    "type": "string"
-  },
-  "name": {
-    "value": "Haskell Vineyards",
     "type": "string"
   }
 }

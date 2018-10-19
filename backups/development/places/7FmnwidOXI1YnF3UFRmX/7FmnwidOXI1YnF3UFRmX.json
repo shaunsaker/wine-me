@@ -1,20 +1,4 @@
 {
-  "website": {
-    "value": "http://www.vnl.co.za/",
-    "type": "string"
-  },
-  "address": {
-    "value": "Intersection R45 and Simondium-Klapmuts Roads, Franschhoek Wine Route, Simondium, 7670, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 874 1611",
-    "type": "string"
-  },
-  "name": {
-    "value": "Vrede en Lust Wine Estate",
-    "type": "string"
-  },
   "openingHours": {
     "value": [
       {
@@ -50,12 +34,12 @@
   },
   "location": {
     "value": {
-      "lng": {
-        "value": 18.95328199999999,
-        "type": "number"
-      },
       "lat": {
         "value": -33.837422,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.95328199999999,
         "type": "number"
       }
     },
@@ -105,5 +89,21 @@
       }
     ],
     "type": "array"
+  },
+  "website": {
+    "value": "http://www.vnl.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Intersection R45 and Simondium-Klapmuts Roads, Franschhoek Wine Route, Simondium, 7670, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 874 1611",
+    "type": "string"
+  },
+  "name": {
+    "value": "Vrede en Lust Wine Estate",
+    "type": "string"
   }
 }

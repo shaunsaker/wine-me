@@ -1,0 +1,27 @@
+{
+  "order": {
+    "value": 4,
+    "type": "number"
+  },
+  "validation": {
+    "value": {
+      "min": {
+        "value": 0,
+        "type": "number"
+      },
+      "type": {
+        "value": "number",
+        "type": "string"
+      }
+    },
+    "type": "object"
+  },
+  "name": {
+    "value": "Price",
+    "type": "string"
+  },
+  "question_text": {
+    "value": "How much did your wine tasting cost?",
+    "type": "string"
+  }
+}

@@ -1,28 +1,12 @@
 {
-  "website": {
-    "value": "http://www.koelfontein.co.za/",
-    "type": "string"
-  },
-  "address": {
-    "value": "South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "023 313 3304",
-    "type": "string"
-  },
-  "name": {
-    "value": "Koelfontein Estate (Pty) Ltd",
-    "type": "string"
-  },
   "location": {
     "value": {
-      "lat": {
-        "value": -33.2653483,
-        "type": "number"
-      },
       "lng": {
         "value": 19.3315977,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.2653483,
         "type": "number"
       }
     },
@@ -44,5 +28,21 @@
       }
     ],
     "type": "array"
+  },
+  "website": {
+    "value": "http://www.koelfontein.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "023 313 3304",
+    "type": "string"
+  },
+  "name": {
+    "value": "Koelfontein Estate (Pty) Ltd",
+    "type": "string"
   }
 }

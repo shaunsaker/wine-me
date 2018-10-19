@@ -1,20 +1,4 @@
 {
-  "website": {
-    "value": "http://www.topiaryvineyards.simplesite.com/",
-    "type": "string"
-  },
-  "address": {
-    "value": "La Tramontagne Farm, Wemmershoek Rd, Franschhoek, South Africa, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 867 0258",
-    "type": "string"
-  },
-  "name": {
-    "value": "Topiary Winery",
-    "type": "string"
-  },
   "openingHours": {
     "value": [
       {
@@ -105,5 +89,21 @@
       }
     ],
     "type": "array"
+  },
+  "website": {
+    "value": "http://www.topiaryvineyards.simplesite.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "La Tramontagne Farm, Wemmershoek Rd, Franschhoek, South Africa, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 867 0258",
+    "type": "string"
+  },
+  "name": {
+    "value": "Topiary Winery",
+    "type": "string"
   }
 }

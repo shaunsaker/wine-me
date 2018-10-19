@@ -1,20 +1,4 @@
 {
-  "website": {
-    "value": "http://www.mulderbosch.co.za/",
-    "type": "string"
-  },
-  "address": {
-    "value": "Mulderbosch, Polkadraai Road, Stellenbosch, 7600, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 881 8140",
-    "type": "string"
-  },
-  "name": {
-    "value": "Mulderbosch",
-    "type": "string"
-  },
   "openingHours": {
     "value": [
       {
@@ -105,5 +89,21 @@
       }
     ],
     "type": "array"
+  },
+  "website": {
+    "value": "http://www.mulderbosch.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Mulderbosch, Polkadraai Road, Stellenbosch, 7600, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 881 8140",
+    "type": "string"
+  },
+  "name": {
+    "value": "Mulderbosch",
+    "type": "string"
   }
 }

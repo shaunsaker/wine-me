@@ -1,4 +1,8 @@
 {
+  "name": {
+    "value": "Glenelly Estate",
+    "type": "string"
+  },
   "openingHours": {
     "value": [
       {
@@ -100,10 +104,6 @@
   },
   "phoneNumber": {
     "value": "021 809 6440",
-    "type": "string"
-  },
-  "name": {
-    "value": "Glenelly Estate",
     "type": "string"
   }
 }

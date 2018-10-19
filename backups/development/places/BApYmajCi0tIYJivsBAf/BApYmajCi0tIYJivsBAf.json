@@ -1,4 +1,20 @@
 {
+  "website": {
+    "value": "http://www.lazanou.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Olifantskop road Wellington, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "083 265 6341",
+    "type": "string"
+  },
+  "name": {
+    "value": "Lazanou Organic Vineyards",
+    "type": "string"
+  },
   "openingHours": {
     "value": [
       {
@@ -53,21 +69,5 @@
       }
     ],
     "type": "array"
-  },
-  "website": {
-    "value": "http://www.lazanou.co.za/",
-    "type": "string"
-  },
-  "address": {
-    "value": "Olifantskop road Wellington, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "083 265 6341",
-    "type": "string"
-  },
-  "name": {
-    "value": "Lazanou Organic Vineyards",
-    "type": "string"
   }
 }

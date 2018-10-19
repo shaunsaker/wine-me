@@ -1,4 +1,16 @@
 {
+  "website": {
+    "value": "https://www.iona.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Highlands Road, Elgin Valley, 7160, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "028 284 9678",
+    "type": "string"
+  },
   "name": {
     "value": "Iona Wines",
     "type": "string"
@@ -93,17 +105,5 @@
       }
     ],
     "type": "array"
-  },
-  "website": {
-    "value": "https://www.iona.co.za/",
-    "type": "string"
-  },
-  "address": {
-    "value": "Highlands Road, Elgin Valley, 7160, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "028 284 9678",
-    "type": "string"
   }
 }

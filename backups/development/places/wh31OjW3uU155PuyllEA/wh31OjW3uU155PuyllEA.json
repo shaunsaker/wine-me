@@ -1,4 +1,8 @@
 {
+  "name": {
+    "value": "Mooiplaas Wine Estate and Private Nature Reserve",
+    "type": "string"
+  },
   "openingHours": {
     "value": [
       {
@@ -34,12 +38,12 @@
   },
   "location": {
     "value": {
-      "lat": {
-        "value": -33.920939,
-        "type": "number"
-      },
       "lng": {
         "value": 18.740125,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.920939,
         "type": "number"
       }
     },
@@ -100,10 +104,6 @@
   },
   "phoneNumber": {
     "value": "021 200 7493",
-    "type": "string"
-  },
-  "name": {
-    "value": "Mooiplaas Wine Estate and Private Nature Reserve",
     "type": "string"
   }
 }

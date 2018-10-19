@@ -1,4 +1,20 @@
 {
+  "website": {
+    "value": "http://www.kanu.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "R304, Stellenbosch, 7624, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "081 732 2480",
+    "type": "string"
+  },
+  "name": {
+    "value": "Kanu Vineyards",
+    "type": "string"
+  },
   "openingHours": {
     "value": [
       {
@@ -89,21 +105,5 @@
       }
     ],
     "type": "array"
-  },
-  "website": {
-    "value": "http://www.kanu.co.za/",
-    "type": "string"
-  },
-  "address": {
-    "value": "R304, Stellenbosch, 7624, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "081 732 2480",
-    "type": "string"
-  },
-  "name": {
-    "value": "Kanu Vineyards",
-    "type": "string"
   }
 }

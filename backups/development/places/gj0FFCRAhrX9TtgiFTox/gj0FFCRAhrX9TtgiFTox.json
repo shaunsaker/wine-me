@@ -1,4 +1,8 @@
 {
+  "name": {
+    "value": "Ataraxia Wines",
+    "type": "string"
+  },
   "openingHours": {
     "value": [
       {
@@ -100,10 +104,6 @@
   },
   "phoneNumber": {
     "value": "028 212 2007",
-    "type": "string"
-  },
-  "name": {
-    "value": "Ataraxia Wines",
     "type": "string"
   }
 }

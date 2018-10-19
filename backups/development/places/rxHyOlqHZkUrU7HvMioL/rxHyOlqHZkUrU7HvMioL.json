@@ -1,20 +1,4 @@
 {
-  "website": {
-    "value": "http://www.hiddenvalleywines.co.za/",
-    "type": "string"
-  },
-  "address": {
-    "value": "Annandale Rd, Stellenbosch NU, Stellenbosch, 7613, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 880 2646",
-    "type": "string"
-  },
-  "name": {
-    "value": "Hidden Valley Wines",
-    "type": "string"
-  },
   "openingHours": {
     "value": [
       {
@@ -50,12 +34,12 @@
   },
   "location": {
     "value": {
-      "lng": {
-        "value": 18.853783,
-        "type": "number"
-      },
       "lat": {
         "value": -34.020794,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.853783,
         "type": "number"
       }
     },
@@ -105,5 +89,21 @@
       }
     ],
     "type": "array"
+  },
+  "website": {
+    "value": "http://www.hiddenvalleywines.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Annandale Rd, Stellenbosch NU, Stellenbosch, 7613, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 880 2646",
+    "type": "string"
+  },
+  "name": {
+    "value": "Hidden Valley Wines",
+    "type": "string"
   }
 }

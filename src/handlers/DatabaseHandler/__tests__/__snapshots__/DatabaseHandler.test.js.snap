@@ -1,21 +1,16 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`DatabaseHandler methods should handle syncCheckIns 1`] = `
+exports[`DatabaseHandler methods should handle syncCategories 1`] = `
 [MockFunction] {
   "calls": Array [
     Array [
       Object {
         "meta": Object {
           "nextAction": Object {
-            "type": "SET_USER_CHECK_INS",
+            "type": "SET_CATEGORIES",
           },
           "pathParts": Array [
-            "check_ins",
-          ],
-          "query": Array [
-            "uid",
-            "==",
-            undefined,
+            "categories",
           ],
         },
         "type": "sync",
@@ -97,6 +92,37 @@ exports[`DatabaseHandler methods should handle syncSearchAreas 1`] = `
           },
           "pathParts": Array [
             "search_areas",
+          ],
+        },
+        "type": "sync",
+      },
+    ],
+  ],
+  "results": Array [
+    Object {
+      "isThrow": false,
+      "value": undefined,
+    },
+  ],
+}
+`;
+
+exports[`DatabaseHandler methods should handle syncUserCheckIns 1`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      Object {
+        "meta": Object {
+          "nextAction": Object {
+            "type": "SET_USER_CHECK_INS",
+          },
+          "pathParts": Array [
+            "check_ins",
+          ],
+          "query": Array [
+            "uid",
+            "==",
+            undefined,
           ],
         },
         "type": "sync",

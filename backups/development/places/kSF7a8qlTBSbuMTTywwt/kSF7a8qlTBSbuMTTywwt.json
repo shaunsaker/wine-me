@@ -1,20 +1,4 @@
 {
-  "website": {
-    "value": "http://www.dmnwines.co.za/",
-    "type": "string"
-  },
-  "address": {
-    "value": "Bodal Road Daljosafat, Paarl, 7620, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 868 2393",
-    "type": "string"
-  },
-  "name": {
-    "value": "Druk-My-Niet",
-    "type": "string"
-  },
   "openingHours": {
     "value": [
       {
@@ -105,5 +89,21 @@
       }
     ],
     "type": "array"
+  },
+  "website": {
+    "value": "http://www.dmnwines.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Bodal Road Daljosafat, Paarl, 7620, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 868 2393",
+    "type": "string"
+  },
+  "name": {
+    "value": "Druk-My-Niet",
+    "type": "string"
   }
 }

@@ -1,4 +1,20 @@
 {
+  "website": {
+    "value": "http://www.eaglesnestwines.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Constantia Main Rd, Constantia, Cape Town, 7806, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 794 4095",
+    "type": "string"
+  },
+  "name": {
+    "value": "Eagles' Nest Wines",
+    "type": "string"
+  },
   "openingHours": {
     "value": [
       {
@@ -89,21 +105,5 @@
       }
     ],
     "type": "array"
-  },
-  "website": {
-    "value": "http://www.eaglesnestwines.com/",
-    "type": "string"
-  },
-  "address": {
-    "value": "Constantia Main Rd, Constantia, Cape Town, 7806, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 794 4095",
-    "type": "string"
-  },
-  "name": {
-    "value": "Eagles' Nest Wines",
-    "type": "string"
   }
 }

@@ -1,4 +1,20 @@
 {
+  "website": {
+    "value": "http://www.noblehill.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Klapmuts - Simondium Rd, Simondium, 7670, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 874 3844",
+    "type": "string"
+  },
+  "name": {
+    "value": "Noble Hill wine estate",
+    "type": "string"
+  },
   "openingHours": {
     "value": [
       {
@@ -34,12 +50,12 @@
   },
   "location": {
     "value": {
-      "lng": {
-        "value": 18.936521,
-        "type": "number"
-      },
       "lat": {
         "value": -33.827964,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.936521,
         "type": "number"
       }
     },
@@ -89,21 +105,5 @@
       }
     ],
     "type": "array"
-  },
-  "website": {
-    "value": "http://www.noblehill.com/",
-    "type": "string"
-  },
-  "address": {
-    "value": "Klapmuts - Simondium Rd, Simondium, 7670, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 874 3844",
-    "type": "string"
-  },
-  "name": {
-    "value": "Noble Hill wine estate",
-    "type": "string"
   }
 }

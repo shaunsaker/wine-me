@@ -68,11 +68,25 @@ describe('CheckIn', () => {
       expect(dispatch).toHaveBeenCalled();
       expect(dispatch).toMatchSnapshot();
     });
+
+    it('should handle onCheckInSuccess', () => {
+      spies[0] = jest.spyOn(CheckIn.prototype, 'setIsLoading');
+      spies[1] = jest.spyOn(CheckIn.prototype, 'navigate');
+      const component = renderer.create(
+        <CheckIn place={PLACE} userCheckIns={CHECK_INS} uid={uid} dispatch={dispatch} />,
+      );
+      const instance = component.getInstance();
+
+      instance.onCheckInSuccess();
+
+      expect(spies[0]).toHaveBeenCalled();
+      expect(spies[1]).toHaveBeenCalledWith('placeQuestionsModal', { place: PLACE });
+    });
   });
 
   describe('lifecycle methods', () => {
     it('should call setIsLoading on new check in', () => {
-      spies[0] = jest.spyOn(CheckIn.prototype, 'setIsLoading');
+      spies[0] = jest.spyOn(CheckIn.prototype, 'onCheckInSuccess');
       const component = renderer.create(
         <CheckIn place={PLACE} userCheckIns={{}} uid={uid} dispatch={dispatch} />,
       );
@@ -81,7 +95,7 @@ describe('CheckIn', () => {
         <CheckIn place={PLACE} userCheckIns={CHECK_INS} uid={uid} dispatch={dispatch} />,
       );
 
-      expect(spies[0]).toHaveBeenCalledWith(false);
+      expect(spies[0]).toHaveBeenCalled();
     });
   });
 

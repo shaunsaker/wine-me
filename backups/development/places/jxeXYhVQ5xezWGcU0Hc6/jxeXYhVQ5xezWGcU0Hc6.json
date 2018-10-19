@@ -1,4 +1,20 @@
 {
+  "website": {
+    "value": "http://remhoogte.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Remhoogte Wine Estate, R44, Stellenbosch, 7600, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 889 5005",
+    "type": "string"
+  },
+  "name": {
+    "value": "Remhoogte Wine Estate",
+    "type": "string"
+  },
   "openingHours": {
     "value": [
       {
@@ -89,21 +105,5 @@
       }
     ],
     "type": "array"
-  },
-  "website": {
-    "value": "http://remhoogte.co.za/",
-    "type": "string"
-  },
-  "address": {
-    "value": "Remhoogte Wine Estate, R44, Stellenbosch, 7600, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 889 5005",
-    "type": "string"
-  },
-  "name": {
-    "value": "Remhoogte Wine Estate",
-    "type": "string"
   }
 }

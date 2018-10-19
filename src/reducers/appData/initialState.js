@@ -3,6 +3,7 @@ const initialState = {
   featuredPlaces: {},
   searchAreas: {},
   userCheckIns: {},
+  categories: {},
 };
 
 export default initialState;

@@ -1,4 +1,16 @@
 {
+  "website": {
+    "value": "http://www.kanonkop.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "R44, Stellenbosch Central, Stellenbosch, 7607, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 884 4656",
+    "type": "string"
+  },
   "name": {
     "value": "Kanonkop Wine Estate",
     "type": "string"
@@ -38,12 +50,12 @@
   },
   "location": {
     "value": {
-      "lat": {
-        "value": -33.8551851,
-        "type": "number"
-      },
       "lng": {
         "value": 18.8601279,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.8551851,
         "type": "number"
       }
     },
@@ -93,17 +105,5 @@
       }
     ],
     "type": "array"
-  },
-  "website": {
-    "value": "http://www.kanonkop.co.za/",
-    "type": "string"
-  },
-  "address": {
-    "value": "R44, Stellenbosch Central, Stellenbosch, 7607, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 884 4656",
-    "type": "string"
   }
 }

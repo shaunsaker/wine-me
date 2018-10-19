@@ -1,8 +1,4 @@
 {
-  "name": {
-    "value": "Jacaranda Wine & Guest Farm",
-    "type": "string"
-  },
   "openingHours": {
     "value": [
       {
@@ -88,6 +84,10 @@
   },
   "phoneNumber": {
     "value": "082 555 1150",
+    "type": "string"
+  },
+  "name": {
+    "value": "Jacaranda Wine & Guest Farm",
     "type": "string"
   }
 }

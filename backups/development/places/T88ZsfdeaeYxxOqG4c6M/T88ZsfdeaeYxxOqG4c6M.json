@@ -1,4 +1,8 @@
 {
+  "name": {
+    "value": "Opstal Estate and Restaurant",
+    "type": "string"
+  },
   "openingHours": {
     "value": [
       {
@@ -34,12 +38,12 @@
   },
   "location": {
     "value": {
-      "lng": {
-        "value": 19.22839,
-        "type": "number"
-      },
       "lat": {
         "value": -33.63912,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.22839,
         "type": "number"
       }
     },
@@ -100,10 +104,6 @@
   },
   "phoneNumber": {
     "value": "023 344 3001",
-    "type": "string"
-  },
-  "name": {
-    "value": "Opstal Estate and Restaurant",
     "type": "string"
   }
 }

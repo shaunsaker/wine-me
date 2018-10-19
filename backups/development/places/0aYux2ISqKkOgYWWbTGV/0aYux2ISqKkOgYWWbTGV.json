@@ -1,20 +1,4 @@
 {
-  "website": {
-    "value": "http://www.springfieldestate.com/",
-    "type": "string"
-  },
-  "address": {
-    "value": "R317 Bonnievale Road, Klipdrif, Robertson, 6705, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "023 626 3661",
-    "type": "string"
-  },
-  "name": {
-    "value": "Springfield Estate",
-    "type": "string"
-  },
   "openingHours": {
     "value": [
       {
@@ -105,5 +89,21 @@
       }
     ],
     "type": "array"
+  },
+  "website": {
+    "value": "http://www.springfieldestate.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "R317 Bonnievale Road, Klipdrif, Robertson, 6705, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "023 626 3661",
+    "type": "string"
+  },
+  "name": {
+    "value": "Springfield Estate",
+    "type": "string"
   }
 }

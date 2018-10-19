@@ -1,4 +1,16 @@
 {
+  "website": {
+    "value": "http://www.waterfordestate.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Upper Blaauwklippen Rd, Helderberg Rural, 7600, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 880 5300",
+    "type": "string"
+  },
   "name": {
     "value": "Waterford Wine Estate",
     "type": "string"
@@ -93,17 +105,5 @@
       }
     ],
     "type": "array"
-  },
-  "website": {
-    "value": "http://www.waterfordestate.co.za/",
-    "type": "string"
-  },
-  "address": {
-    "value": "Upper Blaauwklippen Rd, Helderberg Rural, 7600, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 880 5300",
-    "type": "string"
   }
 }

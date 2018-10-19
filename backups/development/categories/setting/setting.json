@@ -1,0 +1,35 @@
+{
+  "order": {
+    "value": 2,
+    "type": "number"
+  },
+  "validation": {
+    "value": {
+      "min": {
+        "value": 1,
+        "type": "number"
+      },
+      "type": {
+        "value": "number",
+        "type": "string"
+      },
+      "max": {
+        "value": 5,
+        "type": "number"
+      }
+    },
+    "type": "object"
+  },
+  "name": {
+    "value": "Setting",
+    "type": "string"
+  },
+  "question_text": {
+    "value": "How would you rate the setting?",
+    "type": "string"
+  },
+  "is_rating": {
+    "value": true,
+    "type": "boolean"
+  }
+}

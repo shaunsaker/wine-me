@@ -1,12 +1,16 @@
 {
+  "radius": {
+    "value": 20,
+    "type": "number"
+  },
   "location": {
     "value": {
-      "lat": {
-        "value": "-33.829889",
-        "type": "string"
-      },
       "lng": {
         "value": "18.643526",
+        "type": "string"
+      },
+      "lat": {
+        "value": "-33.829889",
         "type": "string"
       }
     },
@@ -15,9 +19,5 @@
   "name": {
     "value": "Durbanville",
     "type": "string"
-  },
-  "radius": {
-    "value": 20,
-    "type": "number"
   }
 }

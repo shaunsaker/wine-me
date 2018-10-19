@@ -1,0 +1,443 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StarRating renders renders with all props 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "row",
+    }
+  }
+>
+  <View
+    accessible={true}
+    isTVSelectable={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+    testID="starRating.button.0"
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={false}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": undefined,
+            "fontSize": 12,
+          },
+          Object {
+            "color": "#E23E57",
+            "fontSize": 48,
+          },
+          Object {
+            "fontFamily": "Material Icons",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          Object {},
+        ]
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    isTVSelectable={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+    testID="starRating.button.1"
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={false}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": undefined,
+            "fontSize": 12,
+          },
+          Object {
+            "color": "#E23E57",
+            "fontSize": 48,
+          },
+          Object {
+            "fontFamily": "Material Icons",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          Object {},
+        ]
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    isTVSelectable={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+    testID="starRating.button.2"
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={false}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": undefined,
+            "fontSize": 12,
+          },
+          Object {
+            "color": "#E23E57",
+            "fontSize": 48,
+          },
+          Object {
+            "fontFamily": "Material Icons",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          Object {},
+        ]
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    isTVSelectable={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+    testID="starRating.button.3"
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={false}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": undefined,
+            "fontSize": 12,
+          },
+          Object {
+            "color": "#E23E57",
+            "fontSize": 48,
+          },
+          Object {
+            "fontFamily": "Material Icons",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          Object {},
+        ]
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    isTVSelectable={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+    testID="starRating.button.4"
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={false}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": undefined,
+            "fontSize": 12,
+          },
+          Object {
+            "color": "#E23E57",
+            "fontSize": 48,
+          },
+          Object {
+            "fontFamily": "Material Icons",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          Object {},
+        ]
+      }
+    >
+      
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`StarRating renders renders with minimum required props 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "row",
+    }
+  }
+>
+  <View
+    accessible={true}
+    isTVSelectable={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+    testID="starRating.button.0"
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={false}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": undefined,
+            "fontSize": 12,
+          },
+          Object {
+            "color": "#E23E57",
+            "fontSize": 48,
+          },
+          Object {
+            "fontFamily": "Material Icons",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          Object {},
+        ]
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    isTVSelectable={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+    testID="starRating.button.1"
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={false}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": undefined,
+            "fontSize": 12,
+          },
+          Object {
+            "color": "#E23E57",
+            "fontSize": 48,
+          },
+          Object {
+            "fontFamily": "Material Icons",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          Object {},
+        ]
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    isTVSelectable={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+    testID="starRating.button.2"
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={false}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": undefined,
+            "fontSize": 12,
+          },
+          Object {
+            "color": "#E23E57",
+            "fontSize": 48,
+          },
+          Object {
+            "fontFamily": "Material Icons",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          Object {},
+        ]
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    isTVSelectable={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+    testID="starRating.button.3"
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={false}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": undefined,
+            "fontSize": 12,
+          },
+          Object {
+            "color": "#E23E57",
+            "fontSize": 48,
+          },
+          Object {
+            "fontFamily": "Material Icons",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          Object {},
+        ]
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    isTVSelectable={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+    testID="starRating.button.4"
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={false}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": undefined,
+            "fontSize": 12,
+          },
+          Object {
+            "color": "#E23E57",
+            "fontSize": 48,
+          },
+          Object {
+            "fontFamily": "Material Icons",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          Object {},
+        ]
+      }
+    >
+      
+    </Text>
+  </View>
+</View>
+`;

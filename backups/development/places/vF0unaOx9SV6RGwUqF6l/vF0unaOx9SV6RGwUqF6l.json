@@ -1,4 +1,20 @@
 {
+  "website": {
+    "value": "http://www.nelsonscreek.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "R44, Windmeul, Western Cape, Paarl, 7630, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 869 8453",
+    "type": "string"
+  },
+  "name": {
+    "value": "Nelson Wine Estate",
+    "type": "string"
+  },
   "openingHours": {
     "value": [
       {
@@ -89,21 +105,5 @@
       }
     ],
     "type": "array"
-  },
-  "website": {
-    "value": "http://www.nelsonscreek.co.za/",
-    "type": "string"
-  },
-  "address": {
-    "value": "R44, Windmeul, Western Cape, Paarl, 7630, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 869 8453",
-    "type": "string"
-  },
-  "name": {
-    "value": "Nelson Wine Estate",
-    "type": "string"
   }
 }

@@ -1,31 +1,36 @@
 # TODOS
 
-## BUGS
+- Change environment
+- Merge into master
+- Release tag
+- Release code push update
 
-- Refactor store so that we can delete places, check ins etc (update RNBP)
+## NEXT RELEASE
 
-### DIFFUCULT TO REPRODUCE/SOLVE
+- AppData reducers don't allow for deleting object properties
+- Show the datestamp of when you last visited a place
+- Use firebase functions to add user_feedback to places
+- Show ratings on PlaceCards (if any)
+- Display average price on Place page
+- Search by categories (Child Friendly, Serves Food)
+
+## DIFFUCULT TO REPRODUCE/SOLVE
 
 - After receiving update on iOS, redux-persist loader just loaded indefinitely
-- If I delete a place or search area in the db, it does not reflect in the persisted store
+- Received object object error in snackbar on app load (could be locatino related)
 
-## ENHANCEMENTS
+## CODE OPTIMISATIONS
 
-### CODE OPTIMISATIONS
-
+- SearchAreaLabelList should have SearchAreaLabel in folder
 - CI
 
 ## FEATURE REQUESTS
 
 These should be applicable to PLACES in general. Ie. Buy wines is not a good generic feature.
 
-- After check in, rate and answer questions - SHAUN, JJ
-  - Price - SHAUN
-- Photographer friendly places (there is a list flying around) - SHAUN
+- Filter on price once enough data - SHAUN
 - Search "Is Open" tag - SHAUN
-- Search by tags (child friendly, has food etc. based on questions after check in) - SHAUN
-- Show the datestamp of when you last visited a place - WADE
-
+- Photographer friendly places (there is a list flying around) - SHAUN
 - Request location permission again if not granted - SHAUN
 - Save unique device ID (for easy data retrieval if necessary) - SHAUN
 - Facebook sign in - SHAUN
@@ -39,6 +44,7 @@ These should be applicable to PLACES in general. Ie. Buy wines is not a good gen
   - Upington
 - Tappable photos - WADE
 - Being able to uncheck in to a place - WADE
+- Place rating questions as list
 
 ## FOR IOS SCREENSHOTS
 

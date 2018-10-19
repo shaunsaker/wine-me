@@ -1,16 +1,4 @@
 {
-  "website": {
-    "value": "http://www.dgb.co.za/",
-    "type": "string"
-  },
-  "address": {
-    "value": "Wellington, 7655, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 864 5300",
-    "type": "string"
-  },
   "name": {
     "value": "Douglas Green Winery",
     "type": "string"
@@ -73,5 +61,17 @@
       }
     ],
     "type": "array"
+  },
+  "website": {
+    "value": "http://www.dgb.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Wellington, 7655, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 864 5300",
+    "type": "string"
   }
 }

@@ -1,8 +1,4 @@
 {
-  "name": {
-    "value": "Meerlust Wine Estate",
-    "type": "string"
-  },
   "openingHours": {
     "value": [
       {
@@ -38,12 +34,12 @@
   },
   "location": {
     "value": {
-      "lat": {
-        "value": -34.0170159,
-        "type": "number"
-      },
       "lng": {
         "value": 18.7571449,
+        "type": "number"
+      },
+      "lat": {
+        "value": -34.0170159,
         "type": "number"
       }
     },
@@ -104,6 +100,10 @@
   },
   "phoneNumber": {
     "value": "021 843 3587",
+    "type": "string"
+  },
+  "name": {
+    "value": "Meerlust Wine Estate",
     "type": "string"
   }
 }

@@ -1,0 +1,36 @@
+{
+  "order": {
+    "value": 6,
+    "type": "number"
+  },
+  "validation": {
+    "value": {
+      "type": {
+        "value": "string",
+        "type": "string"
+      }
+    },
+    "type": "object"
+  },
+  "name": {
+    "value": "Child Friendly",
+    "type": "string"
+  },
+  "question_text": {
+    "value": "Was it child friendly?",
+    "type": "string"
+  },
+  "options": {
+    "value": [
+      {
+        "value": "Yes",
+        "type": "string"
+      },
+      {
+        "value": "No",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}

@@ -1,20 +1,4 @@
 {
-  "website": {
-    "value": "http://www.morgenhof.com/",
-    "type": "string"
-  },
-  "address": {
-    "value": "Morgenhof Wine Estate, Klapmuts Road, R44 , Stellenbosch, South Africa, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 889 2007",
-    "type": "string"
-  },
-  "name": {
-    "value": "Morgenhof Wine Estate",
-    "type": "string"
-  },
   "location": {
     "value": {
       "lat": {
@@ -72,5 +56,21 @@
       }
     ],
     "type": "array"
+  },
+  "website": {
+    "value": "http://www.morgenhof.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Morgenhof Wine Estate, Klapmuts Road, R44 , Stellenbosch, South Africa, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 889 2007",
+    "type": "string"
+  },
+  "name": {
+    "value": "Morgenhof Wine Estate",
+    "type": "string"
   }
 }

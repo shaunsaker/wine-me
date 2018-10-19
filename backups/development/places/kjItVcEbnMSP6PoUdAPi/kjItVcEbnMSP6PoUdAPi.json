@@ -1,16 +1,4 @@
 {
-  "website": {
-    "value": "http://www.nuyvallei.co.za/",
-    "type": "string"
-  },
-  "address": {
-    "value": "Werda Nuy Rd, Worcester, Winelands, Western Cape, South Africa, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "023 342 1258",
-    "type": "string"
-  },
   "name": {
     "value": "Nuy Valley Guest Farm",
     "type": "string"
@@ -50,12 +38,12 @@
   },
   "location": {
     "value": {
-      "lat": {
-        "value": -33.65735000000001,
-        "type": "number"
-      },
       "lng": {
         "value": 19.6325,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.65735000000001,
         "type": "number"
       }
     },
@@ -105,5 +93,17 @@
       }
     ],
     "type": "array"
+  },
+  "website": {
+    "value": "http://www.nuyvallei.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Werda Nuy Rd, Worcester, Winelands, Western Cape, South Africa, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "023 342 1258",
+    "type": "string"
   }
 }

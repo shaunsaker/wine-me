@@ -1,4 +1,8 @@
 {
+  "name": {
+    "value": "Usana Farming Estate",
+    "type": "string"
+  },
   "location": {
     "value": {
       "lat": {
@@ -35,10 +39,6 @@
   },
   "phoneNumber": {
     "value": "083 650 9528",
-    "type": "string"
-  },
-  "name": {
-    "value": "Usana Farming Estate",
     "type": "string"
   }
 }

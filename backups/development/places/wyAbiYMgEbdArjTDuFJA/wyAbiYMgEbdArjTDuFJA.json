@@ -1,4 +1,16 @@
 {
+  "website": {
+    "value": "http://www.fortsimon.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Fisher Road, Stellenbosch, Cape Town, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 906 0304",
+    "type": "string"
+  },
   "name": {
     "value": "Fort Simon Wine Estate",
     "type": "string"
@@ -93,17 +105,5 @@
       }
     ],
     "type": "array"
-  },
-  "website": {
-    "value": "http://www.fortsimon.com/",
-    "type": "string"
-  },
-  "address": {
-    "value": "Fisher Road, Stellenbosch, Cape Town, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 906 0304",
-    "type": "string"
   }
 }

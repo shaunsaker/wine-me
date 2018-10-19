@@ -1,8 +1,4 @@
 {
-  "address": {
-    "value": "Unnamed Road, South Africa",
-    "type": "string"
-  },
   "location": {
     "value": {
       "lng": {
@@ -39,6 +35,10 @@
   },
   "name": {
     "value": "Leipzig Winery",
+    "type": "string"
+  },
+  "address": {
+    "value": "Unnamed Road, South Africa",
     "type": "string"
   }
 }

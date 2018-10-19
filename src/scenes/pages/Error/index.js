@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-import { InfoBlock } from 'react-native-simple-components';
+import { Text } from 'react-native';
 
 import styles from './styles';
 
@@ -27,7 +27,7 @@ export class Error extends React.Component {
 
     return (
       <Page verticalCenter horizontalCenter style={styles.container}>
-        <InfoBlock title="Error" description={message} />
+        <Text>{message}</Text>
       </Page>
     );
   }

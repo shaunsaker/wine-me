@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 
+import utils from '../../utils';
 import CheckInButton from './CheckInButton';
 
 export class CheckIn extends React.Component {
@@ -12,6 +13,8 @@ export class CheckIn extends React.Component {
     this.onCheckIn = this.onCheckIn.bind(this);
     this.setIsLoading = this.setIsLoading.bind(this);
     this.addCheckIn = this.addCheckIn.bind(this);
+    this.onCheckInSuccess = this.onCheckInSuccess.bind(this);
+    this.navigate = this.navigate.bind(this);
 
     this.state = {
       isLoading: false,
@@ -33,7 +36,7 @@ export class CheckIn extends React.Component {
 
     // If there is a new check in that matches the place.id
     if (this.isCheckedIn(userCheckIns, place) && !this.isCheckedIn(prevProps.userCheckIns, place)) {
-      this.setIsLoading(false);
+      this.onCheckInSuccess();
     }
   }
 
@@ -76,6 +79,17 @@ export class CheckIn extends React.Component {
       },
       payload: { document },
     });
+  }
+
+  onCheckInSuccess() {
+    const { place } = this.props;
+
+    this.setIsLoading(false);
+    this.navigate('placeQuestionsModal', { place });
+  }
+
+  navigate(page, props) {
+    utils.app.navigate(page, props);
   }
 
   render() {

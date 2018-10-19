@@ -1,4 +1,20 @@
 {
+  "website": {
+    "value": "http://www.delheim.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Knorhoek Road, Stellenbosch, 7599, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 888 4600",
+    "type": "string"
+  },
+  "name": {
+    "value": "Delheim Wine Estate",
+    "type": "string"
+  },
   "openingHours": {
     "value": [
       {
@@ -34,12 +50,12 @@
   },
   "location": {
     "value": {
-      "lat": {
-        "value": -33.870379,
-        "type": "number"
-      },
       "lng": {
         "value": 18.885578,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.870379,
         "type": "number"
       }
     },
@@ -89,21 +105,5 @@
       }
     ],
     "type": "array"
-  },
-  "website": {
-    "value": "http://www.delheim.com/",
-    "type": "string"
-  },
-  "address": {
-    "value": "Knorhoek Road, Stellenbosch, 7599, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 888 4600",
-    "type": "string"
-  },
-  "name": {
-    "value": "Delheim Wine Estate",
-    "type": "string"
   }
 }

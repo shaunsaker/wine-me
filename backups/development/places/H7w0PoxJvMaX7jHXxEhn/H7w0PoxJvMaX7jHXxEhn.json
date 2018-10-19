@@ -1,4 +1,16 @@
 {
+  "name": {
+    "value": "Wine Estate - Vergenoegd Wine Estate",
+    "type": "string"
+  },
+  "address": {
+    "value": "Croydon Vineyard Estate, Cape Town, South Africa",
+    "type": "string"
+  },
+  "website": {
+    "value": "http://vergenoegd.co.za/",
+    "type": "string"
+  },
   "location": {
     "value": {
       "lat": {
@@ -56,17 +68,5 @@
       }
     ],
     "type": "array"
-  },
-  "name": {
-    "value": "Wine Estate - Vergenoegd Wine Estate",
-    "type": "string"
-  },
-  "address": {
-    "value": "Croydon Vineyard Estate, Cape Town, South Africa",
-    "type": "string"
-  },
-  "website": {
-    "value": "http://vergenoegd.co.za/",
-    "type": "string"
   }
 }

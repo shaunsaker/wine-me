@@ -1,16 +1,28 @@
 {
+  "website": {
+    "value": "http://www.paulwallacewines.co.za/contact.htm",
+    "type": "string"
+  },
+  "address": {
+    "value": "Farm #63,Wallovale Vineyards, Highlands Rd, Elgin, Grabouw, 7180, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 848 9744",
+    "type": "string"
+  },
   "name": {
     "value": "Paul Wallace Wines",
     "type": "string"
   },
   "location": {
     "value": {
-      "lng": {
-        "value": 19.05602,
-        "type": "number"
-      },
       "lat": {
         "value": -34.216885,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.05602,
         "type": "number"
       }
     },
@@ -60,17 +72,5 @@
       }
     ],
     "type": "array"
-  },
-  "website": {
-    "value": "http://www.paulwallacewines.co.za/contact.htm",
-    "type": "string"
-  },
-  "address": {
-    "value": "Farm #63,Wallovale Vineyards, Highlands Rd, Elgin, Grabouw, 7180, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 848 9744",
-    "type": "string"
   }
 }

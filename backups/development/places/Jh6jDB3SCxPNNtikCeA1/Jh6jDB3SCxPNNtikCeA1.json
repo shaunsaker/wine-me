@@ -1,4 +1,20 @@
 {
+  "website": {
+    "value": "http://www.stellenbosch-hills.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "29 Baden Powell Drive, Stellenbosch Central, Stellenbosch, 7599, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 881 3828",
+    "type": "string"
+  },
+  "name": {
+    "value": "Wine Estate - Stellenbosch Hills",
+    "type": "string"
+  },
   "openingHours": {
     "value": [
       {
@@ -44,21 +60,5 @@
       }
     },
     "type": "object"
-  },
-  "website": {
-    "value": "http://www.stellenbosch-hills.co.za/",
-    "type": "string"
-  },
-  "address": {
-    "value": "29 Baden Powell Drive, Stellenbosch Central, Stellenbosch, 7599, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 881 3828",
-    "type": "string"
-  },
-  "name": {
-    "value": "Wine Estate - Stellenbosch Hills",
-    "type": "string"
   }
 }

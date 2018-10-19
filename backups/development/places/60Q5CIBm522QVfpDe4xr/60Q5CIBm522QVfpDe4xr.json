@@ -1,4 +1,8 @@
 {
+  "name": {
+    "value": "Knorhoek",
+    "type": "string"
+  },
   "openingHours": {
     "value": [
       {
@@ -100,10 +104,6 @@
   },
   "phoneNumber": {
     "value": "021 865 2114",
-    "type": "string"
-  },
-  "name": {
-    "value": "Knorhoek",
     "type": "string"
   }
 }

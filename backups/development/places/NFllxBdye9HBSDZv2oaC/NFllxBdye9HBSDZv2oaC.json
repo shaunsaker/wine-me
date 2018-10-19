@@ -1,20 +1,4 @@
 {
-  "website": {
-    "value": "http://www.slaley.co.za/",
-    "type": "string"
-  },
-  "address": {
-    "value": "R44 & Kromme Rhee Rd, Koelenhof, Stellenbosch, 7605, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 865 2123",
-    "type": "string"
-  },
-  "name": {
-    "value": "Slaley",
-    "type": "string"
-  },
   "openingHours": {
     "value": [
       {
@@ -105,5 +89,21 @@
       }
     ],
     "type": "array"
+  },
+  "website": {
+    "value": "http://www.slaley.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "R44 & Kromme Rhee Rd, Koelenhof, Stellenbosch, 7605, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 865 2123",
+    "type": "string"
+  },
+  "name": {
+    "value": "Slaley",
+    "type": "string"
   }
 }

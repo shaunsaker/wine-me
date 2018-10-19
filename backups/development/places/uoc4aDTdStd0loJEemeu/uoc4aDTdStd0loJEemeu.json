@@ -1,4 +1,16 @@
 {
+  "website": {
+    "value": "http://www.merwida.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Merwida, Rawsonville, 6845, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "023 349 1144",
+    "type": "string"
+  },
   "name": {
     "value": "Merwida Wine Cellar (Pty) Ltd",
     "type": "string"
@@ -38,12 +50,12 @@
   },
   "location": {
     "value": {
-      "lng": {
-        "value": 19.334183,
-        "type": "number"
-      },
       "lat": {
         "value": -33.69219299999999,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.334183,
         "type": "number"
       }
     },
@@ -93,17 +105,5 @@
       }
     ],
     "type": "array"
-  },
-  "website": {
-    "value": "http://www.merwida.com/",
-    "type": "string"
-  },
-  "address": {
-    "value": "Merwida, Rawsonville, 6845, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "023 349 1144",
-    "type": "string"
   }
 }

@@ -1,4 +1,16 @@
 {
+  "website": {
+    "value": "http://www.durbanvillehills.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Tygerberg Valley Rd, Cape Farms, Cape Town, 7550, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 558 1300",
+    "type": "string"
+  },
   "name": {
     "value": "Durbanville Hills Winery",
     "type": "string"
@@ -102,17 +114,5 @@
       }
     ],
     "type": "array"
-  },
-  "website": {
-    "value": "http://www.durbanvillehills.co.za/",
-    "type": "string"
-  },
-  "address": {
-    "value": "Tygerberg Valley Rd, Cape Farms, Cape Town, 7550, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 558 1300",
-    "type": "string"
   }
 }

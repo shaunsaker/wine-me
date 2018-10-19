@@ -1,4 +1,20 @@
 {
+  "website": {
+    "value": "http://www.lordswinery.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "023 625 1265",
+    "type": "string"
+  },
+  "name": {
+    "value": "Lord's Winery",
+    "type": "string"
+  },
   "openingHours": {
     "value": [
       {
@@ -89,21 +105,5 @@
       }
     ],
     "type": "array"
-  },
-  "website": {
-    "value": "http://www.lordswinery.com/",
-    "type": "string"
-  },
-  "address": {
-    "value": "South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "023 625 1265",
-    "type": "string"
-  },
-  "name": {
-    "value": "Lord's Winery",
-    "type": "string"
   }
 }

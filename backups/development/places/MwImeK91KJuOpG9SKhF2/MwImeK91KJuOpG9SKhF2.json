@@ -1,4 +1,20 @@
 {
+  "website": {
+    "value": "http://www.kleinroosboom.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Tygerberg Valley Rd, Durbanville, Cape Town, 7551, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "060 877 2678",
+    "type": "string"
+  },
+  "name": {
+    "value": "Klein Roosboom Boutique Winery",
+    "type": "string"
+  },
   "openingHours": {
     "value": [
       {
@@ -89,21 +105,5 @@
       }
     ],
     "type": "array"
-  },
-  "website": {
-    "value": "http://www.kleinroosboom.co.za/",
-    "type": "string"
-  },
-  "address": {
-    "value": "Tygerberg Valley Rd, Durbanville, Cape Town, 7551, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "060 877 2678",
-    "type": "string"
-  },
-  "name": {
-    "value": "Klein Roosboom Boutique Winery",
-    "type": "string"
   }
 }

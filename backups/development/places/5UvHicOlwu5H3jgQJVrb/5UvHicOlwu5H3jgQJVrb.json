@@ -1,12 +1,4 @@
 {
-  "name": {
-    "value": "Wine Estate - Crow's Nest",
-    "type": "string"
-  },
-  "address": {
-    "value": "R44, South Africa",
-    "type": "string"
-  },
   "location": {
     "value": {
       "lat": {
@@ -44,5 +36,13 @@
       }
     ],
     "type": "array"
+  },
+  "name": {
+    "value": "Wine Estate - Crow's Nest",
+    "type": "string"
+  },
+  "address": {
+    "value": "R44, South Africa",
+    "type": "string"
   }
 }

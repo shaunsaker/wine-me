@@ -1,4 +1,20 @@
 {
+  "website": {
+    "value": "http://www.fairview.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Suid-Agter-Paarl Rd, Suider-Paarl, 7646, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 863 2450",
+    "type": "string"
+  },
+  "name": {
+    "value": "Fairview Wine and Cheese",
+    "type": "string"
+  },
   "openingHours": {
     "value": [
       {
@@ -34,12 +50,12 @@
   },
   "location": {
     "value": {
-      "lat": {
-        "value": -33.77174530000001,
-        "type": "number"
-      },
       "lng": {
         "value": 18.92423459999999,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.77174530000001,
         "type": "number"
       }
     },
@@ -89,21 +105,5 @@
       }
     ],
     "type": "array"
-  },
-  "website": {
-    "value": "http://www.fairview.co.za/",
-    "type": "string"
-  },
-  "address": {
-    "value": "Suid-Agter-Paarl Rd, Suider-Paarl, 7646, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 863 2450",
-    "type": "string"
-  },
-  "name": {
-    "value": "Fairview Wine and Cheese",
-    "type": "string"
   }
 }

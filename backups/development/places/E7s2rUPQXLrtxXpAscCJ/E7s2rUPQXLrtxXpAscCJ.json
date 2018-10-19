@@ -1,16 +1,4 @@
 {
-  "website": {
-    "value": "http://www.labourgogne.co.za/",
-    "type": "string"
-  },
-  "address": {
-    "value": "Excelsior Rd, Franschhoek, 7690, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 876 3245",
-    "type": "string"
-  },
   "name": {
     "value": "La Bourgogne Winefarm",
     "type": "string"
@@ -50,12 +38,12 @@
   },
   "location": {
     "value": {
-      "lng": {
-        "value": 19.1199353,
-        "type": "number"
-      },
       "lat": {
         "value": -33.9257185,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.1199353,
         "type": "number"
       }
     },
@@ -105,5 +93,17 @@
       }
     ],
     "type": "array"
+  },
+  "website": {
+    "value": "http://www.labourgogne.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Excelsior Rd, Franschhoek, 7690, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 876 3245",
+    "type": "string"
   }
 }

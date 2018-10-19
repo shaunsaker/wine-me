@@ -1,8 +1,4 @@
 {
-  "name": {
-    "value": "Skilpadvlei Wine Estate",
-    "type": "string"
-  },
   "openingHours": {
     "value": [
       {
@@ -38,12 +34,12 @@
   },
   "location": {
     "value": {
-      "lat": {
-        "value": -33.95961080000001,
-        "type": "number"
-      },
       "lng": {
         "value": 18.7678426,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.95961080000001,
         "type": "number"
       }
     },
@@ -104,6 +100,10 @@
   },
   "phoneNumber": {
     "value": "021 881 3237",
+    "type": "string"
+  },
+  "name": {
+    "value": "Skilpadvlei Wine Estate",
     "type": "string"
   }
 }

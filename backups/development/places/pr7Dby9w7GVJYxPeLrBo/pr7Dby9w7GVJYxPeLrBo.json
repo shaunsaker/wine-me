@@ -1,4 +1,20 @@
 {
+  "website": {
+    "value": "http://www.grootepost.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Darlings, Hill St, Darling, 7345, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "022 492 2825",
+    "type": "string"
+  },
+  "name": {
+    "value": "Groote Post",
+    "type": "string"
+  },
   "openingHours": {
     "value": [
       {
@@ -89,21 +105,5 @@
       }
     ],
     "type": "array"
-  },
-  "website": {
-    "value": "http://www.grootepost.com/",
-    "type": "string"
-  },
-  "address": {
-    "value": "Darlings, Hill St, Darling, 7345, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "022 492 2825",
-    "type": "string"
-  },
-  "name": {
-    "value": "Groote Post",
-    "type": "string"
   }
 }

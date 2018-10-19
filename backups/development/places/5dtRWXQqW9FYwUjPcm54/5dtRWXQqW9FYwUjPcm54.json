@@ -1,4 +1,20 @@
 {
+  "website": {
+    "value": "http://www.imbuko.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Uitkyk Farm, Bo-Dal Road, Wellington, 7655, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 873 7350",
+    "type": "string"
+  },
+  "name": {
+    "value": "Imbuko Wines",
+    "type": "string"
+  },
   "openingHours": {
     "value": [
       {
@@ -89,21 +105,5 @@
       }
     ],
     "type": "array"
-  },
-  "website": {
-    "value": "http://www.imbuko.co.za/",
-    "type": "string"
-  },
-  "address": {
-    "value": "Uitkyk Farm, Bo-Dal Road, Wellington, 7655, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 873 7350",
-    "type": "string"
-  },
-  "name": {
-    "value": "Imbuko Wines",
-    "type": "string"
   }
 }

@@ -1,20 +1,4 @@
 {
-  "website": {
-    "value": "http://www.hartenbergestate.com/",
-    "type": "string"
-  },
-  "address": {
-    "value": "Bottelary Road, Cape Town, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 865 2541",
-    "type": "string"
-  },
-  "name": {
-    "value": "Hartenberg Wine Estate",
-    "type": "string"
-  },
   "openingHours": {
     "value": [
       {
@@ -105,5 +89,21 @@
       }
     ],
     "type": "array"
+  },
+  "website": {
+    "value": "http://www.hartenbergestate.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Bottelary Road, Cape Town, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 865 2541",
+    "type": "string"
+  },
+  "name": {
+    "value": "Hartenberg Wine Estate",
+    "type": "string"
   }
 }

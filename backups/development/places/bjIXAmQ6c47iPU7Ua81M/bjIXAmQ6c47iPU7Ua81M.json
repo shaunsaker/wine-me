@@ -1,20 +1,4 @@
 {
-  "website": {
-    "value": "http://www.napierwinery.co.za/",
-    "type": "string"
-  },
-  "address": {
-    "value": "Bainskloof Rd, Wellington, 7655, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 873 7829",
-    "type": "string"
-  },
-  "name": {
-    "value": "Napier Winery",
-    "type": "string"
-  },
   "openingHours": {
     "value": [
       {
@@ -60,5 +44,21 @@
       }
     },
     "type": "object"
+  },
+  "website": {
+    "value": "http://www.napierwinery.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Bainskloof Rd, Wellington, 7655, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 873 7829",
+    "type": "string"
+  },
+  "name": {
+    "value": "Napier Winery",
+    "type": "string"
   }
 }

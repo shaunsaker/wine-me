@@ -1,4 +1,8 @@
 {
+  "name": {
+    "value": "Goede Hoop Wine Estate",
+    "type": "string"
+  },
   "openingHours": {
     "value": [
       {
@@ -100,10 +104,6 @@
   },
   "phoneNumber": {
     "value": "081 283 1618",
-    "type": "string"
-  },
-  "name": {
-    "value": "Goede Hoop Wine Estate",
     "type": "string"
   }
 }

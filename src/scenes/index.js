@@ -9,6 +9,7 @@ import Place from './pages/Place';
 
 // Modals
 import InfoModal from './modals/InfoModal';
+import PlaceQuestionsModal from './modals/PlaceQuestionsModal';
 
 const scenes = Actions.create(
   <Lightbox>
@@ -23,6 +24,7 @@ const scenes = Actions.create(
     </Scene>
 
     <Scene key="infoModal" component={InfoModal} />
+    <Scene key="placeQuestionsModal" component={PlaceQuestionsModal} />
   </Lightbox>,
 );
 

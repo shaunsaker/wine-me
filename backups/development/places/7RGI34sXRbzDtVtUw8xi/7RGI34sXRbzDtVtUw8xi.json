@@ -1,28 +1,16 @@
 {
-  "website": {
-    "value": "http://www.kaapsefamiliewingerde.com/",
-    "type": "string"
-  },
-  "address": {
-    "value": "Arboretum Inrit, Paarl, 7620, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 863 3905",
-    "type": "string"
-  },
   "name": {
     "value": "Vendôme Wine Estate",
     "type": "string"
   },
   "location": {
     "value": {
-      "lng": {
-        "value": 18.9799415,
-        "type": "number"
-      },
       "lat": {
         "value": -33.7574165,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.9799415,
         "type": "number"
       }
     },
@@ -72,5 +60,17 @@
       }
     ],
     "type": "array"
+  },
+  "website": {
+    "value": "http://www.kaapsefamiliewingerde.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Arboretum Inrit, Paarl, 7620, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 863 3905",
+    "type": "string"
   }
 }

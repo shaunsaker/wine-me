@@ -1,4 +1,16 @@
 {
+  "website": {
+    "value": "http://www.muratie.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Knorhoek Road/R44, Koelenhof, Stellenbosch, 7605, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 865 2330",
+    "type": "string"
+  },
   "name": {
     "value": "Muratie Wine Farm (Pty) Ltd",
     "type": "string"
@@ -69,17 +81,5 @@
       }
     ],
     "type": "array"
-  },
-  "website": {
-    "value": "http://www.muratie.co.za/",
-    "type": "string"
-  },
-  "address": {
-    "value": "Knorhoek Road/R44, Koelenhof, Stellenbosch, 7605, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 865 2330",
-    "type": "string"
   }
 }

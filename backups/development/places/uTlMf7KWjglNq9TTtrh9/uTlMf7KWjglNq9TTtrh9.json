@@ -1,20 +1,4 @@
 {
-  "website": {
-    "value": "http://www.montdestin.co.za/",
-    "type": "string"
-  },
-  "address": {
-    "value": "Valley Road R44,, Klapmuts, Stellenbosch, 7599, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 875 5870",
-    "type": "string"
-  },
-  "name": {
-    "value": "Mont Destin",
-    "type": "string"
-  },
   "location": {
     "value": {
       "lat": {
@@ -72,5 +56,21 @@
       }
     ],
     "type": "array"
+  },
+  "website": {
+    "value": "http://www.montdestin.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Valley Road R44,, Klapmuts, Stellenbosch, 7599, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 875 5870",
+    "type": "string"
+  },
+  "name": {
+    "value": "Mont Destin",
+    "type": "string"
   }
 }

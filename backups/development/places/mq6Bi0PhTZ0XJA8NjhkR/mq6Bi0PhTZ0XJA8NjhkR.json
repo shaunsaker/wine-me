@@ -1,20 +1,4 @@
 {
-  "website": {
-    "value": "https://mlfwines.com/contact-us/",
-    "type": "string"
-  },
-  "address": {
-    "value": "Leeu Estates, Dassenberg Road, Franschhoek, Cape Town, 7690, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 492 2224",
-    "type": "string"
-  },
-  "name": {
-    "value": "Mullineux & Leeu Family Wines",
-    "type": "string"
-  },
   "openingHours": {
     "value": [
       {
@@ -105,5 +89,21 @@
       }
     ],
     "type": "array"
+  },
+  "website": {
+    "value": "https://mlfwines.com/contact-us/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Leeu Estates, Dassenberg Road, Franschhoek, Cape Town, 7690, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 492 2224",
+    "type": "string"
+  },
+  "name": {
+    "value": "Mullineux & Leeu Family Wines",
+    "type": "string"
   }
 }

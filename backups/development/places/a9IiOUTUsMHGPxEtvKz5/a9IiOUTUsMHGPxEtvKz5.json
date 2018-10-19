@@ -1,4 +1,8 @@
 {
+  "name": {
+    "value": "Guardian Peak Winery & Grill",
+    "type": "string"
+  },
   "openingHours": {
     "value": [
       {
@@ -34,12 +38,12 @@
   },
   "location": {
     "value": {
-      "lat": {
-        "value": -34.01076450000001,
-        "type": "number"
-      },
       "lng": {
         "value": 18.8422776,
+        "type": "number"
+      },
+      "lat": {
+        "value": -34.01076450000001,
         "type": "number"
       }
     },
@@ -100,10 +104,6 @@
   },
   "phoneNumber": {
     "value": "021 881 3899",
-    "type": "string"
-  },
-  "name": {
-    "value": "Guardian Peak Winery & Grill",
     "type": "string"
   }
 }

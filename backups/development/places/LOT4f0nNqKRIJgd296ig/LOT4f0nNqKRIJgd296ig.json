@@ -1,8 +1,4 @@
 {
-  "name": {
-    "value": "Graham Beck Estate",
-    "type": "string"
-  },
   "openingHours": {
     "value": [
       {
@@ -38,12 +34,12 @@
   },
   "location": {
     "value": {
-      "lat": {
-        "value": -33.80407,
-        "type": "number"
-      },
       "lng": {
         "value": 19.8001,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.80407,
         "type": "number"
       }
     },
@@ -104,6 +100,10 @@
   },
   "phoneNumber": {
     "value": "023 626 1214",
+    "type": "string"
+  },
+  "name": {
+    "value": "Graham Beck Estate",
     "type": "string"
   }
 }

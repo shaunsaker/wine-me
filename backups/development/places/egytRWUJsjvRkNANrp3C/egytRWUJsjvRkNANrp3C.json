@@ -1,4 +1,8 @@
 {
+  "name": {
+    "value": "Under Oaks",
+    "type": "string"
+  },
   "openingHours": {
     "value": [
       {
@@ -100,10 +104,6 @@
   },
   "phoneNumber": {
     "value": "021 869 8045",
-    "type": "string"
-  },
-  "name": {
-    "value": "Under Oaks",
     "type": "string"
   }
 }

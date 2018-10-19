@@ -10,10 +10,10 @@ export default function appDataReducer(state = initialState, action = {}) {
 
       // Iterate over the collection, setting each document
       // as an object on newState indexed by documentID
-      action.payload.data.forEach((place) => {
-        const key = place.id;
+      action.payload.data.forEach((document) => {
+        const key = document.id;
 
-        newState.places[key] = place;
+        newState.places[key] = document;
       });
 
       return newState;
@@ -36,10 +36,10 @@ export default function appDataReducer(state = initialState, action = {}) {
 
       // Iterate over the collection, setting each document
       // as an object on newState indexed by documentID
-      action.payload.data.forEach((searchArea) => {
-        const key = searchArea.id;
+      action.payload.data.forEach((document) => {
+        const key = document.id;
 
-        newState.searchAreas[key] = searchArea;
+        newState.searchAreas[key] = document;
       });
 
       return newState;
@@ -49,10 +49,23 @@ export default function appDataReducer(state = initialState, action = {}) {
 
       // Iterate over the collection, setting each document
       // as an object on newState indexed by documentID
-      action.payload.data.forEach((checkIn) => {
-        const key = checkIn.id;
+      action.payload.data.forEach((document) => {
+        const key = document.id;
 
-        newState.userCheckIns[key] = checkIn;
+        newState.userCheckIns[key] = document;
+      });
+
+      return newState;
+
+    case 'SET_CATEGORIES':
+      newState = utils.objects.cloneObject(state);
+
+      // Iterate over the collection, setting each document
+      // as an object on newState indexed by documentID
+      action.payload.data.forEach((document) => {
+        const key = document.id;
+
+        newState.categories[key] = document;
       });
 
       return newState;

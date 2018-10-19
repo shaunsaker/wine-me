@@ -1,20 +1,4 @@
 {
-  "website": {
-    "value": "https://grangehurst.co.za/",
-    "type": "string"
-  },
-  "address": {
-    "value": "Grangehurst, Eikendal Road, Stellenbosch, Western Cape, South Africa, Stellenbosch, 7599, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 855 3625",
-    "type": "string"
-  },
-  "name": {
-    "value": "Grangehurst Winery",
-    "type": "string"
-  },
   "openingHours": {
     "value": [
       {
@@ -73,5 +57,21 @@
       }
     ],
     "type": "array"
+  },
+  "website": {
+    "value": "https://grangehurst.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Grangehurst, Eikendal Road, Stellenbosch, Western Cape, South Africa, Stellenbosch, 7599, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 855 3625",
+    "type": "string"
+  },
+  "name": {
+    "value": "Grangehurst Winery",
+    "type": "string"
   }
 }

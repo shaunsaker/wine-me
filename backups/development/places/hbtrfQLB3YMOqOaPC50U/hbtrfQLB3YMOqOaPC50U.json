@@ -1,16 +1,4 @@
 {
-  "website": {
-    "value": "http://www.louiesenhof.co.za/",
-    "type": "string"
-  },
-  "address": {
-    "value": "Louiesenhof Wines, R304, Koelenhof, Stellenbosch, 7600, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 865 2632",
-    "type": "string"
-  },
   "name": {
     "value": "Louiesenhof Wines",
     "type": "string"
@@ -72,5 +60,17 @@
       }
     ],
     "type": "array"
+  },
+  "website": {
+    "value": "http://www.louiesenhof.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Louiesenhof Wines, R304, Koelenhof, Stellenbosch, 7600, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 865 2632",
+    "type": "string"
   }
 }

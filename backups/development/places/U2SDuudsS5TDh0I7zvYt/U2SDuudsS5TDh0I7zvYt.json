@@ -1,4 +1,8 @@
 {
+  "name": {
+    "value": "Mont Blois Wine Estate",
+    "type": "string"
+  },
   "openingHours": {
     "value": [
       {
@@ -84,10 +88,6 @@
   },
   "phoneNumber": {
     "value": "023 626 4052",
-    "type": "string"
-  },
-  "name": {
-    "value": "Mont Blois Wine Estate",
     "type": "string"
   }
 }

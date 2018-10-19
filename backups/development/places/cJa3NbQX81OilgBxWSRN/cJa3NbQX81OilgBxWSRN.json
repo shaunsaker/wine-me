@@ -1,4 +1,8 @@
 {
+  "name": {
+    "value": "Joostenberg Wines",
+    "type": "string"
+  },
   "location": {
     "value": {
       "lat": {
@@ -67,10 +71,6 @@
   },
   "phoneNumber": {
     "value": "021 884 4141",
-    "type": "string"
-  },
-  "name": {
-    "value": "Joostenberg Wines",
     "type": "string"
   }
 }

@@ -1,4 +1,8 @@
 {
+  "name": {
+    "value": "Villiera Wines",
+    "type": "string"
+  },
   "openingHours": {
     "value": [
       {
@@ -34,12 +38,12 @@
   },
   "location": {
     "value": {
-      "lng": {
-        "value": 18.7924817,
-        "type": "number"
-      },
       "lat": {
         "value": -33.8372713,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.7924817,
         "type": "number"
       }
     },
@@ -100,10 +104,6 @@
   },
   "phoneNumber": {
     "value": "021 865 2002",
-    "type": "string"
-  },
-  "name": {
-    "value": "Villiera Wines",
     "type": "string"
   }
 }

@@ -1,4 +1,12 @@
 {
+  "phoneNumber": {
+    "value": "083 269 6747",
+    "type": "string"
+  },
+  "address": {
+    "value": "Eikendal Rd, South Africa",
+    "type": "string"
+  },
   "location": {
     "value": {
       "lat": {
@@ -14,14 +22,6 @@
   },
   "name": {
     "value": "DOWNING WINE ESTATE",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "083 269 6747",
-    "type": "string"
-  },
-  "address": {
-    "value": "Eikendal Rd, South Africa",
     "type": "string"
   }
 }

@@ -1,8 +1,4 @@
 {
-  "name": {
-    "value": "Stellenbosch",
-    "type": "string"
-  },
   "radius": {
     "value": 20,
     "type": "number"
@@ -19,5 +15,9 @@
       }
     },
     "type": "object"
+  },
+  "name": {
+    "value": "Stellenbosch",
+    "type": "string"
   }
 }

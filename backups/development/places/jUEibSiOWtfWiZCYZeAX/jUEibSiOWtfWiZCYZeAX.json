@@ -1,20 +1,4 @@
 {
-  "website": {
-    "value": "http://www.kapwein.com/",
-    "type": "string"
-  },
-  "address": {
-    "value": "R303, Bainskloof Rd, Wellington, 7655, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 873 2262",
-    "type": "string"
-  },
-  "name": {
-    "value": "Oude Wellington Wine & Brandy Estate Lodge",
-    "type": "string"
-  },
   "openingHours": {
     "value": [
       {
@@ -50,12 +34,12 @@
   },
   "location": {
     "value": {
-      "lat": {
-        "value": -33.641899,
-        "type": "number"
-      },
       "lng": {
         "value": 19.0431691,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.641899,
         "type": "number"
       }
     },
@@ -105,5 +89,21 @@
       }
     ],
     "type": "array"
+  },
+  "website": {
+    "value": "http://www.kapwein.com/",
+    "type": "string"
+  },
+  "address": {
+    "value": "R303, Bainskloof Rd, Wellington, 7655, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 873 2262",
+    "type": "string"
+  },
+  "name": {
+    "value": "Oude Wellington Wine & Brandy Estate Lodge",
+    "type": "string"
   }
 }

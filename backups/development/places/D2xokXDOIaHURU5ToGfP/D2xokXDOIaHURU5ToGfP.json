@@ -1,4 +1,8 @@
 {
+  "name": {
+    "value": "LovanE Boutique Wine Estate and Guest House",
+    "type": "string"
+  },
   "openingHours": {
     "value": [
       {
@@ -34,12 +38,12 @@
   },
   "location": {
     "value": {
-      "lng": {
-        "value": 18.800611,
-        "type": "number"
-      },
       "lat": {
         "value": -33.952529,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.800611,
         "type": "number"
       }
     },
@@ -100,10 +104,6 @@
   },
   "phoneNumber": {
     "value": "021 881 3827",
-    "type": "string"
-  },
-  "name": {
-    "value": "LovanE Boutique Wine Estate and Guest House",
     "type": "string"
   }
 }

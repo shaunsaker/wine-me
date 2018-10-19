@@ -1,20 +1,4 @@
 {
-  "website": {
-    "value": "http://www.degrendel.co.za/",
-    "type": "string"
-  },
-  "address": {
-    "value": "De Grendel Wine Estate and Restaurant, Plattekloof Rd, Panorama, Cape Town, 7500, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 558 6280",
-    "type": "string"
-  },
-  "name": {
-    "value": "De Grendel Wine Estate and Restaurant",
-    "type": "string"
-  },
   "openingHours": {
     "value": [
       {
@@ -105,5 +89,21 @@
       }
     ],
     "type": "array"
+  },
+  "website": {
+    "value": "http://www.degrendel.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "De Grendel Wine Estate and Restaurant, Plattekloof Rd, Panorama, Cape Town, 7500, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 558 6280",
+    "type": "string"
+  },
+  "name": {
+    "value": "De Grendel Wine Estate and Restaurant",
+    "type": "string"
   }
 }

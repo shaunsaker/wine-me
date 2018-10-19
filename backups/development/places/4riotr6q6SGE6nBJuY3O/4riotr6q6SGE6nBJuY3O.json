@@ -1,4 +1,16 @@
 {
+  "website": {
+    "value": "http://www.canettevalleilavender.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "Stellenbosch, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 881 3026",
+    "type": "string"
+  },
   "name": {
     "value": "Canettevallei Lavender And Wine Farm",
     "type": "string"
@@ -56,17 +68,5 @@
       }
     ],
     "type": "array"
-  },
-  "website": {
-    "value": "http://www.canettevalleilavender.co.za/",
-    "type": "string"
-  },
-  "address": {
-    "value": "Stellenbosch, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 881 3026",
-    "type": "string"
   }
 }

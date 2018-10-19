@@ -1,20 +1,12 @@
 {
-  "address": {
-    "value": "40 Main Street, Paarl, 7646, South Africa",
-    "type": "string"
-  },
-  "website": {
-    "value": "http://www.dezoeteinval.co.za/",
-    "type": "string"
-  },
   "location": {
     "value": {
-      "lng": {
-        "value": 18.9740599,
-        "type": "number"
-      },
       "lat": {
         "value": -33.76327000000001,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.9740599,
         "type": "number"
       }
     },
@@ -67,6 +59,14 @@
   },
   "name": {
     "value": "Wine Estate - Mason's Hill",
+    "type": "string"
+  },
+  "address": {
+    "value": "40 Main Street, Paarl, 7646, South Africa",
+    "type": "string"
+  },
+  "website": {
+    "value": "http://www.dezoeteinval.co.za/",
     "type": "string"
   }
 }

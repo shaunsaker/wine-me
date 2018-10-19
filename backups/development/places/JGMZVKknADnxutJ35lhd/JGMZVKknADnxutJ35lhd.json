@@ -1,4 +1,20 @@
 {
+  "website": {
+    "value": "http://www.dutoitskloof.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "R101 Old N1 Rd, Old N1, Rawsonville, 6845, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "023 349 1601",
+    "type": "string"
+  },
+  "name": {
+    "value": "Du Toitskloof Wines",
+    "type": "string"
+  },
   "openingHours": {
     "value": [
       {
@@ -34,12 +50,12 @@
   },
   "location": {
     "value": {
-      "lng": {
-        "value": 19.2689816,
-        "type": "number"
-      },
       "lat": {
         "value": -33.7025716,
+        "type": "number"
+      },
+      "lng": {
+        "value": 19.2689816,
         "type": "number"
       }
     },
@@ -89,21 +105,5 @@
       }
     ],
     "type": "array"
-  },
-  "website": {
-    "value": "http://www.dutoitskloof.co.za/",
-    "type": "string"
-  },
-  "address": {
-    "value": "R101 Old N1 Rd, Old N1, Rawsonville, 6845, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "023 349 1601",
-    "type": "string"
-  },
-  "name": {
-    "value": "Du Toitskloof Wines",
-    "type": "string"
   }
 }

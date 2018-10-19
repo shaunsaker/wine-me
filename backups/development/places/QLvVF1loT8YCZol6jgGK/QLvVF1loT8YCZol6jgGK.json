@@ -1,8 +1,4 @@
 {
-  "name": {
-    "value": "DeMorgenzon Stellenbosch",
-    "type": "string"
-  },
   "openingHours": {
     "value": [
       {
@@ -38,12 +34,12 @@
   },
   "location": {
     "value": {
-      "lng": {
-        "value": 18.7511314,
-        "type": "number"
-      },
       "lat": {
         "value": -33.9396119,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.7511314,
         "type": "number"
       }
     },
@@ -104,6 +100,10 @@
   },
   "phoneNumber": {
     "value": "021 881 3030",
+    "type": "string"
+  },
+  "name": {
+    "value": "DeMorgenzon Stellenbosch",
     "type": "string"
   }
 }

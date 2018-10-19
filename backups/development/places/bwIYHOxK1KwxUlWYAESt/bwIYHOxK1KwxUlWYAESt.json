@@ -1,4 +1,20 @@
 {
+  "website": {
+    "value": "http://www.dupreezestate.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "N1, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "023 349 1995",
+    "type": "string"
+  },
+  "name": {
+    "value": "Wine Estate - Du Preez Estate",
+    "type": "string"
+  },
   "openingHours": {
     "value": [
       {
@@ -53,21 +69,5 @@
       }
     ],
     "type": "array"
-  },
-  "website": {
-    "value": "http://www.dupreezestate.co.za/",
-    "type": "string"
-  },
-  "address": {
-    "value": "N1, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "023 349 1995",
-    "type": "string"
-  },
-  "name": {
-    "value": "Wine Estate - Du Preez Estate",
-    "type": "string"
   }
 }

@@ -1,4 +1,8 @@
 {
+  "name": {
+    "value": "Druk My Niet",
+    "type": "string"
+  },
   "phoneNumber": {
     "value": "082 758 4106",
     "type": "string"
@@ -13,19 +17,15 @@
   },
   "location": {
     "value": {
-      "lat": {
-        "value": -33.69008,
-        "type": "number"
-      },
       "lng": {
         "value": 19.02806,
+        "type": "number"
+      },
+      "lat": {
+        "value": -33.69008,
         "type": "number"
       }
     },
     "type": "object"
-  },
-  "name": {
-    "value": "Druk My Niet",
-    "type": "string"
   }
 }

@@ -1,4 +1,20 @@
 {
+  "website": {
+    "value": "http://www.stellenbosch-hills.co.za/",
+    "type": "string"
+  },
+  "address": {
+    "value": "c/o R310 & Vlottenburg Road, Vlottenburg, Stellenbosch, 7604, South Africa",
+    "type": "string"
+  },
+  "phoneNumber": {
+    "value": "021 881 3828",
+    "type": "string"
+  },
+  "name": {
+    "value": "Stellenbosch Hills",
+    "type": "string"
+  },
   "openingHours": {
     "value": [
       {
@@ -34,12 +50,12 @@
   },
   "location": {
     "value": {
-      "lng": {
-        "value": 18.800415,
-        "type": "number"
-      },
       "lat": {
         "value": -33.96084460000001,
+        "type": "number"
+      },
+      "lng": {
+        "value": 18.800415,
         "type": "number"
       }
     },
@@ -89,21 +105,5 @@
       }
     ],
     "type": "array"
-  },
-  "website": {
-    "value": "http://www.stellenbosch-hills.co.za/",
-    "type": "string"
-  },
-  "address": {
-    "value": "c/o R310 & Vlottenburg Road, Vlottenburg, Stellenbosch, 7604, South Africa",
-    "type": "string"
-  },
-  "phoneNumber": {
-    "value": "021 881 3828",
-    "type": "string"
-  },
-  "name": {
-    "value": "Stellenbosch Hills",
-    "type": "string"
   }
 }

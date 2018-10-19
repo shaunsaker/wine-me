@@ -1,0 +1,36 @@
+{
+  "order": {
+    "value": 7,
+    "type": "number"
+  },
+  "validation": {
+    "value": {
+      "type": {
+        "value": "string",
+        "type": "string"
+      }
+    },
+    "type": "object"
+  },
+  "name": {
+    "value": "Accessible",
+    "type": "string"
+  },
+  "question_text": {
+    "value": "Was it wheelchair accessible?",
+    "type": "string"
+  },
+  "options": {
+    "value": [
+      {
+        "value": "Yes",
+        "type": "string"
+      },
+      {
+        "value": "No",
+        "type": "string"
+      }
+    ],
+    "type": "array"
+  }
+}
