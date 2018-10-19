@@ -5,26 +5,23 @@
   - Unit tests
 
 - Show the datestamp of when you last visited a place
-- Use firebase functions to append these categories, price info, rating info to places
-
-## NEXT
-
-- Show ratings on PlaceCards (if any)
-- Display average price on Place page
-- Search by categories (Child Friendly, Serves Food)
 
 ## BUGS
 
 - AppData reducers don't allow for deleting object properties
 
-### DIFFUCULT TO REPRODUCE/SOLVE
+## NEXT RELEASE
+
+- Use firebase functions to add user_feedback to places
+- Show ratings on PlaceCards (if any)
+- Display average price on Place page
+- Search by categories (Child Friendly, Serves Food)
+
+## DIFFUCULT TO REPRODUCE/SOLVE
 
 - After receiving update on iOS, redux-persist loader just loaded indefinitely
-- If I delete a place or search area in the db, it does not reflect in the persisted store
 
-## ENHANCEMENTS
-
-### CODE OPTIMISATIONS
+## CODE OPTIMISATIONS
 
 - SearchAreaLabelList should have SearchAreaLabel in folder
 - CI
@@ -49,6 +46,7 @@ These should be applicable to PLACES in general. Ie. Buy wines is not a good gen
   - Upington
 - Tappable photos - WADE
 - Being able to uncheck in to a place - WADE
+- Place rating questions as list
 
 ## FOR IOS SCREENSHOTS
 
