@@ -33,9 +33,9 @@ export class PlaceQuestionsModal extends React.Component {
 
   static propTypes = {
     place: PropTypes.shape({ name: PropTypes.string }).isRequired, // passed by Place page
-    categories: PropTypes.shape({}),
+    categories: PropTypes.shape({}).isRequired,
     uid: PropTypes.string,
-    dispatch: PropTypes.func,
+    dispatch: PropTypes.func.isRequired,
   };
 
   static defaultProps = {};
@@ -195,7 +195,9 @@ export class PlaceQuestionsModal extends React.Component {
     // Is there a value in state for the current slide's category name
     const isSubmitButtonDisabled = !state[categoriesArray[slideIndex].name];
 
-    const skipButtonComponent = !isLastSlide && <Link handlePress={this.onSkip} text="Skip" />;
+    const skipButtonComponent = !isLastSlide && (
+      <Link handlePress={this.onSkip} text="Skip" testID="placeQuestionsModal.button.skip" />
+    );
 
     return (
       <Lightbox title={place.name}>
@@ -212,6 +214,7 @@ export class PlaceQuestionsModal extends React.Component {
               text={submitButtonText}
               handlePress={this.onSubmit}
               disabled={isSubmitButtonDisabled}
+              testID="placeQuestionsModal.button.submit"
             />
           </View>
 

@@ -20,6 +20,7 @@
 ## DIFFUCULT TO REPRODUCE/SOLVE
 
 - After receiving update on iOS, redux-persist loader just loaded indefinitely
+- Received object object error in snackbar on app load (could be locatino related)
 
 ## CODE OPTIMISATIONS
 

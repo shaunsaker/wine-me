@@ -1,0 +1,338 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PlaceQuestionsModal methods should handle saveUserFeedback 1`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      Object {
+        "meta": Object {
+          "pathParts": Array [
+            "user_feedback",
+          ],
+        },
+        "payload": Object {
+          "document": Object {
+            "category_name": "Wine",
+            "date": 1533309837130,
+            "place_id": "1",
+            "uid": undefined,
+            "value": 4,
+          },
+        },
+        "type": "addDocument",
+      },
+    ],
+  ],
+  "results": Array [
+    Object {
+      "isThrow": false,
+      "value": undefined,
+    },
+  ],
+}
+`;
+
+exports[`PlaceQuestionsModal methods should handle setSystemMessage 1`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      Object {
+        "payload": Object {
+          "message": "Thanks for the feedback.",
+        },
+        "type": "SET_SYSTEM_MESSAGE",
+      },
+    ],
+  ],
+  "results": Array [
+    Object {
+      "isThrow": false,
+      "value": undefined,
+    },
+  ],
+}
+`;
+
+exports[`PlaceQuestionsModal renders renders with minimum required props 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "rgba(0, 0, 0, 0.70)",
+      "bottom": 0,
+      "left": 0,
+      "position": "absolute",
+      "right": 0,
+      "top": 0,
+      "transform": Array [
+        Object {
+          "translateY": 1334,
+        },
+      ],
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+        "margin": 30,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignSelf": "stretch",
+          "backgroundColor": "#FFFFFF",
+          "borderRadius": 5,
+          "maxWidth": 680,
+          "overflow": "hidden",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#48466D",
+            "borderColor": null,
+            "borderWidth": 0,
+            "elevation": 2,
+            "justifyContent": "center",
+            "paddingVertical": 10,
+            "shadowColor": "#212121",
+            "shadowOffset": Object {
+              "height": 1,
+              "width": 0,
+            },
+            "shadowOpacity": 0.17,
+            "shadowRadius": 2,
+          }
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          numberOfLines={1}
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "fontFamily": "Nunito-SemiBold",
+              "fontSize": 17,
+              "marginLeft": 15,
+              "marginRight": 39.5,
+            }
+          }
+        >
+          Bartinney Tasting Shed
+        </Text>
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+              "padding": 7.5,
+              "position": "absolute",
+              "right": 0,
+            }
+          }
+          testID="lightbox.button.close"
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={false}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {
+                  "color": undefined,
+                  "fontSize": 12,
+                },
+                Object {
+                  "color": "#FFFFFF",
+                  "fontSize": 24,
+                },
+                Object {
+                  "fontFamily": "Material Icons",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+        </View>
+      </View>
+      <View
+        style={Object {}}
+      >
+        <PlaceQuestionsList
+          data={
+            Array [
+              Object {
+                "id": "wine",
+                "is_rating": true,
+                "name": "Wine",
+                "order": 1,
+                "question_text": "How would you rate the wine?",
+                "validation": Object {
+                  "max": 5,
+                  "min": 1,
+                  "type": "number",
+                },
+                "value": undefined,
+              },
+              Object {
+                "id": "child_friendly",
+                "name": "Child friendly",
+                "options": Array [
+                  "Yes",
+                  "No",
+                ],
+                "order": 2,
+                "question_text": "Was it child friendly?",
+                "validation": Object {
+                  "type": "string",
+                },
+                "value": undefined,
+              },
+            ]
+          }
+          handleSetValue={[Function]}
+          slideIndex={0}
+        />
+        <View
+          style={
+            Object {
+              "marginHorizontal": 15,
+              "marginVertical": 10,
+            }
+          }
+        >
+          <View
+            accessible={true}
+            isTVSelectable={true}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#E23E57",
+                "borderColor": null,
+                "borderRadius": 5,
+                "borderWidth": 0,
+                "elevation": 2,
+                "opacity": 0.33,
+                "paddingHorizontal": 15,
+                "paddingVertical": 10,
+                "shadowColor": "#212121",
+                "shadowOffset": Object {
+                  "height": 1,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.17,
+                "shadowRadius": 2,
+              }
+            }
+            testID="placeQuestionsModal.button.submit"
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Array [
+                  Object {
+                    "color": "#212121",
+                    "fontFamily": "Nunito-SemiBold",
+                    "fontSize": 17,
+                  },
+                  Object {
+                    "color": "#FFFFFF",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              Next
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "marginHorizontal": 15,
+              "marginVertical": 10,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#212121",
+                "fontFamily": "Nunito-Regular",
+                "fontSize": 17,
+              }
+            }
+          >
+            1 / 2
+          </Text>
+          <View
+            accessible={true}
+            isTVSelectable={true}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+            testID="placeQuestionsModal.button.skip"
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "#3D84A8",
+                  "fontFamily": "Nunito-SemiBold",
+                  "fontSize": 17,
+                }
+              }
+            >
+              Skip
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
