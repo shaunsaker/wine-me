@@ -2,6 +2,7 @@
 
 ## NEXT RELEASE
 
+- Android keyboard adjust pan
 - AppData reducers don't allow for deleting object properties
 - Show the datestamp of when you last visited a place
 - Use firebase functions to add user_feedback to places
